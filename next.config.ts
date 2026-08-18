@@ -1,8 +1,10 @@
 import type { NextConfig } from "next";
 
+// GitHub Pages 정적 호스팅 구성 — 커스텀 도메인 www.stgolftours.com
 const nextConfig: NextConfig = {
-  // OG·사이트맵 절대경로는 src/data/site.ts의 domain(www.stgolftours.com)을 기본 사용.
-  // 필요 시 NEXT_PUBLIC_SITE_URL 환경변수로 재정의 가능.
+  output: "export",
+  trailingSlash: true,
+  images: { unoptimized: true },
 };
 
 export default nextConfig;

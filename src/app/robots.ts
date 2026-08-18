@@ -1,4 +1,6 @@
 import type { MetadataRoute } from "next";
+
+export const dynamic = "force-static";
 import { site } from "@/data/site";
 
 // GEO 전략: 주요 AI 크롤러를 명시적으로 허용 (네이버 블로그와 달리

@@ -1,4 +1,6 @@
 import type { MetadataRoute } from "next";
+
+export const dynamic = "force-static";
 import { site } from "@/data/site";
 import { tier1 } from "@/data/destinations";
 
