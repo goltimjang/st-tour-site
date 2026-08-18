@@ -40,6 +40,10 @@ export default function Footer() {
           <Link href="/privacy" className="font-bold hover:text-navy">개인정보처리방침</Link>
           <span className="ml-auto">© {new Date().getFullYear()} ST TOUR. All rights reserved.</span>
         </div>
+        <div className="mt-7 flex items-center gap-3">
+          <Image src="/images/sgi.png" alt="SGI 서울보증" width={101} height={28} className="h-7 w-auto" />
+          <span className="text-[12.5px]">여행업 영업보증보험 5,000만원 가입 · SGI서울보증</span>
+        </div>
       </div>
     </footer>
   );

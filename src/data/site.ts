@@ -10,7 +10,7 @@ export const site = {
   domain: "https://www.stgolftours.com", // 가비아 구매 도메인 (2026-08-18)
   phone: "010-4461-7400",
   phoneHref: "tel:010-4461-7400",
-  kakaoUrl: "", // [확인 필요] 카카오톡 채널 링크 — 값이 오면 채움 (빈 값이면 버튼에 전화 폴백)
+  kakaoUrl: "https://pf.kakao.com/_xachSX/chat", // 카카오톡 채널 (2026-08-18 확정)
   bandUrl: "https://www.band.us/band/95448181",
   email: "caddiewow@gmail.com", // [확인 필요] 대표 이메일 확정
 
@@ -38,8 +38,13 @@ export const site = {
   stats: {
     courses: "504", // 문체부 등록 골프장 기준 수집 데이터
     countries: "14",
-    years: "2018", // 개업연도 (대표 경력 10년 표기는 사용자 확인 후)
+    years: "2018", // 개업연도
+    teams: 25000, // 누적 송출 팀 (자체 집계, 사용자 제공)
+    people: "10만", // 인원 환산 (팀당 4인 기준, 사용자 제공)
+    tournaments: "10+", // 주최·주관 대회 수 (사용자 제공)
   },
+
+  contentUpdated: "2026년 8월 18일", // 콘텐츠 최종 수정일 — 내용 갱신 시 함께 갱신
 
   positioning:
     "에스티투어(ST TOUR)는 세종시의 종합여행업 등록 골프투어 전문 여행사입니다. 고객이 원하는 지역과 날짜를 보내면 전국 500여 개 골프장과 해외 14개국의 골프장·숙박·항공을 조합해 24시간 안에 대행비까지 공개된 맞춤 견적서를 보내드립니다.",

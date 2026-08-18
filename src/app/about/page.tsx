@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "회사소개 — 세종 골프투어 전문 여행사",
   description:
     "에스티투어(ST TOUR)는 세종시의 종합여행업 등록 골프투어 전문 여행사입니다. 국내·해외 맞춤 골프투어, 골프부킹, 골프대회 행사를 전문으로 하며 영업보증보험을 갖추고 있습니다.",
+  alternates: { canonical: "/about/" },
 };
 
 export default function AboutPage() {

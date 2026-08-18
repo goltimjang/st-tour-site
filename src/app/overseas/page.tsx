@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "해외 골프투어 견적 — 일본·태국·베트남 등 14개국",
   description:
     "일본, 태국, 베트남, 필리핀, 중국 등 14개국 해외 골프투어를 항공·숙박·라운드·차량까지 묶어 24시간 안에 맞춤 견적으로 보내드립니다. 대행비까지 공개된 정직한 견적.",
+  alternates: { canonical: "/overseas/" },
 };
 
 export default function OverseasPage() {

@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { site, promo } from "@/data/site";
@@ -7,6 +8,12 @@ import Reveal from "@/components/Reveal";
 import HeroVideo from "@/components/HeroVideo";
 import Counter from "@/components/Counter";
 import PosterShelf from "@/components/PosterShelf";
+import QuoteSample from "@/components/QuoteSample";
+import ChatDemo from "@/components/ChatDemo";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 export default function Home() {
   return (
@@ -32,9 +39,8 @@ export default function Home() {
               견적서가 도착합니다.
             </h1>
             <p className="text-[17px] sm:text-[19px] text-white/85 max-w-xl mb-9 drop-shadow">
-              원하는 날짜만 알려주세요. 골프장은 저희가 찾겠습니다.
-              <br className="hidden sm:block" />
-              국내 전국 {site.stats.courses}개 골프장 · 해외 {site.stats.countries}개국, 대행비까지 공개된 정직한 견적.
+              <span className="block">원하는 날짜만 알려주세요. 골프장은 저희가 찾아드립니다.</span>
+              <span className="block mt-1">전국 {site.stats.courses}개 골프장과 해외 {site.stats.countries}개국, 어디든 대행비까지 적힌 견적서로 보내드립니다.</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-3 max-w-xl">
               <Link href="/domestic#quote" className="btn btn-royal flex-1 shadow-lg shadow-royal/30">국내 견적 요청</Link>
@@ -167,6 +173,22 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ---------- 원가 공개 — 견적서 샘플 + 상담 예시 ---------- */}
+      <section className="mx-auto max-w-6xl px-5 py-16 sm:py-20 overflow-hidden">
+        <Reveal>
+          <p className="eyebrow text-royal mb-2">Transparent Quote</p>
+          <h2 className="headline text-2xl sm:text-3xl mb-3">견적서, 이렇게 보내드립니다</h2>
+          <p className="text-mute mb-10 max-w-2xl">
+            총액만 적힌 견적서는 비교할 방법이 없습니다. 에스티투어는 항공·숙박·라운드 원가와 대행비를
+            나눠서 적습니다 — 어디에 얼마가 쓰이는지 직접 확인하세요.
+          </p>
+        </Reveal>
+        <div className="grid lg:grid-cols-2 gap-10 items-start">
+          <Reveal><QuoteSample /></Reveal>
+          <Reveal delay={120}><ChatDemo /></Reveal>
+        </div>
+      </section>
+
       {/* ---------- 가격 범위 ---------- */}
       <section className="mx-auto max-w-6xl px-5 py-16 sm:py-20">
         <Reveal>
@@ -200,8 +222,8 @@ export default function Home() {
           <div className="grid grid-cols-3 gap-4 sm:gap-6 mb-12 max-w-3xl">
             {[
               [<Counter key="c" to={25000} suffix="팀" />, "누적 국내·해외 송출"],
-              ["600팀", "단일 페스티벌 최대 규모"],
-              ["매년", "대회·행사 지속 개최"],
+              [`${site.stats.people} 명`, "함께한 골퍼 (인원 환산)"],
+              [`${site.stats.tournaments}회`, "대회·페스티벌 주최·주관"],
             ].map(([n, t], i) => (
               <Reveal key={i} delay={i * 100}>
                 <div className="border-l-2 border-gold pl-4 sm:pl-5">

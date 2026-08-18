@@ -4,6 +4,7 @@ import { site } from "@/data/site";
 export const metadata: Metadata = {
   title: "개인정보처리방침",
   description: "에스티투어 개인정보처리방침 — 견적 상담을 위한 개인정보의 수집 항목, 이용 목적, 보유 기간과 파기 절차를 안내합니다.",
+  alternates: { canonical: "/privacy/" },
 };
 
 export default function PrivacyPage() {
@@ -11,7 +12,7 @@ export default function PrivacyPage() {
     <section className="mx-auto max-w-3xl px-5 py-14">
       <p className="eyebrow text-royal mb-3">Privacy Policy</p>
       <h1 className="headline text-[28px] sm:text-[36px] mb-6">개인정보처리방침</h1>
-      <p className="text-[15px] text-mute mb-8">시행일: 2026년 9월 1일 [확인 필요 — 오픈일에 맞춰 확정]</p>
+      <p className="text-[15px] text-mute mb-8">시행일: 2026년 8월 18일 · 최종 수정일: {site.contentUpdated}</p>
 
       <div className="space-y-8 text-[15.5px] leading-relaxed">
         <div>
