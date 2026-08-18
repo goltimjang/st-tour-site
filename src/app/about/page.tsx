@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { site } from "@/data/site";
+import PosterShelf from "@/components/PosterShelf";
 
 export const metadata: Metadata = {
   title: "회사소개 — 세종 골프투어 전문 여행사",
@@ -48,6 +49,14 @@ export default function AboutPage() {
             </li>
           ))}
         </ol>
+
+        <h2 className="headline text-xl sm:text-2xl mb-2">행사 실적</h2>
+        <p className="text-mute text-[15px] mb-3 max-w-2xl">
+          누적 25,000팀을 국내·해외로 보내드렸고, 골프 대회와 페스티벌을 직접 주최·주관하고 있습니다. (자체 집계 기준)
+        </p>
+        <div className="mb-12 overflow-hidden">
+          <PosterShelf />
+        </div>
 
         <h2 className="headline text-xl sm:text-2xl mb-5">회사 정보</h2>
         <div className="rounded-2xl border border-line bg-white overflow-x-auto mb-8">

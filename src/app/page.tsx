@@ -5,6 +5,8 @@ import { overseasPrices, domesticPrices, priceDisclaimer } from "@/data/prices";
 import { faqs } from "@/data/faq";
 import Reveal from "@/components/Reveal";
 import HeroVideo from "@/components/HeroVideo";
+import Counter from "@/components/Counter";
+import PosterShelf from "@/components/PosterShelf";
 
 export default function Home() {
   return (
@@ -183,28 +185,43 @@ export default function Home() {
         <p className="text-[13.5px] text-mute mt-5 max-w-3xl">{priceDisclaimer}</p>
       </section>
 
-      {/* ---------- 신뢰 (밝은 톤) ---------- */}
-      <section className="bg-white border-y border-line">
+      {/* ---------- 실적 · 신뢰 (25,000팀 + 포스터 진열대) ---------- */}
+      <section className="bg-white border-y border-line overflow-hidden">
         <div className="mx-auto max-w-6xl px-5 py-16 sm:py-20">
           <Reveal>
-            <p className="eyebrow text-royal mb-2">Why ST TOUR</p>
-            <h2 className="headline text-2xl sm:text-3xl mb-9">에스티투어가 다른 이유</h2>
+            <p className="eyebrow text-royal mb-2">Track Record</p>
+            <h2 className="headline text-2xl sm:text-3xl mb-3">
+              누적 <span className="text-golddeep"><Counter to={25000} suffix="팀" /></span>이
+              에스티투어와 함께했습니다
+            </h2>
+            <p className="text-mute mb-10 max-w-2xl">
+              국내와 해외로 골프투어를 보내드리고, 대회와 페스티벌을 직접 주최·주관해 온 기록입니다.
+            </p>
           </Reveal>
-          <div className="grid sm:grid-cols-3 gap-6">
+
+          <div className="grid grid-cols-3 gap-4 sm:gap-6 mb-12 max-w-3xl">
             {[
-              ["종합여행업", "등록 여행사 · 보증보험 완비", "관광진흥법에 따른 종합여행업 등록과 영업보증보험 5,000만원(SGI서울보증)을 갖춘 정식 여행사입니다."],
-              ["600팀", "클럽 페스티벌 직접 주관", "더힐 클럽 페스티벌 등 대형 골프 행사를 직접 기획·운영하는 행사 전문 여행사입니다."],
-              ["24시간", "견적 회신 철칙", "밤을 새워서라도 24시간 안에, 대행비까지 공개된 견적서를 보내드립니다."],
-            ].map(([n, t, d], i) => (
-              <Reveal key={t as string} delay={i * 100}>
-                <div className="card-lift rounded-2xl bg-paper border border-line p-7 h-full">
-                  <p className="font-display text-[26px] text-golddeep mb-1">{n}</p>
-                  <p className="font-bold mb-1.5">{t}</p>
-                  <p className="text-[14.5px] text-mute">{d}</p>
+              [<Counter key="c" to={25000} suffix="팀" />, "누적 국내·해외 송출"],
+              ["600팀", "단일 페스티벌 최대 규모"],
+              ["매년", "대회·행사 지속 개최"],
+            ].map(([n, t], i) => (
+              <Reveal key={i} delay={i * 100}>
+                <div className="border-l-2 border-gold pl-4 sm:pl-5">
+                  <p className="font-display text-[20px] sm:text-[27px] text-golddeep mb-0.5">{n}</p>
+                  <p className="text-[13px] sm:text-[14.5px] text-mute font-semibold">{t}</p>
                 </div>
               </Reveal>
             ))}
           </div>
+
+          <Reveal>
+            <p className="font-bold text-[17px] mb-1">에스티투어가 만든 대회들</p>
+            <p className="text-[14px] text-mute mb-2">포스터를 누르면 크게 보실 수 있습니다</p>
+          </Reveal>
+          <Reveal delay={100}>
+            <PosterShelf />
+          </Reveal>
+
           <Reveal delay={150}>
             <div className="mt-10 flex flex-col sm:flex-row gap-3">
               <a href={site.bandUrl} target="_blank" rel="noopener noreferrer" className="btn btn-light">
@@ -213,6 +230,7 @@ export default function Home() {
               <Link href="/about" className="btn btn-light">회사소개 보기</Link>
             </div>
           </Reveal>
+          <p className="text-[12.5px] text-mute mt-6">누적 팀 수는 에스티투어 자체 집계 기준입니다.</p>
         </div>
       </section>
 

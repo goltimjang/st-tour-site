@@ -230,3 +230,60 @@ body {
     transition: none !important;
   }
 }
+
+/* ---------- 포스터 입체 진열대 ---------- */
+.poster-shelf {
+  display: flex;
+  gap: 22px;
+  perspective: 1400px;
+  overflow-x: auto;
+  padding: 18px 6px 10px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.poster-shelf::-webkit-scrollbar {
+  display: none;
+}
+.poster {
+  flex: 0 0 auto;
+  width: 210px;
+  scroll-snap-align: center;
+  transform: rotateY(var(--tilt, -7deg));
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform;
+}
+@media (min-width: 640px) {
+  .poster {
+    width: 228px;
+  }
+}
+.poster-img {
+  display: block;
+  aspect-ratio: 5 / 7;
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--color-paper);
+  box-shadow:
+    0 18px 34px rgba(6, 20, 62, 0.22),
+    0 4px 10px rgba(6, 20, 62, 0.12);
+  transition: box-shadow 0.45s ease;
+}
+.poster:hover,
+.poster:focus-visible {
+  transform: rotateY(0deg) translateY(-10px) scale(1.04);
+  z-index: 5;
+}
+.poster:hover .poster-img,
+.poster:focus-visible .poster-img {
+  box-shadow:
+    0 30px 56px rgba(6, 20, 62, 0.3),
+    0 8px 16px rgba(6, 20, 62, 0.16);
+}
+@media (prefers-reduced-motion: reduce) {
+  .poster,
+  .poster:hover {
+    transform: none;
+    transition: none;
+  }
+}
