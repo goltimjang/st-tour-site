@@ -1,10 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  env: {
-    // 임시 배포 주소 — 정식 도메인 연결 시 이 값을 도메인으로 교체하거나 삭제(사이트 기본값 사용)
-    NEXT_PUBLIC_SITE_URL: "https://temporary-rushing-beryl-vfrqfbc.vercel.app",
-  },
+  // OG·사이트맵 절대경로는 src/data/site.ts의 domain(www.stgolftours.com)을 기본 사용.
+  // 필요 시 NEXT_PUBLIC_SITE_URL 환경변수로 재정의 가능.
 };
 
 export default nextConfig;

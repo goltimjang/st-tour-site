@@ -7,7 +7,7 @@
 export const site = {
   name: "에스티투어",
   nameEn: "ST TOUR",
-  domain: "https://sttour.co.kr", // [확인 필요] 실제 도메인으로 교체
+  domain: "https://www.stgolftours.com", // 가비아 구매 도메인 (2026-08-18)
   phone: "010-4461-7400",
   phoneHref: "tel:010-4461-7400",
   kakaoUrl: "", // [확인 필요] 카카오톡 채널 링크 — 값이 오면 채움 (빈 값이면 버튼에 전화 폴백)
