@@ -1,64 +1,152 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { promo, site } from "@/data/site";
+import Image from "next/image";
+import { site } from "@/data/site";
+import { royalcc } from "@/data/royalcc";
+import Reveal from "@/components/Reveal";
 
 export const metadata: Metadata = {
-  title: "프로모션 — 진행 중인 골프투어 행사",
+  title: "로얄CC 클럽 페스티벌 2026 — 베트남 하노이 골프 페스티벌",
   description:
-    "에스티투어가 진행 중인 골프투어 프로모션과 시즌 추천 구성을 확인하세요. 로얄CC 클럽 페스티벌 등 직접 주관하는 골프 행사 정보를 안내합니다.",
+    "베트남 닌빈 로얄CC에서 3박 5일, 총 54홀 라운드와 5성 숙박, 총 1억원 상당 시상까지. 왕복 항공 포함 1,290,000원 — 에스티투어가 진행하는 로얄CC 클럽 페스티벌 2026 상세 안내.",
 };
 
-const seasonal = [
-  { season: "겨울 (12~2월)", title: "동남아 골프 성수기", desc: "태국·베트남·필리핀이 최적기입니다. 티타임 마감이 빠르니 가을 전에 견적을 받아두세요.", link: "/overseas" },
-  { season: "봄·가을", title: "국내 + 일본 규슈·산둥", desc: "국내 전 지역이 좋은 계절. 1시간대 비행의 규슈·칭다오 단기 골프도 인기입니다.", link: "/domestic" },
-  { season: "여름 (6~9월)", title: "홋카이도 · 몽골 역시즌", desc: "혹서기를 피해 서늘한 홋카이도와 몽골로. 여름 한정 상품입니다.", link: "/overseas" },
-];
-
 export default function PromotionPage() {
+  const r = royalcc;
   return (
     <>
-      <section className="bg-white border-b border-line">
-        <div className="mx-auto max-w-6xl px-5 py-12 sm:py-16 hero-anim">
-          <p className="eyebrow text-royal mb-3">Promotion</p>
-          <h1 className="headline text-[30px] sm:text-[42px] text-navy">진행 중인 행사</h1>
+      {/* 히어로 */}
+      <section className="relative bg-navydeep text-white overflow-hidden">
+        <div className="absolute inset-0" aria-hidden="true">
+          <Image src="/images/royalcc.jpg" alt="" fill priority sizes="100vw" className="object-cover hero-bg" />
+          <div className="absolute inset-0" style={{ background: "linear-gradient(92deg, rgba(3,13,44,.88) 0%, rgba(3,13,44,.6) 55%, rgba(3,13,44,.2) 100%)" }} />
+        </div>
+        <div className="relative mx-auto max-w-6xl px-5 py-16 sm:py-24 hero-anim">
+          <span className="inline-block rounded-full bg-gold text-white text-[12px] font-black px-3.5 py-1.5 mb-5">
+            {r.recruit}
+          </span>
+          <h1 className="headline text-[30px] sm:text-[46px] mb-3 drop-shadow max-w-3xl">{r.title}</h1>
+          <p className="text-white/85 text-[16.5px] mb-1">{r.venue}</p>
+          <p className="text-white/85 text-[16.5px] mb-6">{r.date} · {r.format}</p>
+          <p className="mb-8">
+            <span className="text-white/55 line-through mr-3 text-[17px]">{r.priceOriginal}</span>
+            <span className="font-display text-[34px] sm:text-[42px] text-gold drop-shadow">{r.price}</span>
+            <span className="text-white/75 text-[14px] ml-2">{r.priceNote}</span>
+          </p>
+          <div className="flex flex-col sm:flex-row gap-3 max-w-xl">
+            <a href={site.phoneHref} className="btn btn-royal flex-1 shadow-lg shadow-royal/30">전화 신청 {site.phone}</a>
+            <a href={site.bandUrl} target="_blank" rel="noopener noreferrer" className="btn flex-1 bg-white/95 text-navy font-bold hover:bg-white">밴드에서 문의</a>
+          </div>
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-5 py-12">
-        <a href={promo.url} target="_blank" rel="noopener noreferrer" className="group block rounded-2xl overflow-hidden bg-navydeep text-white border border-line hover:shadow-xl transition-shadow">
-          <div className="p-8 sm:p-12 relative overflow-hidden">
-            <div aria-hidden="true" className="absolute inset-0 opacity-50" style={{ background: "radial-gradient(800px 350px at 85% 0%, rgba(13,79,245,.5), transparent 60%), radial-gradient(500px 250px at 5% 100%, rgba(23,184,119,.22), transparent 55%)" }} />
-            <div className="relative">
-              <span className="inline-block rounded-full bg-gold text-white text-[12px] font-black px-3 py-1 mb-5">{promo.badge}</span>
-              <h2 className="headline text-[26px] sm:text-[38px] mb-3">{promo.title}</h2>
-              <p className="text-white/75 text-[16.5px] mb-1">{promo.date}</p>
-              <p className="text-white/75 mb-6 max-w-2xl">{promo.desc}</p>
-              <p className="mb-8">
-                <span className="text-white/50 line-through mr-3 text-[17px]">{promo.priceOriginal}</span>
-                <span className="font-display text-[32px] sm:text-[40px] text-gold">{promo.price}</span>
-                <span className="text-white/60 text-[14px] ml-2">{promo.priceNote}</span>
-              </p>
-              <span className="btn btn-royal">행사 페이지에서 자세히 보기 →</span>
-            </div>
+      {/* 핵심 정보 그리드 */}
+      <section className="mx-auto max-w-6xl px-5 -mt-6 relative z-10">
+        <Reveal>
+          <div className="grid grid-cols-2 lg:grid-cols-4 rounded-2xl overflow-hidden bg-white border border-line shadow-soft divide-x divide-y lg:divide-y-0 divide-line">
+            {[
+              ["일정", "3박 5일 · 12/13~17"],
+              ["라운드", "총 54홀 (18홀 × 3일)"],
+              ["숙박", "5성 리조트 · 풀빌라"],
+              ["예약금", r.deposit],
+            ].map(([k, v]) => (
+              <div key={k} className="px-5 py-4">
+                <p className="eyebrow text-royal">{k}</p>
+                <p className="text-[14.5px] font-bold mt-1">{v}</p>
+              </div>
+            ))}
           </div>
-        </a>
-        <p className="text-[13px] text-mute mt-3">
-          본 행사는 기획여행 상품으로, 상세 일정·포함 내역·취소 규정은 행사 페이지에서 확인하실 수 있습니다. 문의 {site.phone}
-        </p>
+        </Reveal>
       </section>
 
-      <section className="mx-auto max-w-6xl px-5 pb-16">
-        <h2 className="headline text-xl sm:text-2xl mb-6">시즌 추천 구성</h2>
-        <div className="grid md:grid-cols-3 gap-5">
-          {seasonal.map((s) => (
-            <Link key={s.title} href={s.link} className="group rounded-2xl border border-line bg-white p-7 hover:border-royal transition-colors">
-              <p className="eyebrow text-golddeep mb-2">{s.season}</p>
-              <p className="font-bold text-[18px] mb-2 group-hover:text-royal">{s.title}</p>
-              <p className="text-[14.5px] text-mute">{s.desc}</p>
-              <span className="inline-block mt-4 font-bold text-royal text-[14.5px]">견적 받기 →</span>
-            </Link>
+      {/* 일정표 */}
+      <section className="mx-auto max-w-6xl px-5 py-14 sm:py-16">
+        <Reveal>
+          <p className="eyebrow text-royal mb-2">Itinerary</p>
+          <h2 className="headline text-2xl sm:text-3xl mb-7">5일의 일정</h2>
+        </Reveal>
+        <ol className="space-y-3 max-w-3xl">
+          {r.itinerary.map((d, i) => (
+            <Reveal key={d.day} delay={i * 70}>
+              <li className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-5 rounded-xl border border-line bg-white p-5">
+                <span className="font-display text-golddeep text-[15px] shrink-0 w-36">{d.day}</span>
+                <span className="text-[15.5px]">{d.plan}</span>
+              </li>
+            </Reveal>
+          ))}
+        </ol>
+      </section>
+
+      {/* 포함/불포함 */}
+      <section className="bg-white border-y border-line">
+        <div className="mx-auto max-w-6xl px-5 py-14 sm:py-16 grid md:grid-cols-2 gap-6">
+          <Reveal>
+            <div className="rounded-2xl border border-line bg-paper p-7 h-full">
+              <h2 className="font-bold text-[18px] mb-4 text-golddeep">✓ 포함 사항</h2>
+              <ul className="space-y-2.5 text-[15px]">
+                {r.includes.map((x) => (
+                  <li key={x} className="flex gap-2.5">
+                    <span className="text-gold font-black shrink-0" aria-hidden="true">·</span>{x}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </Reveal>
+          <Reveal delay={100}>
+            <div className="rounded-2xl border border-line bg-paper p-7 h-full">
+              <h2 className="font-bold text-[18px] mb-4 text-mute">✕ 불포함 사항</h2>
+              <ul className="space-y-2.5 text-[15px]">
+                {r.excludes.map((x) => (
+                  <li key={x} className="flex gap-2.5">
+                    <span className="text-mute font-black shrink-0" aria-hidden="true">·</span>{x}
+                  </li>
+                ))}
+              </ul>
+              <p className="text-[13px] text-mute mt-4">현지 지불 항목은 환율에 따라 원화 기준 금액이 달라질 수 있습니다.</p>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* 시상 */}
+      <section className="mx-auto max-w-6xl px-5 py-14 sm:py-16">
+        <Reveal>
+          <p className="eyebrow text-royal mb-2">Awards</p>
+          <h2 className="headline text-2xl sm:text-3xl mb-2">{r.awards.headline}</h2>
+          <p className="text-mute mb-7">스트로크와 신페리오 두 방식으로 나눠 시상합니다.</p>
+        </Reveal>
+        <div className="grid sm:grid-cols-3 gap-5">
+          {r.awards.items.map((a, i) => (
+            <Reveal key={a} delay={i * 90}>
+              <div className="card-lift rounded-2xl border border-line bg-white p-6 h-full shadow-soft">
+                <p className="font-display text-golddeep text-lg mb-2">{String(i + 1).padStart(2, "0")}</p>
+                <p className="text-[15px]">{a}</p>
+              </div>
+            </Reveal>
           ))}
         </div>
+      </section>
+
+      {/* 신청 안내 + CTA */}
+      <section className="mx-auto max-w-6xl px-5 pb-16">
+        <Reveal>
+          <div className="rounded-2xl border border-line bg-white shadow-soft p-7 sm:p-10">
+            <h2 className="headline text-xl sm:text-2xl mb-4">신청 방법</h2>
+            <ol className="space-y-2 text-[15.5px] mb-6 list-decimal pl-5">
+              <li>전화({site.phone}) 또는 밴드로 참가 의사를 알려주세요. — {r.recruit}</li>
+              <li>{r.deposit} 입금 시 참가가 확정됩니다.</li>
+              <li>출발 전 최종 일정표와 준비물 안내를 보내드립니다.</li>
+            </ol>
+            <div className="flex flex-col sm:flex-row gap-3">
+              <a href={site.phoneHref} className="btn btn-royal">전화 신청 {site.phone}</a>
+              <a href={site.bandUrl} target="_blank" rel="noopener noreferrer" className="btn btn-light">밴드에서 문의</a>
+              <a href={r.officialUrl} target="_blank" rel="noopener noreferrer" className="btn btn-light">행사 전용 페이지 →</a>
+            </div>
+            <p className="text-[12.5px] text-mute mt-6">
+              본 상품은 기획여행입니다. 여행업 등록 정보와 보증보험 내용은 페이지 하단과 회사소개에서 확인하실 수 있으며,
+              취소·환불은 이용약관의 기획여행 특별약관 기준을 따릅니다. 일정·구성은 현지 사정에 따라 일부 변경될 수 있습니다.
+            </p>
+          </div>
+        </Reveal>
       </section>
     </>
   );

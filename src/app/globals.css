@@ -231,24 +231,34 @@ body {
   }
 }
 
-/* ---------- 포스터 입체 진열대 ---------- */
-.poster-shelf {
+/* ---------- 포스터 입체 진열대 (자동 무한 슬라이드) ---------- */
+.poster-marquee {
+  overflow: hidden;
+  padding: 18px 0 10px;
+  mask-image: linear-gradient(90deg, transparent 0, #000 4%, #000 96%, transparent 100%);
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 4%, #000 96%, transparent 100%);
+}
+.poster-track {
+  display: flex;
+  width: max-content;
+  animation: posterMarquee 45s linear infinite;
+}
+.poster-marquee:hover .poster-track,
+.poster-marquee:focus-within .poster-track {
+  animation-play-state: paused;
+}
+@keyframes posterMarquee {
+  to { transform: translateX(-50%); }
+}
+.poster-set {
   display: flex;
   gap: 22px;
   perspective: 1400px;
-  overflow-x: auto;
-  padding: 18px 6px 10px;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-}
-.poster-shelf::-webkit-scrollbar {
-  display: none;
+  padding-right: 22px;
 }
 .poster {
   flex: 0 0 auto;
   width: 210px;
-  scroll-snap-align: center;
   transform: rotateY(var(--tilt, -7deg));
   transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
   will-change: transform;
@@ -285,5 +295,13 @@ body {
   .poster:hover {
     transform: none;
     transition: none;
+  }
+  .poster-track {
+    animation: none;
+  }
+  .poster-marquee {
+    overflow-x: auto;
+    mask-image: none;
+    -webkit-mask-image: none;
   }
 }

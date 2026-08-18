@@ -69,10 +69,8 @@ export default function Home() {
           <h2 className="headline text-2xl sm:text-3xl mb-7">진행 중인 행사</h2>
         </Reveal>
         <Reveal delay={100}>
-          <a
-            href={promo.url}
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href="/promotion"
             className="group card-lift block rounded-3xl overflow-hidden text-white shadow-soft relative"
           >
             <div className="img-zoom absolute inset-0" aria-hidden="true">
@@ -96,10 +94,10 @@ export default function Home() {
                 <span className="text-white/70 text-[14px] ml-2">{promo.priceNote}</span>
               </p>
               <span className="inline-flex items-center gap-2 font-bold text-white bg-royal rounded-lg px-5 py-3 group-hover:bg-royalhover transition-colors">
-                자세히 보기 <span aria-hidden="true">→</span>
+                일정·포함사항·시상 전부 보기 <span aria-hidden="true">→</span>
               </span>
             </div>
-          </a>
+          </Link>
         </Reveal>
       </section>
 
