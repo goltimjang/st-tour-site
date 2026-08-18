@@ -14,9 +14,9 @@
   --color-royal: #0d4ff5;
   --color-royaldark: #0734ad;
   --color-royalhover: #2f74ff;
-  /* 포인트 컬러: 페어웨이 그린 (기존 골드에서 교체) — 클래스명은 호환 유지 */
+  /* 포인트 컬러: 페어웨이 그린 + 로고 딥 그린(#0F3C32) — 클래스명은 호환 유지 */
   --color-gold: #17b877;
-  --color-golddeep: #067a4e;
+  --color-golddeep: #0f3c32;
   --color-paper: #f5f7fc;
   --color-ink: #111318;
   --color-mute: #636b7d;

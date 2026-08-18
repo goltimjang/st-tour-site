@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { site } from "@/data/site";
 
 /** 밝은 푸터 — 흰 배경 + 얇은 상단 보더 */
@@ -9,8 +10,8 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-5 py-14 pb-32 lg:pb-14">
         <div className="flex flex-col md:flex-row md:justify-between gap-10">
           <div className="max-w-xl">
-            <p className="font-display text-navy text-lg mb-3">
-              에스티투어 <span className="eyebrow text-royal ml-1">ST TOUR</span>
+            <p className="mb-4">
+              <Image src="/logo.png" alt="에스티투어" width={165} height={28} className="h-7 w-auto" />
             </p>
             <p className="mb-4">{site.positioning}</p>
             <div className="flex flex-wrap gap-x-5 gap-y-2">
