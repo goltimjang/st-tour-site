@@ -9,6 +9,7 @@ import HeroVideo from "@/components/HeroVideo";
 import Counter from "@/components/Counter";
 import PosterShelf from "@/components/PosterShelf";
 import QuoteSample from "@/components/QuoteSample";
+import EventGallery from "@/components/EventGallery";
 import ChatDemo from "@/components/ChatDemo";
 
 export const metadata: Metadata = {
@@ -252,6 +253,22 @@ export default function Home() {
           </Reveal>
           <p className="text-[12.5px] text-mute mt-6">누적 팀 수는 에스티투어 자체 집계 기준입니다.</p>
         </div>
+      </section>
+
+      {/* ---------- 행사 현장 ---------- */}
+      <section className="bg-paper border-b border-line overflow-hidden">
+        <div className="mx-auto max-w-6xl px-5 pt-16 sm:pt-20 pb-4">
+          <Reveal>
+            <p className="eyebrow text-royal mb-2">On The Course</p>
+            <h2 className="headline text-2xl sm:text-3xl mb-3">대회 현장의 에스티투어</h2>
+            <p className="text-mute max-w-2xl">
+              ST Tour 아마추어 대회부터 더힐 클럽 페스티벌까지 — 저희가 직접 만든 대회의 실제 현장입니다.
+            </p>
+          </Reveal>
+        </div>
+        <Reveal delay={100}>
+          <div className="pb-14 sm:pb-16"><EventGallery /></div>
+        </Reveal>
       </section>
 
       {/* ---------- FAQ 미리보기 ---------- */}

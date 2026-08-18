@@ -304,3 +304,41 @@ body {
     -webkit-mask-image: none;
   }
 }
+
+/* ---------- 행사 사진 마퀴 (포스터와 반대 방향) ---------- */
+.photo-marquee {
+  overflow: hidden;
+  mask-image: linear-gradient(90deg, transparent 0, #000 4%, #000 96%, transparent 100%);
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 4%, #000 96%, transparent 100%);
+}
+.photo-track {
+  display: flex;
+  width: max-content;
+  animation: posterMarquee 55s linear infinite reverse;
+}
+.photo-marquee:hover .photo-track,
+.photo-marquee:focus-within .photo-track {
+  animation-play-state: paused;
+}
+.photo-set {
+  display: flex;
+  gap: 14px;
+  padding-right: 14px;
+}
+.photo-card {
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 26px rgba(6, 20, 62, 0.14);
+}
+@media (prefers-reduced-motion: reduce) {
+  .photo-track {
+    animation: none;
+  }
+  .photo-marquee {
+    overflow-x: auto;
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
+}
