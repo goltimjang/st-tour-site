@@ -5,10 +5,8 @@ import Footer from "@/components/Footer";
 import MobileBar from "@/components/MobileBar";
 import { site } from "@/data/site";
 
-// 도메인 연결 전에는 배포 URL(VERCEL_URL) 기준으로 OG 이미지 절대경로 생성
-const baseUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ||
-  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : site.domain);
+// OG·사이트맵 절대경로 기준 도메인 (기본: site.domain)
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || site.domain;
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
@@ -26,6 +24,12 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     images: ["/og.jpg"],
+  },
+  verification: {
+    // 네이버 서치어드바이저 소유확인 (2026-08-18)
+    other: {
+      "naver-site-verification": "6d065cc51d57c136bd5a8d0e4d2f827913ef8d93",
+    },
   },
 };
 
