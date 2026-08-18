@@ -84,10 +84,11 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
       연락처: phone,
       연락채널: channel,
     };
-    // 정적 호스팅(GitHub Pages) — FormSubmit 릴레이로 운영자 이메일에 직접 전달
+    // 정적 호스팅(GitHub Pages) — FormSubmit 릴레이로 운영자 메일 전달.
+    // 해시 엔드포인트 사용: 소스에 이메일이 노출되지 않아 스팸봇 수집 방지 (goltimjang@gmail.com 수신)
     const subject = `[에스티투어 견적] ${payload.type} · ${payload["지역"]} · ${name}님 (${people}명)`;
     try {
-      const res = await fetch("https://formsubmit.co/ajax/goltimjang@gmail.com", {
+      const res = await fetch("https://formsubmit.co/ajax/dea690313c66c8f0af9faeae39e6b6dc", {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify({
