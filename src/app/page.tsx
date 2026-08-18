@@ -4,6 +4,7 @@ import { site, promo } from "@/data/site";
 import { overseasPrices, domesticPrices, priceDisclaimer } from "@/data/prices";
 import { faqs } from "@/data/faq";
 import Reveal from "@/components/Reveal";
+import HeroVideo from "@/components/HeroVideo";
 
 export default function Home() {
   return (
@@ -11,14 +12,7 @@ export default function Home() {
       {/* ---------- 히어로 (사진 + 진입 애니메이션) ---------- */}
       <section className="relative bg-navydeep text-white overflow-hidden">
         <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
-          <Image
-            src="/images/hero.jpg"
-            alt=""
-            fill
-            priority
-            sizes="100vw"
-            className="object-cover hero-bg"
-          />
+          <HeroVideo src="/videos/hero.mp4" poster="/images/hero.jpg" />
           <div
             className="absolute inset-0"
             style={{
