@@ -12,7 +12,7 @@ export const site = {
   phoneHref: "tel:010-4461-7400",
   kakaoUrl: "https://pf.kakao.com/_xachSX/chat", // 카카오톡 채널 (2026-08-18 확정)
   bandUrl: "https://www.band.us/band/95448181",
-  email: "caddiewow@gmail.com", // [확인 필요] 대표 이메일 확정
+  email: "goltimjang@gmail.com", // 견적 수신 메일 (2026-08-18 확정)
 
   // 회사 정보 — royalccfestival.com 표기 기준, 실값 확인 후 교체
   company: {

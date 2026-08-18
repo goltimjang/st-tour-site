@@ -87,7 +87,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
     // 정적 호스팅(GitHub Pages) — FormSubmit 릴레이로 운영자 이메일에 직접 전달
     const subject = `[에스티투어 견적] ${payload.type} · ${payload["지역"]} · ${name}님 (${people}명)`;
     try {
-      const res = await fetch("https://formsubmit.co/ajax/caddiewow@gmail.com", {
+      const res = await fetch("https://formsubmit.co/ajax/goltimjang@gmail.com", {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify({
