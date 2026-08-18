@@ -82,7 +82,7 @@ export default function Home() {
               style={{ background: "linear-gradient(92deg, rgba(3,13,44,.88) 0%, rgba(3,13,44,.6) 55%, rgba(3,13,44,.15) 100%)" }}
             />
             <div className="relative p-8 sm:p-12 max-w-2xl">
-              <span className="inline-block rounded-full bg-gold text-navydeep text-[12px] font-black px-3.5 py-1.5 mb-5">
+              <span className="inline-block rounded-full bg-gold text-white text-[12px] font-black px-3.5 py-1.5 mb-5">
                 {promo.badge}
               </span>
               <h3 className="headline text-[24px] sm:text-[34px] mb-2 drop-shadow">{promo.title}</h3>
@@ -157,7 +157,7 @@ export default function Home() {
             ].map(([n, t, d], i) => (
               <Reveal key={n} delay={i * 90}>
                 <div className="card-lift rounded-2xl border border-line bg-paper p-6 h-full">
-                  <p className="font-display text-gold text-lg mb-2">{n}</p>
+                  <p className="font-display text-golddeep text-lg mb-2">{n}</p>
                   <p className="font-bold text-[17px] mb-1.5">{t}</p>
                   <p className="text-[14.5px] text-mute">{d}</p>
                 </div>
@@ -183,39 +183,34 @@ export default function Home() {
         <p className="text-[13.5px] text-mute mt-5 max-w-3xl">{priceDisclaimer}</p>
       </section>
 
-      {/* ---------- 신뢰 ---------- */}
-      <section className="bg-navy text-white relative overflow-hidden">
-        <div
-          aria-hidden="true"
-          className="absolute inset-0 opacity-40"
-          style={{ background: "radial-gradient(900px 400px at 90% -10%, rgba(13,79,245,.5), transparent 60%)" }}
-        />
-        <div className="relative mx-auto max-w-6xl px-5 py-16 sm:py-20">
+      {/* ---------- 신뢰 (밝은 톤) ---------- */}
+      <section className="bg-white border-y border-line">
+        <div className="mx-auto max-w-6xl px-5 py-16 sm:py-20">
           <Reveal>
-            <p className="eyebrow text-sky mb-2">Why ST TOUR</p>
+            <p className="eyebrow text-royal mb-2">Why ST TOUR</p>
             <h2 className="headline text-2xl sm:text-3xl mb-9">에스티투어가 다른 이유</h2>
           </Reveal>
-          <div className="grid sm:grid-cols-3 gap-8">
+          <div className="grid sm:grid-cols-3 gap-6">
             {[
               ["종합여행업", "등록 여행사 · 보증보험 완비", "관광진흥법에 따른 종합여행업 등록과 영업보증보험 5,000만원(SGI서울보증)을 갖춘 정식 여행사입니다."],
               ["600팀", "클럽 페스티벌 직접 주관", "더힐 클럽 페스티벌 등 대형 골프 행사를 직접 기획·운영하는 행사 전문 여행사입니다."],
               ["24시간", "견적 회신 철칙", "밤을 새워서라도 24시간 안에, 대행비까지 공개된 견적서를 보내드립니다."],
             ].map(([n, t, d], i) => (
               <Reveal key={t as string} delay={i * 100}>
-                <div className="border-l-2 border-gold pl-5">
-                  <p className="font-display text-[26px] text-gold mb-1">{n}</p>
+                <div className="card-lift rounded-2xl bg-paper border border-line p-7 h-full">
+                  <p className="font-display text-[26px] text-golddeep mb-1">{n}</p>
                   <p className="font-bold mb-1.5">{t}</p>
-                  <p className="text-[14.5px] text-white/70">{d}</p>
+                  <p className="text-[14.5px] text-mute">{d}</p>
                 </div>
               </Reveal>
             ))}
           </div>
           <Reveal delay={150}>
             <div className="mt-10 flex flex-col sm:flex-row gap-3">
-              <a href={site.bandUrl} target="_blank" rel="noopener noreferrer" className="btn btn-outline">
+              <a href={site.bandUrl} target="_blank" rel="noopener noreferrer" className="btn btn-light">
                 에스티투어 밴드 커뮤니티 →
               </a>
-              <Link href="/about" className="btn btn-outline">회사소개 보기</Link>
+              <Link href="/about" className="btn btn-light">회사소개 보기</Link>
             </div>
           </Reveal>
         </div>
@@ -246,7 +241,7 @@ export default function Home() {
       <section className="relative bg-navydeep text-white overflow-hidden">
         <div className="absolute inset-0" aria-hidden="true">
           <Image src="/images/thailand.jpg" alt="" fill sizes="100vw" className="object-cover" />
-          <div className="absolute inset-0 bg-navydeep/80" />
+          <div className="absolute inset-0" style={{ background: "linear-gradient(180deg, rgba(6,20,62,.62) 0%, rgba(13,79,245,.5) 100%)" }} />
         </div>
         <div className="relative mx-auto max-w-6xl px-5 py-20 text-center">
           <Reveal>

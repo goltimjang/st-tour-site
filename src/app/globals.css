@@ -14,8 +14,9 @@
   --color-royal: #0d4ff5;
   --color-royaldark: #0734ad;
   --color-royalhover: #2f74ff;
-  --color-gold: #d9ad4a;
-  --color-golddeep: #96731c;
+  /* 포인트 컬러: 페어웨이 그린 (기존 골드에서 교체) — 클래스명은 호환 유지 */
+  --color-gold: #17b877;
+  --color-golddeep: #067a4e;
   --color-paper: #f5f7fc;
   --color-ink: #111318;
   --color-mute: #636b7d;
@@ -94,10 +95,11 @@ body {
 }
 .btn-gold {
   border: 1.5px solid var(--color-gold);
-  color: var(--color-gold);
+  color: #fff;
+  background: rgba(23, 184, 119, 0.18);
 }
 .btn-gold:hover {
-  background: rgba(217, 173, 74, 0.12);
+  background: rgba(23, 184, 119, 0.34);
 }
 .btn-light {
   background: #fff;

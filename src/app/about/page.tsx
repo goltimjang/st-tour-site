@@ -5,18 +5,18 @@ import { site } from "@/data/site";
 export const metadata: Metadata = {
   title: "회사소개 — 세종 골프투어 전문 여행사",
   description:
-    "에스티투어(ST TOUR)는 세종시의 10년 업력 골프투어 전문 여행사입니다. 국내·해외 맞춤 골프투어, 골프부킹, 골프대회 행사를 전문으로 하며 관광사업자 등록과 보증보험을 갖추고 있습니다.",
+    "에스티투어(ST TOUR)는 세종시의 종합여행업 등록 골프투어 전문 여행사입니다. 국내·해외 맞춤 골프투어, 골프부킹, 골프대회 행사를 전문으로 하며 영업보증보험을 갖추고 있습니다.",
 };
 
 export default function AboutPage() {
   const c = site.company;
   return (
     <>
-      <section className="bg-navy text-white">
-        <div className="mx-auto max-w-6xl px-5 py-14 sm:py-16">
-          <p className="eyebrow text-sky mb-3">About ST TOUR</p>
-          <h1 className="headline text-[30px] sm:text-[42px] mb-4">에스티투어를 소개합니다</h1>
-          <p className="text-white/75 max-w-2xl text-[16.5px]">{site.positioning}</p>
+      <section className="bg-white border-b border-line">
+        <div className="mx-auto max-w-6xl px-5 py-12 sm:py-16 hero-anim">
+          <p className="eyebrow text-royal mb-3">About ST TOUR</p>
+          <h1 className="headline text-[30px] sm:text-[42px] mb-4 text-navy">에스티투어를 소개합니다</h1>
+          <p className="text-mute max-w-2xl text-[16.5px]">{site.positioning}</p>
         </div>
       </section>
 
@@ -43,7 +43,7 @@ export default function AboutPage() {
             "계약금 입금 시 티타임과 좌석을 확보하고, 출발 전 최종 일정표를 드립니다.",
           ].map((s, i) => (
             <li key={i} className="flex gap-4 rounded-xl border border-line bg-white p-5">
-              <span className="font-display text-gold text-lg shrink-0">{String(i + 1).padStart(2, "0")}</span>
+              <span className="font-display text-golddeep text-lg shrink-0">{String(i + 1).padStart(2, "0")}</span>
               <span className="text-[15.5px]">{s}</span>
             </li>
           ))}
@@ -57,7 +57,7 @@ export default function AboutPage() {
                 ["상호", `에스티투어 (ST TOUR)`],
                 ["대표", c.ceo],
                 ["소재지", c.address],
-                ["설립", `${c.since}년 (업력 ${site.stats.years}년)`],
+                ["설립", `${c.since}년`],
                 ["사업자등록번호", c.bizNo],
                 ["관광사업자등록번호", c.tourismNo],
                 ["통신판매업신고", c.mailOrderNo],

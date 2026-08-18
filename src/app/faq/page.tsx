@@ -23,10 +23,10 @@ export default function FaqPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <section className="bg-navy text-white">
-        <div className="mx-auto max-w-6xl px-5 py-14 sm:py-16">
-          <p className="eyebrow text-sky mb-3">FAQ</p>
-          <h1 className="headline text-[30px] sm:text-[42px]">자주 묻는 질문</h1>
+      <section className="bg-white border-b border-line">
+        <div className="mx-auto max-w-6xl px-5 py-12 sm:py-16 hero-anim">
+          <p className="eyebrow text-royal mb-3">FAQ</p>
+          <h1 className="headline text-[30px] sm:text-[42px] text-navy">자주 묻는 질문</h1>
         </div>
       </section>
 
@@ -43,12 +43,12 @@ export default function FaqPage() {
           ))}
         </div>
 
-        <div className="mt-10 rounded-2xl bg-navy text-white p-7 sm:p-9 text-center">
-          <p className="headline text-[20px] sm:text-[24px] mb-2">더 궁금한 점이 있으신가요?</p>
-          <p className="text-white/70 mb-6 text-[15px]">전화 주시면 바로 답해드립니다 — {site.company.hours}</p>
+        <div className="mt-10 rounded-2xl bg-white border border-line shadow-soft p-7 sm:p-9 text-center">
+          <p className="headline text-[20px] sm:text-[24px] mb-2 text-navy">더 궁금한 점이 있으신가요?</p>
+          <p className="text-mute mb-6 text-[15px]">전화 주시면 바로 답해드립니다 — {site.company.hours}</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a href={site.phoneHref} className="btn btn-royal">전화 상담 {site.phone}</a>
-            <Link href="/domestic#quote" className="btn btn-outline">견적 요청하기</Link>
+            <Link href="/domestic#quote" className="btn btn-light">견적 요청하기</Link>
           </div>
         </div>
       </section>

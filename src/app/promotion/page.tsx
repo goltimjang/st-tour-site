@@ -17,19 +17,19 @@ const seasonal = [
 export default function PromotionPage() {
   return (
     <>
-      <section className="bg-navy text-white">
-        <div className="mx-auto max-w-6xl px-5 py-14 sm:py-16">
-          <p className="eyebrow text-sky mb-3">Promotion</p>
-          <h1 className="headline text-[30px] sm:text-[42px]">진행 중인 행사</h1>
+      <section className="bg-white border-b border-line">
+        <div className="mx-auto max-w-6xl px-5 py-12 sm:py-16 hero-anim">
+          <p className="eyebrow text-royal mb-3">Promotion</p>
+          <h1 className="headline text-[30px] sm:text-[42px] text-navy">진행 중인 행사</h1>
         </div>
       </section>
 
       <section className="mx-auto max-w-6xl px-5 py-12">
         <a href={promo.url} target="_blank" rel="noopener noreferrer" className="group block rounded-2xl overflow-hidden bg-navydeep text-white border border-line hover:shadow-xl transition-shadow">
           <div className="p-8 sm:p-12 relative overflow-hidden">
-            <div aria-hidden="true" className="absolute inset-0 opacity-50" style={{ background: "radial-gradient(800px 350px at 85% 0%, rgba(13,79,245,.5), transparent 60%), radial-gradient(500px 250px at 5% 100%, rgba(217,173,74,.2), transparent 55%)" }} />
+            <div aria-hidden="true" className="absolute inset-0 opacity-50" style={{ background: "radial-gradient(800px 350px at 85% 0%, rgba(13,79,245,.5), transparent 60%), radial-gradient(500px 250px at 5% 100%, rgba(23,184,119,.22), transparent 55%)" }} />
             <div className="relative">
-              <span className="inline-block rounded-full bg-gold text-navydeep text-[12px] font-black px-3 py-1 mb-5">{promo.badge}</span>
+              <span className="inline-block rounded-full bg-gold text-white text-[12px] font-black px-3 py-1 mb-5">{promo.badge}</span>
               <h2 className="headline text-[26px] sm:text-[38px] mb-3">{promo.title}</h2>
               <p className="text-white/75 text-[16.5px] mb-1">{promo.date}</p>
               <p className="text-white/75 mb-6 max-w-2xl">{promo.desc}</p>
