@@ -8,6 +8,7 @@ export type Destination = {
   cities: string[];
   season: string;
   flight: string;
+  image?: string;
   priceFrom?: string; // 경쟁사 실게시가 조사 기반 하한 (연 1회 검수)
   priceRange?: string;
   blurb?: string;
@@ -16,6 +17,7 @@ export type Destination = {
 export const destinations: Destination[] = [
   {
     slug: "thailand",
+    image: "/images/thailand.jpg",
     name: "태국",
     tier: 1,
     cities: ["방콕", "파타야", "치앙마이", "후아힌", "푸껫"],
@@ -28,6 +30,7 @@ export const destinations: Destination[] = [
   },
   {
     slug: "vietnam",
+    image: "/images/vietnam.jpg",
     name: "베트남",
     tier: 1,
     cities: ["다낭", "하노이", "나트랑", "호치민", "푸꾸옥"],
@@ -40,6 +43,7 @@ export const destinations: Destination[] = [
   },
   {
     slug: "japan",
+    image: "/images/japan.jpg",
     name: "일본",
     tier: 1,
     cities: ["규슈(후쿠오카·가고시마)", "오키나와", "홋카이도", "오사카", "도쿄 근교"],
@@ -52,6 +56,7 @@ export const destinations: Destination[] = [
   },
   {
     slug: "china",
+    image: "/images/china.jpg",
     name: "중국",
     tier: 1,
     cities: ["칭다오", "웨이하이", "옌타이", "하이난", "쿤밍"],
@@ -64,6 +69,7 @@ export const destinations: Destination[] = [
   },
   {
     slug: "philippines",
+    image: "/images/philippines.jpg",
     name: "필리핀",
     tier: 1,
     cities: ["클락", "마닐라", "세부"],

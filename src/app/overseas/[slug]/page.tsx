@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { tier1 } from "@/data/destinations";
 import QuoteForm from "@/components/QuoteForm";
@@ -26,9 +27,15 @@ export default async function CountryPage({ params }: { params: Promise<{ slug: 
 
   return (
     <>
-      <section className="bg-navy text-white">
-        <div className="mx-auto max-w-6xl px-5 py-14 sm:py-16">
-          <nav className="text-[13px] text-white/60 mb-4" aria-label="현재 위치">
+      <section className="relative bg-navy text-white overflow-hidden">
+        {d.image && (
+          <div className="absolute inset-0" aria-hidden="true">
+            <Image src={d.image} alt="" fill priority sizes="100vw" className="object-cover hero-bg" />
+            <div className="absolute inset-0" style={{ background: "linear-gradient(90deg, rgba(3,13,44,.9) 0%, rgba(3,13,44,.62) 50%, rgba(3,13,44,.25) 100%)" }} />
+          </div>
+        )}
+        <div className="relative mx-auto max-w-6xl px-5 py-16 sm:py-20 hero-anim">
+          <nav className="text-[13px] text-white/70 mb-4" aria-label="현재 위치">
             <Link href="/overseas" className="hover:text-white">해외 골프투어</Link>
             <span className="mx-2">/</span>
             <span className="text-white/90">{d.name}</span>
@@ -43,7 +50,7 @@ export default async function CountryPage({ params }: { params: Promise<{ slug: 
               ["비행시간", d.flight],
               ["가격", d.priceFrom ?? "견적 문의"],
             ].map(([k, v]) => (
-              <div key={k} className="bg-navy px-4 py-3.5">
+              <div key={k} className="bg-navydeep/75 backdrop-blur-sm px-4 py-3.5">
                 <p className="eyebrow text-sky">{k}</p>
                 <p className="text-[14px] font-bold mt-1">{v}</p>
               </div>

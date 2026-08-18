@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { site } from "@/data/site";
 import { domesticPrices, priceDisclaimer } from "@/data/prices";
 import DomesticClient from "./DomesticClient";
@@ -12,8 +13,12 @@ export const metadata: Metadata = {
 export default function DomesticPage() {
   return (
     <>
-      <section className="bg-navy text-white">
-        <div className="mx-auto max-w-6xl px-5 py-14 sm:py-16">
+      <section className="relative bg-navy text-white overflow-hidden">
+        <div className="absolute inset-0" aria-hidden="true">
+          <Image src="/images/domestic.jpg" alt="" fill priority sizes="100vw" className="object-cover" />
+          <div className="absolute inset-0" style={{ background: "linear-gradient(90deg, rgba(3,13,44,.9) 0%, rgba(3,13,44,.65) 50%, rgba(3,13,44,.3) 100%)" }} />
+        </div>
+        <div className="relative mx-auto max-w-6xl px-5 py-16 sm:py-20 hero-anim">
           <p className="eyebrow text-sky mb-3">Domestic Golf Tour</p>
           <h1 className="headline text-[30px] sm:text-[42px] mb-4">
             전국 {site.stats.courses}개 골프장,

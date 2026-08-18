@@ -160,3 +160,71 @@ body {
     transform: none;
   }
 }
+
+/* ---------- 애니메이션 ---------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1), transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+.reveal.in {
+  opacity: 1;
+  transform: none;
+}
+
+@keyframes heroUp {
+  from { opacity: 0; transform: translateY(26px); }
+  to { opacity: 1; transform: none; }
+}
+.hero-anim > * {
+  opacity: 0;
+  animation: heroUp 0.85s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+.hero-anim > *:nth-child(1) { animation-delay: 0.05s; }
+.hero-anim > *:nth-child(2) { animation-delay: 0.18s; }
+.hero-anim > *:nth-child(3) { animation-delay: 0.32s; }
+.hero-anim > *:nth-child(4) { animation-delay: 0.46s; }
+
+@keyframes kenburns {
+  from { transform: scale(1.05); }
+  to { transform: scale(1); }
+}
+.hero-bg {
+  animation: kenburns 2.4s ease-out forwards;
+}
+
+.img-zoom {
+  overflow: hidden;
+}
+.img-zoom img {
+  transition: transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.group:hover .img-zoom img {
+  transform: scale(1.06);
+}
+
+.card-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 44px rgba(6, 20, 62, 0.13);
+}
+
+.shadow-soft {
+  box-shadow: 0 10px 36px rgba(6, 20, 62, 0.08);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal, .hero-anim > * {
+    opacity: 1 !important;
+    transform: none !important;
+    animation: none !important;
+    transition: none !important;
+  }
+  .hero-bg, .img-zoom img, .card-lift {
+    animation: none !important;
+    transition: none !important;
+  }
+}
