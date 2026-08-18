@@ -5,8 +5,13 @@ import Footer from "@/components/Footer";
 import MobileBar from "@/components/MobileBar";
 import { site } from "@/data/site";
 
+// 도메인 연결 전에는 배포 URL(VERCEL_URL) 기준으로 OG 이미지 절대경로 생성
+const baseUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ||
+  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : site.domain);
+
 export const metadata: Metadata = {
-  metadataBase: new URL(site.domain),
+  metadataBase: new URL(baseUrl),
   title: {
     default: "에스티투어 — 24시간 맞춤 골프투어 견적",
     template: "%s | 에스티투어",
