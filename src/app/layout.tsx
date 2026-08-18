@@ -16,6 +16,11 @@ export const metadata: Metadata = {
     siteName: "에스티투어",
     locale: "ko_KR",
     type: "website",
+    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "에스티투어 — 24시간 맞춤 골프투어 견적" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/og.jpg"],
   },
 };
 

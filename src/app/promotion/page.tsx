@@ -8,6 +8,13 @@ export const metadata: Metadata = {
   title: "로얄CC 클럽 페스티벌 2026 — 베트남 하노이 골프 페스티벌",
   description:
     "베트남 닌빈 로얄CC에서 3박 5일, 총 54홀 라운드와 5성 숙박, 총 1억원 상당 시상까지. 왕복 항공 포함 1,290,000원 — 에스티투어가 진행하는 로얄CC 클럽 페스티벌 2026 상세 안내.",
+  openGraph: {
+    images: [{ url: "/og-promotion.jpg", width: 1200, height: 630, alt: "로얄CC 클럽 페스티벌 2026" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/og-promotion.jpg"],
+  },
 };
 
 export default function PromotionPage() {
