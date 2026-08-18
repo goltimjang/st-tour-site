@@ -1,26 +1,162 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: "GmarketSans";
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff") format("woff");
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@theme {
+  --color-navy: #06143e;
+  --color-navydeep: #030d2c;
+  --color-royal: #0d4ff5;
+  --color-royaldark: #0734ad;
+  --color-royalhover: #2f74ff;
+  --color-gold: #d9ad4a;
+  --color-golddeep: #96731c;
+  --color-paper: #f5f7fc;
+  --color-ink: #111318;
+  --color-mute: #636b7d;
+  --color-line: #d9deea;
+  --color-sky: #9db9ff;
+  --font-sans: "Pretendard", -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --font-display: "GmarketSans", "Pretendard", -apple-system, "Apple SD Gothic Neo", sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---------- 공통 패턴 ---------- */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.eyebrow {
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.headline {
+  font-family: var(--font-display);
+  letter-spacing: -0.035em;
+  line-height: 1.22;
+  text-wrap: balance;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 52px;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 700;
+  transition: transform 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+  cursor: pointer;
+  text-align: center;
+}
+.btn:hover {
+  transform: translateY(-2px);
+}
+.btn:focus-visible {
+  outline: 3px solid var(--color-royalhover);
+  outline-offset: 2px;
+}
+.btn-royal {
+  background: var(--color-royal);
+  color: #fff;
+}
+.btn-royal:hover {
+  background: var(--color-royalhover);
+}
+.btn-outline {
+  border: 1.5px solid rgba(157, 185, 255, 0.6);
+  color: #fff;
+}
+.btn-outline:hover {
+  border-color: #fff;
+}
+.btn-gold {
+  border: 1.5px solid var(--color-gold);
+  color: var(--color-gold);
+}
+.btn-gold:hover {
+  background: rgba(217, 173, 74, 0.12);
+}
+.btn-light {
+  background: #fff;
+  border: 1.5px solid var(--color-line);
+  color: var(--color-ink);
+}
+.btn-light:hover {
+  border-color: var(--color-royal);
+  color: var(--color-royal);
+}
+
+/* 폼 요소 — 고령 고객 배려: 16px+ (iOS 자동 줌 방지), 큰 터치 영역 */
+.field {
+  width: 100%;
+  min-height: 52px;
+  padding: 12px 16px;
+  border: 1.5px solid var(--color-line);
+  border-radius: 8px;
+  background: #fff;
+  font-size: 17px;
+  color: var(--color-ink);
+}
+.field:focus {
+  outline: none;
+  border-color: var(--color-royal);
+  box-shadow: 0 0 0 3px rgba(13, 79, 245, 0.15);
+}
+.choice {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 52px;
+  padding: 10px 18px;
+  border: 1.5px solid var(--color-line);
+  border-radius: 8px;
+  background: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-ink);
+  cursor: pointer;
+  transition: border-color 0.12s ease, background-color 0.12s ease;
+}
+.choice:hover {
+  border-color: var(--color-royal);
+}
+.choice[data-on="true"] {
+  border-color: var(--color-royal);
+  background: rgba(13, 79, 245, 0.08);
+  color: var(--color-royaldark);
+  font-weight: 800;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .btn,
+  .btn:hover {
+    transition: none;
+    transform: none;
+  }
 }
