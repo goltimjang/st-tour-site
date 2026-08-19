@@ -5,7 +5,7 @@ import { posters } from "@/data/posters";
  * 대회 포스터 입체 진열대 — 자동 무한 슬라이드(마퀴), 호버 시 일시정지.
  * 트랙에 포스터를 두 벌 이어붙여 절반만큼 이동을 무한 반복.
  */
-export default function PosterShelf() {
+export default function PosterShelf({ onDark = false }: { onDark?: boolean }) {
   return (
     <div className="poster-marquee" aria-label="에스티투어 대회 포스터 (자동 슬라이드)">
       <div className="poster-track">
@@ -33,8 +33,8 @@ export default function PosterShelf() {
                   />
                 </span>
                 <span className="block pt-3 px-1">
-                  <span className="block font-bold text-[14px] leading-snug">{p.title}</span>
-                  <span className="block text-[12.5px] text-mute mt-0.5">{p.sub}</span>
+                  <span className={`block font-bold text-[14px] leading-snug ${onDark ? "text-white" : ""}`}>{p.title}</span>
+                  <span className={`block text-[12.5px] mt-0.5 ${onDark ? "text-sky" : "text-mute"}`}>{p.sub}</span>
                 </span>
               </a>
             ))}

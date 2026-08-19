@@ -33,38 +33,21 @@ export default function Home() {
         </div>
         <div className="relative mx-auto max-w-6xl px-5 py-24 sm:py-36">
           <div className="hero-anim max-w-2xl">
-            <p className="eyebrow text-sky mb-4">Custom Golf Tour · Since {site.company.since}</p>
             <h1 className="headline text-[36px] sm:text-[56px] mb-5 drop-shadow-lg">
-              24시간 안에,
+              전국 어디든, 세계 어디든
               <br />
-              견적서가 도착합니다.
+              골프투어 견적은 에스티투어
             </h1>
             <p className="text-[17px] sm:text-[19px] text-white/85 max-w-xl mb-9 drop-shadow">
-              <span className="block">원하는 날짜만 알려주세요. 골프장은 저희가 찾아드립니다.</span>
-              <span className="block mt-1">전국 {site.stats.courses}개 골프장과 해외 {site.stats.countries}개국, 어디든 대행비까지 적힌 견적서로 보내드립니다.</span>
+              전국 {site.stats.courses}개 골프장과 해외 {site.stats.countries}개국 골프장 중에서 가고 싶은 곳을 정해 보세요.
+              나머지는 저희가 준비합니다.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 max-w-xl">
               <Link href="/domestic#quote" className="btn btn-royal flex-1 shadow-lg shadow-royal/30">국내 견적 요청</Link>
               <Link href="/overseas#quote" className="btn flex-1 bg-white/95 text-navy font-bold hover:bg-white">해외 견적 요청</Link>
               <a href={site.phoneHref} className="btn btn-gold flex-1 backdrop-blur-sm bg-navydeep/30">전화 상담</a>
             </div>
-          </div>
-        </div>
-
-        {/* 철칙 정보 그리드 */}
-        <div className="relative border-t border-white/15 bg-navydeep/70 backdrop-blur-md">
-          <div className="mx-auto max-w-6xl px-5 grid grid-cols-2 lg:grid-cols-4">
-            {[
-              ["Promise 01", "24시간 내 견적서 회신"],
-              ["Promise 02", "대행비 공개 · 투명 견적"],
-              ["Coverage", `국내 골프장 ${site.stats.courses}개`],
-              ["Overseas", `해외 ${site.stats.countries}개국 상담`],
-            ].map(([k, v]) => (
-              <div key={k} className="py-5 px-2 lg:px-4 border-l first:border-l-0 border-white/10">
-                <p className="eyebrow text-sky">{k}</p>
-                <p className="text-[14px] sm:text-[15px] font-bold mt-1">{v}</p>
-              </div>
-            ))}
+            <p className="mt-5 text-[14px] text-white/70">견적은 무료입니다 · 하루 안에 회신드립니다 · 종합여행업 등록 여행사</p>
           </div>
         </div>
       </section>
@@ -89,19 +72,23 @@ export default function Home() {
               style={{ background: "linear-gradient(92deg, rgba(3,13,44,.88) 0%, rgba(3,13,44,.6) 55%, rgba(3,13,44,.15) 100%)" }}
             />
             <div className="relative p-8 sm:p-12 max-w-2xl">
-              <span className="inline-block rounded-full bg-gold text-white text-[12px] font-black px-3.5 py-1.5 mb-5">
+              <span className="inline-block rounded-full bg-amber text-navydeep text-[12px] font-black px-3.5 py-1.5 mb-5">
                 {promo.badge}
               </span>
-              <h3 className="headline text-[24px] sm:text-[34px] mb-2 drop-shadow">{promo.title}</h3>
+              <h3 className="headline text-[24px] sm:text-[34px] mb-2 drop-shadow">
+                베트남 하노이 로얄CC
+                <br />
+                클럽 페스티벌 2026
+              </h3>
               <p className="text-white/85 mb-1">{promo.date}</p>
               <p className="text-white/80 mb-6">{promo.desc}</p>
               <p className="mb-7">
                 <span className="text-white/55 line-through mr-3">{promo.priceOriginal}</span>
-                <span className="font-display text-[30px] sm:text-[38px] text-gold drop-shadow">{promo.price}</span>
+                <span className="font-display text-[30px] sm:text-[38px] text-amber drop-shadow">{promo.price}</span>
                 <span className="text-white/70 text-[14px] ml-2">{promo.priceNote}</span>
               </p>
-              <span className="inline-flex items-center gap-2 font-bold text-white bg-royal rounded-lg px-5 py-3 group-hover:bg-royalhover transition-colors">
-                일정·포함사항·시상 전부 보기 <span aria-hidden="true">→</span>
+              <span className="inline-flex items-center gap-2 font-bold text-white/95 border-b-2 border-amber pb-1 group-hover:text-amber transition-colors">
+                자세히 보기 <span aria-hidden="true">→</span>
               </span>
             </div>
           </Link>
@@ -114,7 +101,7 @@ export default function Home() {
           {[
             {
               href: "/domestic",
-              img: "/images/domestic.jpg",
+              img: "/images/map-korea.jpg",
               eyebrow: "Domestic",
               title: "국내 골프투어",
               desc: `전국 ${site.stats.courses}개 골프장에서 지역을 고르고 원하는 골프장을 지정하세요. 티타임·숙박·이동까지 한 번에 견적드립니다.`,
@@ -123,7 +110,7 @@ export default function Home() {
             },
             {
               href: "/overseas",
-              img: "/images/vietnam.jpg",
+              img: "/images/map-world.jpg",
               eyebrow: "Overseas",
               title: "해외 골프투어",
               desc: `일본·태국·베트남부터 ${site.stats.countries}개국까지. 항공·숙박·라운드·차량을 묶어 예산에 맞는 일정을 설계해 드립니다.`,
@@ -134,7 +121,7 @@ export default function Home() {
             <Reveal key={c.href} delay={c.delay}>
               <Link href={c.href} className="group card-lift block rounded-3xl overflow-hidden border border-line bg-white shadow-soft">
                 <div className="img-zoom relative h-52 sm:h-60">
-                  <Image src={c.img} alt={`${c.title} 대표 이미지`} fill sizes="(max-width: 768px) 100vw, 560px" className="object-cover" />
+                  <Image src={c.img} alt={`${c.title} 지도`} fill sizes="(max-width: 768px) 100vw, 560px" className="object-cover object-center" />
                 </div>
                 <div className="p-7 sm:p-8">
                   <p className="eyebrow text-royal mb-2">{c.eyebrow}</p>
@@ -157,10 +144,10 @@ export default function Home() {
           </Reveal>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {[
-              ["01", "조건 입력 (1분)", "지역·날짜·인원만 고르면 끝. 골프장을 몰라도 됩니다."],
-              ["02", "24시간 내 견적서", "밤을 새워서라도 24시간 안에 견적서를 보내드립니다."],
-              ["03", "원가 공개 확인", "골프장·숙박·항공 원가와 대행비가 분리된 견적서를 직접 확인하세요."],
-              ["04", "확정 · 예약", "일정 확정 후 계약금 입금 시 티타임을 확보해 드립니다."],
+              ["01", "조건 입력 (30초)", "지역과 날짜, 인원만 고르면 됩니다."],
+              ["02", "24시간 내 견적서", "요청을 확인한 뒤 하루 안에 견적서를 보내드립니다."],
+              ["03", "원가 확인", "항공·숙박·그린피 원가와 대행비를 나눠서 보여드립니다."],
+              ["04", "확정 · 예약", "일정이 정해지면 계약금 입금과 함께 티타임을 잡아드립니다."],
             ].map(([n, t, d], i) => (
               <Reveal key={n} delay={i * 90}>
                 <div className="card-lift rounded-2xl border border-line bg-paper p-6 h-full">

@@ -215,7 +215,6 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
               <button type="button" className="choice !min-w-[52px] text-xl" onClick={() => setPeople(Math.max(PEOPLE_MIN, people - 1))} aria-label="인원 줄이기">−</button>
               <span className="text-2xl font-display w-16 text-center" aria-live="polite">{people}명</span>
               <button type="button" className="choice !min-w-[52px] text-xl" onClick={() => setPeople(people + 1)} aria-label="인원 늘리기">+</button>
-              <span className="text-[14px] text-mute">2명도, 40명도 좋습니다</span>
             </div>
           </Field>
 
@@ -257,7 +256,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
           </Field>
           <div className="flex gap-3">
             <BackBtn onClick={() => setStep(1)} />
-            <NextBtn onClick={() => setStep(3)} label="다음 — 연락처 입력" />
+            <NextBtn onClick={() => setStep(3)} />
           </div>
           <CallEscape />
         </div>

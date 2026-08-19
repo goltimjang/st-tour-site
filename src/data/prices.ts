@@ -25,7 +25,8 @@ export const overseasPrices: PriceRow[] = [
 export const domesticPrices: PriceRow[] = [
   { dest: "강원 1박2일 36홀", from: "22만원~", range: "통상 27만 ~ 50만원" },
   { dest: "충청·호남·영남 1박2일", from: "21만원~", range: "통상 33만 ~ 53만원" },
-  { dest: "제주 1박2일 36홀", from: "33만원~", range: "통상 34만 ~ 40만원 (항공 별도)", note: "2박3일 54홀 59만원~" },
+  { dest: "제주 1박2일 36홀", from: "33만원~", range: "통상 34만 ~ 40만원 (항공 별도)" },
+  { dest: "제주 2박3일 54홀", from: "59만원~", range: "항공·렌터카 포함 시 ~101만원" },
 ];
 
 export const priceDisclaimer =

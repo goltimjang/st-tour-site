@@ -21,6 +21,7 @@
   --color-mute: #636b7d;
   --color-line: #d9deea;
   --color-sky: #9db9ff;
+  --color-amber: #ffb42e;
   --font-sans: "Pretendard", -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
   --font-display: "GmarketSans", "Pretendard", -apple-system, "Apple SD Gothic Neo", sans-serif;
 }
@@ -35,6 +36,7 @@ body {
   font-family: var(--font-sans);
   font-size: 16px;
   line-height: 1.7;
+  word-break: keep-all;
   -webkit-font-smoothing: antialiased;
 }
 
