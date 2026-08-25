@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { site } from "@/data/site";
 import { destinations } from "@/data/destinations";
-import Calendar from "@/components/Calendar";
+import Calendar, { stayLabel } from "@/components/Calendar";
 
 type Props = {
   type: "domestic" | "overseas";
@@ -32,7 +32,8 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
   const [regions, setRegions] = useState<string[]>(prefillRegion ? [prefillRegion] : []);
   const [country, setCountry] = useState(prefillCountry ?? "");
   const [dateMode, setDateMode] = useState<"date" | "flexible">("date");
-  const [date, setDate] = useState("");
+  const [dateStart, setDateStart] = useState("");
+  const [dateEnd, setDateEnd] = useState("");
   const [flexTime, setFlexTime] = useState("");
   const [people, setPeople] = useState(4);
 
@@ -52,7 +53,14 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
   const [agree, setAgree] = useState(false);
   const [showPrivacy, setShowPrivacy] = useState(false);
 
-  const whenLabel = dateMode === "date" ? date : flexTime;
+  // 달력 선택 시 "○박 ○일" 자동 계산 (출발·도착 모두 선택해야 완성)
+  const stay = stayLabel(dateStart, dateEnd);
+  const whenLabel =
+    dateMode === "date"
+      ? dateStart && dateEnd
+        ? `${dateStart.replace(/-/g, ". ")} 출발 ~ ${dateEnd.replace(/-/g, ". ")} 도착 (${stay})`
+        : ""
+      : flexTime;
   const step1Ok = isDom
     ? regions.length > 0 && whenLabel && people >= PEOPLE_MIN
     : country && whenLabel && people >= PEOPLE_MIN;
@@ -75,7 +83,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
       지역: isDom ? regions.join(", ") : country,
       희망시기: whenLabel,
       인원: `${people}명`,
-      기간: duration || "미정",
+      기간: stay || duration || "미정",
       라운드수: rounds || "미정",
       ...(isDom ? { 숙박: lodging || "미정" } : { 항공: flight || "미정", 숙박수준: lodging || "미정" }),
       예산: budget || "미정",
@@ -195,13 +203,20 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
             )}
           </Field>
 
-          <Field label={isDom ? "희망 날짜" : "희망 출발일"} required>
+          <Field label="희망 일정 (출발일 → 도착일)" required>
             <div className="flex flex-wrap gap-2.5 mb-3">
               <button type="button" className="choice" data-on={dateMode === "date"} onClick={() => setDateMode("date")}>날짜를 정했어요</button>
               <button type="button" className="choice" data-on={dateMode === "flexible"} onClick={() => setDateMode("flexible")}>시기만 정했어요</button>
             </div>
             {dateMode === "date" ? (
-              <Calendar value={date} onChange={setDate} />
+              <Calendar
+                start={dateStart}
+                end={dateEnd}
+                onChange={(s, e) => {
+                  setDateStart(s);
+                  setDateEnd(e);
+                }}
+              />
             ) : (
               <div className="flex flex-wrap gap-2.5">
                 {["이번 달 안에", "1~2개월 안에", "3개월 이후", "미정 (상담 후 결정)"].map((t) => (
@@ -227,7 +242,17 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
       {step === 2 && (
         <div className="space-y-7">
           <Field label="여행 기간">
-            <Choices value={duration} set={setDuration} items={isDom ? ["당일", "1박 2일", "2박 3일", "3박 이상"] : ["2박 3일", "3박 4일", "3박 5일", "4박 이상"]} />
+            {stay ? (
+              // 1단계 달력에서 출발·도착일을 선택한 경우 자동 계산
+              <div className="rounded-xl bg-paper px-4 py-3.5 text-[15px]">
+                달력에서 선택하신 일정 기준 <b className="text-royaldark">{stay}</b>
+                <span className="text-mute"> ({dateStart.replace(/-/g, ". ")} ~ {dateEnd.replace(/-/g, ". ")})</span>
+                <br />
+                <span className="text-mute text-[13.5px]">일정을 바꾸시려면 이전 단계에서 날짜를 다시 선택해 주세요.</span>
+              </div>
+            ) : (
+              <Choices value={duration} set={setDuration} items={isDom ? ["당일", "1박 2일", "2박 3일", "3박 이상"] : ["2박 3일", "3박 4일", "3박 5일", "4박 이상"]} />
+            )}
           </Field>
           <Field label="라운드 수">
             <Choices value={rounds} set={setRounds} items={isDom ? ["1회 (18홀)", "2회 (36홀)", "3회 (54홀)", "상담 후 결정"] : ["2회", "3회 (54홀)", "4회 이상", "상담 후 결정"]} />
