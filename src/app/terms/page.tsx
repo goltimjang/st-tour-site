@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { site } from "@/data/site";
 
 export const metadata: Metadata = {
-  title: "이용약관 · 취소환불 규정",
+  title: "이용약관 | 여행 계약·취소 환불 규정 안내",
   description: "에스티골프투어 여행계약의 취소·환불 규정 안내. 공정거래위원회 국내·국외여행 표준약관과 소비자분쟁해결기준을 따릅니다.",
   alternates: { canonical: "/terms/" },
 };

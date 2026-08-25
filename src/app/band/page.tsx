@@ -3,7 +3,7 @@ import Link from "next/link";
 import { site } from "@/data/site";
 
 export const metadata: Metadata = {
-  title: "밴드 멤버 안내",
+  title: "밴드 멤버 안내 | 행사·견적 바로 신청",
   description: "에스티골프투어 밴드 멤버를 위한 안내 페이지입니다. 밴드 공지에서 보신 행사·견적을 이곳에서 바로 신청하세요.",
   alternates: { canonical: "/band/" },
   robots: { index: false }, // 밴드 유입 전용 랜딩: 검색 색인 불필요

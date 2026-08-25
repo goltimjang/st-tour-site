@@ -20,6 +20,8 @@ export default function Home() {
   return (
     <>
       {/* ---------- 히어로 (사진 + 진입 애니메이션) ---------- */}
+      {/* LCP 이미지(비디오 포스터) 선로딩: React가 head로 호이스팅 */}
+      <link rel="preload" as="image" href="/images/hero.jpg" fetchPriority="high" />
       <section className="relative bg-navydeep text-white overflow-hidden">
         <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
           <HeroVideo src="/videos/hero.mp4" poster="/images/hero.jpg" />

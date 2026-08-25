@@ -5,6 +5,7 @@ import { tier1, tier2, tier3 } from "@/data/destinations";
 import { overseasPrices, priceDisclaimer } from "@/data/prices";
 import QuoteForm from "@/components/QuoteForm";
 import { breadcrumbLd } from "@/data/jsonld";
+import { site } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "해외 골프투어 견적 | 일본·태국·베트남 등 14개국",
@@ -15,10 +16,40 @@ export const metadata: Metadata = {
 
 const crumbLd = breadcrumbLd([{ name: "해외 골프투어", path: "/overseas/" }]);
 
+const overseasFaqs = [
+  {
+    q: "해외 골프투어 비용은 얼마부터 가능한가요?",
+    a: "국가와 시즌, 숙박 수준에 따라 다릅니다. 아래 가격 안내표가 실제 여행사 게시가를 조사한 통상 범위이며, 인원·날짜·숙박 수준을 보내주시면 24시간 안에 항공·숙박·그린피가 포함된 정확한 견적서를 보내드립니다.",
+  },
+  {
+    q: "항공권을 직접 예약해도 되나요?",
+    a: "네, 항공 불포함 견적도 가능합니다. 마일리지나 저가 항공을 직접 예약하시고, 현지 골프장·숙박·차량만 저희가 준비해 드릴 수 있습니다. 견적 요청 시 '항공 불포함'을 선택하시면 됩니다.",
+  },
+  {
+    q: "어느 나라로 가야 할지 모르겠어요. 추천해 주시나요?",
+    a: "네, 시기와 예산을 알려주시면 그 조건에 맞는 국가를 골라 비교 견적으로 안내해 드립니다. 예를 들어 겨울에는 동남아, 봄·가을에는 일본이 라운드하기 좋은 식으로 시즌에 맞춰 추천해 드립니다.",
+  },
+  {
+    q: "동호회나 회사 단체 해외 골프투어도 진행하나요?",
+    a: "네, 소그룹부터 동호회·기업 단체까지 견적드립니다. 단체 조편성과 현지 시상 행사까지 대행한 경험이 있으며, 인원과 희망 시기를 보내주시면 단체 조건으로 안내해 드립니다.",
+  },
+];
+
+const faqLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: overseasFaqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
+
 export default function OverseasPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
       <section className="relative bg-navy text-white overflow-hidden">
         <div className="absolute inset-0" aria-hidden="true">
           <Image src="/images/overseas.jpg" alt="" fill priority sizes="100vw" className="object-cover" />
@@ -100,6 +131,19 @@ export default function OverseasPage() {
           </table>
         </div>
         <p className="text-[13.5px] text-mute mt-3 max-w-3xl">{priceDisclaimer}</p>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-5 pb-16">
+        <h2 className="headline text-xl sm:text-2xl mb-5">해외 골프투어, 자주 묻는 질문</h2>
+        <div className="grid md:grid-cols-2 gap-4">
+          {overseasFaqs.map((f) => (
+            <div key={f.q} className="rounded-2xl border border-line bg-white p-6">
+              <h3 className="font-bold text-[16.5px] mb-2">{f.q}</h3>
+              <p className="text-[14.5px] text-mute leading-relaxed">{f.a}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-[12.5px] text-mute mt-4">최종 수정일: {site.contentUpdated} · 작성: 에스티골프투어</p>
       </section>
     </>
   );
