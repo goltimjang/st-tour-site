@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { site } from "@/data/site";
+import { webPageLd } from "@/data/jsonld";
 
 export const metadata: Metadata = {
   title: "이용약관 | 여행 계약·취소 환불 규정 안내",
@@ -24,8 +25,10 @@ const domestic = [
 ];
 
 export default function TermsPage() {
+  const pageLd = webPageLd("이용약관 · 취소환불 규정", "/terms/", "에스티골프투어 여행계약의 취소·환불 규정. 공정거래위원회 표준약관과 소비자분쟁해결기준을 따릅니다.");
   return (
     <section className="mx-auto max-w-3xl px-5 py-14">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <p className="eyebrow text-royal mb-3">Terms &amp; Cancellation</p>
       <h1 className="headline text-[28px] sm:text-[36px] mb-2">이용약관 · 취소환불 규정</h1>
       <p className="text-[13px] text-mute mb-6">최종 수정일: {site.contentUpdated}</p>

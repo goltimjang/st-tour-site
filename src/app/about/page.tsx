@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { site } from "@/data/site";
-import { breadcrumbLd } from "@/data/jsonld";
+import { breadcrumbLd, webPageLd } from "@/data/jsonld";
 import PosterShelf from "@/components/PosterShelf";
 import EventGallery from "@/components/EventGallery";
 import Counter from "@/components/Counter";
@@ -15,12 +15,14 @@ export const metadata: Metadata = {
 };
 
 const crumbLd = breadcrumbLd([{ name: "회사소개", path: "/about/" }]);
+const pageLd = webPageLd("회사소개 | 세종 골프투어 전문 여행사", "/about/", site.positioning);
 
 export default function AboutPage() {
   const c = site.company;
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       {/* 헤더 */}
       <section className="bg-white border-b border-line">
         <div className="mx-auto max-w-6xl px-5 py-12 sm:py-16 hero-anim">

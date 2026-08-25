@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { faqs } from "@/data/faq";
 import { site } from "@/data/site";
-import { breadcrumbLd } from "@/data/jsonld";
+import { breadcrumbLd, webPageLd } from "@/data/jsonld";
 
 export const metadata: Metadata = {
   title: "자주 묻는 질문 | 골프투어 견적 안내",
@@ -10,6 +10,8 @@ export const metadata: Metadata = {
     "골프투어 견적은 어떻게 받나요? 비용은 얼마인가요? 2명도 가능한가요? 에스티골프투어 골프투어 견적에 대한 자주 묻는 질문과 답변을 모았습니다.",
   alternates: { canonical: "/faq/" },
 };
+
+const pageLd = webPageLd("자주 묻는 질문 | 골프투어 견적 안내", "/faq/", "골프투어 견적 절차, 비용 포함 범위, 취소 규정 등 자주 묻는 질문과 답변.");
 
 export default function FaqPage() {
   const jsonLd = {
@@ -25,6 +27,7 @@ export default function FaqPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd([{ name: "자주 묻는 질문", path: "/faq/" }])) }}

@@ -4,6 +4,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { tier1 } from "@/data/destinations";
 import { site } from "@/data/site";
+import { webPageLd } from "@/data/jsonld";
 import QuoteForm from "@/components/QuoteForm";
 
 // 국가 페이지: T1 5개국만 정적 생성 (얇은 페이지 양산 방지)
@@ -67,9 +68,12 @@ export default async function CountryPage({ params }: { params: Promise<{ slug: 
     })),
   };
 
+  const pageLd = webPageLd(`${d.name} 골프투어 견적 | 시즌·가격 안내`, `/overseas/${slug}/`, `${d.name} 골프투어 맞춤 견적. 항공·숙박·라운드 포함 구성을 24시간 안에 안내합니다.`);
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
 
       <section className="relative bg-navy text-white overflow-hidden">

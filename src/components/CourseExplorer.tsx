@@ -46,7 +46,7 @@ export default function CourseExplorer({ onPick }: { onPick: (course: Course) =>
       {/* 지도 헤더 */}
       <div className="grid md:grid-cols-2 items-stretch border-b border-line">
         <div className="relative min-h-[240px] bg-[#f7f3e8]">
-          <Image src="/images/map-korea.jpg" alt="전국 골프장 지도" fill sizes="(max-width: 768px) 100vw, 560px" className="object-cover" />
+          <Image src="/images/map-korea.webp" alt="전국 골프장 지도" fill sizes="(max-width: 768px) 100vw, 560px" className="object-cover" />
         </div>
         <div className="p-6 sm:p-8 flex flex-col justify-center">
           <h3 className="headline text-[22px] sm:text-[25px] mb-1.5">전국 골프장 찾기</h3>

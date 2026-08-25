@@ -25,6 +25,11 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     images: ["/og.jpg"],
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large", "max-video-preview": -1 },
+  },
   verification: {
     // 네이버 서치어드바이저 소유확인 (2026-08-18)
     other: {

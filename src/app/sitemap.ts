@@ -6,7 +6,7 @@ import { tier1 } from "@/data/destinations";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = site.domain;
-  const now = new Date();
+  const now = new Date(site.contentUpdatedISO + "T00:00:00+09:00");
   const pages = ["/", "/domestic/", "/overseas/", "/promotion/", "/about/", "/faq/", "/terms/", "/privacy/"];
   return [
     ...pages.map((p) => ({

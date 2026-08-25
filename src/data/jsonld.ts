@@ -14,3 +14,21 @@ export function breadcrumbLd(items: { name: string; path: string }[]) {
     })),
   };
 }
+
+/** 페이지별 WebPage 스키마: 발행·수정일과 발행 주체(E-E-A-T 신호) 포함 */
+export function webPageLd(name: string, path: string, description: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${site.domain}${path}#webpage`,
+    url: `${site.domain}${path}`,
+    name,
+    description,
+    inLanguage: "ko",
+    isPartOf: { "@id": `${site.domain}/#website` },
+    about: { "@id": `${site.domain}/#organization` },
+    publisher: { "@id": `${site.domain}/#organization` },
+    datePublished: site.publishedISO,
+    dateModified: site.contentUpdatedISO,
+  };
+}

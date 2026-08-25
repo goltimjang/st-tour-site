@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { site } from "@/data/site";
 import { royalcc } from "@/data/royalcc";
-import { breadcrumbLd } from "@/data/jsonld";
+import { breadcrumbLd, webPageLd } from "@/data/jsonld";
 import Reveal from "@/components/Reveal";
 
 export const metadata: Metadata = {
@@ -48,6 +48,7 @@ const eventLd = {
 };
 
 const crumbLd = breadcrumbLd([{ name: "로얄CC 클럽 페스티벌 2026", path: "/promotion/" }]);
+const pageLd = webPageLd("로얄CC 클럽 페스티벌 2026 | 베트남 하노이 골프 페스티벌", "/promotion/", "베트남 닌빈 로얄CC 3박 5일 골프 페스티벌. 총 54홀, 5성 숙박, 왕복 항공 포함 1,290,000원.");
 
 export default function PromotionPage() {
   const r = royalcc;
@@ -55,10 +56,11 @@ export default function PromotionPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(eventLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       {/* 히어로 */}
       <section className="relative bg-navydeep text-white overflow-hidden">
         <div className="absolute inset-0" aria-hidden="true">
-          <Image src="/images/royalcc.jpg" alt="" fill priority sizes="100vw" className="object-cover hero-bg" />
+          <Image src="/images/royalcc.webp" alt="" fill priority sizes="100vw" className="object-cover hero-bg" />
           <div className="absolute inset-0" style={{ background: "linear-gradient(92deg, rgba(3,13,44,.88) 0%, rgba(3,13,44,.6) 55%, rgba(3,13,44,.2) 100%)" }} />
         </div>
         <div className="relative mx-auto max-w-6xl px-5 py-16 sm:py-24 hero-anim">

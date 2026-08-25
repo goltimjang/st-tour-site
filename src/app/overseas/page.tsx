@@ -4,7 +4,7 @@ import Image from "next/image";
 import { tier1, tier2, tier3 } from "@/data/destinations";
 import { overseasPrices, priceDisclaimer } from "@/data/prices";
 import QuoteForm from "@/components/QuoteForm";
-import { breadcrumbLd } from "@/data/jsonld";
+import { breadcrumbLd, webPageLd } from "@/data/jsonld";
 import { site } from "@/data/site";
 
 export const metadata: Metadata = {
@@ -15,6 +15,7 @@ export const metadata: Metadata = {
 };
 
 const crumbLd = breadcrumbLd([{ name: "해외 골프투어", path: "/overseas/" }]);
+const pageLd = webPageLd("해외 골프투어 견적 | 일본·태국·베트남 등 14개국", "/overseas/", "항공·숙박·그린피·차량을 묶은 해외 골프투어 맞춤 견적을 24시간 안에 보내드립니다.");
 
 const overseasFaqs = [
   {
@@ -49,6 +50,7 @@ export default function OverseasPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
       <section className="relative bg-navy text-white overflow-hidden">
         <div className="absolute inset-0" aria-hidden="true">

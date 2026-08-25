@@ -3,7 +3,7 @@ import Image from "next/image";
 import { site } from "@/data/site";
 import { domesticPrices, priceDisclaimer } from "@/data/prices";
 import DomesticClient from "./DomesticClient";
-import { breadcrumbLd } from "@/data/jsonld";
+import { breadcrumbLd, webPageLd } from "@/data/jsonld";
 
 export const metadata: Metadata = {
   title: "국내 골프투어 견적 | 전국 골프장 맞춤 패키지",
@@ -42,12 +42,14 @@ const faqLd = {
 };
 
 const crumbLd = breadcrumbLd([{ name: "국내 골프투어", path: "/domestic/" }]);
+const pageLd = webPageLd("국내 골프투어 견적 | 전국 골프장 맞춤 패키지", "/domestic/", "전국 500여 개 골프장에서 지역과 골프장을 고르면 24시간 안에 맞춤 견적서를 보내드립니다.");
 
 export default function DomesticPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <section className="relative bg-navy text-white overflow-hidden">
         <div className="absolute inset-0" aria-hidden="true">
           <Image src="/images/domestic.jpg" alt="" fill priority sizes="100vw" className="object-cover" />

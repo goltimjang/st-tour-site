@@ -11,14 +11,18 @@ import PosterShelf from "@/components/PosterShelf";
 import QuoteSample from "@/components/QuoteSample";
 import EventGallery from "@/components/EventGallery";
 import ChatDemo from "@/components/ChatDemo";
+import { webPageLd } from "@/data/jsonld";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
 };
 
+const pageLd = webPageLd("에스티골프투어 | 국내·해외 골프투어 견적 전문", "/", site.positioning);
+
 export default function Home() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       {/* ---------- 히어로 (사진 + 진입 애니메이션) ---------- */}
       {/* LCP 이미지(비디오 포스터) 선로딩: React가 head로 호이스팅 */}
       <link rel="preload" as="image" href="/images/hero.jpg" fetchPriority="high" />
@@ -66,7 +70,7 @@ export default function Home() {
             className="group card-lift block rounded-3xl overflow-hidden text-white shadow-soft relative"
           >
             <div className="img-zoom absolute inset-0" aria-hidden="true">
-              <Image src="/images/royalcc.jpg" alt="" fill sizes="(max-width: 1152px) 100vw, 1152px" className="object-cover" />
+              <Image src="/images/royalcc.webp" alt="" fill sizes="(max-width: 1152px) 100vw, 1152px" className="object-cover" />
             </div>
             <div
               className="absolute inset-0"
@@ -284,7 +288,7 @@ export default function Home() {
       {/* ---------- 마지막 CTA (사진 배경) ---------- */}
       <section className="relative bg-navydeep text-white overflow-hidden">
         <div className="absolute inset-0" aria-hidden="true">
-          <Image src="/images/thailand.jpg" alt="" fill sizes="100vw" className="object-cover" />
+          <Image src="/images/thailand.webp" alt="" fill sizes="100vw" className="object-cover" />
           <div className="absolute inset-0" style={{ background: "linear-gradient(180deg, rgba(6,20,62,.62) 0%, rgba(13,79,245,.5) 100%)" }} />
         </div>
         <div className="relative mx-auto max-w-6xl px-5 py-20 text-center">

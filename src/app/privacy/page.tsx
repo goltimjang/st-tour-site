@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { site } from "@/data/site";
+import { webPageLd } from "@/data/jsonld";
 
 export const metadata: Metadata = {
   title: "개인정보처리방침 | 수집 항목·이용 목적·보유 기간 안내",
@@ -8,8 +9,10 @@ export const metadata: Metadata = {
 };
 
 export default function PrivacyPage() {
+  const pageLd = webPageLd("개인정보처리방침", "/privacy/", "에스티골프투어 개인정보처리방침. 수집 항목, 이용 목적, 보유 기간과 파기 절차 안내.");
   return (
     <section className="mx-auto max-w-3xl px-5 py-14">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <p className="eyebrow text-royal mb-3">Privacy Policy</p>
       <h1 className="headline text-[28px] sm:text-[36px] mb-6">개인정보처리방침</h1>
       <p className="text-[15px] text-mute mb-8">시행일: 2026년 8월 18일 · 최종 수정일: {site.contentUpdated}</p>
