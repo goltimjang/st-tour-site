@@ -3,9 +3,10 @@ import Image from "next/image";
 import { site } from "@/data/site";
 import { domesticPrices, priceDisclaimer } from "@/data/prices";
 import DomesticClient from "./DomesticClient";
+import { breadcrumbLd } from "@/data/jsonld";
 
 export const metadata: Metadata = {
-  title: "국내 골프투어 견적 — 전국 골프장 맞춤 패키지",
+  title: "국내 골프투어 견적 | 전국 골프장 맞춤 패키지",
   description:
     "전국 500여 개 골프장에서 지역과 골프장을 고르면 24시간 안에 맞춤 견적서를 보내드립니다. 티타임·숙박·이동까지 한 번에, 대행비까지 공개된 정직한 국내 골프투어 견적.",
   alternates: { canonical: "/domestic/" },
@@ -40,10 +41,13 @@ const faqLd = {
   })),
 };
 
+const crumbLd = breadcrumbLd([{ name: "국내 골프투어", path: "/domestic/" }]);
+
 export default function DomesticPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbLd) }} />
       <section className="relative bg-navy text-white overflow-hidden">
         <div className="absolute inset-0" aria-hidden="true">
           <Image src="/images/domestic.jpg" alt="" fill priority sizes="100vw" className="object-cover" />
@@ -56,7 +60,7 @@ export default function DomesticPage() {
             <br className="sm:hidden" /> 원하는 곳으로 모십니다.
           </h1>
           <p className="text-white/75 max-w-2xl text-[16.5px]">
-            지역만 골라도 되고, 골프장을 콕 집어도 됩니다. 1박 2일 골프여행부터 동호회·기업 단체 행사까지 —
+            지역만 골라도 되고, 골프장을 콕 집어도 됩니다. 1박 2일 골프여행부터 동호회·기업 단체 행사까지.
             조건을 보내주시면 <strong className="text-gold">24시간 안에</strong> 티타임·숙박·이동이 포함된 견적서를 보내드립니다.
           </p>
         </div>

@@ -3,7 +3,7 @@ import { site } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "개인정보처리방침",
-  description: "에스티골프투어 개인정보처리방침 — 견적 상담을 위한 개인정보의 수집 항목, 이용 목적, 보유 기간과 파기 절차를 안내합니다.",
+  description: "에스티골프투어 개인정보처리방침입니다. 견적 상담을 위한 개인정보의 수집 항목, 이용 목적, 보유 기간과 파기 절차를 안내합니다.",
   alternates: { canonical: "/privacy/" },
 };
 

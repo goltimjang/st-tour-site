@@ -4,17 +4,21 @@ import Image from "next/image";
 import { tier1, tier2, tier3 } from "@/data/destinations";
 import { overseasPrices, priceDisclaimer } from "@/data/prices";
 import QuoteForm from "@/components/QuoteForm";
+import { breadcrumbLd } from "@/data/jsonld";
 
 export const metadata: Metadata = {
-  title: "해외 골프투어 견적 — 일본·태국·베트남 등 14개국",
+  title: "해외 골프투어 견적 | 일본·태국·베트남 등 14개국",
   description:
     "일본, 태국, 베트남, 필리핀, 중국 등 14개국 해외 골프투어를 항공·숙박·라운드·차량까지 묶어 24시간 안에 맞춤 견적으로 보내드립니다. 대행비까지 공개된 정직한 견적.",
   alternates: { canonical: "/overseas/" },
 };
 
+const crumbLd = breadcrumbLd([{ name: "해외 골프투어", path: "/overseas/" }]);
+
 export default function OverseasPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbLd) }} />
       <section className="relative bg-navy text-white overflow-hidden">
         <div className="absolute inset-0" aria-hidden="true">
           <Image src="/images/overseas.jpg" alt="" fill priority sizes="100vw" className="object-cover" />
@@ -27,7 +31,7 @@ export default function OverseasPage() {
             <br className="sm:hidden" /> 골프여행의 모든 일정을 한 번에.
           </h1>
           <p className="text-white/75 max-w-2xl text-[16.5px]">
-            항공·숙박·그린피·차량을 묶어 예산에 맞게 설계합니다. 국가만 정해도 되고, 어디가 좋을지 몰라도 됩니다 —
+            항공·숙박·그린피·차량을 묶어 예산에 맞게 설계합니다. 국가만 정해도 되고, 어디가 좋을지 몰라도 됩니다.
             시기와 인원을 보내주시면 <strong className="text-gold">24시간 안에</strong> 견적서를 보내드립니다.
           </p>
         </div>
@@ -64,7 +68,7 @@ export default function OverseasPage() {
             <p className="text-[14.5px] text-mute leading-relaxed">
               {[...tier2, ...tier3].map((d) => d.name).join(" · ")}
               <br />
-              <span className="text-[13.5px]">— B2B 네트워크로 전 지역 대응 가능합니다. 원하는 곳을 요청사항에 적어주세요.</span>
+              <span className="text-[13.5px]">B2B 네트워크로 전 지역 대응 가능합니다. 원하는 곳을 요청사항에 적어주세요.</span>
             </p>
           </div>
         </div>

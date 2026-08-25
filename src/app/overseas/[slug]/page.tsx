@@ -6,7 +6,7 @@ import { tier1 } from "@/data/destinations";
 import { site } from "@/data/site";
 import QuoteForm from "@/components/QuoteForm";
 
-// 국가 페이지 — T1 5개국만 정적 생성 (얇은 페이지 양산 방지)
+// 국가 페이지: T1 5개국만 정적 생성 (얇은 페이지 양산 방지)
 export function generateStaticParams() {
   return tier1.map((d) => ({ slug: d.slug }));
 }
@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const d = tier1.find((x) => x.slug === slug);
   if (!d) return {};
   return {
-    title: `${d.name} 골프투어 견적 — 시즌·가격 안내`,
+    title: `${d.name} 골프투어 견적 | 시즌·가격 안내`,
     description: `${d.name} 골프투어를 맞춤 견적으로. ${d.cities.join(", ")} 지역, 성수기 ${d.season}, ${d.priceFrom ?? ""} 항공·숙박·라운드 포함 구성을 24시간 안에 견적드립니다.`,
     alternates: { canonical: `/overseas/${slug}/` },
   };

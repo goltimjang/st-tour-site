@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 
 /**
- * 히어로 배경 영상 — 데스크톱(768px+)에서만 로드·재생.
+ * 히어로 배경 영상: 데스크톱(768px+)에서만 로드·재생.
  * 모바일과 prefers-reduced-motion 환경은 포스터(정지 이미지)만 보여줘
  * 6.8MB 영상 다운로드를 건너뜀 (모바일 데이터·LCP 절약).
  */

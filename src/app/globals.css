@@ -13,7 +13,7 @@
   --color-royal: #0d4ff5;
   --color-royaldark: #0734ad;
   --color-royalhover: #2f74ff;
-  /* 포인트 컬러: 페어웨이 그린 + 로고 딥 그린(#0F3C32) — 클래스명은 호환 유지 */
+  /* 포인트 컬러: 페어웨이 그린 + 로고 딥 그린(#0F3C32): 클래스명은 호환 유지 */
   --color-gold: #17b877;
   --color-golddeep: #0f3c32;
   --color-paper: #f5f7fc;
@@ -112,7 +112,7 @@ body {
   color: var(--color-royal);
 }
 
-/* 폼 요소 — 고령 고객 배려: 16px+ (iOS 자동 줌 방지), 큰 터치 영역 */
+/* 폼 요소: 고령 고객 배려: 16px+ (iOS 자동 줌 방지), 큰 터치 영역 */
 .field {
   width: 100%;
   min-height: 52px;

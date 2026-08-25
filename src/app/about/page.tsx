@@ -1,22 +1,26 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { site } from "@/data/site";
+import { breadcrumbLd } from "@/data/jsonld";
 import PosterShelf from "@/components/PosterShelf";
 import EventGallery from "@/components/EventGallery";
 import Counter from "@/components/Counter";
 import Reveal from "@/components/Reveal";
 
 export const metadata: Metadata = {
-  title: "회사소개 — 세종 골프투어 전문 여행사",
+  title: "회사소개 | 세종 골프투어 전문 여행사",
   description:
     "에스티골프투어(ST TOUR)는 세종시의 종합여행업 등록 골프투어 전문 여행사입니다. 국내·해외 맞춤 골프투어, 골프부킹, 골프대회 행사를 전문으로 하며 영업보증보험을 갖추고 있습니다.",
   alternates: { canonical: "/about/" },
 };
 
+const crumbLd = breadcrumbLd([{ name: "회사소개", path: "/about/" }]);
+
 export default function AboutPage() {
   const c = site.company;
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbLd) }} />
       {/* 헤더 */}
       <section className="bg-white border-b border-line">
         <div className="mx-auto max-w-6xl px-5 py-12 sm:py-16 hero-anim">
@@ -82,14 +86,14 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* 직접 만든 대회들 — 다크 밴드 (포스터) */}
+      {/* 직접 만든 대회들: 다크 밴드 (포스터) */}
       <section className="bg-navydeep text-white overflow-hidden">
         <div className="mx-auto max-w-6xl px-5 pt-16 pb-2">
           <Reveal>
             <p className="eyebrow text-sky mb-2">Tournaments</p>
             <h2 className="headline text-2xl sm:text-3xl mb-3">직접 만든 대회들</h2>
             <p className="text-white/70 max-w-2xl">
-              하노이 월드 스크린골프 페스티벌, 더힐 클럽 페스티벌, 세종 챔피언십 — 에스티골프투어가 주최하고 주관한 대회의 공식 포스터입니다.
+              하노이 월드 스크린골프 페스티벌, 더힐 클럽 페스티벌, 세종 챔피언십. 에스티골프투어가 주최하고 주관한 대회의 공식 포스터입니다.
             </p>
           </Reveal>
         </div>
@@ -98,7 +102,7 @@ export default function AboutPage() {
         </Reveal>
       </section>
 
-      {/* 현장 스케치 — 라이트 (사진) */}
+      {/* 현장 스케치: 라이트 (사진) */}
       <section className="bg-paper overflow-hidden border-b border-line">
         <div className="mx-auto max-w-6xl px-5 pt-16 pb-4">
           <Reveal>

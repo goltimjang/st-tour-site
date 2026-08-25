@@ -11,7 +11,7 @@ const REGIONS = ["전체", "수도권", "강원", "충청", "호남", "영남", 
 const TYPES = ["전체", "대중제", "회원제"] as const;
 const REGION_ORDER = ["수도권", "강원", "충청", "호남", "영남", "제주"];
 
-/** 전국 골프장 찾기 — 지도 + 권역·운영형태 필터 + 리스트 */
+/** 전국 골프장 찾기: 지도 + 권역·운영형태 필터 + 리스트 */
 export default function CourseExplorer({ onPick }: { onPick: (course: Course) => void }) {
   const [region, setRegion] = useState<(typeof REGIONS)[number]>("전체");
   const [ctype, setCtype] = useState<(typeof TYPES)[number]>("전체");
@@ -95,13 +95,13 @@ export default function CourseExplorer({ onPick }: { onPick: (course: Course) =>
         </div>
 
         <p className="text-[13px] text-mute mb-3">
-          {region === "전체" ? "전국" : region} {ctype === "전체" ? "" : `· ${ctype}`} — {filtered.length}개
+          {region === "전체" ? "전국" : region} {ctype === "전체" ? "" : `· ${ctype}`} · {filtered.length}개
         </p>
 
         {/* 리스트 (2열) */}
         {filtered.length === 0 ? (
           <p className="py-10 text-center text-mute">
-            검색 결과가 없습니다. 이름이 정확하지 않아도 괜찮습니다 — 견적 요청서에 적어주시면 저희가 찾아드립니다.
+            검색 결과가 없습니다. 이름이 정확하지 않아도 괜찮습니다. 견적 요청서에 적어주시면 저희가 찾아드립니다.
           </p>
         ) : (
           <>

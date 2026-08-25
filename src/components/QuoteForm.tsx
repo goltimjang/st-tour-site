@@ -85,7 +85,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
       연락처: phone,
       연락채널: channel,
     };
-    // 정적 호스팅(GitHub Pages) — FormSubmit 릴레이로 운영자 메일 전달.
+    // 정적 호스팅(GitHub Pages): FormSubmit 릴레이로 운영자 메일 전달.
     // 해시 엔드포인트 사용: 소스에 이메일이 노출되지 않아 스팸봇 수집 방지 (goltimjang@gmail.com 수신)
     const subject = `[에스티골프투어 견적] ${payload.type} · ${payload["지역"]} · ${name}님 (${people}명)`;
     try {
@@ -128,7 +128,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
           </p>
         </div>
         <p className="mt-5 text-[15px] text-mute">
-          급하시면 지금 바로 연락 주세요 — 대표 직통 {site.phone}
+          급하시면 지금 바로 연락 주세요. 대표 직통 {site.phone}
         </p>
         <div className="mt-4 flex flex-col sm:flex-row gap-3">
           <a href={site.phoneHref} className="btn btn-royal">전화 상담 {site.phone}</a>
@@ -150,7 +150,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
       {/* 진행률 */}
       <div className="flex items-center justify-between mb-7">
         <p className="eyebrow text-royal">
-          Step {step} / 3 — {step === 1 ? "어디로, 언제, 몇 분?" : step === 2 ? "어떻게 즐기실까요?" : "어디로 보내드릴까요?"}
+          Step {step} / 3 · {step === 1 ? "어디로, 언제, 몇 분?" : step === 2 ? "어떻게 즐기실까요?" : "어디로 보내드릴까요?"}
         </p>
         <div className="flex gap-1.5" aria-hidden="true">
           {[1, 2, 3].map((i) => (
@@ -250,7 +250,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
             <Choices value={budget} set={setBudget} items={isDom ? BUDGETS_DOM : BUDGETS_OVS} />
           </Field>
           <Field label="선호 골프장 (선택)">
-            <input className="field" value={course} onChange={(e) => setCourse(e.target.value)} placeholder="예: 비발디파크CC / 없으면 비워두세요 — 저희가 추천해 드립니다" />
+            <input className="field" value={course} onChange={(e) => setCourse(e.target.value)} placeholder="예: 비발디파크CC / 없으면 비워두세요. 저희가 추천해 드립니다" />
           </Field>
           <Field label="요청사항 (선택)">
             <textarea className="field min-h-[96px]" value={memo} onChange={(e) => setMemo(e.target.value)} placeholder="예: 조식 포함 희망, 부모님 동반이라 이동이 편했으면 합니다" />
@@ -355,7 +355,7 @@ function BackBtn({ onClick }: { onClick: () => void }) {
 function CallEscape() {
   return (
     <p className="text-[15px] text-mute border-t border-line pt-4">
-      입력이 어려우시면 전화 주세요 —{" "}
+      입력이 어려우시면 전화 주세요.{" "}
       <a href={site.phoneHref} className="font-bold text-royaldark underline">
         {site.phone}
       </a>{" "}

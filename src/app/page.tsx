@@ -161,14 +161,14 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ---------- 원가 공개 — 견적서 샘플 + 상담 예시 ---------- */}
+      {/* ---------- 원가 공개: 견적서 샘플 + 상담 예시 ---------- */}
       <section className="mx-auto max-w-6xl px-5 py-16 sm:py-20 overflow-hidden">
         <Reveal>
           <p className="eyebrow text-royal mb-2">Transparent Quote</p>
           <h2 className="headline text-2xl sm:text-3xl mb-3">견적서, 이렇게 보내드립니다</h2>
           <p className="text-mute mb-10 max-w-2xl">
             총액만 적힌 견적서는 비교할 방법이 없습니다. 에스티골프투어는 항공·숙박·라운드 원가와 대행비를
-            나눠서 적습니다 — 어디에 얼마가 쓰이는지 직접 확인하세요.
+            나눠서 적습니다. 어디에 얼마가 쓰이는지 직접 확인하세요.
           </p>
         </Reveal>
         <div className="grid lg:grid-cols-2 gap-10 items-start">
@@ -249,7 +249,7 @@ export default function Home() {
             <p className="eyebrow text-royal mb-2">On The Course</p>
             <h2 className="headline text-2xl sm:text-3xl mb-3">대회 현장의 에스티골프투어</h2>
             <p className="text-mute max-w-2xl">
-              ST Tour 아마추어 대회부터 더힐 클럽 페스티벌까지 — 저희가 직접 만든 대회의 실제 현장입니다.
+              ST Tour 아마추어 대회부터 더힐 클럽 페스티벌까지, 저희가 직접 만든 대회의 실제 현장입니다.
             </p>
           </Reveal>
         </div>

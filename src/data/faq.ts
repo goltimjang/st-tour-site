@@ -1,4 +1,4 @@
-// FAQ — AEO 구조: 첫 문장 직답 → 조건 → 다음 행동. FAQPage JSON-LD로도 출력됨.
+// FAQ: AEO 구조: 첫 문장 직답 → 조건 → 다음 행동. FAQPage JSON-LD로도 출력됨.
 
 export type Faq = { q: string; a: string };
 

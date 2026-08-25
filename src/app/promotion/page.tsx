@@ -2,12 +2,13 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { site } from "@/data/site";
 import { royalcc } from "@/data/royalcc";
+import { breadcrumbLd } from "@/data/jsonld";
 import Reveal from "@/components/Reveal";
 
 export const metadata: Metadata = {
-  title: "로얄CC 클럽 페스티벌 2026 — 베트남 하노이 골프 페스티벌",
+  title: "로얄CC 클럽 페스티벌 2026 | 베트남 하노이 골프 페스티벌",
   description:
-    "베트남 닌빈 로얄CC에서 3박 5일, 총 54홀 라운드와 5성 숙박, 총 1억원 상당 시상까지. 왕복 항공 포함 1,290,000원 — 에스티골프투어가 진행하는 로얄CC 클럽 페스티벌 2026 상세 안내.",
+    "베트남 닌빈 로얄CC에서 3박 5일, 총 54홀 라운드와 5성 숙박, 총 1억원 상당 시상까지. 왕복 항공 포함 1,290,000원. 에스티골프투어가 진행하는 로얄CC 클럽 페스티벌 2026 상세 안내.",
   alternates: { canonical: "/promotion/" },
   openGraph: {
     images: [{ url: "/og-promotion.jpg", width: 1200, height: 630, alt: "로얄CC 클럽 페스티벌 2026" }],
@@ -18,10 +19,42 @@ export const metadata: Metadata = {
   },
 };
 
+// 페스티벌 Event 구조화 데이터 (royalccfestival.com 공식 게재 정보 기준)
+const eventLd = {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  name: royalcc.title,
+  description:
+    "베트남 닌빈 로얄CC에서 열리는 3박 5일 골프 페스티벌. 총 54홀 라운드, 5성 숙박, 총 1억원 상당 시상. 왕복 항공 포함.",
+  startDate: "2026-12-13",
+  endDate: "2026-12-17",
+  eventStatus: "https://schema.org/EventScheduled",
+  eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+  image: `${site.domain}/og-promotion.jpg`,
+  location: {
+    "@type": "Place",
+    name: "로얄CC (Royal Golf Course)",
+    address: { "@type": "PostalAddress", addressLocality: "닌빈", addressCountry: "VN" },
+  },
+  offers: {
+    "@type": "Offer",
+    price: 1290000,
+    priceCurrency: "KRW",
+    url: `${site.domain}/promotion/`,
+    availability: "https://schema.org/InStock",
+    description: "1인 기준 · 2인 1실 · 왕복 항공 포함",
+  },
+  organizer: { "@id": `${site.domain}/#organization` },
+};
+
+const crumbLd = breadcrumbLd([{ name: "로얄CC 클럽 페스티벌 2026", path: "/promotion/" }]);
+
 export default function PromotionPage() {
   const r = royalcc;
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(eventLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbLd) }} />
       {/* 히어로 */}
       <section className="relative bg-navydeep text-white overflow-hidden">
         <div className="absolute inset-0" aria-hidden="true">
@@ -140,7 +173,7 @@ export default function PromotionPage() {
           <div className="rounded-2xl border border-line bg-white shadow-soft p-7 sm:p-10">
             <h2 className="headline text-xl sm:text-2xl mb-4">신청 방법</h2>
             <ol className="space-y-2 text-[15.5px] mb-6 list-decimal pl-5">
-              <li>전화({site.phone}) 또는 밴드로 참가 의사를 알려주세요. — {r.recruit}</li>
+              <li>전화({site.phone}) 또는 밴드로 참가 의사를 알려주세요. {r.recruit}</li>
               <li>{r.deposit} 입금 시 참가가 확정됩니다.</li>
               <li>출발 전 최종 일정표와 준비물 안내를 보내드립니다.</li>
             </ol>

@@ -14,7 +14,7 @@ const nav = [
   { href: "/faq", label: "자주 묻는 질문" },
 ];
 
-/** 밝은 플로팅 카드형 헤더 — 흰색 라운드 바 + 부드러운 그림자 */
+/** 밝은 플로팅 카드형 헤더: 흰색 라운드 바 + 부드러운 그림자 */
 export default function Header() {
   const [open, setOpen] = useState(false);
 

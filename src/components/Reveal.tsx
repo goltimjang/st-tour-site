@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 
-/** 스크롤 진입 시 부드럽게 나타나는 래퍼 — prefers-reduced-motion 존중 (CSS에서 처리) */
+/** 스크롤 진입 시 부드럽게 나타나는 래퍼: prefers-reduced-motion 존중 (CSS에서 처리) */
 export default function Reveal({
   children,
   className = "",

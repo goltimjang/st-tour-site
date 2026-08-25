@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { site } from "@/data/site";
 
-/** 밝은 푸터 — 흰 배경 + 얇은 상단 보더 */
+/** 밝은 푸터: 흰 배경 + 얇은 상단 보더 */
 export default function Footer() {
   const c = site.company;
   return (

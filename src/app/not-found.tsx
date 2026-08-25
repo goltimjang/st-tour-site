@@ -17,7 +17,7 @@ export default function NotFound() {
         <Link href="/overseas/" className="btn btn-light">해외 골프투어 견적</Link>
       </div>
       <p className="mt-8 text-[14.5px] text-mute">
-        급하시면 전화 주세요 — <a href={site.phoneHref} className="font-bold text-royaldark underline">{site.phone}</a>
+        급하시면 전화 주세요. <a href={site.phoneHref} className="font-bold text-royaldark underline">{site.phone}</a>
       </p>
     </section>
   );

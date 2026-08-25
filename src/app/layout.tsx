@@ -11,7 +11,7 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || site.domain;
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "에스티골프투어 — 국내·해외 골프투어 견적 전문",
+    default: "에스티골프투어 | 국내·해외 골프투어 견적 전문",
     template: "%s | 에스티골프투어",
   },
   description: site.positioning,
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "에스티골프투어",
     locale: "ko_KR",
     type: "website",
-    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "에스티골프투어 — 24시간 맞춤 골프투어 견적" }],
+    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "에스티골프투어 24시간 맞춤 골프투어 견적" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -36,19 +36,48 @@ export const metadata: Metadata = {
 const orgJsonLd = {
   "@context": "https://schema.org",
   "@type": "TravelAgency",
+  "@id": `${site.domain}/#organization`,
   name: "에스티골프투어",
   alternateName: ["에스티투어", "ST TOUR", "에스티골프투어"],
   url: site.domain,
+  logo: `${site.domain}/logo-black.png`,
+  image: `${site.domain}/og.jpg`,
   telephone: "+82-10-4461-7400",
+  email: site.email,
   address: {
     "@type": "PostalAddress",
     addressCountry: "KR",
     addressRegion: "세종특별자치시",
     streetAddress: site.company.address,
   },
+  contactPoint: {
+    "@type": "ContactPoint",
+    contactType: "customer service",
+    telephone: "+82-10-4461-7400",
+    availableLanguage: "Korean",
+  },
+  openingHoursSpecification: {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    opens: "09:00",
+    closes: "18:00",
+  },
+  sameAs: [site.kakaoUrl, site.bandUrl],
   description: site.positioning,
+  knowsAbout: ["골프투어", "골프여행", "골프 패키지", "골프장 부킹", "골프대회 운영"],
   areaServed: ["대한민국", "일본", "태국", "베트남", "필리핀", "중국", "대만", "말레이시아", "괌", "사이판"],
   foundingDate: site.company.since,
+};
+
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": `${site.domain}/#website`,
+  name: "에스티골프투어",
+  alternateName: "ST TOUR",
+  url: site.domain,
+  inLanguage: "ko",
+  publisher: { "@id": `${site.domain}/#organization` },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -66,6 +95,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
         />
         <Header />
         <main className="flex-1">{children}</main>

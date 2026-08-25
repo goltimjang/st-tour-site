@@ -5,7 +5,7 @@ type Photo = { src: string; w: number; h: number; caption: string };
 const photos = eventsData as Photo[];
 
 /**
- * 행사 현장 갤러리 — 실제 대회 사진 자동 슬라이드.
+ * 행사 현장 갤러리: 실제 대회 사진 자동 슬라이드.
  * 포스터 진열대와 같은 마퀴 방식, 반대 방향으로 흘러 리듬감을 줌.
  */
 export default function EventGallery() {
