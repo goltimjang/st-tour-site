@@ -4,7 +4,7 @@
  */
 const messages: { from: "customer" | "st"; text: string; note?: string }[] = [
   { from: "customer", text: "12월 첫째 주에 4명이서 태국으로 골프 가려고 하는데, 대충 얼마나 들까요?" },
-  { from: "st", text: "안녕하세요, 에스티투어입니다. 12월 초 방콕이면 성수기 초입이라 지금 알아보시는 게 딱 좋아요. 라운드는 몇 번 생각하세요?" },
+  { from: "st", text: "안녕하세요, 에스티골프투어입니다. 12월 초 방콕이면 성수기 초입이라 지금 알아보시는 게 딱 좋아요. 라운드는 몇 번 생각하세요?" },
   { from: "customer", text: "3번이요. 숙소는 골프장 가까운 데면 됩니다." },
   { from: "st", text: "확인했습니다. 내일 이 시간 전까지 견적서 보내드릴게요.", note: "24시간 카운트 시작" },
   { from: "st", text: "견적서 보내드렸습니다! 항공 38만 · 숙박 21만 · 3라운드 33만 · 차량 8만, 저희 대행비 10만원까지 전부 적어서 1인 110만원입니다. 조정하고 싶은 부분 말씀 주세요.", note: "다음 날 오전" },
@@ -17,7 +17,7 @@ export default function ChatDemo() {
       <div className="rounded-2xl border border-line bg-[#EAEFF7] overflow-hidden shadow-soft">
         <div className="bg-navy text-white px-5 py-3 flex items-center gap-2.5">
           <span className="h-2.5 w-2.5 rounded-full bg-gold inline-block" aria-hidden="true" />
-          <span className="text-[14px] font-bold">에스티투어 상담</span>
+          <span className="text-[14px] font-bold">에스티골프투어 상담</span>
           <span className="ml-auto text-[11px] text-white/60">진행 과정 예시</span>
         </div>
         <div className="px-4 py-5 space-y-3">

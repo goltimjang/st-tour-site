@@ -27,7 +27,7 @@ function buildFaqs(d: (typeof tier1)[number]) {
   return [
     {
       q: `${d.name} 골프투어 비용은 얼마인가요?`,
-      a: `${d.priceRange ? `1인 기준 ${d.priceRange} 수준이 시장 통상 범위입니다(왕복 항공 포함).` : "구성에 따라 달라 견적으로 안내드립니다."} 시즌·항공·숙박 등급에 따라 달라지며, 에스티투어 견적서에는 골프장·숙박·항공 원가와 대행비가 분리 표기되어 어디에 얼마가 쓰이는지 직접 확인하실 수 있습니다.`,
+      a: `${d.priceRange ? `1인 기준 ${d.priceRange} 수준이 시장 통상 범위입니다(왕복 항공 포함).` : "구성에 따라 달라 견적으로 안내드립니다."} 시즌·항공·숙박 등급에 따라 달라지며, 에스티골프투어 견적서에는 골프장·숙박·항공 원가와 대행비가 분리 표기되어 어디에 얼마가 쓰이는지 직접 확인하실 수 있습니다.`,
     },
     {
       q: `${d.name} 골프여행은 언제 가는 게 좋은가요?`,
@@ -115,9 +115,29 @@ export default async function CountryPage({ params }: { params: Promise<{ slug: 
               <p className="text-[15px] leading-relaxed">{f.a}</p>
             </div>
           ))}
-          <p className="text-[12.5px] text-mute px-1">최종 수정일: {site.contentUpdated} · 작성: 에스티투어</p>
+          <p className="text-[12.5px] text-mute px-1">최종 수정일: {site.contentUpdated} · 작성: 에스티골프투어</p>
         </div>
       </section>
+
+      {/* 지역별 안내 (SEO 콘텐츠) */}
+      {d.areas && (
+        <section className="bg-white border-y border-line">
+          <div className="mx-auto max-w-6xl px-5 py-14">
+            <h2 className="headline text-xl sm:text-2xl mb-2">{d.name} 골프투어, 어디로 갈까요?</h2>
+            <p className="text-mute text-[15px] mb-7 max-w-2xl">
+              같은 {d.name}이라도 지역마다 코스 성격과 일정 구성이 다릅니다. 조건에 맞는 지역을 함께 골라드립니다.
+            </p>
+            <div className="grid md:grid-cols-3 gap-5">
+              {d.areas.map((a) => (
+                <div key={a.name} className="rounded-2xl border border-line bg-paper p-6">
+                  <h3 className="font-bold text-[17px] mb-2">{a.name}</h3>
+                  <p className="text-[14.5px] leading-relaxed text-ink/85">{a.text}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* 다른 목적지 상호 링크 */}
       <section className="mx-auto max-w-6xl px-5 pb-16">

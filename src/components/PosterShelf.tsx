@@ -7,7 +7,7 @@ import { posters } from "@/data/posters";
  */
 export default function PosterShelf({ onDark = false }: { onDark?: boolean }) {
   return (
-    <div className="poster-marquee" aria-label="에스티투어 대회 포스터 (자동 슬라이드)">
+    <div className="poster-marquee" aria-label="에스티골프투어 대회 포스터 (자동 슬라이드)">
       <div className="poster-track">
         {[0, 1].map((copy) => (
           <div key={copy} className="poster-set" aria-hidden={copy === 1}>

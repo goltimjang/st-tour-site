@@ -104,7 +104,7 @@ export default function DomesticPage() {
             </div>
           ))}
         </div>
-        <p className="text-[12.5px] text-mute mt-4">최종 수정일: {site.contentUpdated} · 작성: 에스티투어</p>
+        <p className="text-[12.5px] text-mute mt-4">최종 수정일: {site.contentUpdated} · 작성: 에스티골프투어</p>
       </section>
     </>
   );

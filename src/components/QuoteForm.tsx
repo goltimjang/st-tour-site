@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { site } from "@/data/site";
 import { destinations } from "@/data/destinations";
+import Calendar from "@/components/Calendar";
 
 type Props = {
   type: "domestic" | "overseas";
@@ -86,7 +87,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
     };
     // 정적 호스팅(GitHub Pages) — FormSubmit 릴레이로 운영자 메일 전달.
     // 해시 엔드포인트 사용: 소스에 이메일이 노출되지 않아 스팸봇 수집 방지 (goltimjang@gmail.com 수신)
-    const subject = `[에스티투어 견적] ${payload.type} · ${payload["지역"]} · ${name}님 (${people}명)`;
+    const subject = `[에스티골프투어 견적] ${payload.type} · ${payload["지역"]} · ${name}님 (${people}명)`;
     try {
       const res = await fetch("https://formsubmit.co/ajax/dea690313c66c8f0af9faeae39e6b6dc", {
         method: "POST",
@@ -200,7 +201,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
               <button type="button" className="choice" data-on={dateMode === "flexible"} onClick={() => setDateMode("flexible")}>시기만 정했어요</button>
             </div>
             {dateMode === "date" ? (
-              <input type="date" className="field" value={date} onChange={(e) => setDate(e.target.value)} aria-label="희망 날짜 선택" />
+              <Calendar value={date} onChange={setDate} />
             ) : (
               <div className="flex flex-wrap gap-2.5">
                 {["이번 달 안에", "1~2개월 안에", "3개월 이후", "미정 (상담 후 결정)"].map((t) => (

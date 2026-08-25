@@ -6,7 +6,7 @@ import { site } from "@/data/site";
 export const metadata: Metadata = {
   title: "자주 묻는 질문 — 골프투어 견적 안내",
   description:
-    "골프투어 견적은 어떻게 받나요? 비용은 얼마인가요? 2명도 가능한가요? 에스티투어 골프투어 견적에 대한 자주 묻는 질문과 답변을 모았습니다.",
+    "골프투어 견적은 어떻게 받나요? 비용은 얼마인가요? 2명도 가능한가요? 에스티골프투어 골프투어 견적에 대한 자주 묻는 질문과 답변을 모았습니다.",
   alternates: { canonical: "/faq/" },
 };
 
@@ -28,7 +28,7 @@ export default function FaqPage() {
         <div className="mx-auto max-w-6xl px-5 py-12 sm:py-16 hero-anim">
           <p className="eyebrow text-royal mb-3">FAQ</p>
           <h1 className="headline text-[30px] sm:text-[42px] text-navy">자주 묻는 질문</h1>
-          <p className="text-[13px] text-mute mt-3">최종 수정일: {site.contentUpdated} · 작성: 에스티투어</p>
+          <p className="text-[13px] text-mute mt-3">최종 수정일: {site.contentUpdated} · 작성: 에스티골프투어</p>
         </div>
       </section>
 

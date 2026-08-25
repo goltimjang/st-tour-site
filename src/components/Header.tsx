@@ -22,8 +22,8 @@ export default function Header() {
     <header className="sticky top-0 z-50 px-3 sm:px-5 pt-3 pb-1">
       <div className="mx-auto max-w-6xl rounded-2xl bg-white/95 backdrop-blur-md border border-white shadow-[0_10px_34px_rgba(6,20,62,0.10)]">
         <div className="h-[64px] flex items-center justify-between gap-4 px-5 sm:px-7">
-          <Link href="/" className="shrink-0" aria-label="에스티투어 홈">
-            <Image src="/logo-black.png" alt="에스티투어" width={188} height={32} priority className="h-8 w-auto" />
+          <Link href="/" className="shrink-0" aria-label="에스티골프투어 홈">
+            <Image src="/logo-black.png" alt="에스티골프투어" width={188} height={32} priority className="h-8 w-auto" />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-7" aria-label="주 메뉴">

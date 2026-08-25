@@ -17,7 +17,7 @@ export default function OverseasPage() {
     <>
       <section className="relative bg-navy text-white overflow-hidden">
         <div className="absolute inset-0" aria-hidden="true">
-          <Image src="/images/vietnam.jpg" alt="" fill priority sizes="100vw" className="object-cover" />
+          <Image src="/images/overseas.jpg" alt="" fill priority sizes="100vw" className="object-cover" />
           <div className="absolute inset-0" style={{ background: "linear-gradient(90deg, rgba(3,13,44,.9) 0%, rgba(3,13,44,.65) 50%, rgba(3,13,44,.3) 100%)" }} />
         </div>
         <div className="relative mx-auto max-w-6xl px-5 py-16 sm:py-20 hero-anim">

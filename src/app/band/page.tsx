@@ -4,7 +4,7 @@ import { site } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "밴드 멤버 안내",
-  description: "에스티투어 밴드 멤버를 위한 안내 페이지입니다. 밴드 공지에서 보신 행사·견적을 이곳에서 바로 신청하세요.",
+  description: "에스티골프투어 밴드 멤버를 위한 안내 페이지입니다. 밴드 공지에서 보신 행사·견적을 이곳에서 바로 신청하세요.",
   alternates: { canonical: "/band/" },
   robots: { index: false }, // 밴드 유입 전용 랜딩 — 검색 색인 불필요
 };
@@ -15,7 +15,7 @@ export default function BandPage() {
       <p className="eyebrow text-royal mb-3">For Band Members</p>
       <h1 className="headline text-[28px] sm:text-[38px] mb-4">밴드에서 오셨군요, 반갑습니다!</h1>
       <p className="text-[16.5px] text-mute mb-8">
-        에스티투어 밴드 공지에서 보신 행사와 골프투어 견적을 이 홈페이지에서 바로 신청하실 수 있습니다.
+        에스티골프투어 밴드 공지에서 보신 행사와 골프투어 견적을 이 홈페이지에서 바로 신청하실 수 있습니다.
         밴드 멤버임을 요청사항에 적어주시면 상담 시 참고해 드립니다.
       </p>
       <div className="space-y-4">

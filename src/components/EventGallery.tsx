@@ -11,7 +11,7 @@ const photos = eventsData as Photo[];
 export default function EventGallery() {
   if (photos.length === 0) return null;
   return (
-    <div className="photo-marquee" aria-label="에스티투어 대회 현장 사진 (자동 슬라이드)">
+    <div className="photo-marquee" aria-label="에스티골프투어 대회 현장 사진 (자동 슬라이드)">
       <div className="photo-track">
         {[0, 1].map((copy) => (
           <div key={copy} className="photo-set" aria-hidden={copy === 1}>

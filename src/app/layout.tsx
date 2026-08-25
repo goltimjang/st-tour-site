@@ -11,15 +11,15 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || site.domain;
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "에스티투어 — 24시간 맞춤 골프투어 견적",
-    template: "%s | 에스티투어",
+    default: "에스티골프투어 — 국내·해외 골프투어 견적 전문",
+    template: "%s | 에스티골프투어",
   },
   description: site.positioning,
   openGraph: {
-    siteName: "에스티투어",
+    siteName: "에스티골프투어",
     locale: "ko_KR",
     type: "website",
-    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "에스티투어 — 24시간 맞춤 골프투어 견적" }],
+    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "에스티골프투어 — 24시간 맞춤 골프투어 견적" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -36,8 +36,8 @@ export const metadata: Metadata = {
 const orgJsonLd = {
   "@context": "https://schema.org",
   "@type": "TravelAgency",
-  name: "에스티투어",
-  alternateName: "ST TOUR",
+  name: "에스티골프투어",
+  alternateName: ["에스티투어", "ST TOUR", "에스티골프투어"],
   url: site.domain,
   telephone: "+82-10-4461-7400",
   address: {

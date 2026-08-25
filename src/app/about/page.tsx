@@ -9,7 +9,7 @@ import Reveal from "@/components/Reveal";
 export const metadata: Metadata = {
   title: "회사소개 — 세종 골프투어 전문 여행사",
   description:
-    "에스티투어(ST TOUR)는 세종시의 종합여행업 등록 골프투어 전문 여행사입니다. 국내·해외 맞춤 골프투어, 골프부킹, 골프대회 행사를 전문으로 하며 영업보증보험을 갖추고 있습니다.",
+    "에스티골프투어(ST TOUR)는 세종시의 종합여행업 등록 골프투어 전문 여행사입니다. 국내·해외 맞춤 골프투어, 골프부킹, 골프대회 행사를 전문으로 하며 영업보증보험을 갖추고 있습니다.",
   alternates: { canonical: "/about/" },
 };
 
@@ -21,7 +21,7 @@ export default function AboutPage() {
       <section className="bg-white border-b border-line">
         <div className="mx-auto max-w-6xl px-5 py-12 sm:py-16 hero-anim">
           <p className="eyebrow text-royal mb-3">About ST TOUR</p>
-          <h1 className="headline text-[30px] sm:text-[42px] mb-4 text-navy">에스티투어를 소개합니다</h1>
+          <h1 className="headline text-[30px] sm:text-[42px] mb-4 text-navy">에스티골프투어를 소개합니다</h1>
           <p className="text-mute max-w-2xl text-[16.5px]">{site.positioning}</p>
         </div>
       </section>
@@ -62,7 +62,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-6xl px-5 py-14">
           <Reveal>
             <p className="eyebrow text-royal mb-2">Track Record</p>
-            <h2 className="headline text-2xl sm:text-3xl mb-8">숫자로 보는 에스티투어</h2>
+            <h2 className="headline text-2xl sm:text-3xl mb-8">숫자로 보는 에스티골프투어</h2>
           </Reveal>
           <div className="grid grid-cols-3 gap-4 sm:gap-6 max-w-3xl">
             {[
@@ -78,7 +78,7 @@ export default function AboutPage() {
               </Reveal>
             ))}
           </div>
-          <p className="text-[12.5px] text-mute mt-5">누적 팀 수는 에스티투어 자체 집계 기준입니다.</p>
+          <p className="text-[12.5px] text-mute mt-5">누적 팀 수는 에스티골프투어 자체 집계 기준입니다.</p>
         </div>
       </section>
 
@@ -89,7 +89,7 @@ export default function AboutPage() {
             <p className="eyebrow text-sky mb-2">Tournaments</p>
             <h2 className="headline text-2xl sm:text-3xl mb-3">직접 만든 대회들</h2>
             <p className="text-white/70 max-w-2xl">
-              하노이 월드 스크린골프 페스티벌, 더힐 클럽 페스티벌, 세종 챔피언십 — 에스티투어가 주최하고 주관한 대회의 공식 포스터입니다.
+              하노이 월드 스크린골프 페스티벌, 더힐 클럽 페스티벌, 세종 챔피언십 — 에스티골프투어가 주최하고 주관한 대회의 공식 포스터입니다.
             </p>
           </Reveal>
         </div>
@@ -119,7 +119,7 @@ export default function AboutPage() {
           <table className="w-full text-[15px]">
             <tbody>
               {[
-                ["상호", `에스티투어 (ST TOUR)`],
+                ["상호", `에스티투어 (ST TOUR) · 브랜드명 에스티골프투어`],
                 ["대표", c.ceo],
                 ["소재지", c.address],
                 ["설립", `${c.since}년`],

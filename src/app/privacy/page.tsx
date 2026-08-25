@@ -3,7 +3,7 @@ import { site } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "개인정보처리방침",
-  description: "에스티투어 개인정보처리방침 — 견적 상담을 위한 개인정보의 수집 항목, 이용 목적, 보유 기간과 파기 절차를 안내합니다.",
+  description: "에스티골프투어 개인정보처리방침 — 견적 상담을 위한 개인정보의 수집 항목, 이용 목적, 보유 기간과 파기 절차를 안내합니다.",
   alternates: { canonical: "/privacy/" },
 };
 
@@ -18,7 +18,7 @@ export default function PrivacyPage() {
         <div>
           <h2 className="headline text-lg mb-2">1. 수집하는 개인정보와 목적</h2>
           <p>
-            에스티투어(이하 &quot;회사&quot;)는 골프투어 견적 상담을 위해 다음 정보를 수집합니다.
+            에스티골프투어(이하 &quot;회사&quot;)는 골프투어 견적 상담을 위해 다음 정보를 수집합니다.
           </p>
           <ul className="list-disc pl-5 mt-2 space-y-1">
             <li><strong>수집 항목</strong>: 이름, 연락처(전화번호), 여행 조건(희망 지역·날짜·인원·예산 등)</li>

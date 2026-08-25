@@ -36,7 +36,7 @@ export default function Home() {
             <h1 className="headline text-[36px] sm:text-[56px] mb-5 drop-shadow-lg">
               전국 어디든, 세계 어디든
               <br />
-              골프투어 견적은 에스티투어
+              골프투어 견적은 에스티골프투어
             </h1>
             <p className="text-[17px] sm:text-[19px] text-white/85 max-w-xl mb-9 drop-shadow">
               전국 {site.stats.courses}개 골프장과 해외 {site.stats.countries}개국 골프장 중에서 가고 싶은 곳을 정해 보세요.
@@ -101,7 +101,7 @@ export default function Home() {
           {[
             {
               href: "/domestic",
-              img: "/images/map-korea.jpg",
+              img: "/images/domestic.jpg",
               eyebrow: "Domestic",
               title: "국내 골프투어",
               desc: `전국 ${site.stats.courses}개 골프장에서 지역을 고르고 원하는 골프장을 지정하세요. 티타임·숙박·이동까지 한 번에 견적드립니다.`,
@@ -110,7 +110,7 @@ export default function Home() {
             },
             {
               href: "/overseas",
-              img: "/images/map-world.jpg",
+              img: "/images/overseas.jpg",
               eyebrow: "Overseas",
               title: "해외 골프투어",
               desc: `일본·태국·베트남부터 ${site.stats.countries}개국까지. 항공·숙박·라운드·차량을 묶어 예산에 맞는 일정을 설계해 드립니다.`,
@@ -167,7 +167,7 @@ export default function Home() {
           <p className="eyebrow text-royal mb-2">Transparent Quote</p>
           <h2 className="headline text-2xl sm:text-3xl mb-3">견적서, 이렇게 보내드립니다</h2>
           <p className="text-mute mb-10 max-w-2xl">
-            총액만 적힌 견적서는 비교할 방법이 없습니다. 에스티투어는 항공·숙박·라운드 원가와 대행비를
+            총액만 적힌 견적서는 비교할 방법이 없습니다. 에스티골프투어는 항공·숙박·라운드 원가와 대행비를
             나눠서 적습니다 — 어디에 얼마가 쓰이는지 직접 확인하세요.
           </p>
         </Reveal>
@@ -200,7 +200,7 @@ export default function Home() {
             <p className="eyebrow text-royal mb-2">Track Record</p>
             <h2 className="headline text-2xl sm:text-3xl mb-3">
               누적 <span className="text-golddeep"><Counter to={25000} suffix="팀" /></span>이
-              에스티투어와 함께했습니다
+              에스티골프투어와 함께했습니다
             </h2>
             <p className="text-mute mb-10 max-w-2xl">
               국내와 해외로 골프투어를 보내드리고, 대회와 페스티벌을 직접 주최·주관해 온 기록입니다.
@@ -223,7 +223,7 @@ export default function Home() {
           </div>
 
           <Reveal>
-            <p className="font-bold text-[17px] mb-1">에스티투어가 만든 대회들</p>
+            <p className="font-bold text-[17px] mb-1">에스티골프투어가 만든 대회들</p>
             <p className="text-[14px] text-mute mb-2">포스터를 누르면 크게 보실 수 있습니다</p>
           </Reveal>
           <Reveal delay={100}>
@@ -233,12 +233,12 @@ export default function Home() {
           <Reveal delay={150}>
             <div className="mt-10 flex flex-col sm:flex-row gap-3">
               <a href={site.bandUrl} target="_blank" rel="noopener noreferrer" className="btn btn-light">
-                에스티투어 밴드 커뮤니티 →
+                에스티골프투어 밴드 커뮤니티 →
               </a>
               <Link href="/about" className="btn btn-light">회사소개 보기</Link>
             </div>
           </Reveal>
-          <p className="text-[12.5px] text-mute mt-6">누적 팀 수는 에스티투어 자체 집계 기준입니다.</p>
+          <p className="text-[12.5px] text-mute mt-6">누적 팀 수는 에스티골프투어 자체 집계 기준입니다.</p>
         </div>
       </section>
 
@@ -247,7 +247,7 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-5 pt-16 sm:pt-20 pb-4">
           <Reveal>
             <p className="eyebrow text-royal mb-2">On The Course</p>
-            <h2 className="headline text-2xl sm:text-3xl mb-3">대회 현장의 에스티투어</h2>
+            <h2 className="headline text-2xl sm:text-3xl mb-3">대회 현장의 에스티골프투어</h2>
             <p className="text-mute max-w-2xl">
               ST Tour 아마추어 대회부터 더힐 클럽 페스티벌까지 — 저희가 직접 만든 대회의 실제 현장입니다.
             </p>

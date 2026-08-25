@@ -3,7 +3,7 @@ import { site } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "이용약관 · 취소환불 규정",
-  description: "에스티투어 여행계약의 취소·환불 규정 안내. 공정거래위원회 국내·국외여행 표준약관과 소비자분쟁해결기준을 따릅니다.",
+  description: "에스티골프투어 여행계약의 취소·환불 규정 안내. 공정거래위원회 국내·국외여행 표준약관과 소비자분쟁해결기준을 따릅니다.",
   alternates: { canonical: "/terms/" },
 };
 
@@ -30,7 +30,7 @@ export default function TermsPage() {
       <h1 className="headline text-[28px] sm:text-[36px] mb-2">이용약관 · 취소환불 규정</h1>
       <p className="text-[13px] text-mute mb-6">최종 수정일: {site.contentUpdated}</p>
       <p className="text-[15.5px] mb-8">
-        에스티투어의 여행계약은 공정거래위원회 <strong>국내여행 표준약관 · 국외여행 표준약관</strong>과{" "}
+        에스티골프투어의 여행계약은 공정거래위원회 <strong>국내여행 표준약관 · 국외여행 표준약관</strong>과{" "}
         <strong>소비자분쟁해결기준</strong>(공정거래위원회 고시)을 기본으로 합니다. 아래 규정은 여행자 사정에 의한
         취소 시 기준이며, 계약 시 상세 약관을 함께 안내해 드립니다.
       </p>
