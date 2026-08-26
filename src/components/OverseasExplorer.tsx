@@ -8,6 +8,12 @@ import WorldMap, { hasMap, type OverseasCourse } from "@/components/WorldMap";
 
 const all = coursesData as OverseasCourse[];
 
+/** 마지막 글자에 받침이 있는지 (은/는, 이/가 조사 처리용) */
+function hasBatchim(word: string) {
+  const code = word.charCodeAt(word.length - 1) - 0xac00;
+  return code >= 0 && code <= 11171 && code % 28 !== 0;
+}
+
 /** 해외 골프장 지도: 국가 선택 → 국가 지도에 핀 → 지역별 목록 */
 export default function OverseasExplorer() {
   const available = useMemo(
@@ -75,9 +81,29 @@ export default function OverseasExplorer() {
             {hasMap(country) && inCountry.some((c) => Number.isFinite(c.lat)) ? (
               <WorldMap country={country} meta={meta} courses={inCountry} area={area} onArea={setArea} />
             ) : (
-              <div className="rounded-xl bg-white/10 p-6 text-[14.5px] text-white/80 leading-relaxed">
-                {meta.name} 골프장 위치 정보를 정리하고 있습니다. 지도는 곧 열리며, 그 전에도 아래 목록에서 코스를
-                확인하고 견적을 요청하실 수 있습니다.
+              <div className="rounded-xl bg-white/10 p-6">
+                <p className="text-[14.5px] text-white/85 leading-relaxed mb-4">
+                  {meta.name}{hasBatchim(meta.name) ? "은" : "는"} 지역이 멀리 떨어져 있어 지역별 목록으로 보여드립니다.
+                </p>
+                <ul className="space-y-2.5">
+                  {areas
+                    .filter((a) => a !== "전체")
+                    .map((a) => (
+                      <li key={a}>
+                        <button
+                          type="button"
+                          onClick={() => { setArea(a); setQ(""); }}
+                          className={`w-full flex items-center justify-between rounded-lg px-4 py-3 text-[14.5px] font-semibold transition-colors ${
+                            area === a ? "text-navydeep" : "bg-white/10 hover:bg-white/20 text-white"
+                          }`}
+                          style={area === a ? { backgroundColor: t.accent } : undefined}
+                        >
+                          <span>{a}</span>
+                          <span className="opacity-70 text-[13px]">{areaCount(a)}곳</span>
+                        </button>
+                      </li>
+                    ))}
+                </ul>
               </div>
             )}
           </div>

@@ -20,8 +20,16 @@ export type OverseasCourse = {
 type MapEntry = { viewBox: number[]; proj: { lng0: number; lat1: number; cos: number; unit: number }; d: string };
 const maps = worldMaps as Record<string, MapEntry>;
 
+/**
+ * 지도를 띄울지 판단.
+ * 가로로 지나치게 긴 나라(말레이시아처럼 반도와 보르네오가 멀리 떨어진 경우)는
+ * 지도로 그리면 핀이 알아볼 수 없이 작아져 목록으로 대신한다.
+ */
 export function hasMap(slug: string) {
-  return Boolean(maps[slug]);
+  const m = maps[slug];
+  if (!m) return false;
+  const [w, h] = m.viewBox;
+  return w / h <= 1.8;
 }
 
 /** 국가 지도 + 골프장 핀. 국가마다 다른 색 테마를 받는다. */
