@@ -17,7 +17,7 @@ export default function QuoteSample() {
       <div className="rounded-2xl bg-white border border-line shadow-[0_24px_60px_rgba(6,20,62,0.16)] overflow-hidden">
         {/* 문서 헤더 */}
         <div className="flex items-center justify-between px-6 py-4 border-b-2 border-navy">
-          <Image src="/logo-black.png" alt="에스티골프투어" width={104} height={19} className="h-5 w-auto" />
+          <Image src="/logo-black.png" alt="에스티골프투어" width={145} height={19} className="h-5 w-auto" />
           <span className="font-display text-navy text-[15px]">견 적 서</span>
         </div>
 

@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row md:justify-between gap-10">
           <div className="max-w-xl">
             <p className="mb-4">
-              <Image src="/logo.png" alt="에스티골프투어" width={154} height={28} className="h-7 w-auto" />
+              <Image src="/logo.png" alt="에스티골프투어" width={214} height={28} className="h-7 w-auto" />
             </p>
             <p className="mb-4">{site.positioning}</p>
             <div className="flex flex-wrap gap-x-5 gap-y-2">

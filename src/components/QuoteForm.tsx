@@ -5,6 +5,7 @@ import Link from "next/link";
 import { site } from "@/data/site";
 import { destinations } from "@/data/destinations";
 import Calendar, { stayLabel } from "@/components/Calendar";
+import CoursePicker from "@/components/CoursePicker";
 
 type Props = {
   type: "domestic" | "overseas";
@@ -275,7 +276,11 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
             <Choices value={budget} set={setBudget} items={isDom ? BUDGETS_DOM : BUDGETS_OVS} />
           </Field>
           <Field label="선호 골프장 (선택)">
-            <input className="field" value={course} onChange={(e) => setCourse(e.target.value)} placeholder="예: 비발디파크CC / 없으면 비워두세요. 저희가 추천해 드립니다" />
+            {isDom ? (
+              <CoursePicker value={course} onChange={setCourse} />
+            ) : (
+              <input className="field" value={course} onChange={(e) => setCourse(e.target.value)} placeholder="예: 다낭 몽고메리 링스 / 없으면 비워두세요. 저희가 추천해 드립니다" />
+            )}
           </Field>
           <Field label="요청사항 (선택)">
             <textarea className="field min-h-[96px]" value={memo} onChange={(e) => setMemo(e.target.value)} placeholder="예: 조식 포함 희망, 부모님 동반이라 이동이 편했으면 합니다" />

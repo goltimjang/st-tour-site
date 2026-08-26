@@ -110,13 +110,47 @@ export default function PromotionPage() {
         <ol className="space-y-3 max-w-3xl">
           {r.itinerary.map((d, i) => (
             <Reveal key={d.day} delay={i * 70}>
-              <li className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-5 rounded-xl border border-line bg-white p-5">
-                <span className="font-display text-golddeep text-[15px] shrink-0 w-36">{d.day}</span>
-                <span className="text-[15.5px]">{d.plan}</span>
+              <li>
+                <details className="group rounded-xl border border-line bg-white overflow-hidden">
+                  <summary className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-5 p-5 cursor-pointer list-none hover:bg-paper transition-colors">
+                    <span className="font-display text-golddeep text-[15px] shrink-0 w-36">{d.day}</span>
+                    <span className="text-[15.5px] flex-1">
+                      <b className="block sm:inline">{d.title}</b>
+                      <span className="block text-[14px] text-mute mt-0.5 sm:mt-1">{d.plan}</span>
+                    </span>
+                    <span className="text-royal text-[13.5px] font-bold shrink-0 whitespace-nowrap">
+                      <span className="group-open:hidden">자세히 보기 +</span>
+                      <span className="hidden group-open:inline">접기 −</span>
+                    </span>
+                  </summary>
+                  <div className="border-t border-line bg-paper px-5 py-5 sm:pl-[164px]">
+                    <ul className="space-y-2.5 mb-4">
+                      {d.steps.map(([time, what]) => (
+                        <li key={time + what} className="flex gap-4 text-[15px]">
+                          <span className="font-display text-royaldark shrink-0 w-[62px] text-[14px]">{time}</span>
+                          <span>{what}</span>
+                        </li>
+                      ))}
+                    </ul>
+                    <dl className="grid sm:grid-cols-2 gap-x-6 gap-y-2 text-[14px] border-t border-line pt-3.5">
+                      <div className="flex gap-2">
+                        <dt className="font-bold text-mute shrink-0">식사</dt>
+                        <dd>{d.meals}</dd>
+                      </div>
+                      <div className="flex gap-2">
+                        <dt className="font-bold text-mute shrink-0">숙박</dt>
+                        <dd>{d.stay}</dd>
+                      </div>
+                    </dl>
+                  </div>
+                </details>
               </li>
             </Reveal>
           ))}
         </ol>
+        <p className="text-[13px] text-mute mt-4 max-w-3xl">
+          현지 사정과 항공 스케줄에 따라 일정 순서가 조정될 수 있습니다. 확정 일정은 출발 전 최종 안내해 드립니다.
+        </p>
       </section>
 
       {/* 포함/불포함 */}
