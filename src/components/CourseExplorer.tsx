@@ -160,8 +160,10 @@ export default function CourseExplorer({ onPick }: { onPick: (course: Course) =>
         </div>
 
         {conditionOn && (
-          <p className="text-[13px] text-mute bg-paper rounded-lg px-3.5 py-2.5 mb-3">
-            부제·캐디 정보는 확인된 골프장만 표시됩니다. 찾는 곳이 안 보이면 견적 요청서에 이름을 적어주세요. 조건 가능 여부를 확인해 드립니다.
+          <p className="text-[13px] text-mute bg-paper rounded-lg px-3.5 py-2.5 mb-3 leading-relaxed">
+            부제·캐디 운영은 <b>시즌과 요일에 따라 달라집니다.</b> 여기 표시된 내용은 각 골프장 공식 안내에서 확인한 참고
+            정보이며, 실제 가능 여부는 요청하신 날짜 기준으로 저희가 확인해 견적서에 담아드립니다. 찾는 골프장이 안 보이면
+            요청서에 이름을 적어주세요.
           </p>
         )}
 

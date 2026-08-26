@@ -4,7 +4,9 @@
     "url": "https://rnc.samsungcnt.com/business/golf/gapyeong/index.html",
     "holes": 27,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -12,7 +14,9 @@
     "url": "https://www.konjiamgolfclub.co.kr",
     "holes": 18,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -20,7 +24,9 @@
     "url": "https://www.golfzoncounty.com/golfclub/main?golfclubSeq=2",
     "holes": 18,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -36,7 +42,9 @@
     "url": "https://www.namchoncc.co.kr",
     "holes": 18,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -44,7 +52,9 @@
     "url": null,
     "holes": 36,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -52,7 +62,9 @@
     "url": null,
     "holes": 36,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -60,7 +72,9 @@
     "url": "https://www.lakeside.kr",
     "holes": 54,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -68,7 +82,9 @@
     "url": "https://www.rexfield.com",
     "holes": 27,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -84,7 +100,9 @@
     "url": "https://www.bearcreek.co.kr",
     "holes": 27,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -92,7 +110,9 @@
     "url": "https://www.blackstoneresort.com/ic/",
     "holes": 27,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -100,7 +120,9 @@
     "url": "https://www.sscc.co.kr",
     "holes": 18,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -108,15 +130,21 @@
     "url": "https://www.hanyangcc.com",
     "holes": null,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
     "name": "서원밸리CC",
     "url": "https://www.seowongolf.co.kr",
     "holes": null,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "2부제"
+    ],
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -124,7 +152,9 @@
     "url": "https://www.skyvalley.co.kr",
     "holes": 36,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -132,7 +162,9 @@
     "url": "https://ananti.kr/ko/chord/CD0201",
     "holes": 27,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -140,7 +172,9 @@
     "url": "https://rnc.samsungcnt.com/business/golf/ansung/index.html",
     "holes": 36,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -156,7 +190,9 @@
     "url": "https://www.pineresort.com",
     "holes": 27,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -164,7 +200,9 @@
     "url": "https://www.sunvalley.co.kr/yeoju/golf/intro",
     "holes": null,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -172,7 +210,9 @@
     "url": "https://www.eastvalley.co.kr",
     "holes": 27,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -180,7 +220,9 @@
     "url": "https://ildonglakes.co.kr",
     "holes": 18,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -196,15 +238,21 @@
     "url": "https://www.onetheclub.com/club72/main",
     "holes": null,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
     "name": "포천힐스컨트리클럽",
     "url": "https://www.fortunehills.co.kr",
     "holes": 27,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "3부제"
+    ],
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -212,7 +260,9 @@
     "url": "https://www.purunsol.co.kr",
     "holes": null,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -220,15 +270,22 @@
     "url": "https://www.plazacc.co.kr/plzcc/irsweb/golf2/course/yongin/club.do",
     "holes": null,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
     "name": "한원CC",
     "url": "https://www.hanwoncc.co.kr",
     "holes": null,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "3부제"
+    ],
+    "caddie": [
+      "캐디",
+      "노캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -251,8 +308,12 @@
     "name": "라비에벨 컨트리클럽(올드·듄스)",
     "url": "http://www.lavieestbellegolfnresort.com",
     "holes": 36,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "2부제"
+    ],
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -267,8 +328,13 @@
     "name": "설악프라자 컨트리클럽(플라자CC 설악)",
     "url": "https://www.plazacc.co.kr/plzcc/irsweb/golf2/course/seorak/seorak_club_tab2.do",
     "holes": 18,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "2부제",
+      "3부제"
+    ],
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -276,7 +342,10 @@
     "url": "https://www.seolhaeone.com/golf/list.do",
     "holes": 45,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디",
+      "노캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -284,7 +353,9 @@
     "url": "https://www.sonofelicecc.com",
     "holes": 45,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -292,7 +363,9 @@
     "url": "https://www.alpensia.com/golf/main.do",
     "holes": 27,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -300,7 +373,9 @@
     "url": "https://www.elysian.co.kr/gangchon/golf/golf_Introduction.asp",
     "holes": 27,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -336,8 +411,12 @@
     "name": "하이원 컨트리클럽",
     "url": "https://www.high1.com/golf/index.do",
     "holes": 18,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "2부제"
+    ],
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -353,7 +432,10 @@
     "url": "https://www.goldenbay.kr",
     "holes": null,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디",
+      "노캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -369,23 +451,33 @@
     "url": "https://www.golfzoncounty.com/golfclub/main?golfclubSeq=47",
     "holes": 18,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
     "name": "대영베이스CC",
     "url": "https://basecc.co.kr",
     "holes": 18,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "3부제"
+    ],
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
     "name": "대영힐스CC",
     "url": "https://basecc.co.kr",
     "holes": 27,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "3부제"
+    ],
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -402,8 +494,12 @@
     "name": "떼제베CC",
     "url": "https://www.adtgv.co.kr",
     "holes": 36,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "3부제"
+    ],
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -411,31 +507,47 @@
     "url": "https://www.sjraycastle.com",
     "holes": 27,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
     "name": "롯데스카이힐 부여CC",
     "url": "https://www.lotteskyhill.com/club/club-intro/club-intro-buyeo",
     "holes": 18,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "2부제"
+    ],
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
     "name": "백제컨트리클럽",
     "url": "http://www.baekjecc.com",
     "holes": 27,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "3부제"
+    ],
+    "caddie": [
+      "캐디",
+      "노캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
     "name": "블랙스톤 벨포레",
     "url": "https://belleforetresort.com/content/golf_blackstone",
     "holes": 18,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "2부제",
+      "3부제"
+    ],
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -443,7 +555,9 @@
     "url": "https://www.sejongemerson.co.kr",
     "holes": 27,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -473,24 +587,37 @@
     "name": "유성컨트리클럽",
     "url": "https://www.yscc.co.kr",
     "holes": 18,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "3부제"
+    ],
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
     "name": "임페리얼레이크CC",
     "url": "https://www.ilcc.co.kr",
     "holes": 18,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "3부제"
+    ],
+    "caddie": [
+      "캐디",
+      "노캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
     "name": "천룡CC",
     "url": "https://www.crcc.co.kr",
     "holes": 36,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "2부제"
+    ],
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -498,15 +625,22 @@
     "url": "https://www.clubd.com/boeun/index.do",
     "holes": 27,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
     "name": "파인스톤컨트리클럽",
     "url": "https://www.pinestonecc.com",
     "holes": 18,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "3부제"
+    ],
+    "caddie": [
+      "캐디",
+      "노캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -534,8 +668,12 @@
     "name": "세이지우드 여수경도",
     "url": "https://www.sagewood.co.kr/yeosu/main",
     "holes": null,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "2부제"
+    ],
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -563,63 +701,96 @@
     "url": "https://www.purunsolgc.co.kr",
     "holes": null,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
     "name": "가야컨트리클럽",
     "url": "http://www.gayacc.com/",
     "holes": 54,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "3부제"
+    ],
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
     "name": "경주신라CC",
     "url": "https://sillacc.co.kr",
     "holes": 36,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "3부제"
+    ],
+    "caddie": [
+      "캐디",
+      "노캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
     "name": "기장동원로얄컨트리클럽",
     "url": "https://www.dongwongolf.co.kr",
     "holes": null,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "3부제"
+    ],
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
     "name": "다이아몬드컨트리클럽",
     "url": "https://www.diamondcc.co.kr/",
     "holes": 18,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "3부제"
+    ],
+    "caddie": [
+      "캐디",
+      "노캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
     "name": "대구컨트리클럽",
     "url": "https://www.daegucc.co.kr",
     "holes": 27,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "3부제"
+    ],
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
     "name": "마우나오션컨트리클럽",
     "url": "https://www.maunaoceanresort.co.kr/",
     "holes": 27,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "3부제"
+    ],
+    "caddie": [
+      "캐디",
+      "노캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
     "name": "보라컨트리클럽",
     "url": "https://boracc.co.kr/",
     "holes": 27,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "2부제"
+    ],
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -635,7 +806,10 @@
     "url": "https://www.blueone.com/",
     "holes": 18,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디",
+      "노캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -652,8 +826,12 @@
     "name": "스톤게이트컨트리클럽",
     "url": "https://www.stonegatecc.co.kr/",
     "holes": 18,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "3부제"
+    ],
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -671,7 +849,9 @@
     "url": "https://www.asiadcc.co.kr/",
     "holes": 27,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -679,7 +859,9 @@
     "url": "https://www.dongwonroyalcc.co.kr",
     "holes": null,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -687,15 +869,21 @@
     "url": "https://www.a-onecc.co.kr",
     "holes": null,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
     "name": "오션힐스포항CC",
     "url": "https://www.oceanhills.com/",
     "holes": 27,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "3부제"
+    ],
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -703,38 +891,56 @@
     "url": "http://www.ulsancc.co.kr/",
     "holes": 27,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디",
+      "노캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
     "name": "창원컨트리클럽",
     "url": "https://www.changwoncountryclub.co.kr/",
     "holes": null,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "3부제"
+    ],
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
     "name": "통도파인이스트컨트리클럽",
     "url": "http://www.tongdocc.co.kr/",
     "holes": 36,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "3부제"
+    ],
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
     "name": "팔공컨트리클럽",
     "url": "https://www.palgong-cc.co.kr/",
     "holes": 18,
-    "shifts": null,
-    "caddie": null,
+    "shifts": [
+      "2부제"
+    ],
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
     "name": "해운대컨트리클럽",
     "url": "https://www.haeundaecc.co.kr/",
     "holes": 27,
-    "shifts": null,
+    "shifts": [
+      "2부제",
+      "3부제"
+    ],
     "caddie": null,
     "verified": "2026-08-26"
   },
@@ -784,7 +990,9 @@
     "url": "https://www.elysian.co.kr/main_jeju.asp",
     "holes": 36,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -802,7 +1010,9 @@
     "url": "https://www.ninebridges.co.kr",
     "holes": 18,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
@@ -823,7 +1033,10 @@
     "url": "https://www.plazacc.co.kr/plzcc/irsweb/golf2/course/jeju/jeju_club.do",
     "holes": 9,
     "shifts": null,
-    "caddie": null,
+    "caddie": [
+      "캐디",
+      "노캐디"
+    ],
     "verified": "2026-08-26"
   },
   {
