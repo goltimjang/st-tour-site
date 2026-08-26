@@ -7,8 +7,9 @@ import { site } from "@/data/site";
 
 const nav = [
   { href: "/domestic", label: "국내 골프투어" },
-  { href: "/domestic#courses", label: "골프장 찾기" },
+  { href: "/domestic#courses", label: "골프장 지도" },
   { href: "/overseas", label: "해외 골프투어" },
+  { href: "/overseas#courses", label: "해외 골프장" },
   { href: "/promotion", label: "프로모션" },
   { href: "/about", label: "회사소개" },
   { href: "/faq", label: "자주 묻는 질문" },

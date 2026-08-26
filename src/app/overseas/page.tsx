@@ -4,6 +4,7 @@ import Image from "next/image";
 import { tier1, tier2, tier3 } from "@/data/destinations";
 import { overseasPrices, priceDisclaimer } from "@/data/prices";
 import QuoteForm from "@/components/QuoteForm";
+import OverseasExplorer from "@/components/OverseasExplorer";
 import { breadcrumbLd, webPageLd } from "@/data/jsonld";
 import { site } from "@/data/site";
 
@@ -105,6 +106,10 @@ export default function OverseasPage() {
             </p>
           </div>
         </div>
+      </section>
+
+      <section id="courses" className="mx-auto max-w-6xl px-5 pb-16 scroll-mt-24">
+        <OverseasExplorer />
       </section>
 
       <section className="mx-auto max-w-6xl px-5 pb-16">
