@@ -92,6 +92,43 @@ export const countries: CountryMeta[] = [
     blurb: "메콩강을 낀 한적한 코스. 붐비지 않는 라운드를 원할 때 좋습니다.",
     theme: { band: "#0f3c52", land: "#a8ccd8", landDim: "#1a4a60", active: "#f4a261", pin: "#ffd166", accent: "#ffcb8a" },
   },
+  {
+    slug: "guam",
+    name: "괌·사이판",
+    flag: "🇬🇺",
+    flight: "인천에서 4시간 30분~",
+    season: "연중 (12~5월 건기)",
+    blurb: "비자 없이 미국령에서 라운드. 가족 휴양과 묶기 좋고 야간 라운드도 가능합니다.",
+    theme: { band: "#0d4f63", land: "#a5d8e6", landDim: "#175c70", active: "#ffcd3c", pin: "#ff7a59", accent: "#8fe3f5" },
+  },
+  {
+    slug: "australia",
+    name: "호주",
+    flag: "🇦🇺",
+    flight: "인천에서 10시간~",
+    season: "9~11월, 3~5월 (한국 겨울은 호주 여름)",
+    blurb: "멜버른 샌드벨트는 세계 100대 코스가 몰려 있습니다. 한국 겨울에 여름 라운드를 즐깁니다.",
+    theme: { band: "#3d2a14", land: "#e8cba0", landDim: "#4a3620", active: "#ffb703", pin: "#e63946", accent: "#ffd88a" },
+  },
+  {
+    slug: "usa",
+    name: "미주",
+    flag: "🇺🇸",
+    flight: "인천에서 8시간~ (하와이)",
+    season: "하와이 연중, 캘리포니아 4~10월",
+    blurb: "하와이는 바다를 낀 리조트 코스, 캘리포니아는 페블비치 등 명문 코스가 있습니다.",
+    theme: { band: "#1a2f5c", land: "#b8c9e8", landDim: "#243d6b", active: "#e63946", pin: "#ffd166", accent: "#a8c5f0" },
+  },
+  {
+    slug: "mongolia",
+    name: "몽골",
+    flag: "🇲🇳",
+    flight: "인천에서 3시간 30분~",
+    season: "6~9월 (겨울은 라운드 불가)",
+    blurb: "초원 위 코스에서 여름 라운드. 승마·초원 투어와 묶는 일정이 많습니다.",
+    theme: { band: "#2d3f2a", land: "#c3d8b0", landDim: "#38492f", active: "#f4a261", pin: "#e76f51", accent: "#d4e8bd" },
+  },
 ];
+
 
 export const countryBySlug = Object.fromEntries(countries.map((c) => [c.slug, c]));
