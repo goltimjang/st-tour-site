@@ -1,1 +1,906 @@
-[]
+[
+  {
+    "country": "japan",
+    "area": "규슈",
+    "name": "후쿠오카 센추리 골프클럽",
+    "nameEn": "Fukuoka Century Golf Club",
+    "city": "후쿠오카",
+    "holes": null,
+    "url": "https://www.fcgc.biz",
+    "note": "일본 최초 20홀 스타일을 채용한 구릉 코스"
+  },
+  {
+    "country": "japan",
+    "area": "규슈",
+    "name": "JR 우치노 컨트리클럽",
+    "nameEn": "JR Uchino Country Club",
+    "city": "후쿠오카",
+    "holes": 18,
+    "url": "https://www.jruchino.cc",
+    "note": "숲에 둘러싸인 구릉 코스, 후쿠오카 근교"
+  },
+  {
+    "country": "japan",
+    "area": "규슈",
+    "name": "다자이후 골프클럽",
+    "nameEn": "Dazaifu Golf Club",
+    "city": "후쿠오카",
+    "holes": 18,
+    "url": "https://www.dazaifugc.co.jp",
+    "note": "후쿠오카 공항에서 차로 약 30분 거리"
+  },
+  {
+    "country": "japan",
+    "area": "규슈",
+    "name": "더 퀸즈힐 골프클럽",
+    "nameEn": "The Queen's Hill Golf Club",
+    "city": "후쿠오카",
+    "holes": 18,
+    "url": "https://queenshill.co.jp",
+    "note": "크고 작은 12개 연못이 배치된 구릉 코스"
+  },
+  {
+    "country": "japan",
+    "area": "규슈",
+    "name": "겐카이 골프클럽",
+    "nameEn": "Genkai Golf Club",
+    "city": "후쿠오카",
+    "holes": 18,
+    "url": "https://genkai-gc.com",
+    "note": "겐카이나다 바다를 바라보는 규슈 명문 코스"
+  },
+  {
+    "country": "japan",
+    "area": "규슈",
+    "name": "가고시마 국제 골프클럽",
+    "nameEn": "Kagoshima Kokusai Golf Club",
+    "city": "가고시마",
+    "holes": 18,
+    "url": "https://kokusaigolf.com",
+    "note": "사쿠라지마를 조망하는 18홀 코스"
+  },
+  {
+    "country": "japan",
+    "area": "규슈",
+    "name": "가고시마 공항36 컨트리클럽",
+    "nameEn": "Kagoshima Kuko 36 Country Club",
+    "city": "가고시마",
+    "holes": 36,
+    "url": "https://kuko36cc.co.jp",
+    "note": "가고시마 공항에서 차로 약 15분, 36홀"
+  },
+  {
+    "country": "japan",
+    "area": "규슈",
+    "name": "게도인 골프클럽",
+    "nameEn": "Kedoin Golf Club",
+    "city": "가고시마",
+    "holes": 18,
+    "url": "https://kedouin.com",
+    "note": "코스에 인접한 온천 호텔 병설"
+  },
+  {
+    "country": "japan",
+    "area": "규슈",
+    "name": "기리시마 골프클럽",
+    "nameEn": "Kirishima Golf Club",
+    "city": "가고시마",
+    "holes": 18,
+    "url": "https://kirishima-gc.or.jp",
+    "note": "해발 450m 고원 코스, 사쿠라지마 조망"
+  },
+  {
+    "country": "japan",
+    "area": "규슈",
+    "name": "골든팜 컨트리클럽",
+    "nameEn": "Golden Palm Country Club",
+    "city": "가고시마",
+    "holes": 18,
+    "url": "http://www.belle-co.com/goldenpalm/",
+    "note": "가고시마 시내에서 접근이 편한 18홀"
+  },
+  {
+    "country": "japan",
+    "area": "규슈",
+    "name": "피닉스 컨트리클럽",
+    "nameEn": "Phoenix Country Club",
+    "city": "미야자키",
+    "holes": 27,
+    "url": "https://seagaia.co.jp/pcc/",
+    "note": "던롭 피닉스 토너먼트 개최 코스"
+  },
+  {
+    "country": "japan",
+    "area": "규슈",
+    "name": "톰 왓슨 골프코스",
+    "nameEn": "Tom Watson Golf Course",
+    "city": "미야자키",
+    "holes": 18,
+    "url": "https://seagaia.co.jp/twgc/",
+    "note": "톰 왓슨이 설계·감수한 흑송림 코스"
+  },
+  {
+    "country": "japan",
+    "area": "규슈",
+    "name": "아오시마 골프클럽",
+    "nameEn": "Aoshima Golf Club",
+    "city": "미야자키",
+    "holes": 18,
+    "url": "https://reserve.accordiagolf.com/golfCourse/miyazaki/aoshima/",
+    "note": "아오시마 인근 리조트형 챔피언 코스"
+  },
+  {
+    "country": "japan",
+    "area": "오키나와",
+    "name": "더 서던링크스 골프클럽",
+    "nameEn": "The Southern Links Golf Club",
+    "city": "야에세",
+    "holes": 18,
+    "url": "https://www.accordiagolf.com/grand/southernlinks/",
+    "note": "해안 절벽 위에 펼쳐진 시사이드 링크스"
+  },
+  {
+    "country": "japan",
+    "area": "오키나와",
+    "name": "가네히데 기세 컨트리클럽",
+    "nameEn": "Kanehide Kise Country Club",
+    "city": "나고",
+    "holes": 18,
+    "url": "https://www.kise-cc.jp/",
+    "note": "숙박 코티지를 갖춘 리조트 코스"
+  },
+  {
+    "country": "japan",
+    "area": "오키나와",
+    "name": "PGM 골프리조트 오키나와",
+    "nameEn": "PGM Golf Resort Okinawa",
+    "city": "온나손",
+    "holes": 27,
+    "url": "https://www.pacificgolf.co.jp/okinawa/",
+    "note": "동중국해를 내려다보는 27홀 리조트 코스"
+  },
+  {
+    "country": "japan",
+    "area": "오키나와",
+    "name": "류큐 골프클럽",
+    "nameEn": "Ryukyu Golf Club",
+    "city": "난조",
+    "holes": 27,
+    "url": "https://www.ryukyugolf.com",
+    "note": "고라이시바로 통일된 오키나와 유일 코스"
+  },
+  {
+    "country": "japan",
+    "area": "오키나와",
+    "name": "벨비치 골프클럽",
+    "nameEn": "Bel Beach Golf Club",
+    "city": "모토부",
+    "holes": 18,
+    "url": "http://www.belle-co.com/belbeach/",
+    "note": "전 홀에서 바다가 보이는 리조트 코스"
+  },
+  {
+    "country": "japan",
+    "area": "홋카이도",
+    "name": "삿포로 테이네 골프클럽",
+    "nameEn": "Sapporo Teine Golf Club",
+    "city": "삿포로",
+    "holes": 27,
+    "url": "https://sapporo-teine.com/golf/",
+    "note": "삿포로 시내와 동해를 조망하는 27홀"
+  },
+  {
+    "country": "japan",
+    "area": "홋카이도",
+    "name": "골드 삿포로 컨트리클럽",
+    "nameEn": "Gold Sapporo Country Club",
+    "city": "기타히로시마",
+    "holes": 18,
+    "url": "http://www.goldgolf.co.jp/sapporo/",
+    "note": "신치토세 공항에서 차로 약 40분"
+  },
+  {
+    "country": "japan",
+    "area": "홋카이도",
+    "name": "홋카이도 클래식 골프클럽",
+    "nameEn": "Hokkaido Classic Golf Club",
+    "city": "아비라",
+    "holes": 18,
+    "url": "http://www.hcgc.jp",
+    "note": "잭 니클라우스가 설계한 18홀"
+  },
+  {
+    "country": "japan",
+    "area": "홋카이도",
+    "name": "썬파크 삿포로 골프코스",
+    "nameEn": "Sun Park Sapporo Golf Course",
+    "city": "기타히로시마",
+    "holes": null,
+    "url": null,
+    "note": "이시카리 평야의 평탄한 퍼블릭 코스"
+  },
+  {
+    "country": "japan",
+    "area": "간사이",
+    "name": "로쿠코 국제 골프클럽",
+    "nameEn": "Rokko Kokusai Golf Club",
+    "city": "고베",
+    "holes": 36,
+    "url": "http://rokkokokusai-kobe.jp",
+    "note": "일본오픈을 개최한 동코스 보유, 36홀"
+  },
+  {
+    "country": "japan",
+    "area": "간사이",
+    "name": "오사카 골프클럽",
+    "nameEn": "Osaka Golf Club",
+    "city": "오사카",
+    "holes": null,
+    "url": "https://www.nankaiosaka-golf.co.jp",
+    "note": "1937년 창립한 미사키초의 전통 코스"
+  },
+  {
+    "country": "japan",
+    "area": "간사이",
+    "name": "간쿠 클래식 골프클럽",
+    "nameEn": "Kanku Classic Golf Club",
+    "city": "오사카",
+    "holes": null,
+    "url": "https://sigc.co.jp",
+    "note": "이즈미 산맥에 펼쳐진 산악형 코스"
+  },
+  {
+    "country": "japan",
+    "area": "간사이",
+    "name": "미사키 컨트리클럽",
+    "nameEn": "Misaki Country Club",
+    "city": "오사카",
+    "holes": null,
+    "url": "https://reserve.accordiagolf.com/golfCourse/osaka/misaki/",
+    "note": "오사카 남부 미사키초의 아코디아 운영 코스"
+  },
+
+  {
+    "country": "vietnam",
+    "area": "다낭",
+    "name": "바나힐스 골프클럽",
+    "nameEn": "Ba Na Hills Golf Club",
+    "city": "다낭",
+    "holes": 18,
+    "url": "https://banahillsgolf.com",
+    "note": "루크 도널드가 설계한 마운틴 코스"
+  },
+  {
+    "country": "vietnam",
+    "area": "다낭",
+    "name": "레전드 다낭 골프리조트",
+    "nameEn": "Legend Danang Golf Resort",
+    "city": "다낭",
+    "holes": 36,
+    "url": "https://www.dananggolfclub.com",
+    "note": "다낭 최초의 36홀, 노먼·니클라우스 설계"
+  },
+  {
+    "country": "vietnam",
+    "area": "다낭",
+    "name": "라구나 골프 랑코",
+    "nameEn": "Laguna Golf Lang Co",
+    "city": "랑코",
+    "holes": 18,
+    "url": "https://www.lagunalangco.com/golf",
+    "note": "닉 팔도가 설계한 리조트 병설 코스"
+  },
+  {
+    "country": "vietnam",
+    "area": "다낭",
+    "name": "몽고메리 링크스",
+    "nameEn": "Montgomerie Links Golf Club",
+    "city": "다낭",
+    "holes": 18,
+    "url": "https://www.montgomerielinks.com",
+    "note": "중부 해안 최초의 링크스 스타일 코스"
+  },
+  {
+    "country": "vietnam",
+    "area": "다낭",
+    "name": "호이아나 쇼어스 골프클럽",
+    "nameEn": "Hoiana Shores Golf Club",
+    "city": "호이안",
+    "holes": 18,
+    "url": "https://www.hoiana.com/golf",
+    "note": "로버트 트렌트 존스 2세 설계 해안 링크스"
+  },
+  {
+    "country": "vietnam",
+    "area": "하노이·닌빈",
+    "name": "킹스아일랜드 골프리조트",
+    "nameEn": "Kings Island Golf Resort",
+    "city": "하노이",
+    "holes": null,
+    "url": "https://kingsislandgolf.vn",
+    "note": "베트남 북부에서 가장 오래된 골프 리조트"
+  },
+  {
+    "country": "vietnam",
+    "area": "하노이·닌빈",
+    "name": "스카이레이크 리조트 & 골프클럽",
+    "nameEn": "SkyLake Resort & Golf Club",
+    "city": "하노이",
+    "holes": 36,
+    "url": "http://www.skylakegolfclub.vn",
+    "note": "반손 호수를 낀 36홀 리조트 코스"
+  },
+  {
+    "country": "vietnam",
+    "area": "하노이·닌빈",
+    "name": "레전드힐 컨트리클럽",
+    "nameEn": "Legend Hill Country Club",
+    "city": "하노이",
+    "holes": 18,
+    "url": "http://legendhillcountryclub.vn",
+    "note": "니클라우스 디자인의 베트남 첫 코스"
+  },
+  {
+    "country": "vietnam",
+    "area": "하노이·닌빈",
+    "name": "짱안 골프",
+    "nameEn": "Trang An Golf",
+    "city": "닌빈",
+    "holes": null,
+    "url": "https://trangangolf.com",
+    "note": "닌빈 숲 지대에 자리한 리조트형 코스"
+  },
+  {
+    "country": "vietnam",
+    "area": "하노이·닌빈",
+    "name": "로열 골프 코스 닌빈",
+    "nameEn": "Royal Golf Course Ninh Binh",
+    "city": "닌빈",
+    "holes": null,
+    "url": "https://royalgolf.com.vn",
+    "note": "숙박 패키지를 운영하는 닌빈 코스"
+  },
+  {
+    "country": "vietnam",
+    "area": "나트랑",
+    "name": "빈펄 골프 나트랑",
+    "nameEn": "Vinpearl Golf Nha Trang",
+    "city": "나트랑",
+    "holes": null,
+    "url": "https://vinpearl.com/en/vinpearl-golf-nha-trang",
+    "note": "혼째섬에 자리한 아일랜드 리조트 코스"
+  },
+  {
+    "country": "vietnam",
+    "area": "나트랑",
+    "name": "KN 골프링크스 깜란",
+    "nameEn": "KN Golf Links Cam Ranh",
+    "city": "깜란",
+    "holes": null,
+    "url": "https://www.kngolflinks.com",
+    "note": "그렉 노먼 설계, 링크스 18홀 + 가든 9홀"
+  },
+  {
+    "country": "vietnam",
+    "area": "나트랑",
+    "name": "다이아몬드베이 골프 & 빌라",
+    "nameEn": "Diamond Bay Golf & Villas",
+    "city": "나트랑",
+    "holes": null,
+    "url": "https://diamondbaygolfvillas.com",
+    "note": "나트랑 남부 해안의 골프 & 빌라 리조트"
+  },
+  {
+    "country": "vietnam",
+    "area": "호치민",
+    "name": "베트남 골프 & 컨트리클럽",
+    "nameEn": "Vietnam Golf & Country Club",
+    "city": "호치민",
+    "holes": 36,
+    "url": "https://www.vietnamgolfcc.com",
+    "note": "베트남 최초의 36홀 골프 클럽"
+  },
+  {
+    "country": "vietnam",
+    "area": "호치민",
+    "name": "롱탄 골프클럽",
+    "nameEn": "Long Thanh Golf Club",
+    "city": "동나이",
+    "holes": null,
+    "url": "https://longthanhgolfresort.com",
+    "note": "호치민 동편 동나이성의 대형 골프 리조트"
+  },
+  {
+    "country": "vietnam",
+    "area": "호치민",
+    "name": "트윈도브스 골프클럽",
+    "nameEn": "Twin Doves Golf Club",
+    "city": "빈즈엉",
+    "holes": null,
+    "url": "http://twindovesgolf.vn",
+    "note": "호치민 북부 빈즈엉의 회원제 코스"
+  },
+  {
+    "country": "vietnam",
+    "area": "호치민",
+    "name": "떤선녓 골프코스",
+    "nameEn": "Tan Son Nhat Golf Course",
+    "city": "호치민",
+    "holes": 36,
+    "url": "https://tansonnhatgolf.vn",
+    "note": "호치민 시내 공항 옆 36홀 코스"
+  },
+  {
+    "country": "vietnam",
+    "area": "호치민",
+    "name": "송베 골프리조트",
+    "nameEn": "Song Be Golf Resort",
+    "city": "빈즈엉",
+    "holes": null,
+    "url": "https://songbegolf.com.vn",
+    "note": "골프 아카데미를 갖춘 빈즈엉 리조트"
+  },
+  {
+    "country": "vietnam",
+    "area": "푸꾸옥",
+    "name": "빈펄 골프 푸꾸옥",
+    "nameEn": "Vinpearl Golf Phu Quoc",
+    "city": "푸꾸옥",
+    "holes": null,
+    "url": "https://vinpearl.com/en/vinpearl-golf-phu-quoc",
+    "note": "원시림에 둘러싸인 파크랜드 코스"
+  },
+  {
+    "country": "vietnam",
+    "area": "푸꾸옥",
+    "name": "에스추리 붕바우 골프",
+    "nameEn": "Eschuri Vung Bau Golf",
+    "city": "푸꾸옥",
+    "holes": 18,
+    "url": "https://eschurivungbau.com.vn",
+    "note": "푸꾸옥 북서 해안의 링크스 스타일 18홀"
+  },
+
+  {
+    "country": "thailand",
+    "area": "방콕",
+    "name": "알파인 골프클럽",
+    "nameEn": "Alpine Golf Club",
+    "city": "방콕",
+    "holes": null,
+    "url": "https://www.alpinegolfclub.com",
+    "note": "빠툼타니에 위치한 태국 대표 챔피언십 코스"
+  },
+  {
+    "country": "thailand",
+    "area": "방콕",
+    "name": "타이 컨트리클럽",
+    "nameEn": "Thai Country Club",
+    "city": "방콕",
+    "holes": null,
+    "url": "https://www.thaicountryclub.com",
+    "note": "수차례 수상한 방콕 근교 명문 코스"
+  },
+  {
+    "country": "thailand",
+    "area": "방콕",
+    "name": "리버데일 골프클럽",
+    "nameEn": "Riverdale Golf Club",
+    "city": "방콕",
+    "holes": 18,
+    "url": "https://www.mbkgolf.com/riverdale",
+    "note": "2010년 개장한 빠툼타니의 파72 코스"
+  },
+  {
+    "country": "thailand",
+    "area": "방콕",
+    "name": "니칸티 골프클럽",
+    "nameEn": "Nikanti Golf Club",
+    "city": "나콘빠톰",
+    "holes": null,
+    "url": "https://www.nikantigolfclub.com",
+    "note": "방콕 서쪽 1시간, 독특한 구성의 코스"
+  },
+  {
+    "country": "thailand",
+    "area": "파타야",
+    "name": "시암 컨트리클럽",
+    "nameEn": "Siam Country Club",
+    "city": "파타야",
+    "holes": null,
+    "url": "https://siamcountryclub.com",
+    "note": "LPGA 개최지, 복수의 챔피언십 코스 보유"
+  },
+  {
+    "country": "thailand",
+    "area": "파타야",
+    "name": "램차방 인터내셔널 컨트리클럽",
+    "nameEn": "Laem Chabang International Country Club",
+    "city": "촌부리",
+    "holes": null,
+    "url": "https://www.laemchabanggolf.com",
+    "note": "잭 니클라우스 설계, 파타야 인근 코스"
+  },
+  {
+    "country": "thailand",
+    "area": "파타야",
+    "name": "피닉스 골드 골프 & 컨트리클럽",
+    "nameEn": "Phoenix Gold Golf & Country Club",
+    "city": "파타야",
+    "holes": 27,
+    "url": "https://www.phoenixgoldgolf.com",
+    "note": "마운틴·레이크·오션 3개 9홀 구성"
+  },
+  {
+    "country": "thailand",
+    "area": "파타야",
+    "name": "부라파 골프 & 리조트",
+    "nameEn": "Burapha Golf & Resort",
+    "city": "시라차",
+    "holes": 36,
+    "url": "http://buraphagolfandresort.com",
+    "note": "1996년 개장, 36홀 규모의 골프 리조트"
+  },
+  {
+    "country": "thailand",
+    "area": "파타야",
+    "name": "치찬 골프 리조트",
+    "nameEn": "Chee Chan Golf Resort",
+    "city": "파타야",
+    "holes": 18,
+    "url": "https://cheechangolf.com",
+    "note": "파72·7,345야드 챔피언십 코스"
+  },
+  {
+    "country": "thailand",
+    "area": "파타야",
+    "name": "빠타나 스포츠 리조트",
+    "nameEn": "Pattana Golf Club & Resort",
+    "city": "시라차",
+    "holes": 27,
+    "url": "https://pattana.co.th",
+    "note": "27홀과 스포츠 시설을 갖춘 복합 리조트"
+  },
+  {
+    "country": "thailand",
+    "area": "치앙마이",
+    "name": "알파인 골프 리조트 치앙마이",
+    "nameEn": "Alpine Golf Resort Chiangmai",
+    "city": "치앙마이",
+    "holes": 27,
+    "url": "https://www.alpinegolfresort.com",
+    "note": "27홀 국제 챔피언십 코스와 리조트 병설"
+  },
+  {
+    "country": "thailand",
+    "area": "치앙마이",
+    "name": "치앙마이 하이랜즈 골프 & 스파 리조트",
+    "nameEn": "Chiangmai Highlands Golf and Spa Resort",
+    "city": "치앙마이",
+    "holes": null,
+    "url": "https://www.chiangmaihighlands.com",
+    "note": "리조트 빌라와 스파를 갖춘 산악형 코스"
+  },
+  {
+    "country": "thailand",
+    "area": "치앙마이",
+    "name": "서밋 그린밸리 치앙마이 컨트리클럽",
+    "nameEn": "Summit Green Valley Chiang Mai Country Club",
+    "city": "치앙마이",
+    "holes": null,
+    "url": "http://www.summitgreenvalley.com",
+    "note": "치앙마이 시내에서 차로 약 20분"
+  },
+  {
+    "country": "thailand",
+    "area": "치앙마이",
+    "name": "가산 쿤탄 골프 & 리조트",
+    "nameEn": "Gassan Khuntan Golf & Resort",
+    "city": "람푼",
+    "holes": 18,
+    "url": "https://www.gassangolf.com",
+    "note": "태국 북부 최대 규모 가산 그룹 코스"
+  },
+  {
+    "country": "thailand",
+    "area": "후아힌",
+    "name": "블랙마운틴 골프클럽",
+    "nameEn": "Black Mountain Golf Club",
+    "city": "후아힌",
+    "holes": null,
+    "url": "https://www.blackmountainhuahin.com",
+    "note": "아시아 정상급으로 평가받는 챔피언십 코스"
+  },
+  {
+    "country": "thailand",
+    "area": "후아힌",
+    "name": "파인애플밸리 골프클럽 후아힌",
+    "nameEn": "Pineapple Valley Golf Club Hua Hin",
+    "city": "후아힌",
+    "holes": null,
+    "url": "https://www.pineapplevalleygolfclub.com",
+    "note": "파인애플 농장 부지에 조성된 2009년 개장 코스"
+  },
+  {
+    "country": "thailand",
+    "area": "후아힌",
+    "name": "스프링필드 로열 컨트리클럽",
+    "nameEn": "Springfield Royal Country Club",
+    "city": "차암",
+    "holes": null,
+    "url": "http://www.springfieldresort.com/golf",
+    "note": "잭 니클라우스 설계, 리조트 병설"
+  },
+  {
+    "country": "thailand",
+    "area": "후아힌",
+    "name": "로열 후아힌 골프코스",
+    "nameEn": "Royal Hua Hin Golf Course",
+    "city": "후아힌",
+    "holes": null,
+    "url": "https://royalhuahingolfcourse.com",
+    "note": "100년 역사를 가진 태국 최초의 골프장"
+  },
+  {
+    "country": "thailand",
+    "area": "푸껫",
+    "name": "블루캐니언 컨트리클럽",
+    "nameEn": "Blue Canyon Country Club",
+    "city": "푸껫",
+    "holes": 36,
+    "url": "https://www.bluecanyonphuket.com",
+    "note": "캐니언·레이크 2개 코스를 갖춘 명문"
+  },
+  {
+    "country": "thailand",
+    "area": "푸껫",
+    "name": "라구나 골프 푸껫",
+    "nameEn": "Laguna Golf Phuket",
+    "city": "푸껫",
+    "holes": 18,
+    "url": "https://www.lagunagolfphuket.com",
+    "note": "라구나 리조트 단지 내 파71 코스"
+  },
+  {
+    "country": "thailand",
+    "area": "푸껫",
+    "name": "레드마운틴 골프클럽",
+    "nameEn": "Red Mountain Golf Club",
+    "city": "푸껫",
+    "holes": null,
+    "url": "https://www.mbkgolf.com/red-mountain",
+    "note": "옛 주석 광산 지형을 살린 다이내믹 코스"
+  },
+  {
+    "country": "thailand",
+    "area": "푸껫",
+    "name": "록팜 골프클럽",
+    "nameEn": "Loch Palm Golf Club",
+    "city": "푸껫",
+    "holes": null,
+    "url": "https://www.mbkgolf.com/loch-palm",
+    "note": "카투 지역의 호수를 낀 파크랜드 코스"
+  },
+
+  {
+    "country": "china",
+    "area": "산둥",
+    "name": "칭다오 화산 국제 골프클럽",
+    "nameEn": "Qingdao Huashan International Golf Club",
+    "city": "칭다오",
+    "holes": 36,
+    "url": null,
+    "note": "1994년 개장, 파72 코스 2개를 갖춘 산둥 대표 골프장"
+  },
+  {
+    "country": "china",
+    "area": "산둥",
+    "name": "캐슬렉스 칭다오 골프 & 리조트",
+    "nameEn": "Castlex Qingdao Golf and Resort",
+    "city": "칭다오",
+    "holes": null,
+    "url": null,
+    "note": "한국 골프투어에서 자주 이용되는 칭다오 리조트 코스"
+  },
+  {
+    "country": "china",
+    "area": "산둥",
+    "name": "칭다오 톈타이 온천 골프클럽",
+    "nameEn": "Qingdao Tiantai Hot Spring Golf Club",
+    "city": "칭다오",
+    "holes": 27,
+    "url": null,
+    "note": "지모 온천 리조트에 병설된 27홀 산악 코스"
+  },
+  {
+    "country": "china",
+    "area": "산둥",
+    "name": "웨이하이 포인트 컨트리클럽",
+    "nameEn": "Weihai Point Country Club & Resort",
+    "city": "웨이하이",
+    "holes": null,
+    "url": "https://www.asianaweihai.com",
+    "note": "해안 절벽과 바다를 낀 리조트형 코스"
+  },
+  {
+    "country": "china",
+    "area": "산둥",
+    "name": "스톤베이(석도만) 골프클럽",
+    "nameEn": "Shidao Bay Golf Club",
+    "city": "웨이하이",
+    "holes": null,
+    "url": null,
+    "note": "룽청 스다오 해안에 자리한 골프 리조트"
+  },
+  {
+    "country": "china",
+    "area": "하이난",
+    "name": "미션힐스 하이커우",
+    "nameEn": "Mission Hills Haikou",
+    "city": "하이커우",
+    "holes": null,
+    "url": "https://www.missionhillschina.com",
+    "note": "화산암 지대에 조성된 대규모 골프 리조트"
+  },
+  {
+    "country": "china",
+    "area": "하이난",
+    "name": "야롱베이 골프클럽",
+    "nameEn": "Yalong Bay Golf Club",
+    "city": "싼야",
+    "holes": null,
+    "url": "http://www.yalongbaygolfclub.com",
+    "note": "야롱완 국가관광휴양지구 안에 위치"
+  },
+  {
+    "country": "china",
+    "area": "하이난",
+    "name": "싼야 루후이터우 골프클럽",
+    "nameEn": "Sanya Luhuitou Golf Club",
+    "city": "싼야",
+    "holes": 18,
+    "url": null,
+    "note": "산과 바다를 낀 7,310야드 챔피언십 코스"
+  },
+  {
+    "country": "china",
+    "area": "하이난",
+    "name": "산친베이 골프클럽",
+    "nameEn": "Shanqin Bay Golf Club",
+    "city": "완닝",
+    "holes": null,
+    "url": null,
+    "note": "쿠어 & 크렌쇼가 설계한 남중국해 해안 코스"
+  },
+  {
+    "country": "china",
+    "area": "하이난",
+    "name": "더 듄스 앳 션저우 반도",
+    "nameEn": "The Dunes at Shenzhou Peninsula",
+    "city": "완닝",
+    "holes": 36,
+    "url": null,
+    "note": "톰 와이스코프가 설계한 36홀 해안 코스"
+  },
+  {
+    "country": "china",
+    "area": "하이난",
+    "name": "하이커우 메이시 메이플라워 골프클럽",
+    "nameEn": "Haikou Meishi Mayflower Golf Club",
+    "city": "하이커우",
+    "holes": null,
+    "url": null,
+    "note": "하이커우 서편 빈하이대로변의 초창기 코스"
+  },
+
+  {
+    "country": "philippines",
+    "area": "클락",
+    "name": "미모사 플러스 골프클럽",
+    "nameEn": "Mimosa Plus Golf Club",
+    "city": "클락",
+    "holes": 36,
+    "url": "https://www.mimosaplusgolf.com",
+    "note": "클락 특별경제구역 내 2개 코스 운영"
+  },
+  {
+    "country": "philippines",
+    "area": "클락",
+    "name": "프라데라 베르데 골프 & 컨트리클럽",
+    "nameEn": "Pradera Verde Golf & Country Club",
+    "city": "팜팡가",
+    "holes": null,
+    "url": null,
+    "note": "팜팡가 루바오 평야에 조성된 골프 리조트"
+  },
+  {
+    "country": "philippines",
+    "area": "클락",
+    "name": "루이시타 골프 & 컨트리클럽",
+    "nameEn": "Luisita Golf and Country Club",
+    "city": "따를락",
+    "holes": null,
+    "url": "https://tarlacluisitagolf.com",
+    "note": "1967년 개장한 필리핀 전통 명문 코스"
+  },
+  {
+    "country": "philippines",
+    "area": "마닐라",
+    "name": "왁왁 골프 & 컨트리클럽",
+    "nameEn": "Wack Wack Golf and Country Club",
+    "city": "만달루용",
+    "holes": 36,
+    "url": "https://wackwack.com",
+    "note": "이스트·웨스트 2개 18홀을 갖춘 명문 클럽"
+  },
+  {
+    "country": "philippines",
+    "area": "마닐라",
+    "name": "마닐라 사우스우즈 골프 & 컨트리클럽",
+    "nameEn": "Manila Southwoods Golf & Country Club",
+    "city": "카비테",
+    "holes": 36,
+    "url": "https://www.manilasouthwoods.com",
+    "note": "잭 니클라우스 시그니처 코스 2개 보유"
+  },
+  {
+    "country": "philippines",
+    "area": "마닐라",
+    "name": "리비에라 골프클럽",
+    "nameEn": "The Riviera Golf Club",
+    "city": "카비테",
+    "holes": null,
+    "url": "https://www.rivieragolfclub.ph",
+    "note": "선선한 실랑 고지대에 자리한 코스"
+  },
+  {
+    "country": "philippines",
+    "area": "마닐라",
+    "name": "이글리지 골프 & 컨트리클럽",
+    "nameEn": "Eagle Ridge Golf & Country Club",
+    "city": "카비테",
+    "holes": 72,
+    "url": "https://eagleridgecavite.com",
+    "note": "18홀 챔피언십 코스 4개를 갖춘 대형 클럽"
+  },
+  {
+    "country": "philippines",
+    "area": "마닐라",
+    "name": "선밸리 골프 & 컨트리클럽",
+    "nameEn": "Sun Valley Golf & Country Club",
+    "city": "안티폴로",
+    "holes": null,
+    "url": "https://sunvalleyph.com/sun-valley-golf-country-club",
+    "note": "메트로 마닐라 인근 안티폴로 구릉 코스"
+  },
+  {
+    "country": "philippines",
+    "area": "세부",
+    "name": "세부 컨트리클럽",
+    "nameEn": "Cebu Country Club",
+    "city": "세부시티",
+    "holes": 18,
+    "url": "https://www.cebucountryclub.com",
+    "note": "1928년 창립한 세부에서 가장 오래된 코스"
+  },
+  {
+    "country": "philippines",
+    "area": "세부",
+    "name": "알타비스타 골프 & 컨트리클럽",
+    "nameEn": "Alta Vista Golf & Country Club",
+    "city": "세부시티",
+    "holes": null,
+    "url": "https://altavistagolfcebu.com",
+    "note": "해발 약 150m 고지대의 시내 인근 코스"
+  },
+  {
+    "country": "philippines",
+    "area": "세부",
+    "name": "클럽 필리피노 데 세부",
+    "nameEn": "Club Filipino Inc. de Cebu",
+    "city": "다나오",
+    "holes": 18,
+    "url": null,
+    "note": "세부 북부 다나오시의 18홀 코스"
+  }
+]
