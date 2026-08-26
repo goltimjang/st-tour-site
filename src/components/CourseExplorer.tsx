@@ -56,6 +56,14 @@ export default function CourseExplorer({ onPick }: { onPick: (course: Course) =>
   }, [region, ctype, sido, shift, caddie, q]);
 
   const regionCount = (r: string) => courses.filter((c) => c.region === r).length;
+
+  /** 현재 권역·운영형태 범위에서 해당 조건에 해당하는 골프장 수 (정보 확인된 곳 기준) */
+  const optionCount = (field: "shifts" | "caddie", val: string) => {
+    let base = courses;
+    if (region !== "전체") base = base.filter((c) => c.region === region);
+    if (ctype !== "전체") base = base.filter((c) => c.type === ctype);
+    return base.filter((c) => courseDetail(c.name)?.[field]?.includes(val)).length;
+  };
   const conditionOn = shift !== "전체" || caddie !== "전체";
 
   return (
@@ -109,18 +117,24 @@ export default function CourseExplorer({ onPick }: { onPick: (course: Course) =>
             ))}
           </FilterRow>
           <FilterRow label="부제">
-            {SHIFTS.map((s) => (
-              <Chip key={s} on={shift === s} onClick={() => { setShift(s); setLimit(24); }}>
-                {s}
-              </Chip>
-            ))}
+            {SHIFTS.map((s) => {
+              const n = s === "전체" ? null : optionCount("shifts", s);
+              return (
+                <Chip key={s} on={shift === s} disabled={n === 0} onClick={() => { setShift(s); setLimit(24); }}>
+                  {s}{n !== null && <span className="opacity-60 ml-1">{n}</span>}
+                </Chip>
+              );
+            })}
           </FilterRow>
           <FilterRow label="캐디">
-            {CADDIES.map((c) => (
-              <Chip key={c} on={caddie === c} onClick={() => { setCaddie(c); setLimit(24); }}>
-                {c}
-              </Chip>
-            ))}
+            {CADDIES.map((c) => {
+              const n = c === "전체" ? null : optionCount("caddie", c);
+              return (
+                <Chip key={c} on={caddie === c} disabled={n === 0} onClick={() => { setCaddie(c); setLimit(24); }}>
+                  {c}{n !== null && <span className="opacity-60 ml-1">{n}</span>}
+                </Chip>
+              );
+            })}
           </FilterRow>
           <div className="flex flex-wrap gap-2.5 pt-1">
             {sidos.length > 2 && (
@@ -227,9 +241,27 @@ function FilterRow({ label, children }: { label: string; children: React.ReactNo
   );
 }
 
-function Chip({ on, onClick, children }: { on: boolean; onClick: () => void; children: React.ReactNode }) {
+function Chip({
+  on,
+  onClick,
+  disabled,
+  children,
+}: {
+  on: boolean;
+  onClick: () => void;
+  disabled?: boolean;
+  children: React.ReactNode;
+}) {
   return (
-    <button type="button" className="choice !min-h-[38px] !px-3.5 text-[13.5px]" data-on={on} onClick={onClick} aria-pressed={on}>
+    <button
+      type="button"
+      className="choice !min-h-[38px] !px-3.5 text-[13.5px] disabled:opacity-35 disabled:cursor-not-allowed"
+      data-on={on}
+      onClick={onClick}
+      disabled={disabled}
+      aria-pressed={on}
+      title={disabled ? "이 조건으로 확인된 골프장이 아직 없습니다" : undefined}
+    >
       {children}
     </button>
   );
