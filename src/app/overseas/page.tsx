@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import Image from "next/image";
-import { tier1, tier2, tier3 } from "@/data/destinations";
+import { tier2, tier3 } from "@/data/destinations";
 import { overseasPrices, priceDisclaimer } from "@/data/prices";
 import QuoteForm from "@/components/QuoteForm";
 import OverseasExplorer from "@/components/OverseasExplorer";
@@ -78,25 +77,6 @@ export default function OverseasPage() {
         </div>
 
         <div className="space-y-5">
-          <div className="rounded-2xl border border-line bg-white p-6 sm:p-7">
-            <h2 className="font-bold text-[18px] mb-4">인기 목적지</h2>
-            <div className="grid sm:grid-cols-2 gap-4">
-              {tier1.map((d) => (
-                <Link key={d.slug} href={`/overseas/${d.slug}`} className="group card-lift rounded-2xl border border-line overflow-hidden bg-white">
-                  {d.image && (
-                    <div className="img-zoom relative h-28">
-                      <Image src={d.image} alt={`${d.name} 골프장`} fill sizes="280px" className="object-cover" />
-                    </div>
-                  )}
-                  <div className="p-4">
-                    <p className="font-bold text-[16.5px] group-hover:text-royal">{d.name}</p>
-                    <p className="text-[13px] text-mute mt-0.5">{d.cities.slice(0, 3).join(" · ")}</p>
-                    {d.priceFrom && <p className="font-display text-royaldark mt-1.5">{d.priceFrom}</p>}
-                  </div>
-                </Link>
-              ))}
-            </div>
-          </div>
           <div className="rounded-2xl border border-line bg-white p-6 sm:p-7">
             <h2 className="font-bold text-[16px] mb-3">이런 곳도 진행합니다</h2>
             <p className="text-[14.5px] text-mute leading-relaxed">

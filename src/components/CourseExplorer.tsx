@@ -79,52 +79,51 @@ export default function CourseExplorer() {
           점을 누르면 어느 골프장인지 바로 보입니다.
         </p>
 
-        <div className="grid md:grid-cols-[minmax(0,440px)_1fr] gap-7 md:gap-10 items-start">
-          <div className="mx-auto w-full max-w-[440px] md:mx-0">
-            <KoreaMap points={points} region={region} onRegion={(r) => { setRegion(r); reset(); }} />
-            <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5 text-[12.5px] text-white/70 mt-3">
-              <span className="flex items-center gap-1.5">
-                <span className="inline-block h-2.5 w-2.5 rounded-full bg-[#f0b429] ring-1 ring-white/60" /> 대중제
-              </span>
-              <span className="flex items-center gap-1.5">
-                <span className="inline-block h-2.5 w-2.5 rounded-full bg-[#0b1f4d] ring-1 ring-white/60" /> 회원제
-              </span>
-            </div>
-          </div>
+        {/* 권역 버튼: 상단 가로 배치 */}
+        <div className="grid grid-cols-4 sm:grid-cols-7 gap-2 mb-6">
+          <button
+            type="button"
+            onClick={() => { setRegion("전체"); reset(); }}
+            aria-pressed={region === "전체"}
+            className={`rounded-xl px-2 py-3 text-center transition-colors ${
+              region === "전체" ? "bg-white text-navy font-bold" : "bg-white/10 hover:bg-white/20 text-white"
+            }`}
+          >
+            <span className="block text-[15px] font-bold leading-tight">전국</span>
+            <span className="block text-[12px] opacity-70 leading-tight mt-0.5">{courses.length}곳</span>
+          </button>
+          {REGION_ORDER.map((r) => (
+            <button
+              key={r}
+              type="button"
+              onClick={() => { setRegion(r); reset(); }}
+              aria-pressed={region === r}
+              className={`rounded-xl px-2 py-3 text-center transition-colors ${
+                region === r ? "bg-gold text-navydeep font-bold" : "bg-white/10 hover:bg-white/20 text-white"
+              }`}
+            >
+              <span className="block text-[15px] font-bold leading-tight">{r}</span>
+              <span className="block text-[12px] opacity-70 leading-tight mt-0.5">{regionCount(r)}곳</span>
+            </button>
+          ))}
+        </div>
 
-          <div>
-            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-4 gap-2">
-              <button
-                type="button"
-                onClick={() => { setRegion("전체"); reset(); }}
-                aria-pressed={region === "전체"}
-                className={`rounded-xl px-3 py-3 text-center transition-colors ${
-                  region === "전체" ? "bg-white text-navy font-bold" : "bg-white/10 hover:bg-white/20 text-white"
-                }`}
-              >
-                <span className="block text-[15px] font-bold leading-tight">전국</span>
-                <span className="block text-[12px] opacity-70 leading-tight mt-0.5">{courses.length}곳</span>
-              </button>
-              {REGION_ORDER.map((r) => (
-                <button
-                  key={r}
-                  type="button"
-                  onClick={() => { setRegion(r); reset(); }}
-                  aria-pressed={region === r}
-                  className={`rounded-xl px-3 py-3 text-center transition-colors ${
-                    region === r ? "bg-gold text-navydeep font-bold" : "bg-white/10 hover:bg-white/20 text-white"
-                  }`}
-                >
-                  <span className="block text-[15px] font-bold leading-tight">{r}</span>
-                  <span className="block text-[12px] opacity-70 leading-tight mt-0.5">{regionCount(r)}곳</span>
-                </button>
-              ))}
-            </div>
-            {region !== "전체" && REGION_NOTE[region] && (
-              <p className="mt-5 text-[14.5px] text-white/80 border-t border-white/15 pt-4 leading-relaxed">
-                <b className="text-gold">{region}</b> · {REGION_NOTE[region]}
-              </p>
-            )}
+        {region !== "전체" && REGION_NOTE[region] && (
+          <p className="text-center text-[14.5px] text-white/80 mb-5 leading-relaxed">
+            <b className="text-gold">{region}</b> · {REGION_NOTE[region]}
+          </p>
+        )}
+
+        {/* 지도: 가운데 크게 */}
+        <div className="mx-auto w-full max-w-[520px]">
+          <KoreaMap points={points} region={region} onRegion={(r) => { setRegion(r); reset(); }} />
+          <div className="flex items-center justify-center gap-5 text-[12.5px] text-white/70 mt-3">
+            <span className="flex items-center gap-1.5">
+              <span className="inline-block h-2.5 w-2.5 rounded-full bg-[#f0b429] ring-1 ring-white/60" /> 대중제
+            </span>
+            <span className="flex items-center gap-1.5">
+              <span className="inline-block h-2.5 w-2.5 rounded-full bg-[#0b1f4d] ring-1 ring-white/60" /> 회원제
+            </span>
           </div>
         </div>
       </div>
@@ -151,7 +150,7 @@ export default function CourseExplorer() {
           </FilterRow>
           <FilterRow label="캐디">
             <Chip on={noCaddieOnly} disabled={noCaddieCount === 0} onClick={() => { setNoCaddieOnly(!noCaddieOnly); setLimit(24); }}>
-              노캐디 가능한 곳만<span className="opacity-60 ml-1">{noCaddieCount}</span>
+              노캐디<span className="opacity-60 ml-1">{noCaddieCount}</span>
             </Chip>
           </FilterRow>
           <div className="flex flex-wrap gap-2.5 pt-1">

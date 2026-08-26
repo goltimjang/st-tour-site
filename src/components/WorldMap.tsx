@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import worldMaps from "@/data/world-maps.json";
+import worldAreas from "@/data/world-areas.json";
 import type { CountryMeta } from "@/data/overseas-meta";
 
 export type OverseasCourse = {
@@ -19,6 +20,13 @@ export type OverseasCourse = {
 
 type MapEntry = { viewBox: number[]; proj: { lng0: number; lat1: number; cos: number; unit: number }; d: string };
 const maps = worldMaps as Record<string, MapEntry>;
+const areaPaths = worldAreas as Record<string, Record<string, string>>;
+
+/** 공식 홈페이지가 없는 골프장은 구글 검색으로 안내 (영문명이 있으면 더 정확) */
+export function searchUrl(c: { name: string; nameEn?: string | null }) {
+  const q = c.nameEn ? `${c.nameEn} golf` : `${c.name} 골프장`;
+  return `https://www.google.com/search?q=${encodeURIComponent(q)}`;
+}
 
 /**
  * 지도를 띄울지 판단.
@@ -70,7 +78,35 @@ export default function WorldMap({
         role="img"
         aria-label={`${meta.name} 골프장 분포 지도`}
       >
-        <path d={entry.d} fill={t.land} fillOpacity={0.9} stroke="#ffffff" strokeWidth={1.6} strokeOpacity={0.6} />
+        {/* 국가 전체 윤곽 */}
+        <path
+          d={entry.d}
+          fill={area === "전체" ? t.land : t.landDim}
+          fillOpacity={area === "전체" ? 0.9 : 0.75}
+          stroke="#ffffff"
+          strokeWidth={1.6}
+          strokeOpacity={0.5}
+        />
+
+        {/* 지역 영역: 클릭해서 고르고, 선택하면 색으로 구분 */}
+        {Object.entries(areaPaths[country] ?? {}).map(([a, d]) => {
+          const on = area === a;
+          return (
+            <path
+              key={a}
+              d={d}
+              onClick={() => onArea(on ? "전체" : a)}
+              className="cursor-pointer transition-all duration-200"
+              fill={on ? t.active : t.land}
+              fillOpacity={on ? 0.95 : area === "전체" ? 0.55 : 0.25}
+              stroke="#ffffff"
+              strokeWidth={on ? 2 : 1}
+              strokeOpacity={on ? 0.9 : 0.45}
+            >
+              <title>{`${a} 골프장 보기`}</title>
+            </path>
+          );
+        })}
 
         {pins.map((p) => {
           const dim = area !== "전체" && p.area !== area;
@@ -116,16 +152,14 @@ export default function WorldMap({
             {active.holes ? ` · ${active.holes}홀` : ""}
           </p>
           {active.note && <p className="text-[13px] text-ink/75 mt-2 leading-relaxed">{active.note}</p>}
-          {active.url && (
-            <a
-              href={active.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-3 flex items-center justify-center rounded-lg border border-line px-3 py-2 text-[13px] font-bold text-royaldark hover:border-royal"
-            >
-              공식 홈페이지 열기
-            </a>
-          )}
+          <a
+            href={active.url ?? searchUrl(active)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-3 flex items-center justify-center rounded-lg border border-line px-3 py-2 text-[13px] font-bold text-royaldark hover:border-royal"
+          >
+            {active.url ? "공식 홈페이지 열기" : "골프장 정보 검색"}
+          </a>
         </div>
       )}
     </div>

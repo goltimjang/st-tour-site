@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import coursesData from "@/data/overseas-courses.json";
 import { countries, countryBySlug } from "@/data/overseas-meta";
-import WorldMap, { hasMap, type OverseasCourse } from "@/components/WorldMap";
+import WorldMap, { hasMap, searchUrl, type OverseasCourse } from "@/components/WorldMap";
 
 const all = coursesData as OverseasCourse[];
 
@@ -76,74 +76,70 @@ export default function OverseasExplorer() {
           })}
         </div>
 
-        <div className="grid md:grid-cols-[minmax(0,440px)_1fr] gap-7 md:gap-10 items-start">
-          <div className="mx-auto w-full max-w-[440px] md:mx-0">
-            {hasMap(country) && inCountry.some((c) => Number.isFinite(c.lat)) ? (
-              <WorldMap country={country} meta={meta} courses={inCountry} area={area} onArea={setArea} />
-            ) : (
-              <div className="rounded-xl bg-white/10 p-6">
-                <p className="text-[14.5px] text-white/85 leading-relaxed mb-4">
-                  {meta.name}{hasBatchim(meta.name) ? "은" : "는"} 지역이 멀리 떨어져 있어 지역별 목록으로 보여드립니다.
-                </p>
-                <ul className="space-y-2.5">
-                  {areas
-                    .filter((a) => a !== "전체")
-                    .map((a) => (
-                      <li key={a}>
-                        <button
-                          type="button"
-                          onClick={() => { setArea(a); setQ(""); }}
-                          className={`w-full flex items-center justify-between rounded-lg px-4 py-3 text-[14.5px] font-semibold transition-colors ${
-                            area === a ? "text-navydeep" : "bg-white/10 hover:bg-white/20 text-white"
-                          }`}
-                          style={area === a ? { backgroundColor: t.accent } : undefined}
-                        >
-                          <span>{a}</span>
-                          <span className="opacity-70 text-[13px]">{areaCount(a)}곳</span>
-                        </button>
-                      </li>
-                    ))}
-                </ul>
-              </div>
-            )}
-          </div>
+        {/* 국가 소개 */}
+        <div className="rounded-xl bg-white/10 p-5 mb-5">
+          <p className="text-[15.5px] leading-relaxed">{meta.blurb}</p>
+          <p className="text-[13.5px] text-white/70 mt-2.5">
+            {meta.flight} · 추천 시즌 {meta.season}
+          </p>
+        </div>
 
-          <div>
-            {/* 국가 소개 */}
-            <div className="rounded-xl bg-white/10 p-5 mb-5">
-              <p className="text-[15.5px] leading-relaxed">{meta.blurb}</p>
-              <p className="text-[13.5px] text-white/70 mt-2.5">
-                {meta.flight} · 추천 시즌 {meta.season}
-              </p>
-            </div>
+        {/* 지역 선택: 상단 가로 배치 */}
+        <div className="flex flex-wrap gap-2 mb-6">
+          {areas.map((a) => {
+            const on = !q && area === a;
+            return (
+              <button
+                key={a}
+                type="button"
+                onClick={() => { setArea(a); setQ(""); }}
+                aria-pressed={on}
+                className={`rounded-lg px-3.5 py-2 text-[13.5px] font-semibold transition-colors ${
+                  on ? "text-navydeep" : "bg-white/10 hover:bg-white/20 text-white"
+                }`}
+                style={on ? { backgroundColor: t.accent } : undefined}
+              >
+                {a}
+                <span className="ml-1.5 opacity-65 text-[12px]">{areaCount(a)}</span>
+              </button>
+            );
+          })}
+        </div>
 
-            {/* 지역 선택 */}
-            <div className="flex flex-wrap gap-2">
-              {areas.map((a) => {
-                const on = !q && area === a;
-                return (
-                  <button
-                    key={a}
-                    type="button"
-                    onClick={() => { setArea(a); setQ(""); }}
-                    aria-pressed={on}
-                    className={`rounded-lg px-3.5 py-2 text-[13.5px] font-semibold transition-colors ${
-                      on ? "text-navydeep" : "bg-white/10 hover:bg-white/20 text-white"
-                    }`}
-                    style={on ? { backgroundColor: t.accent } : undefined}
-                  >
-                    {a}
-                    <span className="ml-1.5 opacity-65 text-[12px]">{areaCount(a)}</span>
-                  </button>
-                );
-              })}
-            </div>
-
-            <p className="text-[12.5px] text-white/60 mt-4">
-              지도의 점을 누르면 해당 지역이 자동으로 선택됩니다.
+        {/* 지도: 가운데 크게 */}
+        {hasMap(country) && inCountry.some((c) => Number.isFinite(c.lat)) ? (
+          <div className="mx-auto w-full max-w-[560px]">
+            <WorldMap country={country} meta={meta} courses={inCountry} area={area} onArea={setArea} />
+            <p className="text-center text-[12.5px] text-white/60 mt-3">
+              지도에서 지역이나 골프장 점을 눌러보세요.
             </p>
           </div>
-        </div>
+        ) : (
+          <div className="mx-auto w-full max-w-[560px] rounded-xl bg-white/10 p-6">
+            <p className="text-[14.5px] text-white/85 leading-relaxed mb-4">
+              {meta.name}{hasBatchim(meta.name) ? "은" : "는"} 지역이 멀리 떨어져 있어 지역별 목록으로 보여드립니다.
+            </p>
+            <ul className="space-y-2.5">
+              {areas
+                .filter((a) => a !== "전체")
+                .map((a) => (
+                  <li key={a}>
+                    <button
+                      type="button"
+                      onClick={() => { setArea(a); setQ(""); }}
+                      className={`w-full flex items-center justify-between rounded-lg px-4 py-3 text-[14.5px] font-semibold transition-colors ${
+                        area === a ? "text-navydeep" : "bg-white/10 hover:bg-white/20 text-white"
+                      }`}
+                      style={area === a ? { backgroundColor: t.accent } : undefined}
+                    >
+                      <span>{a}</span>
+                      <span className="opacity-70 text-[13px]">{areaCount(a)}곳</span>
+                    </button>
+                  </li>
+                ))}
+            </ul>
+          </div>
+        )}
       </div>
 
       {/* 목록 */}
@@ -180,16 +176,15 @@ export default function OverseasExplorer() {
                   </p>
                   {c.note && <p className="text-[13px] text-mute mt-1">{c.note}</p>}
                 </div>
-                {c.url && (
-                  <a
-                    href={c.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="choice !min-h-[36px] !px-3 text-[12.5px] shrink-0"
-                  >
-                    공식 홈페이지
-                  </a>
-                )}
+                <a
+                  href={c.url ?? searchUrl(c)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="choice !min-h-[36px] !px-3 text-[12.5px] shrink-0"
+                  title={c.url ? "골프장 공식 홈페이지" : "구글에서 이 골프장 검색"}
+                >
+                  {c.url ? "공식 홈페이지" : "정보 검색"}
+                </a>
               </li>
             ))}
           </ul>
