@@ -72,11 +72,12 @@ export default function OverseasExplorer() {
 
         <div className="grid md:grid-cols-[minmax(0,440px)_1fr] gap-7 md:gap-10 items-start">
           <div className="mx-auto w-full max-w-[440px] md:mx-0">
-            {hasMap(country) ? (
+            {hasMap(country) && inCountry.some((c) => Number.isFinite(c.lat)) ? (
               <WorldMap country={country} meta={meta} courses={inCountry} area={area} onArea={setArea} />
             ) : (
-              <div className="rounded-xl bg-white/10 p-6 text-[14px] text-white/75">
-                {meta.name} 지도는 준비 중입니다. 아래 목록에서 골프장을 확인해 주세요.
+              <div className="rounded-xl bg-white/10 p-6 text-[14.5px] text-white/80 leading-relaxed">
+                {meta.name} 골프장 위치 정보를 정리하고 있습니다. 지도는 곧 열리며, 그 전에도 아래 목록에서 코스를
+                확인하고 견적을 요청하실 수 있습니다.
               </div>
             )}
           </div>

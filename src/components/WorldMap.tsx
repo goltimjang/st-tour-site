@@ -44,11 +44,10 @@ export default function WorldMap({
   const pins = useMemo(() => {
     if (!entry) return [];
     const { lng0, lat1, cos, unit } = entry.proj;
-    return courses.map((c) => ({
-      ...c,
-      x: (c.lng - lng0) * cos * unit,
-      y: (lat1 - c.lat) * unit,
-    }));
+    // 좌표가 확인된 골프장만 지도에 표시 (미확인 항목은 아래 목록에만 나온다)
+    return courses
+      .filter((c) => Number.isFinite(c.lat) && Number.isFinite(c.lng))
+      .map((c) => ({ ...c, x: (c.lng - lng0) * cos * unit, y: (lat1 - c.lat) * unit }));
   }, [entry, courses]);
 
   if (!entry) return null;
