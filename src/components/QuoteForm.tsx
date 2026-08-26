@@ -62,7 +62,6 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
   // Step 3
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
-  const [channel, setChannel] = useState("전화");
   const [agree, setAgree] = useState(false);
   const [showPrivacy, setShowPrivacy] = useState(false);
 
@@ -104,7 +103,6 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
       요청사항: memo || "-",
       이름: name,
       연락처: phone,
-      연락채널: channel,
     };
     // 정적 호스팅(GitHub Pages): FormSubmit 릴레이로 운영자 메일 전달.
     // 해시 엔드포인트 사용: 소스에 이메일이 노출되지 않아 스팸봇 수집 방지 (goltimjang@gmail.com 수신)
@@ -139,7 +137,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
         <p className="text-[17px]">
           지금부터 24시간 카운트가 시작됩니다.
           <br />
-          <strong className="text-royaldark">{deadline} 전에</strong> {channel}로 견적서를 보내드립니다.
+          <strong className="text-royaldark">{deadline} 전에</strong> 남겨주신 연락처로 견적서를 보내드립니다.
         </p>
         <div className="mt-5 rounded-xl bg-paper p-5 text-[15px] leading-relaxed">
           <p className="font-bold mb-1">접수 내용</p>
@@ -171,7 +169,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
       {/* 진행률 */}
       <div className="flex items-center justify-between mb-7">
         <p className="eyebrow text-royal">
-          Step {step} / 3 · {step === 1 ? "어디로, 언제, 몇 분?" : step === 2 ? "어떻게 즐기실까요?" : "어디로 보내드릴까요?"}
+          Step {step} / 3 · {step === 1 ? "어디로, 언제, 몇 분?" : step === 2 ? "어떻게 즐기실까요?" : "연락처를 남겨주세요"}
         </p>
         <div className="flex gap-1.5" aria-hidden="true">
           {[1, 2, 3].map((i) => (
@@ -313,9 +311,6 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
           </Field>
           <Field label="연락처" required>
             <input className="field" type="tel" inputMode="tel" value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="010-0000-0000" autoComplete="tel" />
-          </Field>
-          <Field label="견적서를 어디로 보내드릴까요?" required>
-            <Choices value={channel} set={setChannel} items={["전화", "카카오톡", "문자"]} />
           </Field>
 
           <div className="rounded-xl bg-paper p-4">
