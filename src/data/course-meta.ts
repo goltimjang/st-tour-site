@@ -7,7 +7,7 @@ export type CourseDetail = {
   url: string | null;
   holes: number | null;
   shifts: string[] | null;
-  caddie: string[] | null;
+  noCaddie?: boolean;
   verified?: string;
 };
 

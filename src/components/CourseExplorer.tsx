@@ -13,7 +13,6 @@ const points = pointsData as Point[];
 const REGION_ORDER = ["수도권", "강원", "충청", "호남", "영남", "제주"];
 const TYPES = ["전체", "대중제", "회원제"] as const;
 const SHIFTS = ["전체", "2부제", "3부제"] as const;
-const CADDIES = ["전체", "캐디", "노캐디"] as const;
 
 /** 권역별 한 줄 소개 (일반 고객이 감을 잡도록) */
 const REGION_NOTE: Record<string, string> = {
@@ -29,7 +28,7 @@ export default function CourseExplorer() {
   const [region, setRegion] = useState("전체");
   const [ctype, setCtype] = useState<(typeof TYPES)[number]>("전체");
   const [shift, setShift] = useState<(typeof SHIFTS)[number]>("전체");
-  const [caddie, setCaddie] = useState<(typeof CADDIES)[number]>("전체");
+  const [noCaddieOnly, setNoCaddieOnly] = useState(false);
   const [sido, setSido] = useState("전체");
   const [q, setQ] = useState("");
   const [limit, setLimit] = useState(24);
@@ -47,7 +46,7 @@ export default function CourseExplorer() {
     if (ctype !== "전체") list = list.filter((c) => c.type === ctype);
     if (sido !== "전체") list = list.filter((c) => c.sido === sido);
     if (shift !== "전체") list = list.filter((c) => courseDetail(c.name)?.shifts?.includes(shift));
-    if (caddie !== "전체") list = list.filter((c) => courseDetail(c.name)?.caddie?.includes(caddie));
+    if (noCaddieOnly) list = list.filter((c) => courseDetail(c.name)?.noCaddie);
     const term = q.trim().replace(/\s/g, "");
     if (term) list = list.filter((c) => (c.name + c.city + c.sido).replace(/\s/g, "").includes(term));
     return [...list].sort(
@@ -56,18 +55,19 @@ export default function CourseExplorer() {
         a.sido.localeCompare(b.sido, "ko") ||
         a.name.localeCompare(b.name, "ko")
     );
-  }, [region, ctype, sido, shift, caddie, q]);
+  }, [region, ctype, sido, shift, noCaddieOnly, q]);
 
   const regionCount = (r: string) => courses.filter((c) => c.region === r).length;
 
-  /** 현재 권역·운영형태 범위에서 해당 조건에 해당하는 골프장 수 (정보 확인된 곳 기준) */
-  const optionCount = (field: "shifts" | "caddie", val: string) => {
+  /** 현재 권역·운영형태 범위에서 조건에 해당하는 골프장 수 */
+  const scoped = () => {
     let base = courses;
     if (region !== "전체") base = base.filter((c) => c.region === region);
     if (ctype !== "전체") base = base.filter((c) => c.type === ctype);
-    return base.filter((c) => courseDetail(c.name)?.[field]?.includes(val)).length;
+    return base;
   };
-  const conditionOn = shift !== "전체" || caddie !== "전체";
+  const shiftCount = (val: string) => scoped().filter((c) => courseDetail(c.name)?.shifts?.includes(val)).length;
+  const noCaddieCount = scoped().filter((c) => courseDetail(c.name)?.noCaddie).length;
 
   return (
     <div className="rounded-2xl border border-line bg-white overflow-hidden shadow-soft">
@@ -79,8 +79,8 @@ export default function CourseExplorer() {
           점을 누르면 어느 골프장인지 바로 보입니다.
         </p>
 
-        <div className="grid md:grid-cols-[minmax(0,300px)_1fr] gap-6 md:gap-8 items-start">
-          <div className="mx-auto w-full max-w-[300px] md:mx-0">
+        <div className="grid md:grid-cols-[minmax(0,440px)_1fr] gap-7 md:gap-10 items-start">
+          <div className="mx-auto w-full max-w-[440px] md:mx-0">
             <KoreaMap points={points} region={region} onRegion={(r) => { setRegion(r); reset(); }} />
             <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5 text-[12.5px] text-white/70 mt-3">
               <span className="flex items-center gap-1.5">
@@ -141,7 +141,7 @@ export default function CourseExplorer() {
           </FilterRow>
           <FilterRow label="부제">
             {SHIFTS.map((s) => {
-              const n = s === "전체" ? null : optionCount("shifts", s);
+              const n = s === "전체" ? null : shiftCount(s);
               return (
                 <Chip key={s} on={shift === s} disabled={n === 0} onClick={() => { setShift(s); setLimit(24); }}>
                   {s}{n !== null && <span className="opacity-60 ml-1">{n}</span>}
@@ -150,14 +150,9 @@ export default function CourseExplorer() {
             })}
           </FilterRow>
           <FilterRow label="캐디">
-            {CADDIES.map((c) => {
-              const n = c === "전체" ? null : optionCount("caddie", c);
-              return (
-                <Chip key={c} on={caddie === c} disabled={n === 0} onClick={() => { setCaddie(c); setLimit(24); }}>
-                  {c}{n !== null && <span className="opacity-60 ml-1">{n}</span>}
-                </Chip>
-              );
-            })}
+            <Chip on={noCaddieOnly} disabled={noCaddieCount === 0} onClick={() => { setNoCaddieOnly(!noCaddieOnly); setLimit(24); }}>
+              노캐디 가능한 곳만<span className="opacity-60 ml-1">{noCaddieCount}</span>
+            </Chip>
           </FilterRow>
           <div className="flex flex-wrap gap-2.5 pt-1">
             {sidos.length > 2 && (
@@ -182,7 +177,7 @@ export default function CourseExplorer() {
           </div>
         </div>
 
-        {conditionOn && (
+        {(shift !== "전체" || noCaddieOnly) && (
           <p className="text-[13px] text-mute bg-paper rounded-lg px-3.5 py-2.5 mb-3 leading-relaxed">
             부제·캐디 운영은 <b>시즌과 요일에 따라 달라집니다.</b> 여기 표시된 내용은 각 골프장 공식 안내에서 확인한 참고
             정보이며, 실제 가능 여부는 요청하신 날짜 기준으로 저희가 확인해 견적서에 담아드립니다. 찾는 골프장이 안 보이면
@@ -194,7 +189,7 @@ export default function CourseExplorer() {
           {region === "전체" ? "전국" : region}
           {ctype === "전체" ? "" : ` · ${ctype}`}
           {shift === "전체" ? "" : ` · ${shift}`}
-          {caddie === "전체" ? "" : ` · ${caddie}`} · <b className="text-ink">{filtered.length}곳</b>
+          {noCaddieOnly ? " · 노캐디" : ""} · <b className="text-ink">{filtered.length}곳</b>
         </p>
 
         {filtered.length === 0 ? (
@@ -218,7 +213,7 @@ export default function CourseExplorer() {
                         )}
                         {d?.holes && <Tag tone="plain">{d.holes}홀</Tag>}
                         {d?.shifts?.map((s) => <Tag key={s} tone="plain">{s}</Tag>)}
-                        {d?.caddie?.map((s) => <Tag key={s} tone="plain">{s}</Tag>)}
+                        {d?.noCaddie && <Tag tone="green">노캐디 가능</Tag>}
                       </p>
                     </div>
                     <a
@@ -283,8 +278,14 @@ function Chip({
   );
 }
 
-function Tag({ tone, children }: { tone: "navy" | "gold" | "plain"; children: React.ReactNode }) {
+function Tag({ tone, children }: { tone: "navy" | "gold" | "plain" | "green"; children: React.ReactNode }) {
   const cls =
-    tone === "navy" ? "bg-navy/8 text-navy" : tone === "gold" ? "bg-gold/12 text-golddeep" : "bg-paper text-mute";
+    tone === "navy"
+      ? "bg-navy/8 text-navy"
+      : tone === "gold"
+        ? "bg-gold/12 text-golddeep"
+        : tone === "green"
+          ? "bg-emerald-50 text-emerald-700"
+          : "bg-paper text-mute";
   return <span className={`rounded px-1.5 py-0.5 text-[11px] font-bold ${cls}`}>{children}</span>;
 }

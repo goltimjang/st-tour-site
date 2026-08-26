@@ -52,7 +52,7 @@ export default function KoreaMap({
     <div className="relative">
       <svg
         viewBox={`-14 -14 ${VW + 28} ${VH + 28}`}
-        className="w-full h-auto max-h-[560px] select-none"
+        className="w-full h-auto max-h-[820px] select-none"
         role="img"
         aria-label="전국 골프장 분포 지도"
       >
@@ -84,11 +84,11 @@ export default function KoreaMap({
               key={`${p.name}-${p.city}`}
               cx={p.x}
               cy={p.y}
-              r={isActive ? 6.5 : 3.4}
+              r={isActive ? 8 : 4.6}
               fill={isActive ? "#ffffff" : p.type === "회원제" ? "#0b1f4d" : "#f0b429"}
               fillOpacity={dim ? 0.16 : 1}
               stroke={isActive ? "#0d4ff5" : "#ffffff"}
-              strokeWidth={isActive ? 3 : 1}
+              strokeWidth={isActive ? 3 : 1.2}
               strokeOpacity={dim ? 0.2 : 0.95}
               className="cursor-pointer transition-all"
               onClick={(e) => {

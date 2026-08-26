@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { site } from "@/data/site";
 import { destinations } from "@/data/destinations";
@@ -24,7 +24,19 @@ const BUDGETS_OVS = ["60만원 이하", "60~100만원", "100~150만원", "150만
 export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillCountry }: Props) {
   const isDom = type === "domestic";
 
+  const boxRef = useRef<HTMLDivElement>(null);
   const [step, setStep] = useState(1);
+
+  /** 단계를 바꾸면 폼 상단이 화면에 오도록 맞춘다 (긴 폼에서 엉뚱한 위치로 가는 것 방지) */
+  function goStep(next: number) {
+    setStep(next);
+    requestAnimationFrame(() => {
+      const el = boxRef.current;
+      if (!el) return;
+      const top = el.getBoundingClientRect().top + window.scrollY - 90; // 고정 헤더 여유
+      window.scrollTo({ top, behavior: "smooth" });
+    });
+  }
   const [done, setDone] = useState(false);
   const [sending, setSending] = useState(false);
   const [error, setError] = useState("");
@@ -85,7 +97,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
       희망시기: whenLabel,
       인원: `${people}명`,
       기간: stay || duration || "미정",
-      라운드수: rounds || "미정",
+      "1일 라운드": rounds || "미정",
       ...(isDom ? { 숙박: lodging || "미정" } : { 항공: flight || "미정", 숙박수준: lodging || "미정" }),
       예산: budget || "미정",
       선호골프장: course || "없음(추천 요청)",
@@ -155,7 +167,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
 
   /* ---------------- 입력 화면 ---------------- */
   return (
-    <div className="rounded-2xl border border-line bg-white p-6 sm:p-10">
+    <div ref={boxRef} className="scroll-mt-24 rounded-2xl border border-line bg-white p-6 sm:p-10">
       {/* 진행률 */}
       <div className="flex items-center justify-between mb-7">
         <p className="eyebrow text-royal">
@@ -235,7 +247,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
             </div>
           </Field>
 
-          <NextBtn disabled={!step1Ok} onClick={() => setStep(2)} />
+          <NextBtn disabled={!step1Ok} onClick={() => goStep(2)} />
           <CallEscape />
         </div>
       )}
@@ -255,8 +267,9 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
               <Choices value={duration} set={setDuration} items={isDom ? ["당일", "1박 2일", "2박 3일", "3박 이상"] : ["2박 3일", "3박 4일", "3박 5일", "4박 이상"]} />
             )}
           </Field>
-          <Field label="라운드 수">
-            <Choices value={rounds} set={setRounds} items={isDom ? ["1회 (18홀)", "2회 (36홀)", "3회 (54홀)", "상담 후 결정"] : ["2회", "3회 (54홀)", "4회 이상", "상담 후 결정"]} />
+          <Field label="1일 라운드">
+            <Choices value={rounds} set={setRounds} items={["18홀", "36홀", "상담 후 결정"]} />
+            <p className="text-[13px] text-mute mt-2">하루에 몇 홀 도실지 골라주세요. 일정에 맞춰 티타임을 잡아드립니다.</p>
           </Field>
           {isDom ? (
             <Field label="숙박이 필요하신가요?">
@@ -286,8 +299,8 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
             <textarea className="field min-h-[96px]" value={memo} onChange={(e) => setMemo(e.target.value)} placeholder="예: 조식 포함 희망, 부모님 동반이라 이동이 편했으면 합니다" />
           </Field>
           <div className="flex gap-3">
-            <BackBtn onClick={() => setStep(1)} />
-            <NextBtn onClick={() => setStep(3)} />
+            <BackBtn onClick={() => goStep(1)} />
+            <NextBtn onClick={() => goStep(3)} />
           </div>
           <CallEscape />
         </div>
@@ -328,7 +341,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
           {error && <p className="text-[15px] font-semibold text-red-600" role="alert">{error}</p>}
 
           <div className="flex gap-3">
-            <BackBtn onClick={() => setStep(2)} />
+            <BackBtn onClick={() => goStep(2)} />
             <button type="button" className="btn btn-royal flex-1" disabled={!step3Ok || sending} onClick={submit} style={!step3Ok || sending ? { opacity: 0.5, cursor: "not-allowed" } : undefined}>
               {sending ? "전송 중…" : "무료 견적 요청하기"}
             </button>
