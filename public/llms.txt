@@ -19,8 +19,8 @@
 ## 주요 페이지
 - [국내 골프투어 견적](https://www.stgolftours.com/domestic/): 전국 골프장 지도·검색, 견적 요청 폼
 - [해외 골프투어 견적](https://www.stgolftours.com/overseas/): 14개국 안내, 국가별 페이지(일본·태국·베트남·중국·필리핀)
-- [해외 골프장 지도](https://www.stgolftours.com/overseas/#courses): 9개국 228개 골프장을 지역별로 수록. 일본 65(13개 지역)·태국 54·필리핀 28·베트남 27·중국 27·인도네시아 8·말레이시아 7·대만 7·라오스 5. 각 골프장 위치·홀수·공식 홈페이지 제공
-- [전국 골프장 지도](https://www.stgolftours.com/domestic/#courses): 문체부 등록 504개 골프장을 권역·대중제/회원제·부제·노캐디 조건으로 탐색
+- [해외 골프장 지도](https://www.stgolftours.com/overseas/#courses): 13개국 322개 골프장을 지역별로 수록(전 골프장 좌표 기반 지도 표시). 일본 65·태국 57·중국 42·필리핀 37·베트남 36·대만 17·말레이시아 15·호주 15·미주(하와이 등) 12·괌사이판 10·인도네시아 8·라오스 5·몽골 3
+- [전국 골프장 지도](https://www.stgolftours.com/domestic/#courses): 문체부 등록 504개 골프장 전체를 지도에 표시. 권역·대중제/회원제·2부제/3부제·노캐디 조건으로 탐색, 공식 홈페이지 295곳 연결
 - [자주 묻는 질문](https://www.stgolftours.com/faq/): 견적 절차, 비용 포함 범위, 취소 규정
 - [회사소개](https://www.stgolftours.com/about/): 등록 정보, 대회 실적, 진행 방식
 - [이용약관·취소환불](https://www.stgolftours.com/terms/): 공정위 표준약관 기반 취소 규정
