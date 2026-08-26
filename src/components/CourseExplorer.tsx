@@ -2,10 +2,13 @@
 
 import { useMemo, useState } from "react";
 import coursesData from "@/data/golf-courses.json";
+import pointsData from "@/data/course-points.json";
+import KoreaMap, { type Point } from "@/components/KoreaMap";
 import { courseDetail, courseLink } from "@/data/course-meta";
 
 type Course = { name: string; sido: string; city: string; region: string; type: string | null };
 const courses = coursesData as Course[];
+const points = pointsData as Point[];
 
 const REGION_ORDER = ["수도권", "강원", "충청", "호남", "영남", "제주"];
 const TYPES = ["전체", "대중제", "회원제"] as const;
@@ -22,7 +25,7 @@ const REGION_NOTE: Record<string, string> = {
   제주: "사계절 라운드가 가능하고 항공과 묶어 패키지로 갑니다.",
 };
 
-export default function CourseExplorer({ onPick }: { onPick: (course: Course) => void }) {
+export default function CourseExplorer() {
   const [region, setRegion] = useState("전체");
   const [ctype, setCtype] = useState<(typeof TYPES)[number]>("전체");
   const [shift, setShift] = useState<(typeof SHIFTS)[number]>("전체");
@@ -68,42 +71,62 @@ export default function CourseExplorer({ onPick }: { onPick: (course: Course) =>
 
   return (
     <div className="rounded-2xl border border-line bg-white overflow-hidden shadow-soft">
-      {/* 권역 내비게이션 */}
+      {/* 권역 내비게이션 + 지도 */}
       <div className="bg-navy text-white p-6 sm:p-8">
         <h3 className="headline text-[22px] sm:text-[26px] mb-1.5">전국 골프장 지도</h3>
-        <p className="text-[14px] text-white/70 mb-5">
-          문화체육관광부 등록 {courses.length}개 골프장. 가고 싶은 권역을 누르면 그 지역 골프장이 아래에 나옵니다.
+        <p className="text-[14px] text-white/70 mb-6">
+          문화체육관광부 등록 {courses.length}개 골프장. 지도에서 지역을 누르면 그 지역 골프장이 아래에 나오고,
+          점을 누르면 어느 골프장인지 바로 보입니다.
         </p>
-        <div className="grid grid-cols-3 sm:grid-cols-6 gap-2">
-          <button
-            type="button"
-            onClick={() => { setRegion("전체"); reset(); }}
-            aria-pressed={region === "전체"}
-            className={`rounded-xl px-3 py-3 text-center transition-colors ${
-              region === "전체" ? "bg-white text-navy font-bold" : "bg-white/10 hover:bg-white/20 text-white"
-            }`}
-          >
-            <span className="block text-[15px] font-bold leading-tight">전국</span>
-            <span className="block text-[12px] opacity-70 leading-tight mt-0.5">{courses.length}곳</span>
-          </button>
-          {REGION_ORDER.map((r) => (
-            <button
-              key={r}
-              type="button"
-              onClick={() => { setRegion(r); reset(); }}
-              aria-pressed={region === r}
-              className={`rounded-xl px-3 py-3 text-center transition-colors ${
-                region === r ? "bg-gold text-navydeep font-bold" : "bg-white/10 hover:bg-white/20 text-white"
-              }`}
-            >
-              <span className="block text-[15px] font-bold leading-tight">{r}</span>
-              <span className="block text-[12px] opacity-70 leading-tight mt-0.5">{regionCount(r)}곳</span>
-            </button>
-          ))}
+
+        <div className="grid md:grid-cols-[minmax(0,300px)_1fr] gap-6 md:gap-8 items-start">
+          <div className="mx-auto w-full max-w-[300px] md:mx-0">
+            <KoreaMap points={points} region={region} onRegion={(r) => { setRegion(r); reset(); }} />
+            <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5 text-[12.5px] text-white/70 mt-3">
+              <span className="flex items-center gap-1.5">
+                <span className="inline-block h-2.5 w-2.5 rounded-full bg-[#f0b429] ring-1 ring-white/60" /> 대중제
+              </span>
+              <span className="flex items-center gap-1.5">
+                <span className="inline-block h-2.5 w-2.5 rounded-full bg-[#0b1f4d] ring-1 ring-white/60" /> 회원제
+              </span>
+            </div>
+          </div>
+
+          <div>
+            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-4 gap-2">
+              <button
+                type="button"
+                onClick={() => { setRegion("전체"); reset(); }}
+                aria-pressed={region === "전체"}
+                className={`rounded-xl px-3 py-3 text-center transition-colors ${
+                  region === "전체" ? "bg-white text-navy font-bold" : "bg-white/10 hover:bg-white/20 text-white"
+                }`}
+              >
+                <span className="block text-[15px] font-bold leading-tight">전국</span>
+                <span className="block text-[12px] opacity-70 leading-tight mt-0.5">{courses.length}곳</span>
+              </button>
+              {REGION_ORDER.map((r) => (
+                <button
+                  key={r}
+                  type="button"
+                  onClick={() => { setRegion(r); reset(); }}
+                  aria-pressed={region === r}
+                  className={`rounded-xl px-3 py-3 text-center transition-colors ${
+                    region === r ? "bg-gold text-navydeep font-bold" : "bg-white/10 hover:bg-white/20 text-white"
+                  }`}
+                >
+                  <span className="block text-[15px] font-bold leading-tight">{r}</span>
+                  <span className="block text-[12px] opacity-70 leading-tight mt-0.5">{regionCount(r)}곳</span>
+                </button>
+              ))}
+            </div>
+            {region !== "전체" && REGION_NOTE[region] && (
+              <p className="mt-5 text-[14.5px] text-white/80 border-t border-white/15 pt-4 leading-relaxed">
+                <b className="text-gold">{region}</b> · {REGION_NOTE[region]}
+              </p>
+            )}
+          </div>
         </div>
-        {region !== "전체" && REGION_NOTE[region] && (
-          <p className="mt-4 text-[14px] text-white/80 border-t border-white/15 pt-4">{REGION_NOTE[region]}</p>
-        )}
       </div>
 
       <div className="p-5 sm:p-7">
@@ -198,24 +221,15 @@ export default function CourseExplorer({ onPick }: { onPick: (course: Course) =>
                         {d?.caddie?.map((s) => <Tag key={s} tone="plain">{s}</Tag>)}
                       </p>
                     </div>
-                    <div className="flex gap-1.5 shrink-0">
-                      <a
-                        href={link.href}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="choice !min-h-[38px] !px-3 text-[13px]"
-                        title={link.official ? "골프장 공식 홈페이지" : "네이버에서 이 골프장 검색"}
-                      >
-                        {link.official ? "공식 홈페이지" : "정보 검색"}
-                      </a>
-                      <button
-                        type="button"
-                        className="choice !min-h-[38px] !px-3 text-[13px] !text-royaldark !border-royal/40"
-                        onClick={() => onPick(c)}
-                      >
-                        견적받기
-                      </button>
-                    </div>
+                    <a
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="choice !min-h-[38px] !px-3 text-[13px] shrink-0"
+                      title={link.official ? "골프장 공식 홈페이지" : "네이버에서 이 골프장 검색"}
+                    >
+                      {link.official ? "공식 홈페이지" : "정보 검색"}
+                    </a>
                   </li>
                 );
               })}
