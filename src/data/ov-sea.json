@@ -32,7 +32,7 @@
   "holes": 18,
   "lat": 12.894,
   "lng": 100.9808,
-  "url": null,
+  "url": "https://siamcountryclub.com/rolling-hills/",
   "note": "시암 컨트리클럽 계열의 구릉형 코스"
  },
  {
@@ -104,7 +104,7 @@
   "holes": 18,
   "lat": 12.7746,
   "lng": 100.962,
-  "url": null,
+  "url": "https://cheechangolf.com/",
   "note": "카오치찬 불상 암벽을 배경으로 한 코스"
  },
  {
@@ -128,7 +128,7 @@
   "holes": 18,
   "lat": 12.9181,
   "lng": 101.0497,
-  "url": null,
+  "url": "https://www.pattayacountryclub.com/",
   "note": "파타야 동쪽 내륙의 리조트형 코스"
  },
  {
@@ -140,7 +140,7 @@
   "holes": 18,
   "lat": 13.4165,
   "lng": 101.0132,
-  "url": null,
+  "url": "https://www.amataspring.com/",
   "note": "17번 아일랜드 그린으로 유명한 명문"
  },
  {
@@ -176,7 +176,7 @@
   "holes": 18,
   "lat": 13.9745,
   "lng": 100.5394,
-  "url": null,
+  "url": "https://www.mbkgolf.com/riverdale/",
   "note": "강변 지형을 살린 방콕 근교 코스"
  },
  {
@@ -236,7 +236,7 @@
   "holes": 27,
   "lat": 13.8294,
   "lng": 100.6862,
-  "url": null,
+  "url": "https://www.panyagolf.com/en/",
   "note": "방콕 시내 27홀, 워터해저드가 많은 코스"
  },
  {
@@ -272,7 +272,7 @@
   "holes": 18,
   "lat": 13.9819,
   "lng": 100.543,
-  "url": null,
+  "url": "https://www.mbkgolf.com/bangkok-golf/",
   "note": "빠툼타니 소재, 시내 접근이 편한 코스"
  },
  {
@@ -308,7 +308,7 @@
   "holes": 18,
   "lat": 14.1766,
   "lng": 100.5247,
-  "url": null,
+  "url": "https://www.rachakramgolfclub.com/",
   "note": "아유타야 남부 평지형 코스"
  },
  {
@@ -356,7 +356,7 @@
   "holes": 18,
   "lat": 14.593,
   "lng": 101.4353,
-  "url": null,
+  "url": "https://www.bonanzagolfcc.com/",
   "note": "카오야이 고원의 리조트형 코스"
  },
  {
@@ -380,7 +380,7 @@
   "holes": 18,
   "lat": 14.6366,
   "lng": 101.4638,
-  "url": null,
+  "url": "https://www.charnveeresortkhaoyai.com/golf-club/",
   "note": "카오야이 목장 콘셉트의 리조트 코스"
  },
  {
@@ -392,7 +392,7 @@
   "holes": 18,
   "lat": 14.3227,
   "lng": 101.2715,
-  "url": null,
+  "url": "https://www.royalhillsresort.com/",
   "note": "나콘나욕 산자락의 리조트 코스"
  },
  {
@@ -470,13 +470,13 @@
  {
   "country": "thailand",
   "area": "치앙마이",
-  "name": "가산 마리나 골프클럽",
-  "nameEn": "Gassan Marina Golf Club",
+  "name": "가산 파노라마 골프클럽(구 마리나)",
+  "nameEn": "Gassan Panorama Golf Club",
   "city": "람푼",
   "holes": 18,
   "lat": 18.637,
   "lng": 99.0927,
-  "url": null,
+  "url": "https://www.gassangolf.com/",
   "note": "호수를 낀 가산 계열 코스"
  },
  {
@@ -500,7 +500,7 @@
   "holes": 18,
   "lat": 18.696,
   "lng": 98.9559,
-  "url": null,
+  "url": "https://www.northhillchiangmai.com/",
   "note": "항동 지역 리조트 병설 코스"
  },
  {
@@ -548,7 +548,7 @@
   "holes": 18,
   "lat": 7.9223,
   "lng": 98.338,
-  "url": null,
+  "url": "https://www.mbkgolf.com/red-mountain/",
   "note": "옛 주석광산 지형을 활용한 고저차 큰 코스"
  },
  {
@@ -560,7 +560,7 @@
   "holes": 18,
   "lat": 7.9299,
   "lng": 98.3378,
-  "url": null,
+  "url": "https://www.mbkgolf.com/loch-palm/",
   "note": "대형 호수를 낀 카투 지역 코스"
  },
  {
@@ -584,7 +584,7 @@
   "holes": 18,
   "lat": 8.0878,
   "lng": 98.3768,
-  "url": null,
+  "url": "https://missionhillsphuket.com/",
   "note": "잭 니클라우스 설계, 동북 해안 코스"
  },
  {
@@ -596,7 +596,7 @@
   "holes": 18,
   "lat": 7.9002,
   "lng": 98.3437,
-  "url": null,
+  "url": "https://www.phuketcountryclub.com/",
   "note": "푸켓 최초로 문을 연 코스"
  },
  {
@@ -692,7 +692,7 @@
   "holes": 27,
   "lat": 21.3356,
   "lng": 105.7282,
-  "url": null,
+  "url": "https://dailaigolf.com.vn/",
   "note": "다이라이 호수 옆 27홀 코스"
  },
  {
@@ -740,7 +740,7 @@
   "holes": 27,
   "lat": 20.8706,
   "lng": 106.7304,
-  "url": null,
+  "url": "https://vinpearl.com/en/vinpearl-golf-hai-phong",
   "note": "하이퐁 부지엔섬의 빈펄 계열 코스"
  },
  {
@@ -812,7 +812,7 @@
   "holes": 18,
   "lat": 15.7938,
   "lng": 108.411,
-  "url": null,
+  "url": "https://vinpearl.com/en/vinpearl-golf-nam-hoi-an",
   "note": "빈펄 남호이안 리조트 단지 내 코스"
  },
  {
@@ -824,7 +824,7 @@
   "holes": 18,
   "lat": 12.2125,
   "lng": 109.2581,
-  "url": null,
+  "url": "https://vinpearl.com/en/vinpearl-golf-nha-trang",
   "note": "혼째섬에 위치, 케이블카로 이동"
  },
  {
@@ -836,7 +836,7 @@
   "holes": 18,
   "lat": 12.1797,
   "lng": 109.2439,
-  "url": null,
+  "url": "https://diamondbaygolfvillas.com/",
   "note": "응우옌땃타인 해안도로변 코스"
  },
  {
@@ -860,7 +860,7 @@
   "holes": 36,
   "lat": 10.8297,
   "lng": 106.6498,
-  "url": null,
+  "url": "https://tansonnhatgolf.vn/",
   "note": "떤선녓 공항 바로 옆 36홀 코스"
  },
  {
@@ -872,7 +872,7 @@
   "holes": 36,
   "lat": 10.8565,
   "lng": 106.8246,
-  "url": null,
+  "url": "https://www.vietnamgolfcc.com/",
   "note": "이스트/웨스트 36홀, 호치민 대표 명문"
  },
  {
@@ -920,7 +920,7 @@
   "holes": 18,
   "lat": 11.03,
   "lng": 106.6698,
-  "url": null,
+  "url": "https://harmoniegolfpark.com/",
   "note": "빈즈엉 신도시 인근 코스"
  },
  {
@@ -932,7 +932,7 @@
   "holes": 18,
   "lat": 10.9746,
   "lng": 106.9988,
-  "url": null,
+  "url": "https://dongnaigolf.com.vn/en",
   "note": "동나이 짱봄 지역의 리조트 코스"
  },
  {
@@ -956,7 +956,7 @@
   "holes": 27,
   "lat": 10.369,
   "lng": 107.1105,
-  "url": null,
+  "url": "https://golfparadise.com.vn/",
   "note": "붕따우 해변 인근 27홀 코스"
  },
  {
@@ -968,7 +968,7 @@
   "holes": 27,
   "lat": 10.3489,
   "lng": 103.8511,
-  "url": null,
+  "url": "https://vinpearl.com/en/vinpearl-golf-phu-quoc",
   "note": "푸꾸옥 북서부 빈원더스 단지 내 코스"
  },
  {
@@ -1052,7 +1052,7 @@
   "holes": null,
   "lat": 15.1759,
   "lng": 120.486,
-  "url": null,
+  "url": "https://dheightsresort.com.ph/country-club-golf/",
   "note": "클락 프리포트 서쪽 리조트 코스"
  },
  {
@@ -1064,7 +1064,7 @@
   "holes": 18,
   "lat": 15.3736,
   "lng": 120.4558,
-  "url": null,
+  "url": "https://newasiagolfsparesort.com/",
   "note": "따를락 서부 산자락의 리조트 코스"
  },
  {
@@ -1088,7 +1088,7 @@
   "holes": 36,
   "lat": 14.5931,
   "lng": 121.0496,
-  "url": null,
+  "url": "https://wackwack.com/",
   "note": "1930년 개장, 필리핀 최고 전통 명문"
  },
  {
@@ -1148,7 +1148,7 @@
   "holes": 18,
   "lat": 14.1405,
   "lng": 121.0356,
-  "url": null,
+  "url": "https://www.tagaytayhighlands.com/clubs/highlands-golf-club/",
   "note": "따알 화산 전망의 고지대 코스"
  },
  {
@@ -1160,7 +1160,7 @@
   "holes": 18,
   "lat": 14.1282,
   "lng": 121.0445,
-  "url": null,
+  "url": "https://www.tagaytayhighlands.com/clubs/midlands-golf-club/",
   "note": "하이랜즈 계열의 자매 코스"
  },
  {
@@ -1184,7 +1184,7 @@
   "holes": 18,
   "lat": 14.0628,
   "lng": 120.871,
-  "url": null,
+  "url": "https://splendidotaalgolfclub.com/",
   "note": "따알 호수를 내려다보는 산악 코스"
  },
  {
@@ -1208,7 +1208,7 @@
   "holes": 36,
   "lat": 14.3499,
   "lng": 120.9556,
-  "url": null,
+  "url": "https://www.theorchardgolf.com/",
   "note": "팔머/게리 플레이어 36홀 코스"
  },
  {
@@ -1232,7 +1232,7 @@
   "holes": 18,
   "lat": 14.2425,
   "lng": 121.0334,
-  "url": null,
+  "url": "https://www.southforbes.com/south-forbes-golf-club/",
   "note": "실랑 지역 주거단지 병설 코스"
  },
  {
@@ -1304,7 +1304,7 @@
   "holes": 18,
   "lat": 11.9807,
   "lng": 121.9197,
-  "url": null,
+  "url": "https://fairwaysandbluewater.com/golf/",
   "note": "그램 마쉬 설계, 보라카이 유일 18홀"
  }
 ]
