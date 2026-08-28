@@ -1,8 +1,8 @@
 [
   {
     "name": "강릉 공군체력단련장",
-    "url": null,
-    "holes": null,
+    "url": "https://rokaf.airforce.mil.kr/airforce/481/subview.do",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
@@ -10,7 +10,7 @@
   },
   {
     "name": "남춘천 컨트리클럽",
-    "url": null,
+    "url": "https://www.namchuncheon.co.kr/",
     "holes": null,
     "shifts": [
       "2부제"
@@ -19,8 +19,8 @@
   },
   {
     "name": "더플레이어스 골프클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.clubd.com/theplayers/index.do",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
@@ -46,7 +46,7 @@
   },
   {
     "name": "동원썬밸리 컨트리클럽",
-    "url": null,
+    "url": "https://www.sunvalley.co.kr/dongwon/golf/intro",
     "holes": null,
     "shifts": [
       "2부제"
@@ -78,13 +78,13 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "로드힐스 골프&리조트",
-    "url": null,
-    "holes": null,
+    "url": "https://lordhills.co.kr/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
@@ -97,13 +97,13 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "베어크리크 춘천",
-    "url": null,
-    "holes": null,
+    "url": "https://www.bearcreek.co.kr/AboutChuncheon/ClubInfo.aspx",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -111,8 +111,8 @@
   },
   {
     "name": "벨라45 컨트리클럽(오너스·마스터스)",
-    "url": null,
-    "holes": null,
+    "url": "https://bella45.com/",
+    "holes": 45,
     "shifts": [
       "2부제"
     ],
@@ -120,8 +120,8 @@
   },
   {
     "name": "벨라스톤 컨트리클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.bellastonecc.com/stone/main",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -180,8 +180,8 @@
       "2부제",
       "3부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "설해원(골든비치·더레전드)",
@@ -190,8 +190,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": true
+    "noCaddie": true,
+    "verified": "2026-08-26"
   },
   {
     "name": "성문안 컨트리클럽",
@@ -245,8 +245,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "스프링베일 골프클럽(스프링베일리조트)",
@@ -264,8 +264,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "알펜시아700 골프클럽",
@@ -278,8 +278,8 @@
   },
   {
     "name": "알프스대영 컨트리클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.alpsdy.com/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -301,13 +301,13 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "영랑호 컨트리클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.yrhresort.com/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
@@ -324,8 +324,8 @@
   },
   {
     "name": "오로라 골프앤리조트",
-    "url": null,
-    "holes": null,
+    "url": "https://auroragolfnresort.co.kr/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -338,8 +338,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "오크힐스 컨트리클럽",
@@ -361,8 +361,8 @@
   },
   {
     "name": "올데이 옥스필드 컨트리클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://oxfield.co.kr/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -384,13 +384,13 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": true
+    "noCaddie": true,
+    "verified": "2026-08-26"
   },
   {
     "name": "원주 공군체력단련장",
-    "url": null,
-    "holes": null,
+    "url": "https://rokaf.airforce.mil.kr/airforce/481/subview.do",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
@@ -398,8 +398,8 @@
   },
   {
     "name": "월송리 컨트리클럽(구 오크크릭GC)",
-    "url": null,
-    "holes": null,
+    "url": "https://ipark-golf.com/wolsongri/course",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -412,8 +412,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "제이드팰리스 골프클럽",
@@ -476,13 +476,13 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "한탄강 컨트리클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://hantancc.co.kr/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -504,8 +504,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "휘슬링락 컨트리클럽",
@@ -527,8 +527,8 @@
   },
   {
     "name": "360도CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.360cc.co.kr/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -550,13 +550,13 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "강남300컨트리클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.kn300.com/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -578,13 +578,13 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "골드CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.gakorea.com/gold/",
+    "holes": 36,
     "shifts": [
       "2부제"
     ],
@@ -606,12 +606,12 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "골프클럽Q",
-    "url": null,
+    "url": "https://www.golfclubq.com/",
     "holes": null,
     "shifts": [
       "2부제"
@@ -638,8 +638,8 @@
   },
   {
     "name": "금강CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.kccgolf.co.kr/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
@@ -647,8 +647,8 @@
   },
   {
     "name": "기흥CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.ghcc.kr/",
+    "holes": 36,
     "shifts": [
       "2부제"
     ],
@@ -679,13 +679,13 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "남수원골프장(군 체력단련장)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.welfare.mil.kr/health/content/content.do?m_code=252",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -693,7 +693,7 @@
   },
   {
     "name": "남양주CC",
-    "url": null,
+    "url": "https://www.clublonge.com/",
     "holes": null,
     "shifts": [
       "2부제"
@@ -716,13 +716,13 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "노스팜CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.npcc.co.kr/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -735,12 +735,12 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "뉴스프링빌CC",
-    "url": null,
+    "url": "https://www.newspring.co.kr/icheon/",
     "holes": null,
     "shifts": [
       "2부제"
@@ -758,8 +758,8 @@
   },
   {
     "name": "더 시에나 서울 컨트리클럽(구 중부CC)",
-    "url": null,
-    "holes": null,
+    "url": "https://thesiena.co.kr/content/seoulcc",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -767,7 +767,7 @@
   },
   {
     "name": "더반골프클럽",
-    "url": null,
+    "url": "https://www.theban.co.kr/",
     "holes": null,
     "shifts": [
       "2부제"
@@ -785,8 +785,8 @@
   },
   {
     "name": "더크로스비 골프클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.thecrosbygc.co.kr/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
@@ -794,8 +794,8 @@
   },
   {
     "name": "더헤븐CC(구 아일랜드CC, 대부도)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.theheavenresort.com/ISLANDRESORT/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
@@ -803,8 +803,8 @@
   },
   {
     "name": "라비돌CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.laviedor.com/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
@@ -812,8 +812,8 @@
   },
   {
     "name": "라싸 골프클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.lassagc.com/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
@@ -826,8 +826,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "레이크우드컨트리클럽",
@@ -845,13 +845,13 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "로제비앙CC(구 큐로CC)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.logebiengc.com/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
@@ -868,8 +868,8 @@
   },
   {
     "name": "루트52CC(ROUTE52)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.route52cc.com/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -877,8 +877,8 @@
   },
   {
     "name": "리버벤드 골프클럽(미8군, 캠프 험프리스)",
-    "url": null,
-    "holes": null,
+    "url": "https://humphreys.armymwr.com/programs/river-bend-golf-course",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -895,8 +895,8 @@
   },
   {
     "name": "리앤리CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.leenleecc.co.kr/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
@@ -904,8 +904,8 @@
   },
   {
     "name": "링크나인골프클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.linknine.co.kr/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
@@ -922,8 +922,8 @@
   },
   {
     "name": "몽베르CC(대유몽베르)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.montvertcc.com/",
+    "holes": 36,
     "shifts": [
       "2부제"
     ],
@@ -931,8 +931,8 @@
   },
   {
     "name": "발리오스CC",
-    "url": null,
-    "holes": null,
+    "url": "https://baliosgc.com/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
@@ -940,8 +940,8 @@
   },
   {
     "name": "베뉴지CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.venuegcc.com/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
@@ -963,8 +963,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "블랙스톤 이천",
@@ -973,13 +973,13 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "블루원용인CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.blueone.com/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
@@ -996,8 +996,8 @@
   },
   {
     "name": "비승대 체력단련장",
-    "url": null,
-    "holes": null,
+    "url": "https://www.armywelfaregolf.mil.kr/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
@@ -1014,8 +1014,8 @@
   },
   {
     "name": "비전힐스CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.visionhillscc.co.kr/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -1037,8 +1037,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "샴발라컨트리클럽",
@@ -1065,8 +1065,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "서원밸리CC",
@@ -1075,8 +1075,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "서원힐스CC",
@@ -1089,7 +1089,7 @@
   },
   {
     "name": "석천CC(용인CC 동일 부지 별도 등록)",
-    "url": null,
+    "url": "https://www.yongincc.com/",
     "holes": null,
     "shifts": [
       "2부제"
@@ -1098,7 +1098,7 @@
   },
   {
     "name": "선봉대 체력단련장",
-    "url": null,
+    "url": "https://www.armywelfaregolf.mil.kr/",
     "holes": null,
     "shifts": [
       "2부제"
@@ -1107,8 +1107,8 @@
   },
   {
     "name": "성남 공군체력단련장(성남골프장, 서울공항)",
-    "url": null,
-    "holes": null,
+    "url": "https://rokaf.airforce.mil.kr/airforce/481/subview.do",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
@@ -1125,8 +1125,8 @@
   },
   {
     "name": "세라지오 골프클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://thesiena.co.kr/content/velluto",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -1134,8 +1134,8 @@
   },
   {
     "name": "세현CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.sehyeoncc.com/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -1170,8 +1170,8 @@
   },
   {
     "name": "송추CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.songchoo.co.kr/",
+    "holes": 36,
     "shifts": [
       "2부제"
     ],
@@ -1179,8 +1179,8 @@
   },
   {
     "name": "수원 공군체력단련장",
-    "url": null,
-    "holes": null,
+    "url": "https://rokaf.airforce.mil.kr/airforce/481/subview.do",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
@@ -1211,8 +1211,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "신안컨트리클럽",
@@ -1225,7 +1225,7 @@
   },
   {
     "name": "신원CC",
-    "url": null,
+    "url": "https://www.swcc.co.kr/",
     "holes": null,
     "shifts": [
       "2부제"
@@ -1234,8 +1234,8 @@
   },
   {
     "name": "실크밸리골프클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://silkvalleygc.co.kr/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
@@ -1243,8 +1243,8 @@
   },
   {
     "name": "써닝포인트CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.sunningpoint.com/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -1252,8 +1252,8 @@
   },
   {
     "name": "썬힐 골프클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.sunhillgolf.co.kr/",
+    "holes": 36,
     "shifts": [
       "2부제"
     ],
@@ -1266,8 +1266,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "아리지CC",
@@ -1303,8 +1303,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "안성컨트리클럽",
@@ -1322,8 +1322,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "양주CC",
@@ -1341,8 +1341,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "양평TPC 골프클럽",
@@ -1355,8 +1355,8 @@
   },
   {
     "name": "에덴블루컨트리클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.edenblue.co.kr/index.asp",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
@@ -1373,8 +1373,8 @@
   },
   {
     "name": "여주신라CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.onetheclub.com/shilla/main",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
@@ -1387,13 +1387,13 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "여주컨트리클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.yeojoocc.co.kr/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
@@ -1401,8 +1401,8 @@
   },
   {
     "name": "올림픽컨트리클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.olympicgolf.co.kr/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
@@ -1410,7 +1410,7 @@
   },
   {
     "name": "용인CC",
-    "url": null,
+    "url": "https://www.yongincc.com/",
     "holes": null,
     "shifts": [
       "2부제"
@@ -1428,8 +1428,8 @@
   },
   {
     "name": "윈체스트 골프클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.winchestgc.co.kr/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -1437,8 +1437,8 @@
   },
   {
     "name": "은화삼CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.ehscc.co.kr/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -1451,8 +1451,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "이천마이다스 골프앤리조트",
@@ -1479,8 +1479,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "일산스프링힐스컨트리클럽",
@@ -1502,8 +1502,8 @@
   },
   {
     "name": "자유로컨트리클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.jayurocc.com/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
@@ -1511,8 +1511,8 @@
   },
   {
     "name": "제일CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.jaeil-cc.co.kr/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
@@ -1520,7 +1520,7 @@
   },
   {
     "name": "지산CC",
-    "url": null,
+    "url": "https://www.jisanresort.co.kr/w/golf/",
     "holes": null,
     "shifts": [
       "2부제"
@@ -1538,8 +1538,8 @@
   },
   {
     "name": "처인 체력단련장",
-    "url": null,
-    "holes": null,
+    "url": "https://www.welfare.mil.kr/health/content/content.do?m_code=254",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -1556,8 +1556,8 @@
   },
   {
     "name": "캐슬렉스 골프클럽(캐슬렉스서울)",
-    "url": null,
-    "holes": null,
+    "url": "http://www.castlexseoul.com/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -1574,8 +1574,8 @@
   },
   {
     "name": "코리아CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.gakorea.com/korea/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -1583,7 +1583,7 @@
   },
   {
     "name": "코리아퍼블릭 골프클럽",
-    "url": null,
+    "url": "https://www.gakorea.com/public/",
     "holes": null,
     "shifts": [
       "2부제"
@@ -1628,8 +1628,8 @@
   },
   {
     "name": "티클라우드컨트리클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.teecloud.co.kr/new/main/index.asp",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -1646,8 +1646,8 @@
   },
   {
     "name": "파주CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.onetheclub.com/paju/main",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -1673,7 +1673,7 @@
   },
   {
     "name": "포레스트힐CC",
-    "url": null,
+    "url": "https://www.foresthill.kr/",
     "holes": null,
     "shifts": [
       "2부제"
@@ -1682,7 +1682,7 @@
   },
   {
     "name": "포천아도니스CC",
-    "url": null,
+    "url": "https://www.adoniscc.co.kr/",
     "holes": null,
     "shifts": [
       "2부제"
@@ -1696,8 +1696,8 @@
     "shifts": [
       "3부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "푸른솔 골프클럽 포천",
@@ -1706,13 +1706,13 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "프리스틴밸리 골프클럽",
-    "url": null,
-    "holes": null,
+    "url": "http://www.pvgc.co.kr/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -1725,13 +1725,13 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "필로스 골프클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.philosgc.com/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
@@ -1739,7 +1739,7 @@
   },
   {
     "name": "한림광릉CC(구 광릉CC)",
-    "url": null,
+    "url": "https://www.kwangneungcc.co.kr/",
     "holes": null,
     "shifts": [
       "2부제"
@@ -1748,7 +1748,7 @@
   },
   {
     "name": "한림안성 골프장",
-    "url": null,
+    "url": "https://ansung.hanlimgolf.co.kr/",
     "holes": null,
     "shifts": [
       "2부제"
@@ -1757,7 +1757,7 @@
   },
   {
     "name": "한림용인CC",
-    "url": null,
+    "url": "https://yongin.hanlimgolf.co.kr/",
     "holes": null,
     "shifts": [
       "2부제"
@@ -1789,8 +1789,8 @@
     "shifts": [
       "3부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": true
+    "noCaddie": true,
+    "verified": "2026-08-26"
   },
   {
     "name": "해비치CC 서울",
@@ -1799,8 +1799,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "해솔리아CC",
@@ -1818,8 +1818,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "화산CC",
@@ -1841,8 +1841,8 @@
   },
   {
     "name": "화성상록CC(상록GC)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.sangnokresort.co.kr/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -1850,8 +1850,8 @@
   },
   {
     "name": "힐마루 골프앤리조트 포천",
-    "url": null,
-    "holes": null,
+    "url": "https://pocheon.hillmaru.com/",
+    "holes": 45,
     "shifts": [
       "2부제"
     ],
@@ -1868,8 +1868,8 @@
   },
   {
     "name": "태릉체력단련장(태릉골프장)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.welfare.mil.kr/health/content/content.do?m_code=251",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -1877,8 +1877,8 @@
   },
   {
     "name": "강화 선두리 골프장",
-    "url": null,
-    "holes": null,
+    "url": "https://www.gakorea.com/wellbeing/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
@@ -1895,13 +1895,13 @@
   },
   {
     "name": "드림파크컨트리클럽",
-    "url": null,
+    "url": "https://www.dreamparkcc.or.kr/",
     "holes": 36,
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "베어즈베스트 청라 골프클럽",
@@ -1910,13 +1910,13 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "오렌지듄스 영종 골프클럽(구 SKY72 하늘코스)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.orangedunesyj.com/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -1924,8 +1924,8 @@
   },
   {
     "name": "유니아일랜드 골프&스파 리조트(구 석모도CC)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.uniisland.com/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -1933,7 +1933,7 @@
   },
   {
     "name": "인천국제컨트리클럽",
-    "url": null,
+    "url": "https://www.incheoncc.com/index.asp",
     "holes": null,
     "shifts": [
       "2부제"
@@ -1942,8 +1942,8 @@
   },
   {
     "name": "인천그랜드컨트리클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.incheongrand.cc/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
@@ -1956,8 +1956,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "클럽72(구 SKY72 바다코스)",
@@ -1966,8 +1966,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "가야컨트리클럽",
@@ -1976,8 +1976,8 @@
     "shifts": [
       "3부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "거제드비치골프클럽",
@@ -1999,12 +1999,13 @@
   },
   {
     "name": "거창친환경대중골프장",
-    "url": null,
-    "holes": null,
+    "url": "https://www.geochang.go.kr/golf/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "경남스카이뷰CC",
@@ -2017,21 +2018,23 @@
   },
   {
     "name": "고성노벨컨트리클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.nobelcc.co.kr/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "고성컨트리클럽",
-    "url": null,
+    "url": "http://www.gosungcc.com/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "골프존카운티 경남",
@@ -2062,21 +2065,23 @@
   },
   {
     "name": "김해상록컨트리클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.sangnokresort.co.kr/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "김해정산컨트리클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.jeongsancc.co.kr/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "다이아몬드컨트리클럽",
@@ -2085,17 +2090,18 @@
     "shifts": [
       "3부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": true
+    "noCaddie": true,
+    "verified": "2026-08-26"
   },
   {
     "name": "동부산컨트리클럽",
-    "url": null,
-    "holes": null,
+    "url": "http://www.dongpusancc.co.kr/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "리더스컨트리클럽",
@@ -2108,21 +2114,23 @@
   },
   {
     "name": "밀양노벨컨트리클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.miryangnobelcc.co.kr/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "밀양에스파크골프리조트",
-    "url": null,
-    "holes": null,
+    "url": "https://www.s-parkresort.co.kr/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "밀양컨트리클럽",
@@ -2135,12 +2143,13 @@
   },
   {
     "name": "부곡컨트리클럽",
-    "url": null,
+    "url": "https://www.bkcc.co.kr/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "사우스케이프오너스클럽",
@@ -2149,8 +2158,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "삼삼컨트리클럽",
@@ -2177,8 +2186,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "아델스코트 컨트리클럽",
@@ -2205,8 +2214,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "양산컨트리클럽",
@@ -2224,35 +2233,38 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "용원컨트리클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.ywcc.co.kr/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "의령 리온컨트리클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://rieoncc.co.kr/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "의령친환경골프장",
-    "url": null,
-    "holes": null,
+    "url": "https://xn--289a6cv80bnhpdlav75a4vlwrc.kr/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "진주컨트리클럽",
@@ -2265,12 +2277,13 @@
   },
   {
     "name": "진해(한산대) 해군 체력단련장",
-    "url": null,
+    "url": "https://welfare.navy.mil.kr/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "창원컨트리클럽",
@@ -2279,8 +2292,8 @@
     "shifts": [
       "3부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "클럽디거창",
@@ -2298,8 +2311,8 @@
     "shifts": [
       "3부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "통영동원로얄컨트리클럽",
@@ -2312,30 +2325,33 @@
   },
   {
     "name": "포웰CC 김해(구 롯데스카이힐 김해)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.4wellcc.com/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "힐마루컨트리클럽(힐마루 골프앤리조트)",
-    "url": null,
+    "url": "https://www.hillmaru.com/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "가든골프클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://kolongolf.com/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "경주신라CC",
@@ -2344,8 +2360,8 @@
     "shifts": [
       "3부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": true
+    "noCaddie": true,
+    "verified": "2026-08-26"
   },
   {
     "name": "경주컨트리클럽",
@@ -2358,12 +2374,13 @@
   },
   {
     "name": "고령오펠GC(구 다산샤인힐CC)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.ophelgc.com/_Goryeong/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "골프존카운티 감포",
@@ -2412,12 +2429,13 @@
   },
   {
     "name": "그레이스CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.grace-cc.co.kr/index",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "남안동CC",
@@ -2430,21 +2448,23 @@
   },
   {
     "name": "뉴스프링빌Ⅱ",
-    "url": null,
+    "url": "https://sangju.newspring.co.kr/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "대가야CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.daegayacc.com/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "대구컨트리클럽",
@@ -2453,17 +2473,18 @@
     "shifts": [
       "3부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "디아너스컨트리클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://gj.kangdongcnl.com/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "마린CC",
@@ -2490,26 +2511,28 @@
     "shifts": [
       "3부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": true
+    "noCaddie": true,
+    "verified": "2026-08-26"
   },
   {
     "name": "마이다스 구미 골프아카데미(구미마이다스)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.midasgolf.co.kr",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "문경레저타운골프장(문경GC)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.mgle.co.kr/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "보문골프클럽",
@@ -2527,26 +2550,28 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": true
+    "noCaddie": true,
+    "verified": "2026-08-26"
   },
   {
     "name": "서라벌골프클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.seorabolgc.com/index",
+    "holes": 45,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "선리치골프클럽",
-    "url": null,
+    "url": "https://www.sunrichgc.com/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "세븐밸리CC",
@@ -2559,39 +2584,43 @@
   },
   {
     "name": "시엘골프클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.cielgolf.com/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "안강레전드골프클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.legendgolf.co.kr/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "안동레이크골프클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://golf.gtc.co.kr/ANDONGLAKE/main/index.asp",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "안동리버힐CC",
-    "url": null,
+    "url": "http://www.xn--2q1bm4ioscnwnx4w.com/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "애플밸리CC",
@@ -2604,21 +2633,23 @@
   },
   {
     "name": "엠스클럽 의성",
-    "url": null,
-    "holes": null,
+    "url": "https://www.clublonge.com/Club/uiseong",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "오션비치CC(오션비치골프리조트)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.oceanbeachcc.com/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "오션힐스 영천CC(등록명 영천CC)",
@@ -2645,26 +2676,28 @@
     "shifts": [
       "3부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "오펠골프클럽 영천(영천오펠)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.ophelgc.com/_YeongCheon/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "우리골프클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://urigolfclub.co.kr/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "유니밸리CC",
@@ -2704,30 +2737,33 @@
   },
   {
     "name": "충무대 체력단련장(해병대)",
-    "url": null,
+    "url": "https://welfare.navy.mil.kr/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "충성대 체력단련장(육군3사관학교)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.armywelfaregolf.mil.kr/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "칠곡아이위시CC",
-    "url": null,
+    "url": "https://www.iwishcc.com/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "파라지오CC",
@@ -2740,12 +2776,13 @@
   },
   {
     "name": "파미힐스CC",
-    "url": null,
-    "holes": null,
+    "url": "http://www.palmyhillscc.co.kr/",
+    "holes": 36,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "펜타뷰골프클럽",
@@ -2776,75 +2813,83 @@
   },
   {
     "name": "한맥CC&노블리아",
-    "url": null,
+    "url": "https://www.hmcn.co.kr/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "힐스카이컨트리클럽(구 루나엑스)",
-    "url": null,
+    "url": "https://www.hillskycc.com/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "구니컨트리클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.gunicc.co.kr/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "냉천컨트리클럽",
-    "url": null,
-    "holes": null,
+    "url": "http://www.nc-golf.co.kr/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "대구 체력단련장(공군)",
-    "url": null,
+    "url": "https://welfare.airforce.mil.kr:446/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "무열대 체력단련장(육군)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.armywelfaregolf.mil.kr/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "오펠골프클럽(군위오펠)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.ophelgc.com/_Gunwi/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "이지스카이컨트리클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.easyskycc.com/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "칼레이트CC(구 군위CC)",
@@ -2862,8 +2907,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "기장동원로얄컨트리클럽",
@@ -2872,8 +2917,8 @@
     "shifts": [
       "3부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "동래베네스트골프클럽",
@@ -2886,12 +2931,13 @@
   },
   {
     "name": "베이사이드골프클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://bayside.co.kr/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "부산컨트리클럽",
@@ -2900,8 +2946,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "스톤게이트컨트리클럽",
@@ -2910,8 +2956,8 @@
     "shifts": [
       "3부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "아시아드컨트리클럽",
@@ -2920,8 +2966,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "하이스트컨트리클럽",
@@ -2943,12 +2989,13 @@
   },
   {
     "name": "해운대비치골프앤리조트",
-    "url": null,
+    "url": "http://www.haeundaebeachcc.co.kr/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "해운대컨트리클럽",
@@ -2958,17 +3005,18 @@
       "2부제",
       "3부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "골드그린골프클럽(등록명 삼남골프장)",
-    "url": null,
-    "holes": null,
+    "url": "http://goldgreen.co.kr/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "더골프클럽",
@@ -2995,17 +3043,18 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "오르비스골프클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.orvis.club/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "울산컨트리클럽",
@@ -3014,8 +3063,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": true
+    "noCaddie": true,
+    "verified": "2026-08-26"
   },
   {
     "name": "골프존카운티 오라(구 오라CC)",
@@ -3037,21 +3086,23 @@
   },
   {
     "name": "더시에나CC(구 제주CC)",
-    "url": null,
+    "url": "https://thesiena.co.kr/content/cc",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "더클래식 골프&리조트",
-    "url": null,
-    "holes": null,
+    "url": "http://www.theclassicresort.com/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "라온 골프클럽",
@@ -3060,17 +3111,18 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": true
+    "noCaddie": true,
+    "verified": "2026-08-26"
   },
   {
     "name": "라헨느CC",
-    "url": null,
-    "holes": null,
+    "url": "http://www.lareine.co.kr/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "롯데스카이힐CC 제주",
@@ -3079,8 +3131,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "볼카노 골프&리조트(구 레이크힐스제주CC·클럽엘 제주)",
@@ -3107,8 +3159,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "사이프러스 골프&리조트",
@@ -3117,8 +3169,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "샤인빌파크CC",
@@ -3131,12 +3183,13 @@
   },
   {
     "name": "서귀포팬텀CC(구 우리들CC)",
-    "url": null,
-    "holes": null,
+    "url": "https://spgr.co.kr/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "스프링데일",
@@ -3167,12 +3220,13 @@
   },
   {
     "name": "에버리스CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.shinangolf.com",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "에코랜드 골프클럽",
@@ -3190,8 +3244,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "중문골프클럽",
@@ -3200,8 +3254,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "캐슬렉스제주",
@@ -3214,12 +3268,13 @@
   },
   {
     "name": "크라운CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.jejucrowncc.com/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "클럽나인브릿지",
@@ -3228,8 +3283,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "타미우스 골프&빌리지",
@@ -3248,8 +3303,8 @@
       "2부제",
       "3부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "플라자CC 제주",
@@ -3258,8 +3313,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": true
+    "noCaddie": true,
+    "verified": "2026-08-26"
   },
   {
     "name": "핀크스 골프클럽",
@@ -3268,8 +3323,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "한라산CC",
@@ -3287,26 +3342,28 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": true
+    "noCaddie": true,
+    "verified": "2026-08-26"
   },
   {
     "name": "금실대덕밸리CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.hanmircc.com/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "사이언스대덕골프장(대덕복지센터·과학기술인공제회)",
-    "url": null,
-    "holes": null,
+    "url": "http://www.ddgolf.co.kr/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "유성컨트리클럽",
@@ -3315,17 +3372,18 @@
     "shifts": [
       "3부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "자운대체력단련장",
-    "url": null,
-    "holes": null,
+    "url": "https://www.armywelfaregolf.mil.kr/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "레이캐슬 골프&리조트",
@@ -3334,8 +3392,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "세종에머슨컨트리클럽",
@@ -3344,44 +3402,48 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "세종필드골프클럽(건설공제조합)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.sejongcc.com/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "SG아름다운 골프앤리조트",
-    "url": null,
-    "holes": null,
+    "url": "https://www.arumdaunresort.com/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "계룡체력단련장(계룡대)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.armywelfaregolf.mil.kr/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "골드리버CC",
-    "url": null,
-    "holes": null,
+    "url": "http://www.goldrivercc.com/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "골든베이 골프앤리조트",
@@ -3390,8 +3452,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": true
+    "noCaddie": true,
+    "verified": "2026-08-26"
   },
   {
     "name": "골프존카운티 천안",
@@ -3400,35 +3462,38 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "구룡체력단련장(계룡대)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.armywelfaregolf.mil.kr/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "내포골프클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://naepogc.com/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "더힐컨트리클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.thehill.co.kr/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "도고컨트리클럽(도고컨트리구락부)",
@@ -3437,8 +3502,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "로얄링스CC",
@@ -3456,8 +3521,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "마론뉴데이CC",
@@ -3475,26 +3540,28 @@
     "shifts": [
       "3부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": true
+    "noCaddie": true,
+    "verified": "2026-08-26"
   },
   {
     "name": "보령베이스CC",
-    "url": null,
+    "url": "https://www.boryeongbase.co.kr/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "서산공군체력단련장",
-    "url": null,
+    "url": "https://welfare.airforce.mil.kr:446/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "서산수 골프앤리조트",
@@ -3512,17 +3579,18 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "스톤비치CC(구 태안비치CC)",
-    "url": null,
-    "holes": null,
+    "url": "https://stonebeachcc.com/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "아리스타CC",
@@ -3544,12 +3612,13 @@
   },
   {
     "name": "에스앤골프리조트",
-    "url": null,
+    "url": "https://www.sngolfresort.co.kr/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "우정힐스컨트리클럽",
@@ -3558,17 +3627,18 @@
     "shifts": [
       "3부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": true
+    "noCaddie": true,
+    "verified": "2026-08-26"
   },
   {
     "name": "창공대체력단련장(육군)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.armywelfaregolf.mil.kr/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "천안상록CC(상록리조트·공무원연금공단)",
@@ -3595,17 +3665,18 @@
     "shifts": [
       "3부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": true
+    "noCaddie": true,
+    "verified": "2026-08-26"
   },
   {
     "name": "프린세스골프클럽",
-    "url": null,
-    "holes": null,
+    "url": "http://www.princessgc.co.kr/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "감곡CC",
@@ -3618,12 +3689,13 @@
   },
   {
     "name": "골드나인CC",
-    "url": null,
+    "url": "https://www.gold-9.co.kr/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "골프존카운티 진천",
@@ -3632,8 +3704,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "골프존카운티 화랑",
@@ -3646,12 +3718,13 @@
   },
   {
     "name": "공사체력단련장(공군사관학교)",
-    "url": null,
+    "url": "https://welfare.airforce.mil.kr:446/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "그랜드컨트리클럽",
@@ -3673,12 +3746,13 @@
   },
   {
     "name": "남성대체력단련장(육군)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.armywelfaregolf.mil.kr/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "대영베이스CC",
@@ -3687,8 +3761,8 @@
     "shifts": [
       "3부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "대영힐스CC",
@@ -3697,26 +3771,28 @@
     "shifts": [
       "3부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "대호단양CC",
-    "url": null,
+    "url": "http://www.daehocc.co.kr/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "동촌골프클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.dongchongc.co.kr:442/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "떼제베CC",
@@ -3725,8 +3801,8 @@
     "shifts": [
       "3부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "레인보우힐스CC",
@@ -3739,21 +3815,23 @@
   },
   {
     "name": "로얄포레CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.royalforet.com/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "모나크CC",
-    "url": null,
-    "holes": null,
+    "url": "https://monarchcc.co.kr/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "블랙스톤 벨포레",
@@ -3763,8 +3841,8 @@
       "2부제",
       "3부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "세레니티CC(구 실크리버CC)",
@@ -3777,21 +3855,23 @@
   },
   {
     "name": "세일CC",
-    "url": null,
+    "url": "http://www.seilcc.co.kr/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "스타CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.starcc.net/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "시그너스CC",
@@ -3804,21 +3884,23 @@
   },
   {
     "name": "썬밸리CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.sunvalley.co.kr/iljuk/golf/intro",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "아난티 중앙골프클럽(구 디에머슨CC)",
-    "url": null,
-    "holes": null,
+    "url": "https://ananti.kr/ko/joongang",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "에콜리안 제천CC",
@@ -3840,30 +3922,33 @@
   },
   {
     "name": "올데이 골프앤리조트",
-    "url": null,
-    "holes": null,
+    "url": "https://www.alldaygolf.co.kr/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "이븐데일 골프앤리조트",
-    "url": null,
-    "holes": null,
+    "url": "https://evendale.co.kr/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "일라이트컨트리클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://illitegolfnresort.co.kr/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "일레븐CC",
@@ -3881,8 +3966,8 @@
     "shifts": [
       "3부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": true
+    "noCaddie": true,
+    "verified": "2026-08-26"
   },
   {
     "name": "젠스필드CC",
@@ -3904,12 +3989,13 @@
   },
   {
     "name": "중원체력단련장(공군)",
-    "url": null,
+    "url": "https://welfare.airforce.mil.kr:446/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "진양밸리골프클럽",
@@ -3927,26 +4013,28 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "청주체력단련장(공군)",
-    "url": null,
+    "url": "https://welfare.airforce.mil.kr:446/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "코스카CC",
-    "url": null,
-    "holes": null,
+    "url": "http://www.koscacc.kr/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "클럽디 보은",
@@ -3955,17 +4043,18 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "클럽디 속리산",
-    "url": null,
-    "holes": null,
+    "url": "https://www.clublonge.com/Club/songnisan",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "킹스데일골프클럽",
@@ -3978,12 +4067,13 @@
   },
   {
     "name": "킹즈락CC(구 힐데스하임CC 제천)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.kingsrockcc.com/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "히든밸리CC(구 아름다운CC)",
@@ -3996,21 +4086,23 @@
   },
   {
     "name": "힐데스하임CC(음성)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.hildesheimcc.cc/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "광주 공군체력단련장",
-    "url": null,
+    "url": "https://welfare.airforce.mil.kr:446/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "빛고을컨트리클럽",
@@ -4041,12 +4133,13 @@
   },
   {
     "name": "JNJ골프리조트(구 정남진골프리조트)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.jnjgolfresort.co.kr/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "골드레이크CC",
@@ -4095,21 +4188,23 @@
   },
   {
     "name": "나주힐스CC",
-    "url": null,
-    "holes": null,
+    "url": "https://najuhills.com/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "다산베아채골프&리조트",
-    "url": null,
+    "url": "https://www.beachegolf.com/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "담양레이나CC",
@@ -4122,21 +4217,23 @@
   },
   {
     "name": "디오션CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.theoceanresort.co.kr/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "르오네뜨CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.lehonnetecc.com/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "무등산CC",
@@ -4154,8 +4251,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": true
+    "noCaddie": true,
+    "verified": "2026-08-26"
   },
   {
     "name": "백양우리CC",
@@ -4195,12 +4292,13 @@
   },
   {
     "name": "상무대체력단련장",
-    "url": null,
-    "holes": null,
+    "url": "https://www.armywelfaregolf.mil.kr/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "세이지우드 여수경도",
@@ -4209,8 +4307,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "솔라시도CC",
@@ -4241,12 +4339,13 @@
   },
   {
     "name": "아크로CC",
-    "url": null,
+    "url": "http://www.acrogolf.co.kr/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "에콜리안 영광골프장",
@@ -4277,12 +4376,13 @@
   },
   {
     "name": "여수시티파크골프&호텔",
-    "url": null,
-    "holes": null,
+    "url": "http://www.citypark.co.kr/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "오시아노골프클럽",
@@ -4304,21 +4404,23 @@
   },
   {
     "name": "웨스트오션CC",
-    "url": null,
+    "url": "https://www.westoceancc.co.kr/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "조아밸리CC",
-    "url": null,
-    "holes": null,
+    "url": "https://www.joavalleycc.co.kr/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "죽향CC",
@@ -4331,12 +4433,13 @@
   },
   {
     "name": "창평CC",
-    "url": null,
-    "holes": null,
+    "url": "https://cppc.co.kr/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "코스모스링스CC",
@@ -4363,8 +4466,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "파인힐스CC",
@@ -4377,12 +4480,13 @@
   },
   {
     "name": "포라이즌CC(구 승주CC)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.sjcc.co.kr/",
+    "holes": 27,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "푸른솔골프클럽(장성)",
@@ -4391,26 +4495,28 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "함평천지CC",
-    "url": null,
+    "url": "https://www.hpnabicc.co.kr/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "해피니스CC",
-    "url": null,
+    "url": "https://www.happinesscc.com/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "화순CC",
@@ -4423,12 +4529,13 @@
   },
   {
     "name": "OK CC",
-    "url": null,
+    "url": "https://okcc.co.kr/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "고창CC",
@@ -4473,8 +4580,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "김제스파힐스CC",
@@ -4487,12 +4594,13 @@
   },
   {
     "name": "남원상록골프장",
-    "url": null,
+    "url": "https://www.sangnokresort.co.kr/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "내장산골프&리조트",
@@ -4505,21 +4613,23 @@
   },
   {
     "name": "더나인골프클럽",
-    "url": null,
-    "holes": null,
+    "url": "https://www.theninegc.co.kr/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "무주덕유산CC",
-    "url": null,
+    "url": "https://www.mdysresort.com/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "석정힐CC",
@@ -4568,12 +4678,13 @@
   },
   {
     "name": "웅포컨트리클럽",
-    "url": null,
+    "url": "https://www.bearportcc.co.kr/",
     "holes": null,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "익산컨트리클럽(상떼힐 익산)",
@@ -4582,8 +4693,8 @@
     "shifts": [
       "2부제"
     ],
-    "verified": "2026-08-26",
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-26"
   },
   {
     "name": "장수골프리조트",
@@ -4605,12 +4716,13 @@
   },
   {
     "name": "전주월드컵골프장",
-    "url": null,
-    "holes": null,
+    "url": "https://golf.jjss.or.kr/",
+    "holes": 9,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   },
   {
     "name": "케이밸리컨트리클럽",
@@ -4632,11 +4744,12 @@
   },
   {
     "name": "포세븐금강컨트리클럽(구 클럽디 금강)",
-    "url": null,
-    "holes": null,
+    "url": "https://www.fourseven.co.kr/",
+    "holes": 18,
     "shifts": [
       "2부제"
     ],
-    "noCaddie": false
+    "noCaddie": false,
+    "verified": "2026-08-28"
   }
 ]
