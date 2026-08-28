@@ -4,6 +4,8 @@ import { useMemo, useState } from "react";
 import worldMaps from "@/data/world-maps.json";
 import worldAreas from "@/data/world-areas.json";
 import type { CountryMeta } from "@/data/overseas-meta";
+import { useMapZoom } from "@/components/useMapZoom";
+import MapZoomControls from "@/components/MapZoomControls";
 
 export type OverseasCourse = {
   country: string;
@@ -56,6 +58,9 @@ export default function WorldMap({
 }) {
   const [active, setActive] = useState<OverseasCourse | null>(null);
   const entry = maps[country];
+  const vb = entry ? entry.viewBox : [100, 100];
+  const zoom = useMapZoom({ x: -18, y: -18, w: vb[0] + 36, h: vb[1] + 36 });
+  const v = zoom.view;
 
   const pins = useMemo(() => {
     if (!entry) return [];
@@ -73,10 +78,12 @@ export default function WorldMap({
   return (
     <div className="relative">
       <svg
-        viewBox={`-18 -18 ${VW + 36} ${VH + 36}`}
-        className="w-full h-auto max-h-[760px] select-none"
+        ref={zoom.ref}
+        viewBox={`${v.x} ${v.y} ${v.w} ${v.h}`}
+        className={`w-full h-auto max-h-[760px] select-none touch-none ${zoom.scale > 1 ? "cursor-grab active:cursor-grabbing" : ""}`}
         role="img"
         aria-label={`${meta.name} 골프장 분포 지도`}
+        {...zoom.handlers}
       >
         {/* 국가 전체 윤곽 */}
         <path
@@ -95,7 +102,7 @@ export default function WorldMap({
             <path
               key={a}
               d={d}
-              onClick={() => onArea(on ? "전체" : a)}
+              onClick={() => { if (zoom.didDrag()) return; onArea(on ? "전체" : a); }}
               className="cursor-pointer transition-all duration-200"
               fill={on ? t.active : t.land}
               fillOpacity={on ? 0.95 : area === "전체" ? 0.55 : 0.25}
@@ -116,15 +123,16 @@ export default function WorldMap({
               key={`${p.name}-${p.area}`}
               cx={p.x}
               cy={p.y}
-              r={isActive ? 9 : 5.4}
+              r={(isActive ? 9 : 5.4) / Math.max(1, zoom.scale * 0.72)}
               fill={isActive ? "#ffffff" : t.pin}
               fillOpacity={dim ? 0.2 : 1}
               stroke={isActive ? t.active : "#ffffff"}
-              strokeWidth={isActive ? 3.4 : 1.4}
+              strokeWidth={(isActive ? 3.4 : 1.4) / Math.max(1, zoom.scale * 0.72)}
               strokeOpacity={dim ? 0.25 : 0.95}
               className="cursor-pointer transition-all"
               onClick={(e) => {
                 e.stopPropagation();
+                if (zoom.didDrag()) return;
                 setActive(isActive ? null : p);
                 if (!isActive) onArea(p.area);
               }}
@@ -134,6 +142,8 @@ export default function WorldMap({
           );
         })}
       </svg>
+
+      <MapZoomControls zoom={zoom} />
 
       {active && (
         <div className="absolute left-0 right-0 bottom-0 sm:left-auto sm:right-0 sm:w-[268px] rounded-xl bg-white shadow-[0_14px_36px_rgba(3,13,44,0.35)] p-4">

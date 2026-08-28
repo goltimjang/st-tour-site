@@ -3,6 +3,8 @@
 import { useMemo, useState } from "react";
 import mapData from "@/data/korea-map.json";
 import { courseLink } from "@/data/course-meta";
+import { useMapZoom } from "@/components/useMapZoom";
+import MapZoomControls from "@/components/MapZoomControls";
 
 export type Point = {
   name: string;
@@ -40,6 +42,8 @@ export default function KoreaMap({
   onRegion: (r: string) => void;
 }) {
   const [active, setActive] = useState<Point | null>(null);
+  const zoom = useMapZoom({ x: -14, y: -14, w: VW + 28, h: VH + 28 });
+  const v = zoom.view;
 
   const pins = useMemo(
     () => points.map((p) => ({ ...p, ...project(p.lng, p.lat) })),
@@ -51,10 +55,12 @@ export default function KoreaMap({
   return (
     <div className="relative">
       <svg
-        viewBox={`-14 -14 ${VW + 28} ${VH + 28}`}
-        className="w-full h-auto max-h-[820px] select-none"
+        ref={zoom.ref}
+        viewBox={`${v.x} ${v.y} ${v.w} ${v.h}`}
+        className={`w-full h-auto max-h-[820px] select-none touch-none ${zoom.scale > 1 ? "cursor-grab active:cursor-grabbing" : ""}`}
         role="img"
         aria-label="전국 골프장 분포 지도"
+        {...zoom.handlers}
       >
         {REGION_ORDER.map((r) => {
           const on = region === r;
@@ -63,7 +69,7 @@ export default function KoreaMap({
             <path
               key={r}
               d={map.paths[r]}
-              onClick={() => onRegion(on ? "전체" : r)}
+              onClick={() => { if (zoom.didDrag()) return; onRegion(on ? "전체" : r); }}
               className="cursor-pointer transition-all duration-200"
               fill={on ? "#2f6bff" : dim ? "#33436b" : "#8fa6cf"}
               fillOpacity={dim ? 0.55 : 0.92}
@@ -84,15 +90,16 @@ export default function KoreaMap({
               key={`${p.name}-${p.city}`}
               cx={p.x}
               cy={p.y}
-              r={isActive ? 8 : 4.6}
+              r={(isActive ? 8 : 4.6) / Math.max(1, zoom.scale * 0.72)}
               fill={isActive ? "#ffffff" : p.type === "회원제" ? "#0b1f4d" : "#f0b429"}
               fillOpacity={dim ? 0.16 : 1}
               stroke={isActive ? "#0d4ff5" : "#ffffff"}
-              strokeWidth={isActive ? 3 : 1.2}
+              strokeWidth={(isActive ? 3 : 1.2) / Math.max(1, zoom.scale * 0.72)}
               strokeOpacity={dim ? 0.2 : 0.95}
               className="cursor-pointer transition-all"
               onClick={(e) => {
                 e.stopPropagation();
+                if (zoom.didDrag()) return;
                 setActive(isActive ? null : p);
               }}
             >
@@ -101,6 +108,8 @@ export default function KoreaMap({
           );
         })}
       </svg>
+
+      <MapZoomControls zoom={zoom} />
 
       {active && (
         <div className="absolute left-0 right-0 bottom-0 sm:left-auto sm:right-0 sm:w-[260px] rounded-xl bg-white shadow-[0_14px_36px_rgba(3,13,44,0.35)] p-4">

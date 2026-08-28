@@ -18,6 +18,7 @@ const nav: NavItem[] = [
       { href: "/overseas#courses", label: "해외 골프장 지도" },
     ],
   },
+  { href: "/products", label: "상품" },
   { href: "/promotion", label: "프로모션" },
   { href: "/about", label: "회사소개" },
   { href: "/faq", label: "자주 묻는 질문" },
