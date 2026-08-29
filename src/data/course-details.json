@@ -147,7 +147,7 @@
  },
  {
   "name": "샌드파인 골프클럽",
-  "url": "https://www.sandpine.co.kr",
+  "url": "http://www.sandpine.co.kr",
   "holes": null,
   "shifts": [
    "2부제"
@@ -165,7 +165,7 @@
  },
  {
   "name": "설악썬밸리 컨트리클럽",
-  "url": "https://sunvalleycc.co.kr",
+  "url": null,
   "holes": null,
   "shifts": [
    "2부제"
