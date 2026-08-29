@@ -780,6 +780,18 @@
   "note": "센다이시 이즈미구 파크타운 내 골프클럽"
  },
  {
+  "country": "vietnam",
+  "area": "하노이",
+  "name": "로얄 골프클럽 닌빈",
+  "nameEn": "Royal Golf Club Ninh Binh",
+  "city": "닌빈",
+  "holes": 18,
+  "lat": 20.1252,
+  "lng": 105.9665,
+  "url": null,
+  "note": "석회암 카르스트와 호수를 낀 챔피언십 코스"
+ },
+ {
   "country": "thailand",
   "area": "파타야",
   "name": "시암 컨트리클럽 올드코스",
