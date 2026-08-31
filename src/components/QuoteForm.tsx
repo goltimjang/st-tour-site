@@ -5,7 +5,9 @@ import Link from "next/link";
 import { site } from "@/data/site";
 import { destinations } from "@/data/destinations";
 import Calendar, { stayLabel } from "@/components/Calendar";
-import CoursePicker from "@/components/CoursePicker";
+import CoursePicker, { type PickItem } from "@/components/CoursePicker";
+import krCourses from "@/data/golf-courses.json";
+import ovCourses from "@/data/overseas-courses.json";
 
 type Props = {
   type: "domestic" | "overseas";
@@ -17,6 +19,16 @@ type Props = {
 };
 
 const REGIONS = ["수도권", "강원", "충청", "호남", "영남", "제주"];
+
+// 1단계에서 고른 국가명 -> 해외 골프장 데이터의 국가 슬러그
+const COUNTRY_SLUG: Record<string, string> = {
+  일본: "japan", 태국: "thailand", 베트남: "vietnam", 중국: "china", 필리핀: "philippines",
+  대만: "taiwan", 말레이시아: "malaysia", "괌·사이판": "guam", 인도네시아: "indonesia",
+  라오스: "laos", 몽골: "mongolia", "하와이·미국": "usa", "호주·뉴질랜드": "australia",
+};
+
+type KrCourse = { name: string; sido: string; city: string; region: string; type: string | null };
+type OvCourse = { country: string; area: string; name: string; city?: string | null; holes?: number | null };
 const PEOPLE_MIN = 1;
 const BUDGETS_DOM = ["30만원 이하", "30~50만원", "50~80만원", "80만원 이상", "상담하며 정할게요"];
 const BUDGETS_OVS = ["60만원 이하", "60~100만원", "100~150만원", "150만원 이상", "상담하며 정할게요"];
@@ -67,6 +79,27 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
 
   // 달력 선택 시 "○박 ○일" 자동 계산 (출발·도착 모두 선택해야 완성)
   const stay = stayLabel(dateStart, dateEnd);
+  // 1단계 선택에 맞춘 골프장 선택기 범위
+  const pickScope = useMemo(() => {
+    if (isDom) {
+      const rs = regions.length > 0 ? regions : REGIONS;
+      const items: PickItem[] = (krCourses as KrCourse[])
+        .filter((c) => rs.includes(c.region))
+        .map((c) => ({ name: c.name, sub: `${c.sido} ${c.city}${c.type ? ` · ${c.type}` : ""}`, group: c.region }));
+      return { items, groups: rs, label: regions.length > 0 ? regions.join("·") : "전국" };
+    }
+    const slug = COUNTRY_SLUG[country];
+    if (!slug) return null; // 목록 없는 국가는 직접 입력만
+    const list = (ovCourses as OvCourse[]).filter((c) => c.country === slug);
+    if (list.length === 0) return null;
+    const items: PickItem[] = list.map((c) => ({
+      name: c.name,
+      sub: `${c.area}${c.city && c.city !== c.area ? ` · ${c.city}` : ""}${c.holes ? ` · ${c.holes}홀` : ""}`,
+      group: c.area,
+    }));
+    return { items, groups: Array.from(new Set(list.map((c) => c.area))), label: country };
+  }, [isDom, regions, country]);
+
   const whenLabel =
     dateMode === "date"
       ? dateStart && dateEnd
@@ -287,10 +320,17 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
             <Choices value={budget} set={setBudget} items={isDom ? BUDGETS_DOM : BUDGETS_OVS} />
           </Field>
           <Field label="선호 골프장 (선택)">
-            {isDom ? (
-              <CoursePicker value={course} onChange={setCourse} />
+            {pickScope ? (
+              <CoursePicker
+                value={course}
+                onChange={setCourse}
+                items={pickScope.items}
+                groups={pickScope.groups}
+                scopeLabel={pickScope.label}
+                placeholder={isDom ? "예: 비발디파크CC / 비워두셔도 됩니다. 저희가 추천해 드립니다" : "예: 다낭 몽고메리 링스 / 비워두셔도 됩니다. 저희가 추천해 드립니다"}
+              />
             ) : (
-              <input className="field" value={course} onChange={(e) => setCourse(e.target.value)} placeholder="예: 다낭 몽고메리 링스 / 없으면 비워두세요. 저희가 추천해 드립니다" />
+              <input className="field" value={course} onChange={(e) => setCourse(e.target.value)} placeholder="예: 앙코르 골프 리조트 / 없으면 비워두세요. 저희가 추천해 드립니다" />
             )}
           </Field>
           <Field label="요청사항 (선택)">
