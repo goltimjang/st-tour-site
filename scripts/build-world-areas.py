@@ -65,9 +65,9 @@ AREA_PROV = {
   '타이베이': ['Taipei', 'New Taipei', 'Taoyuan', 'Keelung', 'Yilan', 'Hsinchu'],
   '가오슝/타이중': ['Kaohsiung', 'Taichung City', 'Tainan', 'Changhua', 'Nantou', 'Chiayi', 'Yunlin', 'Pingtung'],
  },
- 'indonesia': {'발리': ['Bali'], '바탐/빈탄': ['Riau Islands']},
+ 'indonesia': {'발리': ['Bali'], '바탐/빈탄': ['Riau Islands'], '자카르타': ['Jakarta', 'Banten', 'West Java']},
  'laos': {'비엔티안/루앙프라방': ['Vientiane', 'Vientiane Prefecture', 'Luang Prabang']},
- 'malaysia': {'코타키나발루': ['Sabah'], '조호바루': ['Johor']},
+ 'malaysia': {'코타키나발루': ['Sabah'], '조호바루': ['Johor'], '쿠알라룸푸르': ['Kuala Lumpur', 'Selangor', 'Putrajaya', 'Negeri Sembilan', 'Pahang']},
  'australia': {'시드니': ['New South Wales'], '골드코스트/브리즈번': ['Queensland'], '멜버른': ['Victoria']},
 }
 
