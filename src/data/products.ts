@@ -17,7 +17,7 @@ export type Product = {
   kind: "국내" | "해외";
   /** 예: "3박 5일" */
   duration: string;
-  /** 예: "1,290,000원" — 미정이면 "견적 문의" */
+  /** 예: "1,290,000원" (미정이면 "견적 문의") */
   price: string;
   /** 정가 (할인 표시용, 없으면 생략) */
   priceOriginal?: string;
