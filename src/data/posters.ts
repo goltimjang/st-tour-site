@@ -4,6 +4,11 @@ export type Poster = { src: string; title: string; sub: string };
 
 export const posters: Poster[] = [
   {
+    src: "/posters/screenfest2026.webp",
+    title: "에스티골프투어 스크린페스티벌 2026",
+    sub: "9.1~10.31 · 프렌즈스크린 나성점 · 캘러웨이스크린 세종점 · 참가비 무료",
+  },
+  {
     src: "/posters/thehill.webp",
     title: "더힐 클럽 페스티벌 2026",
     sub: "더힐 컨트리클럽 · 신페리오",
