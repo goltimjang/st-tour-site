@@ -130,8 +130,6 @@ export default function AboutPage() {
                 ["소재지", c.address],
                 ["설립", `${c.since}년`],
                 ["사업자등록번호", c.bizNo],
-                ["관광사업자등록번호", c.tourismNo],
-                ["통신판매업신고", c.mailOrderNo],
                 ["보증보험", c.insurance],
                 ["대표전화", site.phone],
                 ["상담시간", c.hours],

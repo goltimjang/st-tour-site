@@ -34,7 +34,6 @@ export default function PosterShelf({ onDark = false }: { onDark?: boolean }) {
                 </span>
                 <span className="block pt-3 px-1">
                   <span className={`block font-bold text-[14px] leading-snug ${onDark ? "text-white" : ""}`}>{p.title}</span>
-                  <span className={`block text-[12.5px] mt-0.5 ${onDark ? "text-sky" : "text-mute"}`}>{p.sub}</span>
                 </span>
               </a>
             ))}

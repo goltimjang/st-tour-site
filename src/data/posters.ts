@@ -1,8 +1,12 @@
 // 에스티투어가 주최·주관·협찬한 실제 대회 포스터 (드라이브 폴더 원본 확인 완료)
 
-export type Poster = { src: string; title: string; sub: string };
+export type Poster = { src: string; title: string; sub?: string };
 
 export const posters: Poster[] = [
+  {
+    src: "/posters/royalcc2026.webp",
+    title: "로얄CC 클럽 페스티벌 2026",
+  },
   {
     src: "/posters/screenfest2026.webp",
     title: "에스티골프투어 스크린페스티벌 2026",

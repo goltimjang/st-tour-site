@@ -28,8 +28,6 @@ export default function Footer() {
               <li>상호 에스티투어(ST TOUR) · 대표 {c.ceo}</li>
               <li>{c.address}</li>
               <li>사업자등록번호 {c.bizNo}</li>
-              <li>{c.tourismNo}</li>
-              <li>통신판매업신고 {c.mailOrderNo}</li>
               <li>{c.insurance}</li>
               <li>상담시간 {c.hours}</li>
             </ul>
