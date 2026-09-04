@@ -73,7 +73,7 @@ export default function PromotionPage() {
       {/* 히어로 */}
       <section className="relative bg-navydeep text-white overflow-hidden">
         <div className="absolute inset-0" aria-hidden="true">
-          <Image src={`${r.img}/hero-royalcc.webp`} alt="" fill priority sizes="100vw" className="object-cover hero-bg" />
+          <Image src="/images/royalcc.webp" alt="" fill priority sizes="100vw" className="object-cover object-center hero-bg" />
           <div className="absolute inset-0" style={{ background: "linear-gradient(92deg, rgba(3,13,44,.9) 0%, rgba(3,13,44,.62) 55%, rgba(3,13,44,.22) 100%)" }} />
         </div>
         <div className="relative mx-auto max-w-6xl px-5 py-16 sm:py-24 hero-anim">
