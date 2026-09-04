@@ -8,7 +8,7 @@ import { breadcrumbLd, webPageLd } from "@/data/jsonld";
 export const metadata: Metadata = {
   title: "국내 골프투어 견적 | 전국 골프장 맞춤 패키지",
   description:
-    "전국 500여 개 골프장에서 지역과 골프장을 고르면 24시간 안에 맞춤 견적서를 보내드립니다. 티타임·숙박·이동까지 한 번에, 대행비까지 공개된 정직한 국내 골프투어 견적.",
+    "전국 500여 개 골프장에서 지역과 골프장을 고르면 24시간 안에 맞춤 견적서를 보내드립니다. 티타임·숙박·이동까지 한 번에, 포함 내역이 명확한 조건 맞춤 국내 골프투어 견적.",
   alternates: { canonical: "/domestic/" },
 };
 

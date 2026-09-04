@@ -152,7 +152,7 @@ export default function Home() {
             {[
               ["01", "조건 입력 (30초)", "지역과 날짜, 인원만 고르면 됩니다."],
               ["02", "24시간 내 견적서", "요청을 확인한 뒤 하루 안에 견적서를 보내드립니다."],
-              ["03", "원가 확인", "항공·숙박·그린피 원가와 대행비를 나눠서 보여드립니다."],
+              ["03", "일정 조정", "포함 내역을 확인하고 숙소·라운드·이동을 원하는 대로 조정합니다."],
               ["04", "확정 · 예약", "일정이 정해지면 계약금 입금과 함께 티타임을 잡아드립니다."],
             ].map(([n, t, d], i) => (
               <Reveal key={n} delay={i * 90}>
@@ -167,14 +167,14 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ---------- 원가 공개: 견적서 샘플 + 상담 예시 ---------- */}
+      {/* ---------- 견적 방식: 견적서 샘플 + 상담 예시 ---------- */}
       <section className="mx-auto max-w-6xl px-5 py-16 sm:py-20 overflow-hidden">
         <Reveal>
-          <p className="eyebrow text-royal mb-2">Transparent Quote</p>
+          <p className="eyebrow text-royal mb-2">How We Quote</p>
           <h2 className="headline text-2xl sm:text-3xl mb-3">견적서, 이렇게 보내드립니다</h2>
           <p className="text-mute mb-10 max-w-2xl">
-            총액만 적힌 견적서는 비교할 방법이 없습니다. 에스티골프투어는 항공·숙박·라운드 원가와 대행비를
-            나눠서 적습니다. 어디에 얼마가 쓰이는지 직접 확인하세요.
+            총액만 던지지 않습니다. 무엇이 포함되고 무엇이 빠지는지 항목별로 적고, 조건에 맞춰 숙소·라운드·이동을
+            조정해 드립니다. 받아보시면 바로 비교하고 결정하실 수 있습니다.
           </p>
         </Reveal>
         <div className="grid lg:grid-cols-2 gap-10 items-start">
@@ -189,7 +189,7 @@ export default function Home() {
           <p className="eyebrow text-royal mb-2">Price Guide</p>
           <h2 className="headline text-2xl sm:text-3xl mb-3">골프투어, 대략 얼마면 갈까요?</h2>
           <p className="text-mute mb-8 max-w-2xl">
-            숨기지 않고 미리 보여드립니다. 1인 기준 시장 통상 범위이며, 정확한 금액은 견적서에서 원가와 대행비로 나눠 확인하실 수 있습니다.
+            미리 감을 잡으실 수 있게 시장 통상 범위를 보여드립니다. 1인 기준이며, 정확한 금액은 조건에 맞춘 견적서로 알려드립니다.
           </p>
         </Reveal>
         <div className="grid lg:grid-cols-2 gap-6">

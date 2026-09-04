@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import MobileBar from "@/components/MobileBar";
+import FloatingContact from "@/components/FloatingContact";
 import { site } from "@/data/site";
 
 // OG·사이트맵 절대경로 기준 도메인 (기본: site.domain)
@@ -122,7 +122,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
-        <MobileBar />
+        <FloatingContact />
       </body>
     </html>
   );

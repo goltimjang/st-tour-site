@@ -211,7 +211,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
         <div className="rounded-2xl bg-navy text-white p-7 sm:p-9">
           <h2 className="headline text-[22px] sm:text-[26px] mb-2">이 상품으로 견적을 받아보세요</h2>
           <p className="text-white/75 text-[15.5px] mb-6 max-w-2xl leading-relaxed">
-            인원과 날짜를 보내주시면 24시간 안에 항공·숙박·그린피 원가와 대행비가 분리된 견적서를 보내드립니다.
+            인원과 날짜를 보내주시면 24시간 안에 항공·숙박·그린피 포함 내역이 명확한 견적서를 보내드립니다.
             일정 조정이나 인원 변경도 상담해 드립니다.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 max-w-xl">
