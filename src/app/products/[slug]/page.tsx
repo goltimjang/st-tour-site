@@ -4,7 +4,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { publishedProducts, findProduct } from "@/data/products";
 import { site } from "@/data/site";
-import { breadcrumbLd } from "@/data/jsonld";
+import { breadcrumbLd, webPageLd } from "@/data/jsonld";
 import Reveal from "@/components/Reveal";
 
 export function generateStaticParams() {
@@ -35,6 +35,8 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
     { name: p.title, path: `/products/${slug}/` },
   ]);
 
+  const pageLd = webPageLd(p.title, `/products/${slug}/`, p.summary);
+
   // 가격이 숫자로 표기된 경우에만 Offer 금액을 넣는다 (견적 문의는 제외)
   const priceNumber = Number(p.price.replace(/[^0-9]/g, ""));
   const productLd = {
@@ -58,6 +60,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productLd) }} />
 
       <section className="bg-white border-b border-line">
