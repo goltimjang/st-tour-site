@@ -12,9 +12,14 @@ export default function FloatingContact() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="네이버 밴드로 이동"
-        className="flex h-[52px] w-[52px] items-center justify-center rounded-full bg-[#21c531] text-white shadow-[0_8px_22px_rgba(0,0,0,0.22)] active:scale-95"
+        className="flex h-[52px] w-[52px] items-center justify-center rounded-full bg-[#00F168] text-[#012D1F] shadow-[0_8px_22px_rgba(0,0,0,0.22)] active:scale-95"
       >
-        <span className="font-display text-[15px] font-black leading-none">BAND</span>
+        {/* 네이버 밴드 심볼(b 모양 이중 나선)을 선으로 재현 */}
+        <svg width="30" height="30" viewBox="0 0 100 100" fill="none" stroke="currentColor" strokeWidth="10" aria-hidden="true">
+          <path d="M30 14V57a25 25 0 1 0 25-25" />
+          <path d="M44 14V57a11 11 0 1 0 11-11" strokeLinecap="round" />
+          <circle cx="53" cy="58" r="3" fill="currentColor" stroke="none" />
+        </svg>
       </a>
       <a
         href={site.kakaoUrl}
