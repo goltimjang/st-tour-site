@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
 import { publishedProducts } from "@/data/products";
 import { site } from "@/data/site";
 import { breadcrumbLd, webPageLd } from "@/data/jsonld";
-import Reveal from "@/components/Reveal";
+import ProductGrid from "@/components/ProductGrid";
 
 export const metadata: Metadata = {
   title: "골프투어 상품 | 진행 중인 패키지 모아보기",
@@ -61,47 +60,7 @@ export default function ProductsPage() {
             <Link href="/domestic#quote" className="btn btn-royal">견적 요청하기</Link>
           </div>
         ) : (
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {publishedProducts.map((p, i) => (
-              <Reveal key={p.slug} delay={i * 80}>
-                <Link
-                  href={`/products/${p.slug}`}
-                  className="group card-lift block rounded-2xl overflow-hidden border border-line bg-white shadow-soft h-full"
-                >
-                  {/* 1:1 정사각형 썸네일 */}
-                  <div className="img-zoom relative aspect-square">
-                    <Image
-                      src={p.thumb}
-                      alt={p.title}
-                      fill
-                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 360px"
-                      className="object-cover"
-                    />
-                    {p.badge && (
-                      <span className="absolute left-3 top-3 rounded-full bg-gold text-navydeep text-[12px] font-black px-3 py-1.5">
-                        {p.badge}
-                      </span>
-                    )}
-                  </div>
-                  <div className="p-5">
-                    <p className="text-[12.5px] text-mute mb-1.5">
-                      {p.kind} · {p.country}
-                      {p.duration ? ` · ${p.duration}` : ""}
-                    </p>
-                    <h2 className="font-bold text-[17px] leading-snug mb-2 group-hover:text-royal">{p.title}</h2>
-                    <p className="text-[14px] text-mute leading-relaxed mb-3 line-clamp-2">{p.summary}</p>
-                    <p>
-                      {p.priceOriginal && (
-                        <span className="text-mute/70 line-through mr-2 text-[14px]">{p.priceOriginal}</span>
-                      )}
-                      <span className="font-display text-[22px] text-royaldark">{p.price}</span>
-                    </p>
-                    {p.date && <p className="text-[12.5px] text-mute mt-1.5">{p.date}</p>}
-                  </div>
-                </Link>
-              </Reveal>
-            ))}
-          </div>
+          <ProductGrid products={publishedProducts} />
         )}
 
         <div className="mt-10 rounded-2xl bg-paper p-6 sm:p-7 flex flex-col sm:flex-row sm:items-center gap-4 justify-between">

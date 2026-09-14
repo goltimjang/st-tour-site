@@ -1,10 +1,12 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import coursesData from "@/data/overseas-courses.json";
 import { countries, countryBySlug } from "@/data/overseas-meta";
 import WorldMap, { hasMap, searchUrl, type OverseasCourse } from "@/components/WorldMap";
+import PickedBar from "@/components/PickedBar";
+import { usePicked, SLUG_TO_COUNTRY } from "@/lib/picked";
 
 const all = coursesData as OverseasCourse[];
 
@@ -23,6 +25,17 @@ export default function OverseasExplorer() {
   const [country, setCountry] = useState(available[0]?.slug ?? "japan");
   const [area, setArea] = useState("전체");
   const [q, setQ] = useState("");
+  const picked = usePicked("overseas");
+
+  // 헤더 검색에서 넘어온 경우 국가·검색어 적용
+  useEffect(() => {
+    try {
+      const p = new URLSearchParams(window.location.search);
+      const c = p.get("country"); const v = p.get("q");
+      if (c && available.some((x) => x.slug === c)) setCountry(c);
+      if (v) setQ(v);
+    } catch {}
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const meta = countryBySlug[country];
   const inCountry = useMemo(() => all.filter((c) => c.country === country), [country]);
@@ -43,6 +56,7 @@ export default function OverseasExplorer() {
   const areaCount = (a: string) => (a === "전체" ? inCountry.length : inCountry.filter((c) => c.area === a).length);
 
   return (
+    <>
     <div className="rounded-2xl border border-line bg-white overflow-hidden shadow-soft">
       {/* 국가 밴드 (국가마다 다른 색) */}
       <div className="text-white p-6 sm:p-8 transition-colors duration-300" style={{ backgroundColor: t.band }}>
@@ -109,7 +123,7 @@ export default function OverseasExplorer() {
         {/* 지도: 가운데 크게 */}
         {hasMap(country) && inCountry.some((c) => Number.isFinite(c.lat)) ? (
           <div className="mx-auto w-full max-w-[560px]">
-            <WorldMap country={country} meta={meta} courses={inCountry} area={area} onArea={setArea} />
+            <WorldMap country={country} meta={meta} courses={inCountry} area={area} onArea={setArea} picked={picked} />
             <p className="text-center text-[12.5px] text-white/60 mt-3">
               지도에서 지역이나 골프장 점을 눌러보세요.
             </p>
@@ -176,15 +190,26 @@ export default function OverseasExplorer() {
                   </p>
                   {c.note && <p className="text-[13px] text-mute mt-1">{c.note}</p>}
                 </div>
-                <a
-                  href={c.url ?? searchUrl(c)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="choice !min-h-[36px] !px-3 text-[12.5px] shrink-0"
-                  title={c.url ? "골프장 공식 홈페이지" : "구글에서 이 골프장 검색"}
-                >
-                  {c.url ? "공식 홈페이지" : "정보 검색"}
-                </a>
+                <div className="flex gap-1.5 shrink-0">
+                  <button
+                    type="button"
+                    onClick={() => picked.toggle(c.name, { country: SLUG_TO_COUNTRY[c.country] })}
+                    aria-pressed={picked.has(c.name)}
+                    className={`choice !min-h-[36px] !px-3 text-[12.5px] ${picked.has(c.name) ? "!bg-royal !text-white !border-royal" : ""}`}
+                    title="견적에 담기"
+                  >
+                    {picked.has(c.name) ? "담김 ✓" : "담기"}
+                  </button>
+                  <a
+                    href={c.url ?? searchUrl(c)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="choice !min-h-[36px] !px-3 text-[12.5px]"
+                    title={c.url ? "골프장 공식 홈페이지" : "구글에서 이 골프장 검색"}
+                  >
+                    {c.url ? "공식 홈페이지" : "정보 검색"}
+                  </a>
+                </div>
               </li>
             ))}
           </ul>
@@ -200,5 +225,7 @@ export default function OverseasExplorer() {
         </div>
       </div>
     </div>
+      <PickedBar kind="overseas" />
+    </>
   );
 }

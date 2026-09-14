@@ -1,9 +1,11 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import coursesData from "@/data/golf-courses.json";
 import pointsData from "@/data/course-points.json";
 import KoreaMap, { type Point } from "@/components/KoreaMap";
+import PickedBar from "@/components/PickedBar";
+import { usePicked } from "@/lib/picked";
 import { courseDetail, courseLink } from "@/data/course-meta";
 
 type Course = { name: string; sido: string; city: string; region: string; type: string | null };
@@ -32,6 +34,17 @@ export default function CourseExplorer() {
   const [sido, setSido] = useState("전체");
   const [q, setQ] = useState("");
   const [limit, setLimit] = useState(24);
+  const picked = usePicked("domestic");
+
+  // 헤더 검색에서 넘어온 경우 검색어를 바로 적용
+  useEffect(() => {
+    try {
+      const p = new URLSearchParams(window.location.search);
+      const v = p.get("q"); const r = p.get("region");
+      if (v) { setQ(v); setRegion("전체"); }
+      else if (r && REGION_ORDER.includes(r)) setRegion(r);
+    } catch {}
+  }, []);
 
   const reset = () => { setSido("전체"); setLimit(24); };
 
@@ -70,6 +83,7 @@ export default function CourseExplorer() {
   const noCaddieCount = scoped().filter((c) => courseDetail(c.name)?.noCaddie).length;
 
   return (
+    <>
     <div className="rounded-2xl border border-line bg-white overflow-hidden shadow-soft">
       {/* 권역 내비게이션 + 지도 */}
       <div className="bg-navy text-white p-6 sm:p-8">
@@ -116,7 +130,7 @@ export default function CourseExplorer() {
 
         {/* 지도: 가운데 크게 */}
         <div className="mx-auto w-full max-w-[520px]">
-          <KoreaMap points={points} region={region} onRegion={(r) => { setRegion(r); reset(); }} />
+          <KoreaMap points={points} region={region} onRegion={(r) => { setRegion(r); reset(); }} picked={picked} />
           <div className="flex items-center justify-center gap-5 text-[12.5px] text-white/70 mt-3">
             <span className="flex items-center gap-1.5">
               <span className="inline-block h-2.5 w-2.5 rounded-full bg-[#f0b429] ring-1 ring-white/60" /> 대중제
@@ -215,15 +229,26 @@ export default function CourseExplorer() {
                         {d?.noCaddie && <Tag tone="green">노캐디 가능</Tag>}
                       </p>
                     </div>
-                    <a
-                      href={link.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="choice !min-h-[38px] !px-3 text-[13px] shrink-0"
-                      title={link.official ? "골프장 공식 홈페이지" : "네이버에서 이 골프장 검색"}
-                    >
-                      {link.official ? "공식 홈페이지" : "정보 검색"}
-                    </a>
+                    <div className="flex gap-1.5 shrink-0">
+                      <button
+                        type="button"
+                        onClick={() => picked.toggle(c.name, { region: c.region })}
+                        aria-pressed={picked.has(c.name)}
+                        className={`choice !min-h-[38px] !px-3 text-[13px] ${picked.has(c.name) ? "!bg-royal !text-white !border-royal" : ""}`}
+                        title="견적에 담기"
+                      >
+                        {picked.has(c.name) ? "담김 ✓" : "담기"}
+                      </button>
+                      <a
+                        href={link.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="choice !min-h-[38px] !px-3 text-[13px]"
+                        title={link.official ? "골프장 공식 홈페이지" : "네이버에서 이 골프장 검색"}
+                      >
+                        {link.official ? "공식 홈페이지" : "정보 검색"}
+                      </a>
+                    </div>
                   </li>
                 );
               })}
@@ -237,6 +262,8 @@ export default function CourseExplorer() {
         )}
       </div>
     </div>
+      <PickedBar kind="domestic" />
+    </>
   );
 }
 

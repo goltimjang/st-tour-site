@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { site } from "@/data/site";
 import { destinations } from "@/data/destinations";
@@ -26,6 +26,10 @@ const COUNTRY_SLUG: Record<string, string> = {
   대만: "taiwan", 말레이시아: "malaysia", "괌·사이판": "guam", 인도네시아: "indonesia",
   라오스: "laos", 몽골: "mongolia", "하와이·미국": "usa", "호주·뉴질랜드": "australia",
 };
+
+function ctryFromUrl(q: URLSearchParams) {
+  return q.get("country");
+}
 
 type KrCourse = { name: string; sido: string; city: string; region: string; type: string | null };
 type OvCourse = { country: string; area: string; name: string; city?: string | null; holes?: number | null };
@@ -74,8 +78,85 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
   // Step 3
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
+  const [email, setEmail] = useState("");
   const [agree, setAgree] = useState(false);
   const [showPrivacy, setShowPrivacy] = useState(false);
+  const [ticket, setTicket] = useState("");
+  const [restored, setRestored] = useState(false);
+  const draftKey = `st-quote-draft-${type}`;
+
+  /**
+   * 첫 진입 시 세 가지를 순서대로 반영한다.
+   * 1) 홈 미니 위젯·검색에서 넘어온 URL 파라미터 (region/country/start/end)
+   * 2) 지도에서 "담기"로 골라둔 골프장 (localStorage st-picked)
+   * 3) 작성하다 떠난 임시 저장본 (localStorage 초안). URL 파라미터가 있으면 초안보다 우선.
+   */
+  useEffect(() => {
+    try {
+      const q = new URLSearchParams(window.location.search);
+      const fromUrl = q.has("region") || q.has("country") || q.has("start");
+      const draft = !fromUrl && localStorage.getItem(draftKey);
+      if (draft) {
+        const d = JSON.parse(draft);
+        if (Array.isArray(d.regions)) setRegions(d.regions);
+        if (typeof d.country === "string") setCountry(d.country);
+        if (d.dateMode) setDateMode(d.dateMode);
+        if (d.dateStart) setDateStart(d.dateStart);
+        if (d.dateEnd) setDateEnd(d.dateEnd);
+        if (d.flexTime) setFlexTime(d.flexTime);
+        if (d.people) setPeople(d.people);
+        if (d.duration) setDuration(d.duration);
+        if (d.rounds) setRounds(d.rounds);
+        if (d.lodging) setLodging(d.lodging);
+        if (d.flight) setFlight(d.flight);
+        if (d.budget) setBudget(d.budget);
+        if (d.course) setCourse(d.course);
+        if (d.memo) setMemo(d.memo);
+        if (d.name) setName(d.name);
+        if (d.phone) setPhone(d.phone);
+        if (d.email) setEmail(d.email);
+        if (d.step && d.step > 1) setStep(d.step);
+      }
+      if (fromUrl) {
+        const region = q.get("region");
+        const ctry = q.get("country");
+        const st = q.get("start");
+        const en = q.get("end");
+        if (isDom && region) setRegions(region.split(",").filter(Boolean));
+        if (!isDom && ctry) setCountry(ctry);
+        if (st) { setDateMode("date"); setDateStart(st); }
+        if (en) setDateEnd(en);
+        if ((isDom ? region : ctry) && st && en) setStep(2);
+      }
+      const picked = localStorage.getItem("st-picked");
+      if (picked) {
+        const p = JSON.parse(picked);
+        if (p && p.kind === type && Array.isArray(p.names) && p.names.length > 0) {
+          setCourse((prev) => {
+            const cur = prev.split(",").map((x: string) => x.trim()).filter(Boolean);
+            const merged = [...cur, ...p.names.filter((n: string) => !cur.includes(n))];
+            return merged.join(", ");
+          });
+          if (!isDom && p.country && !ctryFromUrl(q)) setCountry(p.country);
+          if (isDom && Array.isArray(p.regions) && p.regions.length > 0) {
+            setRegions((prev) => (prev.length > 0 ? prev : p.regions));
+          }
+        }
+      }
+    } catch {}
+    setRestored(true);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // 입력할 때마다 임시 저장 (완료되면 지운다)
+  useEffect(() => {
+    if (!restored || done) return;
+    try {
+      localStorage.setItem(
+        draftKey,
+        JSON.stringify({ step, regions, country, dateMode, dateStart, dateEnd, flexTime, people, duration, rounds, lodging, flight, budget, course, memo, name, phone, email })
+      );
+    } catch {}
+  }, [restored, done, step, regions, country, dateMode, dateStart, dateEnd, flexTime, people, duration, rounds, lodging, flight, budget, course, memo, name, phone, email, draftKey]);
 
   // 달력 선택 시 "○박 ○일" 자동 계산 (출발·도착 모두 선택해야 완성)
   const stay = stayLabel(dateStart, dateEnd);
@@ -123,7 +204,10 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
   async function submit() {
     setSending(true);
     setError("");
+    const now = new Date();
+    const no = `ST-${String(now.getFullYear()).slice(2)}${String(now.getMonth() + 1).padStart(2, "0")}${String(now.getDate()).padStart(2, "0")}-${String(Math.floor(Math.random() * 9000) + 1000)}`;
     const payload = {
+      접수번호: no,
       type: isDom ? "국내 골프투어" : "해외 골프투어",
       지역: isDom ? regions.join(", ") : country,
       희망시기: whenLabel,
@@ -136,10 +220,17 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
       요청사항: memo || "-",
       이름: name,
       연락처: phone,
+      이메일: email || "-",
     };
     // 정적 호스팅(GitHub Pages): FormSubmit 릴레이로 운영자 메일 전달.
     // 해시 엔드포인트 사용: 소스에 이메일이 노출되지 않아 스팸봇 수집 방지 (goltimjang@gmail.com 수신)
-    const subject = `[에스티골프투어 견적] ${payload.type} · ${payload["지역"]} · ${name}님 (${people}명)`;
+    const subject = `[에스티골프투어 견적 ${no}] ${payload.type} · ${payload["지역"]} · ${name}님 (${people}명)`;
+    const autoReply = email
+      ? {
+          _replyto: email,
+          _autoresponse: `${name}님, 에스티골프투어 견적 요청이 접수되었습니다.\n접수번호 ${no}\n${payload.type} · ${payload["지역"]} · ${whenLabel} · ${people}명\n\n24시간 안에 담당자가 연락드립니다. 급하시면 ${site.phone}로 전화 주세요.`,
+        }
+      : {};
     try {
       const res = await fetch("https://formsubmit.co/ajax/dea690313c66c8f0af9faeae39e6b6dc", {
         method: "POST",
@@ -147,11 +238,17 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
         body: JSON.stringify({
           _subject: subject,
           _template: "table",
+          ...autoReply,
           ...payload,
           접수시각: new Date().toLocaleString("ko-KR"),
         }),
       });
       if (!res.ok) throw new Error("send failed");
+      setTicket(no);
+      try {
+        localStorage.removeItem(draftKey);
+        localStorage.removeItem("st-picked");
+      } catch {}
       setDone(true);
       window.scrollTo({ top: 0 });
     } catch {
@@ -166,7 +263,13 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
     return (
       <div className="rounded-2xl border border-line bg-white p-7 sm:p-10">
         <p className="eyebrow text-golddeep">Request Received</p>
-        <h3 className="headline text-2xl sm:text-3xl mt-2 mb-4">견적 요청이 접수되었습니다</h3>
+        <h3 className="headline text-2xl sm:text-3xl mt-2 mb-2">견적 요청이 접수되었습니다</h3>
+        {ticket && (
+          <p className="text-[14px] text-mute mb-4">
+            접수번호 <b className="text-ink font-display text-[16px]">{ticket}</b>
+            {email ? " · 입력하신 이메일로 접수 확인 메일을 보냈습니다" : ""}
+          </p>
+        )}
         <p className="text-[17px]">
           지금부터 24시간 카운트가 시작됩니다.
           <br />
@@ -199,8 +302,8 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
   /* ---------------- 입력 화면 ---------------- */
   return (
     <div ref={boxRef} className="scroll-mt-24 rounded-2xl border border-line bg-white p-6 sm:p-10">
-      {/* 진행률 */}
-      <div className="flex items-center justify-between mb-7">
+      {/* 진행률: 모바일에서는 스크롤해도 상단에 붙어 있게 */}
+      <div className="flex items-center justify-between mb-7 sticky top-[68px] z-10 bg-white/95 backdrop-blur -mx-6 px-6 py-2.5 sm:-mx-10 sm:px-10 lg:static lg:m-0 lg:p-0 lg:bg-transparent">
         <p className="eyebrow text-royal">
           Step {step} / 3 · {step === 1 ? "어디로, 언제, 몇 분?" : step === 2 ? "어떻게 즐기실까요?" : "연락처를 남겨주세요"}
         </p>
@@ -351,6 +454,9 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
           </Field>
           <Field label="연락처" required>
             <input className="field" type="tel" inputMode="tel" value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="010-0000-0000" autoComplete="tel" />
+          </Field>
+          <Field label="이메일 (선택)">
+            <input className="field" type="email" inputMode="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="접수 확인 메일을 받으시려면 적어주세요" autoComplete="email" />
           </Field>
 
           <div className="rounded-xl bg-paper p-4">

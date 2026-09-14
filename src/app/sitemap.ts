@@ -8,7 +8,7 @@ import { publishedProducts } from "@/data/products";
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = site.domain;
   const now = new Date(site.contentUpdatedISO + "T00:00:00+09:00");
-  const pages = ["/", "/domestic/", "/overseas/", "/products/", "/promotion/", "/about/", "/faq/", "/terms/", "/privacy/"];
+  const pages = ["/", "/domestic/", "/overseas/", "/products/", "/seasons/", "/promotion/", "/about/", "/faq/", "/terms/", "/privacy/"];
   return [
     ...pages.map((p) => ({
       url: `${base}${p}`.replace(/([^:])\/\//g, "$1/"),

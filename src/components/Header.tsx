@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { site } from "@/data/site";
+import SiteSearch from "@/components/SiteSearch";
 
 type NavItem = { href: string; label: string; children?: { href: string; label: string }[] };
 
@@ -19,6 +20,7 @@ const nav: NavItem[] = [
     ],
   },
   { href: "/products", label: "상품" },
+  { href: "/seasons", label: "시즌 추천" },
   { href: "/promotion", label: "프로모션" },
   { href: "/about", label: "회사소개" },
   { href: "/faq", label: "자주 묻는 질문" },
@@ -75,7 +77,8 @@ export default function Header() {
             )}
           </nav>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-1 sm:gap-2">
+            <SiteSearch />
             <a
               href={site.phoneHref}
               className="hidden sm:inline-flex items-center gap-2 whitespace-nowrap rounded-full bg-royal text-white px-4 py-2.5 text-[14.5px] font-bold hover:bg-royalhover transition-colors shadow-[0_6px_18px_rgba(13,79,245,0.28)]"

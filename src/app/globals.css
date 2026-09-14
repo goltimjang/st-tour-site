@@ -344,3 +344,16 @@ body {
     -webkit-mask-image: none;
   }
 }
+
+/* 가로 스크롤 칩 목록: 스크롤바 숨김 */
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
+/* 터치 기기: 지도 핀을 손가락으로 누르기 쉽게 키운다 (viewBox 단위라 r을 직접 못 바꾸므로 획으로 넓힘) */
+@media (pointer: coarse) {
+  svg[role="img"] circle.cursor-pointer {
+    stroke-width: 4;
+    stroke-opacity: 0.55;
+    paint-order: stroke;
+  }
+}

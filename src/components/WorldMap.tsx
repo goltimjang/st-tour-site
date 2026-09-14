@@ -6,6 +6,7 @@ import worldAreas from "@/data/world-areas.json";
 import type { CountryMeta } from "@/data/overseas-meta";
 import { useMapZoom } from "@/components/useMapZoom";
 import MapZoomControls from "@/components/MapZoomControls";
+import { SLUG_TO_COUNTRY, type usePicked } from "@/lib/picked";
 
 export type OverseasCourse = {
   country: string;
@@ -49,12 +50,14 @@ export default function WorldMap({
   courses,
   area,
   onArea,
+  picked,
 }: {
   country: string;
   meta: CountryMeta;
   courses: OverseasCourse[];
   area: string;
   onArea: (a: string) => void;
+  picked?: ReturnType<typeof usePicked>;
 }) {
   const [active, setActive] = useState<OverseasCourse | null>(null);
   const entry = maps[country];
@@ -162,14 +165,26 @@ export default function WorldMap({
             {active.holes ? ` · ${active.holes}홀` : ""}
           </p>
           {active.note && <p className="text-[13px] text-ink/75 mt-2 leading-relaxed">{active.note}</p>}
-          <a
-            href={active.url ?? searchUrl(active)}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-3 flex items-center justify-center rounded-lg border border-line px-3 py-2 text-[13px] font-bold text-royaldark hover:border-royal"
-          >
-            {active.url ? "공식 홈페이지 열기" : "골프장 정보 검색"}
-          </a>
+          <div className="mt-3 grid grid-cols-2 gap-2">
+            {picked && (
+              <button
+                type="button"
+                onClick={() => picked.toggle(active.name, { country: SLUG_TO_COUNTRY[country] })}
+                aria-pressed={picked.has(active.name)}
+                className={`flex items-center justify-center rounded-lg px-3 py-2 text-[13px] font-bold ${picked.has(active.name) ? "bg-royal text-white" : "bg-paper text-ink hover:bg-line/60"}`}
+              >
+                {picked.has(active.name) ? "담김 ✓" : "견적에 담기"}
+              </button>
+            )}
+            <a
+              href={active.url ?? searchUrl(active)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center rounded-lg border border-line px-3 py-2 text-[13px] font-bold text-royaldark hover:border-royal"
+            >
+              {active.url ? "공식 홈페이지" : "정보 검색"}
+            </a>
+          </div>
         </div>
       )}
     </div>

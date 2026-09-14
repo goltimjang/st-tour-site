@@ -12,6 +12,7 @@ import QuoteSample from "@/components/QuoteSample";
 import EventGallery from "@/components/EventGallery";
 import ChatDemo from "@/components/ChatDemo";
 import { webPageLd } from "@/data/jsonld";
+import HeroQuoteWidget from "@/components/HeroQuoteWidget";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
@@ -38,7 +39,7 @@ export default function Home() {
           />
         </div>
         <div className="relative mx-auto max-w-6xl px-5 py-24 sm:py-36">
-          <div className="hero-anim max-w-2xl">
+          <div className="hero-anim max-w-3xl">
             <h1 className="headline text-[36px] sm:text-[56px] mb-5 drop-shadow-lg">
               전국 어디든, 세계 어디든
               <br />
@@ -48,12 +49,13 @@ export default function Home() {
               전국 {site.stats.courses}개 골프장과 해외 {site.stats.countries}개국 골프장 중에서 가고 싶은 곳을 정해 보세요.
               나머지는 저희가 준비합니다.
             </p>
-            <div className="flex flex-col sm:flex-row gap-3 max-w-xl">
-              <Link href="/domestic#quote" className="btn btn-royal flex-1 shadow-lg shadow-royal/30">국내 견적 요청</Link>
-              <Link href="/overseas#quote" className="btn flex-1 bg-white/95 text-navy font-bold hover:bg-white">해외 견적 요청</Link>
-              <a href={site.phoneHref} className="btn btn-gold flex-1 backdrop-blur-sm bg-navydeep/30">전화 상담</a>
+            <HeroQuoteWidget />
+            <div className="flex flex-wrap gap-x-5 gap-y-2 mt-5 text-[14px] text-white/80">
+              <Link href="/domestic#courses" className="underline underline-offset-4 hover:text-white">전국 골프장 지도 보기</Link>
+              <Link href="/overseas#courses" className="underline underline-offset-4 hover:text-white">해외 골프장 지도 보기</Link>
+              <a href={site.phoneHref} className="underline underline-offset-4 hover:text-white">전화 상담 {site.phone}</a>
             </div>
-            <p className="mt-5 text-[14px] text-white/70">견적은 무료입니다 · 하루 안에 회신드립니다 · 종합여행업 등록 여행사</p>
+            <p className="mt-3 text-[13.5px] text-white/60">종합여행업 등록 여행사 · 영업보증보험 가입</p>
           </div>
         </div>
       </section>

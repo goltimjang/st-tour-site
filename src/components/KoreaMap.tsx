@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import mapData from "@/data/korea-map.json";
 import { courseLink } from "@/data/course-meta";
 import { useMapZoom } from "@/components/useMapZoom";
+import type { usePicked } from "@/lib/picked";
 import MapZoomControls from "@/components/MapZoomControls";
 
 export type Point = {
@@ -36,10 +37,12 @@ export default function KoreaMap({
   points,
   region,
   onRegion,
+  picked,
 }: {
   points: Point[];
   region: string;
   onRegion: (r: string) => void;
+  picked?: ReturnType<typeof usePicked>;
 }) {
   const [active, setActive] = useState<Point | null>(null);
   const zoom = useMapZoom({ x: -14, y: -14, w: VW + 28, h: VH + 28 });
@@ -126,16 +129,28 @@ export default function KoreaMap({
             {active.sido} {active.city}
             {active.type ? ` · ${active.type}` : ""}
           </p>
-          {link && (
-            <a
-              href={link.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-3 flex items-center justify-center rounded-lg border border-line px-3 py-2 text-[13px] font-bold text-royaldark hover:border-royal"
-            >
-              {link.official ? "공식 홈페이지 열기" : "골프장 정보 검색"}
-            </a>
-          )}
+          <div className="mt-3 grid grid-cols-2 gap-2">
+            {picked && (
+              <button
+                type="button"
+                onClick={() => picked.toggle(active.name, { region: active.region })}
+                aria-pressed={picked.has(active.name)}
+                className={`flex items-center justify-center rounded-lg px-3 py-2 text-[13px] font-bold ${picked.has(active.name) ? "bg-royal text-white" : "bg-paper text-ink hover:bg-line/60"}`}
+              >
+                {picked.has(active.name) ? "담김 ✓" : "견적에 담기"}
+              </button>
+            )}
+            {link && (
+              <a
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center rounded-lg border border-line px-3 py-2 text-[13px] font-bold text-royaldark hover:border-royal"
+              >
+                {link.official ? "공식 홈페이지" : "정보 검색"}
+              </a>
+            )}
+          </div>
         </div>
       )}
     </div>
