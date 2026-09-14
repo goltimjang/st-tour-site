@@ -147,7 +147,7 @@
  },
  {
   "name": "샌드파인 골프클럽",
-  "url": "http://www.sandpine.co.kr",
+  "url": "https://www.lakaisandpine.co.kr/",
   "holes": null,
   "shifts": [
    "2부제"
@@ -165,7 +165,7 @@
  },
  {
   "name": "설악썬밸리 컨트리클럽",
-  "url": null,
+  "url": "https://www.sunvalley.co.kr/seorak/golf/intro",
   "holes": null,
   "shifts": [
    "2부제"
@@ -499,7 +499,7 @@
  },
  {
   "name": "휘닉스 컨트리클럽(휘닉스 평창)",
-  "url": "https://phoenixhnr.co.kr/page/reservation/pyeongchang/golf/phoenix",
+  "url": "https://phoenixhnr.co.kr/",
   "holes": 18,
   "shifts": [
    "2부제"
@@ -858,8 +858,8 @@
   "noCaddie": false
  },
  {
-  "name": "루나힐스 안성컨트리클럽(구 이글몬트CC)",
-  "url": null,
+  "name": "포웰CC 안성(구 루나힐스 안성·이글몬트CC)",
+  "url": "https://as.4wellcc.com/",
   "holes": null,
   "shifts": [
    "2부제"
@@ -1124,7 +1124,7 @@
   "noCaddie": false
  },
  {
-  "name": "세라지오 골프클럽",
+  "name": "더 시에나 벨루토CC(구 세라지오)",
   "url": "https://thesiena.co.kr/content/velluto",
   "holes": 18,
   "shifts": [
@@ -1528,8 +1528,8 @@
   "noCaddie": false
  },
  {
-  "name": "참밸리컨트리클럽",
-  "url": null,
+  "name": "코브스윙(구 참밸리CC)",
+  "url": "https://www.coveswing.com/",
   "holes": null,
   "shifts": [
    "2부제"
@@ -2124,7 +2124,7 @@
  },
  {
   "name": "밀양에스파크골프리조트",
-  "url": "https://www.s-parkresort.co.kr/",
+  "url": "https://my.s-parkcc.kr/",
   "holes": 18,
   "shifts": [
    "2부제"
@@ -2199,8 +2199,8 @@
   "noCaddie": false
  },
  {
-  "name": "아라미르골프앤리조트",
-  "url": null,
+  "name": "진해신항CC(구 아라미르골프앤리조트)",
+  "url": "https://www.jhnpcc.co.kr/",
   "holes": null,
   "shifts": [
    "2부제"
@@ -2420,7 +2420,7 @@
  },
  {
   "name": "구미CC",
-  "url": "http://www.gumicc.co.kr",
+  "url": "https://www.gumicc.com/",
   "holes": 27,
   "shifts": [
    "2부제"
@@ -2477,7 +2477,7 @@
   "verified": "2026-08-26"
  },
  {
-  "name": "디아너스컨트리클럽",
+  "name": "강동 디아너스CC",
   "url": "https://gj.kangdongcnl.com/",
   "holes": 27,
   "shifts": [
@@ -2718,8 +2718,8 @@
   "noCaddie": false
  },
  {
-  "name": "인터불고컨트리클럽(인터불고경산)",
-  "url": "https://www.interburgocc.com",
+  "name": "해내다CC(구 인터불고 경산)",
+  "url": "https://www.haenaedacc.co.kr/",
   "holes": 27,
   "shifts": [
    "2부제"
@@ -2843,7 +2843,7 @@
  },
  {
   "name": "냉천컨트리클럽",
-  "url": "http://www.nc-golf.co.kr/",
+  "url": "https://www.nc-golf.com/",
   "holes": 9,
   "shifts": [
    "2부제"
@@ -3038,7 +3038,7 @@
  },
  {
   "name": "보라컨트리클럽",
-  "url": "https://boracc.co.kr/",
+  "url": "https://www.boracc.com/",
   "holes": 27,
   "shifts": [
    "2부제"
@@ -3669,7 +3669,7 @@
   "verified": "2026-08-26"
  },
  {
-  "name": "프린세스골프클럽",
+  "name": "포웰CC 프린세스(구 프린세스GC)",
   "url": "http://www.princessgc.co.kr/",
   "holes": 18,
   "shifts": [
@@ -3795,7 +3795,7 @@
   "verified": "2026-08-28"
  },
  {
-  "name": "떼제베CC",
+  "name": "올데이 청주떼제베CC",
   "url": "https://www.adtgv.co.kr",
   "holes": 36,
   "shifts": [
@@ -4047,7 +4047,7 @@
   "verified": "2026-08-26"
  },
  {
-  "name": "클럽디 속리산",
+  "name": "속리산CC(구 클럽디 속리산)",
   "url": "https://www.clublonge.com/Club/songnisan",
   "holes": 18,
   "shifts": [
@@ -4480,7 +4480,7 @@
  },
  {
   "name": "포라이즌CC(구 승주CC)",
-  "url": null,
+  "url": "https://www.fourizon.co.kr/",
   "holes": 27,
   "shifts": [
    "2부제"
@@ -4751,5 +4751,32 @@
   ],
   "noCaddie": false,
   "verified": "2026-08-28"
+ },
+ {
+  "name": "베르힐CC 영종",
+  "url": "https://www.verthillccyj.com/",
+  "holes": 36,
+  "shifts": [
+   "2부제"
+  ],
+  "noCaddie": false
+ },
+ {
+  "name": "크리스밸리 컨트리클럽",
+  "url": "https://www.creasvalley.com/",
+  "holes": 18,
+  "shifts": [
+   "2부제"
+  ],
+  "noCaddie": false
+ },
+ {
+  "name": "남한강 에스파크CC",
+  "url": null,
+  "holes": 27,
+  "shifts": [
+   "2부제"
+  ],
+  "noCaddie": false
  }
 ]

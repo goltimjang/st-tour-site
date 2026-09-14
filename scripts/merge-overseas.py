@@ -9,7 +9,7 @@ import json, os, sys
 from collections import Counter
 
 FILES = ['ov-japan', 'ov-jp2', 'ov-sea', 'ov-asia', 'ov-far', 'ov-more',
-         'ov-ph2', 'ov-th2', 'ov-vn2', 'ov-cn2', 'ov-sea2', 'ov-rec']
+         'ov-ph2', 'ov-th2', 'ov-vn2', 'ov-cn2', 'ov-sea2', 'ov-rec', 'ov-add']
 
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 merged, seen = [], set()
