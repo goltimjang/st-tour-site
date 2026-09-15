@@ -8,9 +8,9 @@ import { breadcrumbLd, webPageLd } from "@/data/jsonld";
 import { site } from "@/data/site";
 
 export const metadata: Metadata = {
-  title: "해외 골프투어 견적 | 일본·태국·베트남 등 14개국",
+  title: "해외 골프투어 견적 | 일본골프투어·태국골프투어·베트남골프투어·중국골프투어",
   description:
-    "일본, 태국, 베트남, 필리핀, 중국 등 14개국 해외 골프투어를 항공·숙박·라운드·차량까지 묶어 24시간 안에 맞춤 견적으로 보내드립니다. 포함 내역이 명확한 조건 맞춤 견적.",
+    "일본골프투어, 태국골프투어, 베트남골프투어, 중국골프투어, 필리핀골프투어 등 14개국 해외 골프투어를 항공·숙박·라운드·차량까지 묶어 24시간 안에 맞춤 견적으로 보내드립니다. 포함 내역이 명확한 조건 맞춤 견적.",
   alternates: { canonical: "/overseas/" },
 };
 
@@ -66,6 +66,9 @@ export default function OverseasPage() {
           <p className="text-white/75 max-w-2xl text-[16.5px]">
             항공·숙박·그린피·차량을 묶어 예산에 맞게 설계합니다. 국가만 정해도 되고, 어디가 좋을지 몰라도 됩니다.
             시기와 인원을 보내주시면 <strong className="text-gold">24시간 안에</strong> 견적서를 보내드립니다.
+          </p>
+          <p className="text-white/60 max-w-2xl text-[14px] mt-3">
+            일본골프투어·태국골프투어·베트남골프투어·중국골프투어·필리핀골프투어는 국가 페이지에서 시즌과 가격을 바로 확인하실 수 있습니다.
           </p>
         </div>
         <div className="relative h-2" aria-hidden="true" />

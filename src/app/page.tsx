@@ -56,6 +56,13 @@ export default function Home() {
               <a href={site.phoneHref} className="underline underline-offset-4 hover:text-white">전화 상담 {site.phone}</a>
             </div>
             <p className="mt-3 text-[13.5px] text-white/60">종합여행업 등록 여행사 · 영업보증보험 가입</p>
+            <p className="mt-4 text-[13.5px] text-white/70 max-w-xl">
+              국내골프투어부터 <Link href="/overseas/japan" className="underline underline-offset-4 hover:text-white">일본골프투어</Link>,{" "}
+              <Link href="/overseas/thailand" className="underline underline-offset-4 hover:text-white">태국골프투어</Link>,{" "}
+              <Link href="/overseas/vietnam" className="underline underline-offset-4 hover:text-white">베트남골프투어</Link>,{" "}
+              <Link href="/overseas/china" className="underline underline-offset-4 hover:text-white">중국골프투어</Link>,{" "}
+              <Link href="/overseas/philippines" className="underline underline-offset-4 hover:text-white">필리핀골프투어</Link>까지 견적은 무료입니다.
+            </p>
           </div>
         </div>
       </section>

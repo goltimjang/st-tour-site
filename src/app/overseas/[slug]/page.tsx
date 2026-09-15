@@ -17,8 +17,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const d = tier1.find((x) => x.slug === slug);
   if (!d) return {};
   return {
-    title: `${d.name} 골프투어 견적 | 시즌·가격 안내`,
-    description: `${d.name} 골프투어를 맞춤 견적으로. ${d.cities.join(", ")} 지역, 성수기 ${d.season}, ${d.priceFrom ?? ""} 항공·숙박·라운드 포함 구성을 24시간 안에 견적드립니다.`,
+    title: `${d.name} 골프투어 견적 | ${d.name}골프투어 시즌·가격·골프장 안내`,
+    description: `${d.name}골프투어 전문 에스티골프투어. ${d.cities.join(", ")} 지역 골프장, 성수기 ${d.season}, ${d.priceFrom ?? ""} 항공·숙박·라운드 포함 ${d.name} 골프투어 견적을 24시간 안에 보내드립니다.`,
     alternates: { canonical: `/overseas/${slug}/` },
   };
 }
@@ -92,6 +92,9 @@ export default async function CountryPage({ params }: { params: Promise<{ slug: 
           <p className="eyebrow text-sky mb-3">{d.slug.replace(/-/g, " ")} Golf Tour</p>
           <h1 className="headline text-[30px] sm:text-[42px] mb-4">{d.name} 골프투어</h1>
           <p className="text-white/75 max-w-2xl text-[16.5px]">{d.blurb}</p>
+          <p className="text-white/60 max-w-2xl text-[14px] mt-3">
+            {d.name}골프투어 전문 여행사 에스티골프투어가 {d.cities.slice(0, 3).join("·")} 골프장 예약부터 항공·숙박·차량까지 한 번에 견적드립니다.
+          </p>
           <div className="mt-7 grid grid-cols-2 lg:grid-cols-4 gap-px bg-white/15 border border-white/15 rounded-lg overflow-hidden max-w-3xl">
             {[
               ["주요 지역", d.cities.slice(0, 3).join(" · ")],
