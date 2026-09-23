@@ -9,19 +9,9 @@ import SiteSearch from "@/components/SiteSearch";
 type NavItem = { href: string; label: string; children?: { href: string; label: string }[] };
 
 const nav: NavItem[] = [
-  { href: "/domestic", label: "국내 골프투어" },
-  { href: "/overseas", label: "해외 골프투어" },
-  {
-    href: "/domestic#courses",
-    label: "골프장 지도",
-    children: [
-      { href: "/domestic#courses", label: "전국 골프장 지도" },
-      { href: "/overseas#courses", label: "해외 골프장 지도" },
-    ],
-  },
-  { href: "/products", label: "상품" },
-  { href: "/seasons", label: "시즌 추천" },
-  { href: "/promotion", label: "프로모션" },
+  { href: "/domestic", label: "국내 골프투어", children: [{ href: "/domestic", label: "국내 견적·골프장 지도" }] },
+  { href: "/overseas", label: "해외 골프투어", children: [{ href: "/overseas", label: "해외 견적·골프장 지도" }, { href: "/seasons", label: "시즌별 여행지" }] },
+  { href: "/promotion", label: "이달의 추천", children: [{ href: "/promotion", label: "하노이 로얄CC 프로모션" }, { href: "/products", label: "판매 상품 보기" }] },
   { href: "/about", label: "회사소개" },
   { href: "/faq", label: "자주 묻는 질문" },
 ];
@@ -33,12 +23,12 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 px-3 sm:px-5 pt-3 pb-1">
       <div className="mx-auto max-w-6xl rounded-2xl bg-white/95 backdrop-blur-md border border-white shadow-[0_10px_34px_rgba(6,20,62,0.10)]">
-        <div className="h-[64px] flex items-center justify-between gap-3 px-5 sm:px-6">
+        <div className="h-[64px] flex items-center justify-between gap-2 px-3 sm:px-5">
           <Link href="/" className="shrink-0" aria-label="에스티골프투어 홈">
-            <Image src="/logo-black.png" alt="에스티골프투어" width={214} height={28} priority className="h-7 w-auto" />
+            <Image src="/logo-black.png" alt="에스티골프투어" width={214} height={28} priority className="h-auto w-[156px] sm:w-[190px]" />
           </Link>
 
-          <nav className="hidden lg:flex items-center gap-5 xl:gap-6" aria-label="주 메뉴">
+          <nav className="hidden xl:flex items-center gap-4" aria-label="주 메뉴">
             {nav.map((n) =>
               n.children ? (
                 <div key={n.href} className="relative group">
@@ -87,9 +77,10 @@ export default function Header() {
               {site.phone}
             </a>
             <button
-              className="lg:hidden p-2 -mr-2 text-navy"
+              className="xl:hidden p-2 -mr-2 text-navy"
               aria-label={open ? "메뉴 닫기" : "메뉴 열기"}
               aria-expanded={open}
+              aria-controls="mobile-menu"
               onClick={() => setOpen(!open)}
             >
               <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
@@ -100,7 +91,7 @@ export default function Header() {
         </div>
 
         {open && (
-          <nav className="lg:hidden border-t border-line pb-4" aria-label="모바일 메뉴">
+          <nav id="mobile-menu" className="xl:hidden max-h-[70dvh] overflow-y-auto border-t border-line pb-4" aria-label="모바일 메뉴">
             {nav.flatMap((n) =>
               n.children
                 ? n.children.map((c) => (
@@ -124,6 +115,7 @@ export default function Header() {
                     </Link>,
                   ]
             )}
+            <div className="px-7 py-3 flex flex-wrap gap-5"><a href={site.kakaoUrl} target="_blank" rel="noopener noreferrer" className="underline">카카오톡 상담</a><a href={site.bandUrl} target="_blank" rel="noopener noreferrer" className="underline">밴드 소식</a></div>
             <a href={site.phoneHref} className="mx-5 mt-2 btn btn-royal w-[calc(100%-40px)]">
               <PhoneIcon /> 전화 상담 {site.phone}
             </a>

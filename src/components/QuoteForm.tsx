@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
+import { track } from "@/lib/analytics";
 import { site } from "@/data/site";
 import { destinations } from "@/data/destinations";
 import Calendar, { stayLabel } from "@/components/Calendar";
@@ -16,6 +17,7 @@ type Props = {
   prefillRegion?: string;
   /** 국가 페이지에서 진입 시 국가 미리 선택 */
   prefillCountry?: string;
+  product?: { id: string; title: string; country: string; start: string; end: string; duration: string; course: string };
 };
 
 const REGIONS = ["수도권", "강원", "충청", "호남", "영남", "제주"];
@@ -37,20 +39,25 @@ const PEOPLE_MIN = 1;
 const BUDGETS_DOM = ["30만원 이하", "30~50만원", "50~80만원", "80만원 이상", "상담하며 정할게요"];
 const BUDGETS_OVS = ["60만원 이하", "60~100만원", "100~150만원", "150만원 이상", "상담하며 정할게요"];
 
-export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillCountry }: Props) {
+export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillCountry, product }: Props) {
   const isDom = type === "domestic";
 
   const boxRef = useRef<HTMLDivElement>(null);
+  const sendingRef = useRef(false);
+  const startedRef = useRef(false);
   const [step, setStep] = useState(1);
 
   /** 단계를 바꾸면 폼 상단이 화면에 오도록 맞춘다 (긴 폼에서 엉뚱한 위치로 가는 것 방지) */
   function goStep(next: number) {
+    if (next > 1 && !startedRef.current) { track("quote_start", { kind: type, product_id: product?.id ?? "custom" }); startedRef.current = true; }
     setStep(next);
+    track("quote_step", { step: next, kind: type });
     requestAnimationFrame(() => {
       const el = boxRef.current;
       if (!el) return;
       const top = el.getBoundingClientRect().top + window.scrollY - 90; // 고정 헤더 여유
-      window.scrollTo({ top, behavior: "smooth" });
+      window.scrollTo({ top, behavior: "instant" });
+      el.focus({ preventScroll: true });
     });
   }
   const [done, setDone] = useState(false);
@@ -59,20 +66,20 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
 
   // Step 1
   const [regions, setRegions] = useState<string[]>(prefillRegion ? [prefillRegion] : []);
-  const [country, setCountry] = useState(prefillCountry ?? "");
+  const [country, setCountry] = useState(product?.country ?? prefillCountry ?? "");
   const [dateMode, setDateMode] = useState<"date" | "flexible">("date");
-  const [dateStart, setDateStart] = useState("");
-  const [dateEnd, setDateEnd] = useState("");
+  const [dateStart, setDateStart] = useState(product?.start ?? "");
+  const [dateEnd, setDateEnd] = useState(product?.end ?? "");
   const [flexTime, setFlexTime] = useState("");
   const [people, setPeople] = useState(4);
 
   // Step 2
-  const [duration, setDuration] = useState("");
+  const [duration, setDuration] = useState(product?.duration ?? "");
   const [rounds, setRounds] = useState("");
   const [lodging, setLodging] = useState(""); // 국내: 숙박 필요 여부 / 해외: 숙박 수준
-  const [flight, setFlight] = useState("");
+  const [flight, setFlight] = useState(product ? "항공 포함" : "");
   const [budget, setBudget] = useState("");
-  const [course, setCourse] = useState(prefillCourse ?? "");
+  const [course, setCourse] = useState(product?.course ?? prefillCourse ?? "");
   const [memo, setMemo] = useState("");
 
   // Step 3
@@ -83,83 +90,67 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
   const [showPrivacy, setShowPrivacy] = useState(false);
   const [ticket, setTicket] = useState("");
   const [restored, setRestored] = useState(false);
-  const draftKey = `st-quote-draft-${type}`;
+  const draftKey = `st-quote-v2-${type}-${product?.id ?? prefillCountry ?? "general"}`;
+  const [draftNotice, setDraftNotice] = useState(false);
 
-  /**
-   * 첫 진입 시 세 가지를 순서대로 반영한다.
-   * 1) 홈 미니 위젯·검색에서 넘어온 URL 파라미터 (region/country/start/end)
-   * 2) 지도에서 "담기"로 골라둔 골프장 (localStorage st-picked)
-   * 3) 작성하다 떠난 임시 저장본 (localStorage 초안). URL 파라미터가 있으면 초안보다 우선.
-   */
+  // 국가·상품별 초안. 연락처·성함·이메일은 기기에 저장하지 않는다.
   useEffect(() => {
     try {
       const q = new URLSearchParams(window.location.search);
-      const fromUrl = q.has("region") || q.has("country") || q.has("start");
-      const draft = !fromUrl && localStorage.getItem(draftKey);
-      if (draft) {
-        const d = JSON.parse(draft);
-        if (Array.isArray(d.regions)) setRegions(d.regions);
-        if (typeof d.country === "string") setCountry(d.country);
-        if (d.dateMode) setDateMode(d.dateMode);
-        if (d.dateStart) setDateStart(d.dateStart);
-        if (d.dateEnd) setDateEnd(d.dateEnd);
-        if (d.flexTime) setFlexTime(d.flexTime);
-        if (d.people) setPeople(d.people);
-        if (d.duration) setDuration(d.duration);
-        if (d.rounds) setRounds(d.rounds);
-        if (d.lodging) setLodging(d.lodging);
-        if (d.flight) setFlight(d.flight);
-        if (d.budget) setBudget(d.budget);
-        if (d.course) setCourse(d.course);
-        if (d.memo) setMemo(d.memo);
-        if (d.name) setName(d.name);
-        if (d.phone) setPhone(d.phone);
-        if (d.email) setEmail(d.email);
-        if (d.step && d.step > 1) setStep(d.step);
+      const fromUrl = !product && ["region", "country", "start", "flexible", "picked"].some((k) => q.has(k));
+      const raw = !fromUrl && localStorage.getItem(draftKey);
+      if (raw) {
+        const d = JSON.parse(raw);
+        const compatible = !prefillCountry || d.country === prefillCountry;
+        if (compatible && d.savedAt > Date.now() - 7 * 86400000) {
+          if (Array.isArray(d.regions)) setRegions(d.regions.filter((r: string) => [...REGIONS, "추천 받고 싶어요"].includes(r)));
+          if (!product && typeof d.country === "string") setCountry(d.country);
+          if (!product && ["date", "flexible"].includes(d.dateMode)) setDateMode(d.dateMode);
+          if (!product && typeof d.dateStart === "string") setDateStart(d.dateStart);
+          if (!product && typeof d.dateEnd === "string") setDateEnd(d.dateEnd);
+          if (!product && typeof d.flexTime === "string") setFlexTime(d.flexTime);
+          if (Number.isInteger(d.people) && d.people >= 1 && d.people <= 999) setPeople(d.people);
+          for (const [key, setter] of [["duration", setDuration], ["rounds", setRounds], ["lodging", setLodging], ["flight", setFlight], ["budget", setBudget], ["course", setCourse]] as const) {
+            if (typeof d[key] === "string" && !product) setter(d[key]);
+          }
+          setDraftNotice(true);
+          // 복원해도 첫 단계에서 조건을 다시 확인한다.
+        }
       }
       if (fromUrl) {
         const region = q.get("region");
         const ctry = q.get("country");
         const st = q.get("start");
         const en = q.get("end");
-        if (isDom && region) setRegions(region.split(",").filter(Boolean));
-        if (!isDom && ctry) setCountry(ctry);
-        if (st) { setDateMode("date"); setDateStart(st); }
-        if (en) setDateEnd(en);
-        if ((isDom ? region : ctry) && st && en) setStep(2);
+        if (isDom && region) setRegions(region.split(",").filter((r) => [...REGIONS, "추천 받고 싶어요"].includes(r)));
+        if (!isDom && ctry && (!prefillCountry || prefillCountry === ctry) && (destinations.some((d) => d.name === ctry) || ctry === "추천 받고 싶어요")) setCountry(ctry);
+        if (st && /^\d{4}-\d{2}-\d{2}$/.test(st)) setDateStart(st);
+        if (en && /^\d{4}-\d{2}-\d{2}$/.test(en)) setDateEnd(en);
+        if (q.get("flexible") === "1") { setDateMode("flexible"); setFlexTime("미정 (상담 후 결정)"); }
       }
-      const picked = localStorage.getItem("st-picked");
-      if (picked) {
+      const picked = q.get("picked") === "1" ? localStorage.getItem("st-picked") : null;
+      if (picked && !product) {
         const p = JSON.parse(picked);
-        if (p && p.kind === type && Array.isArray(p.names) && p.names.length > 0) {
-          setCourse((prev) => {
-            const cur = prev.split(",").map((x: string) => x.trim()).filter(Boolean);
-            const merged = [...cur, ...p.names.filter((n: string) => !cur.includes(n))];
-            return merged.join(", ");
-          });
-          if (!isDom && p.country && !ctryFromUrl(q)) setCountry(p.country);
-          if (isDom && Array.isArray(p.regions) && p.regions.length > 0) {
-            setRegions((prev) => (prev.length > 0 ? prev : p.regions));
-          }
+        const intendedCountry = prefillCountry || ctryFromUrl(q);
+        if (p && p.kind === type && Array.isArray(p.names) && (isDom || !intendedCountry || intendedCountry === p.country)) {
+          setCourse(p.names.filter((n: unknown) => typeof n === "string").join(", "));
+          if (!isDom && p.country && !intendedCountry) setCountry(p.country);
+          if (isDom && Array.isArray(p.regions)) setRegions(p.regions.filter((r: string) => REGIONS.includes(r)));
         }
       }
-    } catch {}
+    } catch { /* 손상된 초안은 새 양식으로 시작한다. */ }
     setRestored(true);
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [draftKey, isDom, prefillCountry, product, type]);
 
-  // 입력할 때마다 임시 저장 (완료되면 지운다)
   useEffect(() => {
     if (!restored || done) return;
     try {
-      localStorage.setItem(
-        draftKey,
-        JSON.stringify({ step, regions, country, dateMode, dateStart, dateEnd, flexTime, people, duration, rounds, lodging, flight, budget, course, memo, name, phone, email })
-      );
-    } catch {}
-  }, [restored, done, step, regions, country, dateMode, dateStart, dateEnd, flexTime, people, duration, rounds, lodging, flight, budget, course, memo, name, phone, email, draftKey]);
+      localStorage.setItem(draftKey, JSON.stringify({ savedAt: Date.now(), regions, country, dateMode, dateStart, dateEnd, flexTime, people, duration, rounds, lodging, flight, budget, course }));
+    } catch { /* 저장 불가 환경에서도 견적 접수는 사용할 수 있다. */ }
+  }, [restored, done, regions, country, dateMode, dateStart, dateEnd, flexTime, people, duration, rounds, lodging, flight, budget, course, draftKey]);
 
   // 달력 선택 시 "○박 ○일" 자동 계산 (출발·도착 모두 선택해야 완성)
-  const stay = stayLabel(dateStart, dateEnd);
+  const stay = dateMode === "date" ? (product?.duration ?? stayLabel(dateStart, dateEnd)) : "";
   // 1단계 선택에 맞춘 골프장 선택기 범위
   const pickScope = useMemo(() => {
     if (isDom) {
@@ -183,36 +174,37 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
 
   const whenLabel =
     dateMode === "date"
-      ? dateStart && dateEnd
+      ? dateStart && dateEnd && dateEnd >= dateStart
         ? `${dateStart.replace(/-/g, ". ")} 출발 ~ ${dateEnd.replace(/-/g, ". ")} 도착 (${stay})`
         : ""
       : flexTime;
   const step1Ok = isDom
     ? regions.length > 0 && whenLabel && people >= PEOPLE_MIN
     : country && whenLabel && people >= PEOPLE_MIN;
-  const step3Ok = name.trim().length >= 1 && phone.replace(/\D/g, "").length >= 9 && agree;
-
-  const deadline = useMemo(() => {
-    const d = new Date(Date.now() + 24 * 60 * 60 * 1000);
-    return d.toLocaleString("ko-KR", { month: "long", day: "numeric", hour: "numeric", minute: "2-digit" });
-  }, [done]); // eslint-disable-line react-hooks/exhaustive-deps
+  const phoneOk = /^0\d{8,10}$/.test(phone.replace(/[\s()-]/g, ""));
+  const emailOk = !email || /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  const step3Ok = Boolean(step1Ok) && name.trim().length >= 1 && phoneOk && emailOk && agree;
 
   function toggleRegion(r: string) {
     setRegions((prev) => (prev.includes(r) ? prev.filter((x) => x !== r) : [...prev, r]));
   }
 
   async function submit() {
+    if (sendingRef.current || !step3Ok) return;
+    sendingRef.current = true;
     setSending(true);
     setError("");
     const now = new Date();
     const no = `ST-${String(now.getFullYear()).slice(2)}${String(now.getMonth() + 1).padStart(2, "0")}${String(now.getDate()).padStart(2, "0")}-${String(Math.floor(Math.random() * 9000) + 1000)}`;
     const payload = {
       접수번호: no,
+      상품: product?.title ?? "맞춤 골프투어",
       type: isDom ? "국내 골프투어" : "해외 골프투어",
       지역: isDom ? regions.join(", ") : country,
       희망시기: whenLabel,
       인원: `${people}명`,
       기간: stay || duration || "미정",
+      ...(product ? { 총라운드: "54홀 (18홀 × 3회)" } : {}),
       "1일 라운드": rounds || "미정",
       ...(isDom ? { 숙박: lodging || "미정" } : { 항공: flight || "미정", 숙박수준: lodging || "미정" }),
       예산: budget || "미정",
@@ -225,35 +217,37 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
     // 정적 호스팅(GitHub Pages): FormSubmit 릴레이로 운영자 메일 전달.
     // 해시 엔드포인트 사용: 소스에 이메일이 노출되지 않아 스팸봇 수집 방지 (goltimjang@gmail.com 수신)
     const subject = `[에스티골프투어 견적 ${no}] ${payload.type} · ${payload["지역"]} · ${name}님 (${people}명)`;
-    const autoReply = email
-      ? {
-          _replyto: email,
-          _autoresponse: `${name}님, 에스티골프투어 견적 요청이 접수되었습니다.\n접수번호 ${no}\n${payload.type} · ${payload["지역"]} · ${whenLabel} · ${people}명\n\n24시간 안에 담당자가 연락드립니다. 급하시면 ${site.phone}로 전화 주세요.`,
-        }
-      : {};
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 20000);
     try {
       const res = await fetch("https://formsubmit.co/ajax/dea690313c66c8f0af9faeae39e6b6dc", {
         method: "POST",
+        signal: controller.signal,
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify({
           _subject: subject,
           _template: "table",
-          ...autoReply,
+          ...(email ? { _replyto: email } : {}),
           ...payload,
           접수시각: new Date().toLocaleString("ko-KR"),
         }),
       });
-      if (!res.ok) throw new Error("send failed");
+      const result = await res.json();
+      if (!res.ok || ![true, "true"].includes(result?.success)) throw new Error("send failed");
+      track("quote_submit_success", { kind: type, product_id: product?.id ?? "custom" });
       setTicket(no);
       try {
         localStorage.removeItem(draftKey);
         localStorage.removeItem("st-picked");
       } catch {}
       setDone(true);
-      window.scrollTo({ top: 0 });
+      requestAnimationFrame(() => { boxRef.current?.scrollIntoView({ behavior: "instant", block: "start" }); boxRef.current?.focus({ preventScroll: true }); });
     } catch {
-      setError(`전송 중 문제가 생겼습니다. 잠시 후 다시 시도하시거나, 지금 바로 전화(${site.phone})로 문의해 주세요.`);
+      track("quote_submit_error", { kind: type });
+      setError(`접수 여부를 확인하지 못했습니다. 중복 요청이 걱정되시면 전화로 먼저 확인해 주세요. 잠시 후 다시 시도하시거나, 지금 바로 전화(${site.phone})로 문의해 주세요.`);
     } finally {
+      clearTimeout(timeout);
+      sendingRef.current = false;
       setSending(false);
     }
   }
@@ -261,23 +255,24 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
   /* ---------------- 완료 화면 ---------------- */
   if (done) {
     return (
-      <div className="rounded-2xl border border-line bg-white p-7 sm:p-10">
-        <p className="eyebrow text-golddeep">Request Received</p>
+      <div ref={boxRef} tabIndex={-1} className="scroll-mt-24 rounded-2xl border border-line bg-white p-6 sm:p-10" role="status">
+        <p className="eyebrow text-golddeep">견적 접수</p>
         <h3 className="headline text-2xl sm:text-3xl mt-2 mb-2">견적 요청이 접수되었습니다</h3>
         {ticket && (
           <p className="text-[14px] text-mute mb-4">
             접수번호 <b className="text-ink font-display text-[16px]">{ticket}</b>
-            {email ? " · 입력하신 이메일로 접수 확인 메일을 보냈습니다" : ""}
+
           </p>
         )}
         <p className="text-[17px]">
-          지금부터 24시간 카운트가 시작됩니다.
+          담당자가 여행 조건과 예약 가능 여부를 확인한 뒤 남겨주신 연락처로 안내드립니다.
           <br />
-          <strong className="text-royaldark">{deadline} 전에</strong> 남겨주신 연락처로 견적서를 보내드립니다.
+          <span className="text-mute">{site.company.hours}</span>
         </p>
         <div className="mt-5 rounded-xl bg-paper p-5 text-[15px] leading-relaxed">
           <p className="font-bold mb-1">접수 내용</p>
           <p>
+            {product && <><b>{product.title}</b><br /></>}
             {isDom ? `국내 · ${regions.join(", ")}` : `해외 · ${country}`} · {whenLabel} · {people}명
             {course ? ` · ${course}` : ""}
           </p>
@@ -301,26 +296,24 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
 
   /* ---------------- 입력 화면 ---------------- */
   return (
-    <div ref={boxRef} className="scroll-mt-24 rounded-2xl border border-line bg-white p-6 sm:p-10">
-      {/* 진행률: 모바일에서는 스크롤해도 상단에 붙어 있게 */}
-      <div className="flex items-center justify-between mb-7 sticky top-[68px] z-10 bg-white/95 backdrop-blur -mx-6 px-6 py-2.5 sm:-mx-10 sm:px-10 lg:static lg:m-0 lg:p-0 lg:bg-transparent">
-        <p className="eyebrow text-royal">
-          Step {step} / 3 · {step === 1 ? "어디로, 언제, 몇 분?" : step === 2 ? "어떻게 즐기실까요?" : "연락처를 남겨주세요"}
+    <div ref={boxRef} tabIndex={-1} className="quote-form min-w-0 scroll-mt-24 rounded-2xl border border-line bg-white p-5 sm:p-8">
+      <div className="mb-6 border-b border-line pb-4">
+        <p className="text-sm font-bold text-royaldark" aria-live="polite">
+          {step === 1 ? "여행 조건" : step === 2 ? "상세 조건 (선택)" : "연락처와 최종 확인"}
         </p>
-        <div className="flex gap-1.5" aria-hidden="true">
-          {[1, 2, 3].map((i) => (
-            <span key={i} className={`h-1.5 w-8 rounded-full ${i <= step ? "bg-royal" : "bg-line"}`} />
-          ))}
-        </div>
+        <h3 className="text-xl font-bold mt-1">{step === 1 ? "아는 것만 알려주셔도 괜찮아요" : step === 2 ? "더 알려주시면 견적에 반영할게요" : "이 조건으로 상담을 요청할까요?"}</h3>
+        <p className="text-sm text-mute mt-2">견적은 무료입니다. 접수만으로 예약이나 결제가 진행되지 않습니다.</p>
       </div>
+      {draftNotice && step === 1 && <p className="mb-5 text-sm text-mute" role="status">이 페이지에서 작성하던 여행 조건을 불러왔습니다. 내용을 확인해 주세요.</p>}
 
       {step === 1 && (
         <div className="space-y-7">
+          {product ? <div className="rounded-xl bg-paper p-4"><b>{product.title}</b><p>{product.start} ~ {product.end} · {product.duration}</p><p className="text-sm text-mute">베트남 닌빈 로얄CC · 항공 포함 · 총 54홀</p><Link href="/overseas/vietnam/?flexible=1#quote" className="inline-block py-2 underline text-royaldark">다른 날짜로 문의하기</Link></div> : <>
           <Field label={isDom ? "희망 지역 (복수 선택 가능)" : "희망 국가"} required>
             {isDom ? (
               <div className="flex flex-wrap gap-2.5">
-                {REGIONS.map((r) => (
-                  <button key={r} type="button" className="choice" data-on={regions.includes(r)} onClick={() => toggleRegion(r)}>
+                {[...REGIONS, "추천 받고 싶어요"].map((r) => (
+                  <button key={r} type="button" className="choice" data-on={regions.includes(r)} aria-pressed={regions.includes(r)} onClick={() => toggleRegion(r)}>
                     {r}
                   </button>
                 ))}
@@ -328,14 +321,14 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
             ) : (
               <div className="flex flex-wrap gap-2.5">
                 {destinations.filter((d) => d.tier === 1).map((d) => (
-                  <button key={d.slug} type="button" className="choice" data-on={country === d.name} onClick={() => setCountry(d.name)}>
+                  <button key={d.slug} type="button" className="choice" data-on={country === d.name} aria-pressed={country === d.name} onClick={() => { setCountry(d.name); setCourse(""); }}>
                     {d.name}
                   </button>
                 ))}
                 <select
                   className="field !w-auto"
                   value={destinations.some((d) => d.tier !== 1 && d.name === country) ? country : ""}
-                  onChange={(e) => e.target.value && setCountry(e.target.value)}
+                  onChange={(e) => { if (e.target.value) { setCountry(e.target.value); setCourse(""); } }}
                   aria-label="그 외 국가 선택"
                 >
                   <option value="">그 외 지역…</option>
@@ -343,7 +336,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
                     <option key={d.slug} value={d.name}>{d.name}</option>
                   ))}
                 </select>
-                <button type="button" className="choice" data-on={country === "추천 받고 싶어요"} onClick={() => setCountry("추천 받고 싶어요")}>
+                <button type="button" className="choice" data-on={country === "추천 받고 싶어요"} aria-pressed={country === "추천 받고 싶어요"} onClick={() => { setCountry("추천 받고 싶어요"); setCourse(""); }}>
                   잘 모르겠어요, 추천해 주세요
                 </button>
               </div>
@@ -352,8 +345,8 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
 
           <Field label="희망 일정 (출발일 → 도착일)" required>
             <div className="flex flex-wrap gap-2.5 mb-3">
-              <button type="button" className="choice" data-on={dateMode === "date"} onClick={() => setDateMode("date")}>날짜를 정했어요</button>
-              <button type="button" className="choice" data-on={dateMode === "flexible"} onClick={() => setDateMode("flexible")}>시기만 정했어요</button>
+              <button type="button" className="choice" data-on={dateMode === "date"} aria-pressed={dateMode === "date"} onClick={() => setDateMode("date")}>날짜를 정했어요</button>
+              <button type="button" className="choice" data-on={dateMode === "flexible"} aria-pressed={dateMode === "flexible"} onClick={() => setDateMode("flexible")}>시기만 정했거나 미정이에요</button>
             </div>
             {dateMode === "date" ? (
               <Calendar
@@ -367,27 +360,32 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
             ) : (
               <div className="flex flex-wrap gap-2.5">
                 {["이번 달 안에", "1~2개월 안에", "3개월 이후", "미정 (상담 후 결정)"].map((t) => (
-                  <button key={t} type="button" className="choice" data-on={flexTime === t} onClick={() => setFlexTime(t)}>{t}</button>
+                  <button key={t} type="button" className="choice" data-on={flexTime === t} aria-pressed={flexTime === t} onClick={() => setFlexTime(t)}>{t}</button>
                 ))}
               </div>
             )}
           </Field>
 
+          </>}
           <Field label="인원" required>
             <div className="flex items-center gap-4">
               <button type="button" className="choice !min-w-[52px] text-xl" onClick={() => setPeople(Math.max(PEOPLE_MIN, people - 1))} aria-label="인원 줄이기">−</button>
               <span className="text-2xl font-display w-16 text-center" aria-live="polite">{people}명</span>
-              <button type="button" className="choice !min-w-[52px] text-xl" onClick={() => setPeople(people + 1)} aria-label="인원 늘리기">+</button>
+              <button type="button" className="choice !min-w-[52px] text-xl" onClick={() => setPeople(Math.min(999, people + 1))} aria-label="인원 늘리기">+</button>
             </div>
           </Field>
 
-          <NextBtn disabled={!step1Ok} onClick={() => goStep(2)} />
+          <div className="flex flex-col gap-3">
+            <NextBtn disabled={!step1Ok} onClick={() => goStep(3)} label="연락처 남기기" />
+            {!product && <button type="button" className="btn btn-light" disabled={!step1Ok} onClick={() => goStep(2)}>상세 조건 추가하기 (선택)</button>}
+          </div>
           <CallEscape />
         </div>
       )}
 
       {step === 2 && (
         <div className="space-y-7">
+          <div className="rounded-xl bg-paper p-4"><p className="text-sm mb-3">모든 항목은 선택사항입니다. 상담하면서 함께 정할 수 있어요.</p><NextBtn onClick={() => goStep(3)} label="건너뛰고 연락처 남기기" /></div>
           <Field label="여행 기간">
             {stay ? (
               // 1단계 달력에서 출발·도착일을 선택한 경우 자동 계산
@@ -430,14 +428,14 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
                 items={pickScope.items}
                 groups={pickScope.groups}
                 scopeLabel={pickScope.label}
-                placeholder={isDom ? "예: 비발디파크CC / 비워두셔도 됩니다. 저희가 추천해 드립니다" : "예: 다낭 몽고메리 링스 / 비워두셔도 됩니다. 저희가 추천해 드립니다"}
+                placeholder="희망 골프장이 있으면 적어주세요. 비워두시면 추천해 드립니다"
               />
             ) : (
-              <input className="field" value={course} onChange={(e) => setCourse(e.target.value)} placeholder="예: 앙코르 골프 리조트 / 없으면 비워두세요. 저희가 추천해 드립니다" />
+              <input className="field" value={course} onChange={(e) => setCourse(e.target.value)} aria-label="선호 골프장" placeholder="희망 골프장이 있으면 적어주세요" />
             )}
           </Field>
           <Field label="요청사항 (선택)">
-            <textarea className="field min-h-[96px]" value={memo} onChange={(e) => setMemo(e.target.value)} placeholder="예: 조식 포함 희망, 부모님 동반이라 이동이 편했으면 합니다" />
+            <textarea aria-label="요청사항" className="field min-h-[96px]" value={memo} onChange={(e) => setMemo(e.target.value)} placeholder="예: 조식 포함 희망, 부모님 동반이라 이동이 편했으면 합니다" />
           </Field>
           <div className="flex gap-3">
             <BackBtn onClick={() => goStep(1)} />
@@ -449,16 +447,23 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
 
       {step === 3 && (
         <div className="space-y-7">
-          <Field label="성함" required>
-            <input className="field" value={name} onChange={(e) => setName(e.target.value)} placeholder="홍길동" autoComplete="name" />
+          <div className="rounded-xl border border-line bg-paper p-4" data-testid="quote-summary">
+            <p className="font-bold">{product?.title ?? "맞춤 골프투어"}</p>
+            <dl className="mt-2 space-y-1 text-[15px]"><div><dt className="inline text-mute">지역: </dt><dd className="inline">{isDom ? regions.join(", ") : country}</dd></div><div><dt className="inline text-mute">일정: </dt><dd className="inline">{whenLabel}</dd></div><div><dt className="inline text-mute">인원: </dt><dd className="inline">{people}명</dd></div>{course && <div><dt className="inline text-mute">골프장: </dt><dd className="inline">{course}</dd></div>}</dl>
+            <button type="button" className="mt-2 py-2 underline text-royaldark font-semibold" onClick={() => goStep(1)}>여행 조건 수정</button>
+          </div>
+          <Field label="성함" htmlFor="quote-name" required>
+            <input id="quote-name" required className="field" value={name} onChange={(e) => setName(e.target.value)} placeholder="홍길동" autoComplete="name" />
           </Field>
-          <Field label="연락처" required>
-            <input className="field" type="tel" inputMode="tel" value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="010-0000-0000" autoComplete="tel" />
+          <Field label="연락처" htmlFor="quote-phone" required>
+            <input id="quote-phone" required aria-invalid={!!phone && !phoneOk} className="field" type="tel" inputMode="tel" value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="010-0000-0000" autoComplete="tel" />
           </Field>
-          <Field label="이메일 (선택)">
-            <input className="field" type="email" inputMode="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="접수 확인 메일을 받으시려면 적어주세요" autoComplete="email" />
+          <Field label="이메일 (선택)" htmlFor="quote-email">
+            <input id="quote-email" aria-invalid={!!email && !emailOk} className="field" type="email" inputMode="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="견적서를 받을 이메일이 있으면 적어주세요" autoComplete="email" />
           </Field>
 
+          {!!phone && !phoneOk && <p className="text-sm text-red-700" role="alert">연락 가능한 전화번호 9~11자리를 확인해 주세요.</p>}
+          {!!email && !emailOk && <p className="text-sm text-red-700" role="alert">이메일 형식을 확인해 주세요.</p>}
           <div className="rounded-xl bg-paper p-4">
             <label className="flex items-start gap-3 cursor-pointer">
               <input type="checkbox" checked={agree} onChange={(e) => setAgree(e.target.checked)} className="mt-1.5 h-5 w-5 accent-[#0d4ff5]" />
@@ -472,7 +477,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
             {showPrivacy && (
               <div className="mt-3 text-[13.5px] text-mute leading-relaxed border-t border-line pt-3">
                 · 수집 목적: 골프투어 견적 상담 및 회신 (견적서 전달을 위한 전화·카카오톡·문자 발송 포함)
-                <br />· 수집 항목: 이름, 연락처, 여행 조건(지역·날짜·인원 등)
+                <br />· 수집 항목: 이름, 연락처, 이메일(선택), 여행 조건(지역·날짜·인원 등)
                 <br />· 보유 기간: 상담 완료 후 1년, 경과 시 지체 없이 파기
                 <br />· 동의를 거부하실 수 있으나, 거부 시 견적 회신이 불가합니다.
               </div>
@@ -482,12 +487,12 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
           {error && <p className="text-[15px] font-semibold text-red-600" role="alert">{error}</p>}
 
           <div className="flex gap-3">
-            <BackBtn onClick={() => goStep(2)} />
+            <BackBtn onClick={() => goStep(1)} />
             <button type="button" className="btn btn-royal flex-1" disabled={!step3Ok || sending} onClick={submit} style={!step3Ok || sending ? { opacity: 0.5, cursor: "not-allowed" } : undefined}>
               {sending ? "전송 중…" : "무료 견적 요청하기"}
             </button>
           </div>
-          <p className="text-[13.5px] text-mute text-center">견적은 무료이며, 요청 후 24시간 안에 견적서가 도착합니다.</p>
+          <p className="text-[13.5px] text-mute text-center">{site.company.hours}</p>
           <CallEscape />
         </div>
       )}
@@ -497,14 +502,14 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
 
 /* ---------------- 소품 ---------------- */
 
-function Field({ label, required, children }: { label: string; required?: boolean; children: React.ReactNode }) {
+function Field({ label, htmlFor, required, children }: { label: string; htmlFor?: string; required?: boolean; children: React.ReactNode }) {
   return (
-    <div>
-      <p className="text-[16px] font-bold mb-2.5">
-        {label} {required && <span className="text-royal" aria-label="필수">*</span>}
-      </p>
+    <fieldset className="min-w-0">
+      <legend className="text-[16px] font-bold mb-2.5">
+        {htmlFor ? <label htmlFor={htmlFor}>{label}</label> : label} {required && <span className="text-royal" aria-label="필수">*</span>}
+      </legend>
       {children}
-    </div>
+    </fieldset>
   );
 }
 
@@ -512,7 +517,7 @@ function Choices({ value, set, items }: { value: string; set: (v: string) => voi
   return (
     <div className="flex flex-wrap gap-2.5">
       {items.map((i) => (
-        <button key={i} type="button" className="choice" data-on={value === i} onClick={() => set(value === i ? "" : i)}>
+        <button key={i} type="button" className="choice" data-on={value === i} aria-pressed={value === i} onClick={() => set(value === i ? "" : i)}>
           {i}
         </button>
       ))}
@@ -543,7 +548,7 @@ function CallEscape() {
       <a href={site.phoneHref} className="font-bold text-royaldark underline">
         {site.phone}
       </a>{" "}
-      (똑같이 24시간 안에 견적을 드립니다)
+      {site.company.hours}
     </p>
   );
 }

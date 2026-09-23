@@ -1,6 +1,13 @@
 // 로얄CC 클럽 페스티벌 2026 상세: royalccfestival.com 공식 게재 정보 기준 (2026-08 확인)
 
 export const royalcc = {
+  id: "royalcc-festival-2026",
+  start: "2026-12-13",
+  end: "2026-12-17",
+  duration: "3박 5일",
+  country: "베트남",
+  courseName: "로얄CC",
+  checkedAt: "2026-09-23",
   title: "베트남 하노이 로얄CC 클럽 페스티벌 2026",
   venue: "로얄CC (Royal Golf Course) · 베트남 닌빈",
   date: "2026.12.13(일) ~ 12.17(목) · 3박 5일",
@@ -229,3 +236,5 @@ export const royalcc = {
     "현지 지불 항목은 환율에 따라 원화 기준 금액이 달라질 수 있습니다.",
   ],
 };
+
+export const royalQuote = { id: royalcc.id, title: royalcc.title, country: royalcc.country, start: royalcc.start, end: royalcc.end, duration: royalcc.duration, course: royalcc.courseName };

@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!d) return {};
   return {
     title: `${d.name} 골프투어 견적 | ${d.name}골프투어 시즌·가격·골프장 안내`,
-    description: `${d.name}골프투어 전문 에스티골프투어. ${d.cities.join(", ")} 지역 골프장, 성수기 ${d.season}, ${d.priceFrom ?? ""} 항공·숙박·라운드 포함 ${d.name} 골프투어 견적을 24시간 안에 보내드립니다.`,
+    description: `${d.name}골프투어 전문 에스티골프투어. ${d.cities.join(", ")} 지역 골프장, 성수기 ${d.season}, ${d.priceFrom ?? ""} 항공·숙박·라운드 포함 ${d.name} 골프투어 견적을 예약 가능 여부를 확인해 보내드립니다.`,
     alternates: { canonical: `/overseas/${slug}/` },
   };
 }
@@ -28,7 +28,7 @@ function buildFaqs(d: (typeof tier1)[number]) {
   return [
     {
       q: `${d.name} 골프투어 비용은 얼마인가요?`,
-      a: `${d.priceRange ? `1인 기준 ${d.priceRange} 수준이 시장 통상 범위입니다(왕복 항공 포함).` : "구성에 따라 달라 견적으로 안내드립니다."} 시즌·항공·숙박 등급에 따라 달라지며, 에스티골프투어 견적서에는 항공·숙박·라운드 포함 내역과 불포함 내역이 항목별로 적혀 있어 무엇이 들어가는지 바로 확인하실 수 있습니다.`,
+      a: `${d.name} 골프투어 비용은 출발일·인원·항공 포함 여부·숙박·라운드 횟수를 확인한 뒤 안내합니다. 골프장·숙소의 예약 가능 여부와 견적 유효기간을 확인하고, 항공·숙박·그린피·카트·캐디·차량·팁의 포함 여부를 항목별로 비교해 주세요.`,
     },
     {
       q: `${d.name} 골프여행은 언제 가는 게 좋은가요?`,
@@ -36,7 +36,7 @@ function buildFaqs(d: (typeof tier1)[number]) {
     },
     {
       q: `${d.name} 골프투어에는 무엇이 포함되나요?`,
-      a: `기본 구성은 왕복 항공, 숙박, 그린피, 카트·캐디, 공항 픽업과 라운드 이동 차량입니다. 식사·가이드 포함 여부는 상품에 따라 다르며 견적서에 항목별로 명시합니다. 항공권이 이미 있으시면 현지 일정만으로도 견적을 드립니다.`,
+      a: `항공, 숙박, 그린피, 카트·캐디, 공항 픽업과 라운드 이동 차량을 필요에 맞춰 구성합니다. 식사·가이드 포함 여부는 상품에 따라 다르며 견적서에 항목별로 명시합니다. 항공권이 이미 있으시면 현지 일정만으로도 견적을 드립니다.`,
     },
   ];
 }
@@ -68,7 +68,7 @@ export default async function CountryPage({ params }: { params: Promise<{ slug: 
     })),
   };
 
-  const pageLd = webPageLd(`${d.name} 골프투어 견적 | 시즌·가격 안내`, `/overseas/${slug}/`, `${d.name} 골프투어 맞춤 견적. 항공·숙박·라운드 포함 구성을 24시간 안에 안내합니다.`);
+  const pageLd = webPageLd(`${d.name} 골프투어 견적 | 시즌·가격 안내`, `/overseas/${slug}/`, `${d.name} 골프투어 맞춤 견적. 항공·숙박·라운드 포함 구성을 예약 가능 여부를 확인해 안내합니다.`);
 
   return (
     <>
@@ -116,6 +116,7 @@ export default async function CountryPage({ params }: { params: Promise<{ slug: 
           <QuoteForm type="overseas" key={d.slug} prefillCountry={d.name} />
         </div>
         <div className="space-y-5">
+          {slug === "vietnam" && <div className="rounded-2xl border border-line bg-white p-6"><p className="text-sm font-bold text-golddeep">현재 안내 중인 상품</p><h2 className="text-xl font-bold mt-2">하노이 로얄CC 클럽 페스티벌</h2><p className="text-mute my-3">12월 13일 출발 · 3박 5일 · 총 54홀. 항공 포함 상품의 일정과 별도 비용을 확인하세요.</p><Link href="/promotion/" className="btn btn-royal">상품 조건과 간편 견적 보기</Link></div>}
           {faqs.map((f) => (
             <div key={f.q} className="rounded-2xl border border-line bg-white p-6 sm:p-7">
               <h2 className="font-bold text-[18px] mb-3">{f.q}</h2>

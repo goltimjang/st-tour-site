@@ -1,3 +1,4 @@
+import { royalcc } from "./royalcc";
 // ============================================================
 // 에스티골프투어 사이트 전역 설정
 // [확인 필요] 표시 항목은 대표님이 실값을 주시면 이 파일만 수정하면
@@ -28,8 +29,8 @@ export const site = {
 
   // 두 가지 철칙
   promises: {
-    sla: "24시간 안에, 견적서가 도착합니다.",
-    slaSub: "요청을 확인하는 대로 준비해서, 하루 안에 보내드립니다.",
+    sla: "여행 조건을 보내주시면, 함께 준비합니다.",
+    slaSub: "항공·숙박·라운드와 별도 비용을 확인해 견적서로 안내합니다.",
     transparent: "조건에 맞춰 직접 설계하는 견적",
     transparentSub:
       "전국 507곳·해외 743곳 골프장 정보와 25,000팀을 보내드린 경험으로 지역·날짜·인원·예산에 맞는 일정을 짜드립니다. 포함·불포함 내역을 항목별로 명확히 적어 드립니다.",
@@ -44,21 +45,18 @@ export const site = {
     tournaments: "10+", // 주최·주관 대회 수 (사용자 제공)
   },
 
-  contentUpdated: "2026년 9월 14일", // 콘텐츠 최종 수정일: 내용 갱신 시 함께 갱신
-  contentUpdatedISO: "2026-09-14", // 위와 항상 같은 날짜 (JSON-LD·sitemap용)
+  contentUpdated: "2026년 9월 23일", // 콘텐츠 최종 수정일: 내용 갱신 시 함께 갱신
+  contentUpdatedISO: "2026-09-23", // 위와 항상 같은 날짜 (JSON-LD·sitemap용)
   publishedISO: "2026-08-18", // 사이트 최초 공개일
 
   positioning:
-    "에스티골프투어(ST TOUR)는 세종시의 종합여행업 등록 골프투어 전문 여행사입니다. 국내골프투어와 일본골프투어·태국골프투어·베트남골프투어·중국골프투어 등 해외 골프투어를 맞춤 견적으로 안내합니다. 고객이 원하는 지역과 날짜를 보내면 전국 500여 개 골프장과 해외 14개국의 골프장·숙박·항공을 조합해 24시간 안에 조건에 맞춘 견적서를 보내드립니다.",
+    "에스티골프투어에서 국내·해외 골프여행을 준비하세요. 베트남·태국·일본 등 여행 지역과 대략적인 일정, 인원에 맞춰 항공·숙박·라운드의 포함·불포함 내역을 무료 견적으로 안내합니다. 일정이 미정이어도 상담 가능합니다.",
+
 };
 
 export const promo = {
-  title: "베트남 하노이 로얄CC 클럽 페스티벌 2026",
-  badge: "1차 모집 진행 중",
-  date: "2026.12.13(일) ~ 12.17(목) · 3박 5일",
-  desc: "닌빈 로얄CC 54홀 라운드와 5성 숙박, 총 1억원 상당 시상까지. 왕복 항공 포함 프리미엄 골프 페스티벌",
-  priceOriginal: "1,590,000원",
-  price: "1,290,000원",
-  priceNote: "1인 · 2인 1실 · 왕복 항공 포함",
-  url: "https://royalccfestival.com/",
+  title: royalcc.title, badge: royalcc.recruit, date: royalcc.date,
+  desc: "닌빈 로얄CC 54홀 라운드와 5성 숙박. 왕복 항공 포함 클럽 페스티벌",
+  priceOriginal: royalcc.priceOriginal, price: royalcc.price,
+  priceNote: royalcc.priceNote, url: royalcc.officialUrl,
 };

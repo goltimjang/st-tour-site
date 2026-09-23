@@ -18,7 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
     ...publishedProducts.map((p) => ({
       url: `${base}/products/${p.slug}/`,
-      lastModified: new Date(p.postedAt + "T00:00:00+09:00"),
+      lastModified: new Date((p.updatedAt ?? p.postedAt) + "T00:00:00+09:00"),
       changeFrequency: "weekly" as const,
       priority: 0.8,
     })),

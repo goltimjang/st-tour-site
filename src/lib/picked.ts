@@ -58,7 +58,7 @@ export function usePicked(kind: PickedKind) {
   const toggle = useCallback(
     (name: string, meta?: { region?: string; country?: string }) => {
       const cur = read();
-      const base: PickedState = cur && cur.kind === kind ? cur : { kind, names: [] };
+      const base: PickedState = cur && cur.kind === kind && (!meta?.country || !cur.country || meta.country === cur.country) ? cur : { kind, names: [] };
       const on = base.names.includes(name);
       const nextNames = on ? base.names.filter((n) => n !== name) : [...base.names, name];
       const regions = new Set(base.regions ?? []);

@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 /**
  * 출발일·도착일 범위 선택 캘린더: 첫 클릭 = 출발일, 두 번째 클릭 = 도착일.
@@ -43,6 +43,14 @@ export default function Calendar({ start, end, onChange }: Props) {
   const init = start ? new Date(start + "T00:00:00") : new Date();
   const [year, setYear] = useState(init.getFullYear());
   const [month, setMonth] = useState(init.getMonth());
+
+  useEffect(() => {
+    if (!start) return;
+    const selected = new Date(start + "T00:00:00");
+    if (Number.isNaN(selected.getTime())) return;
+    setYear(selected.getFullYear());
+    setMonth(selected.getMonth());
+  }, [start]);
 
   const canGoPrev = year > today.y || (year === today.y && month > today.m);
 
@@ -105,7 +113,7 @@ export default function Calendar({ start, end, onChange }: Props) {
       {/* 요일 */}
       <div className="grid grid-cols-7 mb-1">
         {WEEKDAYS.map((w, i) => (
-          <div key={w} className={`text-center text-[12.5px] font-bold py-1 ${i === 0 ? "text-red-500" : i === 6 ? "text-royal" : "text-mute"}`}>
+          <div key={w} className={`text-center text-[14px] font-bold py-1 ${i === 0 ? "text-red-500" : i === 6 ? "text-royal" : "text-mute"}`}>
             {w}
           </div>
         ))}
@@ -140,7 +148,7 @@ export default function Calendar({ start, end, onChange }: Props) {
                 aria-label={`${year}년 ${month + 1}월 ${d}일${isStart ? " 출발일" : isEnd ? " 도착일" : ""}`}
                 aria-pressed={isStart || isEnd}
                 className={[
-                  "h-10 w-10 rounded-full text-[14.5px] font-semibold transition-colors",
+                  "h-11 w-full max-w-10 rounded-full text-[14.5px] font-semibold transition-colors",
                   past ? "text-line cursor-not-allowed" : "hover:bg-royal/10",
                   isStart || isEnd ? "!bg-royal !text-white font-bold" : "",
                   !isStart && !isEnd && !past && dow === 0 ? "text-red-500" : "",

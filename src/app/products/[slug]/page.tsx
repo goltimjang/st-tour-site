@@ -69,7 +69,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
             ← 상품 목록으로
           </Link>
 
-          <div className="grid md:grid-cols-[minmax(0,380px)_1fr] gap-8 md:gap-10 mt-5 items-start">
+          <div className="grid grid-cols-1 md:grid-cols-[minmax(0,380px)_minmax(0,1fr)] gap-8 md:gap-10 mt-5 items-start">
             {/* 1:1 썸네일 */}
             <div className="relative aspect-square rounded-2xl overflow-hidden border border-line">
               <Image src={p.thumb} alt={p.title} fill priority sizes="(max-width: 768px) 100vw, 380px" className="object-cover" />
@@ -90,19 +90,18 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
 
               {p.date && <p className="text-[15.5px] mb-1"><b>일정</b> · {p.date}</p>}
 
-              <p className="mt-4 mb-6">
+              <p className="mt-4 mb-6 flex flex-col items-start gap-1">
                 {p.priceOriginal && (
                   <span className="text-mute/70 line-through mr-3 text-[17px]">{p.priceOriginal}</span>
                 )}
                 <span className="font-display text-[32px] sm:text-[38px] text-royaldark">{p.price}</span>
-                {p.priceNote && <span className="text-mute text-[14px] ml-2">{p.priceNote}</span>}
+                {p.priceNote && <span className="text-mute text-[14px]">{p.priceNote}</span>}
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-3 max-w-xl">
-                <a href={site.phoneHref} className="btn btn-royal flex-1">전화 문의 {site.phone}</a>
-                <Link href={p.kind === "국내" ? "/domestic#quote" : "/overseas#quote"} className="btn btn-light flex-1">
-                  견적 요청하기
-                </Link>
+              {p.excludes && <p className="text-sm text-mute mb-5">별도 비용: {p.excludes.join(" · ")}</p>}
+              <div className="flex flex-col gap-3 max-w-xl">
+                <Link href={p.quoteUrl ?? (p.kind === "국내" ? "/domestic/#quote" : "/overseas/#quote")} className="btn btn-royal">이 일정 무료 견적 받기</Link>
+                <a href={site.phoneHref} className="btn btn-light">전화 문의 {site.phone}</a>
               </div>
               {site.kakaoUrl && (
                 <a
@@ -214,7 +213,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
         <div className="rounded-2xl bg-navy text-white p-7 sm:p-9">
           <h2 className="headline text-[22px] sm:text-[26px] mb-2">이 상품으로 견적을 받아보세요</h2>
           <p className="text-white/75 text-[15.5px] mb-6 max-w-2xl leading-relaxed">
-            인원과 날짜를 보내주시면 24시간 안에 항공·숙박·그린피 포함 내역이 명확한 견적서를 보내드립니다.
+            인원과 날짜를 보내주시면 예약 가능 여부를 확인해 항공·숙박·그린피 포함 내역이 명확한 견적서를 보내드립니다.
             일정 조정이나 인원 변경도 상담해 드립니다.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 max-w-xl">

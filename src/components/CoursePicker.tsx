@@ -66,6 +66,7 @@ export default function CoursePicker({
   return (
     <div className="space-y-2.5">
       <input
+        aria-label="선호 골프장"
         className="field"
         value={value}
         onChange={(e) => onChange(e.target.value)}
@@ -111,7 +112,7 @@ export default function CoursePicker({
                   key={r}
                   type="button"
                   className="choice !min-h-[36px] !px-3 text-[13px]"
-                  data-on={!q && group === r}
+                  data-on={!q && group === r} aria-pressed={!q && group === r}
                   onClick={() => { setGroup(r); setQ(""); }}
                 >
                   {r}

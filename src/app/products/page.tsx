@@ -65,7 +65,7 @@ export default function ProductsPage() {
 
         <div className="mt-10 rounded-2xl bg-paper p-6 sm:p-7 flex flex-col sm:flex-row sm:items-center gap-4 justify-between">
           <p className="text-[15.5px] leading-relaxed">
-            찾으시는 상품이 없나요? <b>지역과 날짜만 알려주시면 24시간 안에</b> 맞춤 견적서를 보내드립니다.
+            찾으시는 상품이 없나요? <b>지역과 날짜만 알려주시면 예약 가능 여부를 확인해</b> 맞춤 견적서를 보내드립니다.
           </p>
           <div className="flex gap-3 shrink-0">
             <Link href="/domestic#quote" className="btn btn-royal !min-h-[46px] !px-5 text-[15px]">국내 견적</Link>

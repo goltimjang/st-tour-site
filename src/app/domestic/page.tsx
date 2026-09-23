@@ -8,14 +8,14 @@ import { breadcrumbLd, webPageLd } from "@/data/jsonld";
 export const metadata: Metadata = {
   title: "국내 골프투어 견적 | 전국 골프장 맞춤 패키지",
   description:
-    "전국 500여 개 골프장에서 지역과 골프장을 고르면 24시간 안에 맞춤 견적서를 보내드립니다. 티타임·숙박·이동까지 한 번에, 포함 내역이 명확한 조건 맞춤 국내 골프투어 견적.",
+    "전국 500여 개 골프장에서 지역과 골프장을 고르면 예약 가능 여부를 확인해 맞춤 견적서를 보내드립니다. 티타임·숙박·이동까지 한 번에, 포함 내역이 명확한 조건 맞춤 국내 골프투어 견적.",
   alternates: { canonical: "/domestic/" },
 };
 
 const domesticFaqs = [
   {
     q: "주말 티타임도 구해주시나요?",
-    a: "네, 주말·연휴 부킹도 상담합니다. 전국 골프장 네트워크로 해당 날짜의 티타임 확보 가능 여부를 확인해 24시간 안에 알려드립니다. 주말은 자리가 빨리 마감되니 2~3주 전에 요청하시는 것이 좋습니다.",
+    a: "네, 주말·연휴 부킹도 상담합니다. 전국 골프장 네트워크로 해당 날짜의 티타임 확보 가능 여부를 확인해 알려드립니다. 주말은 자리가 빨리 마감되니 2~3주 전에 요청하시는 것이 좋습니다.",
   },
   {
     q: "2명이서도 국내 골프투어 견적을 받을 수 있나요?",
@@ -42,7 +42,7 @@ const faqLd = {
 };
 
 const crumbLd = breadcrumbLd([{ name: "국내 골프투어", path: "/domestic/" }]);
-const pageLd = webPageLd("국내 골프투어 견적 | 전국 골프장 맞춤 패키지", "/domestic/", "전국 500여 개 골프장에서 지역과 골프장을 고르면 24시간 안에 맞춤 견적서를 보내드립니다.");
+const pageLd = webPageLd("국내 골프투어 견적 | 전국 골프장 맞춤 패키지", "/domestic/", "전국 500여 개 골프장에서 지역과 골프장을 고르면 예약 가능 여부를 확인해 맞춤 견적서를 보내드립니다.");
 
 export default function DomesticPage() {
   return (
@@ -63,7 +63,7 @@ export default function DomesticPage() {
           </h1>
           <p className="text-white/75 max-w-2xl text-[16.5px]">
             지역만 골라도 되고, 골프장을 콕 집어도 됩니다. 1박 2일 골프여행부터 동호회·기업 단체 행사까지.
-            조건을 보내주시면 <strong className="text-gold">24시간 안에</strong> 티타임·숙박·이동이 포함된 견적서를 보내드립니다.
+            조건을 보내주시면 <strong className="text-gold">예약 가능 여부를 확인해</strong> 티타임·숙박·이동이 포함된 견적서를 보내드립니다.
           </p>
         </div>
       </section>
@@ -80,7 +80,7 @@ export default function DomesticPage() {
               <tr className="border-b border-line text-left">
                 <th className="px-5 py-3 font-bold">구성</th>
                 <th className="px-5 py-3 font-bold whitespace-nowrap">가격</th>
-                <th className="px-5 py-3 font-bold">통상 범위</th>
+                <th className="px-5 py-3 font-bold">안내 기준</th>
               </tr>
             </thead>
             <tbody>

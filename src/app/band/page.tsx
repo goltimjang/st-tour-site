@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { webPageLd } from "@/data/jsonld";
 import { site } from "@/data/site";
 
 export const metadata: Metadata = {
@@ -12,7 +13,8 @@ export const metadata: Metadata = {
 export default function BandPage() {
   return (
     <section className="mx-auto max-w-3xl px-5 py-16">
-      <p className="eyebrow text-royal mb-3">For Band Members</p>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageLd("밴드 멤버 안내", "/band/", "밴드 멤버를 위한 행사와 무료 견적 안내")) }} />
+      <p className="eyebrow text-royal mb-3">밴드 멤버 안내</p>
       <h1 className="headline text-[28px] sm:text-[38px] mb-4">밴드에서 오셨군요, 반갑습니다!</h1>
       <p className="text-[16.5px] text-mute mb-8">
         에스티골프투어 밴드 공지에서 보신 행사와 골프투어 견적을 이 홈페이지에서 바로 신청하실 수 있습니다.
@@ -29,7 +31,7 @@ export default function BandPage() {
         </Link>
         <Link href="/overseas#quote" className="block rounded-2xl border border-line bg-white p-6 hover:border-royal transition-colors">
           <p className="font-bold text-[17px] mb-1">해외 골프투어 견적 받기 →</p>
-          <p className="text-[14.5px] text-mute">일본 · 태국 · 베트남 등 14개국, 24시간 내 견적</p>
+          <p className="text-[14.5px] text-mute">일본 · 태국 · 베트남 등 14개국, 조건별 맞춤 견적</p>
         </Link>
       </div>
       <p className="mt-8 text-[15px]">

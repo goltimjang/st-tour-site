@@ -12,11 +12,11 @@
   --color-navydeep: #030d2c;
   --color-royal: #0d4ff5;
   --color-royaldark: #0734ad;
-  --color-royalhover: #2f74ff;
+  --color-royalhover: #0734ad;
   /* 포인트 컬러: 페어웨이 그린 + 로고 딥 그린(#0F3C32): 클래스명은 호환 유지 */
   --color-gold: #17b877;
   --color-golddeep: #0f3c32;
-  --color-paper: #f5f7fc;
+  --color-paper: #f7f8f5;
   --color-ink: #111318;
   --color-mute: #636b7d;
   --color-line: #d9deea;
@@ -46,9 +46,9 @@ body {
 }
 
 .eyebrow {
-  font-size: 11px;
-  font-weight: 900;
-  letter-spacing: 0.16em;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -357,3 +357,20 @@ body {
     paint-order: stroke;
   }
 }
+
+/* 상담 동선과 좁은 화면 */
+html { scroll-padding-top: 100px; scroll-padding-bottom: 104px; }
+.field { min-width: 0; max-width: 100%; }
+button:disabled { opacity: .5; cursor: not-allowed; transform: none; }
+:where(a, button, input, select, textarea, summary):focus-visible { outline: 3px solid #0d4ff5; outline-offset: 3px; }
+.skip-link { position: fixed; top: -100px; left: 12px; z-index: 100; padding: 12px 20px; background: white; color: #0734ad; }
+.skip-link:focus { top: 12px; }
+.contact-bar { position: fixed; bottom: 0; left: 0; right: 0; z-index: 45; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 10px 16px calc(10px + env(safe-area-inset-bottom)); background: rgba(255,255,255,.97); border-top: 1px solid var(--color-line); box-shadow: 0 -5px 24px #06143e0d; }
+.contact-bar .btn { padding: 10px 12px; }
+.contact-bar-hidden, body:has(.quote-form input:focus, .quote-form textarea:focus, .quote-form select:focus) .contact-bar { display: none; }
+
+@media (max-width: 1279px) { body { padding-bottom: calc(84px + env(safe-area-inset-bottom)); } }
+@media (min-width: 1280px) { .contact-bar { display: none; } }
+@media (max-width: 639px) { .quote-form .btn { padding-left: 14px; padding-right: 14px; font-size: 16px; } }
+
+.quote-form:focus { outline: none; }

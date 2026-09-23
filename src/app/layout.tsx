@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Analytics from "@/components/Analytics";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingContact from "@/components/FloatingContact";
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
     siteName: "에스티골프투어",
     locale: "ko_KR",
     type: "website",
-    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "에스티골프투어 24시간 맞춤 골프투어 견적" }],
+    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "에스티골프투어 맞춤 골프투어 견적" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -119,8 +120,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
         />
+        <a href="#main-content" className="skip-link">본문 바로가기</a>
+        <Analytics />
         <Header />
-        <main className="flex-1">{children}</main>
+        <main id="main-content" className="flex-1 min-w-0">{children}</main>
         <Footer />
         <FloatingContact />
       </body>

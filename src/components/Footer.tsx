@@ -23,7 +23,7 @@ export default function Footer() {
             </div>
           </div>
           <div>
-            <p className="eyebrow text-royal mb-3">Company</p>
+            <p className="eyebrow text-royal mb-3">회사 정보</p>
             <ul className="space-y-1">
               <li>상호 에스티투어(ST TOUR) · 대표 {c.ceo}</li>
               <li>{c.address}</li>

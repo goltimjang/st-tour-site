@@ -51,7 +51,7 @@ export default function AboutPage() {
         <ol className="space-y-3 mb-4 max-w-2xl">
           {[
             "홈페이지·전화·카카오톡으로 여행 조건을 보내주세요. 견적은 무료입니다.",
-            "하루 안에 견적서가 도착합니다. 총액과 포함·불포함 내역이 항목별로 명확히 적혀 있습니다.",
+            "여행 조건과 예약 가능 여부를 확인해 견적서를 안내합니다. 총액과 포함·불포함 내역이 항목별로 명확히 적혀 있습니다.",
             "조건을 조정하며 일정을 확정합니다. 견적서는 발행 후 7일간 유효합니다.",
             "계약금 입금과 함께 티타임과 좌석을 확보하고, 출발 전 최종 일정표를 드립니다.",
           ].map((s, i) => (
@@ -72,7 +72,7 @@ export default function AboutPage() {
           </Reveal>
           <div className="grid grid-cols-3 gap-4 sm:gap-6 max-w-3xl">
             {[
-              [<Counter key="c" to={25000} suffix="팀" />, "누적 국내·해외 송출"],
+              [<Counter key="c" to={site.stats.teams} suffix="팀" />, "누적 국내·해외 송출"],
               [`${site.stats.people} 명`, "함께한 골퍼 (인원 환산)"],
               [`${site.stats.tournaments}회`, "대회·페스티벌 주최·주관"],
             ].map(([n, t], i) => (

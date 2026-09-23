@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+import QuoteForm from "@/components/QuoteForm";
 import Image from "next/image";
 import { site } from "@/data/site";
-import { royalcc } from "@/data/royalcc";
+import { royalcc, royalQuote } from "@/data/royalcc";
 import { breadcrumbLd, webPageLd } from "@/data/jsonld";
 import Reveal from "@/components/Reveal";
 
@@ -23,8 +25,8 @@ const eventLd = {
   name: royalcc.title,
   description:
     "베트남 닌빈 로얄CC에서 열리는 3박 5일 골프 페스티벌. 총 54홀 라운드, 5성 숙박, 총 1억원 상당 시상. 왕복 항공 포함.",
-  startDate: "2026-12-13",
-  endDate: "2026-12-17",
+  startDate: royalcc.start,
+  endDate: royalcc.end,
   eventStatus: "https://schema.org/EventScheduled",
   eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
   image: `${site.domain}/og-promotion.jpg`,
@@ -77,19 +79,20 @@ export default function PromotionPage() {
           <div className="absolute inset-0" style={{ background: "linear-gradient(92deg, rgba(3,13,44,.9) 0%, rgba(3,13,44,.62) 55%, rgba(3,13,44,.22) 100%)" }} />
         </div>
         <div className="relative mx-auto max-w-6xl px-5 py-16 sm:py-24 hero-anim">
-          <p className="eyebrow text-gold mb-3">Vietnam Hanoi · Ninh Binh</p>
+          <p className="eyebrow text-gold mb-3">베트남 하노이 · 닌빈</p>
           <span className="inline-block rounded-full bg-gold text-white text-[12px] font-black px-3.5 py-1.5 mb-5">{r.recruit}</span>
           <h1 className="headline text-[30px] sm:text-[46px] mb-3 drop-shadow max-w-3xl">{r.title}</h1>
           <p className="text-white/85 text-[16.5px] mb-1">{r.venue}</p>
           <p className="text-white/85 text-[16.5px] mb-6">{r.date} · {r.format}</p>
-          <p className="mb-8">
+          <p className="mb-8 flex flex-col items-start gap-1">
             <span className="text-white/55 line-through mr-3 text-[17px]">{r.priceOriginal}</span>
-            <span className="font-display text-[34px] sm:text-[42px] text-gold drop-shadow">{r.price}</span>
-            <span className="text-white/75 text-[14px] ml-2">{r.priceNote}</span>
+            <span className="font-display text-[28px] sm:text-[34px] sm:text-[42px] text-gold drop-shadow">{r.price}</span>
+            <span className="text-white/85 text-[14px]">{r.priceNote}</span>
           </p>
+          <p className="mb-6 text-[15px] text-white/90">별도 비용: {r.excludes[0]} · {r.excludes[1]}. 선택관광 별도.</p>
           <div className="flex flex-col sm:flex-row gap-3 max-w-xl">
             <a href={site.phoneHref} className="btn btn-royal flex-1 shadow-lg shadow-royal/30">전화 신청 {site.phone}</a>
-            <a href={site.bandUrl} target="_blank" rel="noopener noreferrer" className="btn flex-1 bg-white/95 text-navy font-bold hover:bg-white">밴드에서 문의</a>
+            <a href="#quote" className="btn flex-1 bg-white text-navy">이 일정 무료 견적 받기</a>
           </div>
         </div>
       </section>
@@ -106,6 +109,21 @@ export default function PromotionPage() {
             ))}
           </div>
         </Reveal>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-5 py-12 sm:py-16 grid lg:grid-cols-[0.8fr_1.2fr] gap-7 items-start">
+        <aside className="order-2 lg:order-1 min-w-0 rounded-2xl border border-line bg-white p-6 lg:sticky lg:top-28">
+          <p className="eyebrow text-golddeep mb-2">하노이 상품 간편 문의</p>
+          <h2 className="text-2xl font-bold mb-4">일정은 담아두었어요.<br />인원을 알려주세요.</h2>
+          <p className="text-mute mb-4">{r.date}</p>
+          <h3 className="font-bold mb-2">포함되는 항목</h3>
+          <ul className="list-disc pl-5 space-y-1 text-[15px]">{r.includes.map((x) => <li key={x}>{x}</li>)}</ul>
+          <h3 className="font-bold mt-5 mb-2">별도 비용</h3><ul className="list-disc pl-5 space-y-1 text-[15px]">{r.excludes.map((x) => <li key={x}>{x}</li>)}</ul>
+          <p className="text-sm text-mute mt-5">예약 가능 여부, 항공편과 객실, 추가 비용 및 취소 조건을 상담 시 확인한 뒤 예약을 진행합니다. 문의만으로 예약이 확정되지 않습니다.</p>
+          <Link href="/overseas/vietnam/?flexible=1#quote" className="inline-block mt-4 py-2 underline text-royaldark">다른 날짜의 베트남 여행 문의</Link>
+          <p className="text-sm text-mute mt-3">공식 상품 안내 확인: {r.checkedAt}</p>
+        </aside>
+        <div id="quote" className="order-1 lg:order-2 min-w-0 scroll-mt-24"><QuoteForm type="overseas" product={royalQuote} /></div>
       </section>
 
       {/* 소개 + 포스터 */}
@@ -195,7 +213,7 @@ export default function PromotionPage() {
       {/* 일정표 */}
       <section className="mx-auto max-w-6xl px-5 py-14 sm:py-20">
         <Reveal>
-          <p className="eyebrow text-royal mb-2">5 Days Itinerary</p>
+          <p className="eyebrow text-royal mb-2">날짜별 일정</p>
           <h2 className="headline text-2xl sm:text-3xl mb-2">라운드와 여행이 자연스럽게 이어지는 3박 5일</h2>
           <p className="text-mute mb-8 max-w-2xl">닌빈 로얄CC에서 총 54홀을 라운드하고, 페스티벌 시상식과 하노이 자유시간까지 여유롭게 즐기는 일정입니다.</p>
         </Reveal>
@@ -360,7 +378,7 @@ export default function PromotionPage() {
       <section className="bg-navy text-white">
         <div className="mx-auto max-w-6xl px-5 py-14 sm:py-20">
           <Reveal>
-            <p className="eyebrow text-gold mb-2">Premium Awards</p>
+            <p className="eyebrow text-gold mb-2">페스티벌 시상</p>
             <h2 className="headline text-2xl sm:text-3xl mb-2">총 1억원 상당의 프리미엄 시상품</h2>
             <p className="text-white/75 mb-9 max-w-2xl">라운드의 즐거움에 특별한 혜택을 더합니다. 오직 로얄CC 클럽 페스티벌에서만 경험할 수 있는 시상과 추억을 준비했습니다.</p>
           </Reveal>
@@ -388,7 +406,7 @@ export default function PromotionPage() {
       {/* 예약 흐름 */}
       <section className="mx-auto max-w-6xl px-5 py-14 sm:py-20">
         <Reveal>
-          <p className="eyebrow text-royal mb-2">Reservation Flow</p>
+          <p className="eyebrow text-royal mb-2">예약 안내</p>
           <h2 className="headline text-2xl sm:text-3xl mb-8">상담부터 출발까지 안심하고 준비하세요</h2>
         </Reveal>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
@@ -403,19 +421,20 @@ export default function PromotionPage() {
           ))}
         </div>
         <Reveal>
-          <div className="rounded-2xl bg-navy text-white p-7 sm:p-9 grid md:grid-cols-[1fr_auto] gap-6 items-center">
+          <div className="rounded-2xl bg-navy text-white p-5 sm:p-9 grid grid-cols-1 md:grid-cols-[minmax(0,1fr)_auto] gap-6 items-center">
             <div>
               <p className="eyebrow text-gold mb-2">1차 모집 특가</p>
-              <p className="mb-2">
+              <p className="mb-2 flex flex-col items-start gap-1">
                 <span className="text-white/55 line-through mr-3">{r.priceOriginal}</span>
-                <span className="font-display text-[34px] text-gold">{r.price}</span>
-                <span className="text-white/75 text-[14px] ml-2">{r.priceNote}</span>
+                <span className="font-display text-[28px] sm:text-[34px] text-gold">{r.price}</span>
+                <span className="text-white/85 text-[14px]">{r.priceNote}</span>
               </p>
               <p className="text-white/75 text-[14.5px]">모집 인원에 따라 조기 마감될 수 있습니다. 별도 날짜도 페스티벌 특가로 신청할 수 있으며, 해당 일정에는 시상품이 제공되지 않습니다.</p>
             </div>
-            <div className="flex flex-col gap-3 min-w-[220px]">
+            <div className="flex flex-col gap-3 min-w-0 md:min-w-[220px]">
               <a href={site.phoneHref} className="btn btn-gold">전화 상담 {site.phone}</a>
               <a href={site.bandUrl} target="_blank" rel="noopener noreferrer" className="btn bg-white/95 text-navy font-bold hover:bg-white">밴드 문의</a>
+              <a href="#quote" className="btn bg-white text-navy">이 일정 무료 견적 받기</a>
             </div>
           </div>
         </Reveal>
@@ -424,7 +443,7 @@ export default function PromotionPage() {
       {/* FAQ */}
       <section className="mx-auto max-w-6xl px-5 pb-16">
         <Reveal>
-          <p className="eyebrow text-royal mb-2">FAQ</p>
+          <p className="eyebrow text-royal mb-2">참가 전 질문</p>
           <h2 className="headline text-2xl sm:text-3xl mb-6">참가 전 확인하세요</h2>
         </Reveal>
         <div className="space-y-2.5 max-w-3xl">

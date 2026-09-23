@@ -1,3 +1,4 @@
+import { royalcc } from "./royalcc";
 // ============================================================
 // 상품(패키지) 목록
 // 새 상품을 올릴 때는 아래 배열 맨 앞에 항목 하나를 추가하면 됩니다.
@@ -40,21 +41,23 @@ export type Product = {
   published: boolean;
   /** 정렬용. 최근 날짜가 위로 옵니다 (YYYY-MM-DD) */
   postedAt: string;
+  updatedAt?: string;
+  quoteUrl?: string;
 };
 
 export const products: Product[] = [
   {
     slug: "royalcc-festival-2026",
-    title: "베트남 하노이 로얄CC 클럽 페스티벌 2026",
+    title: royalcc.title,
     summary: "3박 5일 54홀 라운드와 5성 숙박, 총 1억원 상당 시상. 왕복 항공 포함.",
     thumb: "/products/royalcc.jpg",
     country: "베트남",
     kind: "해외",
     duration: "3박 5일",
-    price: "1,290,000원",
-    priceOriginal: "1,590,000원",
-    priceNote: "1인 · 2인 1실 · 왕복 항공 포함",
-    date: "2026.12.13(일) ~ 12.17(목)",
+    price: royalcc.price,
+    priceOriginal: royalcc.priceOriginal,
+    priceNote: royalcc.priceNote,
+    date: royalcc.date,
     badge: "1차 모집 중",
     highlights: [
       { label: "일정", value: "3박 5일 · 12/13~17" },
@@ -69,21 +72,16 @@ export const products: Product[] = [
       { day: "4일차 · 12/16(수)", plan: "로얄CC 18홀 라운드 → 하노이 자유시간 → 23:40 하노이 출발" },
       { day: "5일차 · 12/17(목)", plan: "05:30 인천 도착" },
     ],
-    includes: [
-      "왕복 항공료 · 유류할증료 · TAX",
-      "5성 호텔·리조트·풀빌라 3박 (2인 1실)",
-      "그린피 3회 (총 54홀)",
-      "카트비 · 캐디피",
-      "전 일정 한국인 가이드 · 스탭 동행",
-      "그랜드볼룸 식사 · 3일차 특별 BBQ",
-    ],
-    excludes: ["공항 송영비 1인 US$60", "캐디팁 18홀 기준 1인 50만동", "선택관광"],
+    includes: royalcc.includes,
+    excludes: royalcc.excludes,
     body: [
       "베트남 닌빈 로얄CC에서 열리는 클럽 페스티벌입니다. 스트로크와 신페리오 두 방식으로 나눠 시상하며, 총 1억원 상당의 상품이 준비되어 있습니다.",
       "에스티골프투어가 직접 주관하는 행사로, 전 일정 스탭이 동행합니다.",
     ],
     published: true,
     postedAt: "2026-08-01",
+    updatedAt: royalcc.checkedAt,
+    quoteUrl: "/promotion/#quote",
   },
 ];
 

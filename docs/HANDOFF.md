@@ -31,12 +31,12 @@
 | 위치 | 내용 |
 |---|---|
 | `src/app/` | 페이지. `/`, `/domestic`, `/overseas`, `/overseas/[slug]`(일본·태국·베트남·중국·필리핀), `/products`, `/products/[slug]`, `/seasons`, `/promotion`, `/about`, `/faq`, `/terms`, `/privacy`, `/band` |
-| `src/components/QuoteForm.tsx` | 3단계 견적 폼. 캘린더 범위 선택(○박○일 자동), 골프장 선택기, 임시저장, 접수번호, 자동 회신 |
+| `src/components/QuoteForm.tsx` | 기본 조건 → 연락처의 2단계 견적 폼, 상세 조건은 선택. 국가·상품별 7일 임시저장(개인정보 제외), 응답 성공 확인 후 접수번호 표시. 자동 회신은 제공하지 않음 |
 | `src/components/CourseExplorer.tsx` + `KoreaMap.tsx` | 전국 골프장 지도(실좌표 SVG, 권역 클릭, 2부제/3부제/노캐디 필터) |
 | `src/components/OverseasExplorer.tsx` + `WorldMap.tsx` | 해외 골프장 지도(국가별 색 테마, 지역 클릭) |
 | `src/lib/picked.ts` + `PickedBar.tsx` | 골프장 "담기" → 견적 폼 자동 입력 (localStorage `st-picked`) |
 | `src/components/SiteSearch.tsx` | 헤더 통합 검색 |
-| `src/components/HeroQuoteWidget.tsx` | 홈 미니 견적 위젯 (URL 파라미터로 폼 2단계 진입) |
+| `src/components/HeroQuoteWidget.tsx` | 홈 미니 견적 위젯 (URL 파라미터로 조건 전달, 일정 미정 지원) |
 | `src/data/site.ts` | 회사 정보, 수치, **contentUpdated / contentUpdatedISO** (콘텐츠 수정 시 둘 다 같은 날짜로 갱신. sitemap·JSON-LD에 연동) |
 | `src/data/golf-courses.json`, `course-details.json`, `course-points.json` | 국내 골프장 507곳. 세 파일이 `name`으로 연결되므로 이름을 바꾸면 세 곳 모두 수정 |
 | `src/data/ov-*.json` → `overseas-courses.json` | 해외 골프장 743곳. **ov-*.json이 원본**이고 `python3 scripts/merge-overseas.py`로 병합. overseas-courses.json을 직접 고치면 다음 병합 때 사라짐. 신규는 `ov-add.json`에 추가 |
@@ -54,9 +54,18 @@
 5. `site.ts` 수정일 갱신 → commit → push → Actions 성공 확인 → 라이브에서 변경 확인
 
 ## 7. 남은 일
-- GA4 측정 ID 수령 후 전환 측정 설치 (미설치)
+- GA4 측정 ID 수령 후 GitHub 저장소 Actions 변수 `NEXT_PUBLIC_GA4_ID`에 등록하고 재배포. 이벤트 구현은 완료, 실제 계정 수집 연결·검증은 미완료. 전화 클릭과 접수 성공은 별도 이벤트이며 유효 문의·예약 여부는 상담 기록으로 확인
 - 등록번호 2종 발급되면 site.ts와 푸터·회사소개에 표기 복구
 - 실제 투어 사진·후기·대표 인사말 (사장님 자료 필요)
 - 국가 페이지 확대 후보: 대만·말레이시아·괌 (네이버 "{국가}골프투어" 검색 대응)
 - 네이버 서치어드바이저 수집·노출 현황 점검, 스마트플레이스 등록, 블로그 운영은 사장님 계정에서 진행
 - 광고 영상은 원가 공개 컨셉이라 폐기, 새 컨셉으로 재제작 필요
+
+## 8. 2026-09-23 사이트 개선
+- 홈 첫 화면에서 전화·무료 견적을 제공하고 확인된 하노이 프로모션을 우선 안내.
+- 하노이 전용 폼은 상품·국가·일정·골프장이 고정되며 인원과 연락처를 입력받음.
+- FormSubmit HTTP 상태뿐 아니라 응답 `success`도 확인. 실제 테스트 문의는 대표 승인 후에만 전송.
+- 분석 이벤트: `quote_entry`, `quote_start`, `quote_step`, `quote_submit_success`, `quote_submit_error`, `phone_click`, `kakao_click`. 이름·전화·이메일·요청 본문은 분석 이벤트에서 제외.
+- 확인되지 않은 경쟁사 가격과 확정 응답 시간 표현 제거. 가격은 상품별 포함·불포함 조건과 함께 안내.
+- `python3 scripts/check-export.py`로 정적 HTML의 제목·canonical·구조화 데이터·내부 링크·사이트맵을 검증. CI 빌드 후에도 실행.
+- 상세 변경·검증 기록: `docs/SITE-IMPROVEMENTS-2026-09-23.md`.
