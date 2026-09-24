@@ -11,7 +11,7 @@ type NavItem = { href: string; label: string; children?: { href: string; label: 
 const nav: NavItem[] = [
   { href: "/domestic", label: "국내 골프투어", children: [{ href: "/domestic", label: "국내 견적·골프장 지도" }] },
   { href: "/overseas", label: "해외 골프투어", children: [{ href: "/overseas", label: "해외 견적·골프장 지도" }, { href: "/seasons", label: "시즌별 여행지" }] },
-  { href: "/promotion", label: "이달의 추천", children: [{ href: "/promotion", label: "하노이 로얄CC 프로모션" }, { href: "/products", label: "판매 상품 보기" }] },
+  { href: "/promotion", label: "이달의 추천", children: [{ href: "/promotion", label: "하노이 로얄CC 프로모션" }, { href: "/products", label: "판매 상품 보기" }, { href: "/saved", label: "저장한 상품" }] },
   { href: "/about", label: "회사소개" },
   { href: "/faq", label: "자주 묻는 질문" },
 ];

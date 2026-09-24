@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { publishedProducts, findProduct } from "@/data/products";
 import { site } from "@/data/site";
 import { breadcrumbLd, webPageLd } from "@/data/jsonld";
+import ProductActions from "@/components/ProductActions";
 import Reveal from "@/components/Reveal";
 
 export function generateStaticParams() {
@@ -51,7 +52,6 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
         "@type": "Offer",
         price: priceNumber,
         priceCurrency: "KRW",
-        availability: "https://schema.org/InStock",
         url: `${site.domain}/products/${slug}/`,
       },
     }),
@@ -103,6 +103,8 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                 <Link href={p.quoteUrl ?? (p.kind === "국내" ? "/domestic/#quote" : "/overseas/#quote")} className="btn btn-royal">이 일정 무료 견적 받기</Link>
                 <a href={site.phoneHref} className="btn btn-light">전화 문의 {site.phone}</a>
               </div>
+              <p className="text-sm text-mute mt-4">예약 가능 인원과 항공·객실은 상담 후 확인합니다. 상품 안내 확인일: {p.updatedAt ?? p.postedAt}</p>
+              <ProductActions slug={p.slug} title={p.title} />
               {site.kakaoUrl && (
                 <a
                   href={site.kakaoUrl}

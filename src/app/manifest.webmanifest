@@ -1,0 +1,17 @@
+{
+  "id": "/",
+  "name": "에스티골프투어",
+  "short_name": "에스티골프투어",
+  "lang": "ko",
+  "description": "국내·해외 골프투어 상품 확인과 맞춤 견적 상담",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f8f5",
+  "theme_color": "#06143e",
+  "icons": [{ "src": "/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }],
+  "shortcuts": [
+    {"name":"저장한 상품","url":"/saved/"},
+    {"name":"골프투어 상품","url":"/products/"}
+  ]
+}

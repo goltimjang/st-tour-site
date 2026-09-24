@@ -41,16 +41,17 @@ export default function ProductsPage() {
 
       <section className="bg-white border-b border-line">
         <div className="mx-auto max-w-6xl px-5 py-12 sm:py-16 hero-anim">
-          <p className="eyebrow text-royal mb-3">Products</p>
+          <p className="eyebrow text-royal mb-3">일정이 정해진 상품</p>
           <h1 className="headline text-[30px] sm:text-[42px] text-navy mb-4">골프투어 상품</h1>
           <p className="text-mute text-[16.5px] max-w-2xl leading-relaxed">
-            진행 중인 패키지입니다. 상품을 누르면 일정과 포함 사항, 가격을 전부 확인하실 수 있습니다.
+            일정과 조건이 안내된 패키지입니다. 실제 예약 가능 인원과 항공·객실은 상담 후 확인합니다.
             원하시는 조건이 없으면 견적 요청서를 보내주세요. 조건에 맞게 새로 짜드립니다.
           </p>
         </div>
       </section>
 
       <section className="mx-auto max-w-6xl px-5 py-10 sm:py-14">
+        <Link href="/saved/" className="inline-block mb-5 py-2 underline text-royaldark">저장한 상품 보기</Link>
         {publishedProducts.length === 0 ? (
           <div className="rounded-2xl border border-line bg-white p-10 text-center">
             <p className="text-[17px] font-bold mb-2">준비 중인 상품이 있습니다</p>

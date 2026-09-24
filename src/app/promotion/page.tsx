@@ -5,6 +5,7 @@ import Image from "next/image";
 import { site } from "@/data/site";
 import { royalcc, royalQuote } from "@/data/royalcc";
 import { breadcrumbLd, webPageLd } from "@/data/jsonld";
+import ProductActions from "@/components/ProductActions";
 import Reveal from "@/components/Reveal";
 
 export const metadata: Metadata = {
@@ -40,7 +41,6 @@ const eventLd = {
     price: 1290000,
     priceCurrency: "KRW",
     url: `${site.domain}/promotion/`,
-    availability: "https://schema.org/InStock",
     description: "1인 기준 · 2인 1실 · 왕복 항공 포함",
   },
   organizer: { "@id": `${site.domain}/#organization` },
@@ -80,13 +80,13 @@ export default function PromotionPage() {
         </div>
         <div className="relative mx-auto max-w-6xl px-5 py-16 sm:py-24 hero-anim">
           <p className="eyebrow text-gold mb-3">베트남 하노이 · 닌빈</p>
-          <span className="inline-block rounded-full bg-gold text-white text-[12px] font-black px-3.5 py-1.5 mb-5">{r.recruit}</span>
+          <span className="inline-block rounded-full bg-golddeep text-white text-[14px] font-black px-3.5 py-1.5 mb-5">{r.recruit}</span>
           <h1 className="headline text-[30px] sm:text-[46px] mb-3 drop-shadow max-w-3xl">{r.title}</h1>
           <p className="text-white/85 text-[16.5px] mb-1">{r.venue}</p>
           <p className="text-white/85 text-[16.5px] mb-6">{r.date} · {r.format}</p>
           <p className="mb-8 flex flex-col items-start gap-1">
             <span className="text-white/55 line-through mr-3 text-[17px]">{r.priceOriginal}</span>
-            <span className="font-display text-[28px] sm:text-[34px] sm:text-[42px] text-gold drop-shadow">{r.price}</span>
+            <span className="font-display text-[28px] sm:text-[42px] text-gold drop-shadow">{r.price}</span>
             <span className="text-white/85 text-[14px]">{r.priceNote}</span>
           </p>
           <p className="mb-6 text-[15px] text-white/90">별도 비용: {r.excludes[0]} · {r.excludes[1]}. 선택관광 별도.</p>
@@ -111,20 +111,11 @@ export default function PromotionPage() {
         </Reveal>
       </section>
 
-      <section className="mx-auto max-w-6xl px-5 py-12 sm:py-16 grid lg:grid-cols-[0.8fr_1.2fr] gap-7 items-start">
-        <aside className="order-2 lg:order-1 min-w-0 rounded-2xl border border-line bg-white p-6 lg:sticky lg:top-28">
-          <p className="eyebrow text-golddeep mb-2">하노이 상품 간편 문의</p>
-          <h2 className="text-2xl font-bold mb-4">일정은 담아두었어요.<br />인원을 알려주세요.</h2>
-          <p className="text-mute mb-4">{r.date}</p>
-          <h3 className="font-bold mb-2">포함되는 항목</h3>
-          <ul className="list-disc pl-5 space-y-1 text-[15px]">{r.includes.map((x) => <li key={x}>{x}</li>)}</ul>
-          <h3 className="font-bold mt-5 mb-2">별도 비용</h3><ul className="list-disc pl-5 space-y-1 text-[15px]">{r.excludes.map((x) => <li key={x}>{x}</li>)}</ul>
-          <p className="text-sm text-mute mt-5">예약 가능 여부, 항공편과 객실, 추가 비용 및 취소 조건을 상담 시 확인한 뒤 예약을 진행합니다. 문의만으로 예약이 확정되지 않습니다.</p>
-          <Link href="/overseas/vietnam/?flexible=1#quote" className="inline-block mt-4 py-2 underline text-royaldark">다른 날짜의 베트남 여행 문의</Link>
-          <p className="text-sm text-mute mt-3">공식 상품 안내 확인: {r.checkedAt}</p>
-        </aside>
-        <div id="quote" className="order-1 lg:order-2 min-w-0 scroll-mt-24"><QuoteForm type="overseas" product={royalQuote} /></div>
-      </section>
+      <nav className="product-section-nav" aria-label="상품 내용 바로가기"><div className="mx-auto max-w-6xl px-3 flex overflow-x-auto">
+        {[["itinerary", "일정"], ["course", "골프장"], ["stay", "숙소"], ["costs", "포함·별도 비용"], ["conditions", "예약·취소"], ["quote", "무료 견적"]].map(([id, label]) => <a key={id} href={`#${id}`} className="text-navy hover:text-royaldark">{label}</a>)}
+      </div></nav>
+
+      <div className="mx-auto max-w-6xl px-5 pt-5"><ProductActions slug={r.id} title={r.title} /></div>
 
       {/* 소개 + 포스터 */}
       <section className="mx-auto max-w-6xl px-5 py-14 sm:py-20">
@@ -153,7 +144,7 @@ export default function PromotionPage() {
       </section>
 
       {/* 골프장 */}
-      <section className="bg-navy text-white">
+      <section id="course" className="product-section bg-navy text-white">
         <div className="mx-auto max-w-6xl px-5 py-14 sm:py-20">
           <Reveal>
             <p className="eyebrow text-gold mb-2">{r.course.eyebrow}</p>
@@ -211,7 +202,7 @@ export default function PromotionPage() {
       </section>
 
       {/* 일정표 */}
-      <section className="mx-auto max-w-6xl px-5 py-14 sm:py-20">
+      <section id="itinerary" className="product-section mx-auto max-w-6xl px-5 py-14 sm:py-20">
         <Reveal>
           <p className="eyebrow text-royal mb-2">날짜별 일정</p>
           <h2 className="headline text-2xl sm:text-3xl mb-2">라운드와 여행이 자연스럽게 이어지는 3박 5일</h2>
@@ -250,7 +241,7 @@ export default function PromotionPage() {
       </section>
 
       {/* 숙소 */}
-      <section className="bg-white border-y border-line">
+      <section id="stay" className="product-section bg-white border-y border-line">
         <div className="mx-auto max-w-6xl px-5 py-14 sm:py-20">
           <Reveal>
             <p className="eyebrow text-royal mb-2">{r.stay.eyebrow}</p>
@@ -346,7 +337,7 @@ export default function PromotionPage() {
       </section>
 
       {/* 포함 · 불포함 · 안내 */}
-      <section className="mx-auto max-w-6xl px-5 py-14 sm:py-20 grid md:grid-cols-2 gap-6">
+      <section id="costs" className="product-section mx-auto max-w-6xl px-5 py-14 sm:py-20 grid md:grid-cols-2 gap-6">
         <Reveal>
           <div className="rounded-2xl border border-line bg-paper p-7 h-full">
             <h2 className="font-bold text-[18px] mb-4 text-golddeep">✓ 여행 경비에 포함됩니다</h2>
@@ -404,6 +395,21 @@ export default function PromotionPage() {
       </section>
 
       {/* 예약 흐름 */}
+      <section className="mx-auto max-w-6xl px-5 py-12 sm:py-16 grid lg:grid-cols-[0.8fr_1.2fr] gap-7 items-start">
+        <aside className="order-2 lg:order-1 min-w-0 rounded-2xl border border-line bg-white p-6 lg:sticky lg:top-28">
+          <p className="eyebrow text-golddeep mb-2">하노이 상품 간편 문의</p>
+          <h2 className="text-2xl font-bold mb-4">일정은 담아두었어요.<br />인원을 알려주세요.</h2>
+          <p className="text-mute mb-4">{r.date}</p>
+          <h3 className="font-bold mb-2">포함되는 항목</h3>
+          <ul className="list-disc pl-5 space-y-1 text-[15px]">{r.includes.map((x) => <li key={x}>{x}</li>)}</ul>
+          <h3 className="font-bold mt-5 mb-2">별도 비용</h3><ul className="list-disc pl-5 space-y-1 text-[15px]">{r.excludes.map((x) => <li key={x}>{x}</li>)}</ul>
+          <p className="text-sm text-mute mt-5">예약 가능 여부, 항공편과 객실, 추가 비용 및 취소 조건을 상담 시 확인한 뒤 예약을 진행합니다. 문의만으로 예약이 확정되지 않습니다.</p>
+          <Link href="/overseas/vietnam/?flexible=1#quote" className="inline-block mt-4 py-2 underline text-royaldark">다른 날짜의 베트남 여행 문의</Link>
+          <p className="text-sm text-mute mt-3">공식 상품 안내 확인: {r.checkedAt}</p>
+        </aside>
+        <div id="quote" className="product-section order-1 lg:order-2 min-w-0 scroll-mt-24"><QuoteForm type="overseas" product={royalQuote} /></div>
+      </section>
+
       <section className="mx-auto max-w-6xl px-5 py-14 sm:py-20">
         <Reveal>
           <p className="eyebrow text-royal mb-2">예약 안내</p>
@@ -441,7 +447,7 @@ export default function PromotionPage() {
       </section>
 
       {/* FAQ */}
-      <section className="mx-auto max-w-6xl px-5 pb-16">
+      <section id="conditions" className="product-section mx-auto max-w-6xl px-5 pb-16">
         <Reveal>
           <p className="eyebrow text-royal mb-2">참가 전 질문</p>
           <h2 className="headline text-2xl sm:text-3xl mb-6">참가 전 확인하세요</h2>

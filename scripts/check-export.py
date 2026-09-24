@@ -14,7 +14,7 @@ class Page(HTMLParser):
   if tag=='link' and a.get('rel')=='canonical': self.canonical.append(a.get('href'))
   if tag=='script' and a.get('type')=='application/ld+json': self.inld=True
   if tag in ['img','video','source','script'] and a.get('src','').startswith('/'): self.assets.append(a['src'])
-  if tag=='a' and a.get('href','').startswith('/'): self.links.append(a['href'])
+  if tag=='a' and a.get('href','').startswith(('/', '#')): self.links.append(a['href'])
  def handle_endtag(self, tag):
   if tag=='script':self.inld=False
  def handle_data(self, data):
@@ -30,7 +30,7 @@ for route,p in pages.items():
  for asset in p.assets:
   if not (ROOT/unquote(urlsplit(asset).path).lstrip('/')).is_file(): errors.append(f'{route}: missing asset {asset}')
  for link in p.links:
-  u=urlsplit(link); target=unquote(u.path); file=ROOT/target.lstrip('/')
+  u=urlsplit(link); target=unquote(u.path) or route; file=ROOT/target.lstrip('/')
   if not (file.is_file() or (file/'index.html').is_file()):errors.append(f'{route}: broken link {link}')
   if u.fragment and target.rstrip('/')+'/' in pages and u.fragment not in pages[target.rstrip('/')+'/'].ids:errors.append(f'{route}: missing anchor {link}')
  for ld in p.ld:
@@ -43,5 +43,16 @@ modified = next(ld['dateModified'] for ld in pages['/'].ld if ld.get('@type')=='
 expected = (datetime.fromisoformat(modified)-timedelta(hours=9)).strftime('%Y-%m-%dT%H:%M:%S.000Z')
 assert expected in (ROOT/'sitemap.xml').read_text(), 'sitemap freshness'
 assert 'Sitemap: https://www.stgolftours.com/sitemap.xml' in (ROOT/'robots.txt').read_text()
+manifest=json.loads((ROOT/'manifest.webmanifest').read_text())
+assert manifest['display']=='standalone' and manifest['scope']=='/'
+for item in manifest['icons']:
+ assert (ROOT/item['src'].lstrip('/')).is_file(), 'manifest icon missing'
+for item in manifest['shortcuts']:
+ assert (ROOT/item['url'].lstrip('/')/'index.html').is_file(), 'manifest shortcut missing'
+for route in ['/promotion/', '/products/royalcc-festival-2026/']:
+ for ld in pages[route].ld:
+  if ld.get('@type') in ['Product','Event']:
+   assert 'availability' not in ld.get('offers',{}), 'unverified inventory must not be asserted'
+assert 'noindex' in (ROOT/'saved/index.html').read_text(), 'personal saved page must not be indexed'
 if errors: raise SystemExit('\n'.join(sorted(set(errors))))
 print(f'PASS: {len(pages)} pages, unique H1/canonical, structured data, local links/anchors/assets, static stats and sitemap')

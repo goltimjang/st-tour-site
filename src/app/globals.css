@@ -374,3 +374,10 @@ button:disabled { opacity: .5; cursor: not-allowed; transform: none; }
 @media (max-width: 639px) { .quote-form .btn { padding-left: 14px; padding-right: 14px; font-size: 16px; } }
 
 .quote-form:focus { outline: none; }
+
+.site-search-dialog { position: fixed; inset: 0; margin: auto; width: min(672px, calc(100% - 24px)); max-height: calc(100dvh - 32px); padding: 0; border: 0; border-radius: 16px; color: var(--color-ink); box-shadow: 0 24px 60px #030d2c55; }
+.site-search-dialog::backdrop { background: #030d2caa; backdrop-filter: blur(4px); }
+body:has(.site-search-dialog[open]) .contact-bar { display: none; }
+.product-section-nav { position: sticky; top: 80px; z-index: 30; background: #fff; border-block: 1px solid var(--color-line); }
+.product-section-nav a { display: inline-flex; align-items: center; min-height: 48px; padding: 8px 14px; font-size: 15px; font-weight: 700; white-space: nowrap; }
+.product-section { scroll-margin-top: 148px; }

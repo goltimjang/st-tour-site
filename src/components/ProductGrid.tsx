@@ -56,7 +56,7 @@ export default function ProductGrid({ products }: { products: Product[] }) {
                   )}
                 </div>
                 <div className="p-5">
-                  <p className="text-[12.5px] text-mute mb-1.5">
+                  <p className="text-[14px] text-mute mb-1.5">
                     {p.kind} · {p.country}{p.duration ? ` · ${p.duration}` : ""}
                   </p>
                   <h2 className="font-bold text-[17px] leading-snug mb-2 group-hover:text-royal">{p.title}</h2>
@@ -65,7 +65,9 @@ export default function ProductGrid({ products }: { products: Product[] }) {
                     {p.priceOriginal && <span className="text-mute/70 line-through mr-2 text-[14px]">{p.priceOriginal}</span>}
                     <span className="font-display text-[22px] text-royaldark">{p.price}</span>
                   </p>
-                  {p.date && <p className="text-[12.5px] text-mute mt-1.5">{p.date}</p>}
+                  <p className="text-sm text-mute mt-2">{p.priceNote}</p>
+                  <p className="text-sm text-mute mt-2">예약 가능 여부는 상담 후 확인</p>
+                  {p.date && <p className="text-[14px] text-mute mt-1.5">{p.date}</p>}
                 </div>
               </Link>
             </Reveal>
