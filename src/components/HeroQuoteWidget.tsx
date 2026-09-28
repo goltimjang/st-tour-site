@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { destinations } from "@/data/destinations";
+import DestinationRegionChoices from "@/components/DestinationRegionChoices";
 import { track } from "@/lib/analytics";
 
 const REGIONS = ["수도권", "강원", "충청", "호남", "영남", "제주"];
@@ -10,6 +11,7 @@ export default function HeroQuoteWidget() {
   const router = useRouter();
   const [kind, setKind] = useState<"domestic" | "overseas">("overseas");
   const [place, setPlace] = useState("");
+  const [area, setArea] = useState("");
   const [flexible, setFlexible] = useState(true);
   const [start, setStart] = useState("");
   const [end, setEnd] = useState("");
@@ -17,6 +19,7 @@ export default function HeroQuoteWidget() {
   function go() {
     const q = new URLSearchParams();
     q.set(kind === "domestic" ? "region" : "country", place || "추천 받고 싶어요");
+    if (kind === "overseas" && area) q.set("area", area);
     if (flexible) q.set("flexible", "1");
     else { q.set("start", start); q.set("end", end); }
     track("quote_entry", { kind, source: "home" });
@@ -27,13 +30,14 @@ export default function HeroQuoteWidget() {
       <h2 className="text-xl font-bold mb-1">어떤 여행을 준비하시나요?</h2>
       <p className="text-sm text-mute mb-4">지역과 일정이 미정이어도 상담할 수 있어요.</p>
       <div className="flex gap-2 mb-4" role="group" aria-label="여행 종류">
-        {(["overseas", "domestic"] as const).map((k) => <button key={k} type="button" aria-pressed={kind === k} onClick={() => { setKind(k); setPlace(""); }} className="choice flex-1" data-on={kind === k}>{k === "domestic" ? "국내 골프투어" : "해외 골프투어"}</button>)}
+        {(["overseas", "domestic"] as const).map((k) => <button key={k} type="button" aria-pressed={kind === k} onClick={() => { if (kind !== k) { setKind(k); setPlace(""); setArea(""); } }} className="choice flex-1" data-on={kind === k}>{k === "domestic" ? "국내 골프투어" : "해외 골프투어"}</button>)}
       </div>
       <label className="block font-semibold text-sm mb-2" htmlFor="hero-place">{kind === "domestic" ? "희망 지역" : "희망 국가"}</label>
-      <select id="hero-place" className="field" value={place} onChange={(e) => setPlace(e.target.value)}>
+      <select id="hero-place" className="field" value={place} onChange={(e) => { setPlace(e.target.value); setArea(""); }}>
         <option value="">아직 미정, 추천받을게요</option>
         {(kind === "domestic" ? REGIONS : destinations.map((d) => d.name)).map((r) => <option key={r} value={r}>{r}</option>)}
       </select>
+      {kind === "overseas" && place && <div className="mt-4"><DestinationRegionChoices country={place} value={area} onChange={setArea} /></div>}
       <label className="flex gap-3 items-center my-4 min-h-11 cursor-pointer text-[15px]"><input type="checkbox" className="h-5 w-5 accent-[#0d4ff5]" checked={flexible} onChange={(e) => setFlexible(e.target.checked)} />일정은 상담하면서 정할게요</label>
       {!flexible && <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
         <label className="min-w-0"><span className="block text-sm font-semibold mb-1">출발일</span><input type="date" min={today} className="field" value={start} onChange={(e) => { setStart(e.target.value); if (end < e.target.value) setEnd(""); }} /></label>

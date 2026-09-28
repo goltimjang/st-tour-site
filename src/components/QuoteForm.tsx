@@ -4,7 +4,8 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { track } from "@/lib/analytics";
 import { site } from "@/data/site";
-import { destinations } from "@/data/destinations";
+import DestinationRegionChoices from "@/components/DestinationRegionChoices";
+import { destinations, validDestinationRegion } from "@/data/destinations";
 import Calendar, { stayLabel } from "@/components/Calendar";
 import CoursePicker, { type PickItem } from "@/components/CoursePicker";
 import krCourses from "@/data/golf-courses.json";
@@ -67,6 +68,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
   // Step 1
   const [regions, setRegions] = useState<string[]>(prefillRegion ? [prefillRegion] : []);
   const [country, setCountry] = useState(product?.country ?? prefillCountry ?? "");
+  const [area, setArea] = useState("");
   const [dateMode, setDateMode] = useState<"date" | "flexible">("date");
   const [dateStart, setDateStart] = useState(product?.start ?? "");
   const [dateEnd, setDateEnd] = useState(product?.end ?? "");
@@ -97,14 +99,17 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
   useEffect(() => {
     try {
       const q = new URLSearchParams(window.location.search);
-      const fromUrl = !product && ["region", "country", "start", "flexible", "picked"].some((k) => q.has(k));
+      const fromUrl = !product && ["region", "country", "area", "start", "flexible", "picked"].some((k) => q.has(k));
       const raw = !fromUrl && localStorage.getItem(draftKey);
       if (raw) {
         const d = JSON.parse(raw);
         const compatible = !prefillCountry || d.country === prefillCountry;
         if (compatible && d.savedAt > Date.now() - 7 * 86400000) {
           if (Array.isArray(d.regions)) setRegions(d.regions.filter((r: string) => [...REGIONS, "추천 받고 싶어요"].includes(r)));
-          if (!product && typeof d.country === "string") setCountry(d.country);
+          if (!product && typeof d.country === "string") {
+            setCountry(d.country);
+            setArea(validDestinationRegion(d.country, d.area));
+          }
           if (!product && ["date", "flexible"].includes(d.dateMode)) setDateMode(d.dateMode);
           if (!product && typeof d.dateStart === "string") setDateStart(d.dateStart);
           if (!product && typeof d.dateEnd === "string") setDateEnd(d.dateEnd);
@@ -124,6 +129,9 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
         const en = q.get("end");
         if (isDom && region) setRegions(region.split(",").filter((r) => [...REGIONS, "추천 받고 싶어요"].includes(r)));
         if (!isDom && ctry && (!prefillCountry || prefillCountry === ctry) && (destinations.some((d) => d.name === ctry) || ctry === "추천 받고 싶어요")) setCountry(ctry);
+        if (!isDom && (!ctry || !prefillCountry || prefillCountry === ctry)) {
+          setArea(validDestinationRegion(prefillCountry || ctry || "", q.get("area")));
+        }
         if (st && /^\d{4}-\d{2}-\d{2}$/.test(st)) setDateStart(st);
         if (en && /^\d{4}-\d{2}-\d{2}$/.test(en)) setDateEnd(en);
         if (q.get("flexible") === "1") { setDateMode("flexible"); setFlexTime("미정 (상담 후 결정)"); }
@@ -145,9 +153,9 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
   useEffect(() => {
     if (!restored || done) return;
     try {
-      localStorage.setItem(draftKey, JSON.stringify({ savedAt: Date.now(), regions, country, dateMode, dateStart, dateEnd, flexTime, people, duration, rounds, lodging, flight, budget, course }));
+      localStorage.setItem(draftKey, JSON.stringify({ savedAt: Date.now(), regions, country, area, dateMode, dateStart, dateEnd, flexTime, people, duration, rounds, lodging, flight, budget, course }));
     } catch { /* 저장 불가 환경에서도 견적 접수는 사용할 수 있다. */ }
-  }, [restored, done, regions, country, dateMode, dateStart, dateEnd, flexTime, people, duration, rounds, lodging, flight, budget, course, draftKey]);
+  }, [restored, done, regions, country, area, dateMode, dateStart, dateEnd, flexTime, people, duration, rounds, lodging, flight, budget, course, draftKey]);
 
   // 달력 선택 시 "○박 ○일" 자동 계산 (출발·도착 모두 선택해야 완성)
   const stay = dateMode === "date" ? (product?.duration ?? stayLabel(dateStart, dateEnd)) : "";
@@ -185,6 +193,15 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
   const emailOk = !email || /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
   const step3Ok = Boolean(step1Ok) && name.trim().length >= 1 && phoneOk && emailOk && agree;
 
+  const destinationLabel = isDom ? regions.join(", ") : [country, area].filter(Boolean).join(" · ");
+
+  function selectCountry(next: string) {
+    if (next === country) return;
+    setCountry(next);
+    setArea("");
+    setCourse("");
+  }
+
   function toggleRegion(r: string) {
     setRegions((prev) => (prev.includes(r) ? prev.filter((x) => x !== r) : [...prev, r]));
   }
@@ -200,7 +217,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
       접수번호: no,
       상품: product?.title ?? "맞춤 골프투어",
       type: isDom ? "국내 골프투어" : "해외 골프투어",
-      지역: isDom ? regions.join(", ") : country,
+      지역: destinationLabel,
       희망시기: whenLabel,
       인원: `${people}명`,
       기간: stay || duration || "미정",
@@ -273,7 +290,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
           <p className="font-bold mb-1">접수 내용</p>
           <p>
             {product && <><b>{product.title}</b><br /></>}
-            {isDom ? `국내 · ${regions.join(", ")}` : `해외 · ${country}`} · {whenLabel} · {people}명
+            {isDom ? "국내" : "해외"} · {destinationLabel} · {whenLabel} · {people}명
             {course ? ` · ${course}` : ""}
           </p>
         </div>
@@ -321,14 +338,14 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
             ) : (
               <div className="flex flex-wrap gap-2.5">
                 {destinations.filter((d) => d.tier === 1).map((d) => (
-                  <button key={d.slug} type="button" className="choice" data-on={country === d.name} aria-pressed={country === d.name} onClick={() => { setCountry(d.name); setCourse(""); }}>
+                  <button key={d.slug} type="button" className="choice" data-on={country === d.name} aria-pressed={country === d.name} onClick={() => selectCountry(d.name)}>
                     {d.name}
                   </button>
                 ))}
                 <select
                   className="field !w-auto"
                   value={destinations.some((d) => d.tier !== 1 && d.name === country) ? country : ""}
-                  onChange={(e) => { if (e.target.value) { setCountry(e.target.value); setCourse(""); } }}
+                  onChange={(e) => { if (e.target.value) selectCountry(e.target.value); }}
                   aria-label="그 외 국가 선택"
                 >
                   <option value="">그 외 지역…</option>
@@ -336,12 +353,14 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
                     <option key={d.slug} value={d.name}>{d.name}</option>
                   ))}
                 </select>
-                <button type="button" className="choice" data-on={country === "추천 받고 싶어요"} aria-pressed={country === "추천 받고 싶어요"} onClick={() => { setCountry("추천 받고 싶어요"); setCourse(""); }}>
+                <button type="button" className="choice" data-on={country === "추천 받고 싶어요"} aria-pressed={country === "추천 받고 싶어요"} onClick={() => selectCountry("추천 받고 싶어요")}>
                   잘 모르겠어요, 추천해 주세요
                 </button>
               </div>
             )}
           </Field>
+
+          {!isDom && <DestinationRegionChoices country={country} value={area} onChange={setArea} />}
 
           <Field label="희망 일정 (출발일 → 도착일)" required>
             <div className="flex flex-wrap gap-2.5 mb-3">
@@ -449,7 +468,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
         <div className="space-y-7">
           <div className="rounded-xl border border-line bg-paper p-4" data-testid="quote-summary">
             <p className="font-bold">{product?.title ?? "맞춤 골프투어"}</p>
-            <dl className="mt-2 space-y-1 text-[15px]"><div><dt className="inline text-mute">지역: </dt><dd className="inline">{isDom ? regions.join(", ") : country}</dd></div><div><dt className="inline text-mute">일정: </dt><dd className="inline">{whenLabel}</dd></div><div><dt className="inline text-mute">인원: </dt><dd className="inline">{people}명</dd></div>{course && <div><dt className="inline text-mute">골프장: </dt><dd className="inline">{course}</dd></div>}</dl>
+            <dl className="mt-2 space-y-1 text-[15px]"><div><dt className="inline text-mute">지역: </dt><dd className="inline">{destinationLabel}</dd></div><div><dt className="inline text-mute">일정: </dt><dd className="inline">{whenLabel}</dd></div><div><dt className="inline text-mute">인원: </dt><dd className="inline">{people}명</dd></div>{course && <div><dt className="inline text-mute">골프장: </dt><dd className="inline">{course}</dd></div>}</dl>
             <button type="button" className="mt-2 py-2 underline text-royaldark font-semibold" onClick={() => goStep(1)}>여행 조건 수정</button>
           </div>
           <Field label="성함" htmlFor="quote-name" required>

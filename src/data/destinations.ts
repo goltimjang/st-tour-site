@@ -44,7 +44,7 @@ export const destinations: Destination[] = [
     image: "/images/vietnam.webp",
     name: "베트남",
     tier: 1,
-    cities: ["다낭", "하노이", "나트랑", "호치민", "푸꾸옥"],
+    cities: ["하노이", "닌빈", "다낭", "나트랑", "호치민", "푸꾸옥"],
     season: "11월 ~ 4월 (남부 건기 · 다낭은 2~8월)",
     flight: "인천 → 다낭·하노이 약 4시간 30분",
     priceFrom: "조건별 견적",
@@ -122,3 +122,12 @@ export const destinations: Destination[] = [
 export const tier1 = destinations.filter((d) => d.tier === 1);
 export const tier2 = destinations.filter((d) => d.tier === 2);
 export const tier3 = destinations.filter((d) => d.tier === 3);
+
+// 견적용 지역은 여행지 안내와 같은 목록을 사용한다. 예약 가능 여부는 상담 후 확인한다.
+export function destinationRegions(country: string): string[] {
+  return destinations.find((destination) => destination.name === country)?.cities ?? [];
+}
+
+export function validDestinationRegion(country: string, region: unknown): string {
+  return typeof region === "string" && destinationRegions(country).includes(region) ? region : "";
+}
