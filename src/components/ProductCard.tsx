@@ -11,7 +11,7 @@ export default function ProductCard({ product: p }: { product: Product }) {
     </Link>
     <div className="flex flex-1 flex-col p-5">
       <p className="text-xs font-semibold text-royaldark mb-2">{p.country} · {p.area ?? "하노이·닌빈"} · {p.duration}</p>
-      <h3 className="text-[18px] font-bold leading-snug text-navy"><Link href={`/products/${p.slug}/`} className="hover:text-royal">{p.title}</Link></h3>
+      <h3 className="text-[18px] font-bold leading-snug text-navy"><Link href={`/products/${p.slug}/`} className="block hover:text-royal">{p.title}</Link></h3>
       <p className="mt-3 text-sm text-mute line-clamp-2">{p.summary}</p>
       <p className="mt-3 text-xs text-mute">{p.departure ?? p.date}</p>
       <div className="mt-auto pt-5">
