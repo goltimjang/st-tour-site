@@ -1,79 +1,56 @@
 "use client";
-
-import Link from "next/link";
-import Image from "next/image";
-import { useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import type { Product } from "@/data/products";
-import Reveal from "@/components/Reveal";
+import ProductCard from "./ProductCard";
 
-/** 상품 목록: 국내/해외 탭 + 국가 칩으로 거른다. 상품이 적을 때는 탭을 감춘다. */
-export default function ProductGrid({ products }: { products: Product[] }) {
-  const [kind, setKind] = useState<"전체" | "국내" | "해외">("전체");
-  const [country, setCountry] = useState("전체");
-
-  const countries = useMemo(() => {
-    const base = kind === "전체" ? products : products.filter((p) => p.kind === kind);
-    return ["전체", ...Array.from(new Set(base.map((p) => p.country)))];
-  }, [products, kind]);
-
-  const list = products.filter((p) => (kind === "전체" || p.kind === kind) && (country === "전체" || p.country === country));
-  const showFilter = products.length >= 4;
-
-  return (
-    <>
-      {showFilter && (
-        <div className="mb-7 space-y-3">
-          <div className="flex gap-2">
-            {(["전체", "국내", "해외"] as const).map((k) => (
-              <button key={k} type="button" className="choice !min-h-[42px] !px-4 text-[14.5px]" data-on={kind === k} onClick={() => { setKind(k); setCountry("전체"); }}>
-                {k}
-                <span className="opacity-60 ml-1.5 text-[12.5px]">{k === "전체" ? products.length : products.filter((p) => p.kind === k).length}</span>
-              </button>
-            ))}
-          </div>
-          {countries.length > 2 && (
-            <div className="flex flex-wrap gap-2">
-              {countries.map((c) => (
-                <button key={c} type="button" className="choice !min-h-[36px] !px-3 text-[13px]" data-on={country === c} onClick={() => setCountry(c)}>{c}</button>
-              ))}
-            </div>
-          )}
-        </div>
-      )}
-
-      {list.length === 0 ? (
-        <p className="py-10 text-center text-mute">이 조건의 상품은 아직 없습니다. 견적을 요청하시면 조건에 맞게 짜드립니다.</p>
-      ) : (
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {list.map((p, i) => (
-            <Reveal key={p.slug} delay={i * 80}>
-              <Link href={`/products/${p.slug}`} className="group card-lift block rounded-2xl overflow-hidden border border-line bg-white shadow-soft h-full">
-                {/* 1:1 정사각형 썸네일 */}
-                <div className="img-zoom relative aspect-square">
-                  <Image src={p.thumb} alt={p.title} fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 360px" className="object-cover" />
-                  {p.badge && (
-                    <span className="absolute left-3 top-3 rounded-full bg-gold text-navydeep text-[12px] font-black px-3 py-1.5">{p.badge}</span>
-                  )}
-                </div>
-                <div className="p-5">
-                  <p className="text-[14px] text-mute mb-1.5">
-                    {p.kind} · {p.country}{p.duration ? ` · ${p.duration}` : ""}
-                  </p>
-                  <h2 className="font-bold text-[17px] leading-snug mb-2 group-hover:text-royal">{p.title}</h2>
-                  <p className="text-[14px] text-mute leading-relaxed mb-3 line-clamp-2">{p.summary}</p>
-                  <p>
-                    {p.priceOriginal && <span className="text-mute/70 line-through mr-2 text-[14px]">{p.priceOriginal}</span>}
-                    <span className="font-display text-[22px] text-royaldark">{p.price}</span>
-                  </p>
-                  <p className="text-sm text-mute mt-2">{p.priceNote}</p>
-                  <p className="text-sm text-mute mt-2">예약 가능 여부는 상담 후 확인</p>
-                  {p.date && <p className="text-[14px] text-mute mt-1.5">{p.date}</p>}
-                </div>
-              </Link>
-            </Reveal>
-          ))}
-        </div>
-      )}
-    </>
-  );
+export default function ProductGrid({ products, fixedCountry }: { products: Product[]; fixedCountry?: string }) {
+  const [country, setCountry] = useState(fixedCountry ?? "전체");
+  const [area, setArea] = useState("전체");
+  const [departure, setDeparture] = useState("전체");
+  const [theme, setTheme] = useState("전체");
+  const [query, setQuery] = useState("");
+  const [sort, setSort] = useState("추천순");
+  const [ready, setReady] = useState(false);
+  useEffect(() => {
+    const q = new URLSearchParams(window.location.search);
+    const c = fixedCountry ?? q.get("country") ?? "전체";
+    const selectedCountry = c === "전체" || products.some(p => p.country === c) ? c : "전체";
+    setCountry(selectedCountry); setQuery(q.get("q") ?? "");
+    const a = q.get("area"); if (a && products.some(p => p.area === a && (selectedCountry === "전체" || p.country === selectedCountry))) setArea(a);
+    const d = q.get("departure"); if (d && products.some(p => p.departure?.includes(d))) setDeparture(d);
+    const t = q.get("theme"); if (t === "파크골프" || t === "골프투어") setTheme(t);
+    const s = q.get("sort"); if (s === "낮은 가격순" || s === "높은 가격순") setSort(s);
+    setReady(true);
+  }, [fixedCountry, products]);
+  useEffect(() => {
+    if (!ready) return;
+    const q = new URLSearchParams(window.location.search);
+    for (const [key, value] of [["q", query], ["country", fixedCountry ? "전체" : country], ["area", area], ["departure", departure], ["theme", theme], ["sort", sort]]) {
+      if (value && value !== "전체" && value !== "추천순") q.set(key, value); else q.delete(key);
+    }
+    const search = q.toString();
+    window.history.replaceState(window.history.state, "", `${window.location.pathname}${search ? "?" + search : ""}${window.location.hash}`);
+  }, [ready, query, country, area, departure, theme, sort, fixedCountry]);
+  const countries = ["전체", ...new Set(products.map(p => p.country))];
+  const areas = [...new Set(products.filter(p => country === "전체" || country === p.country).flatMap(p => p.area ? [p.area] : []))];
+  const departures = [...new Set(products.flatMap(p => p.departure?.endsWith("출발") ? p.departure.replace("출발", "").split("/") : []))];
+  const norm = (s: string) => s.replace(/\s/g, "").toLowerCase();
+  const list = products.filter(p => (country === "전체" || p.country === country) && (area === "전체" || p.area === area) && (theme === "전체" || (p.theme ?? "골프투어") === theme) && (departure === "전체" || p.departure?.includes(departure)) && norm(p.title + p.summary + p.country + (p.area ?? "")).includes(norm(query)));
+  if (sort !== "추천순") list.sort((a,b) => (sort === "낮은 가격순" ? 1 : -1) * ((a.priceFrom ?? Number(a.price.replace(/\D/g,""))) - (b.priceFrom ?? Number(b.price.replace(/\D/g,"")))));
+  const reset = () => { setCountry(fixedCountry ?? "전체"); setArea("전체"); setDeparture("전체"); setTheme("전체"); setQuery(""); setSort("추천순"); };
+  return <>
+    <div className="rounded-2xl border border-line bg-white p-4 sm:p-6 mb-8">
+      <label htmlFor="catalog-search" className="block font-bold mb-2">어떤 골프여행을 찾으세요?</label>
+      <input id="catalog-search" type="search" value={query} onChange={e => setQuery(e.target.value)} placeholder="하노이, 오키나와, 골프장·호텔 이름 검색" className="field" />
+      {!fixedCountry && <div role="group" aria-label="상품 국가" className="flex flex-wrap gap-2 mt-4">{countries.map(c => <button key={c} type="button" aria-pressed={country === c} className="choice !min-h-11 !px-3 !text-sm" data-on={country === c} onClick={() => { setCountry(c); setArea("전체"); }}>{c}</button>)}</div>}
+      <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <label className="text-sm font-semibold">지역<select className="field mt-1 !text-sm" value={area} onChange={e => setArea(e.target.value)}><option>전체</option>{areas.map(a => <option key={a}>{a}</option>)}</select></label>
+        <label className="text-sm font-semibold">출발지<select className="field mt-1 !text-sm" value={departure} onChange={e => setDeparture(e.target.value)}><option>전체</option>{departures.map(d => <option key={d}>{d}</option>)}</select></label>
+        <label className="text-sm font-semibold">여행 종류<select className="field mt-1 !text-sm" value={theme} onChange={e => setTheme(e.target.value)}><option>전체</option><option>골프투어</option><option>파크골프</option></select></label>
+        <label className="text-sm font-semibold">정렬<select className="field mt-1 !text-sm" value={sort} onChange={e => setSort(e.target.value)}><option>추천순</option><option>낮은 가격순</option><option>높은 가격순</option></select></label>
+      </div>
+    </div>
+    <div className="flex items-center justify-between gap-3 mb-5"><p role="status" className="font-semibold">조건에 맞는 상품 <b className="text-royal">{list.length}</b>개</p><button type="button" className="min-h-11 text-sm underline text-mute" onClick={reset}>검색 조건 초기화</button></div>
+    {list.length ? <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">{list.map(p => <ProductCard key={p.slug} product={p} />)}</div> : <div className="rounded-2xl bg-white border border-line p-8 text-center"><h2 className="font-bold text-xl">조건에 맞는 상품이 없습니다</h2><p className="text-mute mt-2">검색어를 줄이거나 다른 지역을 선택해보세요.</p><button className="btn btn-light mt-4" onClick={reset}>전체 상품 다시 보기</button></div>}
+  </>;
 }

@@ -1,3 +1,4 @@
+import partnerProducts from "./hanatour-products.json";
 import { royalcc } from "./royalcc";
 // ============================================================
 // 상품(패키지) 목록
@@ -8,6 +9,15 @@ import { royalcc } from "./royalcc";
 export type Product = {
   /** URL 주소가 됩니다. 영문 소문자·숫자·하이픈만 (예: royalcc-2026) */
   slug: string;
+  provider?: "hanatour";
+  area?: string;
+  departure?: string;
+  theme?: string;
+  priceFrom?: number;
+  priceCheckedAt?: string;
+  supplierCodes?: string;
+  features?: string[];
+
   title: string;
   /** 목록 카드에 보이는 한 줄 설명 */
   summary: string;
@@ -83,11 +93,16 @@ export const products: Product[] = [
     updatedAt: royalcc.checkedAt,
     quoteUrl: "/promotion/#quote",
   },
+  ...(partnerProducts as Product[]),
 ];
 
 export const publishedProducts = products
   .filter((p) => p.published)
-  .sort((a, b) => b.postedAt.localeCompare(a.postedAt));
+  .sort((a, b) => {
+    const order = ["베트남", "태국", "일본", "중국", "필리핀", "괌·사이판", "말레이시아", "라오스", "인도네시아", "하와이·미국", "스코틀랜드", "튀르키예", "멕시코"];
+    const rank = (country: string) => { const i = order.indexOf(country); return i < 0 ? 99 : i; };
+    return rank(a.country) - rank(b.country) || b.postedAt.localeCompare(a.postedAt);
+  });
 
 export function findProduct(slug: string) {
   return publishedProducts.find((p) => p.slug === slug);

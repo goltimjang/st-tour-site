@@ -4,31 +4,49 @@ import Image from "next/image";
 import { site } from "@/data/site";
 import { royalcc } from "@/data/royalcc";
 import { faqs } from "@/data/faq";
-import { tier1 } from "@/data/destinations";
+import { catalogCountries } from "@/data/catalog";
+import { publishedProducts } from "@/data/products";
+import ProductCard from "@/components/ProductCard";
 import QuoteSample from "@/components/QuoteSample";
 import EventGallery from "@/components/EventGallery";
 import HeroQuoteWidget from "@/components/HeroQuoteWidget";
 import { webPageLd } from "@/data/jsonld";
 
-export const metadata: Metadata = { alternates: { canonical: "/" } };
+export const metadata: Metadata = { title: "해외 골프여행 상품·맞춤 견적 | 에스티골프투어", description: "베트남 하노이·다낭, 태국, 일본, 중국, 괌 등 해외 골프여행 상품을 지역·출발지별로 비교하세요. 골프텔·다색골프·파크골프와 무료 맞춤 견적 상담.", alternates: { canonical: "/" } };
 const homeFaqs = faqs.filter((f) => /미정|어떻게 받|비용이 드|2명이|취소/.test(f.q));
 export default function Home() {
   return <>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageLd("에스티골프투어 | 국내·해외 골프투어 견적 전문", "/", site.positioning)) }} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: homeFaqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) }) }} />
-    <section className="mx-auto max-w-6xl px-5 pt-8 pb-12 sm:py-14">
-      <div className="grid lg:grid-cols-[1.1fr_1fr] gap-7 lg:gap-12 items-center">
-        <div className="min-w-0">
-          <p className="text-sm font-semibold text-golddeep mb-3">에스티골프투어 · Since {site.company.since}</p>
-          <h1 className="headline text-[30px] sm:text-[44px] text-navy mb-4">골프여행,<br />어디서부터 준비할지<br className="hidden sm:block" /> 고민되시나요?</h1>
-          <p className="text-[17px] text-mute max-w-xl mb-5">가고 싶은 곳과 대략적인 시기만 알려주세요.<br className="hidden sm:block" /> 항공·숙박·라운드 조건을 함께 정리해드립니다.</p>
-          <div className="flex flex-wrap gap-3 mb-5"><a href="#quick-quote" className="btn btn-royal">무료 견적 받기</a><a href={site.phoneHref} className="btn btn-light">전화로 상담하기</a></div>
-          <p className="text-sm text-mute mb-6">{site.company.hours}</p>
-          <div className="relative hidden lg:block h-52 rounded-2xl overflow-hidden"><Image src="/images/hero.jpg" alt="해안과 페어웨이가 펼쳐진 골프장 풍경" fill priority sizes="560px" className="object-cover" /></div>
+    <section className="mx-auto max-w-6xl px-4 sm:px-5 pt-5 sm:pt-7 pb-8">
+      <div className="relative overflow-hidden rounded-[28px] min-h-[410px] sm:min-h-[470px] bg-navy flex items-center">
+        <Image src="/images/hero.jpg" alt="푸른 바다와 페어웨이가 이어진 해외 골프장 풍경" fill priority sizes="(max-width: 1152px) 100vw, 1152px" className="object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#031a24]/90 via-[#031a24]/65 to-[#031a24]/10" />
+        <div className="relative max-w-2xl px-6 py-12 sm:px-12 text-white">
+          <p className="text-sm font-semibold tracking-wide text-white/85 mb-5">에스티골프투어 · 당신의 다음 골프여행</p>
+          <h1 className="headline text-[34px] sm:text-[52px] leading-tight mb-5">좋은 사람들과,<br />새로운 페어웨이로.</h1>
+          <p className="text-[16px] sm:text-lg text-white/90 mb-7">가고 싶은 지역부터 마음에 드는 골프장까지.<br className="hidden sm:block" /> 상품을 골라보고, 나에게 맞는 여행을 함께 준비해요.</p>
+          <div className="flex flex-wrap gap-3"><Link href="/products/" className="btn bg-white text-navy hover:bg-white/90">해외 골프상품 둘러보기 <span aria-hidden="true">→</span></Link><a href="#quick-quote" className="btn border border-white/70 text-white">맞춤 견적</a></div>
         </div>
-        <HeroQuoteWidget />
       </div>
+      <form action="/products/" className="relative mx-3 sm:mx-9 -mt-5 sm:-mt-7 bg-white rounded-2xl border border-line shadow-soft p-3 sm:p-5 flex items-center gap-3">
+        <div className="flex-1 min-w-0"><label htmlFor="home-product-search" className="text-xs text-mute font-semibold block mb-1">어디에서 라운드하고 싶으세요?</label><input id="home-product-search" type="search" name="q" placeholder="지역, 골프장, 호텔 이름" className="w-full min-w-0 text-base sm:text-lg outline-offset-4 py-1" /></div><button type="submit" className="btn btn-royal !px-5 shrink-0">상품 찾기</button>
+      </form>
     </section>
+
+    <section className="mx-auto max-w-6xl px-5 py-6 sm:py-9">
+      <div className="flex justify-between items-end gap-4 mb-5"><div><p className="eyebrow text-golddeep mb-1">골프여행, 어디로 갈까요?</p><h2 className="headline text-2xl sm:text-3xl">나라별로 골라보세요</h2></div><Link href="/products/" className="text-sm font-semibold text-mute py-2 shrink-0">전체 상품 →</Link></div>
+      <div className="grid grid-cols-3 sm:grid-cols-6 gap-3 sm:gap-5">{catalogCountries.slice(0,6).map(c => <Link key={c.slug} href={`/products/country/${c.slug}/`} className="group text-center"><div className="relative aspect-[5/4] rounded-2xl overflow-hidden bg-white"><Image src={c.products[0].thumb} alt={`${c.name} 골프여행 상품 풍경`} fill sizes="(max-width: 640px) 30vw, 180px" className="object-cover group-hover:scale-105 transition-transform" /></div><h3 className="font-bold mt-3 text-[15px] sm:text-lg">{c.name}</h3><p className="text-xs text-mute">{c.products.length}개 상품</p></Link>)}</div>
+      <div className="mt-5 flex flex-wrap gap-x-5 gap-y-1">{catalogCountries.slice(6).map(c => <Link key={c.slug} href={`/products/country/${c.slug}/`} className="min-h-11 inline-flex items-center text-sm font-medium text-mute hover:text-royal">{c.name} →</Link>)}</div>
+    </section>
+
+    <section className="mx-auto max-w-6xl px-5 py-9 sm:py-12">
+      <div className="flex flex-wrap justify-between items-end gap-4 mb-6"><div><p className="eyebrow text-golddeep mb-2">먼저 살펴보는 골프여행</p><h2 className="headline text-2xl sm:text-3xl">하노이부터, 나에게 맞는 라운드</h2></div><Link href="/products/" className="font-semibold text-royaldark py-2">전체 상품 비교하기 →</Link></div>
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">{[...publishedProducts.filter(p => p.area?.includes("하노이") && !p.title.includes("부산")), ...publishedProducts.filter(p => ["태국", "일본"].includes(p.country))].slice(0,6).map(p => <ProductCard key={p.slug} product={p} />)}</div>
+      <p className="text-xs sm:text-sm text-mute mt-5">표시 가격은 2026.09.29 조회한 1인 참고 최저가입니다. 출발일·항공·객실 및 프로모션 조건에 따라 달라지며, 예약 가능 여부와 최종금액은 상담으로 확인합니다.</p>
+    </section>
+
+    <section className="mx-auto max-w-6xl px-5 pb-12"><div className="grid sm:grid-cols-2 gap-4"><Link href="/products/?theme=파크골프" className="rounded-2xl bg-[#e8efe7] p-6 sm:p-8"><p className="text-xs font-bold text-golddeep mb-2">조금 다른 라운드의 즐거움</p><h2 className="font-bold text-2xl text-navy">파크골프 여행</h2><p className="text-sm text-mute mt-2">태국·일본·베트남 상품 살펴보기 →</p></Link><Link href="/products/" className="rounded-2xl bg-[#e9effc] p-6 sm:p-8"><p className="text-xs font-bold text-royaldark mb-2">우리 지역에서 더 가깝게</p><h2 className="font-bold text-2xl text-navy">출발지로 찾는 골프여행</h2><p className="text-sm text-mute mt-2">부산·대구·청주 등 출발 조건으로 비교 →</p></Link></div></section>
 
     <section className="bg-white border-y border-line">
       <div className="mx-auto max-w-6xl px-5 py-12 sm:py-16">
@@ -51,14 +69,9 @@ export default function Home() {
       </div>
     </section>
 
-    <section className="mx-auto max-w-6xl px-5 py-12 sm:py-16">
-      <p className="eyebrow text-golddeep mb-2">원하는 곳으로 맞춤 상담</p>
-      <h2 className="headline text-2xl sm:text-3xl mb-3">어디로 떠나고 싶으세요?</h2>
-      <p className="text-mute mb-7">아래 지역은 맞춤 견적 상담이 가능합니다. 날짜에 맞는 항공·숙소·티타임을 확인해 안내합니다.</p>
-      <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
-        {[{ name: "국내", href: "/domestic/", image: "/images/domestic.jpg", desc: "지역·숙박·라운드 함께 준비" }, ...[...tier1].sort((a, b) => Number(b.slug === "vietnam") - Number(a.slug === "vietnam")).map((d) => ({ name: d.name, href: `/overseas/${d.slug}/`, image: d.image!, desc: d.cities.slice(0, 2).join(" · ") }))].map((d) => <Link href={d.href} key={d.name} className="rounded-2xl bg-white border border-line overflow-hidden group"><div className="relative h-28 sm:h-40"><Image src={d.image} alt={`${d.name} 골프여행 풍경`} fill sizes="(max-width: 1024px) 50vw, 370px" className="object-cover" /></div><div className="p-4"><h3 className="font-bold text-lg group-hover:text-royal">{d.name} 골프투어</h3><p className="text-sm text-mute mt-1">{d.desc}</p><span className="inline-block mt-3 font-semibold text-royaldark text-sm">지역 안내·견적 보기 →</span></div></Link>)}
-      </div>
-      <p className="text-sm text-mute mt-5">국내골프투어 · 베트남골프투어 · 태국골프투어 · 일본골프투어 · 중국골프투어 · 필리핀골프투어</p>
+    <section className="mx-auto max-w-6xl px-5 py-12 sm:py-16 grid lg:grid-cols-2 gap-8 lg:gap-14 items-center">
+      <div><p className="eyebrow text-golddeep mb-3">상품 선택이 어려우신가요?</p><h2 className="headline text-3xl sm:text-4xl mb-5">딱 맞는 골프여행,<br />함께 찾아드릴게요.</h2><p className="text-mute mb-5">마음에 드는 상품이 없어도 괜찮아요. 지역과 대략적인 일정, 인원을 알려주시면 항공·숙박·라운드를 함께 확인해드립니다.</p><p className="text-sm text-mute">{site.company.hours}</p><a href={site.phoneHref} className="inline-flex min-h-11 items-center font-bold text-royaldark mt-4">전화 상담 {site.phone} →</a></div>
+      <HeroQuoteWidget />
     </section>
 
     <section className="bg-white border-y border-line"><div className="mx-auto max-w-6xl px-5 py-12 sm:py-16">

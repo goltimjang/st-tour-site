@@ -9,11 +9,10 @@ import SiteSearch from "@/components/SiteSearch";
 type NavItem = { href: string; label: string; children?: { href: string; label: string }[] };
 
 const nav: NavItem[] = [
-  { href: "/domestic", label: "국내 골프투어", children: [{ href: "/domestic", label: "국내 견적·골프장 지도" }] },
-  { href: "/overseas", label: "해외 골프투어", children: [{ href: "/overseas", label: "해외 견적·골프장 지도" }, { href: "/seasons", label: "시즌별 여행지" }] },
-  { href: "/promotion", label: "이달의 추천", children: [{ href: "/promotion", label: "하노이 로얄CC 프로모션" }, { href: "/products", label: "판매 상품 보기" }, { href: "/saved", label: "저장한 상품" }] },
-  { href: "/about", label: "회사소개" },
-  { href: "/faq", label: "자주 묻는 질문" },
+  { href: "/products/", label: "해외 골프상품", children: [{ href: "/products/", label: "전체 해외 상품" }, { href: "/products/country/vietnam/", label: "베트남 골프상품" }, { href: "/products/country/thailand/", label: "태국 골프상품" }, { href: "/products/country/japan/", label: "일본 골프상품" }, { href: "/products/?theme=파크골프", label: "파크골프 여행" }, { href: "/saved/", label: "저장한 상품" }] },
+  { href: "/overseas/", label: "맞춤 골프여행", children: [{ href: "/overseas/", label: "해외 맞춤 견적·골프장" }, { href: "/domestic/", label: "국내 맞춤 견적·골프장" }, { href: "/seasons/", label: "시즌별 여행지" }] },
+  { href: "/promotion/", label: "로얄CC 페스티벌" },
+  { href: "/about/", label: "회사소개" },
 ];
 
 /** 밝은 플로팅 카드형 헤더: 흰색 라운드 바 + 부드러운 그림자 */

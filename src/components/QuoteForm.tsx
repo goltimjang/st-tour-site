@@ -18,6 +18,7 @@ type Props = {
   prefillRegion?: string;
   /** 국가 페이지에서 진입 시 국가 미리 선택 */
   prefillCountry?: string;
+  inquiryProduct?: { id: string; title: string; country: string; area: string };
   product?: { id: string; title: string; country: string; start: string; end: string; duration: string; course: string };
 };
 
@@ -40,7 +41,7 @@ const PEOPLE_MIN = 1;
 const BUDGETS_DOM = ["30만원 이하", "30~50만원", "50~80만원", "80만원 이상", "상담하며 정할게요"];
 const BUDGETS_OVS = ["60만원 이하", "60~100만원", "100~150만원", "150만원 이상", "상담하며 정할게요"];
 
-export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillCountry, product }: Props) {
+export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillCountry, product, inquiryProduct }: Props) {
   const isDom = type === "domestic";
 
   const boxRef = useRef<HTMLDivElement>(null);
@@ -50,7 +51,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
 
   /** 단계를 바꾸면 폼 상단이 화면에 오도록 맞춘다 (긴 폼에서 엉뚱한 위치로 가는 것 방지) */
   function goStep(next: number) {
-    if (next > 1 && !startedRef.current) { track("quote_start", { kind: type, product_id: product?.id ?? "custom" }); startedRef.current = true; }
+    if (next > 1 && !startedRef.current) { track("quote_start", { kind: type, product_id: product?.id ?? inquiryProduct?.id ?? "custom" }); startedRef.current = true; }
     setStep(next);
     track("quote_step", { step: next, kind: type });
     requestAnimationFrame(() => {
@@ -67,8 +68,8 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
 
   // Step 1
   const [regions, setRegions] = useState<string[]>(prefillRegion ? [prefillRegion] : []);
-  const [country, setCountry] = useState(product?.country ?? prefillCountry ?? "");
-  const [area, setArea] = useState("");
+  const [country, setCountry] = useState(product?.country ?? inquiryProduct?.country ?? prefillCountry ?? "");
+  const [area, setArea] = useState(inquiryProduct?.area ?? "");
   const [dateMode, setDateMode] = useState<"date" | "flexible">("date");
   const [dateStart, setDateStart] = useState(product?.start ?? "");
   const [dateEnd, setDateEnd] = useState(product?.end ?? "");
@@ -92,21 +93,21 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
   const [showPrivacy, setShowPrivacy] = useState(false);
   const [ticket, setTicket] = useState("");
   const [restored, setRestored] = useState(false);
-  const draftKey = `st-quote-v2-${type}-${product?.id ?? prefillCountry ?? "general"}`;
+  const draftKey = `st-quote-v2-${type}-${product?.id ?? inquiryProduct?.id ?? prefillCountry ?? "general"}`;
   const [draftNotice, setDraftNotice] = useState(false);
 
   // 국가·상품별 초안. 연락처·성함·이메일은 기기에 저장하지 않는다.
   useEffect(() => {
     try {
       const q = new URLSearchParams(window.location.search);
-      const fromUrl = !product && ["region", "country", "area", "start", "flexible", "picked"].some((k) => q.has(k));
+      const fromUrl = !product && !inquiryProduct && ["region", "country", "area", "start", "flexible", "picked"].some((k) => q.has(k));
       const raw = !fromUrl && localStorage.getItem(draftKey);
       if (raw) {
         const d = JSON.parse(raw);
         const compatible = !prefillCountry || d.country === prefillCountry;
         if (compatible && d.savedAt > Date.now() - 7 * 86400000) {
           if (Array.isArray(d.regions)) setRegions(d.regions.filter((r: string) => [...REGIONS, "추천 받고 싶어요"].includes(r)));
-          if (!product && typeof d.country === "string") {
+          if (!product && !inquiryProduct && typeof d.country === "string") {
             setCountry(d.country);
             setArea(validDestinationRegion(d.country, d.area));
           }
@@ -137,7 +138,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
         if (q.get("flexible") === "1") { setDateMode("flexible"); setFlexTime("미정 (상담 후 결정)"); }
       }
       const picked = q.get("picked") === "1" ? localStorage.getItem("st-picked") : null;
-      if (picked && !product) {
+      if (picked && !product && !inquiryProduct) {
         const p = JSON.parse(picked);
         const intendedCountry = prefillCountry || ctryFromUrl(q);
         if (p && p.kind === type && Array.isArray(p.names) && (isDom || !intendedCountry || intendedCountry === p.country)) {
@@ -148,7 +149,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
       }
     } catch { /* 손상된 초안은 새 양식으로 시작한다. */ }
     setRestored(true);
-  }, [draftKey, isDom, prefillCountry, product, type]);
+  }, [draftKey, isDom, prefillCountry, product, inquiryProduct, type]);
 
   useEffect(() => {
     if (!restored || done) return;
@@ -215,7 +216,8 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
     const no = `ST-${String(now.getFullYear()).slice(2)}${String(now.getMonth() + 1).padStart(2, "0")}${String(now.getDate()).padStart(2, "0")}-${String(Math.floor(Math.random() * 9000) + 1000)}`;
     const payload = {
       접수번호: no,
-      상품: product?.title ?? "맞춤 골프투어",
+      상품: product?.title ?? inquiryProduct?.title ?? "맞춤 골프투어",
+      ...(inquiryProduct ? { 상품코드: inquiryProduct.id } : {}),
       type: isDom ? "국내 골프투어" : "해외 골프투어",
       지역: destinationLabel,
       희망시기: whenLabel,
@@ -251,7 +253,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
       });
       const result = await res.json();
       if (!res.ok || ![true, "true"].includes(result?.success)) throw new Error("send failed");
-      track("quote_submit_success", { kind: type, product_id: product?.id ?? "custom" });
+      track("quote_submit_success", { kind: type, product_id: product?.id ?? inquiryProduct?.id ?? "custom" });
       setTicket(no);
       try {
         localStorage.removeItem(draftKey);
@@ -289,7 +291,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
         <div className="mt-5 rounded-xl bg-paper p-5 text-[15px] leading-relaxed">
           <p className="font-bold mb-1">접수 내용</p>
           <p>
-            {product && <><b>{product.title}</b><br /></>}
+            {(product || inquiryProduct) && <><b>{product?.title ?? inquiryProduct?.title}</b><br /></>}
             {isDom ? "국내" : "해외"} · {destinationLabel} · {whenLabel} · {people}명
             {course ? ` · ${course}` : ""}
           </p>
@@ -326,6 +328,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
       {step === 1 && (
         <div className="space-y-7">
           {product ? <div className="rounded-xl bg-paper p-4"><b>{product.title}</b><p>{product.start} ~ {product.end} · {product.duration}</p><p className="text-sm text-mute">베트남 닌빈 로얄CC · 항공 포함 · 총 54홀</p><Link href="/overseas/vietnam/?flexible=1#quote" className="inline-block py-2 underline text-royaldark">다른 날짜로 문의하기</Link></div> : <>
+          {inquiryProduct ? <div className="rounded-xl bg-paper p-4"><p className="text-sm text-royaldark font-bold">선택한 상품</p><b>{inquiryProduct.title}</b><p>{inquiryProduct.country} · {inquiryProduct.area}</p><p className="text-sm text-mute">출발일과 인원을 알려주시면 이 상품의 가능 여부를 확인합니다.</p></div> : <>
           <Field label={isDom ? "희망 지역 (복수 선택 가능)" : "희망 국가"} required>
             {isDom ? (
               <div className="flex flex-wrap gap-2.5">
@@ -361,6 +364,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
           </Field>
 
           {!isDom && <DestinationRegionChoices country={country} value={area} onChange={setArea} />}
+          </>}
 
           <Field label="희망 일정 (출발일 → 도착일)" required>
             <div className="flex flex-wrap gap-2.5 mb-3">
@@ -467,7 +471,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
       {step === 3 && (
         <div className="space-y-7">
           <div className="rounded-xl border border-line bg-paper p-4" data-testid="quote-summary">
-            <p className="font-bold">{product?.title ?? "맞춤 골프투어"}</p>
+            <p className="font-bold">{product?.title ?? inquiryProduct?.title ?? "맞춤 골프투어"}</p>
             <dl className="mt-2 space-y-1 text-[15px]"><div><dt className="inline text-mute">지역: </dt><dd className="inline">{destinationLabel}</dd></div><div><dt className="inline text-mute">일정: </dt><dd className="inline">{whenLabel}</dd></div><div><dt className="inline text-mute">인원: </dt><dd className="inline">{people}명</dd></div>{course && <div><dt className="inline text-mute">골프장: </dt><dd className="inline">{course}</dd></div>}</dl>
             <button type="button" className="mt-2 py-2 underline text-royaldark font-semibold" onClick={() => goStep(1)}>여행 조건 수정</button>
           </div>
