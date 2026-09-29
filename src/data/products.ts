@@ -17,6 +17,11 @@ export type Product = {
   priceCheckedAt?: string;
   supplierCodes?: string;
   features?: string[];
+  detailCheckedAt?: string;
+  detailBasis?: string;
+  galleryCaptions?: string[];
+  itineraryNote?: string;
+  inclusionNote?: string;
 
   title: string;
   /** 목록 카드에 보이는 한 줄 설명 */
@@ -59,14 +64,13 @@ export const products: Product[] = [
   {
     slug: "royalcc-festival-2026",
     title: royalcc.title,
-    summary: "3박 5일 54홀 라운드와 5성 숙박, 총 1억원 상당 시상. 왕복 항공 포함.",
+    summary: "닌빈 로얄CC 54홀 라운드와 숙박. 항공을 제외한 현지 일정의 가능 여부를 문의하세요.",
     thumb: "/products/royalcc.jpg",
     country: "베트남",
     kind: "해외",
     duration: "3박 5일",
-    price: royalcc.price,
-    priceOriginal: royalcc.priceOriginal,
-    priceNote: royalcc.priceNote,
+    price: "견적 문의",
+    priceNote: "항공 제외 금액은 별도 상담",
     date: royalcc.date,
     badge: "1차 모집 중",
     highlights: [
@@ -82,8 +86,9 @@ export const products: Product[] = [
       { day: "4일차 · 12/16(수)", plan: "로얄CC 18홀 라운드 → 하노이 자유시간 → 23:40 하노이 출발" },
       { day: "5일차 · 12/17(목)", plan: "05:30 인천 도착" },
     ],
-    includes: royalcc.includes,
-    excludes: royalcc.excludes,
+    includes: royalcc.includes.filter(x => !/항공|유류|공항세/.test(x)),
+    inclusionNote: "정해진 행사 일정의 현지 합류 가능 여부와 포함 내역은 견적 시 확인합니다.",
+    excludes: ["왕복 항공권·유류할증료·항공 관련 세금", ...royalcc.excludes],
     body: [
       "베트남 닌빈 로얄CC에서 열리는 클럽 페스티벌입니다. 스트로크와 신페리오 두 방식으로 나눠 시상하며, 총 1억원 상당의 상품이 준비되어 있습니다.",
       "에스티골프투어가 직접 주관하는 행사로, 전 일정 스탭이 동행합니다.",
@@ -91,9 +96,9 @@ export const products: Product[] = [
     published: true,
     postedAt: "2026-08-01",
     updatedAt: royalcc.checkedAt,
-    quoteUrl: "/promotion/#quote",
+    quoteUrl: "/products/royalcc-festival-2026/#quote",
   },
-  ...(partnerProducts as Product[]),
+  ...partnerProducts.map(row => Object.fromEntries(Object.entries(row).filter(([key]) => !["sourcePriceFrom", "sourceUrl", "sourceCard", "sourceDetail", "sourceImage", "detailSourceUrl", "detailBasis"].includes(key))) as Product),
 ];
 
 export const publishedProducts = products

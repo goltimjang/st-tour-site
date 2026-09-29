@@ -1,0 +1,845 @@
+{
+  "costs": [
+    {
+      "items": [
+        "왕복항공권, 중간구간 항공권, 전용 차량비",
+        "국내공항세, 관광진흥개발기금, 유류할증료",
+        "숙박비",
+        "그린피",
+        "3억원 여행자보험",
+        "기타 : 디오픈 파이널 입장권\n"
+      ],
+      "label": "포함내역"
+    },
+    {
+      "items": [
+        "식사비 : 가격문의 (일정표 참조 )",
+        "캐디피 : 가격문의 (캐디피&트롤리 대여료(예약제))",
+        "개인 여행경비(물값, 자유시간시 개인비용 등)",
+        "각종 매너팁(테이블팁, 객실팁, 포터비, 마사지팁 등)",
+        "매너팁은 소비자의 자율적 선택으로 지불여부에 따른 불이익은 없습니다. "
+      ],
+      "label": "불포함내역"
+    },
+    {
+      "items": [
+        "객실 1인 사용료 : 요금미정, 문의바랍니다.",
+        "선택관광/기항지관광/현지투어에 관한 상세 내역은 패키지 상품상세를 참고바랍니다. "
+      ],
+      "label": "선택경비"
+    }
+  ],
+  "days": [
+    {
+      "day": "acc_con0",
+      "golf": [],
+      "hotel": [
+        "힐튼의 키우리오 컬렉션, 에든버러 칼레도니안"
+      ],
+      "images": [
+        {
+          "alt": "더 칼레도니안 에든버러, 큐리오 컬렉션 바이 힐튼 The Caledonian Edinburgh, Curio Collection by Hilton ",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/09/16/10000/0c3fc2e2-54b3-41c6-84ec-acebe1662354.png"
+        },
+        {
+          "alt": "더 칼레도니안 에든버러, 큐리오 컬렉션 바이 힐튼 The Caledonian Edinburgh, Curio Collection by Hilton ",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/09/16/10000/dab5e475-16c5-4e53-ad6c-7e56ef366506.png"
+        },
+        {
+          "alt": "더 칼레도니안 에든버러, 큐리오 컬렉션 바이 힐튼 The Caledonian Edinburgh, Curio Collection by Hilton ",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/09/16/10000/12d825d2-5373-41a4-9691-4980f8c0cf23.png"
+        },
+        {
+          "alt": "더 칼레도니안 에든버러, 큐리오 컬렉션 바이 힐튼 The Caledonian Edinburgh, Curio Collection by Hilton ",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/09/16/10000/55287a1e-0189-49ad-8b16-f815e703f99a.png"
+        },
+        {
+          "alt": "더 칼레도니안 에든버러, 큐리오 컬렉션 바이 힐튼 The Caledonian Edinburgh, Curio Collection by Hilton ",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/09/16/10000/f3950fe6-3d0d-422c-a73e-e352b85743e0.png"
+        },
+        {
+          "alt": "더 칼레도니안 에든버러, 큐리오 컬렉션 바이 힐튼 The Caledonian Edinburgh, Curio Collection by Hilton ",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/09/16/10000/0c3fc2e2-54b3-41c6-84ec-acebe1662354.png"
+        },
+        {
+          "alt": "더 칼레도니안 에든버러, 큐리오 컬렉션 바이 힐튼 The Caledonian Edinburgh, Curio Collection by Hilton ",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/09/16/10000/dab5e475-16c5-4e53-ad6c-7e56ef366506.png"
+        },
+        {
+          "alt": "더 칼레도니안 에든버러, 큐리오 컬렉션 바이 힐튼 The Caledonian Edinburgh, Curio Collection by Hilton ",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/09/16/10000/12d825d2-5373-41a4-9691-4980f8c0cf23.png"
+        },
+        {
+          "alt": "더 칼레도니안 에든버러, 큐리오 컬렉션 바이 힐튼 The Caledonian Edinburgh, Curio Collection by Hilton ",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/09/16/10000/55287a1e-0189-49ad-8b16-f815e703f99a.png"
+        },
+        {
+          "alt": "더 칼레도니안 에든버러, 큐리오 컬렉션 바이 힐튼 The Caledonian Edinburgh, Curio Collection by Hilton ",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/09/16/10000/f3950fe6-3d0d-422c-a73e-e352b85743e0.png"
+        }
+      ],
+      "meals": "[중식] 기내식 [석식] 기내식",
+      "stops": [
+        {
+          "text": "인천",
+          "title": "인천"
+        },
+        {
+          "meal": "중식 (기내식)",
+          "text": "중식 (기내식)"
+        },
+        {
+          "text": "런던",
+          "title": "런던"
+        },
+        {
+          "text": "런던국제공항 도착하여 에든버러행 비행기탑승",
+          "title": "런던국제공항 도착하여 에든버러행 비행기탑승"
+        },
+        {
+          "text": "영국 여행시 입국 규정 안내\n영국 여행시 입국 규정 안내\n상세보기\n\n원활한 영국 여행을 위해 영국 입국시 필요한 사전절차에 대해 안내드립니다.\n\n★ 인천 -> 런던 출발 전\nETA 신청\n* 신청 방법 안내: https://drive.google.com/file/d/17PkIFAS6uwNH0xgZLdoShJRtkqZU-mjR/view?usp=sharing\n* 비용: 20파운드(GBP)\n※ 늦어도 출발 일주일 전까지 신청 완료해주셔야 됩니다.\n* 온라인 신청안내: 영국 ETA 사이트에 접속하신 후, 여권과 사진을 등록하시면 됩니다.\n- 발급시: ETA 발급 시 여권 사진과 해외결제 가능한 신용카드 혹은 체크카드가 필요합니다\n※ 20분간 사이트에서 아무것도 하지 않을 경우, 다시 처음부터 진행해야 하니 유의해주시기 바랍니다.\n\n* 모바일 신청안내: 안드로이드나 아이폰에서 UK ETA 앱 다운로드 후 개별 발급\n[플레이 스토어] https://play.google.com/store/apps/details?id=uk.gov.HomeOffice.ho3\n[앱스토어] https://apps.apple.com/us/app/uk-eta/id6444912481\n- 발급시: ETA 발급 시 실물 여권과 해외결제 가능한 신용카드 혹은 체크카드가 필요합니다. 또한, 얼굴 스캐닝이 필요합니다.\n\n보다 자세한 사항은 아래 사이트를 참고하시기 바랍니다.\n* 영국 정부: https://www.gov.uk/guidance/apply-for-an-electronic-travel-authorisation-eta\n\n※ ETA 발급 거부 되어 이로 인해 발생하는 입국 문제는 하나투어에서 개입 및 책임 질 수 없습니다.\n\n참고 사항\n- 여권 분실 등 기존 여권 정보가 변경될 경우, 새로 발급받은 여권 정보로 ETA 재신청 필요\n- 영국행 항공기, 유로스타, 선박 탑승 전 ETA 허가 취득 여부 확인 예정\n- 환승의 경우, 입국심사를 통과하지 않고 공항 내에서 다른 항공기를 갈아타는 경우에도 반드시 ETA 허가 취득 필요\n- 단체 관광객의 경우, 각 개인이 모두 개인별로 ETA 허가 취득 필요"
+        },
+        {
+          "meal": "석식 (기내식)",
+          "text": "석식 (기내식)"
+        },
+        {
+          "text": "에든버러",
+          "title": "에든버러"
+        },
+        {
+          "text": "에든버러 공항 도착",
+          "title": "에든버러 공항 도착"
+        },
+        {
+          "text": "전담 드라이버·가이드 미팅하여 호텔로 이동( 약 30분 소요)",
+          "title": "전담 드라이버·가이드 미팅하여 호텔로 이동( 약 30분 소요)"
+        },
+        {
+          "text": "The Caledonian Edinburgh, Curio Collection by Hilton\n\n힐튼의 키우리오 컬렉션, 에든버러 칼레도니안\n\n1/2\n이전\n다음\n더 칼레도니안 에든버러, 큐리오 컬렉션 바이 힐튼 (The Caledonian Edinburgh, Curio Collection by Hilton)\n더 칼레도니안 에든버러는 1903년 옛 칼레도니안 철도 호텔로 문을 연 에든버러의 대표적인 헤리티지 럭셔리 호텔입니다. 프린세스 스트리트 서쪽 끝에 자리해 객실과 호텔 내부 곳곳에서 에든버러 성의 아름다운 전망을 감상할 수 있으며, 프린세스 스트리트 가든·로열 마일·에든버러 올드타운 등 주요 관광지까지 도보로 이동할 수 있습니다. 빅토리아 시대 건축미와 현대적인 객실 시설, 고급 레스토랑과 애프터눈티, 실내 수영장을 갖춘 스파 시설이 조화를 이루어 에든버러 관광과 프리미엄 골프 여행을 위한 품격 있는 도심 숙소입니다.\n\n■ 객실수: 231개 객실 및 스위트룸(호텔 팩트시트 기준)\n■ 부대시설: 레스토랑, 바, 애프터눈티 라운지, 스파, 실내 수영장, 자쿠지, 사우나, 스팀룸, 피트니스센터, 연회장, 회의실, 룸서비스, 컨시어지, 무료 Wi-Fi 등\n■ 홈페이지: https://www.hilton.com/en/hotels/ednchqq-the-caledonian-edinburgh/\n■ 체크인: 15:00 / 체크아웃: 12:00\n■ 주소: Princes Street, Edinburgh EH1 2AB, United Kingdom"
+        }
+      ],
+      "text": "대한항공\n14시간 25분 KE0907\n\n10:55\n2027.07.14(수)\n서울 ICN 출발\n17:20\n2027.07.14(수)\n런던 LHR 도착\n\n02시간 50분 대기\n\n영국항공\n01시간 20분 BA1464\n\n20:10\n2027.07.14(수)\n런던 LHR 출발\n21:30\n2027.07.14(수)\n에든버러 EDI 도착\n\n1회 경유\n\n인천\n\n중식 (기내식)\n\n런던\n런던국제공항 도착하여 에든버러행 비행기탑승\n영국 여행시 입국 규정 안내\n영국 여행시 입국 규정 안내\n상세보기\n\n원활한 영국 여행을 위해 영국 입국시 필요한 사전절차에 대해 안내드립니다.\n\n★ 인천 -> 런던 출발 전\nETA 신청\n* 신청 방법 안내: https://drive.google.com/file/d/17PkIFAS6uwNH0xgZLdoShJRtkqZU-mjR/view?usp=sharing\n* 비용: 20파운드(GBP)\n※ 늦어도 출발 일주일 전까지 신청 완료해주셔야 됩니다.\n* 온라인 신청안내: 영국 ETA 사이트에 접속하신 후, 여권과 사진을 등록하시면 됩니다.\n- 발급시: ETA 발급 시 여권 사진과 해외결제 가능한 신용카드 혹은 체크카드가 필요합니다\n※ 20분간 사이트에서 아무것도 하지 않을 경우, 다시 처음부터 진행해야 하니 유의해주시기 바랍니다.\n\n* 모바일 신청안내: 안드로이드나 아이폰에서 UK ETA 앱 다운로드 후 개별 발급\n[플레이 스토어] https://play.google.com/store/apps/details?id=uk.gov.HomeOffice.ho3\n[앱스토어] https://apps.apple.com/us/app/uk-eta/id6444912481\n- 발급시: ETA 발급 시 실물 여권과 해외결제 가능한 신용카드 혹은 체크카드가 필요합니다. 또한, 얼굴 스캐닝이 필요합니다.\n\n보다 자세한 사항은 아래 사이트를 참고하시기 바랍니다.\n* 영국 정부: https://www.gov.uk/guidance/apply-for-an-electronic-travel-authorisation-eta\n\n※ ETA 발급 거부 되어 이로 인해 발생하는 입국 문제는 하나투어에서 개입 및 책임 질 수 없습니다.\n\n참고 사항\n- 여권 분실 등 기존 여권 정보가 변경될 경우, 새로 발급받은 여권 정보로 ETA 재신청 필요\n- 영국행 항공기, 유로스타, 선박 탑승 전 ETA 허가 취득 여부 확인 예정\n- 환승의 경우, 입국심사를 통과하지 않고 공항 내에서 다른 항공기를 갈아타는 경우에도 반드시 ETA 허가 취득 필요\n- 단체 관광객의 경우, 각 개인이 모두 개인별로 ETA 허가 취득 필요\n\n석식 (기내식)\n\n에든버러\n에든버러 공항 도착\n전담 드라이버·가이드 미팅하여 호텔로 이동( 약 30분 소요)\nThe Caledonian Edinburgh, Curio Collection by Hilton\n\n힐튼의 키우리오 컬렉션, 에든버러 칼레도니안\n\n1/2\n이전\n다음\n더 칼레도니안 에든버러, 큐리오 컬렉션 바이 힐튼 (The Caledonian Edinburgh, Curio Collection by Hilton)\n더 칼레도니안 에든버러는 1903년 옛 칼레도니안 철도 호텔로 문을 연 에든버러의 대표적인 헤리티지 럭셔리 호텔입니다. 프린세스 스트리트 서쪽 끝에 자리해 객실과 호텔 내부 곳곳에서 에든버러 성의 아름다운 전망을 감상할 수 있으며, 프린세스 스트리트 가든·로열 마일·에든버러 올드타운 등 주요 관광지까지 도보로 이동할 수 있습니다. 빅토리아 시대 건축미와 현대적인 객실 시설, 고급 레스토랑과 애프터눈티, 실내 수영장을 갖춘 스파 시설이 조화를 이루어 에든버러 관광과 프리미엄 골프 여행을 위한 품격 있는 도심 숙소입니다.\n\n■ 객실수: 231개 객실 및 스위트룸(호텔 팩트시트 기준)\n■ 부대시설: 레스토랑, 바, 애프터눈티 라운지, 스파, 실내 수영장, 자쿠지, 사우나, 스팀룸, 피트니스센터, 연회장, 회의실, 룸서비스, 컨시어지, 무료 Wi-Fi 등\n■ 홈페이지: https://www.hilton.com/en/hotels/ednchqq-the-caledonian-edinburgh/\n■ 체크인: 15:00 / 체크아웃: 12:00\n■ 주소: Princes Street, Edinburgh EH1 2AB, United Kingdom\n호텔\n총 1개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n힐튼의 키우리오 컬렉션, 에든버러 칼레도니안 \n\nThe Caledonian Edinburgh, Curio Collection by Hilton상세보기\n\n식사\n[중식] 기내식 [석식] 기내식"
+    },
+    {
+      "day": "acc_con1",
+      "golf": [],
+      "hotel": [
+        "힐튼의 키우리오 컬렉션, 에든버러 칼레도니안"
+      ],
+      "images": [
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/02/03/10000/199e0803-57a6-4647-a9ef-6b62d61a52e6.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/02/03/10000/44bd6b85-b691-454e-8457-616a5c73a9ba.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/02/03/10000/bbdef6a3-5b6b-48b0-8770-77890002ad67.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2019/12/12/10000/0c1f8a61-9424-4b51-8c63-a06d24ef1bd3.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/17/10000/cef1388d-e5b9-4bb8-b096-4f99d7b3395a.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2019/01/09/10000/9dde2b3c-4f96-4313-897b-8e7a0a4e3672.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/17/10000/e64d84a0-fc2c-49f6-9f1b-b01b38d01912.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2019/12/12/10000/0c1f8a61-9424-4b51-8c63-a06d24ef1bd3.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/17/10000/cef1388d-e5b9-4bb8-b096-4f99d7b3395a.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2019/01/09/10000/9dde2b3c-4f96-4313-897b-8e7a0a4e3672.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/17/10000/e64d84a0-fc2c-49f6-9f1b-b01b38d01912.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2019/03/07/10000/ba9b11cb-f74b-45e0-904e-eec9f8209d31.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/17/10000/e64d84a0-fc2c-49f6-9f1b-b01b38d01912.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/10/28/10000/33b6f811-77cf-4331-8234-0b0d64538048.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/02/03/10000/8cbb888f-79f1-4a3c-96b4-6e4a5a71076b.jpg"
+        },
+        {
+          "alt": "에딘버러 이미지",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2019/01/09/10000/3d216962-45e6-44ed-8747-cd0ad59da4cc.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2019/12/12/10000/54e53e5b-2940-478a-ba00-6f1929c4c117.jpg"
+        },
+        {
+          "alt": "빅토리아 스트리트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/04/28/10000/9f7ab27b-ad33-4d46-8286-e252c056d4eb.jpg"
+        },
+        {
+          "alt": "에딘버러 세인트 자일 성당",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2019/12/12/10000/abd29412-a777-40cf-9cb2-703719cc3a9f.jpg"
+        },
+        {
+          "alt": "성 자일스 성당_c_Gary Campbell-Hall",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2019/12/11/10000/0b326a6d-b674-44a5-aca8-f9767d65e0c1.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/02/03/10000/19850501-a4c4-4f19-912a-f492a394f54a.jpg"
+        },
+        {
+          "alt": "에딘버러 성 자일스 대성당",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/02/03/10000/e2f85f88-566b-4af6-9bc5-c07a4919386b.jpg"
+        },
+        {
+          "alt": "에딘버러 세인트 자일 성당",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2019/12/12/10000/abd29412-a777-40cf-9cb2-703719cc3a9f.jpg"
+        },
+        {
+          "alt": "성 자일스 성당_c_Gary Campbell-Hall",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2019/12/11/10000/0b326a6d-b674-44a5-aca8-f9767d65e0c1.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/02/03/10000/19850501-a4c4-4f19-912a-f492a394f54a.jpg"
+        },
+        {
+          "alt": "에딘버러 성 자일스 대성당",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/02/03/10000/e2f85f88-566b-4af6-9bc5-c07a4919386b.jpg"
+        },
+        {
+          "alt": "스콧 기념탐",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2020/10/26/10000/06a84f28-e5db-486c-bb02-c799e68ffc1b.jpg"
+        },
+        {
+          "alt": "스콧 기념탑",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/10/25/10000/62056ebe-30d7-4b8a-bc29-187aa705c33f.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2019/12/11/10000/791187a9-f588-4030-9213-db1188cb96a2.jpg"
+        }
+      ],
+      "meals": "[조식] 호텔식 [중식] 현지식 [석식] 현지식",
+      "stops": [
+        {
+          "text": "에든버러",
+          "title": "에든버러"
+        },
+        {
+          "meal": "조식 (호텔식)",
+          "text": "조식 (호텔식)"
+        },
+        {
+          "text": "전용차량 - 프라이빗투어 -켈피스 -스털링성 관광",
+          "title": "전용차량 - 프라이빗투어 -켈피스 -스털링성 관광"
+        },
+        {
+          "text": "스털링 성\n상세보기\n\n스코틀랜드 수난의 역사를 대변하는 스털링 성\n\n스털링 성은 포스 강 하구, 스코트랜드 남동부의 저지대에서 고지대로 이동할 수 있는 길을 점령할 수 있는 곳에 자리잡고 있는 스코틀랜드에서 전략적으로 가장 중요한 가치를 가진 성입니다. 때문에 스털링 성은 영국에 저항하는 스코틀랜드 저항의 역사에서 빼놓을 수 없는 곳이었고, 스코틀랜드의 다른 어떤 성보다 뺏고 빼앗기고를 반복했던 격전지 였습니다. 이런 이유로 스코틀랜드의 자유를 향한 의지를 영상으로 표현한 \"브레이브 하트\"의 주 무대로 사용되기도 했습니다. 또한 이곳은 메리여왕이 어린시절을 보냈고, 1543년 그녀의 대관식을 거행했던 곳이기도 합니다."
+        },
+        {
+          "meal": "중식 (현지식)",
+          "text": "중식 (현지식)"
+        },
+        {
+          "text": "에든버러성(외관) - 로열 마일 - 세인트 자일스 대성당 -빅토리아 스트리트 - 홀리루드하우스 궁전 (외관) - 스콧 기념탑 - 칼튼 힐",
+          "title": "에든버러성(외관) - 로열 마일 - 세인트 자일스 대성당 -빅토리아 스트리트 - 홀리루드하우스 궁전 (외관) - 스콧 기념탑 - 칼튼 힐"
+        },
+        {
+          "text": "옛 스코틀랜드 왕국의 수도, 에든버러 관광\n에든버러\n상세보기\n\nEdinburgh\n\n스코틀랜드의 수도, 에든버러(Edinburgh)\n\n1/2\n이전\n다음\n옛 스코틀랜드 왕국의 수도인 에든버러는 수백년 동안 만들어진 과거의 모습을 그대로 간직하고 있습니다. 유네스코 세계문화유산으로 도시 전체가 등재되었으며, 중세의 모습을 간직하고 있는 역사적인 도시입니다. 중세의 모습을 간직한 올드 타운과 현재의 뉴타운이 조화를 이루고 있습니다.\n에든버러 성(Edinburgh Castle)\n상세보기\n\n황량한 바위산 위에 세워진 고대의 요새\n\n6세기에 지어진 에든버러 성은 캐슬 록이라는 바위산 위에 세워진 고대의 요새입니다. 스코틀랜드의 왕들이 머물렀던 곳이며, 왕궁, 군사용 요새나 감옥으로도 사용되었던 유서깊은 장소입니다. 성 내에 있는 세인트 마가렛 예배당은 가장 오래된 건출물로 12세기 초에 지어졌고, 나머지는 대부분 16세기 이전의 것들입니다. 현재 에든버러 성은 영국국 사령부로서, 군이 주둔하고 있고 내부에는 스코틀랜드 국립 전쟁 박물관 등 스코틀랜드와 관련된 다양한 박물관이 있습니다. 일요일을 제외한 매일 오후 1시 정각에 대포를 쏘는 것도 볼거리입니다.\n로얄 마일\n상세보기\n\nThe Royal Mile\n\n자갈이 깔린 길, 로얄 마일\n\n로얄 마일은 에든버러 성에서 홀리루드 궁전으로 연결된 에든버러에서 가장 오래된 자갈이 깔린 길을 말합니다. 이길에는 에든버러를 대표하는 유명한 건축물과 저택들이 즐비한데, 그중에서 가장 유명한 명소로 로얄 마일의 양끝에 자리잡고 있는 에든버러 성과 홀리루드 궁전을 들 수 있습니다. 그 외에 성 자일스 성당과 존 녹스의 저택, 글래드스톤 랜드가 유명합니다. 로얄 마일에는 에든버러의 역사를 말해주는 건축물만 있는 것이 아니라, 많은 상점과 레스토랑, 카페가 즐비한 에든버러 시내의 중심으로 언제나 사람들로 가득한 과거와 현재가 공존하는 장소입니다.\n빅토리아 스트리트\n상세보기\n\n해리포터 속 다이애건엘리의 모델이 되었던 '빅토리아 스트리트'\n\n에든버러에서 가장 유명한 관광지 중 하나인 빅토리아 스트리트는 짙은 색의 건물로 장식된 계단식 조약돌의 곡선 형 리본으로 에든버러에서 가장 예쁜 거리로 잘 알려져 있습니다. 또한 해리포토 다이애건 앨리의 모티브가 된 거리로 해리포터 성지순례의 필수 관광지로 각광받고 있습니다.\n성 자일스 성당\n상세보기\n\nSt Giles Cathedral\n\n스코틀랜드 역사의 가운데 서 있는 성 자일스 성당\n\n1/2\n이전\n다음\n하이 스트리트(High Street) 맞은편에는 성 자일스 성당(St. Giles' Cathedral)이 자리 잡고 있습니다. 864년 전부터 이 곳에 터를 잡고 있었던 성당의 현재 건물은 15세기에 지어진 것으로 추정됩니다. 현재의 외관은 1829년, 건축가 윌리엄 번(William Burn)에 의해 만들어진 것입니다. 반면 성당 내부는 나무 조각장식이 화려한 아름다운 엉겅퀴(Thistle:스코틀랜드의 국화) 예배당을 비록해 정교한 솜씨를 뽐재는 스테인드 글래스, 훌륭한 오르간 등으로 인해 널리 알려져 있습니다.\n스콧 기념탑\n상세보기\n\nScott Monument\n\n월터 스콧경의 죽음을 애도하며 그의 작품을 고스란히 녹여놓은 스콧 기념관\n\n스콧 기녑탑(Scott Monument)은 월터 스콧경의 죽음의 애도하기 만들어진 것입니다. 1832년 9월 21일 스코틀랜드의 위대한 문호 월터 스콧경의 죽음 후 그의 죽음을 애도하며 정부 차원에서 디자인 공모를 통해 당선된 작품과 조각가들의 노력으로 바로 스콧 기념탑이 태어났습니다. 스콧 기념탑는 화려한 고딕양식으로 제작된 교회의 첨탑같이 아름다운 외형을 지니고 있습니다. 200피트가 넘는 높이의 스콧 기념비는 에든버러에서 가장 유명한 건축물 중 하나로 이곳을 방문한 이들이 반드시 봐야하는 명소로 자리잡았습니다."
+        },
+        {
+          "meal": "석식 (현지식)",
+          "text": "석식 (현지식)"
+        },
+        {
+          "text": "석식 후 호텔 투숙 및 자유 휴식",
+          "title": "석식 후 호텔 투숙 및 자유 휴식"
+        }
+      ],
+      "text": "에든버러\n\n조식 (호텔식)\n\n전용차량 - 프라이빗투어 -켈피스 -스털링성 관광\n스털링 성\n상세보기\n\n스코틀랜드 수난의 역사를 대변하는 스털링 성\n\n스털링 성은 포스 강 하구, 스코트랜드 남동부의 저지대에서 고지대로 이동할 수 있는 길을 점령할 수 있는 곳에 자리잡고 있는 스코틀랜드에서 전략적으로 가장 중요한 가치를 가진 성입니다. 때문에 스털링 성은 영국에 저항하는 스코틀랜드 저항의 역사에서 빼놓을 수 없는 곳이었고, 스코틀랜드의 다른 어떤 성보다 뺏고 빼앗기고를 반복했던 격전지 였습니다. 이런 이유로 스코틀랜드의 자유를 향한 의지를 영상으로 표현한 \"브레이브 하트\"의 주 무대로 사용되기도 했습니다. 또한 이곳은 메리여왕이 어린시절을 보냈고, 1543년 그녀의 대관식을 거행했던 곳이기도 합니다.\n\n중식 (현지식)\n\n에든버러성(외관) - 로열 마일 - 세인트 자일스 대성당 -빅토리아 스트리트 - 홀리루드하우스 궁전 (외관) - 스콧 기념탑 - 칼튼 힐\n옛 스코틀랜드 왕국의 수도, 에든버러 관광\n에든버러\n상세보기\n\nEdinburgh\n\n스코틀랜드의 수도, 에든버러(Edinburgh)\n\n1/2\n이전\n다음\n옛 스코틀랜드 왕국의 수도인 에든버러는 수백년 동안 만들어진 과거의 모습을 그대로 간직하고 있습니다. 유네스코 세계문화유산으로 도시 전체가 등재되었으며, 중세의 모습을 간직하고 있는 역사적인 도시입니다. 중세의 모습을 간직한 올드 타운과 현재의 뉴타운이 조화를 이루고 있습니다.\n에든버러 성(Edinburgh Castle)\n상세보기\n\n황량한 바위산 위에 세워진 고대의 요새\n\n6세기에 지어진 에든버러 성은 캐슬 록이라는 바위산 위에 세워진 고대의 요새입니다. 스코틀랜드의 왕들이 머물렀던 곳이며, 왕궁, 군사용 요새나 감옥으로도 사용되었던 유서깊은 장소입니다. 성 내에 있는 세인트 마가렛 예배당은 가장 오래된 건출물로 12세기 초에 지어졌고, 나머지는 대부분 16세기 이전의 것들입니다. 현재 에든버러 성은 영국국 사령부로서, 군이 주둔하고 있고 내부에는 스코틀랜드 국립 전쟁 박물관 등 스코틀랜드와 관련된 다양한 박물관이 있습니다. 일요일을 제외한 매일 오후 1시 정각에 대포를 쏘는 것도 볼거리입니다.\n로얄 마일\n상세보기\n\nThe Royal Mile\n\n자갈이 깔린 길, 로얄 마일\n\n로얄 마일은 에든버러 성에서 홀리루드 궁전으로 연결된 에든버러에서 가장 오래된 자갈이 깔린 길을 말합니다. 이길에는 에든버러를 대표하는 유명한 건축물과 저택들이 즐비한데, 그중에서 가장 유명한 명소로 로얄 마일의 양끝에 자리잡고 있는 에든버러 성과 홀리루드 궁전을 들 수 있습니다. 그 외에 성 자일스 성당과 존 녹스의 저택, 글래드스톤 랜드가 유명합니다. 로얄 마일에는 에든버러의 역사를 말해주는 건축물만 있는 것이 아니라, 많은 상점과 레스토랑, 카페가 즐비한 에든버러 시내의 중심으로 언제나 사람들로 가득한 과거와 현재가 공존하는 장소입니다.\n빅토리아 스트리트\n상세보기\n\n해리포터 속 다이애건엘리의 모델이 되었던 '빅토리아 스트리트'\n\n에든버러에서 가장 유명한 관광지 중 하나인 빅토리아 스트리트는 짙은 색의 건물로 장식된 계단식 조약돌의 곡선 형 리본으로 에든버러에서 가장 예쁜 거리로 잘 알려져 있습니다. 또한 해리포토 다이애건 앨리의 모티브가 된 거리로 해리포터 성지순례의 필수 관광지로 각광받고 있습니다.\n성 자일스 성당\n상세보기\n\nSt Giles Cathedral\n\n스코틀랜드 역사의 가운데 서 있는 성 자일스 성당\n\n1/2\n이전\n다음\n하이 스트리트(High Street) 맞은편에는 성 자일스 성당(St. Giles' Cathedral)이 자리 잡고 있습니다. 864년 전부터 이 곳에 터를 잡고 있었던 성당의 현재 건물은 15세기에 지어진 것으로 추정됩니다. 현재의 외관은 1829년, 건축가 윌리엄 번(William Burn)에 의해 만들어진 것입니다. 반면 성당 내부는 나무 조각장식이 화려한 아름다운 엉겅퀴(Thistle:스코틀랜드의 국화) 예배당을 비록해 정교한 솜씨를 뽐재는 스테인드 글래스, 훌륭한 오르간 등으로 인해 널리 알려져 있습니다.\n스콧 기념탑\n상세보기\n\nScott Monument\n\n월터 스콧경의 죽음을 애도하며 그의 작품을 고스란히 녹여놓은 스콧 기념관\n\n스콧 기녑탑(Scott Monument)은 월터 스콧경의 죽음의 애도하기 만들어진 것입니다. 1832년 9월 21일 스코틀랜드의 위대한 문호 월터 스콧경의 죽음 후 그의 죽음을 애도하며 정부 차원에서 디자인 공모를 통해 당선된 작품과 조각가들의 노력으로 바로 스콧 기념탑이 태어났습니다. 스콧 기념탑는 화려한 고딕양식으로 제작된 교회의 첨탑같이 아름다운 외형을 지니고 있습니다. 200피트가 넘는 높이의 스콧 기념비는 에든버러에서 가장 유명한 건축물 중 하나로 이곳을 방문한 이들이 반드시 봐야하는 명소로 자리잡았습니다.\n\n석식 (현지식)\n\n석식 후 호텔 투숙 및 자유 휴식\n호텔\n총 1개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n힐튼의 키우리오 컬렉션, 에든버러 칼레도니안 \n\nThe Caledonian Edinburgh, Curio Collection by Hilton상세보기\n\n식사\n[조식] 호텔식 [중식] 현지식 [석식] 현지식"
+    },
+    {
+      "day": "acc_con2",
+      "golf": [],
+      "hotel": [
+        "힐튼의 키우리오 컬렉션, 에든버러 칼레도니안"
+      ],
+      "images": [
+        {
+          "alt": "글렌이글스 PGA 센테너리 코스 (Gleneagles PGA Centenary Course)",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/09/16/10000/cb029787-0ba0-43d5-986a-1f8d5d88d3dc.jpg"
+        },
+        {
+          "alt": "글렌이글스 PGA 센테너리 코스 (Gleneagles PGA Centenary Course)",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/09/16/10000/e8be7605-4b0a-4727-ad5d-20dc8f559748.jpg"
+        },
+        {
+          "alt": "글렌이글스 PGA 센테너리 코스 (Gleneagles PGA Centenary Course)",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/09/16/10000/e6a3d86f-8fc9-4e60-acc4-f4c09a53211e.jpg"
+        },
+        {
+          "alt": "글렌이글스 PGA 센테너리 코스 (Gleneagles PGA Centenary Course)",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/09/16/10000/34a1631a-b06c-4f2c-8483-09783a61da43.jpg"
+        },
+        {
+          "alt": "글렌이글스 PGA 센테너리 코스 (Gleneagles PGA Centenary Course)",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/09/16/10000/cb029787-0ba0-43d5-986a-1f8d5d88d3dc.jpg"
+        },
+        {
+          "alt": "글렌이글스 PGA 센테너리 코스 (Gleneagles PGA Centenary Course)",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/09/16/10000/e8be7605-4b0a-4727-ad5d-20dc8f559748.jpg"
+        },
+        {
+          "alt": "글렌이글스 PGA 센테너리 코스 (Gleneagles PGA Centenary Course)",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/09/16/10000/e6a3d86f-8fc9-4e60-acc4-f4c09a53211e.jpg"
+        },
+        {
+          "alt": "글렌이글스 PGA 센테너리 코스 (Gleneagles PGA Centenary Course)",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/09/16/10000/34a1631a-b06c-4f2c-8483-09783a61da43.jpg"
+        }
+      ],
+      "meals": "[조식] 호텔식 [중식] 클럽하우스식 [석식] 불포함",
+      "stops": [
+        {
+          "text": "에든버러",
+          "title": "에든버러"
+        },
+        {
+          "meal": "조식 (호텔식)",
+          "text": "조식 (호텔식)"
+        },
+        {
+          "text": "전용 차량으로 글렌이글스 이동 (약 1시간)",
+          "title": "전용 차량으로 글렌이글스 이동 (약 1시간)"
+        },
+        {
+          "text": "▶ Gleneagles PGA Centenary Course 18홀 라운드\n\n디 오픈을 여러 차례 개최한 세계적인 챔피언십 링크스 코스",
+          "title": "▶ Gleneagles PGA Centenary Course 18홀 라운드"
+        },
+        {
+          "text": "[라이더컵 개최 코스] 글렌이글스 PGA 센테너리 코스 (Gleneagles PGA Centenary Course)\n\n■ 코스: 18홀 / 파 72 / 6,815야드\n■ 개장: 1993년\n■ 설계: 잭 니클라우스(Jack Nicklaus)\n■ 주요 대회 이력: 2014 라이더컵 / 2019 솔하임컵 개최\n■ 홈페이지: (바로가기)\n\n",
+          "title": "[라이더컵 개최 코스] 글렌이글스 PGA 센테너리 코스 (Gleneagles PGA Centenary Course)"
+        },
+        {
+          "text": "Gleneagles PGA Centenary Course\n상세보기\n1/2\n이전\n다음\n\n홈페이지 : https://gleneagles.com/golf/the-pga-centenary/\n\n홀(HOLE) : 18\n\n파(PAR) : 72\n\n야드(YARD) : 6815\n\n클럽하우스 : 1\n\n골프장 소개\n골프의 전설 잭 니클라우스가 설계한 글렌이글스의 대표 챔피언십 코스입니다. 스코틀랜드의 아름다운 오킬 힐스를 배경으로 드라마틱한 고저 차와 전략적인 벙커, 워터 해저드가 조화를 이룹니다. 2014년 라이더컵과 2019년 솔하임컵을 모두 개최하며 세계적인 토너먼트 코스로 명성을 확립했으며, 장타뿐만 아니라 정교한 코스 매니지먼트가 요구되는 웅장한 파크랜드 코스입니다."
+        },
+        {
+          "meal": "중식 (클럽하우스식)",
+          "text": "중식 (클럽하우스식)"
+        },
+        {
+          "text": "라운드 종료 후 에든버러 귀환",
+          "title": "라운드 종료 후 에든버러 귀환"
+        },
+        {
+          "meal": "석식 (불포함)",
+          "text": "석식 (불포함)"
+        },
+        {
+          "text": "석식 후 호텔 투숙 및 자유 휴식",
+          "title": "석식 후 호텔 투숙 및 자유 휴식"
+        }
+      ],
+      "text": "에든버러\n\n조식 (호텔식)\n\n전용 차량으로 글렌이글스 이동 (약 1시간)\n▶ Gleneagles PGA Centenary Course 18홀 라운드\n\n디 오픈을 여러 차례 개최한 세계적인 챔피언십 링크스 코스\n\n[라이더컵 개최 코스] 글렌이글스 PGA 센테너리 코스 (Gleneagles PGA Centenary Course)\n\n■ 코스: 18홀 / 파 72 / 6,815야드\n■ 개장: 1993년\n■ 설계: 잭 니클라우스(Jack Nicklaus)\n■ 주요 대회 이력: 2014 라이더컵 / 2019 솔하임컵 개최\n■ 홈페이지: (바로가기)\n\n\n\nGleneagles PGA Centenary Course\n상세보기\n1/2\n이전\n다음\n\n홈페이지 : https://gleneagles.com/golf/the-pga-centenary/\n\n홀(HOLE) : 18\n\n파(PAR) : 72\n\n야드(YARD) : 6815\n\n클럽하우스 : 1\n\n골프장 소개\n골프의 전설 잭 니클라우스가 설계한 글렌이글스의 대표 챔피언십 코스입니다. 스코틀랜드의 아름다운 오킬 힐스를 배경으로 드라마틱한 고저 차와 전략적인 벙커, 워터 해저드가 조화를 이룹니다. 2014년 라이더컵과 2019년 솔하임컵을 모두 개최하며 세계적인 토너먼트 코스로 명성을 확립했으며, 장타뿐만 아니라 정교한 코스 매니지먼트가 요구되는 웅장한 파크랜드 코스입니다.\n\n중식 (클럽하우스식)\n\n라운드 종료 후 에든버러 귀환\n\n석식 (불포함)\n\n석식 후 호텔 투숙 및 자유 휴식\n호텔\n총 1개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n힐튼의 키우리오 컬렉션, 에든버러 칼레도니안 \n\nThe Caledonian Edinburgh, Curio Collection by Hilton상세보기\n\n식사\n[조식] 호텔식 [중식] 클럽하우스식 [석식] 불포함"
+    },
+    {
+      "day": "acc_con3",
+      "golf": [
+        "카누스티 골프 링크스"
+      ],
+      "hotel": [
+        "힐튼의 키우리오 컬렉션, 에든버러 칼레도니안"
+      ],
+      "images": [
+        {
+          "alt": "카누스티 골프 링크스",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/06/30/10000/a0fe3060-d066-4efc-ad83-edfc294e93cc.jpg"
+        },
+        {
+          "alt": "카누스티 골프 링크스",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/06/30/10000/b526be58-b43d-4900-97dd-631e130a7296.jpg"
+        },
+        {
+          "alt": "카누스티 골프 링크스",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/06/30/10000/71a2168b-971c-42b4-8b10-6bb3c09b68af.jpg"
+        }
+      ],
+      "meals": "[조식] 호텔식 [중식] 클럽하우스식 [석식] 불포함",
+      "stops": [
+        {
+          "text": "에든버러",
+          "title": "에든버러"
+        },
+        {
+          "meal": "조식 (호텔식)",
+          "text": "조식 (호텔식)"
+        },
+        {
+          "text": "호텔 조식 후 카누스티로 이동 - Carnoustie Golf Links 골프장으로 이동 (약 1시간 30분 소요)",
+          "title": "호텔 조식 후 카누스티로 이동 - Carnoustie Golf Links 골프장으로 이동 (약 1시간 30분 소요)"
+        },
+        {
+          "text": "Carnoustie Golf Links 18홀 라운드\n\n디 오픈을 여러 차례 개최한 세계적인 챔피언십 링크스 코스",
+          "title": "Carnoustie Golf Links 18홀 라운드"
+        },
+        {
+          "text": "Carnoustie Golf Links\n상세보기\n골프장소개\n카누스티 골프 링크스는 스코틀랜드에서 가장 도전적인 챔피언십 코스로, ‘세계에서 가장 어려운 오픈 개최지’로 불릴 만큼 까다로운 레이아웃을 자랑합니다. 협소한 페어웨이, 깊은 벙커, 바람의 변수는 정밀한 샷과 강인한 멘탈을 요구합니다. 실력 있는 골퍼들에게 진정한 시험의 무대로 평가받으며, 깊은 전통과 실전 감각을 동시에 갖춘 명문 코스입니다.\n\n\n홀(HOLE) : 18\n\n가는방법 : Links House, Links Parade, Carnoustie DD7 7JE, UK \n\n파(PAR) : 72\n\n야드(YARD) : 6941"
+        },
+        {
+          "meal": "중식 (클럽하우스식)",
+          "text": "중식 (클럽하우스식)"
+        },
+        {
+          "text": "라운드 종료 후 에든버러 귀환",
+          "title": "라운드 종료 후 에든버러 귀환"
+        },
+        {
+          "meal": "석식 (불포함)",
+          "text": "석식 (불포함)"
+        },
+        {
+          "text": "석식 후 호텔 투숙 및 자유 휴식",
+          "title": "석식 후 호텔 투숙 및 자유 휴식"
+        }
+      ],
+      "text": "에든버러\n\n조식 (호텔식)\n\n호텔 조식 후 카누스티로 이동 - Carnoustie Golf Links 골프장으로 이동 (약 1시간 30분 소요)\nCarnoustie Golf Links 18홀 라운드\n\n디 오픈을 여러 차례 개최한 세계적인 챔피언십 링크스 코스\n\nCarnoustie Golf Links\n상세보기\n골프장소개\n카누스티 골프 링크스는 스코틀랜드에서 가장 도전적인 챔피언십 코스로, ‘세계에서 가장 어려운 오픈 개최지’로 불릴 만큼 까다로운 레이아웃을 자랑합니다. 협소한 페어웨이, 깊은 벙커, 바람의 변수는 정밀한 샷과 강인한 멘탈을 요구합니다. 실력 있는 골퍼들에게 진정한 시험의 무대로 평가받으며, 깊은 전통과 실전 감각을 동시에 갖춘 명문 코스입니다.\n\n\n홀(HOLE) : 18\n\n가는방법 : Links House, Links Parade, Carnoustie DD7 7JE, UK \n\n파(PAR) : 72\n\n야드(YARD) : 6941\n\n중식 (클럽하우스식)\n\n라운드 종료 후 에든버러 귀환\n\n석식 (불포함)\n\n석식 후 호텔 투숙 및 자유 휴식\n호텔\n총 1개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n힐튼의 키우리오 컬렉션, 에든버러 칼레도니안 \n\nThe Caledonian Edinburgh, Curio Collection by Hilton상세보기\n\n골프\n총 1개의 예정 골프장이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n카누스티 골프 링크스\n\nCarnoustie Golf Links상세보기\n\n식사\n[조식] 호텔식 [중식] 클럽하우스식 [석식] 불포함"
+    },
+    {
+      "day": "acc_con4",
+      "golf": [],
+      "hotel": [
+        "힐튼의 키우리오 컬렉션, 에든버러 칼레도니안"
+      ],
+      "images": [
+        {
+          "alt": "ST ANDREWS",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2009/12/16/10000/a6e1f864-20cd-4b58-87a0-bd7a66d0d022.jpg"
+        },
+        {
+          "alt": "St Andrews Old Course_전경",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2009/08/03/10000/b12ce24f-fdcd-4c05-8934-16a6eade78a1.jpg"
+        },
+        {
+          "alt": "St Andrews Old Course_전경",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2009/08/03/10000/dc1e8939-53e1-4496-a62d-1e50596da5b1.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/05/14/10000/14224a62-c8b1-4625-9b17-67a13d914251.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2009/12/16/10000/8461e4c6-5922-4447-bd6c-2b9399c3290f.jpg"
+        },
+        {
+          "alt": "ST ANDREWS",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2009/12/16/10000/af8804c3-7db0-4058-a0af-1711a37f4f1f.jpg"
+        },
+        {
+          "alt": "ST ANDREWS",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2009/12/16/10000/a6e1f864-20cd-4b58-87a0-bd7a66d0d022.jpg"
+        },
+        {
+          "alt": "St Andrews Old Course_전경",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2009/08/03/10000/b12ce24f-fdcd-4c05-8934-16a6eade78a1.jpg"
+        },
+        {
+          "alt": "St Andrews Old Course_전경",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2009/08/03/10000/dc1e8939-53e1-4496-a62d-1e50596da5b1.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/05/14/10000/14224a62-c8b1-4625-9b17-67a13d914251.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2009/12/16/10000/8461e4c6-5922-4447-bd6c-2b9399c3290f.jpg"
+        },
+        {
+          "alt": "ST ANDREWS",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2009/12/16/10000/af8804c3-7db0-4058-a0af-1711a37f4f1f.jpg"
+        }
+      ],
+      "meals": "[조식] 호텔식 [중식] 불포함 [석식] 호텔식",
+      "stops": [
+        {
+          "text": "에든버러",
+          "title": "에든버러"
+        },
+        {
+          "meal": "조식 (호텔식)",
+          "text": "조식 (호텔식)"
+        },
+        {
+          "text": "호텔 조식 후 세인트 앤드류스로 이동 (약 1시간 30분)",
+          "title": "호텔 조식 후 세인트 앤드류스로 이동 (약 1시간 30분)"
+        },
+        {
+          "text": "세인트 앤드루스",
+          "title": "세인트 앤드루스"
+        },
+        {
+          "text": "🏆 [디오픈] 제155회 디 오픈 챔피언십 최종 라운드 관람 — St Andrews Old Course\n\n세계 정상급 골퍼들의 챔피언십 선데이 및 클라레 저그 우승 경쟁 현장 관람\n역사적인 18번 그린의 챔피언 트로피 시상식 관람\n",
+          "title": "🏆 [디오픈] 제155회 디 오픈 챔피언십 최종 라운드 관람 — St Andrews Old Course"
+        },
+        {
+          "text": "[100대 골프장]ST. ANDREWS (Old Course)\n상세보기\n1/2\n이전\n다음\n골프장 소개\nSt Andrews의 The Old Course는 의심할 바 없이 세계에서 가장 유명한 golf course로 세계 골퍼들이 일생에 적어도 한번 정도 골프 기회를 가지고 싶어하는 골프 순례의 메카이며 적어도 5세기 이상 골프가 계속되어온 골프의 정신적인 고향(Home of Golf)이라고 할 수 있다. 이곳은 Old Tom Morris과 Allan Robertson의 정신이 깃든 곳이며, 게임의 최상위 원칙들과 개별적인 명성이 꾸준히 형성되어 온 것과는 별도로 세계 골프의 규정과 표준이 이곳에서 생겨 났다.\nThe Old Course 는 해안에 위치한 고전적인 links이지만 첫 번째와 마지막 hall을 제외하고는 바다를 조망할 수 없다. Royal Aberdeen에서와 같이 커다란 모래 언덕은 없으나, fairway는 넓고 기복이 심한 편이며double green은 대단히 큰 편이어서 골프 라운딩 내내 또 다른 묘미를 즐길 수 있다. 그러나 bunkering은 게임이 벌어지는 여타의 golf course보다 가장 어려운 곳 중의 하나이다. Bernard Darwin 에 의해 “탐욕스러운 매복병”이라 묘사된 이 곳의 bunker는 독특하고 신비로운 links에서 생존하기 위해 골퍼들에게 있어서는 중요한 통과의례가 되고 있다. 따라서 2000년 브리티시 오픈 챔피언십에서 타이거 우즈가 이곳 올드 코스에서 우승할 수 있었던 이유로 코스 전반에 걸쳐 있는 악명 높은 벙커들을 무사히 피해갈 수 있었기 때문이라 말할 수 있다.\n첫 번째 그린에서의 퍼팅 이후 만나는 두 번째 홀은 클럽하우스 전면에 있는데 18번 홀을 마치는 그 순간까지 골프의 천국에 와 있다는 느낌을 결코 떨쳐버리지 못할 것이다.\n\n홈페이지 : http://www.standrews.org.uk/\n\n홀(HOLE) : 18\n\n가는방법 : 에딘버러 - 세인트 앤드류 : 약 1시간 30분 소요\n\n파(PAR) : 72\n\n야드(YARD) : 6609"
+        },
+        {
+          "meal": "중식 (불포함)",
+          "text": "중식 (불포함)"
+        },
+        {
+          "text": "경기 종료 후 전용 차량으로 에든버러 귀환",
+          "title": "경기 종료 후 전용 차량으로 에든버러 귀환"
+        },
+        {
+          "text": "에든버러",
+          "title": "에든버러"
+        },
+        {
+          "meal": "석식 (호텔식)",
+          "text": "석식 (호텔식)"
+        }
+      ],
+      "text": "에든버러\n\n조식 (호텔식)\n\n호텔 조식 후 세인트 앤드류스로 이동 (약 1시간 30분)\n세인트 앤드루스\n🏆 [디오픈] 제155회 디 오픈 챔피언십 최종 라운드 관람 — St Andrews Old Course\n\n세계 정상급 골퍼들의 챔피언십 선데이 및 클라레 저그 우승 경쟁 현장 관람\n역사적인 18번 그린의 챔피언 트로피 시상식 관람\n\n\n[100대 골프장]ST. ANDREWS (Old Course)\n상세보기\n1/2\n이전\n다음\n골프장 소개\nSt Andrews의 The Old Course는 의심할 바 없이 세계에서 가장 유명한 golf course로 세계 골퍼들이 일생에 적어도 한번 정도 골프 기회를 가지고 싶어하는 골프 순례의 메카이며 적어도 5세기 이상 골프가 계속되어온 골프의 정신적인 고향(Home of Golf)이라고 할 수 있다. 이곳은 Old Tom Morris과 Allan Robertson의 정신이 깃든 곳이며, 게임의 최상위 원칙들과 개별적인 명성이 꾸준히 형성되어 온 것과는 별도로 세계 골프의 규정과 표준이 이곳에서 생겨 났다.\nThe Old Course 는 해안에 위치한 고전적인 links이지만 첫 번째와 마지막 hall을 제외하고는 바다를 조망할 수 없다. Royal Aberdeen에서와 같이 커다란 모래 언덕은 없으나, fairway는 넓고 기복이 심한 편이며double green은 대단히 큰 편이어서 골프 라운딩 내내 또 다른 묘미를 즐길 수 있다. 그러나 bunkering은 게임이 벌어지는 여타의 golf course보다 가장 어려운 곳 중의 하나이다. Bernard Darwin 에 의해 “탐욕스러운 매복병”이라 묘사된 이 곳의 bunker는 독특하고 신비로운 links에서 생존하기 위해 골퍼들에게 있어서는 중요한 통과의례가 되고 있다. 따라서 2000년 브리티시 오픈 챔피언십에서 타이거 우즈가 이곳 올드 코스에서 우승할 수 있었던 이유로 코스 전반에 걸쳐 있는 악명 높은 벙커들을 무사히 피해갈 수 있었기 때문이라 말할 수 있다.\n첫 번째 그린에서의 퍼팅 이후 만나는 두 번째 홀은 클럽하우스 전면에 있는데 18번 홀을 마치는 그 순간까지 골프의 천국에 와 있다는 느낌을 결코 떨쳐버리지 못할 것이다.\n\n홈페이지 : http://www.standrews.org.uk/\n\n홀(HOLE) : 18\n\n가는방법 : 에딘버러 - 세인트 앤드류 : 약 1시간 30분 소요\n\n파(PAR) : 72\n\n야드(YARD) : 6609\n\n중식 (불포함)\n\n경기 종료 후 전용 차량으로 에든버러 귀환\n에든버러\n\n석식 (호텔식)\n\n호텔\n총 1개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n힐튼의 키우리오 컬렉션, 에든버러 칼레도니안 \n\nThe Caledonian Edinburgh, Curio Collection by Hilton상세보기\n\n식사\n[조식] 호텔식 [중식] 불포함 [석식] 호텔식"
+    },
+    {
+      "day": "acc_con5",
+      "golf": [],
+      "hotel": [
+        "페어몬트 세인트앤드류스"
+      ],
+      "images": [
+        {
+          "alt": "캐슬 스튜어트 골프 링크스 ( Castle Stuart Golf Links / Cabot Highlands)",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/09/16/10000/547424f5-71d5-432e-857f-9dc60e0494e6.jpg"
+        },
+        {
+          "alt": "캐슬 스튜어트 골프 링크스 ( Castle Stuart Golf Links / Cabot Highlands)",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/09/16/10000/9158b67e-36fc-473a-b9b8-ec8cab4268b3.jpg"
+        },
+        {
+          "alt": "캐슬 스튜어트 골프 링크스 ( Castle Stuart Golf Links / Cabot Highlands)",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/09/16/10000/5e8cd8a9-c67a-420d-8a4c-6fbff646cc45.jpg"
+        },
+        {
+          "alt": "캐슬 스튜어트 골프 링크스 ( Castle Stuart Golf Links / Cabot Highlands)",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/09/16/10000/b677ecf6-a090-4d28-b305-ff0174cef286.jpg"
+        },
+        {
+          "alt": "캐슬 스튜어트 골프 링크스 ( Castle Stuart Golf Links / Cabot Highlands)",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/09/16/10000/547424f5-71d5-432e-857f-9dc60e0494e6.jpg"
+        },
+        {
+          "alt": "캐슬 스튜어트 골프 링크스 ( Castle Stuart Golf Links / Cabot Highlands)",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/09/16/10000/9158b67e-36fc-473a-b9b8-ec8cab4268b3.jpg"
+        },
+        {
+          "alt": "캐슬 스튜어트 골프 링크스 ( Castle Stuart Golf Links / Cabot Highlands)",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/09/16/10000/5e8cd8a9-c67a-420d-8a4c-6fbff646cc45.jpg"
+        },
+        {
+          "alt": "캐슬 스튜어트 골프 링크스 ( Castle Stuart Golf Links / Cabot Highlands)",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/09/16/10000/b677ecf6-a090-4d28-b305-ff0174cef286.jpg"
+        },
+        {
+          "alt": "페어먼트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/02/21/10000/c6725367-a7ae-453f-933c-c13a9dc96541.jpg"
+        },
+        {
+          "alt": "페어먼트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/02/21/10000/76a4fb83-12b9-4d24-b012-43eb776191cd.jpg"
+        },
+        {
+          "alt": "페어먼트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/02/21/10000/699c2074-db16-45e4-a467-05d6a960a34c.jpg"
+        },
+        {
+          "alt": "페어먼트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/02/21/10000/22903749-b91d-450e-b140-c7ad922741a1.jpg"
+        },
+        {
+          "alt": "페어먼트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/02/21/10000/466e24ac-820e-4871-a6e4-0d1a29af9cbc.jpg"
+        },
+        {
+          "alt": "페어먼트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/02/21/10000/79c6d37d-2ca7-44c3-84e5-08dcfd01f8fc.jpg"
+        },
+        {
+          "alt": "페어먼트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/02/21/10000/44df2cda-fe68-40c2-8baa-f57b17e94f98.jpg"
+        },
+        {
+          "alt": "페어먼트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/02/21/10000/c6725367-a7ae-453f-933c-c13a9dc96541.jpg"
+        },
+        {
+          "alt": "페어먼트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/02/21/10000/76a4fb83-12b9-4d24-b012-43eb776191cd.jpg"
+        },
+        {
+          "alt": "페어먼트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/02/21/10000/699c2074-db16-45e4-a467-05d6a960a34c.jpg"
+        },
+        {
+          "alt": "페어먼트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/02/21/10000/22903749-b91d-450e-b140-c7ad922741a1.jpg"
+        }
+      ],
+      "meals": "[조식] 도시락 [중식] 현지식 [석식] 클럽하우스식",
+      "stops": [
+        {
+          "text": "에든버러",
+          "title": "에든버러"
+        },
+        {
+          "text": "06:30 체크아웃 (새벽 체크아웃으로 호텔 조식 운영하지않아 도식락으로 대체됩니다.)",
+          "title": "06:30 체크아웃 (새벽 체크아웃으로 호텔 조식 운영하지않아 도식락으로 대체됩니다.)"
+        },
+        {
+          "meal": "조식 (도시락 )",
+          "text": "조식 (도시락 )"
+        },
+        {
+          "text": "스페이사이드 이동 (약 3시간 30분)",
+          "title": "스페이사이드 이동 (약 3시간 30분)"
+        },
+        {
+          "text": "🥃 10:00~ [프리미엄 투어] 맥캘란(The Macallan) 싱글몰트 위스키 증류소 투어 & 프라이빗 테이스팅\n\n🍷 스코틀랜드 하이랜드의 명가, 맥캘란 증류소 탐방 및 장인의 솜씨가 담긴 최상급 싱글몰트 위스키 시음\n\n스페이사이드의 자연 속에 자리한 세계적인 싱글몰트 위스키 브랜드의 증류소이자 방문자 체험 공간입니다.\n잔디 지붕의 현대적인 건축과 증류 공정, 셰리 오크 캐스크의 철학을 살펴보고 프리미엄 테이스팅을 즐깁니다.",
+          "title": "🥃 10:00~ [프리미엄 투어] 맥캘란(The Macallan) 싱글몰트 위스키 증류소 투어 & 프라이빗 테이스팅"
+        },
+        {
+          "meal": "중식 (현지식)",
+          "text": "중식 (현지식)"
+        },
+        {
+          "text": "골프장으로 이동 ( 약 1시간 소요)",
+          "title": "골프장으로 이동 ( 약 1시간 소요)"
+        },
+        {
+          "text": "14:45~ Castle Stuart Golf Links 18홀 라운드",
+          "title": "14:45~ Castle Stuart Golf Links 18홀 라운드"
+        },
+        {
+          "text": "[세계100대코스] 캐슬 스튜어트 골프 링크스 ( Castle Stuart Golf Links / Cabot Highlands)\n\n■ 코스: 18홀 / 파 72 / 7,009야드(블랙 티 기준)\n■ 개장: 2009년\n■ 설계: 길 한스(Gil Hanse), 마크 파시넨(Mark Parsinen)\n■ 랭킹 및 대회 이력: Golf Digest 세계 100대 코스 51위 / GOLF 세계 100대 코스 2025–2026년 97위 / 스코티시 오픈 4회 개최\n■ 홈페이지: (바로가기)\n",
+          "title": "[세계100대코스] 캐슬 스튜어트 골프 링크스 ( Castle Stuart Golf Links / Cabot Highlands)"
+        },
+        {
+          "text": "Castle Stuart Golf Links / Cabot Highlands\n상세보기\n1/2\n이전\n다음\n\n홈페이지 : https://cabot.com/highlands/golf/castle-stuart/ \n\n홀(HOLE) : 19\n\n파(PAR) : 72\n\n야드(YARD) : 7009\n\n클럽하우스 : 1\n\n골프장 소개\n과거 캐슬 스튜어트 골프 링크스로 알려진 캐벗 하이랜드의 대표 코스입니다. 모레이 퍼스 해안을 따라 펼쳐지는 넓고 자연스러운 페어웨이와 바다로 이어지는 듯한 인피니티 그린, 코스 곳곳에서 바라보는 하이랜드의 파노라마 전망이 인상적입니다. 전통적인 스코틀랜드 링크스의 전략성과 현대적인 플레이 편의성을 조화시켰으며, 강한 바람 속에서도 다양한 공략 루트를 선택할 수 있도록 설계된 세계적인 모던 링크스입니다."
+        },
+        {
+          "meal": "석식 (클럽하우스식)",
+          "text": "석식 (클럽하우스식)"
+        },
+        {
+          "text": "라운드 후 세인트 앤드류스로 이동 (약 3시간)",
+          "title": "라운드 후 세인트 앤드류스로 이동 (약 3시간)"
+        },
+        {
+          "text": "세인트 앤드루스",
+          "title": "세인트 앤드루스"
+        },
+        {
+          "text": "Fairmont St Andrews\n\n페어몬트 세인트앤드류스\n\n1/3\n이전\n다음\nFairmont St.Andrews\n페어몬트 세인트앤드루스는 북해와 세인트앤드루스 베이가 내려다보이는 약 520에이커 규모의 해안 절벽 위에 자리한 5성급 골프 리조트입니다. 넓고 우아한 객실에는 스코틀랜드 전통을 반영한 타탄 패턴과 자연스러운 색감이 적용됐으며, 일부 객실에서는 골프 코스와 바다의 파노라마 전망을 감상할 수 있습니다. 리조트 내에는 토런스 코스와 키톡스 코스 등 2개의 18홀 챔피언십 골프 코스를 비롯해 전문 골프 연습시설, 페어몬트 스파, 실내 수영장, 다양한 레스토랑과 바가 마련되어 있습니다. 세인트앤드루스 타운에서 약 5km 떨어져 있어 조용하고 여유로운 휴식과 프리미엄 골프 여행을 함께 즐기기에 적합합니다.\n\n■ 객실수: 213개 객실 및 스위트룸 / 4베드룸 매너 하우스 2채\n■ 부대시설: 토런스·키톡스 18홀 챔피언십 코스, 골프 연습시설, PGA 레슨, 레스토랑 및 바, 페어몬트 스파, 16m 실내 수영장, 자쿠지, 사우나, 아로마테라피 스팀룸, 피트니스센터, 10개 트리트먼트룸, 컨시어지, 무료 주차장 등\n■ 홈페이지: https://www.fairmont.com/en/hotels/st-andrews/fairmont-st-andrews.html\n■ 체크인: 16:00 / 체크아웃: 12:00\n■ 주소: St Andrews, Fife KY16 8PN, United Kingdom\n"
+        },
+        {
+          "text": "호텔 체크인 후 휴식",
+          "title": "호텔 체크인 후 휴식"
+        }
+      ],
+      "text": "에든버러\n06:30 체크아웃 (새벽 체크아웃으로 호텔 조식 운영하지않아 도식락으로 대체됩니다.)\n\n조식 (도시락 )\n\n스페이사이드 이동 (약 3시간 30분)\n🥃 10:00~ [프리미엄 투어] 맥캘란(The Macallan) 싱글몰트 위스키 증류소 투어 & 프라이빗 테이스팅\n\n🍷 스코틀랜드 하이랜드의 명가, 맥캘란 증류소 탐방 및 장인의 솜씨가 담긴 최상급 싱글몰트 위스키 시음\n\n스페이사이드의 자연 속에 자리한 세계적인 싱글몰트 위스키 브랜드의 증류소이자 방문자 체험 공간입니다.\n잔디 지붕의 현대적인 건축과 증류 공정, 셰리 오크 캐스크의 철학을 살펴보고 프리미엄 테이스팅을 즐깁니다.\n\n중식 (현지식)\n\n골프장으로 이동 ( 약 1시간 소요)\n14:45~ Castle Stuart Golf Links 18홀 라운드\n[세계100대코스] 캐슬 스튜어트 골프 링크스 ( Castle Stuart Golf Links / Cabot Highlands)\n\n■ 코스: 18홀 / 파 72 / 7,009야드(블랙 티 기준)\n■ 개장: 2009년\n■ 설계: 길 한스(Gil Hanse), 마크 파시넨(Mark Parsinen)\n■ 랭킹 및 대회 이력: Golf Digest 세계 100대 코스 51위 / GOLF 세계 100대 코스 2025–2026년 97위 / 스코티시 오픈 4회 개최\n■ 홈페이지: (바로가기)\n\n\nCastle Stuart Golf Links / Cabot Highlands\n상세보기\n1/2\n이전\n다음\n\n홈페이지 : https://cabot.com/highlands/golf/castle-stuart/ \n\n홀(HOLE) : 19\n\n파(PAR) : 72\n\n야드(YARD) : 7009\n\n클럽하우스 : 1\n\n골프장 소개\n과거 캐슬 스튜어트 골프 링크스로 알려진 캐벗 하이랜드의 대표 코스입니다. 모레이 퍼스 해안을 따라 펼쳐지는 넓고 자연스러운 페어웨이와 바다로 이어지는 듯한 인피니티 그린, 코스 곳곳에서 바라보는 하이랜드의 파노라마 전망이 인상적입니다. 전통적인 스코틀랜드 링크스의 전략성과 현대적인 플레이 편의성을 조화시켰으며, 강한 바람 속에서도 다양한 공략 루트를 선택할 수 있도록 설계된 세계적인 모던 링크스입니다.\n\n석식 (클럽하우스식)\n\n라운드 후 세인트 앤드류스로 이동 (약 3시간)\n세인트 앤드루스\nFairmont St Andrews\n\n페어몬트 세인트앤드류스\n\n1/3\n이전\n다음\nFairmont St.Andrews\n페어몬트 세인트앤드루스는 북해와 세인트앤드루스 베이가 내려다보이는 약 520에이커 규모의 해안 절벽 위에 자리한 5성급 골프 리조트입니다. 넓고 우아한 객실에는 스코틀랜드 전통을 반영한 타탄 패턴과 자연스러운 색감이 적용됐으며, 일부 객실에서는 골프 코스와 바다의 파노라마 전망을 감상할 수 있습니다. 리조트 내에는 토런스 코스와 키톡스 코스 등 2개의 18홀 챔피언십 골프 코스를 비롯해 전문 골프 연습시설, 페어몬트 스파, 실내 수영장, 다양한 레스토랑과 바가 마련되어 있습니다. 세인트앤드루스 타운에서 약 5km 떨어져 있어 조용하고 여유로운 휴식과 프리미엄 골프 여행을 함께 즐기기에 적합합니다.\n\n■ 객실수: 213개 객실 및 스위트룸 / 4베드룸 매너 하우스 2채\n■ 부대시설: 토런스·키톡스 18홀 챔피언십 코스, 골프 연습시설, PGA 레슨, 레스토랑 및 바, 페어몬트 스파, 16m 실내 수영장, 자쿠지, 사우나, 아로마테라피 스팀룸, 피트니스센터, 10개 트리트먼트룸, 컨시어지, 무료 주차장 등\n■ 홈페이지: https://www.fairmont.com/en/hotels/st-andrews/fairmont-st-andrews.html\n■ 체크인: 16:00 / 체크아웃: 12:00\n■ 주소: St Andrews, Fife KY16 8PN, United Kingdom\n\n호텔 체크인 후 휴식\n호텔\n총 1개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n페어몬트 세인트앤드류스 \n\nFairmont St Andrews상세보기\n\n식사\n[조식] 도시락 [중식] 현지식 [석식] 클럽하우스식"
+    },
+    {
+      "day": "acc_con6",
+      "golf": [],
+      "hotel": [
+        "페어몬트 세인트앤드류스"
+      ],
+      "images": [
+        {
+          "alt": "세인드앤드류스 뉴코스 ",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/28/10000/61d1af55-b5dd-435b-92f7-7b03a58af767.jpg"
+        },
+        {
+          "alt": "세인드앤드류스 뉴코스 ",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/28/10000/2cb742e3-e280-4193-b809-736bc34b6adf.jpg"
+        },
+        {
+          "alt": "세인드앤드류스 뉴코스 ",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/28/10000/99ed19b6-6b6f-46c0-b89b-8b5ed293a6b2.jpg"
+        },
+        {
+          "alt": "세인드앤드류스주빌리코스",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/28/10000/4f3326c0-0d8a-4741-933e-c20b300ffc9d.jpg"
+        },
+        {
+          "alt": "세인드앤드류스주빌리코스",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/28/10000/82c0e63b-ca60-4a2f-9627-9813b2afa25e.png"
+        },
+        {
+          "alt": "세인드앤드류스주빌리코스",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/28/10000/8d62c7ab-91ca-42a1-ad2e-7f2d9353be8a.jpg"
+        },
+        {
+          "alt": "세인트앤드류스캐슬코스",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/28/10000/db46614d-d114-43bf-b28d-90fa5814506d.jpg"
+        },
+        {
+          "alt": "세인트앤드류스캐슬코스",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/28/10000/b9976362-764f-42e5-917a-313bb6e2180d.jpg"
+        },
+        {
+          "alt": "세인트앤드류스캐슬코스",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/28/10000/b0cc0e23-fd5f-4c9d-af21-37627be6792c.jpg"
+        }
+      ],
+      "meals": "[조식] 호텔식 [중식] 클럽하우스식 [석식] 호텔식",
+      "stops": [
+        {
+          "text": "세인트 앤드루스",
+          "title": "세인트 앤드루스"
+        },
+        {
+          "meal": "조식 (호텔식)",
+          "text": "조식 (호텔식)"
+        },
+        {
+          "text": "오전 자유일정으로 진행됩니다.\n\n※ 가이드가 동행하지 않습니다.",
+          "title": "오전 자유일정으로 진행됩니다."
+        },
+        {
+          "meal": "중식 (클럽하우스식)",
+          "text": "중식 (클럽하우스식)"
+        },
+        {
+          "text": "오후 18홀 라운드 -St Andrews Links 18홀 라운드 (New /Jubilee / Castle Course 중 1곳)",
+          "title": "오후 18홀 라운드 -St Andrews Links 18홀 라운드 (New /Jubilee / Castle Course 중 1곳)"
+        },
+        {
+          "text": "St Andrews Links 라운드 (New /Jubilee / Castle Course 중 1곳)\nSt Andrews Golf Club -New Course\n상세보기\n\n위치정보 : 2 West Sands, St Andrews KY16 9XL , UK\n\n홀(HOLE) : 18\n\n파(PAR) : 72\n\n야드(YARD) : 6625\n\n클럽하우스 : 1\n\n골프장소개\n세인트 앤드류스 뉴코스는 1895년에 개장한 세계에서 가장 오래된 '뉴코스'로, 전통적 링크스 스타일을 충실히 따르는 클래식한 코스입니다. 좁은 페어웨이와 정교한 그린 주변 설계는 전략적 플레이를 유도하며, 올드코스보다 조용하고 한적한 분위기에서 여유로운 라운드를 즐길 수 있습니다.\n\nSt Andrews Golf Club -Jubilee Course\n상세보기\n\n위치정보 : 2 West Sands, St Andrews KY16 9XL , UK\n\n홀(HOLE) : 18\n\n파(PAR) : 72\n\n야드(YARD) : 66141\n\n클럽하우스 : 1\n\n골프장소개\n세인트 앤드류스 쥬빌리코스는 원래 초보자용으로 설계되었지만, 현재는 가장 도전적인 코스 중 하나로 평가받는 진화된 링크스 코스입니다.\n해안선을 따라 배치된 홀들과 좁고 기복 있는 페어웨이, 까다로운 러프는 정밀한 샷과 뛰어난 코스 매니지먼트를 요구합니다. 세인트 앤드류스의 숨겨진 강자라 불릴 만큼 경쟁력 있는 난이도와 탁월한 경관을 함께 갖춘 코스입니다..\n\nSt Andrews Golf Club -Castle Course\n상세보기\n\n위치정보 : 2 West Sands, St Andrews KY16 9XL , UK \n\n홀(HOLE) : 18\n\n파(PAR) : 72\n\n야드(YARD) : 6759\n\n클럽하우스 : 1\n\n골프장소개\n세인트 앤드류스 캐슬코스는 2008년에 개장한 비교적 신설된 코스로, 절벽 위에 자리한 독특한 지형 덕분에 극적인 바다 전망을 자랑합니다. 굴곡진 페어웨이와 다채로운 샷 옵션, 과감한 벙커 배치가 공격적이면서도 전략적인 플레이를 유도합니다. 현대적인 디자인 감각과 스펙터클한 풍광이 어우러져 색다른 세인트 앤드류스를 경험할 수 있는 특별한 코스입니다.\n"
+        },
+        {
+          "text": "라운드 후 세인트앤드루스 타운 및 올드코스 주변 탐방",
+          "title": "라운드 후 세인트앤드루스 타운 및 올드코스 주변 탐방"
+        },
+        {
+          "text": "📸 스윌컨 브리지 기념 촬영, 올드코스 클럽하우스 주변 및 현지 골프용품점 방문",
+          "title": "📸 스윌컨 브리지 기념 촬영, 올드코스 클럽하우스 주변 및 현지 골프용품점 방문"
+        },
+        {
+          "text": "용품점 방문 후 호텔 이동 및 석식",
+          "title": "용품점 방문 후 호텔 이동 및 석식"
+        },
+        {
+          "meal": "석식 (호텔식)",
+          "text": "석식 (호텔식)"
+        }
+      ],
+      "text": "세인트 앤드루스\n\n조식 (호텔식)\n\n오전 자유일정으로 진행됩니다.\n\n※ 가이드가 동행하지 않습니다.\n\n중식 (클럽하우스식)\n\n오후 18홀 라운드 -St Andrews Links 18홀 라운드 (New /Jubilee / Castle Course 중 1곳)\nSt Andrews Links 라운드 (New /Jubilee / Castle Course 중 1곳)\nSt Andrews Golf Club -New Course\n상세보기\n\n위치정보 : 2 West Sands, St Andrews KY16 9XL , UK\n\n홀(HOLE) : 18\n\n파(PAR) : 72\n\n야드(YARD) : 6625\n\n클럽하우스 : 1\n\n골프장소개\n세인트 앤드류스 뉴코스는 1895년에 개장한 세계에서 가장 오래된 '뉴코스'로, 전통적 링크스 스타일을 충실히 따르는 클래식한 코스입니다. 좁은 페어웨이와 정교한 그린 주변 설계는 전략적 플레이를 유도하며, 올드코스보다 조용하고 한적한 분위기에서 여유로운 라운드를 즐길 수 있습니다.\n\nSt Andrews Golf Club -Jubilee Course\n상세보기\n\n위치정보 : 2 West Sands, St Andrews KY16 9XL , UK\n\n홀(HOLE) : 18\n\n파(PAR) : 72\n\n야드(YARD) : 66141\n\n클럽하우스 : 1\n\n골프장소개\n세인트 앤드류스 쥬빌리코스는 원래 초보자용으로 설계되었지만, 현재는 가장 도전적인 코스 중 하나로 평가받는 진화된 링크스 코스입니다.\n해안선을 따라 배치된 홀들과 좁고 기복 있는 페어웨이, 까다로운 러프는 정밀한 샷과 뛰어난 코스 매니지먼트를 요구합니다. 세인트 앤드류스의 숨겨진 강자라 불릴 만큼 경쟁력 있는 난이도와 탁월한 경관을 함께 갖춘 코스입니다..\n\nSt Andrews Golf Club -Castle Course\n상세보기\n\n위치정보 : 2 West Sands, St Andrews KY16 9XL , UK \n\n홀(HOLE) : 18\n\n파(PAR) : 72\n\n야드(YARD) : 6759\n\n클럽하우스 : 1\n\n골프장소개\n세인트 앤드류스 캐슬코스는 2008년에 개장한 비교적 신설된 코스로, 절벽 위에 자리한 독특한 지형 덕분에 극적인 바다 전망을 자랑합니다. 굴곡진 페어웨이와 다채로운 샷 옵션, 과감한 벙커 배치가 공격적이면서도 전략적인 플레이를 유도합니다. 현대적인 디자인 감각과 스펙터클한 풍광이 어우러져 색다른 세인트 앤드류스를 경험할 수 있는 특별한 코스입니다.\n\n\n라운드 후 세인트앤드루스 타운 및 올드코스 주변 탐방\n📸 스윌컨 브리지 기념 촬영, 올드코스 클럽하우스 주변 및 현지 골프용품점 방문\n용품점 방문 후 호텔 이동 및 석식\n\n석식 (호텔식)\n\n호텔\n총 1개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n페어몬트 세인트앤드류스 \n\nFairmont St Andrews상세보기\n\n식사\n[조식] 호텔식 [중식] 클럽하우스식 [석식] 호텔식"
+    },
+    {
+      "day": "acc_con7",
+      "golf": [],
+      "hotel": [],
+      "images": [],
+      "meals": "기내숙박",
+      "stops": [
+        {
+          "text": "세인트 앤드루스",
+          "title": "세인트 앤드루스"
+        },
+        {
+          "meal": "조식 (호텔식)",
+          "text": "조식 (호텔식)"
+        },
+        {
+          "text": "호텔 조식 후 체크아웃",
+          "title": "호텔 조식 후 체크아웃"
+        },
+        {
+          "text": "11:30 전용 차량으로 에든버러공항 이동",
+          "title": "11:30 전용 차량으로 에든버러공항 이동"
+        },
+        {
+          "meal": "중식 (불포함)",
+          "text": "중식 (불포함)"
+        },
+        {
+          "text": "에든버러",
+          "title": "에든버러"
+        },
+        {
+          "text": "에든버러 공항에서 런던행 비행기 탑승",
+          "title": "에든버러 공항에서 런던행 비행기 탑승"
+        },
+        {
+          "text": "런던",
+          "title": "런던"
+        },
+        {
+          "text": "런던 공항에서 인천행 비행기 탑승",
+          "title": "런던 공항에서 인천행 비행기 탑승"
+        }
+      ],
+      "text": "세인트 앤드루스\n\n조식 (호텔식)\n\n호텔 조식 후 체크아웃\n11:30 전용 차량으로 에든버러공항 이동\n\n중식 (불포함)\n\n에든버러\n에든버러 공항에서 런던행 비행기 탑승\n런던\n런던 공항에서 인천행 비행기 탑승\n\n영국항공\n01시간 35분 BA1451\n\n15:25\n2027.07.21(수)\n에든버러 EDI 출발\n17:00\n2027.07.21(수)\n런던 LHR 도착\n\n02시간 35분 대기\n\n대한항공\n12시간 40분 KE0908\n\n19:35\n2027.07.21(수)\n런던 LHR 출발\n16:15\n2027.07.22(목)\n서울 ICN 도착\n\n1회 경유\n\n+1\n호텔\n기내숙박\n식사\n[조식] 호텔식 [중식] 불포함"
+    },
+    {
+      "day": "acc_con8",
+      "golf": [],
+      "hotel": [],
+      "images": [],
+      "meals": "숙박 없음",
+      "stops": [
+        {
+          "meal": "조식 (기내식)",
+          "text": "조식 (기내식)"
+        },
+        {
+          "meal": "중식 (기내식)",
+          "text": "중식 (기내식)"
+        },
+        {
+          "text": "인천",
+          "title": "인천"
+        },
+        {
+          "text": "인천국제공항 도착",
+          "title": "인천국제공항 도착"
+        }
+      ],
+      "text": "조식 (기내식)\n\n중식 (기내식)\n\n인천\n인천국제공항 도착\n호텔\n숙박 없음\n식사\n[조식] 기내식 [중식] 기내식"
+    }
+  ],
+  "text": "(주)나침반여행사\n1899-7972\n로그인\n회원가입\n고객센터\n하나투어\n통합 검색어 입력폼\n검색\n나트랑\n일본\n대마도\n장가계\n푸꾸옥\n대만\n후쿠오카\n상하이\n오사카\n스페인\n나트랑\n일본\n마이메뉴\n예약내역\n찜\n전체메뉴\n해외여행\n항공\n호텔\n항공+호텔\n투어/입장권\n국내여행\n테마여행\n제우스\n여행기획전\n이달의 혜택\n여행 파트너\nH-AI\n최근 본 상품(5)\nTOP\n1/10\n이전\n다음\n상품코드 EGG100270714KEA\n인쇄하기 공유하기\n다색골프\n여행상품 핵심정보\n골프\n[2027 디오픈 참관] 스코틀랜드 골프 9일#세인트앤드류스등 세계 100대 골프투어 #18홀 X 4회라운드 # 5성급호텔 #주요관광지\n\n골프 역사의 시작, 세인트앤드류스에서 만나는 디 오픈의 역사적인 피날레와 스코틀랜드 세계 100대 코스 인생 라운드\n\n#관광\n해시태그\n#골프의꿈을이루다#스코틀랜드의자연을느끼다#프리미엄골프여행#스코틀랜드골프여행#세인트앤드류스골프#디오픈관람여행#글렌이글스골프#카누스티골프링크스#캐슬스튜어트골프\n7박 9일\n국적기\n경유있음\n쇼핑없음\n단체여행\n선택관광없음\n출발예정\n항공예정\n일정예정\n호텔예정\n가격예정\n\n성인 1인\n\n26,150,000 원\n5개월 무이자 할부 예상가\n월 5,230,000원\n카드사별 무이자 혜택 \n여행 주요일정\n항공여정보기 다른 출발일 선택 \n최저가로 떠날 수 있는 날 알아보기\n일정 \n\n7박 9일 \n대한항공\n영국항공\n\n출발 : 2027.07.14(수) 10:55 2027.07.14(수) 21:30 KE0907총 18시간 35분 소요(경유 1회)\n\n도착 : 2027.07.21(수) 15:25 2027.07.22(목) 16:15 KE0908총 16시간 50분 소요(경유 1회)\n\n 여행도시 런던-에든버러 예약현황 예약 : 0명 좌석 : 4석 (최소출발 : 성인4명) \n상품가격\n구분\t성인\n\n만 12세 이상\n\n\t아동\n\n만 12세 미만 \n\n\t유아\n\n만 2세 미만 \n\n\n기본상품\t26,150,000원\n\n유류할증료 650,000원/제세공과금 0원 포함\n\n\t26,150,000원\n\n유류할증료 650,000원/제세공과금 0원 포함 \n\n\t-\n유류할증료 및 제세공과금은 유가와 환율에 따라 변동될 수 있습니다.\n약관(이용운송, 숙박기관 등에 지급할 요금의 변동)에 따라 상품가격은 변동될 수 있습니다. 자세한 사항은 약관을 참조하시기 바랍니다.\n아동, 유아요금은 성인 2인과 같은 방 사용조건이며, 미충족시 아동추가 요금이 발생합니다.\n1인 객실 사용시 추가요금 발생됩니다.\n\n1인 객실 사용료 : 문의\n\n여행 기간 중 만 2세가 되는 경우 요금 별도 문의\n본 상품은 예약을 넣으신 시점 이후로 항공 및 호텔의 예약이 진행되므로 상품가 차액이 발생될 수 있습니다.\n하나투어 마일리지 최대 255,000적립예정\n하나투어클럽 회원, 성인기준\n패키지 상품가 기준\n영국\n입국 규정 확인\n대한항공\n항공사 유의사항 확인\n다색골프\n\n골프장 외부에 위치한 숙박시설에서 다양한 골프장 라운드를 즐기는 상품입니다.\n\n핵심\n포인트\n관광\n골프\n호텔\n교통\n보험\n기타\nSAFETY\n&JOY\n🏆 디오픈 참관과 스코틀랜드 골프투어\n4대 메이저 대회 중 세계에서 가장 오래된 메이저 대회인 ＂디오픈\" 경기 라운드를 현장에서 직접 참관하며\n선수들의 화려한 ​ 플레이를 감상하실 수 있습니다.\n스코틀랜드의 명문 골프장인 로얄 트룬에서 최종 우승자를 현장에서 확인해 보시길 바랍니다.​\n모든 골퍼들의 로망인 세인트앤드류스CC 올드코스를 비롯하여 엄격한 기준에 의해 초대로 이루어지는 세계 100대 명문 골프장 에서 꿈의 라운드를​ 할 수 있는 기회를 만나보세요\n💡 상품 핵심포인트\n1. 제155회 디 오픈 최종 라운드 관람 — 세인트앤드루스 올드코스에서 우승 경쟁과 클라레 저그 시상식 현장 경험\n2. 글렌이글스, 카누스티, 캐슬스튜어트, 세인트앤드류스 등 세계 100대 코스의 성지에서 인생 라운드\n3. 에든버러와 세인트 앤드류스 전 일정 5성급 글로벌 체인 호텔에서 럭셔리 스테이\n4. 위스키계의 롤스로이스, 싱글몰트를 대표하는 \"맥캘란\" 위스키 증류소 프라이빗 투어 & 테이스팅\n5. 켈피스, 스털링성, 에든버러 올드타운·로열 마일, 칼튼 힐 등 스코틀랜드 역사·문화 탐방\n6. 호텔식, 클럽식, 현지식 등 다양한 고품격 다이닝\n7. 전일정 VIP 전용 고급 차량 및 현지인 드라이빙 가이드\n\n🏰 관광지 소개\n📍 켈피스 - 스코틀랜드 산업 발전을 이끈 중마를 기리는 앤디 스콧의 거대한 말머리 조각상입니다.\n높이 약 30m의 스테인리스 구조물이 포스·클라이드 운하와 헬릭스 공원의 상징적인 풍경을 완성합니다.\n📍 스털링 성 - 스코틀랜드 중부의 전략적 요충지에 자리한 왕실 성채로, 독립전쟁과 왕가의 역사가 교차하는 곳입니다.\n메리 스튜어트 여왕의 대관식과 연관된 장소이며 왕궁·그레이트 홀 등 화려하게 복원된 공간이 볼거리입니다.\n📍 에든버러 성 - 도심의 화산암 절벽 캐슬 록 위에 우뚝 선 에든버러의 대표 랜드마크입니다.\n왕실 거처와 군사 요새로 사용된 역사를 간직하며, 웅장한 성곽과 도시 스카이라인이 인상적입니다.\n📍 로열 마일 - 에든버러 성에서 홀리루드하우스 궁전까지 이어지는 올드타운의 역사적인 중심 거리입니다.\n고풍스러운 석조 건물과 좁은 골목, 전통 상점과 펍이 어우러져 중세 도시의 분위기를 생생하게 전합니다. ]\n📍 세인트 자일스 대성당 - 로열 마일 중심에 자리한 스코틀랜드 장로교의 역사적 중심지로, 왕관 모양의 첨탑이 상징적입니다. 스코틀랜드 종교개혁과 존 녹스의 흔적, 아름다운 스테인드글라스와 시슬 예배당을 만날 수 있습니다.\n📍 빅토리아 스트리트 - 완만하게 휘어진 자갈길과 알록달록한 상점 외관으로 유명한 에든버러 최고의 포토 스폿입니다.개성 있는 독립 상점과 카페가 늘어서 있으며, 해리포터 속 다이애건 앨리를 연상시키는 거리로 사랑받습니다.\n\n📍 홀리루드하우스 궁전 - 로열 마일 동쪽 끝에 위치한 영국 국왕의 스코틀랜드 공식 거처입니다.\n12세기 수도원에서 시작된 유서 깊은 궁전으로, 메리 스튜어트 여왕과 스코틀랜드 왕실의 이야기를 간직하고 있습니다.\n📍 스콧 기념탑 - 스코틀랜드의 문호 월터 스콧을 기리기 위해 세운 높이 약 61m의 고딕 리바이벌 기념탑입니다.\n프린세스 스트리트 가든의 짙은 사암 첨탑과 정교한 조각은 에든버러 도심의 독특한 풍경을 만듭니다.\n📍 칼튼 힐 - 에든버러 올드타운과 뉴타운, 아서스 시트와 포스만을 한눈에 조망할 수 있는 대표 전망대입니다.\n국립 기념비와 넬슨 기념탑 등 신고전주의 건축물이 모여 있어 ‘북쪽의 아테네’라는 별칭을 실감하게 합니다.\n📍더 맥캘란 에스테이트- 스페이사이드의 자연 속에 자리한 세계적인 싱글몰트 위스키 브랜드의 증류소이자 방문자 체험 공간입니다.잔디 지붕의 현대적인 건축과 증류 공정, 셰리 오크 캐스크의 철학을 살펴보고 프리미엄 테이스팅을 즐깁니다.\n⛳ 우리가 이용하는 골프장정보- 18홀 X 4회 라운드\n[라이더컵 개최 코스] 글렌이글스 PGA 센테너리 코스 (Gleneagles PGA Centenary Course)\n■ 코스: 18홀 / 파 72 / 6,815야드\n■ 개장: 1993년\n■ 설계: 잭 니클라우스(Jack Nicklaus)\n■ 주요 대회 이력: 2014 라이더컵 / 2019 솔하임컵 개최\n\n[세계100대코스 / 디오픈 개최] 카누스티 골프 링크스 (Carnoustie Golf Links – Championship Course)\n■ 코스 : 18홀 / 72파 / 6,941야드\n■ 개장: 1842년\n■ 랭킹 및 대회이력: 골프 매거진 선정 세계 39위 / 디 오픈 챔피언십 8회\n\n[세계100대코스] 캐슬 스튜어트 골프 링크스 ( Castle Stuart Golf Links / Cabot Highlands)\n■ 코스: 18홀 / 파 72 / 7,009야드(블랙 티 기준)\n■ 개장: 2009년\n■ 설계: 길 한스(Gil Hanse), 마크 파시넨(Mark Parsinen)\n■ 랭킹 및 대회 이력: Golf Digest 세계 100대 코스 51위 / GOLF 세계 100대 코스 2025–2026년 97위\n■ 홈페이지: (바로가기)\n\n세인트앤드류스 링크스 - 뉴 코스 (St Andrews Links – New Course)\n■ 코스: 18홀 / 파 71 / 6,625야드\n■ 개장: 1895년\n■ 설계: 올드 톰 모리스(Old Tom Morris)\n■ 특징 및 평가: 세계에서 가장 오래된 ‘뉴 코스’ / 세인트앤드류스 현지 골퍼들이 선호하는 전통 링크스\n\n세인트앤드류스 링크스 - 쥬빌리 코스 (St Andrews Links – Jubilee Course)\n■ 코스: 18홀 / 파 72 / 6,742야드\n■ 개장: 1897년\n■ 설계 및 개조: 1988년 도널드 스틸(Donald Steel)이 챔피언십 코스로 재설계\n■ 특징 및 평가: 세인트앤드류스 링크스에서 가장 어렵고 바람의 영향을 많이 받는 코스\n\n세인트앤드류스 링크스 - 캐슬 코스 (St Andrews Links – The Castle Course)\n■ 코스: 18홀 / 파 71 / 6,759야드\n■ 개장: 2008년\n■ 설계: 데이비드 맥레이 키드(David McLay Kidd)\n■ 특징 및 평가: 세인트앤드루스 링크스중 가장 최근개장\n📄 골프장 라운드 준비 & 핸디캡 증명서 준비안내\n*스코틀랜드의 골프장 대부분은 엄격한 잔디 관리를 위하여 전동 카트 이용은 장애인(장애 증명서 또는 의사 소견서 필수)에게만 대여가 제한 됩니다. 기본적으로 도보 라운드로 운영되며, 골프백을 싣고 직접 끌고 걸어다니는 1인용 수동 트롤리(약 6파운드 / 18홀) 또는 전기로 자가이동(골프백만 적재가능)이 가능한 1인용 전동 트롤리(약 20파운드 / 18홀)를 대여하여 셀프 플레이를 즐깁니다.\n\n*스코틀랜드의 명문 코스에서는 핸디캡 증명서를 필요로 하는 곳이 있으니 출발전 꼭 준비해주세요.\n★공인 핸디캡 증명서 발급 방법 : 스마트스코어 앱 -> My스코어 -> 스코어 -> 공인핸디캡 -> 이용약관확인 -> 증명서 저장 -> 영문이름변경 및 저장 -> 증명서 다운로드 (또는 네이버N골프에서 발급 가능)\n🏨 5성급 호텔 사용\n📌더 칼레도니안 에든버러, 큐리오 컬렉션 바이 힐튼 또는 동급 ★★★★★\n더 칼레도니안 에든버러는 1903년 옛 칼레도니안 철도 호텔로 문을 연 에든버러의 대표적인 헤리티지 럭셔리 호텔입니다. 프린세스 스트리트 서쪽 끝에 자리해 객실과 호텔 내부 곳곳에서 에든버러 성의 아름다운 전망을 감상할 수 있으며, 프린세스 스트리트 가든·로열 마일·에든버러 올드타운 등 주요 관광지까지 도보로 이동할 수 있습니다. 빅토리아 시대 건축미와 현대적인 객실 시설, 고급 레스토랑과 애프터눈티, 실내 수영장을 갖춘 스파 시설이 조화를 이루어 에든버러 관광과 프리미엄 골프 여행을 위한 품격 있는 도심 숙소입니다.\n\n📌 페어몬트 세인트앤드류스 또는 동급 ★★★★★\n페어몬트 세인트앤드루스는 북해와 세인트앤드루스 베이가 내려다보이는 약 520에이커 규모의 해안 절벽 위에 자리한 5성급 골프 리조트입니다. 넓고 우아한 객실에는 스코틀랜드 전통을 반영한 타탄 패턴과 자연스러운 색감이 적용됐으며, 일부 객실에서는 골프 코스와 바다의 파노라마 전망을 감상할 수 있습니다. 리조트 내에는 토런스 코스와 키톡스 코스 등 2개의 18홀 챔피언십 골프 코스를 비롯해 전문 골프 연습시설, 페어몬트 스파, 실내 수영장, 다양한 레스토랑과 바가 마련되어 있습니다. 세인트앤드루스 타운에서 약 5km 떨어져 있어 조용하고 여유로운 휴식과 프리미엄 골프 여행을 함께 즐기기에 적합합니다.\n\n✈️ [항공권 관련 안내]\n✔️ 개별 맞춤 항공권 안내- 대한항공 인디비 최저가 기준 상품가입니다.\n본 상품은 사전 확정 항공권이 아닌, 고객님의 일정에 맞춰 실시간 최저가(개별 항공권) 기준으로 예약이 진행됩니다.\n따라서 예약 신청 시점에 따라 항공권 요금이 인상되어 추가 비용이 발생하거나, 잔여 좌석이 없어 항공 예약이 불가할 수 있습니다.\n\n✔️ 비즈니스석 문의\n비즈니스 좌석 이용을 희망하시는 경우, 담당자에게 문의해 주시면 친절히 안내해 드리겠습니다.\n3억원 여행자보험\n해외치료비 최대 보장 한도 [상해/질병]3,000만원\n[휴대품 도난/파손] 최대100만원보상\n* 국가/연령에 따라 보장내용이 상이할 수 있습니다.\n* 자세한 내용은 보장내역 자세히보기(클릭) 확인해주시기 바랍니다.\n★하나투어X보이스캐디 APL골프 단독 제공★\n핸드폰과 워치에서 골프장 코스/거리 정보를 확인할수 있습니다.\n출발 7일전 카톡 알림톡을 통해 APL 3일 무료 이용권을 제공합니다. (1인 2만원 상당)\nSAFETY&JOY 하나투어는 여행의 전 과정을 함께 합니다.\n① 여행 중 24시간 긴급 의료 지원 등 H-care\n② 여행 후에도 이어지는 고객 만족 서비스\n(바로가기)\n포함/불포함/선택경비 정보\n포함내역\n[교통]\n\n왕복항공권, 중간구간 항공권, 전용 차량비\n\n[제세금]\n\n국내공항세, 관광진흥개발기금, 유류할증료\n\n[숙박]\n\n숙박비\n\n[테마]\n\n그린피\n\n[여행자보험]\n\n3억원 여행자보험\n\n[기타]\n\n기타 : 디오픈 파이널 입장권\n\n\n불포함내역\n[식사]\n\n식사비 : 가격문의 (일정표 참조 )\n\n[테마]\n\n캐디피 : 가격문의 (캐디피&트롤리 대여료(예약제))\n\n개인 여행경비(물값, 자유시간시 개인비용 등)\n\n각종 매너팁(테이블팁, 객실팁, 포터비, 마사지팁 등)\n\n매너팁은 소비자의 자율적 선택으로 지불여부에 따른 불이익은 없습니다. \n\n선택경비\n[숙박]\n\n객실 1인 사용료 : 요금미정, 문의바랍니다.\n\n선택관광/기항지관광/현지투어에 관한 상세 내역은 패키지 상품상세를 참고바랍니다. \n\n상품약관\t\n약관상세보기\n\n본 상품의 예약과 취소는 국외여행 특별약관이 적용됨을 알려드립니다.\n특별약관 적용 시 표준약관보다 높은 취소수수료가 부과될 수 있으며 이 경우 동의절차를 구합니다.\n\n계약금 규정\n예약일 기준 3일 이내에 1인당 2,000,000원을 납입하셔야합니다.\n취소료 규정\n이 상품은 항공(또는 선박)좌석 또는 호텔객실에 대한 비용을 선납해 놓은 상품으로서, 취소시 하단의 취소료가 적용됨을 양해해 주시기 바랍니다.\n더보기\n예약시 유의사항\n📢 인디비항공안내\n\n- 실시간 기준 대한항공이코노미석으로 구성된 상품입니다. 예약 시점에 따라 추가금액이 발생하오니 예약 후 행사 가능여부를 꼭 확인하시길 부탁드립니다.\n- 발권 이후 영문 성명 변경 및 취소 시 변경 수수료 또는 항공 취소 수수료가 발생되니 확약 시 신중한 결정을 부탁드립니다.\n\n📢 예약 안내\n\n- 골프 상품의 특성상 호텔 + 골프장의 상황이 실시간으로 바뀔 수 있어 예약 후 행사 가능여부 확인을 꼭 부탁드립니다.\n\n- 그린피 포함 상품으로 라운드 미진행 시 별도 그린피 환불은 없습니다.\n- 4인 라운드가 기본이며 4인 미만시 현지에서 라운드가 조인 될 수 있습니다.\n- 현지사정(기상상황, 토너먼트 개최 등)에 따라 라운드의 제한 또는 골프장 변경 될 수 있습니다.\n- 기본 2인1실 기준으로 홀 수 인원 시 싱글룸 사용하셔야 합니다.\n- 클럽 렌탈 시 담당자에게 출발전 미리 요청바랍니다.\n- 예약 후 항공좌석 및 호텔 가능여부 담당자에게 재확인 부탁드립니다.\n- 예약시 여권상에 기재된 정확한 영문이름과 주민번호가 필요합니다.\n- 해당 여행 지역의 기준으로 골프장 등급을 분류 하므로 한국 기준과 차이가 있을 수 있습니다.\n- 최종 계약시 반드시 예약하신 여행사에서 해외여행계약서를 작성해 주십시요.\n가이드/인솔자 및 미팅정보\n가이드\n가이드가 있습니다\n인솔자\n인솔자가 동행하지 않습니다.\n미팅정보\t\n미팅장소보기\n일시 :\n07월 14일 오전 08:53\n장소 :\n인천공항 제2여객터미널 3층 1번 출입문(A카운터옆) 여행사카운터 內 하나투어 테이블\n터미널과 미팅장소를 꼭 확인하세요!\n[항공 좌석배정]기내 좌석 배정은 항공사의 고유 권한으로 일행과 좌석이 분리될 수 있습니다.\n항공사 탑승수속(선박 승선수속) 마감시간까지 수속을 마치지 못한 경우 출국이 거절될 수 있으며 이 경우 당사의 책임범위가 아님을 알려드립니다. 안전한 출국을 위해 하나투어 미팅시간까지는 반드시 공항(터미널)에 도착해 주시기 바랍니다\n여행일정\n호텔 & 관광지\n참고사항\n해외 안전정보\n여행후기\n1일차\n2일차\n3일차\n4일차\n5일차\n6일차\n7일차\n8일차\n9일차\n일정 전체닫힘\n\n여행일정 변경에 관한 사전 동의안내\n\n여행일정은 계약체결 시 예상하지 못한 부득이한 사정 등이 발생하는 경우 여행자의 사전동의를 거쳐 변경될 수 있음을 양지하시기 바랍니다. \n\n1일차\n07/14(수)\n인천, 런던, 에든버러\n\n상세내용을 확인해보세요\n\n대한항공\n14시간 25분 KE0907\n\n10:55\n2027.07.14(수)\n서울 ICN 출발\n17:20\n2027.07.14(수)\n런던 LHR 도착\n\n02시간 50분 대기\n\n영국항공\n01시간 20분 BA1464\n\n20:10\n2027.07.14(수)\n런던 LHR 출발\n21:30\n2027.07.14(수)\n에든버러 EDI 도착\n\n1회 경유\n\n인천\n\n중식 (기내식)\n\n런던\n런던국제공항 도착하여 에든버러행 비행기탑승\n영국 여행시 입국 규정 안내\n영국 여행시 입국 규정 안내\n상세보기\n\n원활한 영국 여행을 위해 영국 입국시 필요한 사전절차에 대해 안내드립니다.\n\n★ 인천 -> 런던 출발 전\nETA 신청\n* 신청 방법 안내: https://drive.google.com/file/d/17PkIFAS6uwNH0xgZLdoShJRtkqZU-mjR/view?usp=sharing\n* 비용: 20파운드(GBP)\n※ 늦어도 출발 일주일 전까지 신청 완료해주셔야 됩니다.\n* 온라인 신청안내: 영국 ETA 사이트에 접속하신 후, 여권과 사진을 등록하시면 됩니다.\n- 발급시: ETA 발급 시 여권 사진과 해외결제 가능한 신용카드 혹은 체크카드가 필요합니다\n※ 20분간 사이트에서 아무것도 하지 않을 경우, 다시 처음부터 진행해야 하니 유의해주시기 바랍니다.\n\n* 모바일 신청안내: 안드로이드나 아이폰에서 UK ETA 앱 다운로드 후 개별 발급\n[플레이 스토어] https://play.google.com/store/apps/details?id=uk.gov.HomeOffice.ho3\n[앱스토어] https://apps.apple.com/us/app/uk-eta/id6444912481\n- 발급시: ETA 발급 시 실물 여권과 해외결제 가능한 신용카드 혹은 체크카드가 필요합니다. 또한, 얼굴 스캐닝이 필요합니다.\n\n보다 자세한 사항은 아래 사이트를 참고하시기 바랍니다.\n* 영국 정부: https://www.gov.uk/guidance/apply-for-an-electronic-travel-authorisation-eta\n\n※ ETA 발급 거부 되어 이로 인해 발생하는 입국 문제는 하나투어에서 개입 및 책임 질 수 없습니다.\n\n참고 사항\n- 여권 분실 등 기존 여권 정보가 변경될 경우, 새로 발급받은 여권 정보로 ETA 재신청 필요\n- 영국행 항공기, 유로스타, 선박 탑승 전 ETA 허가 취득 여부 확인 예정\n- 환승의 경우, 입국심사를 통과하지 않고 공항 내에서 다른 항공기를 갈아타는 경우에도 반드시 ETA 허가 취득 필요\n- 단체 관광객의 경우, 각 개인이 모두 개인별로 ETA 허가 취득 필요\n\n석식 (기내식)\n\n에든버러\n에든버러 공항 도착\n전담 드라이버·가이드 미팅하여 호텔로 이동( 약 30분 소요)\nThe Caledonian Edinburgh, Curio Collection by Hilton\n\n힐튼의 키우리오 컬렉션, 에든버러 칼레도니안\n\n1/2\n이전\n다음\n더 칼레도니안 에든버러, 큐리오 컬렉션 바이 힐튼 (The Caledonian Edinburgh, Curio Collection by Hilton)\n더 칼레도니안 에든버러는 1903년 옛 칼레도니안 철도 호텔로 문을 연 에든버러의 대표적인 헤리티지 럭셔리 호텔입니다. 프린세스 스트리트 서쪽 끝에 자리해 객실과 호텔 내부 곳곳에서 에든버러 성의 아름다운 전망을 감상할 수 있으며, 프린세스 스트리트 가든·로열 마일·에든버러 올드타운 등 주요 관광지까지 도보로 이동할 수 있습니다. 빅토리아 시대 건축미와 현대적인 객실 시설, 고급 레스토랑과 애프터눈티, 실내 수영장을 갖춘 스파 시설이 조화를 이루어 에든버러 관광과 프리미엄 골프 여행을 위한 품격 있는 도심 숙소입니다.\n\n■ 객실수: 231개 객실 및 스위트룸(호텔 팩트시트 기준)\n■ 부대시설: 레스토랑, 바, 애프터눈티 라운지, 스파, 실내 수영장, 자쿠지, 사우나, 스팀룸, 피트니스센터, 연회장, 회의실, 룸서비스, 컨시어지, 무료 Wi-Fi 등\n■ 홈페이지: https://www.hilton.com/en/hotels/ednchqq-the-caledonian-edinburgh/\n■ 체크인: 15:00 / 체크아웃: 12:00\n■ 주소: Princes Street, Edinburgh EH1 2AB, United Kingdom\n호텔\n총 1개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n힐튼의 키우리오 컬렉션, 에든버러 칼레도니안 \n\nThe Caledonian Edinburgh, Curio Collection by Hilton상세보기\n\n식사\n[중식] 기내식 [석식] 기내식\n2일차\n07/15(목)\n에든버러\n\n스털링 성, 에든버러 성(Edinburgh Castle), 로얄 마일, 빅토리아 스트리트, 성 자일스 성당, 스콧 기념탑\n\n에든버러\n\n조식 (호텔식)\n\n전용차량 - 프라이빗투어 -켈피스 -스털링성 관광\n스털링 성\n상세보기\n\n스코틀랜드 수난의 역사를 대변하는 스털링 성\n\n스털링 성은 포스 강 하구, 스코트랜드 남동부의 저지대에서 고지대로 이동할 수 있는 길을 점령할 수 있는 곳에 자리잡고 있는 스코틀랜드에서 전략적으로 가장 중요한 가치를 가진 성입니다. 때문에 스털링 성은 영국에 저항하는 스코틀랜드 저항의 역사에서 빼놓을 수 없는 곳이었고, 스코틀랜드의 다른 어떤 성보다 뺏고 빼앗기고를 반복했던 격전지 였습니다. 이런 이유로 스코틀랜드의 자유를 향한 의지를 영상으로 표현한 \"브레이브 하트\"의 주 무대로 사용되기도 했습니다. 또한 이곳은 메리여왕이 어린시절을 보냈고, 1543년 그녀의 대관식을 거행했던 곳이기도 합니다.\n\n중식 (현지식)\n\n에든버러성(외관) - 로열 마일 - 세인트 자일스 대성당 -빅토리아 스트리트 - 홀리루드하우스 궁전 (외관) - 스콧 기념탑 - 칼튼 힐\n옛 스코틀랜드 왕국의 수도, 에든버러 관광\n에든버러\n상세보기\n\nEdinburgh\n\n스코틀랜드의 수도, 에든버러(Edinburgh)\n\n1/2\n이전\n다음\n옛 스코틀랜드 왕국의 수도인 에든버러는 수백년 동안 만들어진 과거의 모습을 그대로 간직하고 있습니다. 유네스코 세계문화유산으로 도시 전체가 등재되었으며, 중세의 모습을 간직하고 있는 역사적인 도시입니다. 중세의 모습을 간직한 올드 타운과 현재의 뉴타운이 조화를 이루고 있습니다.\n에든버러 성(Edinburgh Castle)\n상세보기\n\n황량한 바위산 위에 세워진 고대의 요새\n\n6세기에 지어진 에든버러 성은 캐슬 록이라는 바위산 위에 세워진 고대의 요새입니다. 스코틀랜드의 왕들이 머물렀던 곳이며, 왕궁, 군사용 요새나 감옥으로도 사용되었던 유서깊은 장소입니다. 성 내에 있는 세인트 마가렛 예배당은 가장 오래된 건출물로 12세기 초에 지어졌고, 나머지는 대부분 16세기 이전의 것들입니다. 현재 에든버러 성은 영국국 사령부로서, 군이 주둔하고 있고 내부에는 스코틀랜드 국립 전쟁 박물관 등 스코틀랜드와 관련된 다양한 박물관이 있습니다. 일요일을 제외한 매일 오후 1시 정각에 대포를 쏘는 것도 볼거리입니다.\n로얄 마일\n상세보기\n\nThe Royal Mile\n\n자갈이 깔린 길, 로얄 마일\n\n로얄 마일은 에든버러 성에서 홀리루드 궁전으로 연결된 에든버러에서 가장 오래된 자갈이 깔린 길을 말합니다. 이길에는 에든버러를 대표하는 유명한 건축물과 저택들이 즐비한데, 그중에서 가장 유명한 명소로 로얄 마일의 양끝에 자리잡고 있는 에든버러 성과 홀리루드 궁전을 들 수 있습니다. 그 외에 성 자일스 성당과 존 녹스의 저택, 글래드스톤 랜드가 유명합니다. 로얄 마일에는 에든버러의 역사를 말해주는 건축물만 있는 것이 아니라, 많은 상점과 레스토랑, 카페가 즐비한 에든버러 시내의 중심으로 언제나 사람들로 가득한 과거와 현재가 공존하는 장소입니다.\n빅토리아 스트리트\n상세보기\n\n해리포터 속 다이애건엘리의 모델이 되었던 '빅토리아 스트리트'\n\n에든버러에서 가장 유명한 관광지 중 하나인 빅토리아 스트리트는 짙은 색의 건물로 장식된 계단식 조약돌의 곡선 형 리본으로 에든버러에서 가장 예쁜 거리로 잘 알려져 있습니다. 또한 해리포토 다이애건 앨리의 모티브가 된 거리로 해리포터 성지순례의 필수 관광지로 각광받고 있습니다.\n성 자일스 성당\n상세보기\n\nSt Giles Cathedral\n\n스코틀랜드 역사의 가운데 서 있는 성 자일스 성당\n\n1/2\n이전\n다음\n하이 스트리트(High Street) 맞은편에는 성 자일스 성당(St. Giles' Cathedral)이 자리 잡고 있습니다. 864년 전부터 이 곳에 터를 잡고 있었던 성당의 현재 건물은 15세기에 지어진 것으로 추정됩니다. 현재의 외관은 1829년, 건축가 윌리엄 번(William Burn)에 의해 만들어진 것입니다. 반면 성당 내부는 나무 조각장식이 화려한 아름다운 엉겅퀴(Thistle:스코틀랜드의 국화) 예배당을 비록해 정교한 솜씨를 뽐재는 스테인드 글래스, 훌륭한 오르간 등으로 인해 널리 알려져 있습니다.\n스콧 기념탑\n상세보기\n\nScott Monument\n\n월터 스콧경의 죽음을 애도하며 그의 작품을 고스란히 녹여놓은 스콧 기념관\n\n스콧 기녑탑(Scott Monument)은 월터 스콧경의 죽음의 애도하기 만들어진 것입니다. 1832년 9월 21일 스코틀랜드의 위대한 문호 월터 스콧경의 죽음 후 그의 죽음을 애도하며 정부 차원에서 디자인 공모를 통해 당선된 작품과 조각가들의 노력으로 바로 스콧 기념탑이 태어났습니다. 스콧 기념탑는 화려한 고딕양식으로 제작된 교회의 첨탑같이 아름다운 외형을 지니고 있습니다. 200피트가 넘는 높이의 스콧 기념비는 에든버러에서 가장 유명한 건축물 중 하나로 이곳을 방문한 이들이 반드시 봐야하는 명소로 자리잡았습니다.\n\n석식 (현지식)\n\n석식 후 호텔 투숙 및 자유 휴식\n호텔\n총 1개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n힐튼의 키우리오 컬렉션, 에든버러 칼레도니안 \n\nThe Caledonian Edinburgh, Curio Collection by Hilton상세보기\n\n식사\n[조식] 호텔식 [중식] 현지식 [석식] 현지식\n3일차\n07/16(금)\n에든버러\n\n상세내용을 확인해보세요\n\n에든버러\n\n조식 (호텔식)\n\n전용 차량으로 글렌이글스 이동 (약 1시간)\n▶ Gleneagles PGA Centenary Course 18홀 라운드\n\n디 오픈을 여러 차례 개최한 세계적인 챔피언십 링크스 코스\n\n[라이더컵 개최 코스] 글렌이글스 PGA 센테너리 코스 (Gleneagles PGA Centenary Course)\n\n■ 코스: 18홀 / 파 72 / 6,815야드\n■ 개장: 1993년\n■ 설계: 잭 니클라우스(Jack Nicklaus)\n■ 주요 대회 이력: 2014 라이더컵 / 2019 솔하임컵 개최\n■ 홈페이지: (바로가기)\n\n\n\nGleneagles PGA Centenary Course\n상세보기\n1/2\n이전\n다음\n\n홈페이지 : https://gleneagles.com/golf/the-pga-centenary/\n\n홀(HOLE) : 18\n\n파(PAR) : 72\n\n야드(YARD) : 6815\n\n클럽하우스 : 1\n\n골프장 소개\n골프의 전설 잭 니클라우스가 설계한 글렌이글스의 대표 챔피언십 코스입니다. 스코틀랜드의 아름다운 오킬 힐스를 배경으로 드라마틱한 고저 차와 전략적인 벙커, 워터 해저드가 조화를 이룹니다. 2014년 라이더컵과 2019년 솔하임컵을 모두 개최하며 세계적인 토너먼트 코스로 명성을 확립했으며, 장타뿐만 아니라 정교한 코스 매니지먼트가 요구되는 웅장한 파크랜드 코스입니다.\n\n중식 (클럽하우스식)\n\n라운드 종료 후 에든버러 귀환\n\n석식 (불포함)\n\n석식 후 호텔 투숙 및 자유 휴식\n호텔\n총 1개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n힐튼의 키우리오 컬렉션, 에든버러 칼레도니안 \n\nThe Caledonian Edinburgh, Curio Collection by Hilton상세보기\n\n식사\n[조식] 호텔식 [중식] 클럽하우스식 [석식] 불포함\n4일차\n07/17(토)\n에든버러\n\n상세내용을 확인해보세요\n\n에든버러\n\n조식 (호텔식)\n\n호텔 조식 후 카누스티로 이동 - Carnoustie Golf Links 골프장으로 이동 (약 1시간 30분 소요)\nCarnoustie Golf Links 18홀 라운드\n\n디 오픈을 여러 차례 개최한 세계적인 챔피언십 링크스 코스\n\nCarnoustie Golf Links\n상세보기\n골프장소개\n카누스티 골프 링크스는 스코틀랜드에서 가장 도전적인 챔피언십 코스로, ‘세계에서 가장 어려운 오픈 개최지’로 불릴 만큼 까다로운 레이아웃을 자랑합니다. 협소한 페어웨이, 깊은 벙커, 바람의 변수는 정밀한 샷과 강인한 멘탈을 요구합니다. 실력 있는 골퍼들에게 진정한 시험의 무대로 평가받으며, 깊은 전통과 실전 감각을 동시에 갖춘 명문 코스입니다.\n\n\n홀(HOLE) : 18\n\n가는방법 : Links House, Links Parade, Carnoustie DD7 7JE, UK \n\n파(PAR) : 72\n\n야드(YARD) : 6941\n\n중식 (클럽하우스식)\n\n라운드 종료 후 에든버러 귀환\n\n석식 (불포함)\n\n석식 후 호텔 투숙 및 자유 휴식\n호텔\n총 1개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n힐튼의 키우리오 컬렉션, 에든버러 칼레도니안 \n\nThe Caledonian Edinburgh, Curio Collection by Hilton상세보기\n\n골프\n총 1개의 예정 골프장이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n카누스티 골프 링크스\n\nCarnoustie Golf Links상세보기\n\n식사\n[조식] 호텔식 [중식] 클럽하우스식 [석식] 불포함\n5일차\n07/18(일)\n에든버러, 세인트 앤드루스\n\n상세내용을 확인해보세요\n\n에든버러\n\n조식 (호텔식)\n\n호텔 조식 후 세인트 앤드류스로 이동 (약 1시간 30분)\n세인트 앤드루스\n🏆 [디오픈] 제155회 디 오픈 챔피언십 최종 라운드 관람 — St Andrews Old Course\n\n세계 정상급 골퍼들의 챔피언십 선데이 및 클라레 저그 우승 경쟁 현장 관람\n역사적인 18번 그린의 챔피언 트로피 시상식 관람\n\n\n[100대 골프장]ST. ANDREWS (Old Course)\n상세보기\n1/2\n이전\n다음\n골프장 소개\nSt Andrews의 The Old Course는 의심할 바 없이 세계에서 가장 유명한 golf course로 세계 골퍼들이 일생에 적어도 한번 정도 골프 기회를 가지고 싶어하는 골프 순례의 메카이며 적어도 5세기 이상 골프가 계속되어온 골프의 정신적인 고향(Home of Golf)이라고 할 수 있다. 이곳은 Old Tom Morris과 Allan Robertson의 정신이 깃든 곳이며, 게임의 최상위 원칙들과 개별적인 명성이 꾸준히 형성되어 온 것과는 별도로 세계 골프의 규정과 표준이 이곳에서 생겨 났다.\nThe Old Course 는 해안에 위치한 고전적인 links이지만 첫 번째와 마지막 hall을 제외하고는 바다를 조망할 수 없다. Royal Aberdeen에서와 같이 커다란 모래 언덕은 없으나, fairway는 넓고 기복이 심한 편이며double green은 대단히 큰 편이어서 골프 라운딩 내내 또 다른 묘미를 즐길 수 있다. 그러나 bunkering은 게임이 벌어지는 여타의 golf course보다 가장 어려운 곳 중의 하나이다. Bernard Darwin 에 의해 “탐욕스러운 매복병”이라 묘사된 이 곳의 bunker는 독특하고 신비로운 links에서 생존하기 위해 골퍼들에게 있어서는 중요한 통과의례가 되고 있다. 따라서 2000년 브리티시 오픈 챔피언십에서 타이거 우즈가 이곳 올드 코스에서 우승할 수 있었던 이유로 코스 전반에 걸쳐 있는 악명 높은 벙커들을 무사히 피해갈 수 있었기 때문이라 말할 수 있다.\n첫 번째 그린에서의 퍼팅 이후 만나는 두 번째 홀은 클럽하우스 전면에 있는데 18번 홀을 마치는 그 순간까지 골프의 천국에 와 있다는 느낌을 결코 떨쳐버리지 못할 것이다.\n\n홈페이지 : http://www.standrews.org.uk/\n\n홀(HOLE) : 18\n\n가는방법 : 에딘버러 - 세인트 앤드류 : 약 1시간 30분 소요\n\n파(PAR) : 72\n\n야드(YARD) : 6609\n\n중식 (불포함)\n\n경기 종료 후 전용 차량으로 에든버러 귀환\n에든버러\n\n석식 (호텔식)\n\n호텔\n총 1개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n힐튼의 키우리오 컬렉션, 에든버러 칼레도니안 \n\nThe Caledonian Edinburgh, Curio Collection by Hilton상세보기\n\n식사\n[조식] 호텔식 [중식] 불포함 [석식] 호텔식\n6일차\n07/19(월)\n에든버러, 세인트 앤드루스\n\n상세내용을 확인해보세요\n\n에든버러\n06:30 체크아웃 (새벽 체크아웃으로 호텔 조식 운영하지않아 도식락으로 대체됩니다.)\n\n조식 (도시락 )\n\n스페이사이드 이동 (약 3시간 30분)\n🥃 10:00~ [프리미엄 투어] 맥캘란(The Macallan) 싱글몰트 위스키 증류소 투어 & 프라이빗 테이스팅\n\n🍷 스코틀랜드 하이랜드의 명가, 맥캘란 증류소 탐방 및 장인의 솜씨가 담긴 최상급 싱글몰트 위스키 시음\n\n스페이사이드의 자연 속에 자리한 세계적인 싱글몰트 위스키 브랜드의 증류소이자 방문자 체험 공간입니다.\n잔디 지붕의 현대적인 건축과 증류 공정, 셰리 오크 캐스크의 철학을 살펴보고 프리미엄 테이스팅을 즐깁니다.\n\n중식 (현지식)\n\n골프장으로 이동 ( 약 1시간 소요)\n14:45~ Castle Stuart Golf Links 18홀 라운드\n[세계100대코스] 캐슬 스튜어트 골프 링크스 ( Castle Stuart Golf Links / Cabot Highlands)\n\n■ 코스: 18홀 / 파 72 / 7,009야드(블랙 티 기준)\n■ 개장: 2009년\n■ 설계: 길 한스(Gil Hanse), 마크 파시넨(Mark Parsinen)\n■ 랭킹 및 대회 이력: Golf Digest 세계 100대 코스 51위 / GOLF 세계 100대 코스 2025–2026년 97위 / 스코티시 오픈 4회 개최\n■ 홈페이지: (바로가기)\n\n\nCastle Stuart Golf Links / Cabot Highlands\n상세보기\n1/2\n이전\n다음\n\n홈페이지 : https://cabot.com/highlands/golf/castle-stuart/ \n\n홀(HOLE) : 19\n\n파(PAR) : 72\n\n야드(YARD) : 7009\n\n클럽하우스 : 1\n\n골프장 소개\n과거 캐슬 스튜어트 골프 링크스로 알려진 캐벗 하이랜드의 대표 코스입니다. 모레이 퍼스 해안을 따라 펼쳐지는 넓고 자연스러운 페어웨이와 바다로 이어지는 듯한 인피니티 그린, 코스 곳곳에서 바라보는 하이랜드의 파노라마 전망이 인상적입니다. 전통적인 스코틀랜드 링크스의 전략성과 현대적인 플레이 편의성을 조화시켰으며, 강한 바람 속에서도 다양한 공략 루트를 선택할 수 있도록 설계된 세계적인 모던 링크스입니다.\n\n석식 (클럽하우스식)\n\n라운드 후 세인트 앤드류스로 이동 (약 3시간)\n세인트 앤드루스\nFairmont St Andrews\n\n페어몬트 세인트앤드류스\n\n1/3\n이전\n다음\nFairmont St.Andrews\n페어몬트 세인트앤드루스는 북해와 세인트앤드루스 베이가 내려다보이는 약 520에이커 규모의 해안 절벽 위에 자리한 5성급 골프 리조트입니다. 넓고 우아한 객실에는 스코틀랜드 전통을 반영한 타탄 패턴과 자연스러운 색감이 적용됐으며, 일부 객실에서는 골프 코스와 바다의 파노라마 전망을 감상할 수 있습니다. 리조트 내에는 토런스 코스와 키톡스 코스 등 2개의 18홀 챔피언십 골프 코스를 비롯해 전문 골프 연습시설, 페어몬트 스파, 실내 수영장, 다양한 레스토랑과 바가 마련되어 있습니다. 세인트앤드루스 타운에서 약 5km 떨어져 있어 조용하고 여유로운 휴식과 프리미엄 골프 여행을 함께 즐기기에 적합합니다.\n\n■ 객실수: 213개 객실 및 스위트룸 / 4베드룸 매너 하우스 2채\n■ 부대시설: 토런스·키톡스 18홀 챔피언십 코스, 골프 연습시설, PGA 레슨, 레스토랑 및 바, 페어몬트 스파, 16m 실내 수영장, 자쿠지, 사우나, 아로마테라피 스팀룸, 피트니스센터, 10개 트리트먼트룸, 컨시어지, 무료 주차장 등\n■ 홈페이지: https://www.fairmont.com/en/hotels/st-andrews/fairmont-st-andrews.html\n■ 체크인: 16:00 / 체크아웃: 12:00\n■ 주소: St Andrews, Fife KY16 8PN, United Kingdom\n\n호텔 체크인 후 휴식\n호텔\n총 1개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n페어몬트 세인트앤드류스 \n\nFairmont St Andrews상세보기\n\n식사\n[조식] 도시락 [중식] 현지식 [석식] 클럽하우스식\n7일차\n07/20(화)\n세인트 앤드루스\n\n상세내용을 확인해보세요\n\n세인트 앤드루스\n\n조식 (호텔식)\n\n오전 자유일정으로 진행됩니다.\n\n※ 가이드가 동행하지 않습니다.\n\n중식 (클럽하우스식)\n\n오후 18홀 라운드 -St Andrews Links 18홀 라운드 (New /Jubilee / Castle Course 중 1곳)\nSt Andrews Links 라운드 (New /Jubilee / Castle Course 중 1곳)\nSt Andrews Golf Club -New Course\n상세보기\n\n위치정보 : 2 West Sands, St Andrews KY16 9XL , UK\n\n홀(HOLE) : 18\n\n파(PAR) : 72\n\n야드(YARD) : 6625\n\n클럽하우스 : 1\n\n골프장소개\n세인트 앤드류스 뉴코스는 1895년에 개장한 세계에서 가장 오래된 '뉴코스'로, 전통적 링크스 스타일을 충실히 따르는 클래식한 코스입니다. 좁은 페어웨이와 정교한 그린 주변 설계는 전략적 플레이를 유도하며, 올드코스보다 조용하고 한적한 분위기에서 여유로운 라운드를 즐길 수 있습니다.\n\nSt Andrews Golf Club -Jubilee Course\n상세보기\n\n위치정보 : 2 West Sands, St Andrews KY16 9XL , UK\n\n홀(HOLE) : 18\n\n파(PAR) : 72\n\n야드(YARD) : 66141\n\n클럽하우스 : 1\n\n골프장소개\n세인트 앤드류스 쥬빌리코스는 원래 초보자용으로 설계되었지만, 현재는 가장 도전적인 코스 중 하나로 평가받는 진화된 링크스 코스입니다.\n해안선을 따라 배치된 홀들과 좁고 기복 있는 페어웨이, 까다로운 러프는 정밀한 샷과 뛰어난 코스 매니지먼트를 요구합니다. 세인트 앤드류스의 숨겨진 강자라 불릴 만큼 경쟁력 있는 난이도와 탁월한 경관을 함께 갖춘 코스입니다..\n\nSt Andrews Golf Club -Castle Course\n상세보기\n\n위치정보 : 2 West Sands, St Andrews KY16 9XL , UK \n\n홀(HOLE) : 18\n\n파(PAR) : 72\n\n야드(YARD) : 6759\n\n클럽하우스 : 1\n\n골프장소개\n세인트 앤드류스 캐슬코스는 2008년에 개장한 비교적 신설된 코스로, 절벽 위에 자리한 독특한 지형 덕분에 극적인 바다 전망을 자랑합니다. 굴곡진 페어웨이와 다채로운 샷 옵션, 과감한 벙커 배치가 공격적이면서도 전략적인 플레이를 유도합니다. 현대적인 디자인 감각과 스펙터클한 풍광이 어우러져 색다른 세인트 앤드류스를 경험할 수 있는 특별한 코스입니다.\n\n\n라운드 후 세인트앤드루스 타운 및 올드코스 주변 탐방\n📸 스윌컨 브리지 기념 촬영, 올드코스 클럽하우스 주변 및 현지 골프용품점 방문\n용품점 방문 후 호텔 이동 및 석식\n\n석식 (호텔식)\n\n호텔\n총 1개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n페어몬트 세인트앤드류스 \n\nFairmont St Andrews상세보기\n\n식사\n[조식] 호텔식 [중식] 클럽하우스식 [석식] 호텔식\n8일차\n07/21(수)\n세인트 앤드루스, 에든버러, 런던\n\n상세내용을 확인해보세요\n\n세인트 앤드루스\n\n조식 (호텔식)\n\n호텔 조식 후 체크아웃\n11:30 전용 차량으로 에든버러공항 이동\n\n중식 (불포함)\n\n에든버러\n에든버러 공항에서 런던행 비행기 탑승\n런던\n런던 공항에서 인천행 비행기 탑승\n\n영국항공\n01시간 35분 BA1451\n\n15:25\n2027.07.21(수)\n에든버러 EDI 출발\n17:00\n2027.07.21(수)\n런던 LHR 도착\n\n02시간 35분 대기\n\n대한항공\n12시간 40분 KE0908\n\n19:35\n2027.07.21(수)\n런던 LHR 출발\n16:15\n2027.07.22(목)\n서울 ICN 도착\n\n1회 경유\n\n+1\n호텔\n기내숙박\n식사\n[조식] 호텔식 [중식] 불포함\n9일차\n07/22(목)\n인천\n\n상세내용을 확인해보세요\n\n조식 (기내식)\n\n중식 (기내식)\n\n인천\n인천국제공항 도착\n호텔\n숙박 없음\n식사\n[조식] 기내식 [중식] 기내식\n쇼핑정보\n\n해당상품은 쇼핑센터에 방문하지 않습니다.\n\n해외 여행시 US$800 초과 구입한 물품은 입국시 관세가 부과될 수 있습니다. \n\n함께 많이 본 상품\n프랑스/영국 2국 9일 #파리시내호텔2박 #1일자유시간 #베르사유궁전 #오베르(고흐마을) #옥스포드 #코츠월즈 ...\n4,709,000원~\n[출발임박] [스마트초이스] 서유럽4국 12일#노쇼핑 #융프라우 #4성급6박UP #베네치아 대운하투어 #이탈리아 ...\n5,992,000원~\n[북유럽 크루즈] [비지니스 탑승] 영국과 노르웨이 피오르드&아이슬란드 일주 17일 ＃스카이 프린세스 ＃발 ...\n21,051,000원~\n서유럽 4국 10일 #전 일정 4성 #시내호텔1박 #융프라우 #이탈리아남부여행(폼페이&소렌토) #3대 선택관광 ( ...\n7,499,000원~\n영국 완전일주 10일 #잉글랜드 #스코틀랜드 #아일랜드 #비틀즈스토리 #윈더미어유람선 #에든버러고성투어\n5,499,000원~\n프랑스/영국 2국 9일 #파리시내호텔2박 #1일자유시간 #베르사유궁전 #오베르(고흐마을) #옥스포드 #코츠월즈 ...\n4,709,000원~\n[출발임박] [스마트초이스] 서유럽4국 12일#노쇼핑 #융프라우 #4성급6박UP #베네치아 대운하투어 #이탈리아 ...\n5,992,000원~\n[북유럽 크루즈] [비지니스 탑승] 영국과 노르웨이 피오르드&아이슬란드 일주 17일 ＃스카이 프린세스 ＃발 ...\n21,051,000원~\n서유럽 4국 10일 #전 일정 4성 #시내호텔1박 #융프라우 #이탈리아남부여행(폼페이&소렌토) #3대 선택관광 ( ...\n7,499,000원~\n영국 완전일주 10일 #잉글랜드 #스코틀랜드 #아일랜드 #비틀즈스토리 #윈더미어유람선 #에든버러고성투어\n5,499,000원~\n프랑스/영국 2국 9일 #파리시내호텔2박 #1일자유시간 #베르사유궁전 #오베르(고흐마을) #옥스포드 #코츠월즈 ...\n4,709,000원~\n[출발임박] [스마트초이스] 서유럽4국 12일#노쇼핑 #융프라우 #4성급6박UP #베네치아 대운하투어 #이탈리아 ...\n5,992,000원~\n[북유럽 크루즈] [비지니스 탑승] 영국과 노르웨이 피오르드&아이슬란드 일주 17일 ＃스카이 프린세스 ＃발 ...\n21,051,000원~\n이전\n다음\n_\n방문도시 정보 및 기타정보\n도시정보\t\n입국카드 작성법\t\n도시\t현재시간\t오늘의 환율\n\n(2026.09.29 기준) \n\n\t콘센트\n에든버러(EDI)\t13:202026.09.29\n\n한국보다 8시간 느림\n\n\t\n\n1파운드(GBP) = 1835.66원\n\n\t\n\n전압 : 240V\n\n주파수 : 50HZ\n\n\n런던(LON)\t13:202026.09.29\n\n한국보다 8시간 느림\n\n\t\n\n1파운드(GBP) = 1835.66원\n\n\t\n\n전압 : 240V\n\n주파수 : 50HZ\n\n※ 오늘의 환율은 실시간 '현찰 살 때' 기준으로, 은행에서 거래되지 않는 통화는 0원으로 표기될 수 있습니다. \n\n여행시 유의사항\n• 골프는 기본 셀프 플레이로 진행 됩니다.\n• 2~3인 플레이 시, 조인 플레이 될 수 있으며, 조인 팀이 없을 시 단독 플레이로 진행 됩니다. (2~3인 단독 플레이 사전 게런티를 원할 시, 4인 골프비용 지불 해주셔야 합니다.)\n• 출발전 골프백에 여권상 영문명이 기재된 네임택을 꼭 부착해주세요.\n• 여행 일정 및 호텔, 골프장은 현지 사정에 따라 동급으로 대체 될 수 있습니다.\n• 일정 상 항공편수는 예시이며, 타 항공으로 변경 가능합니다.\n\n인원선택\n\n성인\n26,150,000원\n\n1\n\n아동 \n26,150,000원\n\n0\n\n유아 \n-\n\n0\n\n총 금액\n\n26,150,000원\n\n유류할증료&제세공과금 포함 \n\n하나투어 마일리지 최대 255,000적립예정\n상품가격 안내\n대기예약\t\n찜\n혜택\n추가 적립/할인\n이달의 카드할인 혜택\nfacebook\ninstagram\nblog\nkakaoplus\nyoutube\nkakaostory\n회사소개\n이용약관\n개인정보처리방침\n여행약관\n해외여행자보험\n마케팅제휴\n공식인증예약센터 검색\n(주)하나투어      대표집행임원 : 조좌진      주소 : (03161) 서울특별시 종로구 인사동 5길 41\n사업자등록번호 : 102-81-39440      사업자정보확인      통신판매업신고번호 : 종로01-1806호      관광사업자 등록번호 : 제1993-000006호\n개인정보 보호책임자 : 전준형      영업보증보험 : 22억 1천만원 가입    팩스: 02-734-0392    이메일 : 15771233@hanatour.com      ☎고객센터 1577-1233\n\n※ 부득이한 사정에 의해 여행일정이 변경되는 경우 사전 동의를 받습니다.\n※ 하나투어는 개별 항공권 단독 판매에 대하여 판매중개자로서 통신판매의 당사자가 아니며 해당상품의 거래정보 및 거래등에 대해 책임을 지지 않습니다.\nCOPYRIGHTⓒ HANATOUR SERVICE INC. ALL RIGHTS RESERVED\n하나은행 구매안전 서비스\n고객님은 안전거래를 위해 현금으로 결제시\n(주)하나투어에서 가입한 하나은행으로\n구매안전서비스를 이용하실 수 있습니다.\n서비스 가입사실 확인\n브랜드스탁선정\n22년연속(2005~2026)\n브랜드스타 1위\n산업정책연구원 주관\n제9회 국가서비스대상 (2026)\n하이엔드 여행 부문 대상 (제우스월드)\n2026 뉴욕페스티벌\n대한민국 국가브랜드 대상\n업계 최초 여행사 부문 대상\n2025 대한민국 SNS 대상\n업계 최초 관광 부문 대상\n소비자중심경영(CCM)\n7회 연속 인증(2012~2024) 및\n2025년 ‘명예의 전당’ 포상\nKMAC 선정\n14년 연속(2009~2025)\n한국산업의 고객만족도 여행사부문 1위\n한국표준협회 선정\n4년 연속(2019~2025)\n한국서비스품질지수 여행사 부문 1위\n한국능률협회선정\n22년연속(2005~2026)\n브랜드파워 1위\n브랜드스탁선정\n22년연속(2005~2026)\n브랜드스타 1위\n산업정책연구원 주관\n제9회 국가서비스대상 (2026)\n하이엔드 여행 부문 대상 (제우스월드)\n2026 뉴욕페스티벌\n대한민국 국가브랜드 대상\n업계 최초 여행사 부문 대상\n2025 대한민국 SNS 대상\n업계 최초 관광 부문 대상\n소비자중심경영(CCM)\n7회 연속 인증(2012~2024) 및\n2025년 ‘명예의 전당’ 포상\nKMAC 선정\n14년 연속(2009~2025)\n한국산업의 고객만족도 여행사부문 1위\n한국표준협회 선정\n4년 연속(2019~2025)\n한국서비스품질지수 여행사 부문 1위\n한국능률협회선정\n22년연속(2005~2026)\n브랜드파워 1위\n이전보기\n다음보기\n 대한민국브랜드대상\n 국외여행상품 정보제공 표준안 참여여행사\n 개인정보보호우수사이트\n CCM\n ISMS 인증 취득\n 현금영수증 의무발행 가맹점",
+  "slug": "hana-cb72bc8eb717",
+  "url": "https://cp.hanatour.com/trp/pkg/CHPC0PKG0200M200?pkgCd=EGG100270714KEA&prePage=major-products",
+  "checkedAt": "2026-09-29"
+}

@@ -18,7 +18,7 @@ type Props = {
   prefillRegion?: string;
   /** 국가 페이지에서 진입 시 국가 미리 선택 */
   prefillCountry?: string;
-  inquiryProduct?: { id: string; title: string; country: string; area: string };
+  inquiryProduct?: { id: string; title: string; country: string; area: string; duration?: string };
   product?: { id: string; title: string; country: string; start: string; end: string; duration: string; course: string };
 };
 
@@ -77,10 +77,10 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
   const [people, setPeople] = useState(4);
 
   // Step 2
-  const [duration, setDuration] = useState(product?.duration ?? "");
+  const [duration, setDuration] = useState(product?.duration ?? (inquiryProduct?.duration?.includes("·") ? "" : inquiryProduct?.duration) ?? "");
   const [rounds, setRounds] = useState("");
   const [lodging, setLodging] = useState(""); // 국내: 숙박 필요 여부 / 해외: 숙박 수준
-  const [flight, setFlight] = useState(product ? "항공 포함" : "");
+  const [flight, setFlight] = useState(product ? "항공 포함" : inquiryProduct ? "항공 불포함" : "");
   const [budget, setBudget] = useState("");
   const [course, setCourse] = useState(product?.course ?? prefillCourse ?? "");
   const [memo, setMemo] = useState("");
@@ -93,7 +93,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
   const [showPrivacy, setShowPrivacy] = useState(false);
   const [ticket, setTicket] = useState("");
   const [restored, setRestored] = useState(false);
-  const draftKey = `st-quote-v2-${type}-${product?.id ?? inquiryProduct?.id ?? prefillCountry ?? "general"}`;
+  const draftKey = `st-quote-v3-${type}-${product?.id ?? inquiryProduct?.id ?? prefillCountry ?? "general"}`;
   const [draftNotice, setDraftNotice] = useState(false);
 
   // 국가·상품별 초안. 연락처·성함·이메일은 기기에 저장하지 않는다.
@@ -117,7 +117,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
           if (!product && typeof d.flexTime === "string") setFlexTime(d.flexTime);
           if (Number.isInteger(d.people) && d.people >= 1 && d.people <= 999) setPeople(d.people);
           for (const [key, setter] of [["duration", setDuration], ["rounds", setRounds], ["lodging", setLodging], ["flight", setFlight], ["budget", setBudget], ["course", setCourse]] as const) {
-            if (typeof d[key] === "string" && !product) setter(d[key]);
+            if (typeof d[key] === "string" && !product && !(inquiryProduct && key === "flight")) setter(d[key]);
           }
           setDraftNotice(true);
           // 복원해도 첫 단계에서 조건을 다시 확인한다.
@@ -182,7 +182,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
   }, [isDom, regions, country]);
 
   const whenLabel =
-    dateMode === "date"
+    inquiryProduct ? (dateStart && dateStart >= new Date().toLocaleDateString("sv-SE") ? `${dateStart} 출발 · ${duration || "기간 상담 후 결정"}` : "") : dateMode === "date"
       ? dateStart && dateEnd && dateEnd >= dateStart
         ? `${dateStart.replace(/-/g, ". ")} 출발 ~ ${dateEnd.replace(/-/g, ". ")} 도착 (${stay})`
         : ""
@@ -225,7 +225,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
       기간: stay || duration || "미정",
       ...(product ? { 총라운드: "54홀 (18홀 × 3회)" } : {}),
       "1일 라운드": rounds || "미정",
-      ...(isDom ? { 숙박: lodging || "미정" } : { 항공: flight || "미정", 숙박수준: lodging || "미정" }),
+      ...(isDom ? { 숙박: lodging || "미정" } : { 항공: inquiryProduct ? "항공 불포함 (현지 일정 견적)" : flight || "미정", 숙박수준: lodging || "미정" }),
       예산: budget || "미정",
       선호골프장: course || "없음(추천 요청)",
       요청사항: memo || "-",
@@ -284,7 +284,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
           </p>
         )}
         <p className="text-[17px]">
-          담당자가 여행 조건과 예약 가능 여부를 확인한 뒤 남겨주신 연락처로 안내드립니다.
+          담당자가 여행 조건과 예약 가능 여부를 확인하고 견적서를 작성해 남겨주신 연락처로 보내드립니다.
           <br />
           <span className="text-mute">{site.company.hours}</span>
         </p>
@@ -315,12 +315,12 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
 
   /* ---------------- 입력 화면 ---------------- */
   return (
-    <div ref={boxRef} tabIndex={-1} className="quote-form min-w-0 scroll-mt-24 rounded-2xl border border-line bg-white p-5 sm:p-8">
+    <div ref={boxRef} tabIndex={-1} className="quote-form min-w-0 scroll-mt-24 rounded-2xl border border-line bg-white p-5 sm:p-6">
       <div className="mb-6 border-b border-line pb-4">
         <p className="text-sm font-bold text-royaldark" aria-live="polite">
           {step === 1 ? "여행 조건" : step === 2 ? "상세 조건 (선택)" : "연락처와 최종 확인"}
         </p>
-        <h3 className="text-xl font-bold mt-1">{step === 1 ? "아는 것만 알려주셔도 괜찮아요" : step === 2 ? "더 알려주시면 견적에 반영할게요" : "이 조건으로 상담을 요청할까요?"}</h3>
+        <h3 className="text-xl font-bold mt-1">{step === 1 ? (inquiryProduct ? "날짜와 인원만 선택하세요" : "아는 것만 알려주셔도 괜찮아요") : step === 2 ? "더 알려주시면 견적에 반영할게요" : "이 조건으로 상담을 요청할까요?"}</h3>
         <p className="text-sm text-mute mt-2">견적은 무료입니다. 접수만으로 예약이나 결제가 진행되지 않습니다.</p>
       </div>
       {draftNotice && step === 1 && <p className="mb-5 text-sm text-mute" role="status">이 페이지에서 작성하던 여행 조건을 불러왔습니다. 내용을 확인해 주세요.</p>}
@@ -328,7 +328,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
       {step === 1 && (
         <div className="space-y-7">
           {product ? <div className="rounded-xl bg-paper p-4"><b>{product.title}</b><p>{product.start} ~ {product.end} · {product.duration}</p><p className="text-sm text-mute">베트남 닌빈 로얄CC · 항공 포함 · 총 54홀</p><Link href="/overseas/vietnam/?flexible=1#quote" className="inline-block py-2 underline text-royaldark">다른 날짜로 문의하기</Link></div> : <>
-          {inquiryProduct ? <div className="rounded-xl bg-paper p-4"><p className="text-sm text-royaldark font-bold">선택한 상품</p><b>{inquiryProduct.title}</b><p>{inquiryProduct.country} · {inquiryProduct.area}</p><p className="text-sm text-mute">출발일과 인원을 알려주시면 이 상품의 가능 여부를 확인합니다.</p></div> : <>
+          {inquiryProduct ? <div className="rounded-xl bg-paper p-4"><p className="text-sm text-royaldark font-bold">선택한 상품</p><p className="text-sm">{inquiryProduct.country} · {inquiryProduct.area} · {inquiryProduct.duration}</p></div> : <>
           <Field label={isDom ? "희망 지역 (복수 선택 가능)" : "희망 국가"} required>
             {isDom ? (
               <div className="flex flex-wrap gap-2.5">
@@ -366,6 +366,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
           {!isDom && <DestinationRegionChoices country={country} value={area} onChange={setArea} />}
           </>}
 
+          {inquiryProduct ? <Field label="희망 출발일" htmlFor="product-departure" required><input id="product-departure" type="date" className="field min-w-0" min={new Date().toLocaleDateString("sv-SE")} value={dateStart} onChange={e => setDateStart(e.target.value)} /><p className="text-sm text-mute mt-2">{inquiryProduct.duration} · 항공권 별도 · 출발 가능 여부는 상담 후 확정</p></Field> : <>
           <Field label="희망 일정 (출발일 → 도착일)" required>
             <div className="flex flex-wrap gap-2.5 mb-3">
               <button type="button" className="choice" data-on={dateMode === "date"} aria-pressed={dateMode === "date"} onClick={() => setDateMode("date")}>날짜를 정했어요</button>
@@ -388,8 +389,10 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
               </div>
             )}
           </Field>
+</>}
 
           </>}
+          {inquiryProduct?.duration?.includes("·") && <Field label="여행 기간"><select aria-label="여행 기간" className="field" value={duration} onChange={e=>setDuration(e.target.value)}><option value="">상담하며 정할게요</option>{inquiryProduct.duration.match(/\d+/g)?.map(n=><option key={n} value={`${n}일`}>{n}일</option>)}</select></Field>}
           <Field label="인원" required>
             <div className="flex items-center gap-4">
               <button type="button" className="choice !min-w-[52px] text-xl" onClick={() => setPeople(Math.max(PEOPLE_MIN, people - 1))} aria-label="인원 줄이기">−</button>
@@ -433,7 +436,8 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
           ) : (
             <>
               <Field label="항공 포함 여부">
-                <Choices value={flight} set={setFlight} items={["항공 포함", "항공 불포함 (직접 예약)", "미정"]} />
+                {inquiryProduct ? <p className="text-sm text-mute">항공권은 제외한 현지 일정으로 견적을 안내합니다.</p> : <>
+                <Choices value={flight} set={setFlight} items={["항공 포함", "항공 불포함 (직접 예약)", "미정"]} /></>}
               </Field>
               <Field label="숙박 수준">
                 <Choices value={lodging} set={setLodging} items={["골프텔·실속", "4성급", "5성급·리조트", "풀빌라", "상담 후 결정"]} />
@@ -472,7 +476,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
         <div className="space-y-7">
           <div className="rounded-xl border border-line bg-paper p-4" data-testid="quote-summary">
             <p className="font-bold">{product?.title ?? inquiryProduct?.title ?? "맞춤 골프투어"}</p>
-            <dl className="mt-2 space-y-1 text-[15px]"><div><dt className="inline text-mute">지역: </dt><dd className="inline">{destinationLabel}</dd></div><div><dt className="inline text-mute">일정: </dt><dd className="inline">{whenLabel}</dd></div><div><dt className="inline text-mute">인원: </dt><dd className="inline">{people}명</dd></div>{course && <div><dt className="inline text-mute">골프장: </dt><dd className="inline">{course}</dd></div>}</dl>
+            <dl className="mt-2 space-y-1 text-[15px]"><div><dt className="inline text-mute">지역: </dt><dd className="inline">{destinationLabel}</dd></div><div><dt className="inline text-mute">일정: </dt><dd className="inline">{whenLabel}</dd></div><div><dt className="inline text-mute">인원: </dt><dd className="inline">{people}명</dd></div>{inquiryProduct && <div><dt className="inline text-mute">견적 기준: </dt><dd className="inline">항공 불포함 · 현지 일정</dd></div>}{course && <div><dt className="inline text-mute">골프장: </dt><dd className="inline">{course}</dd></div>}</dl>
             <button type="button" className="mt-2 py-2 underline text-royaldark font-semibold" onClick={() => goStep(1)}>여행 조건 수정</button>
           </div>
           <Field label="성함" htmlFor="quote-name" required>

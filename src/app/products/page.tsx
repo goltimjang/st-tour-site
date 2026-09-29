@@ -9,7 +9,7 @@ import ProductGrid from "@/components/ProductGrid";
 export const metadata: Metadata = {
   title: "해외 골프여행 상품 | 국가·지역·출발지별 비교",
   description:
-    "베트남·태국·일본·중국·괌 등 해외 골프여행과 파크골프 상품. 국가·지역·출발지별 상품과 참고 최저가를 비교하고 에스티골프투어에 무료 견적을 요청하세요.",
+    "베트남·태국·일본·중국·괌 등 해외 골프여행과 파크골프 상품. 국가·지역·출발지별 상품과 현지 일정을 비교하고 에스티골프투어에 무료 견적을 요청하세요.",
   alternates: { canonical: "/products/" },
 };
 
@@ -53,7 +53,7 @@ export default function ProductsPage() {
 
       <section className="mx-auto max-w-6xl px-5 py-10 sm:py-14">
         <nav aria-label="국가별 상품 페이지" className="flex flex-wrap gap-x-5 gap-y-1 mb-5">{catalogCountries.map(c => <Link key={c.slug} href={`/products/country/${c.slug}/`} className="text-sm min-h-11 inline-flex items-center text-royaldark underline">{c.name}</Link>)}</nav>
-        <p className="text-sm text-mute rounded-xl bg-white border border-line p-4 mb-6">가격은 2026.09.29 조회 기준 1인 참고 최저가입니다. 출발일·항공·객실과 프로모션 적용 조건에 따라 달라집니다. 실시간 가격·예약 가능 여부는 상담 시 확인합니다.</p>
+        <p className="text-sm text-mute rounded-xl bg-white border border-line p-4 mb-6">항공권 별도. 출발일과 인원을 보내주시면 현지 일정의 견적서를 작성해드립니다.</p>
         <Link href="/saved/" className="inline-block mb-5 py-2 underline text-royaldark">저장한 상품 보기</Link>
         {publishedProducts.length === 0 ? (
           <div className="rounded-2xl border border-line bg-white p-10 text-center">

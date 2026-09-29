@@ -1,0 +1,543 @@
+{
+  "costs": [
+    {
+      "items": [
+        "전용 차량비 : 전 일정 차량 (샌프란시스코 공항-호텔-골프장 왕복 차량 및 한국인 드라이빙가이드)\n",
+        "숙박비 : 페블비치 The Inn at Spanish Bay(포레스트뷰 또는 가든뷰룸 / 조식 불포함) 또는 The Lodge at Pebble Beach (가든뷰룸 / 조식 불포함) 3박 / 2인 1실 기준\n",
+        "그린피, 전동카 : 2인 1카트\n",
+        "3억원 여행자보험",
+        "가이드/기사 경비"
+      ],
+      "label": "포함내역"
+    },
+    {
+      "items": [
+        "식사비 : 전일정 식사\n※ 전 일정 식사는 불포함 이며, 사전 포함은 불가 합니다. 리조트 내 또는 외부 레스토랑에서 원하시는 메뉴로 드신 후 현장 결제 해주셔야 합니다.",
+        "캐디피 :\n※ 기본 셀프 플레이로 진행 되며, 캐디 신청 가능 (요금 별도 문의 / 사전 예약 필수)",
+        "비자 발급비 : 80,000원 (미국 ESTA 발급 수수료, 전자 여권 소지자만 가능), 최소출발미달 :\n※2인, 3인 출발 시, 송영 서비스 추가 요금 (사전 지불 필수)\n\n- 3인 출발 시 : 1인당 USD 335 / 4일, USD 420/5일 추가\n- 2인 출발 시 : 1인당 USD 1,000 / 4일, USD 1,250/5일 추가\n\n*2~3인 예약 시 조인 플레이 될 수 있으며, 조인 팀이 없을 시 단독 플레이로 진행 됩니다. (사전에 2~3인 단독 플레이 확정을 원할 시, 4인 골프비용 지불 해주셔야 합니다.)",
+        "개인 여행경비(물값, 자유시간시 개인비용 등)",
+        "각종 매너팁(테이블팁, 객실팁, 포터비, 마사지팁 등)",
+        "매너팁은 소비자의 자율적 선택으로 지불여부에 따른 불이익은 없습니다. "
+      ],
+      "label": "불포함내역"
+    },
+    {
+      "items": [
+        "전용차량 연장사용 :\n※ 송영 서비스는 1일 최대 10시간까지 이용 가능하며, 라운드 후 원하시는 장소(레스토랑 또는 주변 관광지 등)를 기사님께 미리 말씀하시면 왕복으로 모셔다 드립니다. 식사 비용 및 입장료는 고객이 직접 현장 지불이며, 10시간 초과 시 추가비용 발생 될 수 있습니다.",
+        "객실 1인 사용료 : 요금미정, 문의바랍니다., 싱글룸비용 :\n※ 싱글차지 (3인 예약 시 2객실 사용 필수이며 1인 싱글차지를 사전 지불 해주셔야 합니다.)\n: 기간마다 요금이 상이하므로 문의바랍니다.",
+        "기타 :\n※ The Links at Spanish Bay 레노베이션으로 27년 4월 16일까지 휴장입니다.\n※ 미국은 팁문화가 있는 국가로 고마움의 표시로 차량기사, 호텔, 골프장, 레스토랑 등 현지 직원들에게 현금으로 팁을 주셔야 합니다. (통상적으로 1인당, 차량기사 1일 $10~20, 호텔 및 골프장 벨보이 회당 $1~2, 하우스키퍼 1일 $1~2, 레스토랑 테이블당 5$ 정도 주시길 권고합니다.)\n※ 출발 전 골프백에 여권 상 영문으로 기재된 네임택을 꼭 부착해주셔야 합니다.",
+        "선택관광/기항지관광/현지투어에 관한 상세 내역은 패키지 상품상세를 참고바랍니다. "
+      ],
+      "label": "선택경비"
+    }
+  ],
+  "days": [
+    {
+      "day": "acc_con0",
+      "golf": [],
+      "hotel": [
+        "더 롯지 엣 페블 비치",
+        "더 인 앳 스페니쉬 베이"
+      ],
+      "images": [
+        {
+          "alt": "캘리포니아관광청 몬터레이 17마일드라이브",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/10/14/10000/094eb5f4-c24f-4db5-be1a-f3a5e42a8287.jpeg"
+        },
+        {
+          "alt": "캘리포니아관광청 몬터레이 17마일드라이브",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/10/14/10000/09a347ef-e030-4525-982b-9aba1e8b63eb.jpeg"
+        },
+        {
+          "alt": "캘리포니아관광청 몬터레이 17마일드라이브",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/10/14/10000/70a7368d-9d2a-4272-9653-e0807a801f4e.jpeg"
+        },
+        {
+          "alt": "THE LODGE AT PEBBLE BEACH",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/04/06/10000/86def61d-39f3-404b-ba2e-36f37f2ae8aa.jpg"
+        },
+        {
+          "alt": "THE LODGE AT PEBBLE BEACH",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/04/06/10000/4b4a1baa-7373-4660-8e53-7ae0ed5c1c02.jpg"
+        },
+        {
+          "alt": "THE LODGE AT PEBBLE BEACH",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/04/06/10000/fff8bba8-7299-4a7d-beb1-806ced46fcaf.jpg"
+        },
+        {
+          "alt": "The Inn at Spanish Bay",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/7c9923e0-2da5-4f5e-a75f-9dfae6cff3d5.jpg"
+        },
+        {
+          "alt": "The Inn at Spanish Bay",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/835bd4bc-0b58-4707-b909-bb899e60ca5d.jpg"
+        },
+        {
+          "alt": "The Inn at Spanish Bay",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/d7e969e9-1926-45f1-bf1b-9b6e6a512a78.jpg"
+        },
+        {
+          "alt": "The Inn at Spanish Bay",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/6cce6a06-d3d6-4713-831b-c4ecf0d0497b.jpg"
+        },
+        {
+          "alt": "The Inn at Spanish Bay",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/1d85e8c1-a674-49c2-9020-f96334e7e73a.jpg"
+        },
+        {
+          "alt": "The Inn at Spanish Bay",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/3247cced-e962-4ef4-8ea9-7e55e7dc439a.jpg"
+        },
+        {
+          "alt": "The Inn at Spanish Bay",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/ac3cf853-8665-47c2-8fe7-309f0445eeba.jpg"
+        },
+        {
+          "alt": "The Inn at Spanish Bay",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/7c9923e0-2da5-4f5e-a75f-9dfae6cff3d5.jpg"
+        },
+        {
+          "alt": "The Inn at Spanish Bay",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/835bd4bc-0b58-4707-b909-bb899e60ca5d.jpg"
+        },
+        {
+          "alt": "The Inn at Spanish Bay",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/d7e969e9-1926-45f1-bf1b-9b6e6a512a78.jpg"
+        },
+        {
+          "alt": "The Inn at Spanish Bay",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/6cce6a06-d3d6-4713-831b-c4ecf0d0497b.jpg"
+        }
+      ],
+      "meals": "[중식] 불포함 [석식] 불포함",
+      "stops": [
+        {
+          "text": "[예약시 참고사항]\n\n- 상기 상품은 항공은 불포함된 상품으로, 개별 발권 진행하셔야 합니다.\n- 예약 후 호텔/골프 등 실시간 예약이 진행되는 상품으로, 고객님의 정확한 여권상 영문으로 예약 후 예약상황에 대한 재안내와 확정여부를 받으실 수 있습니다.\n- 예약시점에 따라 호텔 및 골프장 예약이 불가하거나, 금액이 인상될 수 있습니다.\n- 일정표의 항공 스케줄은 실예약시 또는 항공사 상황으로 인해 변경될 수 있습니다.",
+          "title": "[예약시 참고사항]"
+        },
+        {
+          "text": "※ 해당 운항 일정은 유동적이며, 추후 여행이 가능한 항공편 및 출도착 일정으로 변경될 수 있습니다.",
+          "title": "※ 해당 운항 일정은 유동적이며, 추후 여행이 가능한 항공편 및 출도착 일정으로 변경될 수 있습니다."
+        },
+        {
+          "text": "샌프란시스코",
+          "title": "샌프란시스코"
+        },
+        {
+          "text": "[샌프란시스코 공항 미팅 정보]\n\n☞ 피 켓 : 하나투어\n☞ 행사차량 : 7인승 밴\n\n※ 입국 심사후 하나투어 피켓을 든 현지 가이드와 미팅합니다.\n※ 개인적인 입국 심사 문제로 공항에서 늦게 나오는 경우, 일부 일정을 못할 수도 있습니다.\n※ 차량 종류는 변경될 수 있습니다.\n",
+          "title": "[샌프란시스코 공항 미팅 정보]"
+        },
+        {
+          "meal": "샌프란시스코-몬터레이로 이동 (약 2시간30분 소요)",
+          "text": "샌프란시스코-몬터레이로 이동 (약 2시간30분 소요)"
+        },
+        {
+          "meal": "중식 (불포함)",
+          "text": "중식 (불포함)"
+        },
+        {
+          "text": "몬터레이(Monterey)﻿\n\n1602년 스페인 탐험가가 발견한 곳으로, 당시의 멕시코 총독 몬터레이 백작의 이름을 붙인 도시\n\n몬터레이는 샌프란시스코의 해안선을 따라 약 210Km 남쪽 아래로 내려온 곳에 자리 잡은 경치가 매우 아름다운 도시입니다. 캘리포니아에서도 가장 먼저 개척된 곳으로, 1602년 스페인의 탐험가가 발견했습니다. 발견 당시 멕시코 총독 몬터레이 백작의 이름을 붙였으며, 그 이름이 현재까지 이르고 있습니다. 1864년 캘리포니아로 선언되기 전까지 몬터레이는 멕시코령의 마을이었습니다.\n\n[시차]\n한국보다 17시간 느림(4월∼10월 16시간 느림)"
+        },
+        {
+          "text": "Pebble Beach Resorts® 체크인 및 휴식\n\n※ 송영 서비스는 1일 최대 10시간까지 이용 가능하며, 원하시는 장소(레스토랑 또는 주변 관광지 등)를 기사님께 미리 말씀하시면 왕복으로 모셔다 드립니다. 식사 비용 및 입장료는 고객이 직접 현장 지불이며, 10시간 초과 시 추가비용 발생 될 수 있습니다.",
+          "title": "Pebble Beach Resorts® 체크인 및 휴식"
+        },
+        {
+          "text": "예정 호텔\nThe Lodge at Pebble Beach\n\n더 롯지 엣 페블 비치\n\nTHE LODGE AT PEBBLE BEACH\nTHE LODGE AT PEBBLE BEACH는 1919년부터 럭셔리함과 아름다운 해안절경을 감상할 수 있는 페블비치의 랜드마크 호텔입니다. 호텔은 페블비치 골프 링크스의 피니쉬 18홀 옆에 위치하여, 창밖으로 페어웨이와 그림 같은 아름다운 오션뷰를 감상할 수 있습니다.\n\n▷부대시설: 골프코스, 수영장, 테니스 코트, 스파 & 피트니스 센터, 레스토랑 등\nThe Inn at Spanish Bay\n\n더 인 앳 스페니쉬 베이\n\n1/3\n이전\n다음\n호텔소개\n몬터레이 파인 숲과 태평양 해안에 자리한 5성급 더 인 앳 스페니쉬 베이 리조트는 스코틀랜드 스타일의 링크스 골프 코스와 인접해 있어 골프 애호가들에게 이상적입니다. 269개의 고급 객실은 벽난로와 전용 발코니를 갖추고 있으며, 대부분의 객실에서 바다나 숲의 전망을 감상할 수 있습니다. 다양한 레스토랑과 와인 셀러, 스파, 피트니스 센터 등 부대시설이 풍부하여 편안한 휴식을 제공합니다.\n\n▷부대시설: 레스토랑, 라운지, 골프코스, 스파 & 피트니스, 테니스 코트, 사우나, 수영장, 컨시어지 서비스, 무료 주차장, 공항 셔틀 서비스 등"
+        },
+        {
+          "meal": "석식 (불포함)",
+          "text": "석식 (불포함)"
+        },
+        {
+          "text": "호텔 투숙 및 휴식",
+          "title": "호텔 투숙 및 휴식"
+        }
+      ],
+      "text": "[예약시 참고사항]\n\n- 상기 상품은 항공은 불포함된 상품으로, 개별 발권 진행하셔야 합니다.\n- 예약 후 호텔/골프 등 실시간 예약이 진행되는 상품으로, 고객님의 정확한 여권상 영문으로 예약 후 예약상황에 대한 재안내와 확정여부를 받으실 수 있습니다.\n- 예약시점에 따라 호텔 및 골프장 예약이 불가하거나, 금액이 인상될 수 있습니다.\n- 일정표의 항공 스케줄은 실예약시 또는 항공사 상황으로 인해 변경될 수 있습니다.\n\n※ 해당 운항 일정은 유동적이며, 추후 여행이 가능한 항공편 및 출도착 일정으로 변경될 수 있습니다.\n샌프란시스코\n[샌프란시스코 공항 미팅 정보]\n\n☞ 피 켓 : 하나투어\n☞ 행사차량 : 7인승 밴\n\n※ 입국 심사후 하나투어 피켓을 든 현지 가이드와 미팅합니다.\n※ 개인적인 입국 심사 문제로 공항에서 늦게 나오는 경우, 일부 일정을 못할 수도 있습니다.\n※ 차량 종류는 변경될 수 있습니다.\n\n\n샌프란시스코-몬터레이로 이동 (약 2시간30분 소요)\n\n중식 (불포함)\n\n몬터레이(Monterey)﻿\n\n1602년 스페인 탐험가가 발견한 곳으로, 당시의 멕시코 총독 몬터레이 백작의 이름을 붙인 도시\n\n몬터레이는 샌프란시스코의 해안선을 따라 약 210Km 남쪽 아래로 내려온 곳에 자리 잡은 경치가 매우 아름다운 도시입니다. 캘리포니아에서도 가장 먼저 개척된 곳으로, 1602년 스페인의 탐험가가 발견했습니다. 발견 당시 멕시코 총독 몬터레이 백작의 이름을 붙였으며, 그 이름이 현재까지 이르고 있습니다. 1864년 캘리포니아로 선언되기 전까지 몬터레이는 멕시코령의 마을이었습니다.\n\n[시차]\n한국보다 17시간 느림(4월∼10월 16시간 느림)\nPebble Beach Resorts® 체크인 및 휴식\n\n※ 송영 서비스는 1일 최대 10시간까지 이용 가능하며, 원하시는 장소(레스토랑 또는 주변 관광지 등)를 기사님께 미리 말씀하시면 왕복으로 모셔다 드립니다. 식사 비용 및 입장료는 고객이 직접 현장 지불이며, 10시간 초과 시 추가비용 발생 될 수 있습니다.\n\n예정 호텔\nThe Lodge at Pebble Beach\n\n더 롯지 엣 페블 비치\n\nTHE LODGE AT PEBBLE BEACH\nTHE LODGE AT PEBBLE BEACH는 1919년부터 럭셔리함과 아름다운 해안절경을 감상할 수 있는 페블비치의 랜드마크 호텔입니다. 호텔은 페블비치 골프 링크스의 피니쉬 18홀 옆에 위치하여, 창밖으로 페어웨이와 그림 같은 아름다운 오션뷰를 감상할 수 있습니다.\n\n▷부대시설: 골프코스, 수영장, 테니스 코트, 스파 & 피트니스 센터, 레스토랑 등\nThe Inn at Spanish Bay\n\n더 인 앳 스페니쉬 베이\n\n1/3\n이전\n다음\n호텔소개\n몬터레이 파인 숲과 태평양 해안에 자리한 5성급 더 인 앳 스페니쉬 베이 리조트는 스코틀랜드 스타일의 링크스 골프 코스와 인접해 있어 골프 애호가들에게 이상적입니다. 269개의 고급 객실은 벽난로와 전용 발코니를 갖추고 있으며, 대부분의 객실에서 바다나 숲의 전망을 감상할 수 있습니다. 다양한 레스토랑과 와인 셀러, 스파, 피트니스 센터 등 부대시설이 풍부하여 편안한 휴식을 제공합니다.\n\n▷부대시설: 레스토랑, 라운지, 골프코스, 스파 & 피트니스, 테니스 코트, 사우나, 수영장, 컨시어지 서비스, 무료 주차장, 공항 셔틀 서비스 등\n\n석식 (불포함)\n\n호텔 투숙 및 휴식\n호텔\n총 2개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n더 롯지 엣 페블 비치 \n\nThe Lodge at Pebble Beach상세보기\n\n더 인 앳 스페니쉬 베이 \n\nThe Inn at Spanish Bay상세보기\n\n식사\n[중식] 불포함 [석식] 불포함"
+    },
+    {
+      "day": "acc_con1",
+      "golf": [
+        "[100대 골프장]페블비치 골프 링크스",
+        "스파이글래스 힐 골프 코스",
+        "더 링스 앳 스페니시 베이",
+        "델 몬테 골프 코스"
+      ],
+      "hotel": [
+        "더 롯지 엣 페블 비치",
+        "더 인 앳 스페니쉬 베이"
+      ],
+      "images": [
+        {
+          "alt": "Pebble Beach Golf Links™",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/08/08/10000/a900368c-f700-419e-ae11-ad56df49c4df.jpg"
+        },
+        {
+          "alt": "Pebble Beach Golf Links™",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/08/08/10000/a7d84412-3872-4b9c-a8f5-104937ac8886.jpg"
+        },
+        {
+          "alt": "Pebble Beach Golf Links™",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/08/08/10000/a900368c-f700-419e-ae11-ad56df49c4df.jpg"
+        },
+        {
+          "alt": "Pebble Beach Golf Links™",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/08/08/10000/a7d84412-3872-4b9c-a8f5-104937ac8886.jpg"
+        },
+        {
+          "alt": "Spyglass hill golf course",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/08/08/10000/d53b4f3f-81c2-4e2f-8015-e80b1e2ac3d8.jpg"
+        },
+        {
+          "alt": "The links at spanish bay",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/08/08/10000/dfbd2234-6414-4abd-9089-8d41e55df744.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/cd628b63-26a0-4b8e-9bf1-e4333e129c12.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/011637ad-adda-4413-a0c8-8ceeea6538a2.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/8ed6e943-3298-4e5f-b9a4-1f26c7d9d576.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/b2aedac5-225a-47c5-8111-4c79aff59396.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/9661a9a5-f6cf-4692-99d4-85923c1b19d4.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/50979944-9e46-4cb8-b334-e48a0c8d9a9b.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/cd628b63-26a0-4b8e-9bf1-e4333e129c12.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/011637ad-adda-4413-a0c8-8ceeea6538a2.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/8ed6e943-3298-4e5f-b9a4-1f26c7d9d576.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/b2aedac5-225a-47c5-8111-4c79aff59396.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/9661a9a5-f6cf-4692-99d4-85923c1b19d4.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/50979944-9e46-4cb8-b334-e48a0c8d9a9b.jpg"
+        }
+      ],
+      "meals": "[조식] 불포함 [중식] 불포함 [석식] 불포함",
+      "stops": [
+        {
+          "text": "몬테레이",
+          "title": "몬테레이"
+        },
+        {
+          "meal": "조식 (불포함)",
+          "text": "조식 (불포함)"
+        },
+        {
+          "text": "조식 후 골프장 이동 (차량 약 2~15분 소요)",
+          "title": "조식 후 골프장 이동 (차량 약 2~15분 소요)"
+        },
+        {
+          "text": "Pebble Beach Golf Links™ 18홀 라운드 (셀프+카트 플레이)\n\n☞예정 골프장 : Pebble Beach Golf Links / Spyglass Hill / Spanish Bay / Del Monte 중 1곳\n☞TEE OFF TIME - 미정\n\n■포함: 18홀 그린피, 카트피\n\n■불포함\n\n　- 캐디피(캐디가 없습니다.)\n\n※ The Links at Spanish Bay 레노베이션으로 27년 4월 16일까지 휴장입니다.",
+          "title": "Pebble Beach Golf Links™ 18홀 라운드 (셀프+카트 플레이)"
+        },
+        {
+          "text": "예정 골프장\n[100대 골프장]Pebble Beach\n상세보기\n\n세계에서 가장 유명하고, 골퍼들이 가장 플레이 해보고 싶은 골프장 1순위\n\n1/2\n이전\n다음\nPebble Beach Golf Links™\n페블 비치 골프장은 미국 골프 다이제스트에 의해 매년 100대 골프장에 오르는 곳이며 잭 네빌과 더글러스 그랜트가 거친 해안선의 광범위한 풍경, 경사진 페어웨이와 그린을 설계하였습니다.\n\n이 골프장에서는 1977년 PGA 챔피엄십과 US 오픈, 매년 2월 AT&T 페블비치 내셔널 프로암 대회의 개최 등 수차례 메이저 대회가 개최되었습니다. 1919년에 더글라스 그랜드와 잭 네빌에 의해 디자인 되었으며, 암석으로 이루어진 거친 해안선을 따라 절벽 위에 조성된 홀과 완만한 경사의 홀까지 다양한 형태의 홀을 갖추면서 스릴이 넘치며 다이나믹한 라운딩을 즐길 수 있습니다.\n페블비치 컴퍼니가 소유하고 있는 몬트레이 반도 내 여러 개의 골프코스 중에서도 다양한 러프와 가장 수준급의 코스를 자랑하는 이 곳은 단연 선두로 꼽힙니다. 탁 트인 태평양의 바다와 함께 힘찬 스윙을 할 때 느끼는 쾌감은 페블비치 골프 링크스에서만 즐길 수 있는 혜택이기도 합니다.\n\nPhoto by Jeff Marsh, ©Pebble Beach Company\nSPYGLASS HILL GOLF COURSE\n상세보기\nSpyglass Hill Golf Course\nSpyglass Hill Golf Course는 캘리포니아 몬테레이 반도에 위치한 미국 서부 해안의 링크스 골프 코스입니다. 골프 다이제스트는 스파이글래스 힐을 \"미국의 가장 위대한 100대 퍼블릭 코스\" 목록에서 5위로 선정했습니다. 스파이글래스 힐은 코스 평점 75.3과 슬로프 평점 148을 자랑하며 챔피언십 티에서 세계에서 가장 거친 코스 중 하나로 평가됩니다.\n\nPhoto by Kevin Merfeld, ©Pebble Beach Company\nThe Links at Spanish Bay\n상세보기\nThe Links at Spanish Bay\nThe Links at Spanish Bay는 캘리포니아 페블 비치의 17마일 드라이브에 위치해 있습니다. 라운드 내내 아름다운 해안 경관을 즐길 수 있으며, 아이언 플레이와 쇼트 게임이 매우 까다롭기로 유명합니다. The Links at Spanish Bay는 미국 최고의 스코틀랜드 스타일 링크랜드 코스입니다. 심지어 울퉁불퉁한 몬테레이 해안선도 스코틀랜드의 자연미를 반영합니다.\nThe Links at Spanish Bay는 6~8명의 골퍼가 들어갈 수 있는 큰 퍼팅 그린과 2~3명의 선수가 들어갈 수 있는 공간이 있는 피칭 그린이 있습니다. 스페인 베이에는 드라이빙 레인지가 없기 때문에, 라운드 전에 공을 치고 싶다고 스파이글래스 힐이나 페블 비치로 향해야 합니다.\n\nPhoto by Kevin Merfeld, ©Pebble Beach Company\nDel Monte Golf Course\n상세보기\n1/2\n이전\n다음\n골프장 소개\n델 몬테 골프 클럽은 페블 비치 골프 링크스의 네 코스 중 하나로, 캘리포니아에서 가장 오래된 골프 코스 중 하나입니다. 오랜 역사와 전통을 자랑하며 지금까지도 운영되고 있는 이 코스는 울창한 소나무와 참나무 숲으로 둘러싸여 있으며, 나무 사이로 이어지는 좁고 구불구불한 페어웨이와 작고 경사진 그린이 특징입니다. 전체 거리는 비교적 짧지만, 고전적인 레이아웃과 빈틈없는 전략적 설계 덕분에 플레이어에게 높은 집중력과 정교한 전략을 요구하는 도전적인 코스입니다."
+        },
+        {
+          "meal": "중식 (불포함)",
+          "text": "중식 (불포함)"
+        },
+        {
+          "text": "호텔 복귀 후 자유일정 및 리조트 내 부대시설 즐겨보기\n\n※ 송영 서비스는 1일 최대 10시간까지 이용 가능하며, 라운드 후 원하시는 장소(레스토랑 또는 주변 관광지 등)를 기사님께 미리 말씀하시면 왕복으로 모셔다 드립니다. 식사 비용 및 입장료는 고객이 직접 현장 지불이며, 10시간 초과 시 추가비용 발생 될 수 있습니다.",
+          "title": "호텔 복귀 후 자유일정 및 리조트 내 부대시설 즐겨보기"
+        },
+        {
+          "meal": "석식 (불포함)",
+          "text": "석식 (불포함)"
+        },
+        {
+          "text": "호텔 투숙 및 휴식",
+          "title": "호텔 투숙 및 휴식"
+        }
+      ],
+      "text": "몬테레이\n\n조식 (불포함)\n\n조식 후 골프장 이동 (차량 약 2~15분 소요)\nPebble Beach Golf Links™ 18홀 라운드 (셀프+카트 플레이)\n\n☞예정 골프장 : Pebble Beach Golf Links / Spyglass Hill / Spanish Bay / Del Monte 중 1곳\n☞TEE OFF TIME - 미정\n\n■포함: 18홀 그린피, 카트피\n\n■불포함\n\n　- 캐디피(캐디가 없습니다.)\n\n※ The Links at Spanish Bay 레노베이션으로 27년 4월 16일까지 휴장입니다.\n\n예정 골프장\n[100대 골프장]Pebble Beach\n상세보기\n\n세계에서 가장 유명하고, 골퍼들이 가장 플레이 해보고 싶은 골프장 1순위\n\n1/2\n이전\n다음\nPebble Beach Golf Links™\n페블 비치 골프장은 미국 골프 다이제스트에 의해 매년 100대 골프장에 오르는 곳이며 잭 네빌과 더글러스 그랜트가 거친 해안선의 광범위한 풍경, 경사진 페어웨이와 그린을 설계하였습니다.\n\n이 골프장에서는 1977년 PGA 챔피엄십과 US 오픈, 매년 2월 AT&T 페블비치 내셔널 프로암 대회의 개최 등 수차례 메이저 대회가 개최되었습니다. 1919년에 더글라스 그랜드와 잭 네빌에 의해 디자인 되었으며, 암석으로 이루어진 거친 해안선을 따라 절벽 위에 조성된 홀과 완만한 경사의 홀까지 다양한 형태의 홀을 갖추면서 스릴이 넘치며 다이나믹한 라운딩을 즐길 수 있습니다.\n페블비치 컴퍼니가 소유하고 있는 몬트레이 반도 내 여러 개의 골프코스 중에서도 다양한 러프와 가장 수준급의 코스를 자랑하는 이 곳은 단연 선두로 꼽힙니다. 탁 트인 태평양의 바다와 함께 힘찬 스윙을 할 때 느끼는 쾌감은 페블비치 골프 링크스에서만 즐길 수 있는 혜택이기도 합니다.\n\nPhoto by Jeff Marsh, ©Pebble Beach Company\nSPYGLASS HILL GOLF COURSE\n상세보기\nSpyglass Hill Golf Course\nSpyglass Hill Golf Course는 캘리포니아 몬테레이 반도에 위치한 미국 서부 해안의 링크스 골프 코스입니다. 골프 다이제스트는 스파이글래스 힐을 \"미국의 가장 위대한 100대 퍼블릭 코스\" 목록에서 5위로 선정했습니다. 스파이글래스 힐은 코스 평점 75.3과 슬로프 평점 148을 자랑하며 챔피언십 티에서 세계에서 가장 거친 코스 중 하나로 평가됩니다.\n\nPhoto by Kevin Merfeld, ©Pebble Beach Company\nThe Links at Spanish Bay\n상세보기\nThe Links at Spanish Bay\nThe Links at Spanish Bay는 캘리포니아 페블 비치의 17마일 드라이브에 위치해 있습니다. 라운드 내내 아름다운 해안 경관을 즐길 수 있으며, 아이언 플레이와 쇼트 게임이 매우 까다롭기로 유명합니다. The Links at Spanish Bay는 미국 최고의 스코틀랜드 스타일 링크랜드 코스입니다. 심지어 울퉁불퉁한 몬테레이 해안선도 스코틀랜드의 자연미를 반영합니다.\nThe Links at Spanish Bay는 6~8명의 골퍼가 들어갈 수 있는 큰 퍼팅 그린과 2~3명의 선수가 들어갈 수 있는 공간이 있는 피칭 그린이 있습니다. 스페인 베이에는 드라이빙 레인지가 없기 때문에, 라운드 전에 공을 치고 싶다고 스파이글래스 힐이나 페블 비치로 향해야 합니다.\n\nPhoto by Kevin Merfeld, ©Pebble Beach Company\nDel Monte Golf Course\n상세보기\n1/2\n이전\n다음\n골프장 소개\n델 몬테 골프 클럽은 페블 비치 골프 링크스의 네 코스 중 하나로, 캘리포니아에서 가장 오래된 골프 코스 중 하나입니다. 오랜 역사와 전통을 자랑하며 지금까지도 운영되고 있는 이 코스는 울창한 소나무와 참나무 숲으로 둘러싸여 있으며, 나무 사이로 이어지는 좁고 구불구불한 페어웨이와 작고 경사진 그린이 특징입니다. 전체 거리는 비교적 짧지만, 고전적인 레이아웃과 빈틈없는 전략적 설계 덕분에 플레이어에게 높은 집중력과 정교한 전략을 요구하는 도전적인 코스입니다.\n\n중식 (불포함)\n\n호텔 복귀 후 자유일정 및 리조트 내 부대시설 즐겨보기\n\n※ 송영 서비스는 1일 최대 10시간까지 이용 가능하며, 라운드 후 원하시는 장소(레스토랑 또는 주변 관광지 등)를 기사님께 미리 말씀하시면 왕복으로 모셔다 드립니다. 식사 비용 및 입장료는 고객이 직접 현장 지불이며, 10시간 초과 시 추가비용 발생 될 수 있습니다.\n\n석식 (불포함)\n\n호텔 투숙 및 휴식\n호텔\n총 2개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n더 롯지 엣 페블 비치 \n\nThe Lodge at Pebble Beach상세보기\n\n더 인 앳 스페니쉬 베이 \n\nThe Inn at Spanish Bay상세보기\n\n골프\n총 4개의 예정 골프장이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n[100대 골프장]페블비치 골프 링크스\n\n[100대 골프장]Pebble Beach상세보기\n\n스파이글래스 힐 골프 코스\n\nSPYGLASS HILL GOLF COURSE상세보기\n\n더 링스 앳 스페니시 베이\n\nThe Links at Spanish Bay상세보기\n\n델 몬테 골프 코스\n\nDel Monte Golf Course상세보기\n\n식사\n[조식] 불포함 [중식] 불포함 [석식] 불포함"
+    },
+    {
+      "day": "acc_con2",
+      "golf": [
+        "[100대 골프장]페블비치 골프 링크스",
+        "스파이글래스 힐 골프 코스",
+        "더 링스 앳 스페니시 베이",
+        "델 몬테 골프 코스"
+      ],
+      "hotel": [
+        "더 롯지 엣 페블 비치",
+        "더 인 앳 스페니쉬 베이"
+      ],
+      "images": [
+        {
+          "alt": "Pebble Beach Golf Links™",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/08/08/10000/a900368c-f700-419e-ae11-ad56df49c4df.jpg"
+        },
+        {
+          "alt": "Pebble Beach Golf Links™",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/08/08/10000/a7d84412-3872-4b9c-a8f5-104937ac8886.jpg"
+        },
+        {
+          "alt": "Pebble Beach Golf Links™",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/08/08/10000/a900368c-f700-419e-ae11-ad56df49c4df.jpg"
+        },
+        {
+          "alt": "Pebble Beach Golf Links™",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/08/08/10000/a7d84412-3872-4b9c-a8f5-104937ac8886.jpg"
+        },
+        {
+          "alt": "Spyglass hill golf course",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/08/08/10000/d53b4f3f-81c2-4e2f-8015-e80b1e2ac3d8.jpg"
+        },
+        {
+          "alt": "The links at spanish bay",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/08/08/10000/dfbd2234-6414-4abd-9089-8d41e55df744.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/cd628b63-26a0-4b8e-9bf1-e4333e129c12.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/011637ad-adda-4413-a0c8-8ceeea6538a2.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/8ed6e943-3298-4e5f-b9a4-1f26c7d9d576.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/b2aedac5-225a-47c5-8111-4c79aff59396.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/9661a9a5-f6cf-4692-99d4-85923c1b19d4.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/50979944-9e46-4cb8-b334-e48a0c8d9a9b.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/cd628b63-26a0-4b8e-9bf1-e4333e129c12.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/011637ad-adda-4413-a0c8-8ceeea6538a2.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/8ed6e943-3298-4e5f-b9a4-1f26c7d9d576.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/b2aedac5-225a-47c5-8111-4c79aff59396.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/9661a9a5-f6cf-4692-99d4-85923c1b19d4.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/50979944-9e46-4cb8-b334-e48a0c8d9a9b.jpg"
+        }
+      ],
+      "meals": "[조식] 불포함 [중식] 불포함 [석식] 불포함",
+      "stops": [
+        {
+          "text": "몬테레이",
+          "title": "몬테레이"
+        },
+        {
+          "meal": "조식 (불포함)",
+          "text": "조식 (불포함)"
+        },
+        {
+          "text": "조식 후 골프장 이동 (차량 약 2~15분 소요)",
+          "title": "조식 후 골프장 이동 (차량 약 2~15분 소요)"
+        },
+        {
+          "text": "Pebble Beach Golf Links™ 18홀 라운드 (셀프+카트 플레이)\n\n☞예정 골프장 : Pebble Beach Golf Links / Spyglass Hill / Spanish Bay / Del Monte 중 1곳\n☞TEE OFF TIME - 미정\n\n■포함: 18홀 그린피, 카트피\n\n■불포함\n\n　- 캐디피(캐디가 없습니다.)\n\n※ The Links at Spanish Bay 레노베이션으로 27년 4월 16일까지 휴장입니다.",
+          "title": "Pebble Beach Golf Links™ 18홀 라운드 (셀프+카트 플레이)"
+        },
+        {
+          "text": "예정 골프장\n[100대 골프장]Pebble Beach\n상세보기\n\n세계에서 가장 유명하고, 골퍼들이 가장 플레이 해보고 싶은 골프장 1순위\n\n1/2\n이전\n다음\nPebble Beach Golf Links™\n페블 비치 골프장은 미국 골프 다이제스트에 의해 매년 100대 골프장에 오르는 곳이며 잭 네빌과 더글러스 그랜트가 거친 해안선의 광범위한 풍경, 경사진 페어웨이와 그린을 설계하였습니다.\n\n이 골프장에서는 1977년 PGA 챔피엄십과 US 오픈, 매년 2월 AT&T 페블비치 내셔널 프로암 대회의 개최 등 수차례 메이저 대회가 개최되었습니다. 1919년에 더글라스 그랜드와 잭 네빌에 의해 디자인 되었으며, 암석으로 이루어진 거친 해안선을 따라 절벽 위에 조성된 홀과 완만한 경사의 홀까지 다양한 형태의 홀을 갖추면서 스릴이 넘치며 다이나믹한 라운딩을 즐길 수 있습니다.\n페블비치 컴퍼니가 소유하고 있는 몬트레이 반도 내 여러 개의 골프코스 중에서도 다양한 러프와 가장 수준급의 코스를 자랑하는 이 곳은 단연 선두로 꼽힙니다. 탁 트인 태평양의 바다와 함께 힘찬 스윙을 할 때 느끼는 쾌감은 페블비치 골프 링크스에서만 즐길 수 있는 혜택이기도 합니다.\n\nPhoto by Jeff Marsh, ©Pebble Beach Company\nSPYGLASS HILL GOLF COURSE\n상세보기\nSpyglass Hill Golf Course\nSpyglass Hill Golf Course는 캘리포니아 몬테레이 반도에 위치한 미국 서부 해안의 링크스 골프 코스입니다. 골프 다이제스트는 스파이글래스 힐을 \"미국의 가장 위대한 100대 퍼블릭 코스\" 목록에서 5위로 선정했습니다. 스파이글래스 힐은 코스 평점 75.3과 슬로프 평점 148을 자랑하며 챔피언십 티에서 세계에서 가장 거친 코스 중 하나로 평가됩니다.\n\nPhoto by Kevin Merfeld, ©Pebble Beach Company\nThe Links at Spanish Bay\n상세보기\nThe Links at Spanish Bay\nThe Links at Spanish Bay는 캘리포니아 페블 비치의 17마일 드라이브에 위치해 있습니다. 라운드 내내 아름다운 해안 경관을 즐길 수 있으며, 아이언 플레이와 쇼트 게임이 매우 까다롭기로 유명합니다. The Links at Spanish Bay는 미국 최고의 스코틀랜드 스타일 링크랜드 코스입니다. 심지어 울퉁불퉁한 몬테레이 해안선도 스코틀랜드의 자연미를 반영합니다.\nThe Links at Spanish Bay는 6~8명의 골퍼가 들어갈 수 있는 큰 퍼팅 그린과 2~3명의 선수가 들어갈 수 있는 공간이 있는 피칭 그린이 있습니다. 스페인 베이에는 드라이빙 레인지가 없기 때문에, 라운드 전에 공을 치고 싶다고 스파이글래스 힐이나 페블 비치로 향해야 합니다.\n\nPhoto by Kevin Merfeld, ©Pebble Beach Company\nDel Monte Golf Course\n상세보기\n1/2\n이전\n다음\n골프장 소개\n델 몬테 골프 클럽은 페블 비치 골프 링크스의 네 코스 중 하나로, 캘리포니아에서 가장 오래된 골프 코스 중 하나입니다. 오랜 역사와 전통을 자랑하며 지금까지도 운영되고 있는 이 코스는 울창한 소나무와 참나무 숲으로 둘러싸여 있으며, 나무 사이로 이어지는 좁고 구불구불한 페어웨이와 작고 경사진 그린이 특징입니다. 전체 거리는 비교적 짧지만, 고전적인 레이아웃과 빈틈없는 전략적 설계 덕분에 플레이어에게 높은 집중력과 정교한 전략을 요구하는 도전적인 코스입니다."
+        },
+        {
+          "meal": "중식 (불포함)",
+          "text": "중식 (불포함)"
+        },
+        {
+          "text": "호텔 복귀 후 자유일정 및 리조트 내 부대시설 즐겨보기\n\n※ 송영 서비스는 1일 최대 10시간까지 이용 가능하며, 라운드 후 원하시는 장소(레스토랑 또는 주변 관광지 등)를 기사님께 미리 말씀하시면 왕복으로 모셔다 드립니다. 식사 비용 및 입장료는 고객이 직접 현장 지불이며, 10시간 초과 시 추가비용 발생 될 수 있습니다.",
+          "title": "호텔 복귀 후 자유일정 및 리조트 내 부대시설 즐겨보기"
+        },
+        {
+          "meal": "석식 (불포함)",
+          "text": "석식 (불포함)"
+        },
+        {
+          "text": "호텔 투숙 및 휴식",
+          "title": "호텔 투숙 및 휴식"
+        }
+      ],
+      "text": "몬테레이\n\n조식 (불포함)\n\n조식 후 골프장 이동 (차량 약 2~15분 소요)\nPebble Beach Golf Links™ 18홀 라운드 (셀프+카트 플레이)\n\n☞예정 골프장 : Pebble Beach Golf Links / Spyglass Hill / Spanish Bay / Del Monte 중 1곳\n☞TEE OFF TIME - 미정\n\n■포함: 18홀 그린피, 카트피\n\n■불포함\n\n　- 캐디피(캐디가 없습니다.)\n\n※ The Links at Spanish Bay 레노베이션으로 27년 4월 16일까지 휴장입니다.\n\n예정 골프장\n[100대 골프장]Pebble Beach\n상세보기\n\n세계에서 가장 유명하고, 골퍼들이 가장 플레이 해보고 싶은 골프장 1순위\n\n1/2\n이전\n다음\nPebble Beach Golf Links™\n페블 비치 골프장은 미국 골프 다이제스트에 의해 매년 100대 골프장에 오르는 곳이며 잭 네빌과 더글러스 그랜트가 거친 해안선의 광범위한 풍경, 경사진 페어웨이와 그린을 설계하였습니다.\n\n이 골프장에서는 1977년 PGA 챔피엄십과 US 오픈, 매년 2월 AT&T 페블비치 내셔널 프로암 대회의 개최 등 수차례 메이저 대회가 개최되었습니다. 1919년에 더글라스 그랜드와 잭 네빌에 의해 디자인 되었으며, 암석으로 이루어진 거친 해안선을 따라 절벽 위에 조성된 홀과 완만한 경사의 홀까지 다양한 형태의 홀을 갖추면서 스릴이 넘치며 다이나믹한 라운딩을 즐길 수 있습니다.\n페블비치 컴퍼니가 소유하고 있는 몬트레이 반도 내 여러 개의 골프코스 중에서도 다양한 러프와 가장 수준급의 코스를 자랑하는 이 곳은 단연 선두로 꼽힙니다. 탁 트인 태평양의 바다와 함께 힘찬 스윙을 할 때 느끼는 쾌감은 페블비치 골프 링크스에서만 즐길 수 있는 혜택이기도 합니다.\n\nPhoto by Jeff Marsh, ©Pebble Beach Company\nSPYGLASS HILL GOLF COURSE\n상세보기\nSpyglass Hill Golf Course\nSpyglass Hill Golf Course는 캘리포니아 몬테레이 반도에 위치한 미국 서부 해안의 링크스 골프 코스입니다. 골프 다이제스트는 스파이글래스 힐을 \"미국의 가장 위대한 100대 퍼블릭 코스\" 목록에서 5위로 선정했습니다. 스파이글래스 힐은 코스 평점 75.3과 슬로프 평점 148을 자랑하며 챔피언십 티에서 세계에서 가장 거친 코스 중 하나로 평가됩니다.\n\nPhoto by Kevin Merfeld, ©Pebble Beach Company\nThe Links at Spanish Bay\n상세보기\nThe Links at Spanish Bay\nThe Links at Spanish Bay는 캘리포니아 페블 비치의 17마일 드라이브에 위치해 있습니다. 라운드 내내 아름다운 해안 경관을 즐길 수 있으며, 아이언 플레이와 쇼트 게임이 매우 까다롭기로 유명합니다. The Links at Spanish Bay는 미국 최고의 스코틀랜드 스타일 링크랜드 코스입니다. 심지어 울퉁불퉁한 몬테레이 해안선도 스코틀랜드의 자연미를 반영합니다.\nThe Links at Spanish Bay는 6~8명의 골퍼가 들어갈 수 있는 큰 퍼팅 그린과 2~3명의 선수가 들어갈 수 있는 공간이 있는 피칭 그린이 있습니다. 스페인 베이에는 드라이빙 레인지가 없기 때문에, 라운드 전에 공을 치고 싶다고 스파이글래스 힐이나 페블 비치로 향해야 합니다.\n\nPhoto by Kevin Merfeld, ©Pebble Beach Company\nDel Monte Golf Course\n상세보기\n1/2\n이전\n다음\n골프장 소개\n델 몬테 골프 클럽은 페블 비치 골프 링크스의 네 코스 중 하나로, 캘리포니아에서 가장 오래된 골프 코스 중 하나입니다. 오랜 역사와 전통을 자랑하며 지금까지도 운영되고 있는 이 코스는 울창한 소나무와 참나무 숲으로 둘러싸여 있으며, 나무 사이로 이어지는 좁고 구불구불한 페어웨이와 작고 경사진 그린이 특징입니다. 전체 거리는 비교적 짧지만, 고전적인 레이아웃과 빈틈없는 전략적 설계 덕분에 플레이어에게 높은 집중력과 정교한 전략을 요구하는 도전적인 코스입니다.\n\n중식 (불포함)\n\n호텔 복귀 후 자유일정 및 리조트 내 부대시설 즐겨보기\n\n※ 송영 서비스는 1일 최대 10시간까지 이용 가능하며, 라운드 후 원하시는 장소(레스토랑 또는 주변 관광지 등)를 기사님께 미리 말씀하시면 왕복으로 모셔다 드립니다. 식사 비용 및 입장료는 고객이 직접 현장 지불이며, 10시간 초과 시 추가비용 발생 될 수 있습니다.\n\n석식 (불포함)\n\n호텔 투숙 및 휴식\n호텔\n총 2개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n더 롯지 엣 페블 비치 \n\nThe Lodge at Pebble Beach상세보기\n\n더 인 앳 스페니쉬 베이 \n\nThe Inn at Spanish Bay상세보기\n\n골프\n총 4개의 예정 골프장이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n[100대 골프장]페블비치 골프 링크스\n\n[100대 골프장]Pebble Beach상세보기\n\n스파이글래스 힐 골프 코스\n\nSPYGLASS HILL GOLF COURSE상세보기\n\n더 링스 앳 스페니시 베이\n\nThe Links at Spanish Bay상세보기\n\n델 몬테 골프 코스\n\nDel Monte Golf Course상세보기\n\n식사\n[조식] 불포함 [중식] 불포함 [석식] 불포함"
+    },
+    {
+      "day": "acc_con3",
+      "golf": [
+        "[100대 골프장]페블비치 골프 링크스",
+        "스파이글래스 힐 골프 코스",
+        "더 링스 앳 스페니시 베이",
+        "델 몬테 골프 코스"
+      ],
+      "hotel": [],
+      "images": [
+        {
+          "alt": "Pebble Beach Golf Links™",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/08/08/10000/a900368c-f700-419e-ae11-ad56df49c4df.jpg"
+        },
+        {
+          "alt": "Pebble Beach Golf Links™",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/08/08/10000/a7d84412-3872-4b9c-a8f5-104937ac8886.jpg"
+        },
+        {
+          "alt": "Pebble Beach Golf Links™",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/08/08/10000/a900368c-f700-419e-ae11-ad56df49c4df.jpg"
+        },
+        {
+          "alt": "Pebble Beach Golf Links™",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/08/08/10000/a7d84412-3872-4b9c-a8f5-104937ac8886.jpg"
+        },
+        {
+          "alt": "Spyglass hill golf course",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/08/08/10000/d53b4f3f-81c2-4e2f-8015-e80b1e2ac3d8.jpg"
+        },
+        {
+          "alt": "The links at spanish bay",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/08/08/10000/dfbd2234-6414-4abd-9089-8d41e55df744.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/cd628b63-26a0-4b8e-9bf1-e4333e129c12.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/011637ad-adda-4413-a0c8-8ceeea6538a2.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/8ed6e943-3298-4e5f-b9a4-1f26c7d9d576.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/b2aedac5-225a-47c5-8111-4c79aff59396.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/9661a9a5-f6cf-4692-99d4-85923c1b19d4.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/50979944-9e46-4cb8-b334-e48a0c8d9a9b.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/cd628b63-26a0-4b8e-9bf1-e4333e129c12.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/011637ad-adda-4413-a0c8-8ceeea6538a2.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/8ed6e943-3298-4e5f-b9a4-1f26c7d9d576.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/b2aedac5-225a-47c5-8111-4c79aff59396.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/9661a9a5-f6cf-4692-99d4-85923c1b19d4.jpg"
+        },
+        {
+          "alt": "델몬테",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/50979944-9e46-4cb8-b334-e48a0c8d9a9b.jpg"
+        }
+      ],
+      "meals": "숙박 없음",
+      "stops": [
+        {
+          "text": "몬테레이",
+          "title": "몬테레이"
+        },
+        {
+          "meal": "조식 (불포함)",
+          "text": "조식 (불포함)"
+        },
+        {
+          "text": "개별 조식 및 체크아웃 후 골프장 이동 (차량 약 2~15분 소요)",
+          "title": "개별 조식 및 체크아웃 후 골프장 이동 (차량 약 2~15분 소요)"
+        },
+        {
+          "text": "Pebble Beach Golf Links™ 18홀 라운드 (셀프+카트 플레이)\n\n☞예정 골프장 : Pebble Beach Golf Links / Spyglass Hill / Spanish Bay / Del Monte 중 1곳\n☞TEE OFF TIME - 미정\n\n■포함: 18홀 그린피, 카트피\n\n■불포함\n\n　- 캐디피(캐디가 없습니다.)\n\n※ The Links at Spanish Bay 레노베이션으로 27년 4월 16일까지 휴장입니다.",
+          "title": "Pebble Beach Golf Links™ 18홀 라운드 (셀프+카트 플레이)"
+        },
+        {
+          "text": "예정 골프장\n[100대 골프장]Pebble Beach\n상세보기\n\n세계에서 가장 유명하고, 골퍼들이 가장 플레이 해보고 싶은 골프장 1순위\n\n1/2\n이전\n다음\nPebble Beach Golf Links™\n페블 비치 골프장은 미국 골프 다이제스트에 의해 매년 100대 골프장에 오르는 곳이며 잭 네빌과 더글러스 그랜트가 거친 해안선의 광범위한 풍경, 경사진 페어웨이와 그린을 설계하였습니다.\n\n이 골프장에서는 1977년 PGA 챔피엄십과 US 오픈, 매년 2월 AT&T 페블비치 내셔널 프로암 대회의 개최 등 수차례 메이저 대회가 개최되었습니다. 1919년에 더글라스 그랜드와 잭 네빌에 의해 디자인 되었으며, 암석으로 이루어진 거친 해안선을 따라 절벽 위에 조성된 홀과 완만한 경사의 홀까지 다양한 형태의 홀을 갖추면서 스릴이 넘치며 다이나믹한 라운딩을 즐길 수 있습니다.\n페블비치 컴퍼니가 소유하고 있는 몬트레이 반도 내 여러 개의 골프코스 중에서도 다양한 러프와 가장 수준급의 코스를 자랑하는 이 곳은 단연 선두로 꼽힙니다. 탁 트인 태평양의 바다와 함께 힘찬 스윙을 할 때 느끼는 쾌감은 페블비치 골프 링크스에서만 즐길 수 있는 혜택이기도 합니다.\n\nPhoto by Jeff Marsh, ©Pebble Beach Company\nSPYGLASS HILL GOLF COURSE\n상세보기\nSpyglass Hill Golf Course\nSpyglass Hill Golf Course는 캘리포니아 몬테레이 반도에 위치한 미국 서부 해안의 링크스 골프 코스입니다. 골프 다이제스트는 스파이글래스 힐을 \"미국의 가장 위대한 100대 퍼블릭 코스\" 목록에서 5위로 선정했습니다. 스파이글래스 힐은 코스 평점 75.3과 슬로프 평점 148을 자랑하며 챔피언십 티에서 세계에서 가장 거친 코스 중 하나로 평가됩니다.\n\nPhoto by Kevin Merfeld, ©Pebble Beach Company\nThe Links at Spanish Bay\n상세보기\nThe Links at Spanish Bay\nThe Links at Spanish Bay는 캘리포니아 페블 비치의 17마일 드라이브에 위치해 있습니다. 라운드 내내 아름다운 해안 경관을 즐길 수 있으며, 아이언 플레이와 쇼트 게임이 매우 까다롭기로 유명합니다. The Links at Spanish Bay는 미국 최고의 스코틀랜드 스타일 링크랜드 코스입니다. 심지어 울퉁불퉁한 몬테레이 해안선도 스코틀랜드의 자연미를 반영합니다.\nThe Links at Spanish Bay는 6~8명의 골퍼가 들어갈 수 있는 큰 퍼팅 그린과 2~3명의 선수가 들어갈 수 있는 공간이 있는 피칭 그린이 있습니다. 스페인 베이에는 드라이빙 레인지가 없기 때문에, 라운드 전에 공을 치고 싶다고 스파이글래스 힐이나 페블 비치로 향해야 합니다.\n\nPhoto by Kevin Merfeld, ©Pebble Beach Company\nDel Monte Golf Course\n상세보기\n1/2\n이전\n다음\n골프장 소개\n델 몬테 골프 클럽은 페블 비치 골프 링크스의 네 코스 중 하나로, 캘리포니아에서 가장 오래된 골프 코스 중 하나입니다. 오랜 역사와 전통을 자랑하며 지금까지도 운영되고 있는 이 코스는 울창한 소나무와 참나무 숲으로 둘러싸여 있으며, 나무 사이로 이어지는 좁고 구불구불한 페어웨이와 작고 경사진 그린이 특징입니다. 전체 거리는 비교적 짧지만, 고전적인 레이아웃과 빈틈없는 전략적 설계 덕분에 플레이어에게 높은 집중력과 정교한 전략을 요구하는 도전적인 코스입니다."
+        },
+        {
+          "meal": "중식 (불포함)",
+          "text": "중식 (불포함)"
+        },
+        {
+          "text": "라운드 후 기사 미팅 후 전용차량으로 샌프란시스코 국제공항(SFO) 이동 (차량 약 2시간 30분 소요)\n\n※ 송영 서비스는 1일 최대 10시간까지 이용 가능하며, 라운드 후 원하시는 장소(레스토랑 또는 주변 관광지 등)를 기사님께 미리 말씀하시면 왕복으로 모셔다 드립니다. 식사 비용 및 입장료는 고객이 직접 현장 지불이며, 10시간 초과 시 추가비용 발생 될 수 있습니다.",
+          "title": "라운드 후 기사 미팅 후 전용차량으로 샌프란시스코 국제공항(SFO) 이동 (차량 약 2시간 30분 소요)"
+        },
+        {
+          "meal": "몬테레이-샌프란시스코로 이동 (약 3시간 소요)",
+          "text": "몬테레이-샌프란시스코로 이동 (약 3시간 소요)"
+        },
+        {
+          "text": "샌프란시스코",
+          "title": "샌프란시스코"
+        },
+        {
+          "meal": "석식 (불포함)",
+          "text": "석식 (불포함)"
+        }
+      ],
+      "text": "몬테레이\n\n조식 (불포함)\n\n개별 조식 및 체크아웃 후 골프장 이동 (차량 약 2~15분 소요)\nPebble Beach Golf Links™ 18홀 라운드 (셀프+카트 플레이)\n\n☞예정 골프장 : Pebble Beach Golf Links / Spyglass Hill / Spanish Bay / Del Monte 중 1곳\n☞TEE OFF TIME - 미정\n\n■포함: 18홀 그린피, 카트피\n\n■불포함\n\n　- 캐디피(캐디가 없습니다.)\n\n※ The Links at Spanish Bay 레노베이션으로 27년 4월 16일까지 휴장입니다.\n\n예정 골프장\n[100대 골프장]Pebble Beach\n상세보기\n\n세계에서 가장 유명하고, 골퍼들이 가장 플레이 해보고 싶은 골프장 1순위\n\n1/2\n이전\n다음\nPebble Beach Golf Links™\n페블 비치 골프장은 미국 골프 다이제스트에 의해 매년 100대 골프장에 오르는 곳이며 잭 네빌과 더글러스 그랜트가 거친 해안선의 광범위한 풍경, 경사진 페어웨이와 그린을 설계하였습니다.\n\n이 골프장에서는 1977년 PGA 챔피엄십과 US 오픈, 매년 2월 AT&T 페블비치 내셔널 프로암 대회의 개최 등 수차례 메이저 대회가 개최되었습니다. 1919년에 더글라스 그랜드와 잭 네빌에 의해 디자인 되었으며, 암석으로 이루어진 거친 해안선을 따라 절벽 위에 조성된 홀과 완만한 경사의 홀까지 다양한 형태의 홀을 갖추면서 스릴이 넘치며 다이나믹한 라운딩을 즐길 수 있습니다.\n페블비치 컴퍼니가 소유하고 있는 몬트레이 반도 내 여러 개의 골프코스 중에서도 다양한 러프와 가장 수준급의 코스를 자랑하는 이 곳은 단연 선두로 꼽힙니다. 탁 트인 태평양의 바다와 함께 힘찬 스윙을 할 때 느끼는 쾌감은 페블비치 골프 링크스에서만 즐길 수 있는 혜택이기도 합니다.\n\nPhoto by Jeff Marsh, ©Pebble Beach Company\nSPYGLASS HILL GOLF COURSE\n상세보기\nSpyglass Hill Golf Course\nSpyglass Hill Golf Course는 캘리포니아 몬테레이 반도에 위치한 미국 서부 해안의 링크스 골프 코스입니다. 골프 다이제스트는 스파이글래스 힐을 \"미국의 가장 위대한 100대 퍼블릭 코스\" 목록에서 5위로 선정했습니다. 스파이글래스 힐은 코스 평점 75.3과 슬로프 평점 148을 자랑하며 챔피언십 티에서 세계에서 가장 거친 코스 중 하나로 평가됩니다.\n\nPhoto by Kevin Merfeld, ©Pebble Beach Company\nThe Links at Spanish Bay\n상세보기\nThe Links at Spanish Bay\nThe Links at Spanish Bay는 캘리포니아 페블 비치의 17마일 드라이브에 위치해 있습니다. 라운드 내내 아름다운 해안 경관을 즐길 수 있으며, 아이언 플레이와 쇼트 게임이 매우 까다롭기로 유명합니다. The Links at Spanish Bay는 미국 최고의 스코틀랜드 스타일 링크랜드 코스입니다. 심지어 울퉁불퉁한 몬테레이 해안선도 스코틀랜드의 자연미를 반영합니다.\nThe Links at Spanish Bay는 6~8명의 골퍼가 들어갈 수 있는 큰 퍼팅 그린과 2~3명의 선수가 들어갈 수 있는 공간이 있는 피칭 그린이 있습니다. 스페인 베이에는 드라이빙 레인지가 없기 때문에, 라운드 전에 공을 치고 싶다고 스파이글래스 힐이나 페블 비치로 향해야 합니다.\n\nPhoto by Kevin Merfeld, ©Pebble Beach Company\nDel Monte Golf Course\n상세보기\n1/2\n이전\n다음\n골프장 소개\n델 몬테 골프 클럽은 페블 비치 골프 링크스의 네 코스 중 하나로, 캘리포니아에서 가장 오래된 골프 코스 중 하나입니다. 오랜 역사와 전통을 자랑하며 지금까지도 운영되고 있는 이 코스는 울창한 소나무와 참나무 숲으로 둘러싸여 있으며, 나무 사이로 이어지는 좁고 구불구불한 페어웨이와 작고 경사진 그린이 특징입니다. 전체 거리는 비교적 짧지만, 고전적인 레이아웃과 빈틈없는 전략적 설계 덕분에 플레이어에게 높은 집중력과 정교한 전략을 요구하는 도전적인 코스입니다.\n\n중식 (불포함)\n\n라운드 후 기사 미팅 후 전용차량으로 샌프란시스코 국제공항(SFO) 이동 (차량 약 2시간 30분 소요)\n\n※ 송영 서비스는 1일 최대 10시간까지 이용 가능하며, 라운드 후 원하시는 장소(레스토랑 또는 주변 관광지 등)를 기사님께 미리 말씀하시면 왕복으로 모셔다 드립니다. 식사 비용 및 입장료는 고객이 직접 현장 지불이며, 10시간 초과 시 추가비용 발생 될 수 있습니다.\n\n몬테레이-샌프란시스코로 이동 (약 3시간 소요)\n\n샌프란시스코\n\n석식 (불포함)\n\n호텔\n숙박 없음\n골프\n총 4개의 예정 골프장이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n[100대 골프장]페블비치 골프 링크스\n\n[100대 골프장]Pebble Beach상세보기\n\n스파이글래스 힐 골프 코스\n\nSPYGLASS HILL GOLF COURSE상세보기\n\n더 링스 앳 스페니시 베이\n\nThe Links at Spanish Bay상세보기\n\n델 몬테 골프 코스\n\nDel Monte Golf Course상세보기\n\n식사\n[조식] 불포함 [중식] 불포함 [석식] 불포함"
+    }
+  ],
+  "text": "(주)나침반여행사\n1899-7972\n로그인\n회원가입\n고객센터\n하나투어\n통합 검색어 입력폼\n검색\n나트랑\n일본\n대마도\n장가계\n대만\n푸꾸옥\n후쿠오카\n상하이\n오사카\n스페인\n나트랑\n일본\n마이메뉴\n예약내역\n찜\n전체메뉴\n해외여행\n항공\n호텔\n항공+호텔\n투어/입장권\n국내여행\n테마여행\n제우스\n여행기획전\n이달의 혜택\n여행 파트너\nH-AI\n최근 본 상품(5)\nTOP\n1/4\n이전\n다음\n상품코드 HWG102261109004\n인쇄하기 공유하기\n다색골프\n여행상품 핵심정보\n골프\n[항공불포함] 미서부 골프 4일 #몬테리 #페블비치 #Pebble Beach® #18홀X3회 #5성급호텔 #전일정 VIP송영서비스\n#골프#다색골프 #관광\n해시태그\n#아름다운해안경관#꿈같은골프라운드#고급스러운휴식#미서부골프여행#페블비치골프투어#몬테리여행코스#페블비치골프장#스파이글래스힐골프코스#더인앳스페니쉬베이\n3박 4일\n항공불포함\n쇼핑없음\n우리끼리\n가이드경비없음\n선택관광없음\n출발예정\n일정예정\n호텔예정\n가격예정\n\n성인 1인\n\n8,310,000 원\n5개월 무이자 할부 예상가\n월 1,662,000원\n카드사별 무이자 혜택 \n여행 주요일정\n다른 출발일 선택 \n최저가로 떠날 수 있는 날 알아보기\n일정 \n\n3박 4일\n\n일정시작 : 2026.11.09 (월)\n\n일정종료 : 2026.11.12 (목)\n\n 여행도시 몬터레이(3) 예약현황 예약 : 0명 좌석 : 4석 (최소출발 : 성인2명) \n상품가격\n구분\t성인\n\n만 12세 이상\n\n\t아동\n\n만 12세 미만 \n\n\t유아\n\n만 2세 미만 \n\n\n기본상품\t8,310,000원\n\n유류할증료 0원/제세공과금 0원 포함\n\n\t8,310,000원\n\n유류할증료 0원/제세공과금 0원 포함 \n\n\t300,000원\n\n유류할증료 0원/제세공과금 0원 포함 \n\n약관(이용운송, 숙박기관 등에 지급할 요금의 변동)에 따라 상품가격은 변동될 수 있습니다. 자세한 사항은 약관을 참조하시기 바랍니다.\n아동, 유아요금은 성인 2인과 같은 방 사용조건이며, 미충족시 아동추가 요금이 발생합니다.\n1인 객실 사용시 추가요금 발생됩니다.\n\n1인 객실 사용료 : 문의\n\n하나투어 마일리지 최대 83,100적립예정\n하나투어클럽 회원, 성인기준\n패키지 상품가 기준\n미국\n입국 규정 확인\n테마소개\t\n골프\n다색골프\n\n골프\n\n\n[하나투어 X 보이스캐디 APL골프]\n핸드폰과 워치에서 골프장 코스/거리 정보를 확인할수 있어요.\n출발 7일전 카톡 알림톡을 통해 APL 3일 무료이용권을 제공합니다.\n\n\n다색골프\n\n골프장 외부에 위치한 숙박시설에서 다양한 골프장 라운드를 즐기는 상품입니다.\n\n핵심\n포인트\n골프\n호텔\n보험\n기타\nSAFETY\n&JOY\n상품 핵심포인트\n① 세계에서 가장 아름다운, Pebble Beach® 18홀X3회 라운드\n② 세계에서 가장 비싼 코스 중 하나인, Pebble Beach Golf Links™\n③ \"미국의 가장 위대한 100대 퍼블릭 코스\" 목록에서 5위로 선정된, Spyglass Hill™ Golf Course\n④ 라운드 내내 아름다운 해안 경관을 즐길 수 있는, The Links at Spanish Bay™\n⑤ 골프 다이제스트 선정 100년 이상 된 미국 내 골프 코스 중 상위 5순위 Del Monte Golf Course\n⑥ 페블비치 리조트 내 전 일정 5성급 초특급 호텔에서 고품격 휴식 및 부대시설 이용\n⑦ 전 일정 고품격 차량과 한국인 드라이빙 가이드와 함께 라운드 후 내가 원하는대로 관광지, 맛집까지 프라이빗 송영 서비스 (1일/10시간 제공)\n⑧ 페블비치 리조트 투숙기간 중 렉서스 차량 1회 2시간 무료 대여 제공\n⑨ 페블비치 리조트 내 드라이빙 레인지 무제한 이용\n⛳골프 안내\n- 세계 3대 골프장 PEBBLE BEACH GOLF LINK\n- 페블비치 THE LINKS AT SPANISH BAY\n- 페블비치 SPYGLASS HILL GOLF COURSE\n- 페블비치 DEL MONTE GOLF COURSE\n- 4인 1조 라운딩\n\n※ The Links at Spanish Bay 레노베이션으로 27년 4월 16일까지 휴장입니다.\n\n\n\n🌊 페블비치 골프 링크스 – 세계 최고의 오션뷰 챔피언십 코스\n태평양 절벽을 따라 펼쳐지는 페어웨이와 드라마틱한 클리프샷이 압도적인 명문 코스입니다.\nU.S. 오픈 6회 개최 및 PGA 투어 ‘AT&T 페블비치 프로암’이 열리는, 전 세계 골퍼들의 버킷리스트 1순위 코스입니다.\n• PAR 72 / 18H / 6,828Y\n• 개장 1919년\n• 골프 다이제스트 ‘미국 퍼블릭 코스 1위’ / PGA 챔피언십 개최\n\n🌬️ 스페니쉬 베이 코스 – 스코틀랜드 감성의 정통 링크스 코스\n바닷바람과 모래언덕, 해안선을 따라 조성된 링크스 스타일로 자연 그대로의 플레이를 즐길 수 있습니다.\n해질녘 울려 퍼지는 백파이프 연주 전통이 더해져 감성적인 라운드를 완성합니다.\n• PAR 72 / 18H / 6,821Y\n• 개장 1987년\n• 캘리포니아 상위 100대 코스\n\n🔥 스파이글래스 힐 코스 – 링크스와 포레스트가 공존하는 전략 코스\n초반 5홀은 태평양 해안을 따라 펼쳐지는 링크스 스타일, 이후 13홀은 소나무 숲 속 파크랜드 코스로 구성된 독특한 레이아웃입니다.\nPGA 투어 ‘AT&T 페블비치 프로암’ 공동 개최 코스로, 전략성과 난이도를 모두 갖춘 도전적인 코스입니다.\n• PAR 72 / 18H / 7,041Y\n• 개장 1966년\n• 골프 다이제스트 ‘미국 상위 100대 코스’ 선정\n\n🌲 델 몬테 골프 코스 – 100년 전통의 클래식 포레스트 코스\n캘리포니아에서 가장 오래된 골프장 중 하나로, 깊은 역사와 전통을 간직한 명문 코스입니다.\n울창한 숲 속 좁고 구불한 페어웨이와 작은 그린이 특징으로, 정교한 샷과 집중력이 요구됩니다.\n• PAR 72 / 18H / 6,365Y\n• 1897년 9홀 개장 → 1902년 18홀 확장\n• 골프 다이제스트 ‘100년 이상 코스 Top 5’ 선정\n\n🏩호텔 안내\n전 일정 5성급 호텔 숙박\n\n①더 인 앳 스페니쉬 베이 (The Inn at Spanish Bay)\n•체크인 4:00 PM / 체크아웃 12:00 AM\n•부대시설: 레스토랑, 라운지, 골프코스, 스파 & 피트니스, 테니스 코트, 사우나, 수영장, 컨시어지 서비스, 무료 주차장, 공항 셔틀 서비스 등\n\n②더 롯지 앳 페블비치 (The Lodge at Pebble Beach)\n•4:00 PM / 체크아웃 11:00 AM\n•부대시설: 골프코스, 수영장, 테니스 코트, 스파 & 피트니스 센터, 레스토랑 등\n•페블비치 숙박객 특전\n투숙기간 중 렉서스 차량 2시간 무료 대여 가능 (국제 운전면허증 필수, 호텔 컨시어지에 직접 신청), 리조트 내 부대시설 이용 - 헬스장, 스팀룸, 사우나, 자쿠지, 수영장, 테니스 코트(유료), 스파 서비스(유료), 객실 내 미니바 (소프트 트링크 및 스낵 1일 1회 무료제공 / 주류 유료)\n\n※상기 두 곳 중 1곳에서 숙박합니다.\n※특전은 호텔의 사정에 의해 예고없이 변경될 수 있습니다.\n3억원 여행자보험\n해외치료비 최대 보장 한도 [상해/질병]3,000만원\n[휴대품 도난/파손] 최대100만원보상\n* 국가/연령에 따라 보장내용이 상이할 수 있습니다.\n* 자세한 내용은 보장내역 자세히보기(클릭) 확인해주시기 바랍니다.\n출입국 정보\n· 여행 필요서류/준비사항 [대한민국 → 미국]\n\n▶예약 전 필수 체크 사항\n- 입국 가능 승객 : 미국 시민권자/영주권자, 유효한 미국 비자 소지자(ESTA 포함)\n\n▶필수 준비 서류\n- 미국 입국 가능 비자\n- 전자 여권(칩 내장有) 소지\n(여권 유효기간: 출국일 기준, 6개월 이상)\n- 여권 사본\n- 왕복 항공권 (전자 항공권의 경우, 출입국 심사관 제시용 여정 사본 소지)\n⭐보이스캐디 APL골프 X 하나투어 단독 제공⭐\n핸드폰과 워치에서 골프장 코스/거리 정보를 확인할수 있습니다.\n출발 7일전 카톡 알림톡을 통해 APL 3일 무료 이용권을 제공합니다. (1인 2만원 상당)\nPC 바로가기 ☞ (바로가기)\n모바일 바로가기 ☞ (바로가기)\n\nSAFETY&JOY 하나투어는 여행의 전 과정을 함께 합니다.\n① 여행 중 24시간 긴급 의료 지원 등 H-care\n② 여행 후에도 이어지는 고객 만족 서비스\n(바로가기)\n포함/불포함/선택경비 정보\n포함내역\n[교통]\n\n전용 차량비 : 전 일정 차량 (샌프란시스코 공항-호텔-골프장 왕복 차량 및 한국인 드라이빙가이드)\n\n\n[숙박]\n\n숙박비 : 페블비치 The Inn at Spanish Bay(포레스트뷰 또는 가든뷰룸 / 조식 불포함) 또는 The Lodge at Pebble Beach (가든뷰룸 / 조식 불포함) 3박 / 2인 1실 기준\n\n\n[테마]\n\n그린피, 전동카 : 2인 1카트\n\n\n[여행자보험]\n\n3억원 여행자보험\n\n[가이드/기사]\n\n가이드/기사 경비\n\n불포함내역\n[식사]\n\n식사비 : 전일정 식사\n※ 전 일정 식사는 불포함 이며, 사전 포함은 불가 합니다. 리조트 내 또는 외부 레스토랑에서 원하시는 메뉴로 드신 후 현장 결제 해주셔야 합니다.\n\n[테마]\n\n캐디피 :\n※ 기본 셀프 플레이로 진행 되며, 캐디 신청 가능 (요금 별도 문의 / 사전 예약 필수)\n\n[기타]\n\n비자 발급비 : 80,000원 (미국 ESTA 발급 수수료, 전자 여권 소지자만 가능), 최소출발미달 :\n※2인, 3인 출발 시, 송영 서비스 추가 요금 (사전 지불 필수)\n\n- 3인 출발 시 : 1인당 USD 335 / 4일, USD 420/5일 추가\n- 2인 출발 시 : 1인당 USD 1,000 / 4일, USD 1,250/5일 추가\n\n*2~3인 예약 시 조인 플레이 될 수 있으며, 조인 팀이 없을 시 단독 플레이로 진행 됩니다. (사전에 2~3인 단독 플레이 확정을 원할 시, 4인 골프비용 지불 해주셔야 합니다.)\n\n개인 여행경비(물값, 자유시간시 개인비용 등)\n\n각종 매너팁(테이블팁, 객실팁, 포터비, 마사지팁 등)\n\n매너팁은 소비자의 자율적 선택으로 지불여부에 따른 불이익은 없습니다. \n\n선택경비\n[교통]\n\n전용차량 연장사용 :\n※ 송영 서비스는 1일 최대 10시간까지 이용 가능하며, 라운드 후 원하시는 장소(레스토랑 또는 주변 관광지 등)를 기사님께 미리 말씀하시면 왕복으로 모셔다 드립니다. 식사 비용 및 입장료는 고객이 직접 현장 지불이며, 10시간 초과 시 추가비용 발생 될 수 있습니다.\n\n[숙박]\n\n객실 1인 사용료 : 요금미정, 문의바랍니다., 싱글룸비용 :\n※ 싱글차지 (3인 예약 시 2객실 사용 필수이며 1인 싱글차지를 사전 지불 해주셔야 합니다.)\n: 기간마다 요금이 상이하므로 문의바랍니다.\n\n[기타]\n\n기타 :\n※ The Links at Spanish Bay 레노베이션으로 27년 4월 16일까지 휴장입니다.\n※ 미국은 팁문화가 있는 국가로 고마움의 표시로 차량기사, 호텔, 골프장, 레스토랑 등 현지 직원들에게 현금으로 팁을 주셔야 합니다. (통상적으로 1인당, 차량기사 1일 $10~20, 호텔 및 골프장 벨보이 회당 $1~2, 하우스키퍼 1일 $1~2, 레스토랑 테이블당 5$ 정도 주시길 권고합니다.)\n※ 출발 전 골프백에 여권 상 영문으로 기재된 네임택을 꼭 부착해주셔야 합니다.\n\n선택관광/기항지관광/현지투어에 관한 상세 내역은 패키지 상품상세를 참고바랍니다. \n\n상품약관\t\n약관상세보기\n\n본 상품의 예약과 취소는 국외여행 특별약관이 적용됨을 알려드립니다.\n특별약관 적용 시 표준약관보다 높은 취소수수료가 부과될 수 있으며 이 경우 동의절차를 구합니다.\n\n계약금 규정\n예약일 기준 3일 이내에 1인당 800,000원을 납입하셔야합니다.\n취소료 규정\n이 상품은 항공(또는 선박)좌석 또는 호텔객실에 대한 비용을 선납해 놓은 상품으로서, 취소시 하단의 취소료가 적용됨을 양해해 주시기 바랍니다.\n더보기\n예약시 유의사항\n- 예약시점에 따라 호텔 및 골프장 예약이 불가하거나, 금액이 인상될 수 있습니다.\n- 7인승 밴 행사 진행됩니다. 이 때 가이드는 드라이빙 가이드입니다.\n- 현지 합류행사(랜드조인) 가능 상품입니다. 단, 본 상품의 패키지 고객과 도착시간이 상이할 경우 별도의 추가 요금이 발생하오니 별도 문의 바랍니다.\n- 객실 및 침대 타입 배정은 호텔의 고유 권한이며, 미주지역 소방법상 엑스트라 베드 추가는 불가합니다.\n- 현지 사정에 따라 행사 순서 및 식사 순서는 변경 될 수 있습니다.\n- 현지법상 미성년자가 참여 할 수 없는 행사, 옵션 또는 제공 받을 수 없는 혜택이 있습니다. 자세한 사항은 일정표를 참조하여 주십시오.\n- 일정 중 개인 사정으로 참여하지 못한 부분에 대해서는 환불되지 않습니다.\n- 유학비자로는 출발할 수 없으며, 관광 목적에 맞는 관광비자 준비 부탁 드립니다. (비자가 필요한 국가로 목적에 맞는 관광비자(B1B2) 또는 전자여권 ESTA 필요)\n- 본인 귀책사유에 의한 입국 거부시 환불되는 금액이 없습니다.\n- 개인적인 사유로 입국심사가 지연될 경우 일부 일정에 참여하지 못할 수도 있으며, 이에 대한 환불되는 금액은 없습니다.\n- 환율 변동, 현지 호텔 등의 사정에 의해 상품가격이 인상될 수 있으며, 예약 시기, 조건에 따른 상품가 차이가 있을 수 있습니다.\n- 객실 및 침대 타입 배정은 호텔의 고유 권한으로서 사전 지정 불가합니다.\n- 기본적으로 2인 1실(침대 2개 혹은 킹베드 1개 랜덤 배정) 기준으로 진행되며, 캐나다/미주지역은 소방 안전법에 의해 엑스트라 베드 추가가 불가하여 2인 1실 권장합니다.\n- 미국행 승객정보 필수입력 의무화에 따라 정확한 승객 연락처 및 이메일주소 등을 반드시 입력해주셔야 합니다. 미준수시 관련법에 의거하여 벌금 부과 및 입국 불이익 등이 발생할 수 있습니다\n- 대한민국 국적이 아닌 경우 방문 국가의 비자 관련 사항을 대사관에 확인 필요\n- 원활한 입국을 위해 18세미만 미성년자 동반시 추가 서류가 필요합니다.\n\n부모와 함께 입국시 : 부모임을 입증 할 수있는 서류(영문 호적등본 혹은 주민등록등본)\n부모 중 한사람과 동반하여 입국시 : 동반하지 않는 부 또는 모의 영문동의서\n이혼한 부모 중 한사람이 동반하여 입국시 : 동반하는 부 또는 모가 양육권이 있음을 증빙하는 서류(영문 호적등본)\n부모가 아닌 사람과 동반하는 경우 : 동반하는 어린이 양친부모의 영문동의서\n영문주민등록등본은 각 주민센터에서 발급 가능합니다.\n동의서 내용에는 동반여행 허가(Authorization to Travel),여행기간,미국 및 한국 주소,전화번호가 들어가야 합니다. ☞여행동의서 샘플 보기\n가이드/인솔자 및 미팅정보\n가이드\n현지 도착시 가이드와 미팅이 이루어집니다\n인솔자\n인솔자가 동행하지 않습니다.\n미팅정보\t\n해당 상품은 출발 전 공항 개별 미팅이 없습니다.\n여행일정\n호텔 & 관광지\n참고사항\n해외 안전정보\n여행후기\n1일차\n2일차\n3일차\n4일차\n일정 전체닫힘\n\n여행일정 변경에 관한 사전 동의안내\n\n여행일정은 계약체결 시 예상하지 못한 부득이한 사정 등이 발생하는 경우 여행자의 사전동의를 거쳐 변경될 수 있음을 양지하시기 바랍니다. \n\n1일차\n11/09(월)\n샌프란시스코, 몬터레이\n\n상세내용을 확인해보세요\n\n[예약시 참고사항]\n\n- 상기 상품은 항공은 불포함된 상품으로, 개별 발권 진행하셔야 합니다.\n- 예약 후 호텔/골프 등 실시간 예약이 진행되는 상품으로, 고객님의 정확한 여권상 영문으로 예약 후 예약상황에 대한 재안내와 확정여부를 받으실 수 있습니다.\n- 예약시점에 따라 호텔 및 골프장 예약이 불가하거나, 금액이 인상될 수 있습니다.\n- 일정표의 항공 스케줄은 실예약시 또는 항공사 상황으로 인해 변경될 수 있습니다.\n\n※ 해당 운항 일정은 유동적이며, 추후 여행이 가능한 항공편 및 출도착 일정으로 변경될 수 있습니다.\n샌프란시스코\n[샌프란시스코 공항 미팅 정보]\n\n☞ 피 켓 : 하나투어\n☞ 행사차량 : 7인승 밴\n\n※ 입국 심사후 하나투어 피켓을 든 현지 가이드와 미팅합니다.\n※ 개인적인 입국 심사 문제로 공항에서 늦게 나오는 경우, 일부 일정을 못할 수도 있습니다.\n※ 차량 종류는 변경될 수 있습니다.\n\n\n샌프란시스코-몬터레이로 이동 (약 2시간30분 소요)\n\n중식 (불포함)\n\n몬터레이(Monterey)﻿\n\n1602년 스페인 탐험가가 발견한 곳으로, 당시의 멕시코 총독 몬터레이 백작의 이름을 붙인 도시\n\n몬터레이는 샌프란시스코의 해안선을 따라 약 210Km 남쪽 아래로 내려온 곳에 자리 잡은 경치가 매우 아름다운 도시입니다. 캘리포니아에서도 가장 먼저 개척된 곳으로, 1602년 스페인의 탐험가가 발견했습니다. 발견 당시 멕시코 총독 몬터레이 백작의 이름을 붙였으며, 그 이름이 현재까지 이르고 있습니다. 1864년 캘리포니아로 선언되기 전까지 몬터레이는 멕시코령의 마을이었습니다.\n\n[시차]\n한국보다 17시간 느림(4월∼10월 16시간 느림)\nPebble Beach Resorts® 체크인 및 휴식\n\n※ 송영 서비스는 1일 최대 10시간까지 이용 가능하며, 원하시는 장소(레스토랑 또는 주변 관광지 등)를 기사님께 미리 말씀하시면 왕복으로 모셔다 드립니다. 식사 비용 및 입장료는 고객이 직접 현장 지불이며, 10시간 초과 시 추가비용 발생 될 수 있습니다.\n\n예정 호텔\nThe Lodge at Pebble Beach\n\n더 롯지 엣 페블 비치\n\nTHE LODGE AT PEBBLE BEACH\nTHE LODGE AT PEBBLE BEACH는 1919년부터 럭셔리함과 아름다운 해안절경을 감상할 수 있는 페블비치의 랜드마크 호텔입니다. 호텔은 페블비치 골프 링크스의 피니쉬 18홀 옆에 위치하여, 창밖으로 페어웨이와 그림 같은 아름다운 오션뷰를 감상할 수 있습니다.\n\n▷부대시설: 골프코스, 수영장, 테니스 코트, 스파 & 피트니스 센터, 레스토랑 등\nThe Inn at Spanish Bay\n\n더 인 앳 스페니쉬 베이\n\n1/3\n이전\n다음\n호텔소개\n몬터레이 파인 숲과 태평양 해안에 자리한 5성급 더 인 앳 스페니쉬 베이 리조트는 스코틀랜드 스타일의 링크스 골프 코스와 인접해 있어 골프 애호가들에게 이상적입니다. 269개의 고급 객실은 벽난로와 전용 발코니를 갖추고 있으며, 대부분의 객실에서 바다나 숲의 전망을 감상할 수 있습니다. 다양한 레스토랑과 와인 셀러, 스파, 피트니스 센터 등 부대시설이 풍부하여 편안한 휴식을 제공합니다.\n\n▷부대시설: 레스토랑, 라운지, 골프코스, 스파 & 피트니스, 테니스 코트, 사우나, 수영장, 컨시어지 서비스, 무료 주차장, 공항 셔틀 서비스 등\n\n석식 (불포함)\n\n호텔 투숙 및 휴식\n호텔\n총 2개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n더 롯지 엣 페블 비치 \n\nThe Lodge at Pebble Beach상세보기\n\n더 인 앳 스페니쉬 베이 \n\nThe Inn at Spanish Bay상세보기\n\n식사\n[중식] 불포함 [석식] 불포함\n2일차\n11/10(화)\n몬테레이\n\n상세내용을 확인해보세요\n\n몬테레이\n\n조식 (불포함)\n\n조식 후 골프장 이동 (차량 약 2~15분 소요)\nPebble Beach Golf Links™ 18홀 라운드 (셀프+카트 플레이)\n\n☞예정 골프장 : Pebble Beach Golf Links / Spyglass Hill / Spanish Bay / Del Monte 중 1곳\n☞TEE OFF TIME - 미정\n\n■포함: 18홀 그린피, 카트피\n\n■불포함\n\n　- 캐디피(캐디가 없습니다.)\n\n※ The Links at Spanish Bay 레노베이션으로 27년 4월 16일까지 휴장입니다.\n\n예정 골프장\n[100대 골프장]Pebble Beach\n상세보기\n\n세계에서 가장 유명하고, 골퍼들이 가장 플레이 해보고 싶은 골프장 1순위\n\n1/2\n이전\n다음\nPebble Beach Golf Links™\n페블 비치 골프장은 미국 골프 다이제스트에 의해 매년 100대 골프장에 오르는 곳이며 잭 네빌과 더글러스 그랜트가 거친 해안선의 광범위한 풍경, 경사진 페어웨이와 그린을 설계하였습니다.\n\n이 골프장에서는 1977년 PGA 챔피엄십과 US 오픈, 매년 2월 AT&T 페블비치 내셔널 프로암 대회의 개최 등 수차례 메이저 대회가 개최되었습니다. 1919년에 더글라스 그랜드와 잭 네빌에 의해 디자인 되었으며, 암석으로 이루어진 거친 해안선을 따라 절벽 위에 조성된 홀과 완만한 경사의 홀까지 다양한 형태의 홀을 갖추면서 스릴이 넘치며 다이나믹한 라운딩을 즐길 수 있습니다.\n페블비치 컴퍼니가 소유하고 있는 몬트레이 반도 내 여러 개의 골프코스 중에서도 다양한 러프와 가장 수준급의 코스를 자랑하는 이 곳은 단연 선두로 꼽힙니다. 탁 트인 태평양의 바다와 함께 힘찬 스윙을 할 때 느끼는 쾌감은 페블비치 골프 링크스에서만 즐길 수 있는 혜택이기도 합니다.\n\nPhoto by Jeff Marsh, ©Pebble Beach Company\nSPYGLASS HILL GOLF COURSE\n상세보기\nSpyglass Hill Golf Course\nSpyglass Hill Golf Course는 캘리포니아 몬테레이 반도에 위치한 미국 서부 해안의 링크스 골프 코스입니다. 골프 다이제스트는 스파이글래스 힐을 \"미국의 가장 위대한 100대 퍼블릭 코스\" 목록에서 5위로 선정했습니다. 스파이글래스 힐은 코스 평점 75.3과 슬로프 평점 148을 자랑하며 챔피언십 티에서 세계에서 가장 거친 코스 중 하나로 평가됩니다.\n\nPhoto by Kevin Merfeld, ©Pebble Beach Company\nThe Links at Spanish Bay\n상세보기\nThe Links at Spanish Bay\nThe Links at Spanish Bay는 캘리포니아 페블 비치의 17마일 드라이브에 위치해 있습니다. 라운드 내내 아름다운 해안 경관을 즐길 수 있으며, 아이언 플레이와 쇼트 게임이 매우 까다롭기로 유명합니다. The Links at Spanish Bay는 미국 최고의 스코틀랜드 스타일 링크랜드 코스입니다. 심지어 울퉁불퉁한 몬테레이 해안선도 스코틀랜드의 자연미를 반영합니다.\nThe Links at Spanish Bay는 6~8명의 골퍼가 들어갈 수 있는 큰 퍼팅 그린과 2~3명의 선수가 들어갈 수 있는 공간이 있는 피칭 그린이 있습니다. 스페인 베이에는 드라이빙 레인지가 없기 때문에, 라운드 전에 공을 치고 싶다고 스파이글래스 힐이나 페블 비치로 향해야 합니다.\n\nPhoto by Kevin Merfeld, ©Pebble Beach Company\nDel Monte Golf Course\n상세보기\n1/2\n이전\n다음\n골프장 소개\n델 몬테 골프 클럽은 페블 비치 골프 링크스의 네 코스 중 하나로, 캘리포니아에서 가장 오래된 골프 코스 중 하나입니다. 오랜 역사와 전통을 자랑하며 지금까지도 운영되고 있는 이 코스는 울창한 소나무와 참나무 숲으로 둘러싸여 있으며, 나무 사이로 이어지는 좁고 구불구불한 페어웨이와 작고 경사진 그린이 특징입니다. 전체 거리는 비교적 짧지만, 고전적인 레이아웃과 빈틈없는 전략적 설계 덕분에 플레이어에게 높은 집중력과 정교한 전략을 요구하는 도전적인 코스입니다.\n\n중식 (불포함)\n\n호텔 복귀 후 자유일정 및 리조트 내 부대시설 즐겨보기\n\n※ 송영 서비스는 1일 최대 10시간까지 이용 가능하며, 라운드 후 원하시는 장소(레스토랑 또는 주변 관광지 등)를 기사님께 미리 말씀하시면 왕복으로 모셔다 드립니다. 식사 비용 및 입장료는 고객이 직접 현장 지불이며, 10시간 초과 시 추가비용 발생 될 수 있습니다.\n\n석식 (불포함)\n\n호텔 투숙 및 휴식\n호텔\n총 2개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n더 롯지 엣 페블 비치 \n\nThe Lodge at Pebble Beach상세보기\n\n더 인 앳 스페니쉬 베이 \n\nThe Inn at Spanish Bay상세보기\n\n골프\n총 4개의 예정 골프장이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n[100대 골프장]페블비치 골프 링크스\n\n[100대 골프장]Pebble Beach상세보기\n\n스파이글래스 힐 골프 코스\n\nSPYGLASS HILL GOLF COURSE상세보기\n\n더 링스 앳 스페니시 베이\n\nThe Links at Spanish Bay상세보기\n\n델 몬테 골프 코스\n\nDel Monte Golf Course상세보기\n\n식사\n[조식] 불포함 [중식] 불포함 [석식] 불포함\n3일차\n11/11(수)\n몬테레이\n\n상세내용을 확인해보세요\n\n몬테레이\n\n조식 (불포함)\n\n조식 후 골프장 이동 (차량 약 2~15분 소요)\nPebble Beach Golf Links™ 18홀 라운드 (셀프+카트 플레이)\n\n☞예정 골프장 : Pebble Beach Golf Links / Spyglass Hill / Spanish Bay / Del Monte 중 1곳\n☞TEE OFF TIME - 미정\n\n■포함: 18홀 그린피, 카트피\n\n■불포함\n\n　- 캐디피(캐디가 없습니다.)\n\n※ The Links at Spanish Bay 레노베이션으로 27년 4월 16일까지 휴장입니다.\n\n예정 골프장\n[100대 골프장]Pebble Beach\n상세보기\n\n세계에서 가장 유명하고, 골퍼들이 가장 플레이 해보고 싶은 골프장 1순위\n\n1/2\n이전\n다음\nPebble Beach Golf Links™\n페블 비치 골프장은 미국 골프 다이제스트에 의해 매년 100대 골프장에 오르는 곳이며 잭 네빌과 더글러스 그랜트가 거친 해안선의 광범위한 풍경, 경사진 페어웨이와 그린을 설계하였습니다.\n\n이 골프장에서는 1977년 PGA 챔피엄십과 US 오픈, 매년 2월 AT&T 페블비치 내셔널 프로암 대회의 개최 등 수차례 메이저 대회가 개최되었습니다. 1919년에 더글라스 그랜드와 잭 네빌에 의해 디자인 되었으며, 암석으로 이루어진 거친 해안선을 따라 절벽 위에 조성된 홀과 완만한 경사의 홀까지 다양한 형태의 홀을 갖추면서 스릴이 넘치며 다이나믹한 라운딩을 즐길 수 있습니다.\n페블비치 컴퍼니가 소유하고 있는 몬트레이 반도 내 여러 개의 골프코스 중에서도 다양한 러프와 가장 수준급의 코스를 자랑하는 이 곳은 단연 선두로 꼽힙니다. 탁 트인 태평양의 바다와 함께 힘찬 스윙을 할 때 느끼는 쾌감은 페블비치 골프 링크스에서만 즐길 수 있는 혜택이기도 합니다.\n\nPhoto by Jeff Marsh, ©Pebble Beach Company\nSPYGLASS HILL GOLF COURSE\n상세보기\nSpyglass Hill Golf Course\nSpyglass Hill Golf Course는 캘리포니아 몬테레이 반도에 위치한 미국 서부 해안의 링크스 골프 코스입니다. 골프 다이제스트는 스파이글래스 힐을 \"미국의 가장 위대한 100대 퍼블릭 코스\" 목록에서 5위로 선정했습니다. 스파이글래스 힐은 코스 평점 75.3과 슬로프 평점 148을 자랑하며 챔피언십 티에서 세계에서 가장 거친 코스 중 하나로 평가됩니다.\n\nPhoto by Kevin Merfeld, ©Pebble Beach Company\nThe Links at Spanish Bay\n상세보기\nThe Links at Spanish Bay\nThe Links at Spanish Bay는 캘리포니아 페블 비치의 17마일 드라이브에 위치해 있습니다. 라운드 내내 아름다운 해안 경관을 즐길 수 있으며, 아이언 플레이와 쇼트 게임이 매우 까다롭기로 유명합니다. The Links at Spanish Bay는 미국 최고의 스코틀랜드 스타일 링크랜드 코스입니다. 심지어 울퉁불퉁한 몬테레이 해안선도 스코틀랜드의 자연미를 반영합니다.\nThe Links at Spanish Bay는 6~8명의 골퍼가 들어갈 수 있는 큰 퍼팅 그린과 2~3명의 선수가 들어갈 수 있는 공간이 있는 피칭 그린이 있습니다. 스페인 베이에는 드라이빙 레인지가 없기 때문에, 라운드 전에 공을 치고 싶다고 스파이글래스 힐이나 페블 비치로 향해야 합니다.\n\nPhoto by Kevin Merfeld, ©Pebble Beach Company\nDel Monte Golf Course\n상세보기\n1/2\n이전\n다음\n골프장 소개\n델 몬테 골프 클럽은 페블 비치 골프 링크스의 네 코스 중 하나로, 캘리포니아에서 가장 오래된 골프 코스 중 하나입니다. 오랜 역사와 전통을 자랑하며 지금까지도 운영되고 있는 이 코스는 울창한 소나무와 참나무 숲으로 둘러싸여 있으며, 나무 사이로 이어지는 좁고 구불구불한 페어웨이와 작고 경사진 그린이 특징입니다. 전체 거리는 비교적 짧지만, 고전적인 레이아웃과 빈틈없는 전략적 설계 덕분에 플레이어에게 높은 집중력과 정교한 전략을 요구하는 도전적인 코스입니다.\n\n중식 (불포함)\n\n호텔 복귀 후 자유일정 및 리조트 내 부대시설 즐겨보기\n\n※ 송영 서비스는 1일 최대 10시간까지 이용 가능하며, 라운드 후 원하시는 장소(레스토랑 또는 주변 관광지 등)를 기사님께 미리 말씀하시면 왕복으로 모셔다 드립니다. 식사 비용 및 입장료는 고객이 직접 현장 지불이며, 10시간 초과 시 추가비용 발생 될 수 있습니다.\n\n석식 (불포함)\n\n호텔 투숙 및 휴식\n호텔\n총 2개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n더 롯지 엣 페블 비치 \n\nThe Lodge at Pebble Beach상세보기\n\n더 인 앳 스페니쉬 베이 \n\nThe Inn at Spanish Bay상세보기\n\n골프\n총 4개의 예정 골프장이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n[100대 골프장]페블비치 골프 링크스\n\n[100대 골프장]Pebble Beach상세보기\n\n스파이글래스 힐 골프 코스\n\nSPYGLASS HILL GOLF COURSE상세보기\n\n더 링스 앳 스페니시 베이\n\nThe Links at Spanish Bay상세보기\n\n델 몬테 골프 코스\n\nDel Monte Golf Course상세보기\n\n식사\n[조식] 불포함 [중식] 불포함 [석식] 불포함\n4일차\n11/12(목)\n몬테레이, 샌프란시스코\n\n상세내용을 확인해보세요\n\n몬테레이\n\n조식 (불포함)\n\n개별 조식 및 체크아웃 후 골프장 이동 (차량 약 2~15분 소요)\nPebble Beach Golf Links™ 18홀 라운드 (셀프+카트 플레이)\n\n☞예정 골프장 : Pebble Beach Golf Links / Spyglass Hill / Spanish Bay / Del Monte 중 1곳\n☞TEE OFF TIME - 미정\n\n■포함: 18홀 그린피, 카트피\n\n■불포함\n\n　- 캐디피(캐디가 없습니다.)\n\n※ The Links at Spanish Bay 레노베이션으로 27년 4월 16일까지 휴장입니다.\n\n예정 골프장\n[100대 골프장]Pebble Beach\n상세보기\n\n세계에서 가장 유명하고, 골퍼들이 가장 플레이 해보고 싶은 골프장 1순위\n\n1/2\n이전\n다음\nPebble Beach Golf Links™\n페블 비치 골프장은 미국 골프 다이제스트에 의해 매년 100대 골프장에 오르는 곳이며 잭 네빌과 더글러스 그랜트가 거친 해안선의 광범위한 풍경, 경사진 페어웨이와 그린을 설계하였습니다.\n\n이 골프장에서는 1977년 PGA 챔피엄십과 US 오픈, 매년 2월 AT&T 페블비치 내셔널 프로암 대회의 개최 등 수차례 메이저 대회가 개최되었습니다. 1919년에 더글라스 그랜드와 잭 네빌에 의해 디자인 되었으며, 암석으로 이루어진 거친 해안선을 따라 절벽 위에 조성된 홀과 완만한 경사의 홀까지 다양한 형태의 홀을 갖추면서 스릴이 넘치며 다이나믹한 라운딩을 즐길 수 있습니다.\n페블비치 컴퍼니가 소유하고 있는 몬트레이 반도 내 여러 개의 골프코스 중에서도 다양한 러프와 가장 수준급의 코스를 자랑하는 이 곳은 단연 선두로 꼽힙니다. 탁 트인 태평양의 바다와 함께 힘찬 스윙을 할 때 느끼는 쾌감은 페블비치 골프 링크스에서만 즐길 수 있는 혜택이기도 합니다.\n\nPhoto by Jeff Marsh, ©Pebble Beach Company\nSPYGLASS HILL GOLF COURSE\n상세보기\nSpyglass Hill Golf Course\nSpyglass Hill Golf Course는 캘리포니아 몬테레이 반도에 위치한 미국 서부 해안의 링크스 골프 코스입니다. 골프 다이제스트는 스파이글래스 힐을 \"미국의 가장 위대한 100대 퍼블릭 코스\" 목록에서 5위로 선정했습니다. 스파이글래스 힐은 코스 평점 75.3과 슬로프 평점 148을 자랑하며 챔피언십 티에서 세계에서 가장 거친 코스 중 하나로 평가됩니다.\n\nPhoto by Kevin Merfeld, ©Pebble Beach Company\nThe Links at Spanish Bay\n상세보기\nThe Links at Spanish Bay\nThe Links at Spanish Bay는 캘리포니아 페블 비치의 17마일 드라이브에 위치해 있습니다. 라운드 내내 아름다운 해안 경관을 즐길 수 있으며, 아이언 플레이와 쇼트 게임이 매우 까다롭기로 유명합니다. The Links at Spanish Bay는 미국 최고의 스코틀랜드 스타일 링크랜드 코스입니다. 심지어 울퉁불퉁한 몬테레이 해안선도 스코틀랜드의 자연미를 반영합니다.\nThe Links at Spanish Bay는 6~8명의 골퍼가 들어갈 수 있는 큰 퍼팅 그린과 2~3명의 선수가 들어갈 수 있는 공간이 있는 피칭 그린이 있습니다. 스페인 베이에는 드라이빙 레인지가 없기 때문에, 라운드 전에 공을 치고 싶다고 스파이글래스 힐이나 페블 비치로 향해야 합니다.\n\nPhoto by Kevin Merfeld, ©Pebble Beach Company\nDel Monte Golf Course\n상세보기\n1/2\n이전\n다음\n골프장 소개\n델 몬테 골프 클럽은 페블 비치 골프 링크스의 네 코스 중 하나로, 캘리포니아에서 가장 오래된 골프 코스 중 하나입니다. 오랜 역사와 전통을 자랑하며 지금까지도 운영되고 있는 이 코스는 울창한 소나무와 참나무 숲으로 둘러싸여 있으며, 나무 사이로 이어지는 좁고 구불구불한 페어웨이와 작고 경사진 그린이 특징입니다. 전체 거리는 비교적 짧지만, 고전적인 레이아웃과 빈틈없는 전략적 설계 덕분에 플레이어에게 높은 집중력과 정교한 전략을 요구하는 도전적인 코스입니다.\n\n중식 (불포함)\n\n라운드 후 기사 미팅 후 전용차량으로 샌프란시스코 국제공항(SFO) 이동 (차량 약 2시간 30분 소요)\n\n※ 송영 서비스는 1일 최대 10시간까지 이용 가능하며, 라운드 후 원하시는 장소(레스토랑 또는 주변 관광지 등)를 기사님께 미리 말씀하시면 왕복으로 모셔다 드립니다. 식사 비용 및 입장료는 고객이 직접 현장 지불이며, 10시간 초과 시 추가비용 발생 될 수 있습니다.\n\n몬테레이-샌프란시스코로 이동 (약 3시간 소요)\n\n샌프란시스코\n\n석식 (불포함)\n\n호텔\n숙박 없음\n골프\n총 4개의 예정 골프장이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n[100대 골프장]페블비치 골프 링크스\n\n[100대 골프장]Pebble Beach상세보기\n\n스파이글래스 힐 골프 코스\n\nSPYGLASS HILL GOLF COURSE상세보기\n\n더 링스 앳 스페니시 베이\n\nThe Links at Spanish Bay상세보기\n\n델 몬테 골프 코스\n\nDel Monte Golf Course상세보기\n\n식사\n[조식] 불포함 [중식] 불포함 [석식] 불포함\n쇼핑정보\n\n해당상품은 쇼핑센터에 방문하지 않습니다.\n\n해외 여행시 US$800 초과 구입한 물품은 입국시 관세가 부과될 수 있습니다. \n\n함께 많이 본 상품\n캘리포니아 일주 9일 #웰니스 #1번해안도로 #나파밸리 포시즌스 #최고급 와인컨트리 리조트 #와이너리투어\n21,500,000원~\n미서부 일주+6대캐년 10일#모뉴먼트 밸리#앤텔롭캐년#호스슈밴드 #LAS VEGAS 중심가 2박 #3대 도시\n3,599,000원~\n미서부 일주+6대캐년 10일#모뉴먼트 밸리#앤텔롭캐년#호스슈밴드 #LAS VEGAS 중심가 2박 #3대 도시\n4,029,000원~\n세대가 함께 떠나는 미서부 캘리포니아 가족여행 9일 #명문대 #재학생투어 #몬터레이 아쿠아리움 #산타바바 ...\n5,169,000원~\n[제우스 셀렉트] 미서부 골프 6일 #페블비치 #18홀X3회 #5성급호텔 #VIP송영서비스 #2인출발가능\n11,060,000원~\n캘리포니아 일주 9일 #웰니스 #1번해안도로 #나파밸리 포시즌스 #최고급 와인컨트리 리조트 #와이너리투어\n21,500,000원~\n미서부 일주+6대캐년 10일#모뉴먼트 밸리#앤텔롭캐년#호스슈밴드 #LAS VEGAS 중심가 2박 #3대 도시\n3,599,000원~\n미서부 일주+6대캐년 10일#모뉴먼트 밸리#앤텔롭캐년#호스슈밴드 #LAS VEGAS 중심가 2박 #3대 도시\n4,029,000원~\n세대가 함께 떠나는 미서부 캘리포니아 가족여행 9일 #명문대 #재학생투어 #몬터레이 아쿠아리움 #산타바바 ...\n5,169,000원~\n[제우스 셀렉트] 미서부 골프 6일 #페블비치 #18홀X3회 #5성급호텔 #VIP송영서비스 #2인출발가능\n11,060,000원~\n캘리포니아 일주 9일 #웰니스 #1번해안도로 #나파밸리 포시즌스 #최고급 와인컨트리 리조트 #와이너리투어\n21,500,000원~\n미서부 일주+6대캐년 10일#모뉴먼트 밸리#앤텔롭캐년#호스슈밴드 #LAS VEGAS 중심가 2박 #3대 도시\n3,599,000원~\n미서부 일주+6대캐년 10일#모뉴먼트 밸리#앤텔롭캐년#호스슈밴드 #LAS VEGAS 중심가 2박 #3대 도시\n4,029,000원~\n이전\n다음\n_\n방문도시 정보 및 기타정보\n도시정보\t\n입국카드 작성법\t\n도시\t현재시간\t오늘의 환율\n\n(2026.09.29 기준) \n\n\t콘센트\n몬터레이(MRY)\t05:202026.09.29\n\n한국보다 16시간 느림\n\n\t\n\n1달러(USD) = 1382.68원\n\n\t\n\n전압 : 120V\n\n주파수 : 60HZ\n\n※ 오늘의 환율은 실시간 '현찰 살 때' 기준으로, 은행에서 거래되지 않는 통화는 0원으로 표기될 수 있습니다. \n\n여행시 유의사항\n- 여행일정 및 자유시간 중 고객님의 안전을 위하여 가이드의 안내사항 및 안전 수칙을 준수하여 모든 안전사고에 유의하시기 바랍니다.\n- 이용자 본인의 과실및 본인 건강상태로 인하여 발생한 안전사고에 대해서는 이용자 본인의 책임임을 알려드립니다.\n- 일정 중 개인 사정으로 참여하지 못한 부분에 대해서 환불되지 않습니다.\n- 일정상 입력된 호텔은 부득이한 경우 약관에 근거한 동급의 다른 호텔로 변동 가능합니다.\n- 항공편의 취소,연착(기상악화나 기체결함)등으로 정규 비행편을 탑승하지 못해 현지 체류 비용이 발생할 경우 추가 비용은 여행객 각자가 부담하셔야 합니다.\n- 각 공항에서는 여행객의 안전을 위하여 수화물 보안 검색 강화 중이며, 고가품이나 귀중품이 운송 항공사로 탑승전 사전 신고 없는 경우\n수화물 파손 및 분실은 배상되지 않음을 안내드리며, 반드시 개별 휴대하시길 바랍니다.\n- 미국 버스투어 상품 특성상 이른 아침/새벽 기상 일정이 많습니다. 새벽 기상 후 간편 조식이나 호텔 체크아웃 후 식당 이동 후 조식 등 진행될 수 있습니다.\n- 미국/캐나다 지역은 특성상 현지 의료비가 매우 비쌉니다. 평소 복용하는 상비약은 처방전과 함께 꼭 챙기셔서 건강한 여행이 되시기를 바라며,\n여행 도중 건강이 의심될 경우 반드시 인솔자나 현지가이드의 도움을 받으시기 바랍니다.\n- 현지 교통 사정 및 현지 행사 등으로 인한 교통 통제시 이동 지연 등으로 사전예고없이 관광순서가 변경될 수 있습니다.\n- 현지 교통 상황 등에 따라 식당 방문이 여의치 않을 경우 도시락(김밥/샌드위치 등) 이나 자유식으로 대체될 수 있습니다.\n- 현지 행사 진행 시간에 따라 선택관광 진행을 못 할 수도 있습니다. 양해 부탁 드립니다.\n- 미국 현지의 한식당은 재료 수급, 원가 차이 등의 이유로 한국 내 식당과는 양적/질적인 차이가 있을 수 있으니 양해 부탁 드립니다.\n- 미국/캐나다의 일부 관광지는 일교차가 심하므로 얇은 옷을 여러 겹 준비하시기 바랍니다.\n- 미주지역 표준전압은 110볼트로, 필요시 별도의 어댑터를 준비해주세요.\n- 세면도구(치약/칫솔) 및 객실용 슬리퍼 등은 개별 준비 부탁 드립니다.\n- 미주 지역 대부분의 호텔에서는 객실에서의 흡연이 절대 불가합니다.\n흡연시 패널티(약 USD300)가 부과 되오며, 이에 대한 비용은 해당 고객님께서 부담하셔야 합니다.\n- 미주 지역 호텔은 대부분 카펫 바닥이기 때문에 욕실 물이 넘쳐 카펫이 훼손될 경우 고객님께서 변상해야 할 상황이 발생할 수 있으므로 주의 부탁 드립니다.\n- 호텔 사정에 따라 에어컨, 미니바 혹은 냉장고를 사용하지 못할 경우가 발생할 수 있습니다.\n- 미니바 및 냉장고 내 음료 및 간식/음식 등은 추가 비용이 발생하오니 이용시 유의하시기 바랍니다.\n- 호텔의 정책에 따라 개별 투숙객과 단체 투숙객의 조식 식사 장소와 메뉴가 다를 수 있으며,\n식당 이용시 단체여행의 특성상 좌석을 사전에 배정 받아 식사하시게 되므로 개별적으로 별도의 좌석은 마련해드리지 못함을 양해 바랍니다.\n\n　  \n\n\n인원선택\n\n성인\n8,310,000원\n\n1\n\n아동 \n8,310,000원\n\n0\n\n유아 \n300,000원\n\n0\n\n총 금액\n\n8,310,000원\n\n하나투어 마일리지 최대 83,100적립예정\n상품가격 안내\n예약하기\t\n찜\n혜택\n추가 적립/할인\n이달의 카드할인 혜택\n상품별 차별점만 빠른 비교\nfacebook\ninstagram\nblog\nkakaoplus\nyoutube\nkakaostory\n회사소개\n이용약관\n개인정보처리방침\n여행약관\n해외여행자보험\n마케팅제휴\n공식인증예약센터 검색\n(주)하나투어      대표집행임원 : 조좌진      주소 : (03161) 서울특별시 종로구 인사동 5길 41\n사업자등록번호 : 102-81-39440      사업자정보확인      통신판매업신고번호 : 종로01-1806호      관광사업자 등록번호 : 제1993-000006호\n개인정보 보호책임자 : 전준형      영업보증보험 : 22억 1천만원 가입    팩스: 02-734-0392    이메일 : 15771233@hanatour.com      ☎고객센터 1577-1233\n\n※ 부득이한 사정에 의해 여행일정이 변경되는 경우 사전 동의를 받습니다.\n※ 하나투어는 개별 항공권 단독 판매에 대하여 판매중개자로서 통신판매의 당사자가 아니며 해당상품의 거래정보 및 거래등에 대해 책임을 지지 않습니다.\nCOPYRIGHTⓒ HANATOUR SERVICE INC. ALL RIGHTS RESERVED\n하나은행 구매안전 서비스\n고객님은 안전거래를 위해 현금으로 결제시\n(주)하나투어에서 가입한 하나은행으로\n구매안전서비스를 이용하실 수 있습니다.\n서비스 가입사실 확인\n브랜드스탁선정\n22년연속(2005~2026)\n브랜드스타 1위\n산업정책연구원 주관\n제9회 국가서비스대상 (2026)\n하이엔드 여행 부문 대상 (제우스월드)\n2026 뉴욕페스티벌\n대한민국 국가브랜드 대상\n업계 최초 여행사 부문 대상\n2025 대한민국 SNS 대상\n업계 최초 관광 부문 대상\n소비자중심경영(CCM)\n7회 연속 인증(2012~2024) 및\n2025년 ‘명예의 전당’ 포상\nKMAC 선정\n14년 연속(2009~2025)\n한국산업의 고객만족도 여행사부문 1위\n한국표준협회 선정\n4년 연속(2019~2025)\n한국서비스품질지수 여행사 부문 1위\n한국능률협회선정\n22년연속(2005~2026)\n브랜드파워 1위\n브랜드스탁선정\n22년연속(2005~2026)\n브랜드스타 1위\n산업정책연구원 주관\n제9회 국가서비스대상 (2026)\n하이엔드 여행 부문 대상 (제우스월드)\n2026 뉴욕페스티벌\n대한민국 국가브랜드 대상\n업계 최초 여행사 부문 대상\n2025 대한민국 SNS 대상\n업계 최초 관광 부문 대상\n소비자중심경영(CCM)\n7회 연속 인증(2012~2024) 및\n2025년 ‘명예의 전당’ 포상\nKMAC 선정\n14년 연속(2009~2025)\n한국산업의 고객만족도 여행사부문 1위\n한국표준협회 선정\n4년 연속(2019~2025)\n한국서비스품질지수 여행사 부문 1위\n한국능률협회선정\n22년연속(2005~2026)\n브랜드파워 1위\n이전보기\n다음보기\n 대한민국브랜드대상\n 국외여행상품 정보제공 표준안 참여여행사\n 개인정보보호우수사이트\n CCM\n ISMS 인증 취득\n 현금영수증 의무발행 가맹점",
+  "slug": "hana-5243d7d08215",
+  "url": "https://cp.hanatour.com/trp/pkg/CHPC0PKG0200M200?pkgCd=HWG102261109004&prePage=major-products",
+  "checkedAt": "2026-09-29"
+}

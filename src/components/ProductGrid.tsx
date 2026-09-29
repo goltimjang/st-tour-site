@@ -36,7 +36,7 @@ export default function ProductGrid({ products, fixedCountry }: { products: Prod
   const departures = [...new Set(products.flatMap(p => p.departure?.endsWith("출발") ? p.departure.replace("출발", "").split("/") : []))];
   const norm = (s: string) => s.replace(/\s/g, "").toLowerCase();
   const list = products.filter(p => (country === "전체" || p.country === country) && (area === "전체" || p.area === area) && (theme === "전체" || (p.theme ?? "골프투어") === theme) && (departure === "전체" || p.departure?.includes(departure)) && norm(p.title + p.summary + p.country + (p.area ?? "")).includes(norm(query)));
-  if (sort !== "추천순") list.sort((a,b) => (sort === "낮은 가격순" ? 1 : -1) * ((a.priceFrom ?? Number(a.price.replace(/\D/g,""))) - (b.priceFrom ?? Number(b.price.replace(/\D/g,"")))));
+  if (sort !== "추천순") list.sort((a,b) => !a.priceFrom ? (b.priceFrom ? 1 : 0) : !b.priceFrom ? -1 : (sort === "낮은 가격순" ? 1 : -1) * (a.priceFrom - b.priceFrom));
   const reset = () => { setCountry(fixedCountry ?? "전체"); setArea("전체"); setDeparture("전체"); setTheme("전체"); setQuery(""); setSort("추천순"); };
   return <>
     <div className="rounded-2xl border border-line bg-white p-4 sm:p-6 mb-8">
