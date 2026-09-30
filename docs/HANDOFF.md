@@ -113,3 +113,12 @@
 - 모바일에서 설명 다음 폼 배치, 상단 사진 탐색, 일차별 요약, 선택비용 분리. 날짜 미정으로도 견적 요청 가능.
 - 날짜를 정한 요청과 날짜 미정 요청을 로컬 모의 접수로 검증. 실제 문의 이메일 발송은 하지 않았다.
 - 재생성 후 `npm run build`, `python3 scripts/check-export.py`, `python3 scripts/check-catalog.py` 필수. 자세한 내용은 `docs/HANATOUR-REAUDIT-2026-09-30.md`.
+
+## 2026-09-30 국가 이미지·상품 대표 사진 재검수
+
+- 상세 기록: `docs/PRODUCT-IMAGE-AUDIT-2026-09-30.md`. 이전 검수에서 호텔/객실 등이 대표로 남고 400px 축소본을 사용한 문제를 수정.
+- 국가 소개용 생성 이미지 13개는 `public/images/destinations/`. AI 표시 필수, 상품 실물 사진으로 사용 금지.
+- 전체 77개 중 74개는 코스 사진, 일본 파크골프 3개는 `photoPending`으로 사진 보류. 다른 상품·국가 사진으로 채우지 말 것.
+- 상품 사진은 `hanatour-photo-curation-2026-09-30.json`의 명시적 subject/course 선택을 유지. 제목에 GOLF가 있다고 객실 사진을 골프장으로 분류하지 말 것.
+- 공급사 원본 `resize/0_0` 크기를 확인, 확대 금지. 원본 600~720px 상품 3개는 추가 고화질 자료 필요.
+- `node scripts/check-product-images.mjs`도 배포 전 실행. 공식 시설과 공급사 설명이 충돌하는 초요 파크골프장 자료는 노출 보류.

@@ -1,0 +1,931 @@
+[
+  {
+    "slug": "hana-cd8cbf27d594",
+    "title": "방콕 파인허스트CC 다색골프 · 스쿰빗 4성 호텔 5일",
+    "previousThumb": "/products/hanatour/details/678f8784c5938749.webp",
+    "facility": "Pine Hurst Golf&Country Club",
+    "selected": [
+      0,
+      2
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1280
+  },
+  {
+    "slug": "hana-3de70b2e8f8e",
+    "title": "칭다오 캐슬렉스CC 골프텔 3일",
+    "previousThumb": "/products/hanatour/details/a7a402b8061eb468.webp",
+    "facility": "Shandong Qingdao Kaisile Golf Club",
+    "selected": [
+      1,
+      2,
+      3
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 4000
+  },
+  {
+    "slug": "hana-d9ec5178e945",
+    "title": "샤먼 다색골프 · 준특급 호텔 4일",
+    "previousThumb": "/products/hanatour/details/fa163fa488a9cb63.webp",
+    "facility": "Orient Golf & Country Club",
+    "selected": [
+      3,
+      0,
+      5
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1994
+  },
+  {
+    "slug": "hana-7ba6e568a76a",
+    "title": "방콕 아티타야CC 골프텔 5일",
+    "previousThumb": "/products/hanatour/details/76d488b9b7590b64.webp",
+    "facility": "Artitaya Golf Club",
+    "selected": [
+      3,
+      0,
+      5
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 2560
+  },
+  {
+    "slug": "hana-3fd6eb7ee0f9",
+    "title": "치앙마이 가산레가시 글로벌 골프챌린지 5일",
+    "previousThumb": "/products/hanatour/details/a0bf3aa6b8445d28.webp",
+    "facility": "Gassan Panorama Golf Club",
+    "selected": [
+      0,
+      2
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1706
+  },
+  {
+    "slug": "hana-89ed0db8b937",
+    "title": "클락 레이크우드CC 골프텔 5일",
+    "previousThumb": "/products/hanatour/details/a8684e7451d65b59.webp",
+    "facility": "LAKEWOOD GOLF CLUB",
+    "selected": [
+      1,
+      2
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 5760
+  },
+  {
+    "slug": "hana-0f8104f0807b",
+    "title": "하노이 옌바이CC · 르블랑 헤리티지 호텔 5일",
+    "previousThumb": "/products/hanatour/details/1b7718b4dea45928.webp",
+    "facility": "Yen Bai Star Golf & Resort",
+    "selected": [
+      0,
+      2,
+      4
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 2560
+  },
+  {
+    "slug": "hana-67b49d0d8a63",
+    "title": "미야자키 아이와 리조트 골프텔 4일",
+    "previousThumb": "/products/hanatour/details/0f19823529a5371b.webp",
+    "facility": "아이와 미야자키 골프 클럽",
+    "selected": [
+      1,
+      4
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 4177
+  },
+  {
+    "slug": "hana-f2c173f5369f",
+    "title": "가고시마 사츠마CC 리조트 골프텔 4일",
+    "previousThumb": "/products/hanatour/details/7a91168b89c1ec00.webp",
+    "facility": "사츠마 골프 & 온천 리조트",
+    "selected": [
+      0,
+      2,
+      3
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 4000
+  },
+  {
+    "slug": "hana-a41f2f21ebd4",
+    "title": "구마모토 아소 스카이블루 골프텔 5일",
+    "previousThumb": "/products/hanatour/details/01cb9977e0e3ff62.webp",
+    "facility": "ASO SKY BLUE GOLF CLUB",
+    "selected": [
+      3,
+      0,
+      4
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1800
+  },
+  {
+    "slug": "hana-1e9409fb560b",
+    "title": "가고시마 다색골프 · 썬로얄 호텔 4일",
+    "previousThumb": "/products/hanatour/details/74ab6e53217281df.webp",
+    "facility": "CHIRAN COUNTRY CLUB",
+    "selected": [
+      3,
+      2
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 4368
+  },
+  {
+    "slug": "hana-f61f5a0b20b6",
+    "title": "오이타·벳부 다색골프 · 야에자키 호텔 3일",
+    "previousThumb": "/products/hanatour/details/5cb1cceb2f8f0d5d.webp",
+    "facility": "Beppu Golf Club",
+    "selected": [
+      1,
+      0,
+      2
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1080
+  },
+  {
+    "slug": "hana-a358573bdc29",
+    "title": "오키나와 카누차CC 골프리조트 4일",
+    "previousThumb": "/products/hanatour/details/69a193f1b39be681.webp",
+    "facility": "KANUCHA GOLF COURSE",
+    "selected": [
+      3,
+      4,
+      5
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 2000
+  },
+  {
+    "slug": "hana-a2585b31f20e",
+    "title": "시즈오카 후지산 조망 다색골프 4일",
+    "previousThumb": "/products/hanatour/details/a1e27e72e21418ff.webp",
+    "facility": "FUJICHISAN COUNTRY CLUB",
+    "selected": [
+      0,
+      3,
+      5
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1080
+  },
+  {
+    "slug": "hana-ed11a374247a",
+    "title": "고베 다색골프 · 시내 호텔 3일",
+    "previousThumb": "/products/hanatour/details/6fef967aa79c7dd9.webp",
+    "facility": "Zuien Country Club",
+    "selected": [
+      0,
+      1,
+      2
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 800
+  },
+  {
+    "slug": "hana-b49345d3e79e",
+    "title": "고베 토조노모리CC · 루트인 호텔 4일",
+    "previousThumb": "/products/hanatour/details/5d566235b6be97be.webp",
+    "facility": "TOJO NO MORI COUNTRY CLUB",
+    "selected": [
+      3,
+      4,
+      5
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 4000
+  },
+  {
+    "slug": "hana-4ec11ea9b80d",
+    "title": "고베 다색골프 · 후루츠플라워 온천호텔 3일",
+    "previousThumb": "/products/hanatour/details/c9310bd1c072ff2a.webp",
+    "facility": "Kitakobe Golf Ground",
+    "selected": [
+      1,
+      2
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 3000
+  },
+  {
+    "slug": "hana-bf8f483a20b3",
+    "title": "옌타이 군정CC 골프텔 3일",
+    "previousThumb": "/products/hanatour/details/3486e0149116b06e.webp",
+    "facility": "JUNDING CHATEAU GOLF CLUB",
+    "selected": [
+      0,
+      1,
+      5
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1046
+  },
+  {
+    "slug": "hana-749d185487f1",
+    "title": "광저우 다색골프 · 조경·그랜드레이크CC 등 5일",
+    "previousThumb": "/products/hanatour/details/db9b2832e81bbe6a.webp",
+    "facility": "ZHAOQING RESORT AND GOLF CLUB",
+    "selected": [
+      0,
+      1,
+      3
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1920
+  },
+  {
+    "slug": "hana-4c144ff01513",
+    "title": "샤먼 다색골프 · 5성 호텔 4일",
+    "previousThumb": "/products/hanatour/details/fa163fa488a9cb63.webp",
+    "facility": "Orient Golf & Country Club",
+    "selected": [
+      3,
+      0,
+      5
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1994
+  },
+  {
+    "slug": "hana-46923e275b2e",
+    "title": "웨이하이 천익·호당가CC 골프 4일",
+    "previousThumb": "/products/hanatour/details/4d96389eba8ee8dc.webp",
+    "facility": "Tianyi Golf Club",
+    "selected": [
+      0,
+      1,
+      2
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 2592
+  },
+  {
+    "slug": "hana-113dba734e28",
+    "title": "하이난 미션힐스CC 골프 5일",
+    "previousThumb": "/products/hanatour/details/e605e3afcdba1ecb.webp",
+    "facility": "Mission Hills Golf Club Haikou",
+    "selected": [
+      0,
+      1,
+      2
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 5766
+  },
+  {
+    "slug": "hana-387bb1416e0e",
+    "title": "하이난 고염전CC 골프 5일",
+    "previousThumb": "/products/hanatour/details/ebd1122b726589fd.webp",
+    "facility": "HAINAN ANCIENT SALTERN GOLF CLUB (Guyantian Golf Club)",
+    "selected": [
+      3,
+      0,
+      1
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 5280
+  },
+  {
+    "slug": "hana-a2883955afa4",
+    "title": "칭다오 캐슬렉스·영해·화산CC 다색골프 3일",
+    "previousThumb": "/products/hanatour/details/7fd6aaf962c7ded7.webp",
+    "facility": "Linghai Hot Spring Golf Club",
+    "selected": [
+      0,
+      2,
+      4
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1448
+  },
+  {
+    "slug": "hana-b1557629f0e5",
+    "title": "다낭 다색골프와 관광 · 한국인 가이드 5일",
+    "previousThumb": "/products/hanatour/details/b7ce63edba5e97ad.webp",
+    "facility": "Ba Na Hills Golf CLub",
+    "selected": [
+      2,
+      3
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1024
+  },
+  {
+    "slug": "hana-912f5b4e8824",
+    "title": "나트랑 다색골프 · 하바나 호텔 5일",
+    "previousThumb": "/products/hanatour/details/409799150f42b73c.webp",
+    "facility": "Diamond Bay Golf Club",
+    "selected": [
+      2,
+      0
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 3840
+  },
+  {
+    "slug": "hana-2ca11e342bc8",
+    "title": "클락 로얄센트럴CC · 한인타운 호텔 5일",
+    "previousThumb": "/products/hanatour/details/653ce0d0d5a90e62.webp",
+    "facility": "Royal Central CC",
+    "selected": [
+      0,
+      1,
+      3
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1184
+  },
+  {
+    "slug": "hana-cbc60807bbf4",
+    "title": "코타키나발루 보르네오CC 골프텔 6일",
+    "previousThumb": "/products/hanatour/details/09528dfef4f5d400.webp",
+    "facility": "보르네오 골프 & 컨트리 클럽",
+    "selected": [
+      2,
+      1
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1324
+  },
+  {
+    "slug": "hana-bf3c78d5f18c",
+    "title": "파타야 시암·세인트앤드류스CC · 5성 호텔 5일",
+    "previousThumb": "/products/hanatour/details/6abf8dce6f127b7b.webp",
+    "facility": "SILKY OAK COUNTRY CLUB",
+    "selected": [
+      0,
+      1
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 960
+  },
+  {
+    "slug": "hana-be0bb02b8171",
+    "title": "파타야 세인트앤드류스CC 다색골프 · 4성 호텔 5일",
+    "previousThumb": "/products/hanatour/details/02aadf039bc496e2.webp",
+    "facility": "St. ANDREWS 2000",
+    "selected": [
+      5,
+      3
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 600
+  },
+  {
+    "slug": "hana-7a170301d0df",
+    "title": "치앙마이 가산쿤탄CC 골프텔 5일",
+    "previousThumb": "/products/hanatour/details/c6651b690807e764.webp",
+    "facility": "GASSAN KHUNTAN GOLF & RESORT",
+    "selected": [
+      2,
+      1
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1050
+  },
+  {
+    "slug": "hana-1fd1908f2873",
+    "title": "하노이·하롱베이 FLC 다색골프 · 5성 호텔 5일",
+    "previousThumb": "/products/hanatour/details/eec097b584913247.webp",
+    "facility": "FLC HALONGBAY GOLF CLUB",
+    "selected": [
+      1,
+      3,
+      4
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 5458
+  },
+  {
+    "slug": "hana-7842baa0a472",
+    "title": "비엔티안 롱비엔·레이크뷰CC · 월드체인 5성 호텔 5일",
+    "previousThumb": "/products/hanatour/details/38c195b7560255d9.webp",
+    "facility": "LONGVIEN GOLF CLUB",
+    "selected": [
+      1,
+      0,
+      5
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 4992
+  },
+  {
+    "slug": "hana-28e8915e4795",
+    "title": "치앙마이 가산레가시 다색골프 · 4성 호텔 5일",
+    "previousThumb": "/products/hanatour/details/452775dc93e0277d.webp",
+    "facility": "NORTH HILL GOLF CLUB",
+    "selected": [
+      0,
+      1
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 960
+  },
+  {
+    "slug": "hana-70b8c3a64fb7",
+    "title": "치앙마이 알파인 다색골프 · 5성 호텔 5일",
+    "previousThumb": "/products/hanatour/details/3fe881c6b1476e3a.webp",
+    "facility": "ALPINE C.C",
+    "selected": [
+      1,
+      2
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 4368
+  },
+  {
+    "slug": "hana-6ed8e6e7dcaf",
+    "title": "바탐 팜스프링스CC · 바탐뷰 리조트 5일",
+    "previousThumb": "/products/hanatour/details/06c3f077369f297b.webp",
+    "facility": "Palm Springs Golf & Beach Resort",
+    "selected": [
+      0,
+      2
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1500
+  },
+  {
+    "slug": "hana-7ad5e0d28261",
+    "title": "바탐 다색골프 · 5성 호텔 5일",
+    "previousThumb": "/products/hanatour/details/d449663f771098e7.webp",
+    "facility": "SouthLinks Country Club",
+    "selected": [
+      0,
+      1,
+      2
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1440
+  },
+  {
+    "slug": "hana-b32260463f3d",
+    "title": "바탐힐·인다푸리·아일랜드CC · 4성 호텔 5일",
+    "previousThumb": "/products/hanatour/details/282fe292a0d9faed.webp",
+    "facility": "PADANG SUKAJADI GOLF",
+    "selected": [
+      0,
+      1
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 937
+  },
+  {
+    "slug": "hana-2cbcc113beb2",
+    "title": "바탐 7회 라운드 골프여행 · 4성 호텔 9일",
+    "previousThumb": "/products/hanatour/details/904974c705d1c536.webp",
+    "facility": "INDAH PURI RESORT & GOLF CLUB",
+    "selected": [
+      1,
+      0,
+      2
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1024
+  },
+  {
+    "slug": "hana-1cde89363822",
+    "title": "클락 다색골프 · 시내 중심 호텔 5일",
+    "previousThumb": "/products/hanatour/details/40a6ac16e41b4446.webp",
+    "facility": "LAKEWOOD GOLF CLUB",
+    "selected": [
+      1,
+      2
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 5760
+  },
+  {
+    "slug": "hana-7a3c79d27d22",
+    "title": "아유타야 다색골프 · 센타라 호텔 6일",
+    "previousThumb": "/products/hanatour/details/af9b3e2d599ce219.webp",
+    "facility": "AYUTTHAYA GOLF CLUB",
+    "selected": [
+      0,
+      1
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1958
+  },
+  {
+    "slug": "hana-fbb7046b7fb3",
+    "title": "시라차 파타비아CC 다색골프 · 5성 호텔 5일",
+    "previousThumb": "/products/hanatour/details/f81abe248ab6dbbd.webp",
+    "facility": "Pattavia Golf Club",
+    "selected": [
+      0,
+      1
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 2048
+  },
+  {
+    "slug": "hana-d036ac707f3e",
+    "title": "괌 파인이스트CC 골프리조트 5일",
+    "previousThumb": "/products/hanatour/details/25cfb9072285ea53.webp",
+    "facility": "FINEST GUAM GOLF & RESORT",
+    "selected": [
+      5
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1024
+  },
+  {
+    "slug": "hana-6e772e4d4f8e",
+    "title": "사이판 코럴오션·라오라오베이 2색골프 5일",
+    "previousThumb": "/products/hanatour/details/9d02af39a85d6e26.webp",
+    "facility": "Coral Ocean Golf Resort",
+    "selected": [
+      1,
+      4
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 5000
+  },
+  {
+    "slug": "hana-3e391ff168d3",
+    "title": "사이판 코럴오션CC · PIC 호텔 6일",
+    "previousThumb": "/products/hanatour/details/0c4c0fbcf9a0bf65.webp",
+    "facility": "Coral Ocean Golf Resort",
+    "selected": [
+      1,
+      4
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 5000
+  },
+  {
+    "slug": "hana-f2eecda00a3a",
+    "title": "괌 망길라오·CCP 다색골프 · 츠바키 호텔 5일",
+    "previousThumb": "/products/hanatour/details/f38ca5fefab4ef5f.webp",
+    "facility": "Mangilao Golf Club",
+    "selected": [
+      2,
+      0
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 3008
+  },
+  {
+    "slug": "hana-0b8f7cf81a12",
+    "title": "라스베가스 Paiute·Serket 골프 · 항공 불포함 5일",
+    "previousThumb": "/products/hanatour/details/6d708e7ab1c46769.webp",
+    "facility": "Serket Golf Club",
+    "selected": [
+      0,
+      1
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 2560
+  },
+  {
+    "slug": "hana-adf95b46aa8d",
+    "title": "하와이 4개 섬 골프 크루즈 · 발코니 선실 10일",
+    "previousThumb": "/products/hanatour/details/b4378637c8c441be.webp",
+    "facility": "MAUNA LANI BAY GOLF CLUB",
+    "selected": [
+      2
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 2076
+  },
+  {
+    "slug": "hana-5243d7d08215",
+    "title": "미서부 페블비치 골프 · 항공 불포함 4일",
+    "previousThumb": "/products/hanatour/details/ded08a95fbe205d8.webp",
+    "facility": "[100대 골프장]Pebble Beach",
+    "selected": [
+      1,
+      0
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 2500
+  },
+  {
+    "slug": "hana-cb72bc8eb717",
+    "title": "2027 디오픈 참관 스코틀랜드 골프 9일",
+    "previousThumb": "/products/hanatour/details/67f3f2fa7df29cd2.webp",
+    "facility": "Carnoustie Golf Links",
+    "selected": [
+      0,
+      2
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1536
+  },
+  {
+    "slug": "hana-b266585ce489",
+    "title": "안탈리아 레그넘 카리야 골프 · 항공 불포함 8일",
+    "previousThumb": "/products/hanatour/details/e7cff12db2861921.webp",
+    "facility": "CARYA GOLF CLUB",
+    "selected": [
+      2,
+      1
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 3648
+  },
+  {
+    "slug": "hana-bb30ff6959a1",
+    "title": "스코틀랜드 올드코스 호텔 골프 · 항공 불포함 7일",
+    "previousThumb": "/products/hanatour/details/80e3e9469b2c95b5.webp",
+    "facility": "[100대 골프장]ST. ANDREWS (Old Course)",
+    "selected": [
+      3,
+      5
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 3543
+  },
+  {
+    "slug": "hana-2a359818408b",
+    "title": "멕시코 로스카보스 다색골프 9일",
+    "previousThumb": "/products/hanatour/details/c1c4bde463f459c8.webp",
+    "facility": "CABO REAL GOLF CLUB",
+    "selected": [
+      0,
+      2
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 2100
+  },
+  {
+    "slug": "hana-d272e12586b8",
+    "title": "하와이 오아후 다색골프 · 폴리네시안 레지던스 7일",
+    "previousThumb": "/products/hanatour/details/c3360bc7f00814fe.webp",
+    "facility": "WAIKELE GOLF CLUB",
+    "selected": [
+      1,
+      0
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 720
+  },
+  {
+    "slug": "hana-7b5a6575eb7a",
+    "title": "방콕 프라임시티GC 골프텔 5일",
+    "previousThumb": "/products/hanatour/details/3b75984da85fd9ca.webp",
+    "facility": "Prime City Golf Club",
+    "selected": [
+      1,
+      3
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1385
+  },
+  {
+    "slug": "hana-c6f0b0c36fd9",
+    "title": "방콕 썬라이즈라군·스카이밸리 골프텔 5일",
+    "previousThumb": "/products/hanatour/details/fcce3fc7b05ad498.webp",
+    "facility": "SUNRISE LAGOON COUNTRY CLUB",
+    "selected": [
+      1,
+      2
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 4000
+  },
+  {
+    "slug": "hana-ee5f845d78d2",
+    "title": "괌 레오팔레스CC 골프리조트 5일",
+    "previousThumb": "/products/hanatour/details/6162c7a6d5594879.webp",
+    "facility": "Leopalace Resort Country Club",
+    "selected": [
+      0,
+      5
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 3504
+  },
+  {
+    "slug": "hana-73e4b8a97f10",
+    "title": "치앙마이 인타논CC 골프텔 5일",
+    "previousThumb": "/products/hanatour/details/d12aa6a5f6fdc263.webp",
+    "facility": "INTHANON GOLF & NATURAL RESORT",
+    "selected": [
+      0,
+      2
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 4288
+  },
+  {
+    "slug": "hana-bd2c17ebe70c",
+    "title": "파타야 세인트앤드류스CC 골프텔 5일",
+    "previousThumb": "/products/hanatour/details/bb0e1e58fd5834d9.webp",
+    "facility": "St. ANDREWS 2000",
+    "selected": [
+      2,
+      0
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 600
+  },
+  {
+    "slug": "hana-66b15455952d",
+    "title": "하노이·하이퐁 소노펠리체CC 골프텔 5일",
+    "previousThumb": "/products/hanatour/details/9d23f170de0a596b.webp",
+    "facility": "SONO FELICE CC HAIPONG",
+    "selected": [
+      0,
+      3
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1920
+  },
+  {
+    "slug": "hana-7cb12d27edf5",
+    "title": "비엔티안 레이크뷰 다색골프 · 5성 호텔 5일",
+    "previousThumb": "/products/hanatour/details/38c195b7560255d9.webp",
+    "facility": "LONGVIEN GOLF CLUB",
+    "selected": [
+      1,
+      0,
+      5
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 4992
+  },
+  {
+    "slug": "hana-414cce9a8d57",
+    "title": "다낭 다색골프 · 가이드 미동행 5일",
+    "previousThumb": "/products/hanatour/details/b7ce63edba5e97ad.webp",
+    "facility": "Ba Na Hills Golf CLub",
+    "selected": [
+      2,
+      3
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1024
+  },
+  {
+    "slug": "hana-d6291eba0f9a",
+    "title": "파타야 타이시암CC 파크골프 5일",
+    "previousThumb": "/products/hanatour/details/bbfcc62992b1aa66.webp",
+    "facility": "Thai Siam Park Golf & Resort",
+    "selected": [
+      0,
+      1
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1280
+  },
+  {
+    "slug": "hana-882a42dace3a",
+    "title": "칸차나부리 허니퀸 파크골프 빌리지 5일",
+    "previousThumb": "/products/hanatour/details/a1ddc4a14243f862.webp",
+    "facility": "Parkgolfvillage",
+    "selected": [
+      2,
+      1,
+      3
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 3000
+  },
+  {
+    "slug": "hana-798240f4c4cb",
+    "title": "치앙마이 제키파크골프 리조트 5일",
+    "previousThumb": "/products/hanatour/details/48d78cb384ddd040.webp",
+    "facility": "Jacki park golf & resort",
+    "selected": [
+      0,
+      4,
+      5
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 4032
+  },
+  {
+    "slug": "hana-52c2e708f5ea",
+    "title": "미야자키 아오시마 파크골프 · 온천 호텔 3일",
+    "previousThumb": "/products/hanatour/details/5ff7e95df9c2f516.webp",
+    "facility": "Miyazaki Aoshima Park Golf",
+    "selected": [],
+    "status": "photo-pending",
+    "primaryWidth": null
+  },
+  {
+    "slug": "hana-bb5cdbc72a86",
+    "title": "나트랑 셀렉텀노아 리조트 파크골프 5일",
+    "previousThumb": "/products/hanatour/details/25a72c57fc0cadcb.webp",
+    "facility": "Selectum Noa Resort Park Golf Course",
+    "selected": [
+      1,
+      0
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 4000
+  },
+  {
+    "slug": "hana-d478236041b1",
+    "title": "부산 출발 규슈 파크골프 · 부관훼리 4일",
+    "previousThumb": "/products/hanatour/details/1f2acd7db4a2e576.webp",
+    "facility": "Choyo Park Golf Course",
+    "selected": [],
+    "status": "photo-pending",
+    "primaryWidth": null
+  },
+  {
+    "slug": "hana-b08c688159c9",
+    "title": "부산 출발 규슈 파크골프 · 카멜리아호 4일",
+    "previousThumb": "/products/hanatour/details/1f2acd7db4a2e576.webp",
+    "facility": "Choyo Park Golf Course",
+    "selected": [],
+    "status": "photo-pending",
+    "primaryWidth": null
+  },
+  {
+    "slug": "hana-45383264bd16",
+    "title": "부산 출발 방콕 파인허스트 다색골프 5일",
+    "previousThumb": "/products/hanatour/details/678f8784c5938749.webp",
+    "facility": "Pine Hurst Golf&Country Club",
+    "selected": [
+      0,
+      2
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1280
+  },
+  {
+    "slug": "hana-028ca29bbf44",
+    "title": "부산 출발 오키나와 다색골프 · 토리피토 나하 4일",
+    "previousThumb": "/products/hanatour/details/adf3ef45da536797.webp",
+    "facility": "슈레이 컨트리 클럽",
+    "selected": [
+      1,
+      0,
+      2
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 800
+  },
+  {
+    "slug": "hana-f6b18d8b6db0",
+    "title": "부산 출발 샤먼 다색골프 · 5성 호텔 5일",
+    "previousThumb": "/products/hanatour/details/fa163fa488a9cb63.webp",
+    "facility": "Orient Golf & Country Club",
+    "selected": [
+      3,
+      0,
+      5
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1994
+  },
+  {
+    "slug": "hana-15fb867acf04",
+    "title": "부산 출발 비엔티안 다색골프 · 4성 호텔 5일",
+    "previousThumb": "/products/hanatour/details/7138446fbd0e4c66.webp",
+    "facility": "LAO COUNTRY CLUB",
+    "selected": [
+      0,
+      5
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 4000
+  },
+  {
+    "slug": "hana-fd773d89f0c6",
+    "title": "부산 출발 나트랑 아나라 빈티엔GC 5일",
+    "previousThumb": "/products/hanatour/details/bef2c82af8d4402a.webp",
+    "facility": "ANARA BINHTIEN GOLF CLUB",
+    "selected": [
+      0,
+      1
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 2507
+  },
+  {
+    "slug": "hana-00c99bfabd4e",
+    "title": "부산 출발 하노이 헤론레이크 다색골프 5일",
+    "previousThumb": "/products/hanatour/details/df9ec542c7112c93.webp",
+    "facility": "DAI LAI STAR GOLF & COUNTRY CLUB",
+    "selected": [
+      0,
+      2
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1600
+  },
+  {
+    "slug": "hana-5df4eb8d7864",
+    "title": "부산 출발 사가 다색골프 3일",
+    "previousThumb": "/products/hanatour/details/16bde85e38901be3.webp",
+    "facility": "TENZAN COUNTRY CLUB",
+    "selected": [
+      1,
+      2
+    ],
+    "status": "supplier-facility-and-subject-checked",
+    "primaryWidth": 1142
+  }
+]

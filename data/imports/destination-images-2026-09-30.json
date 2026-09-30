@@ -1,0 +1,93 @@
+[
+  {
+    "slug": "vietnam",
+    "source": "/Users/goltimjang/.codex/generated_images/01a0cd8f-7479-72a1-a49d-bc8aef712960/exec-38b2bead-80af-4cbf-a7c0-e35a210e8e99.png",
+    "prompt": "Use case: ads-marketing. Create one high-resolution landscape image (1536x1024 or higher) for the VIETNAM destination category of a Korean golf travel site. Photorealistic editorial-style concept illustration of lush green golf fairways and an elegant putting green, with northern Vietnam limestone karst hills and a calm lake in the background. Crisp natural textures, sophisticated warm morning light, vibrant but realistic greens. Landscape must feel Vietnamese without inventing a recognizable real golf club. This is a region-inspired illustration, not documentation of an actual bookable facility. No buildings, no people, no airport, no planes, no text, no logos, no borders, no collage. Full bleed, wide composition, sharp enough for desktop hero and mobile country card.",
+    "output": "/images/destinations/vietnam.webp",
+    "generated": true
+  },
+  {
+    "slug": "thailand",
+    "source": "/Users/goltimjang/.codex/generated_images/01a0cd8f-7479-72a1-a49d-bc8aef712960/exec-99613d67-f8f9-4870-8bca-ce1d96dfdf3f.png",
+    "prompt": "Use case: ads-marketing. Create one high-resolution landscape image, at least 1536x1024, for the Thailand destination category of a Korean golf travel website. Scene: tropical Thai golf fairways with palms, a reflective lake and low misty northern Thai hills, soft warm morning. Photorealistic editorial-style concept illustration; crisp detailed natural textures, sophisticated realistic lighting, beautiful golf green and fairway prominent in foreground. This is a clearly labeled region-inspired AI illustration, not documentation of a real bookable golf course; do not copy or name any particular facility. No hotel interiors, no airport, no airplanes, no people, no text or lettering, no logos, no watermarks, no collage, no border. Full bleed landscape composition suitable for a wide desktop hero and cropped small mobile card.",
+    "output": "/images/destinations/thailand.webp",
+    "generated": true
+  },
+  {
+    "slug": "japan",
+    "source": "/Users/goltimjang/.codex/generated_images/01a0cd8f-7479-72a1-a49d-bc8aef712960/exec-ba8f3d07-2495-43e4-a352-b6c3ca684e20.png",
+    "prompt": "Use case: ads-marketing. Create one high-resolution landscape image, at least 1536x1024, for the Japan destination category of a Korean golf travel website. Scene: immaculate Japanese rolling golf fairways, pine trees, subtle cherry blossoms, a distant snow-capped volcanic mountain reminiscent of Fuji, clear spring morning. Photorealistic editorial-style concept illustration; crisp detailed natural textures, sophisticated realistic lighting, beautiful golf green and fairway prominent in foreground. This is a clearly labeled region-inspired AI illustration, not documentation of a real bookable golf course; do not copy or name any particular facility. No hotel interiors, no airport, no airplanes, no people, no text or lettering, no logos, no watermarks, no collage, no border. Full bleed landscape composition suitable for a wide desktop hero and cropped small mobile card.",
+    "output": "/images/destinations/japan.webp",
+    "generated": true
+  },
+  {
+    "slug": "china",
+    "source": "/Users/goltimjang/.codex/generated_images/01a0cd8f-7479-72a1-a49d-bc8aef712960/exec-4d5a7a2d-9b0b-4ee5-bd37-db4fb7ca02f6.png",
+    "prompt": "Use case: ads-marketing. Create one high-resolution landscape image, at least 1536x1024, for the China destination category of a Korean golf travel website. Scene: a spacious Chinese golf course with an elegant lake, sculptural pine trees, rolling lush hills and distant misty mountains, bright calm daylight. Photorealistic editorial-style concept illustration; crisp detailed natural textures, sophisticated realistic lighting, beautiful golf green and fairway prominent in foreground. This is a clearly labeled region-inspired AI illustration, not documentation of a real bookable golf course; do not copy or name any particular facility. No hotel interiors, no airport, no airplanes, no people, no text or lettering, no logos, no watermarks, no collage, no border. Full bleed landscape composition suitable for a wide desktop hero and cropped small mobile card.",
+    "output": "/images/destinations/china.webp",
+    "generated": true
+  },
+  {
+    "slug": "philippines",
+    "source": "/Users/goltimjang/.codex/generated_images/01a0cd8f-7479-72a1-a49d-bc8aef712960/exec-ff85240d-c3cc-4a40-a9e8-d2262926d35f.png",
+    "prompt": "Use case: ads-marketing. Create one high-resolution landscape image, at least 1536x1024, for the Philippines destination category of a Korean golf travel website. Scene: a lush Philippine tropical golf course with volcanic hills resembling Central Luzon, acacia trees and coconut palms, vibrant sunny day. Photorealistic editorial-style concept illustration; crisp detailed natural textures, sophisticated realistic lighting, beautiful golf green and fairway prominent in foreground. This is a clearly labeled region-inspired AI illustration, not documentation of a real bookable golf course; do not copy or name any particular facility. No hotel interiors, no airport, no airplanes, no people, no text or lettering, no logos, no watermarks, no collage, no border. Full bleed landscape composition suitable for a wide desktop hero and cropped small mobile card.",
+    "output": "/images/destinations/philippines.webp",
+    "generated": true
+  },
+  {
+    "slug": "guam-saipan",
+    "source": "/Users/goltimjang/.codex/generated_images/01a0cd8f-7479-72a1-a49d-bc8aef712960/exec-fac9c763-637a-4369-9a13-f64d3f04d2a8.png",
+    "prompt": "Use case: ads-marketing. Create one high-resolution landscape image, at least 1536x1024, for the Guam and Saipan destination category of a Korean golf travel website. Scene: Pacific island coastal golf fairway on a limestone bluff, bright turquoise lagoon, deep blue ocean and tropical island vegetation characteristic of Guam and Saipan, no invented landmark buildings. Photorealistic editorial-style concept illustration; crisp detailed natural textures, sophisticated realistic lighting, beautiful golf green and fairway prominent in foreground. This is a clearly labeled region-inspired AI illustration, not documentation of a real bookable golf course; do not copy or name any particular facility. No hotel interiors, no airport, no airplanes, no people, no text or lettering, no logos, no watermarks, no collage, no border. Full bleed landscape composition suitable for a wide desktop hero and cropped small mobile card.",
+    "output": "/images/destinations/guam-saipan.webp",
+    "generated": true
+  },
+  {
+    "slug": "malaysia",
+    "source": "/Users/goltimjang/.codex/generated_images/01a0cd8f-7479-72a1-a49d-bc8aef712960/exec-217a70a2-474b-4ec5-9727-3335d42cecdd.png",
+    "prompt": "Use case: ads-marketing. Create one high-resolution landscape image, at least 1536x1024, for the Malaysia destination category of a Korean golf travel website. Scene: a tropical Borneo golf landscape near the coast, dense rainforest and a distant mountain silhouette, lush green fairway, blue sky. Photorealistic editorial-style concept illustration; crisp detailed natural textures, sophisticated realistic lighting, beautiful golf green and fairway prominent in foreground. This is a clearly labeled region-inspired AI illustration, not documentation of a real bookable golf course; do not copy or name any particular facility. No hotel interiors, no airport, no airplanes, no people, no text or lettering, no logos, no watermarks, no collage, no border. Full bleed landscape composition suitable for a wide desktop hero and cropped small mobile card.",
+    "output": "/images/destinations/malaysia.webp",
+    "generated": true
+  },
+  {
+    "slug": "laos",
+    "source": "/Users/goltimjang/.codex/generated_images/01a0cd8f-7479-72a1-a49d-bc8aef712960/exec-7e9835a0-7a11-40d8-806a-1c49ff60eb60.png",
+    "prompt": "Use case: ads-marketing. Create one high-resolution landscape image, at least 1536x1024, for the Laos destination category of a Korean golf travel website. Scene: gentle inland Southeast Asian golf fairway in the Vientiane region, broad calm lake, tropical trees and distant green hills, serene morning. Photorealistic editorial-style concept illustration; crisp detailed natural textures, sophisticated realistic lighting, beautiful golf green and fairway prominent in foreground. This is a clearly labeled region-inspired AI illustration, not documentation of a real bookable golf course; do not copy or name any particular facility. No hotel interiors, no airport, no airplanes, no people, no text or lettering, no logos, no watermarks, no collage, no border. Full bleed landscape composition suitable for a wide desktop hero and cropped small mobile card.",
+    "output": "/images/destinations/laos.webp",
+    "generated": true
+  },
+  {
+    "slug": "indonesia",
+    "source": "/Users/goltimjang/.codex/generated_images/01a0cd8f-7479-72a1-a49d-bc8aef712960/exec-3bc9ac4f-fba5-4085-8707-48b525a5689d.png",
+    "prompt": "Use case: ads-marketing. Create one high-resolution landscape image, at least 1536x1024, for the Indonesia destination category of a Korean golf travel website. Scene: a tropical Batam island golf course with palm trees, island coastline and tranquil blue water, vibrant daylight. Photorealistic editorial-style concept illustration; crisp detailed natural textures, sophisticated realistic lighting, beautiful golf green and fairway prominent in foreground. This is a clearly labeled region-inspired AI illustration, not documentation of a real bookable golf course; do not copy or name any particular facility. No hotel interiors, no airport, no airplanes, no people, no text or lettering, no logos, no watermarks, no collage, no border. Full bleed landscape composition suitable for a wide desktop hero and cropped small mobile card.",
+    "output": "/images/destinations/indonesia.webp",
+    "generated": true
+  },
+  {
+    "slug": "usa",
+    "source": "/Users/goltimjang/.codex/generated_images/01a0cd8f-7479-72a1-a49d-bc8aef712960/exec-f2c05cc0-2ec1-4e0c-af19-3c0d4a1725c9.png",
+    "prompt": "Use case: ads-marketing. Create one high-resolution landscape image, at least 1536x1024, for the Hawaii and United States golf travel destination category of a Korean golf travel website. Scene: a Hawaiian coastal golf fairway with volcanic hills, palm trees, black lava shoreline and blue Pacific ocean, crisp sunny morning. Photorealistic editorial-style concept illustration; crisp detailed natural textures, sophisticated realistic lighting, beautiful golf green and fairway prominent in foreground. This is a clearly labeled region-inspired AI illustration, not documentation of a real bookable golf course; do not copy or name any particular facility. No hotel interiors, no airport, no airplanes, no people, no text or lettering, no logos, no watermarks, no collage, no border. Full bleed landscape composition suitable for a wide desktop hero and cropped small mobile card.",
+    "output": "/images/destinations/usa.webp",
+    "generated": true
+  },
+  {
+    "slug": "scotland",
+    "source": "/Users/goltimjang/.codex/generated_images/01a0cd8f-7479-72a1-a49d-bc8aef712960/exec-ebd694ed-e3d6-4893-8d2a-f5e1a5c62afa.png",
+    "prompt": "Use case: ads-marketing. Create one high-resolution landscape image, at least 1536x1024, for the Scotland destination category of a Korean golf travel website. Scene: authentic-feeling windswept Scottish links golf landscape, fescue rough, rolling fairways and rugged coast, cool blue sky and restrained natural colors. Photorealistic editorial-style concept illustration; crisp detailed natural textures, sophisticated realistic lighting, beautiful golf green and fairway prominent in foreground. This is a clearly labeled region-inspired AI illustration, not documentation of a real bookable golf course; do not copy or name any particular facility. No hotel interiors, no airport, no airplanes, no people, no text or lettering, no logos, no watermarks, no collage, no border. Full bleed landscape composition suitable for a wide desktop hero and cropped small mobile card.",
+    "output": "/images/destinations/scotland.webp",
+    "generated": true
+  },
+  {
+    "slug": "turkiye",
+    "source": "/Users/goltimjang/.codex/generated_images/01a0cd8f-7479-72a1-a49d-bc8aef712960/exec-91194ddd-2c44-4b3d-bb00-2890735997ec.png",
+    "prompt": "Use case: ads-marketing. Create one high-resolution landscape image, at least 1536x1024, for the Turkiye Antalya destination category of a Korean golf travel website. Scene: a Mediterranean Turkish golf course with umbrella pines and manicured fairways, distant Taurus mountains, warm Mediterranean daylight. Photorealistic editorial-style concept illustration; crisp detailed natural textures, sophisticated realistic lighting, beautiful golf green and fairway prominent in foreground. This is a clearly labeled region-inspired AI illustration, not documentation of a real bookable golf course; do not copy or name any particular facility. No hotel interiors, no airport, no airplanes, no people, no text or lettering, no logos, no watermarks, no collage, no border. Full bleed landscape composition suitable for a wide desktop hero and cropped small mobile card.",
+    "output": "/images/destinations/turkiye.webp",
+    "generated": true
+  },
+  {
+    "slug": "mexico",
+    "source": "/Users/goltimjang/.codex/generated_images/01a0cd8f-7479-72a1-a49d-bc8aef712960/exec-e9e4563f-d997-420f-9e1f-6e621825abe1.png",
+    "prompt": "Use case: ads-marketing. Create one high-resolution landscape image, at least 1536x1024, for the Mexico Los Cabos destination category of a Korean golf travel website. Scene: a desert-meets-ocean golf landscape with arid ochre hills, native cacti, emerald fairway and deep-blue Sea of Cortez, clean bright sun. Photorealistic editorial-style concept illustration; crisp detailed natural textures, sophisticated realistic lighting, beautiful golf green and fairway prominent in foreground. This is a clearly labeled region-inspired AI illustration, not documentation of a real bookable golf course; do not copy or name any particular facility. No hotel interiors, no airport, no airplanes, no people, no text or lettering, no logos, no watermarks, no collage, no border. Full bleed landscape composition suitable for a wide desktop hero and cropped small mobile card.",
+    "output": "/images/destinations/mexico.webp",
+    "generated": true
+  }
+]

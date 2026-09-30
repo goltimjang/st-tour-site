@@ -21,6 +21,7 @@ export type Product = {
   detailBasis?: string;
   galleryCaptions?: string[];
   thumbCaption?: string;
+  photoPending?: boolean;
   itineraryNote?: string;
   inclusionNote?: string;
   quoteNotice?: string;
@@ -69,7 +70,10 @@ export const products: Product[] = [
     slug: "royalcc-festival-2026",
     title: royalcc.title,
     summary: "닌빈 로얄CC 54홀 라운드와 숙박. 항공을 제외한 현지 일정의 가능 여부를 문의하세요.",
-    thumb: "/products/royalcc.jpg",
+    thumb: "/promotion/royalcc/course-signature-110.webp",
+    thumbCaption: "닌빈 로얄CC · 행사 공식 안내의 코스 사진",
+    gallery: ["/promotion/royalcc/course-signature-110.webp"],
+    galleryCaptions: ["닌빈 로얄CC · 행사 공식 안내의 코스 사진"],
     country: "베트남",
     kind: "해외",
     duration: "3박 5일",

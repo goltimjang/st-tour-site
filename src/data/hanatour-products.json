@@ -3,7 +3,7 @@
     "slug": "hana-cd8cbf27d594",
     "title": "방콕 파인허스트CC 다색골프 · 스쿰빗 4성 호텔 5일",
     "summary": "방콕 파인허스트CC 다색골프 · 스쿰빗 4성 호텔 5일. 예정 코스: [100대 골프장]방콕 파인허스트 G.C, 윈저파크 G.C. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/678f8784c5938749.webp",
+    "thumb": "/products/courses/678f8784c5938749.webp",
     "country": "태국",
     "area": "방콕",
     "kind": "해외",
@@ -76,18 +76,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/678f8784c5938749.webp",
-      "/products/hanatour/details/670d965ed089874e.webp",
-      "/products/hanatour/details/c7219b45d2db6bd2.webp",
-      "/products/hanatour/details/cb112aed7170416d.webp",
-      "/products/hanatour/details/56bba7ac86132e8e.webp"
+      "/products/courses/678f8784c5938749.webp",
+      "/products/courses/78a14588703fd251.webp"
     ],
     "galleryCaptions": [
-      "파인허스트 골프텔",
-      "BANGPAKONG RIVERSIDE COUNTRY CLUB",
-      "로얄타이 아미 CC (Royal Thai Army Golf Club)",
-      "앰버서더 호텔 방콕",
-      "파인허스트 골프텔"
+      "Pine Hurst Golf&Country Club · 예정 골프장 코스",
+      "Pine Hurst Golf&Country Club · 예정 골프장 코스"
     ],
     "sourceHeading": "[추가수하물 +5kg] 방콕 골프 5일 #다색골프 #18홀*3회 #파인허스트CC 외10곳 #스쿰빗시내 4성호텔 #2인출발가능",
     "sourceFamilyDuration": "5·6일",
@@ -95,13 +89,14 @@
       "객실 1인 사용료 : 150,000원",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "파인허스트 골프텔"
+    "thumbCaption": "Pine Hurst Golf&Country Club · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-3de70b2e8f8e",
     "title": "칭다오 캐슬렉스CC 골프텔 3일",
     "summary": "칭다오 캐슬렉스CC 골프텔 3일. 예정 코스: 캐슬렉스 골프클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/a7a402b8061eb468.webp",
+    "thumb": "/products/courses/2a0c73635eb168f6.webp",
     "country": "중국",
     "area": "칭다오",
     "kind": "해외",
@@ -163,20 +158,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/a7a402b8061eb468.webp",
-      "/products/hanatour/details/eed081d68a5ab733.webp",
-      "/products/hanatour/details/2a0c73635eb168f6.webp",
-      "/products/hanatour/details/d89919bf4329c80c.webp",
-      "/products/hanatour/details/2706bdcb79c4b383.webp",
-      "/products/hanatour/details/f172f20064fdab00.webp"
+      "/products/courses/2a0c73635eb168f6.webp",
+      "/products/courses/2706bdcb79c4b383.webp",
+      "/products/courses/6931c6bb05a6ed95.webp"
     ],
     "galleryCaptions": [
-      "캐슬렉스CC",
-      "CASTELEX QINGDAO GOLF & RESORT-객실",
-      "청도 캐슬렉스 골프 클럽",
-      "CASTELEX QINGDAO GOLF & RESORT-객실",
-      "청도 캐슬렉스 골프 클럽",
-      "청도 캐슬렉스 골프장_클럽하우스"
+      "Shandong Qingdao Kaisile Golf Club · 예정 골프장 코스",
+      "Shandong Qingdao Kaisile Golf Club · 예정 골프장 코스",
+      "Shandong Qingdao Kaisile Golf Club · 예정 골프장 코스"
     ],
     "sourceHeading": "[출발확정] 칭다오 골프텔 3일 #54H #베스트셀러 #캐슬렉스골프텔 #캐디피+카트피 포함 #조조패턴",
     "sourceFamilyDuration": "3·4·5일",
@@ -186,13 +175,14 @@
       "기타 : 외부석식(현지식 또는 샤브샤브)+마사지80분+차량+가이드 : 450위안/1인 (4인이상 출발조건)",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "캐슬렉스CC"
+    "thumbCaption": "Shandong Qingdao Kaisile Golf Club · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-d9ec5178e945",
     "title": "샤먼 다색골프 · 준특급 호텔 4일",
     "summary": "샤먼 다색골프 · 준특급 호텔 4일. 예정 코스: 하문 동방 골프클럽, 천주 골프클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/fa163fa488a9cb63.webp",
+    "thumb": "/products/courses/dfc9da2a7f16f4e4.webp",
     "country": "중국",
     "area": "샤먼",
     "kind": "해외",
@@ -264,20 +254,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/fa163fa488a9cb63.webp",
-      "/products/hanatour/details/8f77026fa017cab5.webp",
-      "/products/hanatour/details/5d512130de179070.webp",
-      "/products/hanatour/details/8a99b814127c2993.webp",
-      "/products/hanatour/details/ddb7c3d906d13439.webp",
-      "/products/hanatour/details/0071837589370d97.webp"
+      "/products/courses/dfc9da2a7f16f4e4.webp",
+      "/products/courses/fa163fa488a9cb63.webp",
+      "/products/courses/f1ede32ac4ba882f.webp"
     ],
     "galleryCaptions": [
-      "동방CC",
-      "천주CC",
-      "남태무CC",
-      "샤먼 디스커버리 호텔",
-      "XIANGLU GRAND HOTEL",
-      "동방CC"
+      "Orient Golf & Country Club · 예정 골프장 코스",
+      "Orient Golf & Country Club · 예정 골프장 코스",
+      "Orient Golf & Country Club · 예정 골프장 코스"
     ],
     "sourceHeading": "샤먼(하문) 골프 4일 #다색골프 #18홀*3회 #동방/천주/남태무CC #준특급호텔 #가성비우수 #특전제공",
     "sourceFamilyDuration": "4·5일",
@@ -287,13 +271,14 @@
       "최소출발미달 : ①2인 또는 3인 라운드 진행시 추가비용 발생하오니 상담원 별도 문의 부탁드립니다.\n②4인 미만시 미팅/샌딩 추가비용 발생 하오니 상담원 별도 문의 부탁드립니다.",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "동방CC"
+    "thumbCaption": "Orient Golf & Country Club · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-7ba6e568a76a",
     "title": "방콕 아티타야CC 골프텔 5일",
     "summary": "방콕 아티타야CC 골프텔 5일. 예정 코스: 아티타야 골프 클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/76d488b9b7590b64.webp",
+    "thumb": "/products/courses/d63e241c7c8c6de3.webp",
     "country": "태국",
     "area": "방콕",
     "kind": "해외",
@@ -365,20 +350,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/76d488b9b7590b64.webp",
-      "/products/hanatour/details/00e4cc955ea01317.webp",
-      "/products/hanatour/details/1584e0cfd9daa4c1.webp",
-      "/products/hanatour/details/7571ebc3e5625c5e.webp",
-      "/products/hanatour/details/d79415e814c79805.webp",
-      "/products/hanatour/details/c0ef949dce85afff.webp"
+      "/products/courses/d63e241c7c8c6de3.webp",
+      "/products/courses/76d488b9b7590b64.webp",
+      "/products/courses/b9543a28043e953a.webp"
     ],
     "galleryCaptions": [
-      "아티타야 CC ARTITAYA",
-      "ARTITAYA GOLF CLUB HOTEL 아티타야 골프 클럽 호텔 수영장",
-      "아티타야 CC (ARTITAYA)",
-      "ARTITAYA GOLF CLUB HOTEL 아티타야 골프클럽 호텔 부대시설",
-      "아티타야 CC ARTITAYA",
-      "ARTITAYA GOLF CLUB HOTEL 아티타야 골프클럽 호텔 부대시설"
+      "Artitaya Golf Club · 예정 골프장 코스",
+      "Artitaya Golf Club · 예정 골프장 코스",
+      "Artitaya Golf Club · 예정 골프장 코스"
     ],
     "sourceHeading": "방콕 골프 5일 #골프텔 #36홀*3회 #아티타야CC #36홀 규모 #2인출발 #전일정식사포함",
     "sourceFamilyDuration": "5·6일",
@@ -387,13 +366,14 @@
       "렌탈비 : 가격문의 (1인 18홀 클럽렌탈 기준/사전 요청 조건(상품 담당자와 금액 확인 필요))",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "아티타야 CC ARTITAYA"
+    "thumbCaption": "Artitaya Golf Club · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-3fd6eb7ee0f9",
     "title": "치앙마이 가산레가시 글로벌 골프챌린지 5일",
     "summary": "치앙마이 가산레가시 글로벌 골프챌린지 5일. 예정 코스: 치앙마이 가산 레가시 골프 클럽, 가산 파노라마 골프클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/a0bf3aa6b8445d28.webp",
+    "thumb": "/products/courses/d1288e8a111c6884.webp",
     "country": "태국",
     "area": "치앙마이",
     "kind": "해외",
@@ -465,20 +445,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/a0bf3aa6b8445d28.webp",
-      "/products/hanatour/details/d1288e8a111c6884.webp",
-      "/products/hanatour/details/8e4a47fb0527a302.webp",
-      "/products/hanatour/details/edf047c52c2adfcf.webp",
-      "/products/hanatour/details/ebe0888da0bfc310.webp",
-      "/products/hanatour/details/a6a086ee9cb4b540.webp"
+      "/products/courses/d1288e8a111c6884.webp",
+      "/products/courses/a6a086ee9cb4b540.webp"
     ],
     "galleryCaptions": [
-      "GASSAN LEGACY GOLF CLUB",
-      "파노라마 신규사진",
-      "GASSAN LEGACY GOLF CLUB",
-      "파노라마 신규사진",
-      "GASSAN LEGACY GOLF CLUB",
-      "가산 파노라마 Gassan Panorama"
+      "Gassan Panorama Golf Club · 예정 골프장 코스",
+      "Gassan Panorama Golf Club · 예정 골프장 코스"
     ],
     "sourceHeading": "[출발확정] [글로벌 골프챌린지][부산출발]치앙마이 골프 5일 #가산레가시골프텔 #54홀 #레가시CC/파노라마CC #조/중/석식포함 #골프대회 #카트피/캐디피포함 #18시레이트체크아웃#1000만원상당의경품 #수하물 23kg",
     "sourceFamilyDuration": "5일",
@@ -486,14 +458,15 @@
       "객실 1인 사용료 : 140,000원",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "GASSAN LEGACY GOLF CLUB",
+    "thumbCaption": "Gassan Panorama Golf Club · 예정 골프장 코스",
+    "photoPending": false,
     "scheduleNotice": "2026년 12월 9일 출발 골프챌린지 일정입니다. 다른 날짜는 같은 행사 구성으로 진행되지 않으며, 별도 골프여행으로 상담합니다."
   },
   {
     "slug": "hana-89ed0db8b937",
     "title": "클락 레이크우드CC 골프텔 5일",
     "summary": "클락 레이크우드CC 골프텔 5일. 예정 코스: 레이크우드 골프장. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/a8684e7451d65b59.webp",
+    "thumb": "/products/courses/a5459be158745944.webp",
     "country": "필리핀",
     "area": "클락",
     "kind": "해외",
@@ -566,18 +539,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/a8684e7451d65b59.webp",
-      "/products/hanatour/details/831e844376c2a46b.webp",
-      "/products/hanatour/details/758d329140d5ce3a.webp",
-      "/products/hanatour/details/8fc57794584128ad.webp",
-      "/products/hanatour/details/e2f766e44b0efb71.webp"
+      "/products/courses/a5459be158745944.webp",
+      "/products/courses/831e844376c2a46b.webp"
     ],
     "galleryCaptions": [
-      "레이크우드 골프텔",
-      "LAKEWOOD GOLF CLUB",
-      "아크로 폴리스 호텔 전경",
-      "레이크우드 골프텔",
-      "LAKEWOOD GOLF CLUB"
+      "LAKEWOOD GOLF CLUB · 예정 골프장 코스",
+      "LAKEWOOD GOLF CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "[청주출발][베스트셀러]클락 골프 5일 #골프텔 #36홀*3회 #레이크우드 골프텔 #레이크우드CC #가성비최고 #2인단독라운드 #카트진입가능 #조중식포함",
     "sourceFamilyDuration": "5·6일",
@@ -586,13 +553,14 @@
       "추가라운드 그린피 : 휴장일 외부라운드 비용 1인 $55\n\n- 매주 화요일 레이크우드 휴장일으로 뉴아시아CC 로 대체되며\n이때 $55/1인 추가비용이 발생됩니다.\n\n(외부라운드시 * 왕복차량비+그린피+조식, 중식, 석식 외부 식사 비용이 포함되어 있습니다.)\n\n※현지상황에 따라 외부라운드 골프장 및 휴장일은 변경 될 수 있습니다.\n(외부라운드 골프장은 별도 선택 지정이 불가합니다.)\n\n[매주 화요일 휴장일 대체골프장 정보]\n뉴아시아 - 레이크우드 90분 소요 (페어웨이 집입 불가)\n\n\n전동카 : 홀수 인원 예약으로 싱글카트 발생 시, 싱글카트 비용이 발생됩니다, ( 18홀 기준 1인 $25/27홀 기준 1인 $40), 캐디피 : ※ 11월 ~3월, 현지 국경일 또는 골프장 사정에 의하여 1인 1캐디가아닌 2인 1캐디가 배정될 수 있습니다.\n이는 골프장 고유 권한으로 동일한 캐디비용이 청구되는점 사전에 미리 안내 드립니다.",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "레이크우드 골프텔"
+    "thumbCaption": "LAKEWOOD GOLF CLUB · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-0f8104f0807b",
     "title": "하노이 옌바이CC · 르블랑 헤리티지 호텔 5일",
     "summary": "하노이 옌바이CC · 르블랑 헤리티지 호텔 5일. 예정 코스: 옌바이 스타 골프 앤 리조트. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/1b7718b4dea45928.webp",
+    "thumb": "/products/courses/1b7718b4dea45928.webp",
     "country": "베트남",
     "area": "하노이",
     "kind": "해외",
@@ -664,18 +632,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/1b7718b4dea45928.webp",
-      "/products/hanatour/details/b6b875e13fd93416.webp",
-      "/products/hanatour/details/54b3e556ee7b949b.webp",
-      "/products/hanatour/details/ea1cde5734ae5f01.webp",
-      "/products/hanatour/details/6124b341ef9ec737.webp"
+      "/products/courses/1b7718b4dea45928.webp",
+      "/products/courses/ea1cde5734ae5f01.webp",
+      "/products/courses/3b14205f229a650f.webp"
     ],
     "galleryCaptions": [
-      "옌바이CC",
-      "르블랑헤리티지",
-      "옌바이CC",
-      "옌바이CC",
-      "르블랑헤리티지"
+      "Yen Bai Star Golf & Resort · 예정 골프장 코스",
+      "Yen Bai Star Golf & Resort · 예정 골프장 코스",
+      "Yen Bai Star Golf & Resort · 예정 골프장 코스"
     ],
     "sourceHeading": "[2인출발가능]하노이 옌바이 골프 5일 #골프연계호텔 #36홀*3회#옌바이CC#신규오픈 ★르블랑헤리티지호텔",
     "sourceFamilyDuration": "5일",
@@ -683,13 +647,14 @@
       "객실 1인 사용료 : 150,000원",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "옌바이CC"
+    "thumbCaption": "Yen Bai Star Golf & Resort · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-67b49d0d8a63",
     "title": "미야자키 아이와 리조트 골프텔 4일",
     "summary": "미야자키 아이와 리조트 골프텔 4일. 예정 코스: 아이와 미야자키 골프 클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/0f19823529a5371b.webp",
+    "thumb": "/products/courses/1f03baf962a24857.webp",
     "country": "일본",
     "area": "미야자키",
     "kind": "해외",
@@ -755,18 +720,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/0f19823529a5371b.webp",
-      "/products/hanatour/details/4eaca4168f7c9631.webp",
-      "/products/hanatour/details/0acb1e5e57958283.webp",
-      "/products/hanatour/details/c9e2d5f84c4e4623.webp",
-      "/products/hanatour/details/ab9f239892837c7a.webp"
+      "/products/courses/1f03baf962a24857.webp",
+      "/products/courses/0acb1e5e57958283.webp"
     ],
     "galleryCaptions": [
-      "아이와골프장",
-      "아이와골프장",
-      "아이와 GC",
-      "아이와골프장",
-      "아이와 GC"
+      "아이와 미야자키 골프 클럽 · 예정 골프장 코스",
+      "아이와 미야자키 골프 클럽 · 예정 골프장 코스"
     ],
     "sourceHeading": "미야자키 골프 4일 #골프텔 #63홀 #아이와GC #한국인직원상주 #조/중/석식포함 #2인출발&2인라운드가능(추가비용)",
     "sourceFamilyDuration": "3·4일",
@@ -774,13 +733,14 @@
       "객실 1인 사용료 : 140,000원",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "아이와골프장"
+    "thumbCaption": "아이와 미야자키 골프 클럽 · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-f2c173f5369f",
     "title": "가고시마 사츠마CC 리조트 골프텔 4일",
     "summary": "가고시마 사츠마CC 리조트 골프텔 4일. 예정 코스: 사츠마 골프 & 온천 리조트. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/7a91168b89c1ec00.webp",
+    "thumb": "/products/courses/c0dac092f6cedc30.webp",
     "country": "일본",
     "area": "가고시마",
     "kind": "해외",
@@ -849,20 +809,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/7a91168b89c1ec00.webp",
-      "/products/hanatour/details/c0dac092f6cedc30.webp",
-      "/products/hanatour/details/cf57e980ae1c8fc7.webp",
-      "/products/hanatour/details/3d6847d5d1f4fa6e.webp",
-      "/products/hanatour/details/f2176909dff9603d.webp",
-      "/products/hanatour/details/924f464c9f28be68.webp"
+      "/products/courses/c0dac092f6cedc30.webp",
+      "/products/courses/924f464c9f28be68.webp",
+      "/products/courses/23502b84abe11eb4.webp"
     ],
     "galleryCaptions": [
-      "사츠마",
-      "사츠마 컨트리 클럽 (SATSUMA COUNTRY CLUB)",
-      "사츠마",
-      "사츠마 컨트리 클럽 (SATSUMA COUNTRY CLUB)",
-      "사츠마 골프장",
-      "사츠마 컨트리 클럽 (SATSUMA COUNTRY CLUB)"
+      "사츠마 골프 & 온천 리조트 · 예정 골프장 코스",
+      "사츠마 골프 & 온천 리조트 · 예정 골프장 코스",
+      "사츠마 골프 & 온천 리조트 · 예정 골프장 코스"
     ],
     "sourceHeading": "[부산출발]가고시마 골프 4일 #골프텔 #18홀*3회 #사츠마골프&온천리조트 #사츠마CC #조/석식포함 #온천포함 #2인라운드가능",
     "sourceFamilyDuration": "3·4일",
@@ -870,13 +824,14 @@
       "객실 1인 사용료 : 300,000원",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "사츠마"
+    "thumbCaption": "사츠마 골프 & 온천 리조트 · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-a41f2f21ebd4",
     "title": "구마모토 아소 스카이블루 골프텔 5일",
     "summary": "구마모토 아소 스카이블루 골프텔 5일. 예정 코스: 아소 스카이 블루 골프 클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/01cb9977e0e3ff62.webp",
+    "thumb": "/products/courses/41812793cc0a370a.webp",
     "country": "일본",
     "area": "구마모토",
     "kind": "해외",
@@ -948,16 +903,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/01cb9977e0e3ff62.webp",
-      "/products/hanatour/details/7cb046a1dd1755d8.webp",
-      "/products/hanatour/details/94366748087cbbdb.webp",
-      "/products/hanatour/details/9fb9067209da9d3b.webp"
+      "/products/courses/41812793cc0a370a.webp",
+      "/products/courses/01cb9977e0e3ff62.webp",
+      "/products/courses/c5375f646cd01c93.webp"
     ],
     "galleryCaptions": [
-      "아소 스카이 블루 골프 클럽 (ASO SKY BLUE GOLF CLUB)",
-      "ASO SKYBLUE GOLF RESORT_EX.ASO TAKAMORI GOLF CLUB HOTEL",
-      "아소 스카이 블루 골프 클럽 (ASO SKY BLUE GOLF CLUB)",
-      "아소 스카이 블루 골프 클럽 (ASO SKY BLUE GOLF CLUB)"
+      "ASO SKY BLUE GOLF CLUB · 예정 골프장 코스",
+      "ASO SKY BLUE GOLF CLUB · 예정 골프장 코스",
+      "ASO SKY BLUE GOLF CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "[출발확정] 구마모토 골프 5일 #골프텔 #72+27홀 #아소스카이블루 #천연온천 #전식포함 #특식제공#2인출발가능",
     "sourceFamilyDuration": "3·4·5·8일",
@@ -966,13 +919,14 @@
       "추가라운드 그린피 : ■ 기존 27홀+9홀 -> 9홀 추가 진행시 추가비용(현장 결제)\n\n- 주중 9홀 추가비용 (36홀 라운딩시) : 1인 JPY 3,500\n- 주말 9홀 추가비용 (36홀 라운딩시) : 1인 JPY 5,000",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "아소 스카이 블루 골프 클럽 (ASO SKY BLUE GOLF CLUB)"
+    "thumbCaption": "ASO SKY BLUE GOLF CLUB · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-1e9409fb560b",
     "title": "가고시마 다색골프 · 썬로얄 호텔 4일",
     "summary": "가고시마 다색골프 · 썬로얄 호텔 4일. 예정 코스: 치란 컨트리 클럽, 남국 컨트리 클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/74ab6e53217281df.webp",
+    "thumb": "/products/courses/d20e9e31a1be06a1.webp",
     "country": "일본",
     "area": "가고시마",
     "kind": "해외",
@@ -1042,20 +996,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/74ab6e53217281df.webp",
-      "/products/hanatour/details/3982a5bacf809a7a.webp",
-      "/products/hanatour/details/32b7e4abf269552f.webp",
-      "/products/hanatour/details/a5d9ffc6c7f49f45.webp",
-      "/products/hanatour/details/38946b7699bf9c7e.webp",
-      "/products/hanatour/details/eb896cc5aa159668.webp"
+      "/products/courses/d20e9e31a1be06a1.webp",
+      "/products/courses/31c2c94a47b2a20f.webp"
     ],
     "galleryCaptions": [
-      "치란cc",
-      "남국 컨트리 클럽 (NANGOKU COUNTRY CLUB)",
-      "Y3181162851",
-      "치란cc",
-      "남국 컨트리 클럽 (NANGOKU COUNTRY CLUB)",
-      "KAGOSHIMA SUN ROYAL HOTEL ,"
+      "CHIRAN COUNTRY CLUB · 예정 골프장 코스",
+      "CHIRAN COUNTRY CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "[부산출발]가고시마 골프 4일 #2색골프 #18홀*3회 #썬로얄호텔 #치란/남국CC #조식포함 #온천포함 #시내호텔 #2인출발가능(추가금발생)",
     "sourceFamilyDuration": "3·4일",
@@ -1063,13 +1009,14 @@
       "객실 1인 사용료 : 210,000원",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "치란cc"
+    "thumbCaption": "CHIRAN COUNTRY CLUB · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-f61f5a0b20b6",
     "title": "오이타·벳부 다색골프 · 야에자키 호텔 3일",
     "summary": "오이타·벳부 다색골프 · 야에자키 호텔 3일. 예정 코스: 벳부 골프 클럽, 벳부노모리 골프클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/5cb1cceb2f8f0d5d.webp",
+    "thumb": "/products/courses/740bb2987f211e0c.webp",
     "country": "일본",
     "area": "오이타·벳부",
     "kind": "해외",
@@ -1134,20 +1081,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/5cb1cceb2f8f0d5d.webp",
-      "/products/hanatour/details/8387252b3f9e3893.webp",
-      "/products/hanatour/details/5a5bb93bfd3e9b46.webp",
-      "/products/hanatour/details/74dc57db370d84ec.webp",
-      "/products/hanatour/details/63e8a46c283caa0b.webp",
-      "/products/hanatour/details/740bb2987f211e0c.webp"
+      "/products/courses/740bb2987f211e0c.webp",
+      "/products/courses/5cb1cceb2f8f0d5d.webp",
+      "/products/courses/81309f6c8ab746bf.webp"
     ],
     "galleryCaptions": [
-      "벳부 유후코스",
-      "벳부 노모리",
-      "오이타써니힐",
-      "벳부 오기야마",
-      "야에자키",
-      "벳부 유후코스"
+      "Beppu Golf Club · 예정 골프장 코스",
+      "Beppu Golf Club · 예정 골프장 코스",
+      "Beppu Golf Club · 예정 골프장 코스"
     ],
     "sourceHeading": "벳부 골프 3일 #다색골프 #18홀*2회 #벳부야에자키호텔 #벳부/오기야마/써니힐CC급 #조식포함 #시내호텔 #2인출발&2인라운드가능(추가비용)",
     "sourceFamilyDuration": "3·4일",
@@ -1155,13 +1096,14 @@
       "객실 1인 사용료 : 120,000원",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "벳부 유후코스"
+    "thumbCaption": "Beppu Golf Club · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-a358573bdc29",
     "title": "오키나와 카누차CC 골프리조트 4일",
     "summary": "오키나와 카누차CC 골프리조트 4일. 예정 코스: 카누챠 골프코스. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/69a193f1b39be681.webp",
+    "thumb": "/products/courses/8cad19e4e1a0f088.webp",
     "country": "일본",
     "area": "오키나와",
     "kind": "해외",
@@ -1229,20 +1171,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/69a193f1b39be681.webp",
-      "/products/hanatour/details/4e04f45062ca7625.webp",
-      "/products/hanatour/details/e20ddf449df0dcce.webp",
-      "/products/hanatour/details/31da2a886184e2af.webp",
-      "/products/hanatour/details/bf4f9f204ddc384d.webp",
-      "/products/hanatour/details/3a4cd1254039657f.webp"
+      "/products/courses/8cad19e4e1a0f088.webp",
+      "/products/courses/db5ea8c8b177a0ff.webp",
+      "/products/courses/45e988f519ec94e6.webp"
     ],
     "galleryCaptions": [
-      "오키나와 카누차 골프장",
-      "카누차 베이 호텔스 앤드 빌라스-호텔에서의 전망",
-      "오키나와 카누차 골프장",
-      "카누차 베이 호텔스 앤드 빌라스-해변",
-      "오키나와-카누챠_코스전경",
-      "카누차 베이 호텔스 앤드 빌라스-스탠다드룸 (Orchid)"
+      "KANUCHA GOLF COURSE · 예정 골프장 코스",
+      "KANUCHA GOLF COURSE · 예정 골프장 코스",
+      "KANUCHA GOLF COURSE · 예정 골프장 코스"
     ],
     "sourceHeading": "[부산출발] 오키나와 골프 4일 #골프리조트 #45홀 #카누차CC #카누차리조트 #조/석식포함 #2인출발가능(추가비용)",
     "sourceFamilyDuration": "4일",
@@ -1250,13 +1186,14 @@
       "객실 1인 사용료 : 540,000원",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "오키나와 카누차 골프장"
+    "thumbCaption": "KANUCHA GOLF COURSE · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-a2585b31f20e",
     "title": "시즈오카 후지산 조망 다색골프 4일",
     "summary": "시즈오카 후지산 조망 다색골프 4일. 예정 코스: 리버 후지 컨트리클럽, G8후지 컨트리클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/a1e27e72e21418ff.webp",
+    "thumb": "/products/courses/a1e27e72e21418ff.webp",
     "country": "일본",
     "area": "시즈오카",
     "kind": "해외",
@@ -1326,18 +1263,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/a1e27e72e21418ff.webp",
-      "/products/hanatour/details/d8a33c05eff1d3c2.webp",
-      "/products/hanatour/details/c947e502c8cf2886.webp",
-      "/products/hanatour/details/72e248f0965d5784.webp",
-      "/products/hanatour/details/2512d2a082f31dfa.webp"
+      "/products/courses/a1e27e72e21418ff.webp",
+      "/products/courses/7ec41fa95a3bf0a9.webp",
+      "/products/courses/48d76f86f144320b.webp"
     ],
     "galleryCaptions": [
-      "후지치산",
-      "리버후지(임시)",
-      "G8",
-      "후지로얄",
-      "니시무라"
+      "FUJICHISAN COUNTRY CLUB · 예정 골프장 코스",
+      "FUJICHISAN COUNTRY CLUB · 예정 골프장 코스",
+      "FUJICHISAN COUNTRY CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "[오후출발/후지클래식 추가가능] 시즈오카 골프 4일 #다색골프 #후지산조망골프장 #18홀X3회 #시내호텔 #조/중식포함 #2인출발가능 #한국인드라이버",
     "sourceFamilyDuration": "3·4일",
@@ -1346,13 +1279,14 @@
       "기타 :\n※ 27홀 희망 시 사전에 8시 전 티오프를 하여야하며, 가능 여부는 당일 골프장에서 판단합니다. ※ 상기 골프장 수배 불가 시에 동급의 다른 골프장으로 변경될 가능성이 있습니다. ※ 기상 및 골프장 상황에 따라 페어웨이 진입이 가능한 골프장도 있으며, 가능 시 골프장에서 현지 지불 조건입니다.\n※ 호텔, 골프장의 경우 수배 상황에 따라 동급의 다른 곳으로 배정될 수 있습니다.\n※ 6인의 경우 3B, 3B 플레이 기준(4B, 2B의 경우 2B할증있음)\n※차량은 타른손님과 동승될 수 있습니다.",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "후지치산"
+    "thumbCaption": "FUJICHISAN COUNTRY CLUB · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-ed11a374247a",
     "title": "고베 다색골프 · 시내 호텔 3일",
     "summary": "고베 다색골프 · 시내 호텔 3일. 예정 코스: 즈이엔 컨트리 클럽, 아크요카와GC. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/6fef967aa79c7dd9.webp",
+    "thumb": "/products/courses/6fef967aa79c7dd9.webp",
     "country": "일본",
     "area": "고베",
     "kind": "해외",
@@ -1416,18 +1350,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/6fef967aa79c7dd9.webp",
-      "/products/hanatour/details/9effe2320e61077d.webp",
-      "/products/hanatour/details/5cecd1d3954146c4.webp",
-      "/products/hanatour/details/733cae64c3dcd1b4.webp",
-      "/products/hanatour/details/8c7c1c171d3549c9.webp"
+      "/products/courses/6fef967aa79c7dd9.webp",
+      "/products/courses/c7f7a50e73e41632.webp",
+      "/products/courses/1290a5fcf18a75c6.webp"
     ],
     "galleryCaptions": [
-      "즈이엔CC",
-      "아크요카와cc",
-      "포레스트 미키골프클럽",
-      "효고고원CC",
-      "호텔 몬테 에르마나 고베 아마리-외부"
+      "Zuien Country Club · 예정 골프장 코스",
+      "Zuien Country Club · 예정 골프장 코스",
+      "Zuien Country Club · 예정 골프장 코스"
     ],
     "sourceHeading": "[스마트초이스][부산출발]고베 골프 3일 #다색골프 #18홀X2회 #즈이엔/아크 요카와CC 외 2곳 #고베시내호텔 #조식포함",
     "sourceFamilyDuration": "3·4일",
@@ -1435,13 +1365,14 @@
       "객실 1인 사용료 : 200,000원",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "즈이엔CC"
+    "thumbCaption": "Zuien Country Club · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-b49345d3e79e",
     "title": "고베 토조노모리CC · 루트인 호텔 4일",
     "summary": "고베 토조노모리CC · 루트인 호텔 4일. 예정 코스: 도조노모리 컨트리클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/5d566235b6be97be.webp",
+    "thumb": "/products/courses/cb868656cf2c3208.webp",
     "country": "일본",
     "area": "고베",
     "kind": "해외",
@@ -1508,18 +1439,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/5d566235b6be97be.webp",
-      "/products/hanatour/details/7628eba8c81491ea.webp",
-      "/products/hanatour/details/eb72039580ce33b4.webp",
-      "/products/hanatour/details/081f6baa9cff3b3c.webp",
-      "/products/hanatour/details/a3be449b9de6397c.webp"
+      "/products/courses/cb868656cf2c3208.webp",
+      "/products/courses/8954d813cf32114e.webp",
+      "/products/courses/cde3280df1656101.webp"
     ],
     "galleryCaptions": [
-      "TOJO NO MORI COUNTRY CLUB",
-      "루트인",
-      "TOJO NO MORI COUNTRY CLUB",
-      "루트인",
-      "루트인"
+      "TOJO NO MORI COUNTRY CLUB · 예정 골프장 코스",
+      "TOJO NO MORI COUNTRY CLUB · 예정 골프장 코스",
+      "TOJO NO MORI COUNTRY CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "[고베공항출입국] 고베 골프 4일 #총63홀 #토조노모리CC #루트인 호텔 #2023년 신축 #조식포함 #온천대욕장 #2인출발가능",
     "sourceFamilyDuration": "3·4일",
@@ -1527,13 +1454,14 @@
       "객실 1인 사용료 : 40,000원",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "TOJO NO MORI COUNTRY CLUB"
+    "thumbCaption": "TOJO NO MORI COUNTRY CLUB · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-4ec11ea9b80d",
     "title": "고베 다색골프 · 후루츠플라워 온천호텔 3일",
     "summary": "고베 다색골프 · 후루츠플라워 온천호텔 3일. 예정 코스: 기타고베 골프클럽, 오노 그랜드 컨트리 클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/c9310bd1c072ff2a.webp",
+    "thumb": "/products/courses/26bce4dc50c6375d.webp",
     "country": "일본",
     "area": "고베",
     "kind": "해외",
@@ -1597,20 +1525,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/c9310bd1c072ff2a.webp",
-      "/products/hanatour/details/0b1b5882f2fe5727.webp",
-      "/products/hanatour/details/c78f31d1b2456b0f.webp",
-      "/products/hanatour/details/0cbd675a6af89a88.webp",
-      "/products/hanatour/details/26bce4dc50c6375d.webp",
-      "/products/hanatour/details/640992de12ed9025.webp"
+      "/products/courses/26bce4dc50c6375d.webp",
+      "/products/courses/8f93521a2fd392f8.webp"
     ],
     "galleryCaptions": [
-      "기타고베GC",
-      "오노그랜드",
-      "기타롯코CC",
-      "후르츠플라워호텔",
-      "기타고베GC",
-      "오노그랜드"
+      "Kitakobe Golf Ground · 예정 골프장 코스",
+      "Kitakobe Golf Ground · 예정 골프장 코스"
     ],
     "sourceHeading": "[부산출발] 고베 골프 3일 #다색골프 #45홀 #오노그랜드/기타고베/기타롯코CC #아리마온천호텔 #조/석식포함 #특급온천",
     "sourceFamilyDuration": "3·4일",
@@ -1618,13 +1538,14 @@
       "객실 1인 사용료 : 130,000원",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "기타고베GC"
+    "thumbCaption": "Kitakobe Golf Ground · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-bf8f483a20b3",
     "title": "옌타이 군정CC 골프텔 3일",
     "summary": "옌타이 군정CC 골프텔 3일. 예정 코스: 봉래 군정 골프클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/3486e0149116b06e.webp",
+    "thumb": "/products/courses/3486e0149116b06e.webp",
     "country": "중국",
     "area": "옌타이",
     "kind": "해외",
@@ -1687,16 +1608,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/3486e0149116b06e.webp",
-      "/products/hanatour/details/cf6c7d8686c1f5a4.webp",
-      "/products/hanatour/details/2c369bbb4d6bd69c.webp",
-      "/products/hanatour/details/1e0e94f3809004c7.webp"
+      "/products/courses/3486e0149116b06e.webp",
+      "/products/courses/2c369bbb4d6bd69c.webp",
+      "/products/courses/6289b892706ba44f.webp"
     ],
     "galleryCaptions": [
-      "봉래 군정CC",
-      "봉래 화교호텔",
-      "봉래 군정CC",
-      "봉래화교호텔"
+      "JUNDING CHATEAU GOLF CLUB · 예정 골프장 코스",
+      "JUNDING CHATEAU GOLF CLUB · 예정 골프장 코스",
+      "JUNDING CHATEAU GOLF CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "[2인출발보장]옌타이 골프 3일 #골프연계호텔 #54홀 #봉래군정CC #봉래화교호텔 #와인증정 #중석패턴",
     "sourceFamilyDuration": "3·4일",
@@ -1705,13 +1624,14 @@
       "최소출발미달 : ◈2~3인 출발 시에는 추가 비용 발생하오니 별도 문의 바랍니다.\n\n기타 : ▶전동카 싱글차지 150위안\nㄴ18홀기준 : 2인승 1인 1카트 이용시 또는 4인승 3인 1카트 이용 시 싱글차지 발생\nㄴ3인 라운드시 전동카 싱글차지 발생",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "봉래 군정CC"
+    "thumbCaption": "JUNDING CHATEAU GOLF CLUB · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-749d185487f1",
     "title": "광저우 다색골프 · 조경·그랜드레이크CC 등 5일",
     "summary": "광저우 다색골프 · 조경·그랜드레이크CC 등 5일. 예정 코스: 광저우 조경 골프클럽, 그랜드레이크 골프클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/db9b2832e81bbe6a.webp",
+    "thumb": "/products/courses/db9b2832e81bbe6a.webp",
     "country": "중국",
     "area": "광저우",
     "kind": "해외",
@@ -1785,20 +1705,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/db9b2832e81bbe6a.webp",
-      "/products/hanatour/details/477f84abf2b88973.webp",
-      "/products/hanatour/details/b8fc648f4317a74b.webp",
-      "/products/hanatour/details/6e4dc41e132c46ed.webp",
-      "/products/hanatour/details/b0f9ce13952ee88e.webp",
-      "/products/hanatour/details/70484fcbff37ee83.webp"
+      "/products/courses/db9b2832e81bbe6a.webp",
+      "/products/courses/2572efed537d1665.webp",
+      "/products/courses/59c71fd600279147.webp"
     ],
     "galleryCaptions": [
-      "조경CC",
-      "그랜드레이크CC",
-      "남국도원CC",
-      "사자호3",
-      "홀리데이 인 익스프레스 포산 산수이 바이 IHG",
-      "윈덤 포산 난하이"
+      "ZHAOQING RESORT AND GOLF CLUB · 예정 골프장 코스",
+      "ZHAOQING RESORT AND GOLF CLUB · 예정 골프장 코스",
+      "ZHAOQING RESORT AND GOLF CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "[꽉찬일정]광저우 골프+관광 5일 #다색골프 #72홀 #조경or그랜드레이크/사자호or남국도원CC #4성급호텔 #조/중식포함 #팀당 고량주 1병",
     "sourceFamilyDuration": "5일",
@@ -1808,13 +1722,14 @@
       "최소출발미달 : ◈2~3인 출발 시에는 추가 비용 발생하오니 별도 문의 바랍니다.",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "조경CC"
+    "thumbCaption": "ZHAOQING RESORT AND GOLF CLUB · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-4c144ff01513",
     "title": "샤먼 다색골프 · 5성 호텔 4일",
     "summary": "샤먼 다색골프 · 5성 호텔 4일. 예정 코스: 하문 동방 골프클럽, 천주 골프클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/fa163fa488a9cb63.webp",
+    "thumb": "/products/courses/dfc9da2a7f16f4e4.webp",
     "country": "중국",
     "area": "샤먼",
     "kind": "해외",
@@ -1886,20 +1801,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/fa163fa488a9cb63.webp",
-      "/products/hanatour/details/8f77026fa017cab5.webp",
-      "/products/hanatour/details/5d512130de179070.webp",
-      "/products/hanatour/details/c43fc900f1a4305d.webp",
-      "/products/hanatour/details/61445b55da7efc2d.webp",
-      "/products/hanatour/details/0071837589370d97.webp"
+      "/products/courses/dfc9da2a7f16f4e4.webp",
+      "/products/courses/fa163fa488a9cb63.webp",
+      "/products/courses/f1ede32ac4ba882f.webp"
     ],
     "galleryCaptions": [
-      "동방CC",
-      "천주CC",
-      "남태무CC",
-      "큐리오 컬렉션 바이 힐튼 샤먼",
-      "하문 화럭스 호텔",
-      "동방CC"
+      "Orient Golf & Country Club · 예정 골프장 코스",
+      "Orient Golf & Country Club · 예정 골프장 코스",
+      "Orient Golf & Country Club · 예정 골프장 코스"
     ],
     "sourceHeading": "샤먼(하문) 골프&관광 4일 #다색골프 #18홀*3회 #동방/천주/남태무CC #5성급호텔 #캐디피/카트피포함 #핵심관광포함 #특전제공",
     "sourceFamilyDuration": "4·5일",
@@ -1909,13 +1818,14 @@
       "최소출발미달 : ①2인 또는 3인 라운드 진행시 추가비용 발생하오니 상담원 별도 문의 부탁드립니다.\n②4인 미만시 미팅/샌딩 추가비용 발생 하오니 상담원 별도 문의 부탁드립니다.",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "동방CC"
+    "thumbCaption": "Orient Golf & Country Club · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-46923e275b2e",
     "title": "웨이하이 천익·호당가CC 골프 4일",
     "summary": "웨이하이 천익·호당가CC 골프 4일. 예정 코스: 호당가 골프 클럽, 천익 골프클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/4d96389eba8ee8dc.webp",
+    "thumb": "/products/courses/4d96389eba8ee8dc.webp",
     "country": "중국",
     "area": "웨이하이",
     "kind": "해외",
@@ -1984,20 +1894,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/4d96389eba8ee8dc.webp",
-      "/products/hanatour/details/418765d27cd65bcb.webp",
-      "/products/hanatour/details/ebc783f4cc6cdb6c.webp",
-      "/products/hanatour/details/8d4cffeea406ade8.webp",
-      "/products/hanatour/details/b7c4427fa61acfc8.webp",
-      "/products/hanatour/details/53664ac334309edc.webp"
+      "/products/courses/4d96389eba8ee8dc.webp",
+      "/products/courses/8d4cffeea406ade8.webp",
+      "/products/courses/25abfe452ea611c1.webp"
     ],
     "galleryCaptions": [
-      "위해 천익 골프장",
-      "호당가CC",
-      "위해영성햄프턴바이힐튼호텔",
-      "위해 천익 골프장",
-      "위해_ 호당가 G.C.",
-      "위해영성햄프턴바이힐튼호텔"
+      "Tianyi Golf Club · 예정 골프장 코스",
+      "Tianyi Golf Club · 예정 골프장 코스",
+      "Tianyi Golf Club · 예정 골프장 코스"
     ],
     "sourceHeading": "웨이하이 골프 4일 #다색골프 #54홀 #천익/천익/호당가CC #햄프턴바이힐튼호텔 #가성비우수 #조조패턴",
     "sourceFamilyDuration": "4일",
@@ -2006,13 +1910,14 @@
       "최소출발미달 : ◈2~3인 출발 시에는 추가 비용 발생하오니 별도 문의 바랍니다.\n\n기타 : ▶전동카 싱글차지 150위안\nㄴ18홀기준 : 2인승 1인 1카트 이용시 또는 4인승 3인 1카트 이용 시 싱글차지 발생\nㄴ3인 라운드시 전동카 싱글차지 발생",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "위해 천익 골프장"
+    "thumbCaption": "Tianyi Golf Club · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-113dba734e28",
     "title": "하이난 미션힐스CC 골프 5일",
     "summary": "하이난 미션힐스CC 골프 5일. 예정 코스: 미션힐스 하이커우 C.C. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/e605e3afcdba1ecb.webp",
+    "thumb": "/products/courses/e605e3afcdba1ecb.webp",
     "country": "중국",
     "area": "하이난",
     "kind": "해외",
@@ -2084,20 +1989,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/e605e3afcdba1ecb.webp",
-      "/products/hanatour/details/24e1b30f364ac3e5.webp",
-      "/products/hanatour/details/003cef7bffc5283a.webp",
-      "/products/hanatour/details/bf9ce63aa626613b.webp",
-      "/products/hanatour/details/a813fb65a2868f0e.webp",
-      "/products/hanatour/details/0485092665f71621.webp"
+      "/products/courses/e605e3afcdba1ecb.webp",
+      "/products/courses/003cef7bffc5283a.webp",
+      "/products/courses/a813fb65a2868f0e.webp"
     ],
     "galleryCaptions": [
-      "미션힐스(Misson Hills)",
-      "홀리데이 인 익스프레스 하이커우",
-      "미션힐스(Mission Hills)",
-      "홀리데이 인 익스프레스 하이커우",
-      "미션힐스(Mission Hills)",
-      "홀리데이 인 익스프레스 하이커우 월드 트레이드 센터 바이 IHG"
+      "Mission Hills Golf Club Haikou · 예정 골프장 코스",
+      "Mission Hills Golf Club Haikou · 예정 골프장 코스",
+      "Mission Hills Golf Club Haikou · 예정 골프장 코스"
     ],
     "sourceHeading": "하이난(해구) 골프 5일 #골프연계호텔 #72홀 #미션힐스CC #남코스 #4성급호텔 #조/석식포함",
     "sourceFamilyDuration": "4·5일",
@@ -2107,13 +2006,14 @@
       "최소출발미달 : ▶미션힐스 골프장의 규정은 4인 1조 라운드로, 2인 예약시 다른 손님과 조인 될 수 있습니다.\n\n①골프장은 기본적으로 4인 1조로 플레이가 진행됩니다.\n②2인 ~ 3인이 예약하신 경우 부족한 인원에 대해서는 합류 플레이가 진행 될 수 있습니다.\n③워크인 손님이 합류하시는 경우 언어에 따른 불편함이 발생될 수 있음을 사전에 고지 드립니다.\n④2~3인 출발 시에는 추가 비용 별도 문의 부탁드립니다.\n\n◆ 기가팁(=미샌딩 비용)의경우, 2인~3인에 따른 비용이 추가될 수 있습니다.",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "미션힐스(Misson Hills)"
+    "thumbCaption": "Mission Hills Golf Club Haikou · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-387bb1416e0e",
     "title": "하이난 고염전CC 골프 5일",
     "summary": "하이난 고염전CC 골프 5일. 예정 코스: 하이난 고염전 골프클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/ebd1122b726589fd.webp",
+    "thumb": "/products/courses/294a248323325231.webp",
     "country": "중국",
     "area": "하이난",
     "kind": "해외",
@@ -2184,16 +2084,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/ebd1122b726589fd.webp",
-      "/products/hanatour/details/524b0ea973d488bc.webp",
-      "/products/hanatour/details/34d341e423955f54.webp",
-      "/products/hanatour/details/225662f770c1d795.webp"
+      "/products/courses/294a248323325231.webp",
+      "/products/courses/ebd1122b726589fd.webp",
+      "/products/courses/34d341e423955f54.webp"
     ],
     "galleryCaptions": [
-      "고염전CC",
-      "하이커우 미란 국제공항 호텔",
-      "고염전CC",
-      "하이커우 미란 국제공항 호텔"
+      "HAINAN ANCIENT SALTERN GOLF CLUB (Guyantian Golf Club) · 예정 골프장 코스",
+      "HAINAN ANCIENT SALTERN GOLF CLUB (Guyantian Golf Club) · 예정 골프장 코스",
+      "HAINAN ANCIENT SALTERN GOLF CLUB (Guyantian Golf Club) · 예정 골프장 코스"
     ],
     "sourceHeading": "[항공팩]하이난(해구) 골프 5일 #골프연계호텔 #고염전CC #99홀 #고염전 밸리호텔 #세탁서비스포함 #캐디피+카트피+미샌딩비 포함 #2인예약가능",
     "sourceFamilyDuration": "4·5일",
@@ -2203,13 +2101,14 @@
       "최소출발미달 : ▶골프장의 규정은 4인 1조 라운드로, 2인 예약시 다른 손님과 조인 될 수 있습니다.\n\n①골프장은 기본적으로 4인 1조로 플레이가 진행됩니다.\n②2인 ~ 3인이 예약하신 경우 부족한 인원에 대해서는 합류 플레이가 진행 될 수 있습니다.\n③워크인 손님이 합류하시는 경우 언어에 따른 불편함이 발생될 수 있음을 사전에 고지 드립니다.\n④2~3인 출발 시에는 추가 비용 별도 문의 부탁드립니다.\n\n◆ 기가팁(=미샌딩 비용)의경우, 2인~3인에 따른 비용이 추가될 수 있습니다.",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "고염전CC"
+    "thumbCaption": "HAINAN ANCIENT SALTERN GOLF CLUB (Guyantian Golf Club) · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-a2883955afa4",
     "title": "칭다오 캐슬렉스·영해·화산CC 다색골프 3일",
     "summary": "칭다오 캐슬렉스·영해·화산CC 다색골프 3일. 예정 코스: 링하이 핫 스프링 골프 클럽 (영해), 화산 골프 클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/7fd6aaf962c7ded7.webp",
+    "thumb": "/products/courses/7fd6aaf962c7ded7.webp",
     "country": "중국",
     "area": "칭다오",
     "kind": "해외",
@@ -2274,20 +2173,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/7fd6aaf962c7ded7.webp",
-      "/products/hanatour/details/b3ade0a385cc55a9.webp",
-      "/products/hanatour/details/a7a402b8061eb468.webp",
-      "/products/hanatour/details/be61b41b83cc7bef.webp",
-      "/products/hanatour/details/5aa448c638910563.webp",
-      "/products/hanatour/details/2ae7aa3bde5d9a5e.webp"
+      "/products/courses/7fd6aaf962c7ded7.webp",
+      "/products/courses/2671a23880902925.webp",
+      "/products/courses/382828ee3b1ea126.webp"
     ],
     "galleryCaptions": [
-      "영해CC",
-      "화산CC",
-      "캐슬렉스CC",
-      "GLORIA PLAZA HOTEL QINGDAO",
-      "영해 골프장",
-      "화산CC"
+      "Linghai Hot Spring Golf Club · 예정 골프장 코스",
+      "Linghai Hot Spring Golf Club · 예정 골프장 코스",
+      "Linghai Hot Spring Golf Club · 예정 골프장 코스"
     ],
     "sourceHeading": "칭다오 골프 3일 #다색골프 #18홀*2회 #캐슬렉스/영해(또는 화산)CC #준특급호텔 #조/석식포함 #가성비골프 #조조패턴",
     "sourceFamilyDuration": "3·4·5일",
@@ -2297,13 +2190,14 @@
       "최소출발미달 : 2~3인 출발 시에는 추가 비용 별도 문의\n\n※ 2인 출발 시 라운드 현지 조인 조건인 관계로 06시대 이른 티옵 시간이 배정될 수 있습니다.\n(이 경우 조식은 도시락으로 대체됩니다.)",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "영해CC"
+    "thumbCaption": "Linghai Hot Spring Golf Club · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-b1557629f0e5",
     "title": "다낭 다색골프와 관광 · 한국인 가이드 5일",
     "summary": "다낭 다색골프와 관광 · 한국인 가이드 5일. 예정 코스: 몽고메리 링크스, 빈펄 골프 남호이안. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/b7ce63edba5e97ad.webp",
+    "thumb": "/products/courses/7b0ab431a53a6560.webp",
     "country": "베트남",
     "area": "다낭",
     "kind": "해외",
@@ -2379,20 +2273,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/b7ce63edba5e97ad.webp",
-      "/products/hanatour/details/a1393a58f7d92cff.webp",
-      "/products/hanatour/details/1717bb4be9aef00b.webp",
-      "/products/hanatour/details/fd0bcb74e7819da3.webp",
-      "/products/hanatour/details/6b348faa84607a7c.webp",
-      "/products/hanatour/details/c7a693cb38b6d9cb.webp"
+      "/products/courses/7b0ab431a53a6560.webp",
+      "/products/courses/b1f7811d1069d867.webp"
     ],
     "galleryCaptions": [
-      "바나힐골프장",
-      "골든샌",
-      "라구나CC",
-      "빈펄 남호이안",
-      "무엉탄 다낭 호텔",
-      "바나힐골프장"
+      "Ba Na Hills Golf CLub · 예정 골프장 코스",
+      "Ba Na Hills Golf CLub · 예정 골프장 코스"
     ],
     "sourceHeading": "[5大특전] 다낭 골프+관광 5일 #다색골프 #18홀*3회 #골든샌즈/빈펄/몽고메리GC 외 #4성호텔 #한국인가이드",
     "sourceFamilyDuration": "5·6일",
@@ -2402,13 +2288,14 @@
       "최소출발미달 : 3인 출발시 최소출발인원 미달로 인하여 3박5일 일정시 8만원/인, 4박6일 일정시 12만원/인 추가됩니다.\n※ 객실은 트리플룸 (엑베추가) 사용 기준이며, 싱글룸 사용시 싱글룸차지 별도 추가됩니다.\n※ 2인 출발은 불가하며, 홀 수 인원 라운드시 싱글카트비용 별도 추가됩니다.",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "바나힐골프장"
+    "thumbCaption": "Ba Na Hills Golf CLub · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-912f5b4e8824",
     "title": "나트랑 다색골프 · 하바나 호텔 5일",
     "summary": "나트랑 다색골프 · 하바나 호텔 5일. 예정 코스: 다이아몬드베이 골프클럽, KN골프 깜란. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/409799150f42b73c.webp",
+    "thumb": "/products/courses/fa91b28c8f078d65.webp",
     "country": "베트남",
     "area": "나트랑",
     "kind": "해외",
@@ -2481,20 +2368,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/409799150f42b73c.webp",
-      "/products/hanatour/details/343b7535748dd4b3.webp",
-      "/products/hanatour/details/e07274afab854d8e.webp",
-      "/products/hanatour/details/d848b94003e48d42.webp",
-      "/products/hanatour/details/570d098da6e252d2.webp",
-      "/products/hanatour/details/190fbdfb19678ee4.webp"
+      "/products/courses/fa91b28c8f078d65.webp",
+      "/products/courses/409799150f42b73c.webp"
     ],
     "galleryCaptions": [
-      "Diamond Bay Golf Club",
-      "KN GOLF LINKS CAM RANH",
-      "빈펄 골프클럽",
-      "PREMIER HAVANA NHA TRANG HOTEL_호텔",
-      "Diamond Bay Golf Club",
-      "KN GOLF LINKS CAM RANH"
+      "Diamond Bay Golf Club · 예정 골프장 코스",
+      "Diamond Bay Golf Club · 예정 골프장 코스"
     ],
     "sourceHeading": "[청주출발] 나트랑 골프 5일 #다색골프 #다이아몬드베이/KN깜란/빈펄CC #18홀*3회 #하바나호텔(비치앞5성) #No가이드",
     "sourceFamilyDuration": "5·6일",
@@ -2502,13 +2381,14 @@
       "객실 1인 사용료 : 210,000원",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "Diamond Bay Golf Club"
+    "thumbCaption": "Diamond Bay Golf Club · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-2ca11e342bc8",
     "title": "클락 로얄센트럴CC · 한인타운 호텔 5일",
     "summary": "클락 로얄센트럴CC · 한인타운 호텔 5일. 예정 코스: 로얄 센트럴 CC 골프 클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/653ce0d0d5a90e62.webp",
+    "thumb": "/products/courses/653ce0d0d5a90e62.webp",
     "country": "필리핀",
     "area": "클락",
     "kind": "해외",
@@ -2581,20 +2461,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/653ce0d0d5a90e62.webp",
-      "/products/hanatour/details/22f60a9e5fea4678.webp",
-      "/products/hanatour/details/cd984c10802f433c.webp",
-      "/products/hanatour/details/f26f632196a20ea6.webp",
-      "/products/hanatour/details/d2a37a878c83bf95.webp",
-      "/products/hanatour/details/5e1eb819c205d3f0.webp"
+      "/products/courses/653ce0d0d5a90e62.webp",
+      "/products/courses/cd984c10802f433c.webp",
+      "/products/courses/37f3caf0e15cfe7c.webp"
     ],
     "galleryCaptions": [
-      "로얄센트럴",
-      "앙헬레스 한인타운 호텔",
-      "로얄센트럴CC",
-      "앙헬라스 한인타운",
-      "로얄센트럴",
-      "앙헬레스 한인타운 호텔"
+      "Royal Central CC · 예정 골프장 코스",
+      "Royal Central CC · 예정 골프장 코스",
+      "Royal Central CC · 예정 골프장 코스"
     ],
     "sourceHeading": "[청주출발]★하나투어단독★[신규골프텔]클락 골프 5일 #골프텔 #36홀*3회 #한인타운호텔 #로얄센트럴CC #시내 골프장 #시내 호텔 #2인출발가능#조석식포함 #18시 레이트체크아웃 단독특전",
     "sourceFamilyDuration": "5·6일",
@@ -2603,13 +2477,14 @@
       "전동카 : 홀수 인원 예약으로 싱글카트 발생 시, 싱글카트 비용이 발생됩니다, ( 18홀 기준 1인 $25/27홀 기준 1인 $40), 캐디피 : ※ 11월 ~3월, 현지 국경일 또는 골프장 사정에 의하여 1인 1캐디가아닌 2인 1캐디가 배정될 수 있습니다.\n이는 골프장 고유 권한으로 동일한 캐디비용이 청구되는점 사전에 미리 안내 드립니다.",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "로얄센트럴"
+    "thumbCaption": "Royal Central CC · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-cbc60807bbf4",
     "title": "코타키나발루 보르네오CC 골프텔 6일",
     "summary": "코타키나발루 보르네오CC 골프텔 6일. 예정 코스: 보르네오 골프 클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/09528dfef4f5d400.webp",
+    "thumb": "/products/courses/de8b7fd5dfb6662d.webp",
     "country": "말레이시아",
     "area": "코타키나발루",
     "kind": "해외",
@@ -2686,18 +2561,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/09528dfef4f5d400.webp",
-      "/products/hanatour/details/9beaaeedc1907c37.webp",
-      "/products/hanatour/details/bd524682c4345a56.webp",
-      "/products/hanatour/details/a8aadc1317bb9a77.webp",
-      "/products/hanatour/details/a7d93987d83783dc.webp"
+      "/products/courses/de8b7fd5dfb6662d.webp",
+      "/products/courses/a8aadc1317bb9a77.webp"
     ],
     "galleryCaptions": [
-      "BORNEO GOLF & COUNTRY CLUB-외관",
-      "보르네오 골프 & 컨트리 클럽",
-      "BORNEO GOLF & COUNTRY CLUB - 야외수영장",
-      "보르네오 골프 & 컨트리 클럽",
-      "BORNEO GOLF & COUNTRY CLUB-수영장"
+      "보르네오 골프 & 컨트리 클럽 · 예정 골프장 코스",
+      "보르네오 골프 & 컨트리 클럽 · 예정 골프장 코스"
     ],
     "sourceHeading": "[베스트셀러]코타키나발루 골프 6일 #골프텔 #36홀*4회 #보르네오 리조트 #보르네오CC #전일정식사포함 #레이트체크아웃",
     "sourceFamilyDuration": "5·6일",
@@ -2707,14 +2576,15 @@
       "기타 : 말레이시아 공휴일에는 주말라운딩 비용이 추가 적용 됩니다.(예약 전 별도 체크)",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "BORNEO GOLF & COUNTRY CLUB-외관",
+    "thumbCaption": "보르네오 골프 & 컨트리 클럽 · 예정 골프장 코스",
+    "photoPending": false,
     "quoteNotice": "공급사 원상품은 현지 합류 불가로 안내되어 있습니다. 항공 제외 구성 가능 여부를 먼저 확인하고, 어려운 경우 대체 상품을 안내합니다."
   },
   {
     "slug": "hana-bf3c78d5f18c",
     "title": "파타야 시암·세인트앤드류스CC · 5성 호텔 5일",
     "summary": "파타야 시암·세인트앤드류스CC · 5성 호텔 5일. 예정 코스: 시암 컨트리 클럽, 세인트앤드류 2000. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/6abf8dce6f127b7b.webp",
+    "thumb": "/products/courses/6abf8dce6f127b7b.webp",
     "country": "태국",
     "area": "파타야",
     "kind": "해외",
@@ -2788,20 +2658,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/6abf8dce6f127b7b.webp",
-      "/products/hanatour/details/9bcd734668f7aa29.webp",
-      "/products/hanatour/details/bb0e1e58fd5834d9.webp",
-      "/products/hanatour/details/a43057c85bb82023.webp",
-      "/products/hanatour/details/a8317584d17c887c.webp",
-      "/products/hanatour/details/de6c44d9fdc911b5.webp"
+      "/products/courses/6abf8dce6f127b7b.webp",
+      "/products/courses/de6c44d9fdc911b5.webp"
     ],
     "galleryCaptions": [
-      "실키오크CC(SILKY OAK)",
-      "시암 뉴코스3",
-      "세인트 앤드류 2000 -1",
-      "RAYONG GREEN VALLEY COUNTRY CLUB",
-      "브라이튼 그랜드 호텔",
-      "실키오크CC(SILKY OAK)"
+      "SILKY OAK COUNTRY CLUB · 예정 골프장 코스",
+      "SILKY OAK COUNTRY CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "파타야 골프 5일 #다색골프 #18홀*3회 #No.1 시암 + 세인트앤드류스CC #시내호텔 #2인출발",
     "sourceFamilyDuration": "5·6일",
@@ -2809,13 +2671,14 @@
       "객실 1인 사용료 : 210,000원",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "실키오크CC(SILKY OAK)"
+    "thumbCaption": "SILKY OAK COUNTRY CLUB · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-be0bb02b8171",
     "title": "파타야 세인트앤드류스CC 다색골프 · 4성 호텔 5일",
     "summary": "파타야 세인트앤드류스CC 다색골프 · 4성 호텔 5일. 예정 코스: 실키오크 컨트리 클럽, 세인트앤드류 2000. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/02aadf039bc496e2.webp",
+    "thumb": "/products/courses/cc684e7e1bd32d8c.webp",
     "country": "태국",
     "area": "파타야",
     "kind": "해외",
@@ -2888,20 +2751,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/02aadf039bc496e2.webp",
-      "/products/hanatour/details/a43057c85bb82023.webp",
-      "/products/hanatour/details/6abf8dce6f127b7b.webp",
-      "/products/hanatour/details/e17d54ad219c9ab3.webp",
-      "/products/hanatour/details/d61e4ffa6ea01712.webp",
-      "/products/hanatour/details/9726494c0e42672d.webp"
+      "/products/courses/cc684e7e1bd32d8c.webp",
+      "/products/courses/bb0e1e58fd5834d9.webp"
     ],
     "galleryCaptions": [
-      "St. ANDREWS 2000",
-      "RAYONG GREEN VALLEY COUNTRY CLUB",
-      "실키오크CC(SILKY OAK)",
-      "T Pattaya Hotel",
-      "St. ANDREWS 2000",
-      "RAYONG GREEN VALLEY COUNTRY CLUB"
+      "St. ANDREWS 2000 · 예정 골프장 코스",
+      "St. ANDREWS 2000 · 예정 골프장 코스"
     ],
     "sourceHeading": "파타야 골프 5일 #다색골프 #18홀*3회 #세인트앤드류스CC외 2곳 #2인출발 #시내호텔 #전일정중식포함",
     "sourceFamilyDuration": "5·6일",
@@ -2909,13 +2764,14 @@
       "객실 1인 사용료 : 150,000원",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "St. ANDREWS 2000"
+    "thumbCaption": "St. ANDREWS 2000 · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-7a170301d0df",
     "title": "치앙마이 가산쿤탄CC 골프텔 5일",
     "summary": "치앙마이 가산쿤탄CC 골프텔 5일. 예정 코스: 치앙마이 가산 쿤탄 골프 & 리조트. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/c6651b690807e764.webp",
+    "thumb": "/products/courses/858b9fb0d42f4801.webp",
     "country": "태국",
     "area": "치앙마이",
     "kind": "해외",
@@ -2986,14 +2842,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/c6651b690807e764.webp",
-      "/products/hanatour/details/605c0c5fe638fc89.webp",
-      "/products/hanatour/details/e0214e8d1c1acc45.webp"
+      "/products/courses/858b9fb0d42f4801.webp",
+      "/products/courses/4ce7f98d28baa239.webp"
     ],
     "galleryCaptions": [
-      "GASSAN KHUNTAN GOLF&RESORT",
-      "쿤탄",
-      "GASSAN KHUNTAN GOLF&RESORT-외관"
+      "GASSAN KHUNTAN GOLF & RESORT · 예정 골프장 코스",
+      "GASSAN KHUNTAN GOLF & RESORT · 예정 골프장 코스"
     ],
     "sourceHeading": "[홈쇼핑에디션]치앙마이 골프 5일 #가산쿤탄CC#90홀라운드#신관룸 #보쌍우산마을관광 #조/중/석포함 #90분마사지포함",
     "sourceFamilyDuration": "5일",
@@ -3001,13 +2855,14 @@
       "객실 1인 사용료 : 150,000원",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "GASSAN KHUNTAN GOLF&RESORT"
+    "thumbCaption": "GASSAN KHUNTAN GOLF & RESORT · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-1fd1908f2873",
     "title": "하노이·하롱베이 FLC 다색골프 · 5성 호텔 5일",
     "summary": "하노이·하롱베이 FLC 다색골프 · 5성 호텔 5일. 예정 코스: FLC 하롱베이 골프장, 드래곤 골프링크스 (하이퐁 드래곤CC). 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/eec097b584913247.webp",
+    "thumb": "/products/courses/e635c7d1012f952a.webp",
     "country": "베트남",
     "area": "하노이·하롱베이",
     "kind": "해외",
@@ -3081,18 +2936,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/eec097b584913247.webp",
-      "/products/hanatour/details/b6069cf62e298f6d.webp",
-      "/products/hanatour/details/9c741c0a2de815c9.webp",
-      "/products/hanatour/details/f7bb1de1d1b64790.webp",
-      "/products/hanatour/details/e635c7d1012f952a.webp"
+      "/products/courses/e635c7d1012f952a.webp",
+      "/products/courses/2e28e052edc2ea3b.webp",
+      "/products/courses/c7049669ff173dd4.webp"
     ],
     "galleryCaptions": [
-      "FLC 하롱 베이 골프 클럽 & 럭셔리 리조트-디럭스 더블룸, 골프장 전망",
-      "FLC 골프장",
-      "뚜언쩌우 뚜언저우 골프장",
-      "FLC 하롱 베이 골프 클럽 & 럭셔리 리조트-디럭스룸, 베이 전망 (Premium)",
-      "FLC골프장"
+      "FLC HALONGBAY GOLF CLUB · 예정 골프장 코스",
+      "FLC HALONGBAY GOLF CLUB · 예정 골프장 코스",
+      "FLC HALONGBAY GOLF CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "하노이/하롱베이 골프 5일 #골프리조트 #18홀*3회 #FLC하롱GC #외부라운드1회 & 호텔석식1회 무료 #선착순 룸업글 & 레잇체크아웃",
     "sourceFamilyDuration": "5일",
@@ -3101,13 +2952,14 @@
       "렌탈비 : 가격문의 (1인 18홀 클럽렌탈 기준/사전 요청 조건(상품 담당자와 금액 확인 필요))",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "FLC 하롱 베이 골프 클럽 & 럭셔리 리조트-디럭스 더블룸, 골프장 전망"
+    "thumbCaption": "FLC HALONGBAY GOLF CLUB · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-7842baa0a472",
     "title": "비엔티안 롱비엔·레이크뷰CC · 월드체인 5성 호텔 5일",
     "summary": "비엔티안 롱비엔·레이크뷰CC · 월드체인 5성 호텔 5일. 예정 코스: 부영 씨게임즈 골프 클럽, 롱비엔 골프클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/38c195b7560255d9.webp",
+    "thumb": "/products/courses/a70b7cba0f7adc14.webp",
     "country": "라오스",
     "area": "비엔티안",
     "kind": "해외",
@@ -3182,14 +3034,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/38c195b7560255d9.webp",
-      "/products/hanatour/details/ad99b62c6ab40013.webp",
-      "/products/hanatour/details/a70b7cba0f7adc14.webp"
+      "/products/courses/a70b7cba0f7adc14.webp",
+      "/products/courses/38c195b7560255d9.webp",
+      "/products/courses/24bf6b3a7b4f544b.webp"
     ],
     "galleryCaptions": [
-      "라오스 롱비엔 G.C",
-      "레이크뷰GC",
-      "롱비엔 골프장 LONGVIEN/ LONG VIEN / 롱비엔 GC 롱비엔 CC 라오스 골프"
+      "LONGVIEN GOLF CLUB · 예정 골프장 코스",
+      "LONGVIEN GOLF CLUB · 예정 골프장 코스",
+      "LONGVIEN GOLF CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "[월드체인★5성호텔] 비엔티안 골프 5일 #다색골프 #18홀*3회 #롱비엔CC외 #아마리호텔급 #시내관광 #4大특전",
     "sourceFamilyDuration": "5일",
@@ -3198,13 +3050,14 @@
       "렌탈비 : 가격문의 (클럽렌탈비, 슈즈 렌탈비-사전 요청 조건)",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "라오스 롱비엔 G.C"
+    "thumbCaption": "LONGVIEN GOLF CLUB · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-28e8915e4795",
     "title": "치앙마이 가산레가시 다색골프 · 4성 호텔 5일",
     "summary": "치앙마이 가산레가시 다색골프 · 4성 호텔 5일. 예정 코스: 치앙마이 가산 레가시 골프 클럽, 가산 파노라마 골프클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/452775dc93e0277d.webp",
+    "thumb": "/products/courses/452775dc93e0277d.webp",
     "country": "태국",
     "area": "치앙마이",
     "kind": "해외",
@@ -3280,20 +3133,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/452775dc93e0277d.webp",
-      "/products/hanatour/details/d1288e8a111c6884.webp",
-      "/products/hanatour/details/e43ef8281f598539.webp",
-      "/products/hanatour/details/edf047c52c2adfcf.webp",
-      "/products/hanatour/details/cf4fbac2119ef8b2.webp",
-      "/products/hanatour/details/a6a086ee9cb4b540.webp"
+      "/products/courses/452775dc93e0277d.webp",
+      "/products/courses/e43ef8281f598539.webp"
     ],
     "galleryCaptions": [
-      "NORTH HILL GOLF CLUB",
-      "파노라마 신규사진",
-      "NORTH HILL GOLF CLUB",
-      "파노라마 신규사진",
-      "NORTH HILL GOLF CLUB",
-      "가산 파노라마 Gassan Panorama"
+      "NORTH HILL GOLF CLUB · 예정 골프장 코스",
+      "NORTH HILL GOLF CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "[스마트 초이스/가성비]치앙마이 골프 5일 #다색골프 #18홀*3회#파노라마CC,레가시CC,노스힐OR메조 #4성급 호텔",
     "sourceFamilyDuration": "5·6일",
@@ -3301,13 +3146,14 @@
       "객실 1인 사용료 : 100,000원",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "NORTH HILL GOLF CLUB"
+    "thumbCaption": "NORTH HILL GOLF CLUB · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-70b8c3a64fb7",
     "title": "치앙마이 알파인 다색골프 · 5성 호텔 5일",
     "summary": "치앙마이 알파인 다색골프 · 5성 호텔 5일. 예정 코스: 치앙마이 가산 레가시 골프 클럽, 가산 파노라마 골프클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/3fe881c6b1476e3a.webp",
+    "thumb": "/products/courses/8f0e4ce1e2a6f7e6.webp",
     "country": "태국",
     "area": "치앙마이",
     "kind": "해외",
@@ -3383,18 +3229,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/3fe881c6b1476e3a.webp",
-      "/products/hanatour/details/d1288e8a111c6884.webp",
-      "/products/hanatour/details/046aacea4cc84982.webp",
-      "/products/hanatour/details/160ddec9627b9c14.webp",
-      "/products/hanatour/details/69e577d9aef28d81.webp"
+      "/products/courses/8f0e4ce1e2a6f7e6.webp",
+      "/products/courses/8517715d30cd9d35.webp"
     ],
     "galleryCaptions": [
-      "RATILANNA RIVERSIDE SPA RESORT",
-      "파노라마 신규사진",
-      "샹그릴라이그제큐티브스윗",
-      "LE MERIDIEN 르메르디앙 호텔 르 메르디앙 Le Méridien Chiang Mai",
-      "라티란나_빌딩"
+      "ALPINE C.C · 예정 골프장 코스",
+      "ALPINE C.C · 예정 골프장 코스"
     ],
     "sourceHeading": "[스마트 초이스]치앙마이 골프 5일 #다색골프 #18홀*3회#알파인, 레가시외 # 샹그릴라, 멜리아,라티란나,메리어트 호텔",
     "sourceFamilyDuration": "5·6일",
@@ -3402,13 +3242,14 @@
       "객실 1인 사용료 : 440,000원",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "RATILANNA RIVERSIDE SPA RESORT"
+    "thumbCaption": "ALPINE C.C · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-6ed8e6e7dcaf",
     "title": "바탐 팜스프링스CC · 바탐뷰 리조트 5일",
     "summary": "바탐 팜스프링스CC · 바탐뷰 리조트 5일. 예정 코스: 바탐 팜스프링 골프장. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/06c3f077369f297b.webp",
+    "thumb": "/products/courses/c94e5bb3557eec9a.webp",
     "country": "인도네시아",
     "area": "바탐",
     "kind": "해외",
@@ -3479,20 +3320,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/06c3f077369f297b.webp",
-      "/products/hanatour/details/c94e5bb3557eec9a.webp",
-      "/products/hanatour/details/f60095c923e5ada0.webp",
-      "/products/hanatour/details/959e7e335ff82601.webp",
-      "/products/hanatour/details/c696c1e067123439.webp",
-      "/products/hanatour/details/0f341435c3fdd82d.webp"
+      "/products/courses/c94e5bb3557eec9a.webp",
+      "/products/courses/0f341435c3fdd82d.webp"
     ],
     "galleryCaptions": [
-      "바탐뷰리조트",
-      "팜스프링",
-      "바탐뷰리조트",
-      "팜스프링",
-      "바탐뷰리조트",
-      "팜스프링"
+      "Palm Springs Golf & Beach Resort · 예정 골프장 코스",
+      "Palm Springs Golf & Beach Resort · 예정 골프장 코스"
     ],
     "sourceHeading": "바탐 골프 5일 #골프텔 #18홀X3회 #팜스프링스CC #바탐뷰리조트 #전식포함 #2인출발가능",
     "sourceFamilyDuration": "5·6일",
@@ -3501,13 +3334,14 @@
       "추가라운드 그린피 :\n주중 : 18홀 USD 40 (카트,캐디피,팁 별도)\n주말 : 18홀 USD 55 (카트,캐디피,팁 별도)",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "바탐뷰리조트"
+    "thumbCaption": "Palm Springs Golf & Beach Resort · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-7ad5e0d28261",
     "title": "바탐 다색골프 · 5성 호텔 5일",
     "summary": "바탐 다색골프 · 5성 호텔 5일. 예정 코스: 빠당 수카자디, 바탐 사우스링크 컨트리클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/d449663f771098e7.webp",
+    "thumb": "/products/courses/f80949143b701025.webp",
     "country": "인도네시아",
     "area": "바탐",
     "kind": "해외",
@@ -3581,20 +3415,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/d449663f771098e7.webp",
-      "/products/hanatour/details/73e053a363814583.webp",
-      "/products/hanatour/details/904974c705d1c536.webp",
-      "/products/hanatour/details/3cbe6be066b4706c.webp",
-      "/products/hanatour/details/075ea444ea597df2.webp",
-      "/products/hanatour/details/c897ac6fb1bfcbfa.webp"
+      "/products/courses/f80949143b701025.webp",
+      "/products/courses/96cfccfd85425fe1.webp",
+      "/products/courses/fae587db347cedaa.webp"
     ],
     "galleryCaptions": [
-      "RADISSON GOLF CONVENTION CENTER BATAM_부대시설",
-      "바탐 아일랜드cc",
-      "INDAH PURI RESORT & GOLF CLUB",
-      "바탐힐cc",
-      "RADISSON GOLF CONVENTION CENTER BATAM_객실",
-      "바탐 아일랜드cc"
+      "SouthLinks Country Club · 예정 골프장 코스",
+      "SouthLinks Country Club · 예정 골프장 코스",
+      "SouthLinks Country Club · 예정 골프장 코스"
     ],
     "sourceHeading": "바탐 골프 5일 #다색골프 #18홀X3회 #바탐대표골프장 #5성급호텔 #중식제외ALL포함 #2인출발가능 #수화물23KG지원",
     "sourceFamilyDuration": "5·6일",
@@ -3603,13 +3431,14 @@
       "기타 :\n■라운드 후 선택관광\n1. 미니발리 + 원주민 마을 + 맹글로브 투어 [ USD 35/인 ( 최소출발 4인 이상 ) ] - 약 4시간\n2. 시내투어 : 이슬람사원 + 중국사원 + 블루파이어 + 마사지 60분 [ USD 30/인 (최소출발 4인 이상) ] - 약 4시간\n3. 라노섬 데이투어 - 라노섬 데이투어시 라운딩 불가 [ USD 80/인 ( 최소출발 4인 이상 ) ] - 약 6~7시간\n4. 저녁식사 후 나이트 차량이용 [ 4인 기준 USD 5/인 ( 4인 미만시 USD 20/팀) ] - 약 4시간\n5. 인도네시아 전통 마사지 [ 60분 USD 20 / 90분 USD 25 / 120분 USD 30 ]",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "RADISSON GOLF CONVENTION CENTER BATAM_부대시설"
+    "thumbCaption": "SouthLinks Country Club · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-b32260463f3d",
     "title": "바탐힐·인다푸리·아일랜드CC · 4성 호텔 5일",
     "summary": "바탐힐·인다푸리·아일랜드CC · 4성 호텔 5일. 예정 코스: 바탐 인다푸리 골프리조트, 바탐힐. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/282fe292a0d9faed.webp",
+    "thumb": "/products/courses/282fe292a0d9faed.webp",
     "country": "인도네시아",
     "area": "바탐",
     "kind": "해외",
@@ -3683,20 +3512,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/282fe292a0d9faed.webp",
-      "/products/hanatour/details/3cbe6be066b4706c.webp",
-      "/products/hanatour/details/73e053a363814583.webp",
-      "/products/hanatour/details/904974c705d1c536.webp",
-      "/products/hanatour/details/0a1761cac525b198.webp",
-      "/products/hanatour/details/8e845245c100d413.webp"
+      "/products/courses/282fe292a0d9faed.webp",
+      "/products/courses/8e845245c100d413.webp"
     ],
     "galleryCaptions": [
-      "빠당수까자디cc",
-      "바탐힐cc",
-      "바탐 아일랜드cc",
-      "INDAH PURI RESORT & GOLF CLUB",
-      "ASTON BATAM HOTEL AND RESIDENCE",
-      "빠당수까자디cc"
+      "PADANG SUKAJADI GOLF · 예정 골프장 코스",
+      "PADANG SUKAJADI GOLF · 예정 골프장 코스"
     ],
     "sourceHeading": "바탐 골프 5일 #다색골프 #36홀*3회 #인다푸리/바탐힐/파당수카자디/아일랜드CC #4성급호텔 #조/석식포함 #2인출발가능 #수화물23KG지원",
     "sourceFamilyDuration": "5·6일",
@@ -3705,13 +3526,14 @@
       "기타 :\n■5인 플레이 가능합니다. 2인 1카트 조건이며 싱글카트 이용 시 USD 10/18홀 추가 됩니다.\n\n■라운드 후 선택관광\n1. 미니발리 + 원주민 마을 + 맹글로브 투어 [ USD 35/인 ( 최소출발 4인 이상 ) ] - 약 4시간\n2. 시내투어 : 이슬람사원 + 중국사원 + 블루파이어 + 마사지 60분 [ USD 30/인 (최소출발 4인 이상) ] - 약 4시간\n3. 라노섬 데이투어 - 라노섬 데이투어시 라운딩 불가 [ USD 80/인 ( 최소출발 4인 이상 ) ] - 약 6~7시간\n4. 저녁식사 후 나이트 차량이용 [ 4인 기준 USD 5/인 ( 4인 미만시 USD 20/팀) ] - 약 4시간\n5. 인도네시아 전통 마사지 [ 60분 USD 20 / 90분 USD 25 / 120분 USD 30 ]",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "빠당수까자디cc"
+    "thumbCaption": "PADANG SUKAJADI GOLF · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-2cbcc113beb2",
     "title": "바탐 7회 라운드 골프여행 · 4성 호텔 9일",
     "summary": "바탐 7회 라운드 골프여행 · 4성 호텔 9일. 예정 코스: 바탐 인다푸리 골프리조트, 바탐 사우스링크 컨트리클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/904974c705d1c536.webp",
+    "thumb": "/products/courses/c8e1d2b8132097b4.webp",
     "country": "인도네시아",
     "area": "바탐",
     "kind": "해외",
@@ -3805,20 +3627,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/904974c705d1c536.webp",
-      "/products/hanatour/details/3cbe6be066b4706c.webp",
-      "/products/hanatour/details/73e053a363814583.webp",
-      "/products/hanatour/details/282fe292a0d9faed.webp",
-      "/products/hanatour/details/0a1761cac525b198.webp",
-      "/products/hanatour/details/c8e1d2b8132097b4.webp"
+      "/products/courses/c8e1d2b8132097b4.webp",
+      "/products/courses/904974c705d1c536.webp",
+      "/products/courses/15b7a4942588ad55.webp"
     ],
     "galleryCaptions": [
-      "INDAH PURI RESORT & GOLF CLUB",
-      "바탐힐cc",
-      "바탐 아일랜드cc",
-      "빠당수까자디cc",
-      "ASTON BATAM HOTEL AND RESIDENCE",
-      "INDAH PURI RESORT & GOLF CLUB"
+      "INDAH PURI RESORT & GOLF CLUB · 예정 골프장 코스",
+      "INDAH PURI RESORT & GOLF CLUB · 예정 골프장 코스",
+      "INDAH PURI RESORT & GOLF CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "바탐 골프 9일 #다색골프 #18홀X7회 #바탐대표골프장 #4성급호텔 #조/석식포함 #2인출발가능 #수화물23KG지원",
     "sourceFamilyDuration": "9일",
@@ -3827,13 +3643,14 @@
       "기타 :\n■라운드 후 선택관광\n1. 미니발리 + 원주민 마을 + 맹글로브 투어 [ USD 35/인 ( 최소출발 4인 이상 ) ] - 약 4시간\n2. 시내투어 : 이슬람사원 + 중국사원 + 블루파이어 + 마사지 60분 [ USD 30/인 (최소출발 4인 이상) ] - 약 4시간\n3. 라노섬 데이투어 - 라노섬 데이투어시 라운딩 불가 [ USD 80/인 ( 최소출발 4인 이상 ) ] - 약 6~7시간\n4. 저녁식사 후 나이트 차량이용 [ 4인 기준 USD 5/인 ( 4인 미만시 USD 20/팀) ] - 약 4시간\n5. 인도네시아 전통 마사지 [ 60분 USD 20 / 90분 USD 25 / 120분 USD 30 ]",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "INDAH PURI RESORT & GOLF CLUB"
+    "thumbCaption": "INDAH PURI RESORT & GOLF CLUB · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-1cde89363822",
     "title": "클락 다색골프 · 시내 중심 호텔 5일",
     "summary": "클락 다색골프 · 시내 중심 호텔 5일. 예정 코스: FA 코리아 클럽, 레이크우드 골프장. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/40a6ac16e41b4446.webp",
+    "thumb": "/products/courses/a5459be158745944.webp",
     "country": "필리핀",
     "area": "클락",
     "kind": "해외",
@@ -3908,20 +3725,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/40a6ac16e41b4446.webp",
-      "/products/hanatour/details/271f10d652df099b.webp",
-      "/products/hanatour/details/3e571aab1ce82ddd.webp",
-      "/products/hanatour/details/a5459be158745944.webp",
-      "/products/hanatour/details/ebd9d8dd6d6f2567.webp",
-      "/products/hanatour/details/811b54d656b8a545.webp"
+      "/products/courses/a5459be158745944.webp",
+      "/products/courses/831e844376c2a46b.webp"
     ],
     "galleryCaptions": [
-      "LAKEWOOD GOLF CLUB",
-      "FA KOREA C.C.",
-      "헤일로",
-      "LAKEWOOD GOLF CLUB",
-      "FA KOREA C.C.",
-      "헤일로"
+      "LAKEWOOD GOLF CLUB · 예정 골프장 코스",
+      "LAKEWOOD GOLF CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "[청주출발][신개념골프][하나투어 단독 특전_1인 1실]클락 골프 5일 #다색골프 #18홀*3회 #헤일로호텔 #FA코리아/레이크우드CC #시내호텔 #2인출발확정 #23시 레이트체크아웃",
     "sourceFamilyDuration": "5·6일",
@@ -3930,13 +3739,14 @@
       "전동카 : 홀수 인원 예약으로 싱글카트 발생 시 18홀 기준 1인당 $30 싱글카트 비용이 추가됩니다.",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "LAKEWOOD GOLF CLUB"
+    "thumbCaption": "LAKEWOOD GOLF CLUB · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-7a3c79d27d22",
     "title": "아유타야 다색골프 · 센타라 호텔 6일",
     "summary": "아유타야 다색골프 · 센타라 호텔 6일. 예정 코스: 아유타야노던랑싯 골프클럽, 아유타야CC. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/af9b3e2d599ce219.webp",
+    "thumb": "/products/courses/af9b3e2d599ce219.webp",
     "country": "태국",
     "area": "아유타야",
     "kind": "해외",
@@ -4015,20 +3825,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/af9b3e2d599ce219.webp",
-      "/products/hanatour/details/504f6e43add00815.webp",
-      "/products/hanatour/details/0e6fcf92a5c291f7.webp",
-      "/products/hanatour/details/f6904462596a8945.webp",
-      "/products/hanatour/details/d57981996768d69c.webp",
-      "/products/hanatour/details/fa5b61101cbccc82.webp"
+      "/products/courses/af9b3e2d599ce219.webp",
+      "/products/courses/d57981996768d69c.webp"
     ],
     "galleryCaptions": [
-      "AYUTTHAYA GOLF CLUB",
-      "BANGSAI COUNTRY CLUB",
-      "NORTHEN RANGSIT GOLF CLUB",
-      "Centara Ayutthaya",
-      "AYUTTHAYA GOLF CLUB",
-      "BANGSAI COUNTRY CLUB"
+      "AYUTTHAYA GOLF CLUB · 예정 골프장 코스",
+      "AYUTTHAYA GOLF CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "[추가수하물 +5kg] 아유타야 골프 6일 #다색골프 #36홀*3회 #아유타야/방사이/노턴랑싯CC #4성급호텔 #전일정식사포함",
     "sourceFamilyDuration": "5·6일",
@@ -4036,13 +3838,14 @@
       "객실 1인 사용료 : 200,000원",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "AYUTTHAYA GOLF CLUB"
+    "thumbCaption": "AYUTTHAYA GOLF CLUB · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-fbb7046b7fb3",
     "title": "시라차 파타비아CC 다색골프 · 5성 호텔 5일",
     "summary": "시라차 파타비아CC 다색골프 · 5성 호텔 5일. 예정 코스: 파타비아 G.C, 그린우드 골프 클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/f81abe248ab6dbbd.webp",
+    "thumb": "/products/courses/f81abe248ab6dbbd.webp",
     "country": "태국",
     "area": "시라차",
     "kind": "해외",
@@ -4116,20 +3919,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/f81abe248ab6dbbd.webp",
-      "/products/hanatour/details/ff8c136601061c7f.webp",
-      "/products/hanatour/details/7baf7e62927029d5.webp",
-      "/products/hanatour/details/d54bb8e3912d6f88.webp",
-      "/products/hanatour/details/54ded09d245dab1f.webp",
-      "/products/hanatour/details/f05b533d8188b267.webp"
+      "/products/courses/f81abe248ab6dbbd.webp",
+      "/products/courses/f05b533d8188b267.webp"
     ],
     "galleryCaptions": [
-      "파타비아",
-      "GREEN WOOD GOLF& RESORT",
-      "PLEASANT VALLRY G.C",
-      "방프라 골프장",
-      "오크우드 호텔 앤 레지던스 - 시라차",
-      "파타비아"
+      "Pattavia Golf Club · 예정 골프장 코스",
+      "Pattavia Golf Club · 예정 골프장 코스"
     ],
     "sourceHeading": "시라차 골프 5일 #다색골프 #27홀*3회 #파타비아GC외 5곳 #5성급호텔 #2인출발",
     "sourceFamilyDuration": "5·6일",
@@ -4137,13 +3932,14 @@
       "객실 1인 사용료 : 210,000원",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "파타비아"
+    "thumbCaption": "Pattavia Golf Club · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-d036ac707f3e",
     "title": "괌 파인이스트CC 골프리조트 5일",
     "summary": "괌 파인이스트CC 골프리조트 5일. 예정 코스: 파인이스트 괌 골프 앤 리조트 (구)스타츠골프장. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/25cfb9072285ea53.webp",
+    "thumb": "/products/courses/25cfb9072285ea53.webp",
     "country": "괌·사이판",
     "area": "괌",
     "kind": "해외",
@@ -4213,14 +4009,10 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/25cfb9072285ea53.webp",
-      "/products/hanatour/details/35c587256778dfec.webp",
-      "/products/hanatour/details/a48e5fd770d796be.webp"
+      "/products/courses/25cfb9072285ea53.webp"
     ],
     "galleryCaptions": [
-      "FINEST GUAM GOLF & RESORT",
-      "FINEST GUAM GOLF & RESORT",
-      "FINEST GUAM GOLF & RESORT"
+      "FINEST GUAM GOLF & RESORT · 예정 골프장 코스"
     ],
     "sourceHeading": "⭐선착순할인⭐ [부산출발] 괌 골프 5일 #골프리조트 #18홀*3회+주중9홀서비스라운드 #파인이스트CC #파인이스트골프리조트(구)스타츠 #2인라운드 #수하물23KG2개",
     "sourceFamilyDuration": "5일",
@@ -4228,13 +4020,14 @@
       "객실 1인 사용료 : 요금미정, 문의바랍니다.",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "FINEST GUAM GOLF & RESORT"
+    "thumbCaption": "FINEST GUAM GOLF & RESORT · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-6e772e4d4f8e",
     "title": "사이판 코럴오션·라오라오베이 2색골프 5일",
     "summary": "사이판 코럴오션·라오라오베이 2색골프 5일. 예정 코스: 라오라오베이 골프 리조트. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/9d02af39a85d6e26.webp",
+    "thumb": "/products/courses/120f2534b4800ff9.webp",
     "country": "괌·사이판",
     "area": "사이판",
     "kind": "해외",
@@ -4304,20 +4097,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/9d02af39a85d6e26.webp",
-      "/products/hanatour/details/1299c31b0977182b.webp",
-      "/products/hanatour/details/b9a45a1709eb8e74.webp",
-      "/products/hanatour/details/3e0e1c63e107b044.webp",
-      "/products/hanatour/details/120f2534b4800ff9.webp",
-      "/products/hanatour/details/bd250d4046c2c085.webp"
+      "/products/courses/120f2534b4800ff9.webp",
+      "/products/courses/a0452782c15a70fa.webp"
     ],
     "galleryCaptions": [
-      "코랄오션리조트 (CORAL OCEAN RESORT)",
-      "코랄오션리조트 (CORAL OCEAN RESORT)",
-      "LAO LAO BAY GOLF RESORT",
-      "코랄오션리조트 (CORAL OCEAN RESORT)",
-      "코랄오션리조트 (CORAL OCEAN RESORT)",
-      "라오라오 골프장"
+      "Coral Ocean Golf Resort · 예정 골프장 코스",
+      "Coral Ocean Golf Resort · 예정 골프장 코스"
     ],
     "sourceHeading": "[Reopening/2색골프]사이판 골프 5일#코럴오션리조트 #18홀x3회#COR CC #라오라오베이 CC #조/석식포함 #2인라운드",
     "sourceFamilyDuration": "5·6일",
@@ -4325,13 +4110,14 @@
       "객실 1인 사용료 : 요금미정, 문의바랍니다.",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "코랄오션리조트 (CORAL OCEAN RESORT)"
+    "thumbCaption": "Coral Ocean Golf Resort · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-3e391ff168d3",
     "title": "사이판 코럴오션CC · PIC 호텔 6일",
     "summary": "사이판 코럴오션CC · PIC 호텔 6일. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/0c4c0fbcf9a0bf65.webp",
+    "thumb": "/products/courses/120f2534b4800ff9.webp",
     "country": "괌·사이판",
     "area": "사이판",
     "kind": "해외",
@@ -4404,18 +4190,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/0c4c0fbcf9a0bf65.webp",
-      "/products/hanatour/details/1299c31b0977182b.webp",
-      "/products/hanatour/details/a0f509546bfc90e8.webp",
-      "/products/hanatour/details/3f4332d203523a50.webp",
-      "/products/hanatour/details/c62bacb7b9017969.webp"
+      "/products/courses/120f2534b4800ff9.webp",
+      "/products/courses/a0452782c15a70fa.webp"
     ],
     "galleryCaptions": [
-      "사이판 PIC 2022",
-      "코랄오션리조트 (CORAL OCEAN RESORT)",
-      "사이판 PIC 2022신규사진",
-      "PIC 전경",
-      "CORAL OCEAN GOLF RESORT"
+      "Coral Ocean Golf Resort · 예정 골프장 코스",
+      "Coral Ocean Golf Resort · 예정 골프장 코스"
     ],
     "sourceHeading": "[특별기획!]사이판 골프 6일#PIC 호텔 디럭스룸 #18홀x4회# COR CC #조/석식호텔식 #2인라운드",
     "sourceFamilyDuration": "5·6일",
@@ -4423,13 +4203,14 @@
       "객실 1인 사용료 : 요금미정, 문의바랍니다.",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "사이판 PIC 2022"
+    "thumbCaption": "Coral Ocean Golf Resort · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-f2eecda00a3a",
     "title": "괌 망길라오·CCP 다색골프 · 츠바키 호텔 5일",
     "summary": "괌 망길라오·CCP 다색골프 · 츠바키 호텔 5일. 예정 코스: 망길라오 골프 클럽, 퍼시픽 컨트리 클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/f38ca5fefab4ef5f.webp",
+    "thumb": "/products/courses/499f39a4c7dc4ef6.webp",
     "country": "괌·사이판",
     "area": "괌",
     "kind": "해외",
@@ -4501,18 +4282,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/f38ca5fefab4ef5f.webp",
-      "/products/hanatour/details/8e02b5e7eae034b9.webp",
-      "/products/hanatour/details/701988a90be2ed42.webp",
-      "/products/hanatour/details/33bf96c47df9de50.webp",
-      "/products/hanatour/details/5dadd22b8558a66c.webp"
+      "/products/courses/499f39a4c7dc4ef6.webp",
+      "/products/courses/f38ca5fefab4ef5f.webp"
     ],
     "galleryCaptions": [
-      "Mangilao Golf Club",
-      "Country Club of the Pacific(CCP)",
-      "Talofofo Golf Club",
-      "[츠바키] 다이닝(Casa Oceano)2",
-      "Mangilao Golf Club"
+      "Mangilao Golf Club · 예정 골프장 코스",
+      "Mangilao Golf Club · 예정 골프장 코스"
     ],
     "sourceHeading": "[부산출발] 괌 골프 5일 #다색골프 #18홀*3회 #초특급 #츠바키타워 #카멜리아로우룸 #망길라오/탈로포포/CCP2인라운드 #수하물 23KG*2개",
     "sourceFamilyDuration": "5일",
@@ -4521,13 +4296,14 @@
       "기타 : 가격문의 (클럽렌탈(1인/1일/40$) / 슈즈렌탈(1인/1일/10$))",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "Mangilao Golf Club"
+    "thumbCaption": "Mangilao Golf Club · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-0b8f7cf81a12",
     "title": "라스베가스 Paiute·Serket 골프 · 항공 불포함 5일",
     "summary": "라스베가스 Paiute·Serket 골프 · 항공 불포함 5일. 예정 코스: 라스베이거스 파이우트 울프 코스, 서켓 골프클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/6d708e7ab1c46769.webp",
+    "thumb": "/products/courses/6d708e7ab1c46769.webp",
     "country": "하와이·미국",
     "area": "라스베가스",
     "kind": "해외",
@@ -4603,20 +4379,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/6d708e7ab1c46769.webp",
-      "/products/hanatour/details/ac3889ad1961780a.webp",
-      "/products/hanatour/details/9a514a71957a8d8e.webp",
-      "/products/hanatour/details/29f80f8711128abf.webp",
-      "/products/hanatour/details/49e564ff0f0756a8.webp",
-      "/products/hanatour/details/a647db21ccf9adfe.webp"
+      "/products/courses/6d708e7ab1c46769.webp",
+      "/products/courses/29f80f8711128abf.webp"
     ],
     "galleryCaptions": [
-      "SERKET",
-      "Las Vegas Paiute",
-      "뉴욕 뉴욕 호텔 앤드 카지노",
-      "SERKET",
-      "Las Vegas Paiute",
-      "뉴욕 뉴욕 호텔 앤드 카지노"
+      "Serket Golf Club · 예정 골프장 코스",
+      "Serket Golf Club · 예정 골프장 코스"
     ],
     "sourceHeading": "[항공불포함] 라스베이거스 5일 #Las Vegas Paiute/Serket #18홀X2회 #라스베이거스관광 #그랜드캐년관광 #2인출발가능",
     "sourceFamilyDuration": "5일",
@@ -4625,13 +4393,14 @@
       "객실 1인 사용료 : 요금미정, 문의바랍니다.",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "SERKET"
+    "thumbCaption": "Serket Golf Club · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-adf95b46aa8d",
     "title": "하와이 4개 섬 골프 크루즈 · 발코니 선실 10일",
     "summary": "하와이 4개 섬 골프 크루즈 · 발코니 선실 10일. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/b4378637c8c441be.webp",
+    "thumb": "/products/courses/e70475af9c6c59f9.webp",
     "country": "하와이·미국",
     "area": "하와이",
     "kind": "해외",
@@ -4727,20 +4496,10 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/b4378637c8c441be.webp",
-      "/products/hanatour/details/608d383f339e2f41.webp",
-      "/products/hanatour/details/d8b0a2fd99895a6a.webp",
-      "/products/hanatour/details/295c77f5b37cabf4.webp",
-      "/products/hanatour/details/ee783afb131d7586.webp",
-      "/products/hanatour/details/6795f5f7bd5f097e.webp"
+      "/products/courses/e70475af9c6c59f9.webp"
     ],
     "galleryCaptions": [
-      "WAILEA GOLF CLUB RESORT",
-      "MAUNA LANI BAY GOLF CLUB",
-      "포이푸 베이 골프코스",
-      "코올리나 골프 클럽",
-      "NCL 프라이드 오브 아메리카",
-      "MAUNA LANI BAY GOLF CLUB"
+      "MAUNA LANI BAY GOLF CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "[2인 출발확정] 하와이 4개 섬 골프+크루즈 10일 #NCL POA ＃발코니 선실 #90홀 라운딩 포함 (18홀X5회) ＃힐로 관광 ＃오아후 시내관광",
     "sourceFamilyDuration": "10일",
@@ -4749,13 +4508,14 @@
       "기타 : 기항지 관광 비용",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "WAILEA GOLF CLUB RESORT"
+    "thumbCaption": "MAUNA LANI BAY GOLF CLUB · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-5243d7d08215",
     "title": "미서부 페블비치 골프 · 항공 불포함 4일",
     "summary": "미서부 페블비치 골프 · 항공 불포함 4일. 예정 코스: [100대 골프장]페블비치 골프 링크스, 스파이글래스 힐 골프 코스. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/ded08a95fbe205d8.webp",
+    "thumb": "/products/courses/b34b3ff87b5bfc6d.webp",
     "country": "하와이·미국",
     "area": "미서부",
     "kind": "해외",
@@ -4826,20 +4586,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/ded08a95fbe205d8.webp",
-      "/products/hanatour/details/6d9bee90d881bcea.webp",
-      "/products/hanatour/details/816967f5517ff6a8.webp",
-      "/products/hanatour/details/fe1d581a8c78e691.webp",
-      "/products/hanatour/details/edbed09152c6f508.webp",
-      "/products/hanatour/details/b34b3ff87b5bfc6d.webp"
+      "/products/courses/b34b3ff87b5bfc6d.webp",
+      "/products/courses/ded08a95fbe205d8.webp"
     ],
     "galleryCaptions": [
-      "Pebble Beach Golf Links™",
-      "Spyglass hill golf course",
-      "델몬테",
-      "THE LODGE AT PEBBLE BEACH",
-      "The Inn at Spanish Bay",
-      "Pebble Beach Golf Links™"
+      "[100대 골프장]Pebble Beach · 예정 골프장 코스",
+      "[100대 골프장]Pebble Beach · 예정 골프장 코스"
     ],
     "sourceHeading": "[항공불포함] 미서부 골프 4일 #몬테리 #페블비치 #Pebble Beach® #18홀X3회 #5성급호텔 #전일정 VIP송영서비스",
     "sourceFamilyDuration": "4일",
@@ -4849,13 +4601,14 @@
       "기타 :\n※ The Links at Spanish Bay 레노베이션으로 27년 4월 16일까지 휴장입니다.\n※ 미국은 팁문화가 있는 국가로 고마움의 표시로 차량기사, 호텔, 골프장, 레스토랑 등 현지 직원들에게 현금으로 팁을 주셔야 합니다. (통상적으로 1인당, 차량기사 1일 $10~20, 호텔 및 골프장 벨보이 회당 $1~2, 하우스키퍼 1일 $1~2, 레스토랑 테이블당 5$ 정도 주시길 권고합니다.)\n※ 출발 전 골프백에 여권 상 영문으로 기재된 네임택을 꼭 부착해주셔야 합니다.",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "Pebble Beach Golf Links™"
+    "thumbCaption": "[100대 골프장]Pebble Beach · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-cb72bc8eb717",
     "title": "2027 디오픈 참관 스코틀랜드 골프 9일",
     "summary": "2027 디오픈 참관 스코틀랜드 골프 9일. 예정 코스: 카누스티 골프 링크스. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/67f3f2fa7df29cd2.webp",
+    "thumb": "/products/courses/67f3f2fa7df29cd2.webp",
     "country": "스코틀랜드",
     "area": "세인트앤드루스",
     "kind": "해외",
@@ -4946,20 +4699,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/67f3f2fa7df29cd2.webp",
-      "/products/hanatour/details/99953da8fa8c971f.webp",
-      "/products/hanatour/details/fae2865823be7371.webp",
-      "/products/hanatour/details/8d2164aa3eaa5e52.webp",
-      "/products/hanatour/details/dff3cead0d76e1d1.webp",
-      "/products/hanatour/details/44e5a67dfe617393.webp"
+      "/products/courses/67f3f2fa7df29cd2.webp",
+      "/products/courses/c1e081c523478896.webp"
     ],
     "galleryCaptions": [
-      "카누스티 골프 링크스",
-      "ST ANDREWS",
-      "캐슬 스튜어트 골프 링크스 ( Castle Stuart Golf Links / Cabot Highlands)",
-      "세인드앤드류스 뉴코스",
-      "페어먼트",
-      "더 칼레도니안 에든버러, 큐리오 컬렉션 바이 힐튼 The Caledonian Edinburgh, Curio Collection by Hilton"
+      "Carnoustie Golf Links · 예정 골프장 코스",
+      "Carnoustie Golf Links · 예정 골프장 코스"
     ],
     "sourceHeading": "[2027 디오픈 참관] 스코틀랜드 골프 9일#세인트앤드류스등 세계 100대 골프투어 #18홀 X 4회라운드 # 5성급호텔 #주요관광지",
     "sourceFamilyDuration": "9일",
@@ -4967,14 +4712,15 @@
       "객실 1인 사용료 : 요금미정, 문의바랍니다.",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "카누스티 골프 링크스",
+    "thumbCaption": "Carnoustie Golf Links · 예정 골프장 코스",
+    "photoPending": false,
     "scheduleNotice": "2027년 7월 14일 출발 디오픈 참관 일정입니다. 다른 날짜는 같은 행사 구성으로 진행되지 않으며, 별도 골프여행으로 상담합니다."
   },
   {
     "slug": "hana-b266585ce489",
     "title": "안탈리아 레그넘 카리야 골프 · 항공 불포함 8일",
     "summary": "안탈리아 레그넘 카리야 골프 · 항공 불포함 8일. 예정 코스: 카리야 골프클럽, 내셔널 골프클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/e7cff12db2861921.webp",
+    "thumb": "/products/courses/c58f6f9509d3b2e5.webp",
     "country": "튀르키예",
     "area": "안탈리아",
     "kind": "해외",
@@ -5064,20 +4810,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/e7cff12db2861921.webp",
-      "/products/hanatour/details/4a88ef4fb63bdcd0.webp",
-      "/products/hanatour/details/06559d12a6ecf687.webp",
-      "/products/hanatour/details/23dbec64117aa157.webp",
-      "/products/hanatour/details/01972d07165daefb.webp",
-      "/products/hanatour/details/a38a1ec101cd64c5.webp"
+      "/products/courses/c58f6f9509d3b2e5.webp",
+      "/products/courses/a38a1ec101cd64c5.webp"
     ],
     "galleryCaptions": [
-      "레그넘카리야골프리조트",
-      "CARYA GOLF CLUB",
-      "NATIONAL GOLF CLUB",
-      "안탈리아 골프 클럽",
-      "레그넘카리야골프리조트",
-      "CARYA GOLF CLUB"
+      "CARYA GOLF CLUB · 예정 골프장 코스",
+      "CARYA GOLF CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "[항공불포함] 튀르키예(터키)안탈리아 다색골프 8일# 레그넘카리야리조트 #18홀 *5회 #내셔널GC#카리야GC #안탈리아GC",
     "sourceFamilyDuration": "8일",
@@ -5085,13 +4823,14 @@
       "객실 1인 사용료 : 요금미정, 문의바랍니다.",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "레그넘카리야골프리조트"
+    "thumbCaption": "CARYA GOLF CLUB · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-bb30ff6959a1",
     "title": "스코틀랜드 올드코스 호텔 골프 · 항공 불포함 7일",
     "summary": "스코틀랜드 올드코스 호텔 골프 · 항공 불포함 7일. 예정 코스: [100대 골프장]세인트 앤드류스 올드 코스, 킹스반스 골프 링크스. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/80e3e9469b2c95b5.webp",
+    "thumb": "/products/courses/936b244b5923cfbc.webp",
     "country": "스코틀랜드",
     "area": "세인트앤드루스",
     "kind": "해외",
@@ -5175,20 +4914,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/80e3e9469b2c95b5.webp",
-      "/products/hanatour/details/99953da8fa8c971f.webp",
-      "/products/hanatour/details/e7922c200dbd7df2.webp",
-      "/products/hanatour/details/67f3f2fa7df29cd2.webp",
-      "/products/hanatour/details/c6d6732be9840b46.webp",
-      "/products/hanatour/details/2e478095c240b78f.webp"
+      "/products/courses/936b244b5923cfbc.webp",
+      "/products/courses/e1960a1d3db09627.webp"
     ],
     "galleryCaptions": [
-      "St Andrews Old Course Hotel 세인트 앤드루스 올드코스 호텔",
-      "ST ANDREWS",
-      "킹스번스 - 세인트앤드류스",
-      "카누스티 골프 링크스",
-      "St Andrews Old Course Hotel 세인트 앤드루스 올드코스 호텔",
-      "St Andrews Old Course_전경"
+      "[100대 골프장]ST. ANDREWS (Old Course) · 예정 골프장 코스",
+      "[100대 골프장]ST. ANDREWS (Old Course) · 예정 골프장 코스"
     ],
     "sourceHeading": "[항공불포함]스코틀랜드 골프 7일 # 세인드앤드류스 올드코스 호텔 #18홀 x5회 #세인트앤드류 올드코스 외 5곳 #세계100대골프장 #조/중식포함",
     "sourceFamilyDuration": "7일",
@@ -5196,13 +4927,14 @@
       "객실 1인 사용료 : 3,800,000원 (유럽인 경우 싱글베드 사용)",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "St Andrews Old Course Hotel 세인트 앤드루스 올드코스 호텔"
+    "thumbCaption": "[100대 골프장]ST. ANDREWS (Old Course) · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-2a359818408b",
     "title": "멕시코 로스카보스 다색골프 9일",
     "summary": "멕시코 로스카보스 다색골프 9일. 예정 코스: 퀴비라 골프 클럽, 디아만테 카보 산 루카스. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/c1c4bde463f459c8.webp",
+    "thumb": "/products/courses/750c85d1e84e96fd.webp",
     "country": "멕시코",
     "area": "로스카보스",
     "kind": "해외",
@@ -5296,18 +5028,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/c1c4bde463f459c8.webp",
-      "/products/hanatour/details/111c199eadcaadda.webp",
-      "/products/hanatour/details/750c85d1e84e96fd.webp",
-      "/products/hanatour/details/7ccf6a5dfa3f2313.webp",
-      "/products/hanatour/details/c4dbd7001ac39b4c.webp"
+      "/products/courses/750c85d1e84e96fd.webp",
+      "/products/courses/1b17e39e6706d092.webp"
     ],
     "galleryCaptions": [
-      "Pueblo Bonito Pacifica",
-      "Quivira Golf Club",
-      "CABO REAL GOLF CLUB",
-      "Grand Solmar Pacific Dunes",
-      "Quivira Golf Club"
+      "CABO REAL GOLF CLUB · 예정 골프장 코스",
+      "CABO REAL GOLF CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "[제우스 셀렉트] 멕시코 골프 9일 #다색골프 #로스카보스 명문 코스 #올인클리시브 리조트 #전일정 고품격 전용 차량 #2인출발가능",
     "sourceFamilyDuration": "9일",
@@ -5316,13 +5042,14 @@
       "기타 :\n* 골프장 및 리조트는 현지 사정에 따라 동급으로 변경될 수 있습니다.\n* 출발 전 골프백에 여권상 영문 이름으로 된 네임택을 꼭 부착해주세요.\n* 멕시코는 팁문화가 있는 국가로 고마움의 표시로 차량기사, 호텔, 골프장, 레스토랑 등 현지 직원들에게 현금으로 팁을 주셔야 합니다.\n(통상적으로 1인당, 차량기사 1일 $10~20, 호텔 및 골프장 벨보이 회당 $1~2, 하우스키퍼 1일 $1~2, 레스토랑 테이블당 5$ 정도 주시길 권고합니다.)\n* 선택관광(유료) : 선셋 요트(사전예약), 낙타 타기 체험 & 스노클링 등(리조트에서 직접 예약 및 현장 결제) - 비용 별도문의",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "Pueblo Bonito Pacifica"
+    "thumbCaption": "CABO REAL GOLF CLUB · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-d272e12586b8",
     "title": "하와이 오아후 다색골프 · 폴리네시안 레지던스 7일",
     "summary": "하와이 오아후 다색골프 · 폴리네시안 레지던스 7일. 예정 코스: 프린스 골프클럽, 와이켈레 골프클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/c3360bc7f00814fe.webp",
+    "thumb": "/products/courses/222cd74f167bfc1d.webp",
     "country": "하와이·미국",
     "area": "오아후",
     "kind": "해외",
@@ -5405,18 +5132,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/c3360bc7f00814fe.webp",
-      "/products/hanatour/details/85d7aae7e8bc210c.webp",
-      "/products/hanatour/details/77d36e5c3bfb247a.webp",
-      "/products/hanatour/details/9f55fd2eebae64c9.webp",
-      "/products/hanatour/details/222cd74f167bfc1d.webp"
+      "/products/courses/222cd74f167bfc1d.webp",
+      "/products/courses/85d7aae7e8bc210c.webp"
     ],
     "galleryCaptions": [
-      "하와이 프린스 골프클럽",
-      "와이켈레 골프클럽",
-      "폴리네시안 레지던스 와이키키 비치",
-      "하와이 프린스 골프클럽",
-      "와이켈레 골프클럽"
+      "WAIKELE GOLF CLUB · 예정 골프장 코스",
+      "WAIKELE GOLF CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "하와이 골프 7일 #2색골프 #18홀*2회 #하와이프린스/와이켈레GC #폴리네시안 레지던스 리조트 #2인출발가능 #시티투어 #2일 자유일정 #하나투어스마트카드",
     "sourceFamilyDuration": "7일",
@@ -5424,13 +5145,14 @@
       "객실 1인 사용료 : 요금미정, 문의바랍니다., 싱글룸비용 : 가격문의 (기간별 요금이 상이함으로 문의 부탁드립니다. )",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "하와이 프린스 골프클럽"
+    "thumbCaption": "WAIKELE GOLF CLUB · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-7b5a6575eb7a",
     "title": "방콕 프라임시티GC 골프텔 5일",
     "summary": "방콕 프라임시티GC 골프텔 5일. 예정 코스: 방콕 프라임시티 GC. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/3b75984da85fd9ca.webp",
+    "thumb": "/products/courses/49f7f5dd8433d773.webp",
     "country": "태국",
     "area": "방콕",
     "kind": "해외",
@@ -5501,12 +5223,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/3b75984da85fd9ca.webp",
-      "/products/hanatour/details/49f7f5dd8433d773.webp"
+      "/products/courses/49f7f5dd8433d773.webp",
+      "/products/courses/c3154f92f626ee57.webp"
     ],
     "galleryCaptions": [
-      "PRIME GOIF RESORT",
-      "프라임 골프장"
+      "Prime City Golf Club · 예정 골프장 코스",
+      "Prime City Golf Club · 예정 골프장 코스"
     ],
     "sourceHeading": "방콕 골프 5일 #골프텔 #36홀*3회 #프라임시티GC #가성비추천 #2인출발 #전일정식사포함 #세탁비무료",
     "sourceFamilyDuration": "5·6일",
@@ -5515,13 +5237,14 @@
       "렌탈비 : 가격문의 (1인 18홀 클럽렌탈 기준/사전 요청 조건(상품 담당자와 금액 확인 필요))",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "PRIME GOIF RESORT"
+    "thumbCaption": "Prime City Golf Club · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-c6f0b0c36fd9",
     "title": "방콕 썬라이즈라군·스카이밸리 골프텔 5일",
     "summary": "방콕 썬라이즈라군·스카이밸리 골프텔 5일. 예정 코스: 썬라이즈라군CC, 스카이밸리 컨트리 클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/fcce3fc7b05ad498.webp",
+    "thumb": "/products/courses/e03e173d9ef705a8.webp",
     "country": "태국",
     "area": "방콕",
     "kind": "해외",
@@ -5593,18 +5316,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/fcce3fc7b05ad498.webp",
-      "/products/hanatour/details/e9a6a905dc0b4a3d.webp",
-      "/products/hanatour/details/0f33191d0870a3da.webp",
-      "/products/hanatour/details/b9785016fb6b9563.webp",
-      "/products/hanatour/details/e03e173d9ef705a8.webp"
+      "/products/courses/e03e173d9ef705a8.webp",
+      "/products/courses/a612ded834773b36.webp"
     ],
     "galleryCaptions": [
-      "스카이밸리 골프텔",
-      "SUNRISE LAGOON COUNTRY CLUB",
-      "스카이밸리CC(skyvalley)",
-      "썬라이즈라군호텔(SUNRISE LAGOON)",
-      "썬라이즈라군CC (Sunrise Lagoon Country Club)"
+      "SUNRISE LAGOON COUNTRY CLUB · 예정 골프장 코스",
+      "SUNRISE LAGOON COUNTRY CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "방콕 골프 5일 #골프텔 #36홀*3회 #썬라이즈라군CC/스카이밸리CC #2인출발",
     "sourceFamilyDuration": "5·6일",
@@ -5613,13 +5330,14 @@
       "렌탈비 : 가격문의 (1인 18홀 클럽렌탈 기준/사전 요청 조건(상품 담당자와 금액 확인 필요))",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "스카이밸리 골프텔"
+    "thumbCaption": "SUNRISE LAGOON COUNTRY CLUB · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-ee5f845d78d2",
     "title": "괌 레오팔레스CC 골프리조트 5일",
     "summary": "괌 레오팔레스CC 골프리조트 5일. 예정 코스: 레오팔레스 리조트 컨트리 클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/6162c7a6d5594879.webp",
+    "thumb": "/products/courses/f27e91b314093a5b.webp",
     "country": "괌·사이판",
     "area": "괌",
     "kind": "해외",
@@ -5689,16 +5407,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/6162c7a6d5594879.webp",
-      "/products/hanatour/details/f27e91b314093a5b.webp",
-      "/products/hanatour/details/9fe93e071ab38f6b.webp",
-      "/products/hanatour/details/634b8fa7f5443ad0.webp"
+      "/products/courses/f27e91b314093a5b.webp",
+      "/products/courses/d53029d8a4832ee5.webp"
     ],
     "galleryCaptions": [
-      "괌 레오팔레스",
-      "Leopalace Resort Country Club",
-      "레오팔레스 172",
-      "Leopalace Resort Country Club"
+      "Leopalace Resort Country Club · 예정 골프장 코스",
+      "Leopalace Resort Country Club · 예정 골프장 코스"
     ],
     "sourceHeading": "[부산출발/특가!] 괌 골프 5일 #골프리조트 #36홀 *3회 #레오팔레스CC #프리미엄룸 #2인라운드 #4명이상예약시할인 #23KG*2개",
     "sourceFamilyDuration": "5일",
@@ -5706,13 +5420,14 @@
       "객실 1인 사용료 : 요금미정, 문의바랍니다.",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "괌 레오팔레스"
+    "thumbCaption": "Leopalace Resort Country Club · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-73e4b8a97f10",
     "title": "치앙마이 인타논CC 골프텔 5일",
     "summary": "치앙마이 인타논CC 골프텔 5일. 예정 코스: 인타논 골프 & 리조트. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/d12aa6a5f6fdc263.webp",
+    "thumb": "/products/courses/d4dbba7cacf6d053.webp",
     "country": "태국",
     "area": "치앙마이",
     "kind": "해외",
@@ -5784,18 +5499,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/d12aa6a5f6fdc263.webp",
-      "/products/hanatour/details/d4dbba7cacf6d053.webp",
-      "/products/hanatour/details/5cfd14615cdeaa60.webp",
-      "/products/hanatour/details/a77e8577c274f6fb.webp",
-      "/products/hanatour/details/847ab1f1d0288352.webp"
+      "/products/courses/d4dbba7cacf6d053.webp",
+      "/products/courses/4daac4bbb5cc7da5.webp"
     ],
     "galleryCaptions": [
-      "인타논 골프텔(레노베이션)",
-      "INTHANON GOLF & NATURAL RESORT",
-      "INTHANON GOLF AND NATURAL RESORT",
-      "INTHANON GOLF AND NATURAL RESORT",
-      "INTHANON GOLF & NATURAL RESORT"
+      "INTHANON GOLF & NATURAL RESORT · 예정 골프장 코스",
+      "INTHANON GOLF & NATURAL RESORT · 예정 골프장 코스"
     ],
     "sourceHeading": "치앙마이 골프 5일 #골프텔 #36홀*3회 #인타논 CC #2인출발 #식사포함 #가성비",
     "sourceFamilyDuration": "5·6일",
@@ -5804,13 +5513,14 @@
       "렌탈비 : 가격문의 (클럽렌탈(사전에 요청 조건, 브랜드별 비용 상이))",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "인타논 골프텔(레노베이션)"
+    "thumbCaption": "INTHANON GOLF & NATURAL RESORT · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-bd2c17ebe70c",
     "title": "파타야 세인트앤드류스CC 골프텔 5일",
     "summary": "파타야 세인트앤드류스CC 골프텔 5일. 예정 코스: 실키오크 컨트리 클럽, 세인트앤드류 2000. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/bb0e1e58fd5834d9.webp",
+    "thumb": "/products/courses/02aadf039bc496e2.webp",
     "country": "태국",
     "area": "파타야",
     "kind": "해외",
@@ -5884,18 +5594,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/bb0e1e58fd5834d9.webp",
-      "/products/hanatour/details/a43057c85bb82023.webp",
-      "/products/hanatour/details/6abf8dce6f127b7b.webp",
-      "/products/hanatour/details/fff07ced082a8416.webp",
-      "/products/hanatour/details/3cba28585f1f400d.webp"
+      "/products/courses/02aadf039bc496e2.webp",
+      "/products/courses/bb0e1e58fd5834d9.webp"
     ],
     "galleryCaptions": [
-      "세인트 앤드류 2000 -1",
-      "RAYONG GREEN VALLEY COUNTRY CLUB",
-      "실키오크CC(SILKY OAK)",
-      "로얄레지던스2",
-      "세인트 앤드류 2000 -2"
+      "St. ANDREWS 2000 · 예정 골프장 코스",
+      "St. ANDREWS 2000 · 예정 골프장 코스"
     ],
     "sourceHeading": "파타야 골프 5일#골프텔 #18홀*3회 #세인트앤드류스CC #2인출발 #54홀규모 골프장",
     "sourceFamilyDuration": "5·6일",
@@ -5904,13 +5608,14 @@
       "기타 :\n▶ 추가라운드 그린피+캐디피+전동카트\n세인트앤드류 / 라용 그린벨리 / 실키오크 CC\n- 9홀 추가 1,700바트/인 (캐디팁 200바트 불포함)\n- 18홀 추가 3,000바트/인 (캐디팁 300바트 불포함)\n\n▶ 리조트 내 마사지\n발마사지 1시간 : 400바트 (팁포함)\n전신마사지 2시간 : 800바트 (팁포함)\n\n▶ 파타야 시내투어차량 (12인승 승합차)\n5시간왕복 2000바트\n5시간~8시간 이하 2500바트\n*가이드는 없으며, 현지 기사만 대동합니다.\n*볼트나 그랩 등 현지 어플 및 개별 예약을 통한 일정 중 발생되는 문제에 대해서는 책임을 지지 않으니\n외부 일정시 안전 및 소지품 보관에 항상 유의해 주시기 바랍니다.\n\n※ 사전 포함은 불가하며, 예약 및 비용지불은 현지에서만 가능합니다.",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "세인트 앤드류 2000 -1"
+    "thumbCaption": "St. ANDREWS 2000 · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-66b15455952d",
     "title": "하노이·하이퐁 소노펠리체CC 골프텔 5일",
     "summary": "하노이·하이퐁 소노펠리체CC 골프텔 5일. 예정 코스: 소노펠리체 CC 하이퐁. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/9d23f170de0a596b.webp",
+    "thumb": "/products/courses/9d23f170de0a596b.webp",
     "country": "베트남",
     "area": "하노이·하이퐁",
     "kind": "해외",
@@ -5983,14 +5688,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/9d23f170de0a596b.webp",
-      "/products/hanatour/details/cefd7c13ba73cdbd.webp",
-      "/products/hanatour/details/27b4866c313557e8.webp"
+      "/products/courses/9d23f170de0a596b.webp",
+      "/products/courses/13bf1b04015ad7bd.webp"
     ],
     "galleryCaptions": [
-      "소노펠리체 CC 하이퐁 시설",
-      "소노펠리체 CC 하이퐁 시설",
-      "소노펠리체 CC 하이퐁 시설"
+      "SONO FELICE CC HAIPONG · 예정 골프장 코스",
+      "SONO FELICE CC HAIPONG · 예정 골프장 코스"
     ],
     "sourceHeading": "[일반전용] 하노이 골프 5일 #골프텔 #18홀*3회 #소노펠리체 하이퐁CC #캐디피 및 카트비포함 #2인라운드가능",
     "sourceFamilyDuration": "5일",
@@ -5999,13 +5702,14 @@
       "렌탈비 : 가격문의 (1인 18홀 클럽렌탈 기준/사전 요청 조건(상품 담당자와 금액 확인 필요))",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "소노펠리체 CC 하이퐁 시설"
+    "thumbCaption": "SONO FELICE CC HAIPONG · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-7cb12d27edf5",
     "title": "비엔티안 레이크뷰 다색골프 · 5성 호텔 5일",
     "summary": "비엔티안 레이크뷰 다색골프 · 5성 호텔 5일. 예정 코스: 부영 씨게임즈 골프 클럽, 롱비엔 골프클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/38c195b7560255d9.webp",
+    "thumb": "/products/courses/a70b7cba0f7adc14.webp",
     "country": "라오스",
     "area": "비엔티안",
     "kind": "해외",
@@ -6081,18 +5785,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/38c195b7560255d9.webp",
-      "/products/hanatour/details/ad99b62c6ab40013.webp",
-      "/products/hanatour/details/f23a18d0203838cb.webp",
-      "/products/hanatour/details/1097494df24e7217.webp",
-      "/products/hanatour/details/a70b7cba0f7adc14.webp"
+      "/products/courses/a70b7cba0f7adc14.webp",
+      "/products/courses/38c195b7560255d9.webp",
+      "/products/courses/24bf6b3a7b4f544b.webp"
     ],
     "galleryCaptions": [
-      "라오스 롱비엔 G.C",
-      "레이크뷰GC",
-      "MUONG THANH LUXURY VIENTIANE",
-      "YOOEUN HOTEL",
-      "롱비엔 골프장 LONGVIEN/ LONG VIEN / 롱비엔 GC 롱비엔 CC 라오스 골프"
+      "LONGVIEN GOLF CLUB · 예정 골프장 코스",
+      "LONGVIEN GOLF CLUB · 예정 골프장 코스",
+      "LONGVIEN GOLF CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "비엔티안 골프 5일 #다색골프 #18홀*3회 #레이크뷰/롱비엔/부영CC #무엉탄럭셔리5성급 #조석식포함 #관광포함 #차량포함",
     "sourceFamilyDuration": "5일",
@@ -6101,13 +5801,14 @@
       "렌탈비 : 가격문의 (클럽렌탈비, 슈즈 렌탈비-사전 요청 조건)",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "라오스 롱비엔 G.C"
+    "thumbCaption": "LONGVIEN GOLF CLUB · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-414cce9a8d57",
     "title": "다낭 다색골프 · 가이드 미동행 5일",
     "summary": "다낭 다색골프 · 가이드 미동행 5일. 예정 코스: 바나힐스 골프클럽, 몽고메리 링크스. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/b7ce63edba5e97ad.webp",
+    "thumb": "/products/courses/7b0ab431a53a6560.webp",
     "country": "베트남",
     "area": "다낭",
     "kind": "해외",
@@ -6180,20 +5881,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/b7ce63edba5e97ad.webp",
-      "/products/hanatour/details/fd0bcb74e7819da3.webp",
-      "/products/hanatour/details/1717bb4be9aef00b.webp",
-      "/products/hanatour/details/4a7759e5df86c6e3.webp",
-      "/products/hanatour/details/ea129a27a6dfb10c.webp",
-      "/products/hanatour/details/c7a693cb38b6d9cb.webp"
+      "/products/courses/7b0ab431a53a6560.webp",
+      "/products/courses/b1f7811d1069d867.webp"
     ],
     "galleryCaptions": [
-      "바나힐골프장",
-      "빈펄 남호이안",
-      "라구나CC",
-      "몽고메리 링크스",
-      "로열 로터스 호텔 다낭-클래식룸, 시내 전망",
-      "바나힐골프장"
+      "Ba Na Hills Golf CLub · 예정 골프장 코스",
+      "Ba Na Hills Golf CLub · 예정 골프장 코스"
     ],
     "sourceHeading": "다낭 골프 5일 #다색골프 #18홀X2회 #몽고메리/바나힐/라구나 외 #로얄 로터스(4성급) #1일자유시간 #No가이드/쇼핑 #2인출발가능",
     "sourceFamilyDuration": "5·6일",
@@ -6202,13 +5895,14 @@
       "렌탈비 : 가격문의 (클럽별상이(사전문의필수))",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "바나힐골프장"
+    "thumbCaption": "Ba Na Hills Golf CLub · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-d6291eba0f9a",
     "title": "파타야 타이시암CC 파크골프 5일",
     "summary": "파타야 타이시암CC 파크골프 5일. 예정 코스: 타이 시암 파크골프 & 리조트. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/bbfcc62992b1aa66.webp",
+    "thumb": "/products/courses/bbfcc62992b1aa66.webp",
     "country": "태국",
     "area": "파타야",
     "kind": "해외",
@@ -6279,14 +5973,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/bbfcc62992b1aa66.webp",
-      "/products/hanatour/details/3cf17ff5a8522c54.webp",
-      "/products/hanatour/details/29ef619d4f49d909.webp"
+      "/products/courses/bbfcc62992b1aa66.webp",
+      "/products/courses/3cf17ff5a8522c54.webp"
     ],
     "galleryCaptions": [
-      "시암파크골프",
-      "시암파크골프",
-      "시암파크골프"
+      "Thai Siam Park Golf & Resort · 예정 골프장 코스",
+      "Thai Siam Park Golf & Resort · 예정 골프장 코스"
     ],
     "sourceHeading": "[부산출발][파크골프] 파타야 골프 5일 #골프텔 #타이시암 파크골프 #무제한라운드 #36홀규모 #2인출발가능",
     "sourceFamilyDuration": "5·6일",
@@ -6294,14 +5986,15 @@
       "객실 1인 사용료 : 120,000원",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "시암파크골프",
+    "thumbCaption": "Thai Siam Park Golf & Resort · 예정 골프장 코스",
+    "photoPending": false,
     "quoteNotice": "공급사 원상품은 현지 합류 불가로 안내되어 있습니다. 항공 제외 구성 가능 여부를 먼저 확인하고, 어려운 경우 대체 상품을 안내합니다."
   },
   {
     "slug": "hana-882a42dace3a",
     "title": "칸차나부리 허니퀸 파크골프 빌리지 5일",
     "summary": "칸차나부리 허니퀸 파크골프 빌리지 5일. 예정 코스: 파크골프빌리지. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/a1ddc4a14243f862.webp",
+    "thumb": "/products/courses/1572bd7d86defe1c.webp",
     "country": "태국",
     "area": "칸차나부리",
     "kind": "해외",
@@ -6371,12 +6064,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/a1ddc4a14243f862.webp",
-      "/products/hanatour/details/0fb0034b671bf37c.webp"
+      "/products/courses/1572bd7d86defe1c.webp",
+      "/products/courses/1b41685306df3586.webp",
+      "/products/courses/56b06a5c3f5d140b.webp"
     ],
     "galleryCaptions": [
-      "허니퀸 파크골프 빌리지",
-      "허니퀸 파크골프 빌리지"
+      "Parkgolfvillage · 예정 골프장 코스",
+      "Parkgolfvillage · 예정 골프장 코스",
+      "Parkgolfvillage · 예정 골프장 코스"
     ],
     "sourceHeading": "[부산출발][파크골프] 칸차나부리 골프 5일 #골프텔 #허니퀸 파크골프 빌리지 #무제한라운드 #45홀규모 #관광포함 #2인출발가능",
     "sourceFamilyDuration": "5·6일",
@@ -6384,14 +6079,15 @@
       "객실 1인 사용료 : 90,000원",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "허니퀸 파크골프 빌리지",
+    "thumbCaption": "Parkgolfvillage · 예정 골프장 코스",
+    "photoPending": false,
     "quoteNotice": "공급사 원상품은 현지 합류 불가로 안내되어 있습니다. 항공 제외 구성 가능 여부를 먼저 확인하고, 어려운 경우 대체 상품을 안내합니다."
   },
   {
     "slug": "hana-798240f4c4cb",
     "title": "치앙마이 제키파크골프 리조트 5일",
     "summary": "치앙마이 제키파크골프 리조트 5일. 예정 코스: 젝키 파크 골프 앤 리조트. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/48d78cb384ddd040.webp",
+    "thumb": "/products/courses/2700cff373143b88.webp",
     "country": "태국",
     "area": "치앙마이",
     "kind": "해외",
@@ -6463,16 +6159,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/48d78cb384ddd040.webp",
-      "/products/hanatour/details/2700cff373143b88.webp",
-      "/products/hanatour/details/0cd96192603cc1b0.webp",
-      "/products/hanatour/details/d3575586bb6116ed.webp"
+      "/products/courses/2700cff373143b88.webp",
+      "/products/courses/f0bee91b4912b640.webp",
+      "/products/courses/50ded7dfdf137bbe.webp"
     ],
     "galleryCaptions": [
-      "jacki park golf resort",
-      "JACKI PARK GOLF - 파크골프",
-      "jacki park golf resort",
-      "jacki park golf resort"
+      "Jacki park golf & resort · 예정 골프장 코스",
+      "Jacki park golf & resort · 예정 골프장 코스",
+      "Jacki park golf & resort · 예정 골프장 코스"
     ],
     "sourceHeading": "[파크골프] 치앙마이 골프 5일 #골프리조트 #제키파크골프 #무제한라운드#조/중/석식포함 #2인출발가능",
     "sourceFamilyDuration": "5일",
@@ -6480,14 +6174,15 @@
       "객실 1인 사용료 : 120,000원",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "jacki park golf resort",
+    "thumbCaption": "Jacki park golf & resort · 예정 골프장 코스",
+    "photoPending": false,
     "quoteNotice": "공급사 원상품은 현지 합류 불가로 안내되어 있습니다. 항공 제외 구성 가능 여부를 먼저 확인하고, 어려운 경우 대체 상품을 안내합니다."
   },
   {
     "slug": "hana-52c2e708f5ea",
     "title": "미야자키 아오시마 파크골프 · 온천 호텔 3일",
     "summary": "미야자키 아오시마 파크골프 · 온천 호텔 3일. 예정 코스: 미야쟈카 아오시마 파크골프장. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/5ff7e95df9c2f516.webp",
+    "thumb": "/images/product-photo-pending.svg",
     "country": "일본",
     "area": "미야자키",
     "kind": "해외",
@@ -6548,29 +6243,22 @@
         "plan": "미야자키\n조식 (호텔식)\n호텔 체크아웃 후, 공항으로 이동 송영차량 이용 소요시간 : 약 30분\n중식 (기내식)\n인천"
       }
     ],
-    "gallery": [
-      "/products/hanatour/details/5ff7e95df9c2f516.webp",
-      "/products/hanatour/details/587026a7bcc62521.webp",
-      "/products/hanatour/details/f9cac7ff6ad32442.webp"
-    ],
-    "galleryCaptions": [
-      "ANA Holiday Inn Resort Miyazaki",
-      "ANA Holiday Inn Resort Miyazaki",
-      "ANA Holiday Inn Resort Miyazaki"
-    ],
+    "gallery": [],
+    "galleryCaptions": [],
     "sourceHeading": "[파크골프] 미야자키 골프 3일 #아오시마파크골프장 #무제한라운드*2회 #아나홀리데이호텔 #온천욕 #조/석식포함",
     "sourceFamilyDuration": "3일",
     "optionalCosts": [
       "객실 1인 사용료 : 100,000원",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "ANA Holiday Inn Resort Miyazaki"
+    "thumbCaption": "골프장 사진 확인 중",
+    "photoPending": true
   },
   {
     "slug": "hana-bb5cdbc72a86",
     "title": "나트랑 셀렉텀노아 리조트 파크골프 5일",
     "summary": "나트랑 셀렉텀노아 리조트 파크골프 5일. 예정 코스: 셀렉텀노아 리조트 파크골프장. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/25a72c57fc0cadcb.webp",
+    "thumb": "/products/courses/d4eae8b6a977bedd.webp",
     "country": "베트남",
     "area": "나트랑",
     "kind": "해외",
@@ -6642,14 +6330,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/25a72c57fc0cadcb.webp",
-      "/products/hanatour/details/0d3bcd83b3cccca1.webp",
-      "/products/hanatour/details/62d3e77bd9f4c536.webp"
+      "/products/courses/d4eae8b6a977bedd.webp",
+      "/products/courses/630ebe2b3d5754f9.webp"
     ],
     "galleryCaptions": [
-      "셀렉텀 노아 리조트 캄란-야외 수영장",
-      "셀렉텀 노아 리조트 캄란-워터파크",
-      "셀렉텀 노아 리조트 캄란-해변"
+      "Selectum Noa Resort Park Golf Course · 예정 골프장 코스",
+      "Selectum Noa Resort Park Golf Course · 예정 골프장 코스"
     ],
     "sourceHeading": "[파크골프/부산출발] 나트랑 골프 5일#골프리조트 #셀렉텀노아 리조트&파크CC #무제한*3회 #올인클루시브",
     "sourceFamilyDuration": "5·6일",
@@ -6657,13 +6343,14 @@
       "객실 1인 사용료 : 600,000원",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "셀렉텀 노아 리조트 캄란-야외 수영장"
+    "thumbCaption": "Selectum Noa Resort Park Golf Course · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-d478236041b1",
     "title": "부산 출발 규슈 파크골프 · 부관훼리 4일",
     "summary": "부산 출발 규슈 파크골프 · 부관훼리 4일. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/1f2acd7db4a2e576.webp",
+    "thumb": "/images/product-photo-pending.svg",
     "country": "일본",
     "area": "규슈",
     "kind": "해외",
@@ -6701,7 +6388,7 @@
       "기타 : 가격문의 (선내식 2회 / 골프클럽 수송비(왕복 18,000원))",
       "개인 여행경비(물값, 자유시간시 개인비용 등)"
     ],
-    "inclusionNote": "대표 출발일의 현지 구성입니다. 아래 비용은 해당 일정의 참고 조건이며, 희망 출발일·인원에 따라 최종 견적서로 확정합니다.",
+    "inclusionNote": "대표 출발일의 현지 구성입니다. 아래 비용은 해당 일정의 참고 조건이며, 희망 출발일·인원에 따라 최종 견적서로 확정합니다. 파크골프장의 정확한 시설명·위치는 견적서에서 재확인합니다.",
     "detailSourceUrl": "https://cp.hanatour.com/trp/pkg/CHPC0PKG0200M200?pkgCd=JKG400261104P01&prePage=major-products",
     "detailCheckedAt": "2026-09-30",
     "detailBasis": "JKG400261104P01",
@@ -6714,13 +6401,13 @@
       },
       {
         "day": "2일차",
-        "summary": "시모노세키-유후로 이동 (약 2시간 소요)",
-        "plan": "조식 (선내식)\n시모노세키-유후로 이동 (약 2시간 소요)\n유후-구마모토로 이동 (약 1시간50분 소요)\n중식 (현지식)\n라운드 후 호텔로 이동 - 소요시간 : 약 1시간 20분\n호텔 체크인 후 석식 및 휴식\n석식 (호텔식)\n예정 숙소: 호텔 세키아"
+        "summary": "초요 파크골프장 예정 (시설 정보 재확인 필요)",
+        "plan": "조식 (선내식)\n시모노세키-유후로 이동 (약 2시간 소요)\n유후-구마모토로 이동 (약 1시간50분 소요)\n중식 (현지식)\n라운드 후 호텔로 이동 - 소요시간 : 약 1시간 20분\n호텔 체크인 후 석식 및 휴식\n석식 (호텔식)\n예정 숙소: 호텔 세키아\n파크골프 라운드: 초요 파크골프장 예정 (시설 정보 재확인 필요). 최종 시설·진행 조건은 견적서에서 확정합니다."
       },
       {
         "day": "3일차",
-        "summary": "구마모토-사가로 이동 (약 1시간15분 소요)",
-        "plan": "조식 (호텔식)\n호텔 조식 후 체크아웃\n구마모토-사가로 이동 (약 1시간15분 소요)\n중식 (현지식)\n사가-다자이후로 이동 (약 1시간10분 소요)\n다자이후-시모노세키로 이동\n시모노세키\n시모노세키항으로 이동 후 출국수속\n석식 (선내식)\n예정 숙소: 부관페리"
+        "summary": "시오이가와 파크골프장 예정",
+        "plan": "조식 (호텔식)\n호텔 조식 후 체크아웃\n구마모토-사가로 이동 (약 1시간15분 소요)\n중식 (현지식)\n사가-다자이후로 이동 (약 1시간10분 소요)\n다자이후-시모노세키로 이동\n시모노세키\n시모노세키항으로 이동 후 출국수속\n석식 (선내식)\n예정 숙소: 부관페리\n파크골프 라운드: 시오이가와 파크골프장 예정. 최종 시설·진행 조건은 견적서에서 확정합니다."
       },
       {
         "day": "4일차",
@@ -6728,18 +6415,8 @@
         "plan": "조식 (불포함)\n부산"
       }
     ],
-    "gallery": [
-      "/products/hanatour/details/1f2acd7db4a2e576.webp",
-      "/products/hanatour/details/2b3f737a675fc04d.webp",
-      "/products/hanatour/details/23c731b9d0739dbe.webp",
-      "/products/hanatour/details/c0b6d82b4b990491.webp"
-    ],
-    "galleryCaptions": [
-      "세키아1",
-      "시오이가와 파크골프장",
-      "구마모토 세키아",
-      "시오이가와 파크골프장"
-    ],
+    "gallery": [],
+    "galleryCaptions": [],
     "sourceHeading": "큐슈 4일 #파크골프 #시오이가와36H #초요36H #부관훼리 #온천호텔 #유후인관광 #다자이후텐만궁 #노쇼핑 #8명이상출발가능",
     "sourceFamilyDuration": "4일",
     "optionalCosts": [
@@ -6747,13 +6424,14 @@
       "렌탈비 : 클럽 렌탈 비용 (1회 JPY 200)\n\n※현지에서 직접 가이드님께 지불하시면 됩니다.",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "세키아1"
+    "thumbCaption": "골프장 사진 확인 중",
+    "photoPending": true
   },
   {
     "slug": "hana-b08c688159c9",
     "title": "부산 출발 규슈 파크골프 · 카멜리아호 4일",
     "summary": "부산 출발 규슈 파크골프 · 카멜리아호 4일. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/1f2acd7db4a2e576.webp",
+    "thumb": "/images/product-photo-pending.svg",
     "country": "일본",
     "area": "규슈",
     "kind": "해외",
@@ -6791,7 +6469,7 @@
       "기타 : 가격문의 (선내식 1회 / 골프클럽 수송비(왕복 18,000원))",
       "개인 여행경비(물값, 자유시간시 개인비용 등)"
     ],
-    "inclusionNote": "대표 출발일의 현지 구성입니다. 아래 비용은 해당 일정의 참고 조건이며, 희망 출발일·인원에 따라 최종 견적서로 확정합니다.",
+    "inclusionNote": "대표 출발일의 현지 구성입니다. 아래 비용은 해당 일정의 참고 조건이며, 희망 출발일·인원에 따라 최종 견적서로 확정합니다. 파크골프장의 정확한 시설명·위치는 견적서에서 재확인합니다.",
     "detailSourceUrl": "https://cp.hanatour.com/trp/pkg/CHPC0PKG0200M200?pkgCd=JKG401261104CR1&prePage=major-products",
     "detailCheckedAt": "2026-09-30",
     "detailBasis": "JKG401261104CR1",
@@ -6804,13 +6482,13 @@
       },
       {
         "day": "2일차",
-        "summary": "후쿠오카-유후로 이동 (약 1시간30분 소요)",
-        "plan": "조식 (선내식)\n후쿠오카-유후로 이동 (약 1시간30분 소요)\n유후-구마모토로 이동 (약 1시간50분 소요)\n중식 (현지식)\n라운드 후 호텔로 이동\n\n- 소요시간 : 약 1시간 20분\n호텔 체크인 후 석식 및 휴식\n석식 (호텔식)\n예정 숙소: 호텔 세키아"
+        "summary": "초요 파크골프장 예정 (시설 정보 재확인 필요)",
+        "plan": "조식 (선내식)\n후쿠오카-유후로 이동 (약 1시간30분 소요)\n유후-구마모토로 이동 (약 1시간50분 소요)\n중식 (현지식)\n라운드 후 호텔로 이동\n\n- 소요시간 : 약 1시간 20분\n호텔 체크인 후 석식 및 휴식\n석식 (호텔식)\n예정 숙소: 호텔 세키아\n파크골프 라운드: 초요 파크골프장 예정 (시설 정보 재확인 필요). 최종 시설·진행 조건은 견적서에서 확정합니다."
       },
       {
         "day": "3일차",
-        "summary": "구마모토-사가로 이동 (약 1시간15분 소요)",
-        "plan": "조식 (호텔식)\n호텔 조식 후 체크아웃\n구마모토-사가로 이동 (약 1시간15분 소요)\n중식 (현지식)\n사가-다자이후로 이동 (약 1시간10분 소요)\n석식 (현지식)\n석식 후 호텔 이동 및 휴식\n예정 숙소: 스마일 스마트 인 하카타, 씨사이드 호텔 트윈스 모모치"
+        "summary": "시오이가와 파크골프장 예정",
+        "plan": "조식 (호텔식)\n호텔 조식 후 체크아웃\n구마모토-사가로 이동 (약 1시간15분 소요)\n중식 (현지식)\n사가-다자이후로 이동 (약 1시간10분 소요)\n석식 (현지식)\n석식 후 호텔 이동 및 휴식\n예정 숙소: 스마일 스마트 인 하카타, 씨사이드 호텔 트윈스 모모치\n파크골프 라운드: 시오이가와 파크골프장 예정. 최종 시설·진행 조건은 견적서에서 확정합니다."
       },
       {
         "day": "4일차",
@@ -6818,18 +6496,8 @@
         "plan": "조식 (호텔식)\n호텔 조식 후 체크아웃\n하카타 항으로 이동하여 탑승수속\n후쿠오카\n부산"
       }
     ],
-    "gallery": [
-      "/products/hanatour/details/1f2acd7db4a2e576.webp",
-      "/products/hanatour/details/05f01a3b38c58630.webp",
-      "/products/hanatour/details/2b3f737a675fc04d.webp",
-      "/products/hanatour/details/23c731b9d0739dbe.webp"
-    ],
-    "galleryCaptions": [
-      "세키아1",
-      "스마일 호텔 하카타",
-      "시오이가와 파크골프장",
-      "구마모토 세키아"
-    ],
+    "gallery": [],
+    "galleryCaptions": [],
     "sourceHeading": "큐슈 4일 #파크골프 #시오이가와36H #초요36H #카멜리아호 #온천호텔 #후쿠오카시내호텔 #유후인관광 #다자이후텐만궁 #노쇼핑 #8명이상출발가능",
     "sourceFamilyDuration": "4일",
     "optionalCosts": [
@@ -6837,13 +6505,14 @@
       "렌탈비 : 클럽 렌탈 비용 (1회 JPY 200)\n\n※현지에서 직접 가이드님께 지불하시면 됩니다.",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "세키아1"
+    "thumbCaption": "골프장 사진 확인 중",
+    "photoPending": true
   },
   {
     "slug": "hana-45383264bd16",
     "title": "부산 출발 방콕 파인허스트 다색골프 5일",
     "summary": "부산 출발 방콕 파인허스트 다색골프 5일. 예정 코스: [100대 골프장]방콕 파인허스트 G.C, 윈저파크 G.C. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/678f8784c5938749.webp",
+    "thumb": "/products/courses/678f8784c5938749.webp",
     "country": "태국",
     "area": "방콕",
     "kind": "해외",
@@ -6916,18 +6585,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/678f8784c5938749.webp",
-      "/products/hanatour/details/670d965ed089874e.webp",
-      "/products/hanatour/details/c7219b45d2db6bd2.webp",
-      "/products/hanatour/details/cb112aed7170416d.webp",
-      "/products/hanatour/details/56bba7ac86132e8e.webp"
+      "/products/courses/678f8784c5938749.webp",
+      "/products/courses/78a14588703fd251.webp"
     ],
     "galleryCaptions": [
-      "파인허스트 골프텔",
-      "BANGPAKONG RIVERSIDE COUNTRY CLUB",
-      "로얄타이 아미 CC (Royal Thai Army Golf Club)",
-      "앰버서더 호텔 방콕",
-      "파인허스트 골프텔"
+      "Pine Hurst Golf&Country Club · 예정 골프장 코스",
+      "Pine Hurst Golf&Country Club · 예정 골프장 코스"
     ],
     "sourceHeading": "[부산출발] 방콕 골프 5일 #다색골프 #18홀*3회 #파인허스트CC 외10곳 #스쿰빗시내 4성호텔 #2인출발가능",
     "sourceFamilyDuration": "5·6일",
@@ -6935,13 +6598,14 @@
       "객실 1인 사용료 : 150,000원",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "파인허스트 골프텔"
+    "thumbCaption": "Pine Hurst Golf&Country Club · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-028ca29bbf44",
     "title": "부산 출발 오키나와 다색골프 · 토리피토 나하 4일",
     "summary": "부산 출발 오키나와 다색골프 · 토리피토 나하 4일. 예정 코스: 오키나와 츄라 오차드 골프클럽, 기노자 컨트리 클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/adf3ef45da536797.webp",
+    "thumb": "/products/courses/b48680f1f4667ce8.webp",
     "country": "일본",
     "area": "오키나와",
     "kind": "해외",
@@ -7011,20 +6675,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/adf3ef45da536797.webp",
-      "/products/hanatour/details/17e93fdd9cdaaa42.webp",
-      "/products/hanatour/details/dc60f22c54634691.webp",
-      "/products/hanatour/details/b7e94aa7f3d930d7.webp",
-      "/products/hanatour/details/9171ce220cf2a969.webp",
-      "/products/hanatour/details/6fa7aa25a2177c16.webp"
+      "/products/courses/b48680f1f4667ce8.webp",
+      "/products/courses/dc60f22c54634691.webp",
+      "/products/courses/c62bf7f12aec16f3.webp"
     ],
     "galleryCaptions": [
-      "기노자CC",
-      "CHURA ORCHARD GOLF CLUB",
-      "슈레이 컨트리 클럽",
-      "호텔 토리피토 나하 아사히바시-로비",
-      "앤드룸스 나하포트",
-      "기노자CC"
+      "슈레이 컨트리 클럽 · 예정 골프장 코스",
+      "슈레이 컨트리 클럽 · 예정 골프장 코스",
+      "슈레이 컨트리 클럽 · 예정 골프장 코스"
     ],
     "sourceHeading": "[부산출발] 오키나와 골프 4일 #다색골프 #18홀*3회 #나하시내3성급호텔 #슈레이/기노자/츄라오차드CC #조식포함 #나하시내숙박",
     "sourceFamilyDuration": "4일",
@@ -7032,13 +6690,14 @@
       "객실 1인 사용료 : 200,000원",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "기노자CC"
+    "thumbCaption": "슈레이 컨트리 클럽 · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-f6b18d8b6db0",
     "title": "부산 출발 샤먼 다색골프 · 5성 호텔 5일",
     "summary": "부산 출발 샤먼 다색골프 · 5성 호텔 5일. 예정 코스: 하문 동방 골프클럽, 천주 골프클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/fa163fa488a9cb63.webp",
+    "thumb": "/products/courses/dfc9da2a7f16f4e4.webp",
     "country": "중국",
     "area": "샤먼",
     "kind": "해외",
@@ -7115,20 +6774,14 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/fa163fa488a9cb63.webp",
-      "/products/hanatour/details/5d512130de179070.webp",
-      "/products/hanatour/details/8f77026fa017cab5.webp",
-      "/products/hanatour/details/c43fc900f1a4305d.webp",
-      "/products/hanatour/details/61445b55da7efc2d.webp",
-      "/products/hanatour/details/0071837589370d97.webp"
+      "/products/courses/dfc9da2a7f16f4e4.webp",
+      "/products/courses/fa163fa488a9cb63.webp",
+      "/products/courses/f1ede32ac4ba882f.webp"
     ],
     "galleryCaptions": [
-      "동방CC",
-      "남태무CC",
-      "천주CC",
-      "큐리오 컬렉션 바이 힐튼 샤먼",
-      "하문 화럭스 호텔",
-      "동방CC"
+      "Orient Golf & Country Club · 예정 골프장 코스",
+      "Orient Golf & Country Club · 예정 골프장 코스",
+      "Orient Golf & Country Club · 예정 골프장 코스"
     ],
     "sourceHeading": "[부산출발] 샤먼(하문) 골프 5일#다색골프 #18홀*4회 #5성급호텔 #동방/천주/남태무CC #캐디+카트피 포함 #핵심관광포함",
     "sourceFamilyDuration": "4·5일",
@@ -7137,13 +6790,14 @@
       "최소출발미달 : 3인 진행시 또는 2인 진행시 추가비용 상담원 별도 문의",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "동방CC"
+    "thumbCaption": "Orient Golf & Country Club · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-15fb867acf04",
     "title": "부산 출발 비엔티안 다색골프 · 4성 호텔 5일",
     "summary": "부산 출발 비엔티안 다색골프 · 4성 호텔 5일. 예정 코스: 부영 씨게임즈 골프 클럽, 메콩. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/7138446fbd0e4c66.webp",
+    "thumb": "/products/courses/7138446fbd0e4c66.webp",
     "country": "라오스",
     "area": "비엔티안",
     "kind": "해외",
@@ -7218,16 +6872,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/7138446fbd0e4c66.webp",
-      "/products/hanatour/details/96e4fe3f87e87bbe.webp",
-      "/products/hanatour/details/4d09fc6cffb98956.webp",
-      "/products/hanatour/details/3011864b4a761895.webp"
+      "/products/courses/7138446fbd0e4c66.webp",
+      "/products/courses/0829c8c004c79a5d.webp"
     ],
     "galleryCaptions": [
-      "라오CC",
-      "메콩GC",
-      "S2 MODERN BOUTIQUE HOTEL",
-      "라오CC"
+      "LAO COUNTRY CLUB · 예정 골프장 코스",
+      "LAO COUNTRY CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "✨가격이특전✨ [부산출발] 비엔티안 골프 5일 #다색골프 #18홀*3회 #라오/부영/메콩CC #4성급호텔 #Beer LAO + 망고도시락제공",
     "sourceFamilyDuration": "5일",
@@ -7237,13 +6887,14 @@
       "최소출발미달 : 3인 출발시 최소출발인원 미달로 인하여 3박5일 일정시 12만원/인, 4박6일 일정시 16만원/인 추가됩니다.\n2인 출발시 최소출발인원 미달로 인하여 3박5일 일정시 16만원/인, 4박6일 일정시 20만원/인 추가됩니다.\n※ 객실은 트리플룸 (엑베추가) 사용 기준이며, 싱글룸 사용시 싱글룸차지 별도 추가됩니다.",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "라오CC"
+    "thumbCaption": "LAO COUNTRY CLUB · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-fd773d89f0c6",
     "title": "부산 출발 나트랑 아나라 빈티엔GC 5일",
     "summary": "부산 출발 나트랑 아나라 빈티엔GC 5일. 예정 코스: 아나라 빈티엔 골프 클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/bef2c82af8d4402a.webp",
+    "thumb": "/products/courses/d574f1fa8af49bd3.webp",
     "country": "베트남",
     "area": "나트랑",
     "kind": "해외",
@@ -7315,18 +6966,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/bef2c82af8d4402a.webp",
-      "/products/hanatour/details/d574f1fa8af49bd3.webp",
-      "/products/hanatour/details/6584a6a52d353966.webp",
-      "/products/hanatour/details/609dec455e58e17c.webp",
-      "/products/hanatour/details/6faafbff0a085212.webp"
+      "/products/courses/d574f1fa8af49bd3.webp",
+      "/products/courses/609dec455e58e17c.webp"
     ],
     "galleryCaptions": [
-      "아레나 리조트",
-      "나라빈티엔 골프장",
-      "아레나 리조트",
-      "나라빈티엔 골프장",
-      "아레나 리조트"
+      "ANARA BINHTIEN GOLF CLUB · 예정 골프장 코스",
+      "ANARA BINHTIEN GOLF CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "[부산출발] 나트랑 골프 5일 #골프연계호텔 #27홀*3회 #아나라 빈티엔CC #엠피리언깜란리조트 #전식포함 #2인출발가능",
     "sourceFamilyDuration": "5·6일",
@@ -7335,13 +6980,14 @@
       "렌탈비 : 1인 18홀 클럽렌탈 기준/사전 요청 조건(상품 담당자와 금액 확인 필요)",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "아레나 리조트"
+    "thumbCaption": "ANARA BINHTIEN GOLF CLUB · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-00c99bfabd4e",
     "title": "부산 출발 하노이 헤론레이크 다색골프 5일",
     "summary": "부산 출발 하노이 헤론레이크 다색골프 5일. 예정 코스: 하노이 피닉스 C.C, 다이 라이 스타 골프 클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/df9ec542c7112c93.webp",
+    "thumb": "/products/courses/df9ec542c7112c93.webp",
     "country": "베트남",
     "area": "하노이",
     "kind": "해외",
@@ -7417,18 +7063,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/df9ec542c7112c93.webp",
-      "/products/hanatour/details/a1ef41528045f924.webp",
-      "/products/hanatour/details/d12169cef5ce463b.webp",
-      "/products/hanatour/details/4c26aa186d5caae6.webp",
-      "/products/hanatour/details/367ccb8fb75797c6.webp"
+      "/products/courses/df9ec542c7112c93.webp",
+      "/products/courses/c6d83395cc0d44dd.webp"
     ],
     "galleryCaptions": [
-      "DAI LAI STAR GOLF & COUNTRY CLUB",
-      "Heron G.C",
-      "TAMDAO GOLF GOLF & RESORT",
-      "STONE VALLEY GOLF & RESORT",
-      "Heron G.C"
+      "DAI LAI STAR GOLF & COUNTRY CLUB · 예정 골프장 코스",
+      "DAI LAI STAR GOLF & COUNTRY CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "[부산출발] 하노이 골프 5일 #다색골프 #18홀*3회 #다이라이/헤론CC외 4곳 #블루비즈호텔 #1인1실 #미딩(한인타운)지역 #카트/캐디피ALL포함 #NO가이드 #2인출발가능(추가요금)",
     "sourceFamilyDuration": "5일",
@@ -7436,13 +7076,14 @@
       "객실 1인 사용료 : 요금미정, 문의바랍니다.",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "DAI LAI STAR GOLF & COUNTRY CLUB"
+    "thumbCaption": "DAI LAI STAR GOLF & COUNTRY CLUB · 예정 골프장 코스",
+    "photoPending": false
   },
   {
     "slug": "hana-5df4eb8d7864",
     "title": "부산 출발 사가 다색골프 3일",
     "summary": "부산 출발 사가 다색골프 3일. 예정 코스: 싸이칸위너스 골프클럽, 텐잔컨트리클럽. 희망 출발일과 인원에 맞춰 항공 제외 구성 가능 여부와 견적을 안내합니다.",
-    "thumb": "/products/hanatour/details/16bde85e38901be3.webp",
+    "thumb": "/products/courses/e6115588b3f7fad3.webp",
     "country": "일본",
     "area": "사가",
     "kind": "해외",
@@ -7506,20 +7147,12 @@
       }
     ],
     "gallery": [
-      "/products/hanatour/details/16bde85e38901be3.webp",
-      "/products/hanatour/details/54bd83e7fe612b7b.webp",
-      "/products/hanatour/details/71fb9df5904622cf.webp",
-      "/products/hanatour/details/ed9e87fdfd00b79e.webp",
-      "/products/hanatour/details/e6115588b3f7fad3.webp",
-      "/products/hanatour/details/43be335f12e9313f.webp"
+      "/products/courses/e6115588b3f7fad3.webp",
+      "/products/courses/63a68994abe2b80c.webp"
     ],
     "galleryCaptions": [
-      "텐잔 컨트리클럽",
-      "사이칸",
-      "타케오 우레시노 컨트리 클럽",
-      "이마리 센트럴 호텔 온천",
-      "텐잔",
-      "사이칸 위너스"
+      "TENZAN COUNTRY CLUB · 예정 골프장 코스",
+      "TENZAN COUNTRY CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "[부산출발] 사가 골프 3일 #다색골프 #18홀*2회 #이마리센트럴호텔 #텐잔/타케오우레시노/싸이칸위너스CC #조식포함 #1인1실 #온천호텔 #2인출발&2인라운드가능",
     "sourceFamilyDuration": "3일",
@@ -7528,6 +7161,7 @@
       "기타 : 트윈 변경시 : 1인 1박당 JPY 5,000 (사전확인 필수)",
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
-    "thumbCaption": "텐잔 컨트리클럽"
+    "thumbCaption": "TENZAN COUNTRY CLUB · 예정 골프장 코스",
+    "photoPending": false
   }
 ]

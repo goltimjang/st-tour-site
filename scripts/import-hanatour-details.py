@@ -124,8 +124,17 @@ for p in products:
     photos = review['photos']
     p['gallery'] = [x['path'] for x in photos]
     p['galleryCaptions'] = [clean(x['caption']) for x in photos]
-    p['thumb'] = p['gallery'][0]
-    p['thumbCaption'] = p['galleryCaptions'][0]
+    p['photoPending'] = bool(review.get('photoPending'))
+    if photos:
+        assert photos[0]['subject'] in ('course', 'clubhouse'), 'Hotel or generic image cannot be a product thumbnail'
+    p['thumb'] = p['gallery'][0] if photos else '/images/product-photo-pending.svg'
+    p['thumbCaption'] = p['galleryCaptions'][0] if photos else '골프장 사진 확인 중'
+    if key[0] in (61, 62):
+        # Supplier Choyo card mixes Saga geography with a Minamiaso facility.
+        p['inclusionNote'] += ' 파크골프장의 정확한 시설명·위치는 견적서에서 재확인합니다.'
+        for index, facility in [(1, '초요 파크골프장 예정 (시설 정보 재확인 필요)'), (2, '시오이가와 파크골프장 예정')]:
+            p['itinerary'][index]['summary'] = facility
+            p['itinerary'][index]['plan'] += '\n파크골프 라운드: ' + facility + '. 최종 시설·진행 조건은 견적서에서 확정합니다.'
     for x in photos: assets[x['path']] = x['src']
     golf = unique(x for day in d['days'] for x in day.get('golf', []))
     p['features'] = golf[:3]

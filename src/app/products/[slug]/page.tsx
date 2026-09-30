@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: `${p.title} | 골프투어 상품`,
     description: p.summary,
     alternates: { canonical: `/products/${slug}/` },
-    openGraph: { images: [{ url: p.thumb, alt: p.title }] },
+    openGraph: { images: p.photoPending ? [] : [{ url: p.thumb, alt: p.thumbCaption || p.title }] },
   };
 }
 
@@ -48,7 +48,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
     "@type": p.provider ? "TouristTrip" : "Product",
     name: p.title,
     description: p.summary,
-    image: `${site.domain}${p.thumb}`,
+    ...(p.photoPending ? {} : { image: `${site.domain}${p.thumb}` }),
     ...(p.provider ? { touristType: "골프여행", provider: { "@id": `${site.domain}/#organization` }, itinerary: { "@type": "Place", name: `${p.country} ${p.area}` } } : { brand: { "@id": `${site.domain}/#organization` } }),
     ...(!p.provider && priceNumber > 0 && {
       offers: {

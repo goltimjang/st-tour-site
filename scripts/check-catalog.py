@@ -27,7 +27,7 @@ for p in products:
  assert not any(re.search('항공|유류|공항세',x) for x in p['includes'])
  assert '왕복 항공권' in p['excludes'][0]
  for image in p.get('gallery',[]): assert (ROOT/'public'/image.lstrip('/')).is_file()
- assert p.get('itinerary') and p.get('gallery') and p.get('includes'),p['slug']
+ assert p.get('itinerary') and (p.get('gallery') or p.get('photoPending')) and p.get('includes'),p['slug']
  if p.get('itinerary'):
   detail=json.loads((ROOT/'data/imports/hanatour-details-2026-09-30'/f"{p['slug']}.json").read_text())
   assert detail['url']==p['detailSourceUrl']
@@ -38,7 +38,12 @@ for p in products:
   reviewed=curation[p['slug']]
   assert reviewed['sourceUrl']==detail['url']
   assert p['gallery']==[x['path'] for x in reviewed['photos']]
-  assert p['thumb']==p['gallery'][0] and len(p['gallery'])==len(p['galleryCaptions'])
+  assert len(p['gallery'])==len(p['galleryCaptions'])
+  if p.get('photoPending'):
+   assert not p['gallery'] and p['thumb']=='/images/product-photo-pending.svg'
+  else:
+   assert p['thumb']==p['gallery'][0] and reviewed['photos'][0]['subject'] in ('course','clubhouse')
+  assert all(x['subject'] in ('course','clubhouse') for x in reviewed['photos'])
   assert not rejected.intersection(p['gallery'])
   for photo in reviewed['photos']:
    assert any(c['title']==photo['facility'] and photo['src'] in [im['src'] for im in c['images']] for day in detail['days'] for c in day['cards']), 'Photo belongs to another facility or product'
@@ -56,4 +61,13 @@ for p in products:
  # Mixed airfare/transfer paragraphs must retain their land transport information.
  if p['sourceCard']==15 and p['sourceDetail'] in (0,2): assert any('송영차량' in x for x in p['includes'])
  if p['sourceCard']==53: assert all('옌바이' not in x and '르블랑' not in x for x in p['galleryCaptions'])
+# Generated destination concepts must never be reused as product facility evidence.
+assert all('/images/destinations/' not in p['thumb'] for p in products)
+identities={}
+for p in products:
+ for photo in curation[p['slug']]['photos']:
+  identity=(p['country'],photo['facility'])
+  assert identities.setdefault(photo['src'],identity)==identity, 'Photo reused for a different facility'
+  assert photo['sourceWidth']>0 and photo['originalUrl'].replace('/0_0/','/400_0/')==photo['src']
+assert sum(bool(p.get('photoPending')) for p in products)==3
 print('PASS: 76 live-source snapshots, matching duration, facility-bound photos, land-join caveats, mixed inclusion parsing, static quote routes and price safety')

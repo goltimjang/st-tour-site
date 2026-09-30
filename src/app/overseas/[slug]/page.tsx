@@ -84,6 +84,7 @@ export default async function CountryPage({ params }: { params: Promise<{ slug: 
           </div>
         )}
         <div className="relative mx-auto max-w-6xl px-5 py-16 sm:py-20 hero-anim">
+          <p className="mb-4 text-xs text-white/80">AI 지역 소개 이미지 · 실제 상품 시설 아님</p>
           <nav className="text-[13px] text-white/70 mb-4" aria-label="현재 위치">
             <Link href="/overseas/" className="hover:text-white">해외 골프투어</Link>
             <span className="mx-2">/</span>
@@ -155,7 +156,7 @@ export default async function CountryPage({ params }: { params: Promise<{ slug: 
             <Link key={o.slug} href={`/overseas/${o.slug}/`} className="group card-lift rounded-2xl border border-line overflow-hidden bg-white">
               {o.image && (
                 <div className="img-zoom relative h-24">
-                  <Image src={o.image} alt={`${o.name} 골프장`} fill sizes="270px" className="object-cover" />
+                  <span className="absolute z-10 bottom-1 left-1 rounded bg-navy/80 px-2 py-1 text-[10px] text-white">AI 지역 소개 이미지</span><Image src={o.image} alt={`${o.name} 지역 소개용 AI 이미지, 실제 상품 시설 아님`} fill sizes="270px" className="object-cover" />
                 </div>
               )}
               <div className="p-3.5">
