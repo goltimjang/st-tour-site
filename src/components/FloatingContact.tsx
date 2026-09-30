@@ -17,6 +17,6 @@ export default function FloatingContact() {
   const target = product?.quoteUrl ?? (path === "/" ? "#quick-quote" : /^\/(domestic|overseas|promotion)(\/|$)/.test(path) ? "#quote" : "/#quick-quote");
   return <nav className={`contact-bar ${keyboard ? "contact-bar-hidden" : ""}`} aria-label="빠른 상담">
     <a href={site.phoneHref} className="btn btn-light">전화 상담</a>
-    <Link href={target} className="btn btn-royal">무료 견적</Link>
+    <Link href={target} className="btn btn-royal">{product ? "이 상품 견적 요청" : "무료 견적"}</Link>
   </nav>;
 }

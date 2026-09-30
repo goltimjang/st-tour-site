@@ -1,0 +1,771 @@
+{
+  "costs": [
+    {
+      "items": [
+        "왕복항공권",
+        "국내공항세, 관광진흥개발기금, 전쟁보험료, 유류할증료",
+        "숙박비 : 2인 1실\n",
+        "식사비 : 전일정 조식 (중/석식 불포함)\n",
+        "그린피 : 일정표 세부 내역 참고\n",
+        "1억원 여행자보험"
+      ],
+      "label": "포함내역"
+    },
+    {
+      "items": [
+        "공항 미팅 & 샌딩 : 가격문의 (4인 이상 시 1인당 $60/ 3인 기준 1인당 $70 / 2인 기준 1인당 $110\n(해당금액은 미센딩&호텔<->골프장 차량비용) )",
+        "캐디피 : THB 400 (1인 18홀 기준 ※예정 골프장 평균 요금으로 골프장 별 요금 추가될 수 있습니다. ), 전동카 : THB 800 (1인 18홀 기준 ※예정 골프장 평균 요금으로 골프장 별 요금 추가될 수 있습니다. ), 캐디팁 : THB 400 (1인 18홀 기준)",
+        "개인 여행경비(물값, 자유시간시 개인비용 등)",
+        "각종 매너팁(테이블팁, 객실팁, 포터비, 마사지팁 등)",
+        "매너팁은 소비자의 자율적 선택으로 지불여부에 따른 불이익은 없습니다. "
+      ],
+      "label": "불포함내역"
+    },
+    {
+      "items": [
+        "항공리턴변경(문의), 클래스 차액 : 가격문의 (그룹항공요금 기준 상품가로서, 일반 좌석등급이 높아지면 상품가 상승됩니다. 좌석상황에 따라 변동되어 추가비용이 발생될 수 있으니 예약시 반드시 상담자와 확인부탁드립니다.)",
+        "객실 1인 사용료 : 150,000원",
+        "선택관광/기항지관광/현지투어에 관한 상세 내역은 패키지 상품상세를 참고바랍니다. "
+      ],
+      "label": "선택경비"
+    }
+  ],
+  "days": [
+    {
+      "cards": [
+        {
+          "images": [
+            {
+              "alt": "방콕 수완나품 국제공항 2",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2006/10/17/10000/5003e848-499c-4c3c-bbbb-9f447cdca6b9.jpg"
+            }
+          ],
+          "text": "\n        태국 입국 조건 및 필요 서류상세보기\n        \n        \n            \n            \n                [태국 디지털 입국 카드(TDAC) 작성 안내]\n\n태국 입국절차 변경(디지털 입국 카드) 안내 (25.5.1부터)\n태국에 입국하는 모든 외국인 여행객은 디지털 입국 카드를 필수로 작성해야 합니다. (미 작성 시 태국 입국 불가 )\n\n■ 작성 및 제출 방법\n태국 디지털 입국카드 등록 링크 : http://tdac.immigration.go.th \n작성방법 : https://drive.google.com/file/d/1Yw3aBUwElc0qPRPRmI3eLRC85YAxmBnQ/view?usp=sharing\n\n1. TDAC 홈페이지 접속 (필요 시 우측 상단 한국어 언어 변경)\n2. 홈페이지 안내에 따라 개인정보,여행 정보 등 입력\n3. 입력 사항 확인 후 제출\n4. 이메일로 받은 파일(QR코드)  확인 및 다운로드\n5. 태국 입국심사관에게 여권과 함께 파일(QR코드) 제시\n\n■ 작성 시점\n태국에 입국하는 날을 포함하여 입국 전 3일 이내에 작성 및 제출되어야 합니다.\n예시: 5월 4일 태국 입국 시 → 5월 2일 ~ 5월 4일 사이에 작성하여 제출\n\n■ 주의사항\n- 입국심사 시 인터넷 환경이 좋지 않을 수 있으므로 수신된 파일(QR코드)을 별도로 소지(출력 또는 캡처 등)하시기 바랍니다.\n- 입국신고는 비자와는 별개의 제도이므로 비자 소지 여부와 상관없이 모두 적용됩니다.\n- TDAC 작성 시 별도 비용은 없으며, TDAC를 제출한 이후에 여행 일정이 연기된 경우 도착 일정에 맞춰 다시 작성하여야 합니다.\n\n※ 출입국 절차 및 내용은 태국 정부 및 국내 지침에 따라 변경될 수 있는 점 참고 부탁드립니다.\n                \n                \n                \n            \n        \n        \n         \n    ",
+          "title": "태국 입국 조건 및 필요 서류"
+        },
+        {
+          "images": [
+            {
+              "alt": "수완나폼 B게이트 4번 출입구",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/06/02/10000/985db33f-83c5-40d8-bca7-7a714765ab69.jpg"
+            },
+            {
+              "alt": "수완나폼 B게이트 4번 출입구",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/06/02/10000/70636e32-35e4-416d-8762-082bfad143df.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/27/10000/7ddd468e-0f87-489e-86b9-3efadbad0c74.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/27/10000/09a9fd5c-b244-4b11-85dd-010d5758cf77.jpg"
+            },
+            {
+              "alt": "수완나폼 B게이트 4번 출입구",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/06/02/10000/171c203f-d6c6-4812-b896-2b6c907783cb.jpg"
+            },
+            {
+              "alt": "수완나폼 B게이트 4번 출입구",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/06/02/10000/985db33f-83c5-40d8-bca7-7a714765ab69.jpg"
+            },
+            {
+              "alt": "수완나폼 B게이트 4번 출입구",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/06/02/10000/70636e32-35e4-416d-8762-082bfad143df.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/27/10000/7ddd468e-0f87-489e-86b9-3efadbad0c74.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/27/10000/09a9fd5c-b244-4b11-85dd-010d5758cf77.jpg"
+            },
+            {
+              "alt": "수완나폼 B게이트 4번 출입구",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/06/02/10000/171c203f-d6c6-4812-b896-2b6c907783cb.jpg"
+            }
+          ],
+          "text": "\n        태국 입국 절차상세보기\n        \n        \n                   2/2이전다음\n            비행기에서 내리면 immigration 표지판을 따라 이동하다 입국 심사대(passport control)에서 여권을 제출하고 입국 심사를 받습니다. 입국 심사대를 통과하면 모니터에 도착 비행기에 따른 수하물 벨트가 나옵니다. 이를 확인한 후 해당 수하물 벨트로 이동하여 짐을 찾습니다. 짐을 찾은 후에는 세관 구역을 통과한 후 밖으로 나갈 수 있습니다. \n\n※ 수완나폼 공항 미팅 포인트 : 2층 B게이트 3번~4번출구\n            \n            \n            \n        \n        \n         \n  ※ 수완나폼 공항 미팅 포인트  \n  4번 회전문  피켓명 : 하나투어 - '고객명'  \n\n    ",
+          "title": "태국 입국 절차"
+        },
+        {
+          "images": [],
+          "text": "\n        태국 입국시 유의사항상세보기\n        태국입국시 담배는 1인 1보루, 술은 1인 1병(1ℓ), 전자담배 금지 규정! 위반시 벌금부과! \n\n        \n            태국은 세관 규정이 엄격하며 위반 적발 시 물품 압수 및 큰 금액의 벌금이 부과됩니다. 세관을 벗어난 공간에서도 사복 공항 직원이 적발하는 경우가 있으므로, 차량에 탑승하여 공항을 완전히 벗어날 때 까지 이 규정을 준수하셔야 합니다.  또한 타인의 짐을 대신 맡아 들고 있는 경우더라도 예외 없이 위반으로 적발되므로 주의하시기 바랍니다.\n            \n            \n            \n        \n        \n         \n   \n   \n\n    ",
+          "title": "태국 입국시 유의사항"
+        },
+        {
+          "images": [
+            {
+              "alt": "Manhattan Bangkok Hotel",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/04/16/10000/3b4cda3d-e773-4457-8941-4db7fe5bbb4d.jpg"
+            },
+            {
+              "alt": "Manhattan Bangkok Hotel",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/04/16/10000/4f33b73e-6ce7-4fdf-b417-c1deb2be900b.jpg"
+            },
+            {
+              "alt": "Manhattan Bangkok Hotel",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/04/16/10000/dcf488f7-af57-4ec7-a22e-fd507980d47f.jpg"
+            },
+            {
+              "alt": "Manhattan Bangkok Hotel",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/04/16/10000/3bb52062-184e-40c4-bbe3-17c4ee31f057.jpg"
+            },
+            {
+              "alt": "Manhattan Bangkok Hotel",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/04/16/10000/3ace6308-854e-4236-be35-1078baeb6eb8.jpg"
+            },
+            {
+              "alt": "Manhattan Bangkok Hotel",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/04/16/10000/0d44685c-395d-4434-8d42-aa0dd1f494d6.jpg"
+            },
+            {
+              "alt": "Manhattan Bangkok Hotel",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/04/16/10000/3b4cda3d-e773-4457-8941-4db7fe5bbb4d.jpg"
+            },
+            {
+              "alt": "Manhattan Bangkok Hotel",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/04/16/10000/4f33b73e-6ce7-4fdf-b417-c1deb2be900b.jpg"
+            },
+            {
+              "alt": "Manhattan Bangkok Hotel",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/04/16/10000/dcf488f7-af57-4ec7-a22e-fd507980d47f.jpg"
+            },
+            {
+              "alt": "Manhattan Bangkok Hotel",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/04/16/10000/3bb52062-184e-40c4-bbe3-17c4ee31f057.jpg"
+            },
+            {
+              "alt": "Manhattan Bangkok Hotel",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/04/16/10000/3ace6308-854e-4236-be35-1078baeb6eb8.jpg"
+            },
+            {
+              "alt": "Manhattan Bangkok Hotel",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/04/16/10000/0d44685c-395d-4434-8d42-aa0dd1f494d6.jpg"
+            }
+          ],
+          "text": "\n        MANHATTAN BANGKOK HOTEL\n        맨해튼 방콕\n        \n                     2/2이전다음\n            \n            \n            Manhattan Hotel Sukhumvit Bangkok 맨하탄은 4성호텔로 공항에서 시내 쪽으로 약 30분 거리이며 아속 코리안타운 근교에 위치하고 있습니다.\n호텔 주변엔 방콕 도심의 최 중심 번화가로 모든 인프라가 지근거리에 있어 도보로 이동이 가능합니다.\nBTS나나, BTS아속역, MRT 스쿰빗역이 근처에 있고 터미널21 쇼핑몰, 유명한 레스토랑과 유흥 인프라등을 차량 이동없이 모두 도보로 이동이 가능한 최적의 위치에 있습니다.\n또 5분 정도 걸으면 태국의 유명한 마사지 체인점인 헬스랜드 아속지점이 있어 타이 마사지를 원하는 골퍼들에겐 특별한 즐거움일 것입니다. \n그 밖에도 인근에는 수많은 레스토랑과 분위기 좋은 카페가 즐비해 있습니다.\n            \n        \n        \n         \n    ",
+          "title": "MANHATTAN BANGKOK HOTEL"
+        },
+        {
+          "images": [
+            {
+              "alt": "앰버서더 호텔 방콕",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/11/29/50000/01dc785b-c9d8-4a92-8fc1-88a5cea82ce5.jpg"
+            },
+            {
+              "alt": "앰버서더 호텔 방콕",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/11/29/50000/0fc10e89-6e62-46fa-8602-3145dffff5da.jpg"
+            },
+            {
+              "alt": "앰버서더 호텔 방콕",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/11/29/50000/a9554b8e-f689-4e69-931e-39530daf12e1.jpg"
+            }
+          ],
+          "text": "\n        AMBASSADOR HOTEL BANGKOK\n        앰배서더 방콕 호텔\n        \n            \n            \n            \n            엠버서더호텔 방콕방콕 엠버서더 호텔은 방콕의 중심부인 수쿰빗(Sukhumvit) 지역에서도 유흥과 관광의 중심인 Soi 11에 위치한 대형 호텔입니다. \n방콕 나이트라이프의 중심에 있어 늦은 시간까지 주변에 즐길 거리(바, 클럽, 마사지샵, 맛집)가 넘쳐나며,  위치 대비 가성비가 아주 좋은 체인 호텔로 손꼽힙니다.\n대형 야외 수영장, 피트니스 센터, 컨벤션 센터, 다양한 레스토랑(조식, 중식, 베이커리 등) 의 부대시설을 갖추고 있습니다.\n            \n        \n        \n        \n    ",
+          "title": "AMBASSADOR HOTEL BANGKOK"
+        }
+      ],
+      "day": "acc_con0",
+      "golf": [],
+      "hotel": [
+        "맨해튼 방콕",
+        "앰배서더 방콕 호텔"
+      ],
+      "images": [
+        {
+          "alt": "에어부산",
+          "src": "https://image.hanatour.com/usr/static/img/airline/BX.png"
+        },
+        {
+          "alt": "방콕 수완나품 국제공항 2",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2006/10/17/10000/5003e848-499c-4c3c-bbbb-9f447cdca6b9.jpg"
+        },
+        {
+          "alt": "수완나폼 B게이트 4번 출입구",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/06/02/10000/985db33f-83c5-40d8-bca7-7a714765ab69.jpg"
+        },
+        {
+          "alt": "수완나폼 B게이트 4번 출입구",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/06/02/10000/70636e32-35e4-416d-8762-082bfad143df.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/27/10000/7ddd468e-0f87-489e-86b9-3efadbad0c74.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/27/10000/09a9fd5c-b244-4b11-85dd-010d5758cf77.jpg"
+        },
+        {
+          "alt": "수완나폼 B게이트 4번 출입구",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/06/02/10000/171c203f-d6c6-4812-b896-2b6c907783cb.jpg"
+        },
+        {
+          "alt": "수완나폼 B게이트 4번 출입구",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/06/02/10000/985db33f-83c5-40d8-bca7-7a714765ab69.jpg"
+        },
+        {
+          "alt": "수완나폼 B게이트 4번 출입구",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/06/02/10000/70636e32-35e4-416d-8762-082bfad143df.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/27/10000/7ddd468e-0f87-489e-86b9-3efadbad0c74.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/27/10000/09a9fd5c-b244-4b11-85dd-010d5758cf77.jpg"
+        },
+        {
+          "alt": "수완나폼 B게이트 4번 출입구",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/06/02/10000/171c203f-d6c6-4812-b896-2b6c907783cb.jpg"
+        },
+        {
+          "alt": "Manhattan Bangkok Hotel",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/04/16/10000/3b4cda3d-e773-4457-8941-4db7fe5bbb4d.jpg"
+        },
+        {
+          "alt": "Manhattan Bangkok Hotel",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/04/16/10000/4f33b73e-6ce7-4fdf-b417-c1deb2be900b.jpg"
+        },
+        {
+          "alt": "Manhattan Bangkok Hotel",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/04/16/10000/dcf488f7-af57-4ec7-a22e-fd507980d47f.jpg"
+        },
+        {
+          "alt": "Manhattan Bangkok Hotel",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/04/16/10000/3bb52062-184e-40c4-bbe3-17c4ee31f057.jpg"
+        },
+        {
+          "alt": "Manhattan Bangkok Hotel",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/04/16/10000/3ace6308-854e-4236-be35-1078baeb6eb8.jpg"
+        },
+        {
+          "alt": "Manhattan Bangkok Hotel",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/04/16/10000/0d44685c-395d-4434-8d42-aa0dd1f494d6.jpg"
+        },
+        {
+          "alt": "Manhattan Bangkok Hotel",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/04/16/10000/3b4cda3d-e773-4457-8941-4db7fe5bbb4d.jpg"
+        },
+        {
+          "alt": "Manhattan Bangkok Hotel",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/04/16/10000/4f33b73e-6ce7-4fdf-b417-c1deb2be900b.jpg"
+        },
+        {
+          "alt": "Manhattan Bangkok Hotel",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/04/16/10000/dcf488f7-af57-4ec7-a22e-fd507980d47f.jpg"
+        },
+        {
+          "alt": "Manhattan Bangkok Hotel",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/04/16/10000/3bb52062-184e-40c4-bbe3-17c4ee31f057.jpg"
+        },
+        {
+          "alt": "Manhattan Bangkok Hotel",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/04/16/10000/3ace6308-854e-4236-be35-1078baeb6eb8.jpg"
+        },
+        {
+          "alt": "Manhattan Bangkok Hotel",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/04/16/10000/0d44685c-395d-4434-8d42-aa0dd1f494d6.jpg"
+        },
+        {
+          "alt": "앰버서더 호텔 방콕",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/11/29/50000/01dc785b-c9d8-4a92-8fc1-88a5cea82ce5.jpg"
+        },
+        {
+          "alt": "앰버서더 호텔 방콕",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/11/29/50000/0fc10e89-6e62-46fa-8602-3145dffff5da.jpg"
+        },
+        {
+          "alt": "앰버서더 호텔 방콕",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/11/29/50000/a9554b8e-f689-4e69-931e-39530daf12e1.jpg"
+        }
+      ],
+      "meals": "  [석식] 기내-불포함(유료제공)",
+      "stops": [
+        {
+          "text": "부산          ",
+          "title": "부산"
+        },
+        {
+          "meal": "\n                                  석식 (기내-불포함(유료제공))\n                                ",
+          "text": "    \n                                  석식 (기내-불포함(유료제공))\n                                      "
+        },
+        {
+          "text": "방콕          ",
+          "title": "방콕"
+        },
+        {
+          "text": " \n    \n        태국 입국 조건 및 필요 서류상세보기\n        \n        \n            \n            \n                [태국 디지털 입국 카드(TDAC) 작성 안내]\n\n태국 입국절차 변경(디지털 입국 카드) 안내 (25.5.1부터)\n태국에 입국하는 모든 외국인 여행객은 디지털 입국 카드를 필수로 작성해야 합니다. (미 작성 시 태국 입국 불가 )\n\n■ 작성 및 제출 방법\n태국 디지털 입국카드 등록 링크 : http://tdac.immigration.go.th \n작성방법 : https://drive.google.com/file/d/1Yw3aBUwElc0qPRPRmI3eLRC85YAxmBnQ/view?usp=sharing\n\n1. TDAC 홈페이지 접속 (필요 시 우측 상단 한국어 언어 변경)\n2. 홈페이지 안내에 따라 개인정보,여행 정보 등 입력\n3. 입력 사항 확인 후 제출\n4. 이메일로 받은 파일(QR코드)  확인 및 다운로드\n5. 태국 입국심사관에게 여권과 함께 파일(QR코드) 제시\n\n■ 작성 시점\n태국에 입국하는 날을 포함하여 입국 전 3일 이내에 작성 및 제출되어야 합니다.\n예시: 5월 4일 태국 입국 시 → 5월 2일 ~ 5월 4일 사이에 작성하여 제출\n\n■ 주의사항\n- 입국심사 시 인터넷 환경이 좋지 않을 수 있으므로 수신된 파일(QR코드)을 별도로 소지(출력 또는 캡처 등)하시기 바랍니다.\n- 입국신고는 비자와는 별개의 제도이므로 비자 소지 여부와 상관없이 모두 적용됩니다.\n- TDAC 작성 시 별도 비용은 없으며, TDAC를 제출한 이후에 여행 일정이 연기된 경우 도착 일정에 맞춰 다시 작성하여야 합니다.\n\n※ 출입국 절차 및 내용은 태국 정부 및 국내 지침에 따라 변경될 수 있는 점 참고 부탁드립니다.\n                \n                \n                \n            \n        \n        \n         \n    \n         "
+        },
+        {
+          "text": " \n    \n        태국 입국 절차상세보기\n        \n        \n                   2/2이전다음\n            비행기에서 내리면 immigration 표지판을 따라 이동하다 입국 심사대(passport control)에서 여권을 제출하고 입국 심사를 받습니다. 입국 심사대를 통과하면 모니터에 도착 비행기에 따른 수하물 벨트가 나옵니다. 이를 확인한 후 해당 수하물 벨트로 이동하여 짐을 찾습니다. 짐을 찾은 후에는 세관 구역을 통과한 후 밖으로 나갈 수 있습니다. \n\n※ 수완나폼 공항 미팅 포인트 : 2층 B게이트 3번~4번출구\n            \n            \n            \n        \n        \n         \n  ※ 수완나폼 공항 미팅 포인트  \n  4번 회전문  피켓명 : 하나투어 - '고객명'  \n\n    \n         "
+        },
+        {
+          "text": " \n    \n        태국 입국시 유의사항상세보기\n        태국입국시 담배는 1인 1보루, 술은 1인 1병(1ℓ), 전자담배 금지 규정! 위반시 벌금부과! \n\n        \n            태국은 세관 규정이 엄격하며 위반 적발 시 물품 압수 및 큰 금액의 벌금이 부과됩니다. 세관을 벗어난 공간에서도 사복 공항 직원이 적발하는 경우가 있으므로, 차량에 탑승하여 공항을 완전히 벗어날 때 까지 이 규정을 준수하셔야 합니다.  또한 타인의 짐을 대신 맡아 들고 있는 경우더라도 예외 없이 위반으로 적발되므로 주의하시기 바랍니다.\n            \n            \n            \n        \n        \n         \n   \n   \n\n    \n         "
+        },
+        {
+          "text": "      도착 후 예약 호텔로 이동합니다. *공항~ 호텔 이동거리는 30분정도 예상됩니다.    ",
+          "title": "도착 후 예약 호텔로 이동합니다."
+        },
+        {
+          "text": "      호텔 투숙 및 휴식    ",
+          "title": "호텔 투숙 및 휴식"
+        },
+        {
+          "text": " \n    \n        MANHATTAN BANGKOK HOTEL\n        맨해튼 방콕\n        \n                     2/2이전다음\n            \n            \n            Manhattan Hotel Sukhumvit Bangkok 맨하탄은 4성호텔로 공항에서 시내 쪽으로 약 30분 거리이며 아속 코리안타운 근교에 위치하고 있습니다.\n호텔 주변엔 방콕 도심의 최 중심 번화가로 모든 인프라가 지근거리에 있어 도보로 이동이 가능합니다.\nBTS나나, BTS아속역, MRT 스쿰빗역이 근처에 있고 터미널21 쇼핑몰, 유명한 레스토랑과 유흥 인프라등을 차량 이동없이 모두 도보로 이동이 가능한 최적의 위치에 있습니다.\n또 5분 정도 걸으면 태국의 유명한 마사지 체인점인 헬스랜드 아속지점이 있어 타이 마사지를 원하는 골퍼들에겐 특별한 즐거움일 것입니다. \n그 밖에도 인근에는 수많은 레스토랑과 분위기 좋은 카페가 즐비해 있습니다.\n            \n        \n        \n         \n    \n         "
+        },
+        {
+          "text": " \n    \n        AMBASSADOR HOTEL BANGKOK\n        앰배서더 방콕 호텔\n        \n            \n            \n            \n            엠버서더호텔 방콕방콕 엠버서더 호텔은 방콕의 중심부인 수쿰빗(Sukhumvit) 지역에서도 유흥과 관광의 중심인 Soi 11에 위치한 대형 호텔입니다. \n방콕 나이트라이프의 중심에 있어 늦은 시간까지 주변에 즐길 거리(바, 클럽, 마사지샵, 맛집)가 넘쳐나며,  위치 대비 가성비가 아주 좋은 체인 호텔로 손꼽힙니다.\n대형 야외 수영장, 피트니스 센터, 컨벤션 센터, 다양한 레스토랑(조식, 중식, 베이커리 등) 의 부대시설을 갖추고 있습니다.\n            \n        \n        \n        \n    \n         "
+        }
+      ],
+      "text": "  에어부산 05시간 50분 BX0545 18:00  2026.11.01(일) 부산 PUS 출발 21:50  2026.11.01(일) 방콕 BKK 도착      부산              \n                                  석식 (기내-불포함(유료제공))\n                                      방콕           \n    \n        태국 입국 조건 및 필요 서류상세보기\n        \n        \n            \n            \n                [태국 디지털 입국 카드(TDAC) 작성 안내]\n\n태국 입국절차 변경(디지털 입국 카드) 안내 (25.5.1부터)\n태국에 입국하는 모든 외국인 여행객은 디지털 입국 카드를 필수로 작성해야 합니다. (미 작성 시 태국 입국 불가 )\n\n■ 작성 및 제출 방법\n태국 디지털 입국카드 등록 링크 : http://tdac.immigration.go.th \n작성방법 : https://drive.google.com/file/d/1Yw3aBUwElc0qPRPRmI3eLRC85YAxmBnQ/view?usp=sharing\n\n1. TDAC 홈페이지 접속 (필요 시 우측 상단 한국어 언어 변경)\n2. 홈페이지 안내에 따라 개인정보,여행 정보 등 입력\n3. 입력 사항 확인 후 제출\n4. 이메일로 받은 파일(QR코드)  확인 및 다운로드\n5. 태국 입국심사관에게 여권과 함께 파일(QR코드) 제시\n\n■ 작성 시점\n태국에 입국하는 날을 포함하여 입국 전 3일 이내에 작성 및 제출되어야 합니다.\n예시: 5월 4일 태국 입국 시 → 5월 2일 ~ 5월 4일 사이에 작성하여 제출\n\n■ 주의사항\n- 입국심사 시 인터넷 환경이 좋지 않을 수 있으므로 수신된 파일(QR코드)을 별도로 소지(출력 또는 캡처 등)하시기 바랍니다.\n- 입국신고는 비자와는 별개의 제도이므로 비자 소지 여부와 상관없이 모두 적용됩니다.\n- TDAC 작성 시 별도 비용은 없으며, TDAC를 제출한 이후에 여행 일정이 연기된 경우 도착 일정에 맞춰 다시 작성하여야 합니다.\n\n※ 출입국 절차 및 내용은 태국 정부 및 국내 지침에 따라 변경될 수 있는 점 참고 부탁드립니다.\n                \n                \n                \n            \n        \n        \n         \n    \n          \n    \n        태국 입국 절차상세보기\n        \n        \n                   2/2이전다음\n            비행기에서 내리면 immigration 표지판을 따라 이동하다 입국 심사대(passport control)에서 여권을 제출하고 입국 심사를 받습니다. 입국 심사대를 통과하면 모니터에 도착 비행기에 따른 수하물 벨트가 나옵니다. 이를 확인한 후 해당 수하물 벨트로 이동하여 짐을 찾습니다. 짐을 찾은 후에는 세관 구역을 통과한 후 밖으로 나갈 수 있습니다. \n\n※ 수완나폼 공항 미팅 포인트 : 2층 B게이트 3번~4번출구\n            \n            \n            \n        \n        \n         \n  ※ 수완나폼 공항 미팅 포인트  \n  4번 회전문  피켓명 : 하나투어 - '고객명'  \n\n    \n          \n    \n        태국 입국시 유의사항상세보기\n        태국입국시 담배는 1인 1보루, 술은 1인 1병(1ℓ), 전자담배 금지 규정! 위반시 벌금부과! \n\n        \n            태국은 세관 규정이 엄격하며 위반 적발 시 물품 압수 및 큰 금액의 벌금이 부과됩니다. 세관을 벗어난 공간에서도 사복 공항 직원이 적발하는 경우가 있으므로, 차량에 탑승하여 공항을 완전히 벗어날 때 까지 이 규정을 준수하셔야 합니다.  또한 타인의 짐을 대신 맡아 들고 있는 경우더라도 예외 없이 위반으로 적발되므로 주의하시기 바랍니다.\n            \n            \n            \n        \n        \n         \n   \n   \n\n    \n               도착 후 예약 호텔로 이동합니다. *공항~ 호텔 이동거리는 30분정도 예상됩니다.          호텔 투숙 및 휴식     \n    \n        MANHATTAN BANGKOK HOTEL\n        맨해튼 방콕\n        \n                     2/2이전다음\n            \n            \n            Manhattan Hotel Sukhumvit Bangkok 맨하탄은 4성호텔로 공항에서 시내 쪽으로 약 30분 거리이며 아속 코리안타운 근교에 위치하고 있습니다.\n호텔 주변엔 방콕 도심의 최 중심 번화가로 모든 인프라가 지근거리에 있어 도보로 이동이 가능합니다.\nBTS나나, BTS아속역, MRT 스쿰빗역이 근처에 있고 터미널21 쇼핑몰, 유명한 레스토랑과 유흥 인프라등을 차량 이동없이 모두 도보로 이동이 가능한 최적의 위치에 있습니다.\n또 5분 정도 걸으면 태국의 유명한 마사지 체인점인 헬스랜드 아속지점이 있어 타이 마사지를 원하는 골퍼들에겐 특별한 즐거움일 것입니다. \n그 밖에도 인근에는 수많은 레스토랑과 분위기 좋은 카페가 즐비해 있습니다.\n            \n        \n        \n         \n    \n          \n    \n        AMBASSADOR HOTEL BANGKOK\n        앰배서더 방콕 호텔\n        \n            \n            \n            \n            엠버서더호텔 방콕방콕 엠버서더 호텔은 방콕의 중심부인 수쿰빗(Sukhumvit) 지역에서도 유흥과 관광의 중심인 Soi 11에 위치한 대형 호텔입니다. \n방콕 나이트라이프의 중심에 있어 늦은 시간까지 주변에 즐길 거리(바, 클럽, 마사지샵, 맛집)가 넘쳐나며,  위치 대비 가성비가 아주 좋은 체인 호텔로 손꼽힙니다.\n대형 야외 수영장, 피트니스 센터, 컨벤션 센터, 다양한 레스토랑(조식, 중식, 베이커리 등) 의 부대시설을 갖추고 있습니다.\n            \n        \n        \n        \n    \n           호텔 총 2개의\n                                  예정 호텔이 있습니다.\n                                출발 3일전까지 확정되어 일정표에서 확인하실\n                                수 있습니다.\n                                1일전 카카오 알림톡으로도 알려드립니다. 맨해튼 방콕  \n                                      Manhattan Bangkok상세보기앰배서더 방콕 호텔  \n                                      Ambassador Bangkok Hotel상세보기  식사   [석식] 기내-불포함(유료제공)"
+    },
+    {
+      "cards": [
+        {
+          "images": [
+            {
+              "alt": "파인허스트 골프텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/11/22/10000/4e943c06-ecbd-4211-b1ea-a80c6d28bf10.jpg"
+            },
+            {
+              "alt": "파인허스트 골프텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/11/22/10000/eee00e18-d569-40f3-8cbe-5e5b8d080856.jpg"
+            },
+            {
+              "alt": "파인허스트 골프텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/11/22/10000/af0fd5e8-437b-4c34-a0df-18cf46664a1e.jpg"
+            }
+          ],
+          "text": "\n        Pine Hurst Golf&Country Club상세보기\n        \n        \n            \n            골프장소개호수, 페어웨이, 벙커 그린 등으로 나누어진 27홀의 국제급 표준형 골프장으로써, 미 pga 공식 토너먼트 대회로 유명하며, 모든 코스들에 해저드와 낮은 언덕이 있는 미국 골프장과 흡사하게 설계된 방콕 최고의 명문 골프장이다.\n            \n            한글명 : 파인허스트 골프 앤 컨트리 클럽홀(HOLE) : 27파(PAR) : 72야드(YARD) : 10253\n            \n        \n        \n         \n    ",
+          "title": "Pine Hurst Golf&Country Club"
+        }
+      ],
+      "day": "acc_con1",
+      "golf": [
+        "[100대 골프장]방콕 파인허스트 G.C",
+        "윈저파크 G.C",
+        "방콕 G.C",
+        "람루카 컨트리클럽",
+        "로얄타이 아미 C.C",
+        "탄야 골프 클럽",
+        "레이크우드 컨트리 클럽",
+        "카스카타 골프 클럽",
+        "크룽텝 크리타 골프 코스",
+        "더 포멜로 골프클럽",
+        "방파콩 리버사이드 컨트리 클럽"
+      ],
+      "hotel": [
+        "맨해튼 방콕",
+        "앰배서더 방콕 호텔"
+      ],
+      "images": [
+        {
+          "alt": "파인허스트 골프텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/11/22/10000/4e943c06-ecbd-4211-b1ea-a80c6d28bf10.jpg"
+        },
+        {
+          "alt": "파인허스트 골프텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/11/22/10000/eee00e18-d569-40f3-8cbe-5e5b8d080856.jpg"
+        },
+        {
+          "alt": "파인허스트 골프텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/11/22/10000/af0fd5e8-437b-4c34-a0df-18cf46664a1e.jpg"
+        }
+      ],
+      "meals": "[조식] 호텔식 [중식] 불포함 [석식] 불포함",
+      "stops": [
+        {
+          "text": "방콕          ",
+          "title": "방콕"
+        },
+        {
+          "meal": "\n                                  조식 (호텔식)\n                                ",
+          "text": "    \n                                  조식 (호텔식)\n                                      "
+        },
+        {
+          "text": "      18홀 라운드 ※일정표의 골프장 라운드 순서는 현지 사정에 따라 변경될 수 있습니다.※주말라운드시에는 오후 tee-off 배정 됩니다. ☞예정 골프장 : 파인허스트/윈저파크/포멜로/크룽텝크리타/방콕/람룩카/로얄타이아미/탄야/레이크우드/카스카타/방파콩리버사이드 CC 중 18홀 라운드☞호텔-골프장 차량이동(약 30분~60분 소요)    ",
+          "title": "18홀 라운드"
+        },
+        {
+          "text": " \n    \n        Pine Hurst Golf&Country Club상세보기\n        \n        \n            \n            골프장소개호수, 페어웨이, 벙커 그린 등으로 나누어진 27홀의 국제급 표준형 골프장으로써, 미 pga 공식 토너먼트 대회로 유명하며, 모든 코스들에 해저드와 낮은 언덕이 있는 미국 골프장과 흡사하게 설계된 방콕 최고의 명문 골프장이다.\n            \n            한글명 : 파인허스트 골프 앤 컨트리 클럽홀(HOLE) : 27파(PAR) : 72야드(YARD) : 10253\n            \n        \n        \n         \n    \n         "
+        },
+        {
+          "meal": "\n                                  중식 (불포함)\n                                ",
+          "text": "    \n                                  중식 (불포함)\n                                      "
+        },
+        {
+          "text": "      라운드 이후 자유일정 ☞라운드 이후 호텔로 복귀 합니다☞태국에 현지직원(한국인 또는 한국어가능 태국인)이 상주하고 있습니다.☞자유일정에 필요한 고객님들의 문의사항에 도움을 드립니다.    ",
+          "title": "라운드 이후 자유일정"
+        },
+        {
+          "meal": "\n                                  석식 (불포함)\n                                ",
+          "text": "    \n                                  석식 (불포함)\n                                      "
+        },
+        {
+          "text": "      호텔 투숙 및 휴식    ",
+          "title": "호텔 투숙 및 휴식"
+        }
+      ],
+      "text": "  방콕              \n                                  조식 (호텔식)\n                                            18홀 라운드 ※일정표의 골프장 라운드 순서는 현지 사정에 따라 변경될 수 있습니다.※주말라운드시에는 오후 tee-off 배정 됩니다. ☞예정 골프장 : 파인허스트/윈저파크/포멜로/크룽텝크리타/방콕/람룩카/로얄타이아미/탄야/레이크우드/카스카타/방파콩리버사이드 CC 중 18홀 라운드☞호텔-골프장 차량이동(약 30분~60분 소요)     \n    \n        Pine Hurst Golf&Country Club상세보기\n        \n        \n            \n            골프장소개호수, 페어웨이, 벙커 그린 등으로 나누어진 27홀의 국제급 표준형 골프장으로써, 미 pga 공식 토너먼트 대회로 유명하며, 모든 코스들에 해저드와 낮은 언덕이 있는 미국 골프장과 흡사하게 설계된 방콕 최고의 명문 골프장이다.\n            \n            한글명 : 파인허스트 골프 앤 컨트리 클럽홀(HOLE) : 27파(PAR) : 72야드(YARD) : 10253\n            \n        \n        \n         \n    \n             \n                                  중식 (불포함)\n                                            라운드 이후 자유일정 ☞라운드 이후 호텔로 복귀 합니다☞태국에 현지직원(한국인 또는 한국어가능 태국인)이 상주하고 있습니다.☞자유일정에 필요한 고객님들의 문의사항에 도움을 드립니다.        \n                                  석식 (불포함)\n                                            호텔 투숙 및 휴식      호텔 총 2개의\n                                  예정 호텔이 있습니다.\n                                출발 3일전까지 확정되어 일정표에서 확인하실\n                                수 있습니다.\n                                1일전 카카오 알림톡으로도 알려드립니다. 맨해튼 방콕  \n                                      Manhattan Bangkok상세보기앰배서더 방콕 호텔  \n                                      Ambassador Bangkok Hotel상세보기 골프 총 11개의\n                                  예정 골프장이 있습니다.\n                                출발 3일전까지 확정되어 일정표에서 확인하실\n                                수 있습니다.\n                                1일전 카카오 알림톡으로도 알려드립니다. [100대 골프장]방콕 파인허스트 G.C \n                                      [100대 골프장]PINEHURST G.C상세보기 윈저파크 G.C \n                                      WINDSOR PARK & GOLF CLUB상세보기 방콕 G.C \n                                      BANGKOK GOLF CLUB상세보기 람루카 컨트리클럽 \n                                      LAM LUK KA COUNTRY CLUB상세보기 로얄타이 아미 C.C \n                                      Royal Thai Army Golf Club상세보기 탄야 골프 클럽 \n                                      THANYA GOLF CLUB상세보기 레이크우드 컨트리 클럽 \n                                      LAKEWOOD C.C상세보기 카스카타 골프 클럽 \n                                      CASCATA GOLF CLUB상세보기 크룽텝 크리타 골프 코스 \n                                      KRUNGTHEP KREETHA GOLF COURSE상세보기 더 포멜로 골프클럽 \n                                      The Pomelo Golf Club상세보기 방파콩 리버사이드 컨트리 클럽 \n                                      BANGPAKONG RIVERSIDE COUNTRY CLUB상세보기  식사 [조식] 호텔식 [중식] 불포함 [석식] 불포함"
+    },
+    {
+      "cards": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/d4a51650-d4f1-486d-97a0-8faf2ba9964d.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/fd4da766-de9a-43a2-ab5d-195497a35c56.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/984d991c-6dcb-4db3-88ea-f9445633faa0.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/5563160d-d65b-4341-9d29-2731709fc85c.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/e722d9c7-53e6-467c-9dab-47bc4bd2f138.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/24aab14d-5e24-4449-b7f4-6c6adf01bda5.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/ea2f06fa-4b07-4b87-8fd9-05c2f1d88dba.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/200ab48d-0cf3-4a22-9ff7-1c25fe5e6abf.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/5e28d1e0-be47-4af7-b8b9-99865de5d76f.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/0593cf81-6138-42fb-9ff2-c4a429501bad.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/f715e03e-674d-4fba-a492-c95468ad4696.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/8548a8b6-5d9e-441f-8971-1a49bb74e0b6.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/ede64a0b-ce34-43c7-9276-4aab00e46ed9.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/16d42aa0-7461-4a8e-b019-6a000512f7d7.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/1a52c330-f1a4-461a-b7a2-261d6a2b8174.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/d4a51650-d4f1-486d-97a0-8faf2ba9964d.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/fd4da766-de9a-43a2-ab5d-195497a35c56.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/984d991c-6dcb-4db3-88ea-f9445633faa0.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/5563160d-d65b-4341-9d29-2731709fc85c.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/e722d9c7-53e6-467c-9dab-47bc4bd2f138.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/24aab14d-5e24-4449-b7f4-6c6adf01bda5.jpg"
+            }
+          ],
+          "text": "\n\t\t\t\t\tBANGPAKONG RIVERSIDE COUNTRY CLUB\n\t\t\t\n\t\t\t상세보기\n\t\t\t\t\t방파콩 리버사이드 컨트리 클럽\n\t\t\n\t\t\t\n\t\t\t\t     2/5 이전 다음\n\n\t\t\t\t골프장소개\n\t\t\t\t\n\n\t\t\t\t방파공 리버사이드 C.C는 1990년 오픈, 태국 최초의 리버사이드 코스로 방파콩강을 따라 설계된 18홀 규모의 골프장이다. 넓고 거친 페어웨이 및 강을 따라 코스가 설계되어 시원한 강바람을 맞으며 라운딩을 즐기 수가 있다. 코스 곳곳에 워터해저드와 벙커가 잘 관리되어 있다. 국제기준 코스인 이곳은 보통의 페어웨이 보다 더 넓다. 골퍼들은 긴 코스와 불어 오는 강바람으로 충분히 즐거운 라운당을 할 수 있을 것이다.\n\t\t\t\t\n\t\t\t\t\n\n\t\t\t\n\t\t\t\t\t\t위치정보 : 방콕시내에서 차총싸오 방향으로 1시간 거리\n\t\t\t설계/디자인 : Cherd Boonyaratavej\n\t\t\t개장일(년도) : 1990\n\t\t\t홀(HOLE) : 18\n\t\t\t파(PAR) : 72\n\t\t\t야드(YARD) : 7140\n\t\t\t부대시설 : 클럽하우스,레스토랑,마사지,드라이빙레인지,카트,캐디,클럽렌탈\n\n\t\t\t\n \n  \n \n \n  \n \n\n\t\t\n\t\t\n\t\t\n \n  \n  \n \n  \n \n\n\t",
+          "title": "BANGPAKONG RIVERSIDE COUNTRY CLUB"
+        }
+      ],
+      "day": "acc_con2",
+      "golf": [
+        "윈저파크 G.C",
+        "방콕 G.C",
+        "람루카 컨트리클럽",
+        "로얄타이 아미 C.C",
+        "탄야 골프 클럽",
+        "레이크우드 컨트리 클럽",
+        "카스카타 골프 클럽",
+        "크룽텝 크리타 골프 코스",
+        "[100대 골프장]방콕 파인허스트 G.C",
+        "더 포멜로 골프클럽",
+        "방파콩 리버사이드 컨트리 클럽"
+      ],
+      "hotel": [
+        "맨해튼 방콕",
+        "앰배서더 방콕 호텔"
+      ],
+      "images": [
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/d4a51650-d4f1-486d-97a0-8faf2ba9964d.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/fd4da766-de9a-43a2-ab5d-195497a35c56.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/984d991c-6dcb-4db3-88ea-f9445633faa0.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/5563160d-d65b-4341-9d29-2731709fc85c.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/e722d9c7-53e6-467c-9dab-47bc4bd2f138.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/24aab14d-5e24-4449-b7f4-6c6adf01bda5.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/ea2f06fa-4b07-4b87-8fd9-05c2f1d88dba.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/200ab48d-0cf3-4a22-9ff7-1c25fe5e6abf.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/5e28d1e0-be47-4af7-b8b9-99865de5d76f.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/0593cf81-6138-42fb-9ff2-c4a429501bad.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/f715e03e-674d-4fba-a492-c95468ad4696.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/8548a8b6-5d9e-441f-8971-1a49bb74e0b6.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/ede64a0b-ce34-43c7-9276-4aab00e46ed9.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/16d42aa0-7461-4a8e-b019-6a000512f7d7.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/1a52c330-f1a4-461a-b7a2-261d6a2b8174.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/d4a51650-d4f1-486d-97a0-8faf2ba9964d.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/fd4da766-de9a-43a2-ab5d-195497a35c56.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/984d991c-6dcb-4db3-88ea-f9445633faa0.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/5563160d-d65b-4341-9d29-2731709fc85c.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/e722d9c7-53e6-467c-9dab-47bc4bd2f138.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/09/11/10000/24aab14d-5e24-4449-b7f4-6c6adf01bda5.jpg"
+        }
+      ],
+      "meals": "[조식] 호텔식 [중식] 불포함 [석식] 불포함",
+      "stops": [
+        {
+          "text": "방콕          ",
+          "title": "방콕"
+        },
+        {
+          "meal": "\n                                  조식 (호텔식)\n                                ",
+          "text": "    \n                                  조식 (호텔식)\n                                      "
+        },
+        {
+          "text": "      18홀 라운드 ※일정표의 골프장 라운드 순서는 현지 사정에 따라 변경될 수 있습니다.※주말라운드시에는 오후 tee-off 배정 됩니다. ☞예정 골프장 : 파인허스트/윈저파크/포멜로/크룽텝크리타/방콕/람룩카/로얄타이아미/탄야/레이크우드/카스카타/방파콩리버사이드 CC 중 18홀 라운드☞호텔-골프장 차량이동(약 30분~60분 소요)    ",
+          "title": "18홀 라운드"
+        },
+        {
+          "text": " \n\t\n\t\t\t\t\tBANGPAKONG RIVERSIDE COUNTRY CLUB\n\t\t\t\n\t\t\t상세보기\n\t\t\t\t\t방파콩 리버사이드 컨트리 클럽\n\t\t\n\t\t\t\n\t\t\t\t     2/5 이전 다음\n\n\t\t\t\t골프장소개\n\t\t\t\t\n\n\t\t\t\t방파공 리버사이드 C.C는 1990년 오픈, 태국 최초의 리버사이드 코스로 방파콩강을 따라 설계된 18홀 규모의 골프장이다. 넓고 거친 페어웨이 및 강을 따라 코스가 설계되어 시원한 강바람을 맞으며 라운딩을 즐기 수가 있다. 코스 곳곳에 워터해저드와 벙커가 잘 관리되어 있다. 국제기준 코스인 이곳은 보통의 페어웨이 보다 더 넓다. 골퍼들은 긴 코스와 불어 오는 강바람으로 충분히 즐거운 라운당을 할 수 있을 것이다.\n\t\t\t\t\n\t\t\t\t\n\n\t\t\t\n\t\t\t\t\t\t위치정보 : 방콕시내에서 차총싸오 방향으로 1시간 거리\n\t\t\t설계/디자인 : Cherd Boonyaratavej\n\t\t\t개장일(년도) : 1990\n\t\t\t홀(HOLE) : 18\n\t\t\t파(PAR) : 72\n\t\t\t야드(YARD) : 7140\n\t\t\t부대시설 : 클럽하우스,레스토랑,마사지,드라이빙레인지,카트,캐디,클럽렌탈\n\n\t\t\t\n \n  \n \n \n  \n \n\n\t\t\n\t\t\n\t\t\n \n  \n  \n \n  \n \n\n\t\n\n         "
+        },
+        {
+          "meal": "\n                                  중식 (불포함)\n                                ",
+          "text": "    \n                                  중식 (불포함)\n                                      "
+        },
+        {
+          "text": "      라운드 이후 자유일정 ☞라운드 이후 호텔로 복귀 합니다☞태국에 현지직원(한국인 또는 한국어가능 태국인)이 상주하고 있습니다.☞자유일정에 필요한 고객님들의 문의사항에 도움을 드립니다..    ",
+          "title": "라운드 이후 자유일정"
+        },
+        {
+          "meal": "\n                                  석식 (불포함)\n                                ",
+          "text": "    \n                                  석식 (불포함)\n                                      "
+        },
+        {
+          "text": "      호텔 투숙 및 휴식    ",
+          "title": "호텔 투숙 및 휴식"
+        }
+      ],
+      "text": "  방콕              \n                                  조식 (호텔식)\n                                            18홀 라운드 ※일정표의 골프장 라운드 순서는 현지 사정에 따라 변경될 수 있습니다.※주말라운드시에는 오후 tee-off 배정 됩니다. ☞예정 골프장 : 파인허스트/윈저파크/포멜로/크룽텝크리타/방콕/람룩카/로얄타이아미/탄야/레이크우드/카스카타/방파콩리버사이드 CC 중 18홀 라운드☞호텔-골프장 차량이동(약 30분~60분 소요)     \n\t\n\t\t\t\t\tBANGPAKONG RIVERSIDE COUNTRY CLUB\n\t\t\t\n\t\t\t상세보기\n\t\t\t\t\t방파콩 리버사이드 컨트리 클럽\n\t\t\n\t\t\t\n\t\t\t\t     2/5 이전 다음\n\n\t\t\t\t골프장소개\n\t\t\t\t\n\n\t\t\t\t방파공 리버사이드 C.C는 1990년 오픈, 태국 최초의 리버사이드 코스로 방파콩강을 따라 설계된 18홀 규모의 골프장이다. 넓고 거친 페어웨이 및 강을 따라 코스가 설계되어 시원한 강바람을 맞으며 라운딩을 즐기 수가 있다. 코스 곳곳에 워터해저드와 벙커가 잘 관리되어 있다. 국제기준 코스인 이곳은 보통의 페어웨이 보다 더 넓다. 골퍼들은 긴 코스와 불어 오는 강바람으로 충분히 즐거운 라운당을 할 수 있을 것이다.\n\t\t\t\t\n\t\t\t\t\n\n\t\t\t\n\t\t\t\t\t\t위치정보 : 방콕시내에서 차총싸오 방향으로 1시간 거리\n\t\t\t설계/디자인 : Cherd Boonyaratavej\n\t\t\t개장일(년도) : 1990\n\t\t\t홀(HOLE) : 18\n\t\t\t파(PAR) : 72\n\t\t\t야드(YARD) : 7140\n\t\t\t부대시설 : 클럽하우스,레스토랑,마사지,드라이빙레인지,카트,캐디,클럽렌탈\n\n\t\t\t\n \n  \n \n \n  \n \n\n\t\t\n\t\t\n\t\t\n \n  \n  \n \n  \n \n\n\t\n\n             \n                                  중식 (불포함)\n                                            라운드 이후 자유일정 ☞라운드 이후 호텔로 복귀 합니다☞태국에 현지직원(한국인 또는 한국어가능 태국인)이 상주하고 있습니다.☞자유일정에 필요한 고객님들의 문의사항에 도움을 드립니다..        \n                                  석식 (불포함)\n                                            호텔 투숙 및 휴식      호텔 총 2개의\n                                  예정 호텔이 있습니다.\n                                출발 3일전까지 확정되어 일정표에서 확인하실\n                                수 있습니다.\n                                1일전 카카오 알림톡으로도 알려드립니다. 맨해튼 방콕  \n                                      Manhattan Bangkok상세보기앰배서더 방콕 호텔  \n                                      Ambassador Bangkok Hotel상세보기 골프 총 11개의\n                                  예정 골프장이 있습니다.\n                                출발 3일전까지 확정되어 일정표에서 확인하실\n                                수 있습니다.\n                                1일전 카카오 알림톡으로도 알려드립니다. 윈저파크 G.C \n                                      WINDSOR PARK & GOLF CLUB상세보기 방콕 G.C \n                                      BANGKOK GOLF CLUB상세보기 람루카 컨트리클럽 \n                                      LAM LUK KA COUNTRY CLUB상세보기 로얄타이 아미 C.C \n                                      Royal Thai Army Golf Club상세보기 탄야 골프 클럽 \n                                      THANYA GOLF CLUB상세보기 레이크우드 컨트리 클럽 \n                                      LAKEWOOD C.C상세보기 카스카타 골프 클럽 \n                                      CASCATA GOLF CLUB상세보기 크룽텝 크리타 골프 코스 \n                                      KRUNGTHEP KREETHA GOLF COURSE상세보기 [100대 골프장]방콕 파인허스트 G.C \n                                      [100대 골프장]PINEHURST G.C상세보기 더 포멜로 골프클럽 \n                                      The Pomelo Golf Club상세보기 방파콩 리버사이드 컨트리 클럽 \n                                      BANGPAKONG RIVERSIDE COUNTRY CLUB상세보기  식사 [조식] 호텔식 [중식] 불포함 [석식] 불포함"
+    },
+    {
+      "cards": [
+        {
+          "images": [
+            {
+              "alt": "로얄타이 아미 CC (Royal Thai Army Golf Club)",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/02/07/10000/d4ea1a04-a7b8-4f24-91eb-a81726340d48.jpg"
+            },
+            {
+              "alt": "로얄타이 아미 CC (Royal Thai Army Golf Club)",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/02/07/10000/1a2b4af2-d486-45ef-b976-9144a2760ff2.jpg"
+            },
+            {
+              "alt": "로얄타이 아미 CC (Royal Thai Army Golf Club)",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/02/07/10000/0cb88c62-240d-4d66-a754-d0fa3a24533b.jpg"
+            }
+          ],
+          "text": "\n        Royal Thai Army Golf Club상세보기\n        \n        \n            \n            골프장 소개 태국 왕립 육군 GC는 태국에서 20 년 이상의 오랜 역사를 가진 유명한 좋은 코스 중  하나로 군 장성들을 위해 지어진 골프장이지만 현재는 누구나 쉽게 찾아가 골프를 즐기는 곳 중 한 곳입니다. 뉴코스 가(18홀)  올드 코스 18홀 바로 옆에 새워져 있으며 총 36홀 코스로 운영되고 있습니다. 돈무앙 공항 근교에 위치하고 있어 방콕 시내에서 거리가 가깝고 접근성이 용이해 골퍼들이 즐겨 찾는 방콕 골프장 중 한 곳입니다.\n            \n            한글명 : 로얄타이 아미 C.C홀(HOLE) : 36위치정보 : 방콕 스쿰빗 시내에서 12KM 15~20분파(PAR) : 144야드(YARD) : 6731\n            \n        \n        \n         \n    ",
+          "title": "Royal Thai Army Golf Club"
+        }
+      ],
+      "day": "acc_con3",
+      "golf": [
+        "윈저파크 G.C",
+        "방콕 G.C",
+        "람루카 컨트리클럽",
+        "로얄타이 아미 C.C",
+        "탄야 골프 클럽",
+        "레이크우드 컨트리 클럽",
+        "카스카타 골프 클럽",
+        "크룽텝 크리타 골프 코스",
+        "[100대 골프장]방콕 파인허스트 G.C",
+        "더 포멜로 골프클럽",
+        "방파콩 리버사이드 컨트리 클럽"
+      ],
+      "hotel": [],
+      "images": [
+        {
+          "alt": "로얄타이 아미 CC (Royal Thai Army Golf Club)",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/02/07/10000/d4ea1a04-a7b8-4f24-91eb-a81726340d48.jpg"
+        },
+        {
+          "alt": "로얄타이 아미 CC (Royal Thai Army Golf Club)",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/02/07/10000/1a2b4af2-d486-45ef-b976-9144a2760ff2.jpg"
+        },
+        {
+          "alt": "로얄타이 아미 CC (Royal Thai Army Golf Club)",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/02/07/10000/0cb88c62-240d-4d66-a754-d0fa3a24533b.jpg"
+        },
+        {
+          "alt": "에어부산",
+          "src": "https://image.hanatour.com/usr/static/img/airline/BX.png"
+        }
+      ],
+      "meals": "기내숙박",
+      "stops": [
+        {
+          "text": "방콕          ",
+          "title": "방콕"
+        },
+        {
+          "meal": "\n                                  조식 (호텔식)\n                                ",
+          "text": "    \n                                  조식 (호텔식)\n                                      "
+        },
+        {
+          "text": "      호텔 체크 아웃 후 18홀 라운드 ※일정표의 골프장 라운드 순서는 현지 사정에 따라 변경될 수 있습니다.※주말라운드시에는 오후 tee-off 배정 됩니다. ☞예정 골프장 : 파인허스트/윈저파크/포멜로/크룽텝크리타/방콕/람룩카/로얄타이아미/탄야/레이크우드/카스카타/방파콩리버사이드 CC 중 18홀 라운드☞호텔-골프장 차량이동(약 30분~60분 소요)    ",
+          "title": "호텔 체크 아웃 후 18홀 라운드"
+        },
+        {
+          "text": " \n    \n        Royal Thai Army Golf Club상세보기\n        \n        \n            \n            골프장 소개 태국 왕립 육군 GC는 태국에서 20 년 이상의 오랜 역사를 가진 유명한 좋은 코스 중  하나로 군 장성들을 위해 지어진 골프장이지만 현재는 누구나 쉽게 찾아가 골프를 즐기는 곳 중 한 곳입니다. 뉴코스 가(18홀)  올드 코스 18홀 바로 옆에 새워져 있으며 총 36홀 코스로 운영되고 있습니다. 돈무앙 공항 근교에 위치하고 있어 방콕 시내에서 거리가 가깝고 접근성이 용이해 골퍼들이 즐겨 찾는 방콕 골프장 중 한 곳입니다.\n            \n            한글명 : 로얄타이 아미 C.C홀(HOLE) : 36위치정보 : 방콕 스쿰빗 시내에서 12KM 15~20분파(PAR) : 144야드(YARD) : 6731\n            \n        \n        \n         \n    \n         "
+        },
+        {
+          "meal": "\n                                  중식 (불포함)\n                                ",
+          "text": "    \n                                  중식 (불포함)\n                                      "
+        },
+        {
+          "text": "      중식 이후 자유일정 ☞라운드 이후 호텔로 복귀 합니다☞태국에 현지직원(한국인 또는 한국어가능 태국인)이 상주하고 있습니다.☞자유일정에 필요한 고객님들의 문의사항에 도움을 드립니다.    ",
+          "title": "중식 이후 자유일정"
+        },
+        {
+          "meal": "\n                                  석식 (불포함)\n                                ",
+          "text": "    \n                                  석식 (불포함)\n                                      "
+        },
+        {
+          "text": "      공항으로 이동    ",
+          "title": "공항으로 이동"
+        }
+      ],
+      "text": "  방콕              \n                                  조식 (호텔식)\n                                            호텔 체크 아웃 후 18홀 라운드 ※일정표의 골프장 라운드 순서는 현지 사정에 따라 변경될 수 있습니다.※주말라운드시에는 오후 tee-off 배정 됩니다. ☞예정 골프장 : 파인허스트/윈저파크/포멜로/크룽텝크리타/방콕/람룩카/로얄타이아미/탄야/레이크우드/카스카타/방파콩리버사이드 CC 중 18홀 라운드☞호텔-골프장 차량이동(약 30분~60분 소요)     \n    \n        Royal Thai Army Golf Club상세보기\n        \n        \n            \n            골프장 소개 태국 왕립 육군 GC는 태국에서 20 년 이상의 오랜 역사를 가진 유명한 좋은 코스 중  하나로 군 장성들을 위해 지어진 골프장이지만 현재는 누구나 쉽게 찾아가 골프를 즐기는 곳 중 한 곳입니다. 뉴코스 가(18홀)  올드 코스 18홀 바로 옆에 새워져 있으며 총 36홀 코스로 운영되고 있습니다. 돈무앙 공항 근교에 위치하고 있어 방콕 시내에서 거리가 가깝고 접근성이 용이해 골퍼들이 즐겨 찾는 방콕 골프장 중 한 곳입니다.\n            \n            한글명 : 로얄타이 아미 C.C홀(HOLE) : 36위치정보 : 방콕 스쿰빗 시내에서 12KM 15~20분파(PAR) : 144야드(YARD) : 6731\n            \n        \n        \n         \n    \n             \n                                  중식 (불포함)\n                                            중식 이후 자유일정 ☞라운드 이후 호텔로 복귀 합니다☞태국에 현지직원(한국인 또는 한국어가능 태국인)이 상주하고 있습니다.☞자유일정에 필요한 고객님들의 문의사항에 도움을 드립니다.        \n                                  석식 (불포함)\n                                            공항으로 이동      에어부산 05시간 30분 BX0546 22:50  2026.11.04(수) 방콕 BKK 출발 06:20  2026.11.05(목) 부산 PUS 도착     +1 호텔 기내숙박 골프 총 11개의\n                                  예정 골프장이 있습니다.\n                                출발 3일전까지 확정되어 일정표에서 확인하실\n                                수 있습니다.\n                                1일전 카카오 알림톡으로도 알려드립니다. 윈저파크 G.C \n                                      WINDSOR PARK & GOLF CLUB상세보기 방콕 G.C \n                                      BANGKOK GOLF CLUB상세보기 람루카 컨트리클럽 \n                                      LAM LUK KA COUNTRY CLUB상세보기 로얄타이 아미 C.C \n                                      Royal Thai Army Golf Club상세보기 탄야 골프 클럽 \n                                      THANYA GOLF CLUB상세보기 레이크우드 컨트리 클럽 \n                                      LAKEWOOD C.C상세보기 카스카타 골프 클럽 \n                                      CASCATA GOLF CLUB상세보기 크룽텝 크리타 골프 코스 \n                                      KRUNGTHEP KREETHA GOLF COURSE상세보기 [100대 골프장]방콕 파인허스트 G.C \n                                      [100대 골프장]PINEHURST G.C상세보기 더 포멜로 골프클럽 \n                                      The Pomelo Golf Club상세보기 방파콩 리버사이드 컨트리 클럽 \n                                      BANGPAKONG RIVERSIDE COUNTRY CLUB상세보기  식사 [조식] 호텔식 [중식] 불포함 [석식] 불포함"
+    },
+    {
+      "cards": [],
+      "day": "acc_con4",
+      "golf": [],
+      "hotel": [],
+      "images": [],
+      "meals": "숙박 없음",
+      "stops": [
+        {
+          "text": "방콕          ",
+          "title": "방콕"
+        },
+        {
+          "meal": "\n                                  조식 (기내-불포함(유료제공))\n                                ",
+          "text": "    \n                                  조식 (기내-불포함(유료제공))\n                                      "
+        },
+        {
+          "text": "부산          ",
+          "title": "부산"
+        },
+        {
+          "text": "      ♥ 하나투어를 이용해 주셔서 감사합니다 ♥ 즐거운 라운드와 함께 소중한 추억 만드셨기를 바랍니다    ",
+          "title": "♥ 하나투어를 이용해 주셔서 감사합니다 ♥"
+        }
+      ],
+      "text": "  방콕              \n                                  조식 (기내-불포함(유료제공))\n                                      부산                ♥ 하나투어를 이용해 주셔서 감사합니다 ♥ 즐거운 라운드와 함께 소중한 추억 만드셨기를 바랍니다      호텔 숙박 없음  식사 [조식] 기내-불포함(유료제공)  "
+    }
+  ],
+  "heading": "[부산출발] 방콕 골프 5일 #다색골프 #18홀*3회 #파인허스트CC 외10곳 #스쿰빗시내 4성호텔 #2인출발가능",
+  "text": "(주)나침반여행사\n1899-7972\n로그인\n회원가입\n고객센터\n하나투어\n통합 검색어 입력폼\n검색\n튀르키예\n일본\n대마도\n장가계\n푸꾸옥\n대만\n후쿠오카\n상하이\n오사카\n스페인\n튀르키예\n일본\n마이메뉴\n예약내역\n찜\n전체메뉴\n해외여행\n항공\n호텔\n항공+호텔\n투어/입장권\n국내여행\n테마여행\n제우스\n여행기획전\n이달의 혜택\nH-AI가 요약한 후기 먼저 확인해보세요.\n여행 파트너\nH-AI\n최근 본 상품(0)\nTOP\n1/10\n이전\n다음\n상품코드 AAG301261101BXM\n인쇄하기 공유하기\n한정특가, 다색골프\n여행상품 핵심정보\n골프 부산출발\n[부산출발] 방콕 골프 5일 #다색골프 #18홀*3회 #파인허스트CC 외10곳 #스쿰빗시내 4성호텔 #2인출발가능\n\n코리아타운, 터미널21 등 도보 5분 거리 최상의 위치 호텔\n\n#골프#다색골프 #관광\n해시태그\n#여유로운골프여행#아름다운골프장#미식여행의극치#방콕골프여행#파인허스트골프클럽#방콕여행추천#수완나폼공항이용#스쿰빗호텔이용#태국골프투어\n 4.5  20\n3박 5일\nLCC\n쇼핑없음\n단체여행\n선택관광없음\n출발예정\n항공예정\n일정예정\n호텔예정\n가격예정\n\n성인 1인\n\n1,219,000 1,189,000 원\n회원 즉시 할인 적용가\n5개월 무이자 할부 예상가\n월 237,800원\n카드사별 무이자 혜택 \n여행 주요일정\n항공여정보기 다른 출발일 선택 \n최저가로 떠날 수 있는 날 알아보기\n일정 \n\n3박 5일 \n에어부산\n\n출발 : 2026.11.01(일) 18:00 2026.11.01(일) 21:50 BX0545총 05시간 50분 소요\n\n도착 : 2026.11.04(수) 22:50 2026.11.05(목) 06:20 BX0546총 05시간 30분 소요\n\n 여행도시 방콕 예약현황 예약 : 0명 좌석 : 8석 (최소출발 : 성인2명) \n상품가격\n구분\t성인\n\n만 12세 이상\n\n\t아동\n\n만 12세 미만 \n\n\t유아\n\n만 2세 미만 \n\n\n기본상품\t1,219,000원\n\n유류할증료 250,000원/제세공과금 0원 포함\n\n\t1,219,000원\n\n유류할증료 250,000원/제세공과금 0원 포함 \n\n\t150,000원\n\n유류할증료 0원/제세공과금 0원 포함 \n\n유류할증료 및 제세공과금은 유가와 환율에 따라 변동될 수 있습니다.\n약관(이용운송, 숙박기관 등에 지급할 요금의 변동)에 따라 상품가격은 변동될 수 있습니다. 자세한 사항은 약관을 참조하시기 바랍니다.\n아동, 유아요금은 성인 2인과 같은 방 사용조건이며, 미충족시 아동추가 요금이 발생합니다.\n1인 객실 사용시 추가요금 발생됩니다.\n\n1인 객실 사용료 : 150,000원\n\n하나투어 마일리지 최대 9,690적립예정\n하나투어클럽 회원, 성인기준\n패키지 상품가 기준\n태국\n입국 규정 확인\n에어부산\n항공사 유의사항 확인\n테마소개\t\n골프\n다색골프\n\n골프\n\n\n[하나투어 X 보이스캐디 APL골프]\n핸드폰과 워치에서 골프장 코스/거리 정보를 확인할수 있어요.\n출발 7일전 카톡 알림톡을 통해 APL 3일 무료이용권을 제공합니다.\n\n\n다색골프\n\n골프장 외부에 위치한 숙박시설에서 다양한 골프장 라운드를 즐기는 상품입니다.\n\n프로모션\t한정특가\n🍂⛳ 가을/겨울골프 얼리버드 할인 ⛳☃️\n\n📢출발기간 : 10/1 ~ 2/28\n\n예약 후 일주일 이내 전체일행정보입력\n및 계약금 결제 완료 시 적용\n핵심\n포인트\n골프\n호텔\n식사\n교통\n보험\n기타\nSAFETY\n&JOY\n상품 핵심포인트 🚩\n📢 Only~ 하나투어 특전!\n✨발마사지 1시간 제공(팁별도)✨\n\n① 골프에 최적화된 일정♥ 오후 출발! 아침 도착! 항공편\n② 방콕 스쿰빗 시내 중심에 위치한 맨하탄호텔, 앰버서더 호텔 또는 동급\n③ 방콕의 중급 골프장을 매일 다르게 라운드 진행\n④ 골프에 최적화된 신개념 골프여행(NO가이드- 한국인 스텝 상주)\n⑤ 전일정 조식 포함\n⑥ 1억원 여행자보험 상품\n\n방콕 골프장 100%즐기기 ⛳️\n①18홀 3회 라운드 진행하는 상품입니다. (단 주말 및 현지공휴일 라운딩은 오후 TEE 조건 입니다.)\n②이용 골프장정보\n☞수파프룩GC - 18홀 규모, 1인 1카트, 1인 1캐디, 카트 페어웨이진입불가\n☞방푸GC - 18홀 규모, 1인 1카트, 1인 1캐디, 카트 페어웨이진입가능\n☞포멜로 GC - 18홀 규모, 1인 1카트, 1인 1캐디, 카트 페어웨이진입가능\n☞윈저파크 CC - 36홀 규모, 1인 1카트, 1인 1캐디, 카트 페어웨이진입가능\n☞파인허스트 CC - 27홀 규모, 1인 1카트, 1인 1캐디, 카트 페어웨이진입불가\n☞로얄타이아미 GC - 36홀 규모, 1인 1카트, 1인 1캐디, 카트 페어웨이 진입불가\n☞탄야 CC - 27홀 규모, 1인 1카트, 1인 1캐디, 카트 페어웨이 진입가능\n☞레이크우드CC - 27홀 규모, 1인 1카트, 1인 1캐디, 카트 페어웨이진입불가\n☞카스카타 GC - 36홀 규모, 1인 1카트, 1인 1캐디, 카트 페어웨이진입가능\n☞방파콩리버사이드 CC - 18홀 규모, 1인 1카트, 1인 1캐디, 카트 페어웨이진입가능\n\n※카트/캐디 운영 및 카트 진입여부는 현지 사정에 따라 변경 될 수 있습니다.\n방콕 시내 스쿰빗 호텔 이용 🏨\n방콕 시내 스쿰빗 중심 4성급 호텔을 이용합니다.\n▶공항, 번화가, 골프장과의 가까운 접근성 (터미널21, 코리안타운 등 도보 5분 거리 위치)\n▶호텔 주변 다양한 레스토랑, 마사지샾 등 즐길거리 풍부\n▶최적의 위치 BTS아속역, 나나역. MRT역을 모두 도보도 이동가능 한국인 스텝 항시 상주\n▶호텔-골프장 이동 및 골프장 체크인등은 현지인 스텝이 케어합니다.\n호텔 주변 추천 스팟 🏙️\n① 이동 거리/시간\n스쿰빗 시내 (도보이동 3분~10분)\n② 주변 먹거리존\n🍽️크루아 쿤 푹 (도보 4분)\n(타이 누들, 망고 밥, 파파야 샐러드, 똠양꿍 등 태국 현지식)\n아침부터 새벽까지 언제든 가성비 좋은 현지식을 먹을 수 있는 맛집. 1인당 평균 100~200바트라는 저렴한 가격으로 식사 할 수 있습니다. 저녁 시간대에는 웨이팅이 가끔 있고, 야외 테이블도 있습니다.\n🍽️P 키친 (도보 4분)\n(크랩 미트 커리, 팟 타이 등 태국 로컬 음식)\n합리적인 가격의 현지 요리를 즐길 수 있는 여유로운 분위기의 음식점으로, 코코넛 우유와 옐로우 커리를 곁들여 게와 볶아낸 메뉴인 크랩 미트 커리가 유명한 로컬 음식점입니다.\n🍽️해브 어 지드 (도보 5분)\n태국 정통 요리를 즐길 수 있는 유명 체인 레스토랑.\n한국인들이 터미널 21 내 태국 로컬 음식을 찾을 때 많이 선택하는 레스토랑 푸 팟 퐁 커리 맛집으로 유명합니다.\n🍽️*언벌스데이 카페 (도보 4분)\n(카페메뉴, 태국식 스무디, 케이크등)\n폭신폭신한 홈메이드 팬케이크로 인기 있는 디저트 카페\nSNS에서 인기있는 방콕 카페이고, 소품이 예뻐서 많은 여행객 뿐만 아니라 방콕 현지인들도 사진을 찍으러 오는 곳.\n③ 추천 일정\n방콕 최대 중심가 수쿰빗 아속에서 다양한 종류의 로컬맛집들을 즐기는 미식여행의 극치를 느껴보세요.\n방콕 관광자들의 성지 터미널 21, 코리안타운을 차량이동 없이 도보 5분이내로 모든 스팟을 더 가깝게~\n도보 3분거리에 SW1 야시장 신규오픈!\n소이카우보이, 나나플라자등 태국 나이트라이프도 모두 가깝게 이동 (도보 5~10분)\n미식의 천국, 방콕 최중식가 아속에서 이동으로 버려지는 시간없이 알차고 유익한 추억을 만들어보세요!\n\n\n전일정 조식 포함\n①전일정 조식 포함입니다.\n\n항공규정안내 🧳\n1.골프 무료 수하물 규정 안내\n　- 기내캐리어 : 10kg이하 1개\n　- 위탁수하물 : [일반 수하물 + 골프백] 합산하여 15kg 이하\n※ 항공사 규정은 변경될 수 있으니 자세한 내용은 해당 항공 홈페이지를 참고하세요\n\n2. 그룹항공권 수속규정 :\n기내 좌석 배정은 항공사의 고유 권한으로 여행사의 귀책사유는 없음을 알려드리며, 고객님이 희망하시는 좌석으로 배정이 안 될 수 있음을 널리 양해 부탁드립니다.\n사전 좌석 배정이 가능한 항공사의 경우, 출발 2~3일 전 전자 항공권(e-티켓)을 받으시고 고객님께서 직접 웹 체크인을 통해 좌석 지정받으시길 권해드립니다.\n※ 공동 운항 편 및 미주노선 등 일부 항공편은 서비스 이용이 제한될 수 있으며, 항공사 규정에 따라 상이합니다.\n★★ 태국 방콕 수완나폼공항 골프백 픽업 관련 ★★\n수완나폼 공항에서 골프백과 같은 대형수화물은 Oversize Baggage Claim (일반적으로 Z2~Z3 클레임)\n에서 별도 픽업해야 되니 참고 부탁드립니다.\n1억원 여행자보험\n해외치료비 최대 보장 한도 [상해/질병]500만원\n[휴대품 도난/파손] 50만원보상\n* 국가/연령에 따라 보장내용이 상이할 수 있습니다.\n* 자세한 내용은 보장내역 자세히보기(클릭) 확인해주시기 바랍니다.\nNO가이드 상품\n①가이드가 없는 상품입니다.\n②호텔 주변 현지 한국인 사무소 및 매니저 상주하여 친절하게 응대합니다.\n2인 출발가능\n①골프장은 기본적으로 4인 1조로 플레이가 진행됩니다.\n②2~3인이 예약하신 경우 부족한 인원에 대해서는 합류 플레이가 진행 될 수 있습니다.\n③워크인 손님이 합류하시는 경우 언어에 따른 불편함이 발생될 수 있음을 사전에 고지 드립니다.\n④미센딩 및 골프장 차량 이동은 다른 고객과 조인될 수 있으며, 한국인 직원은 동행하지 않습니다.\n※미팅샌딩 비용은 불포함으로(불포함 사항 참고) 일정 중 현지 상주 한국인 직원이 지불 요청드립니다.\n⭐하나투어X보이스캐디 APL골프 단독제공⭐\n⚡하나투어X보이스캐디 APL골프 단독 제공⚡\n핸드폰과 워치에서 골프장 코스/거리 정보를 확인할수 있습니다.\n출발 7일전 카톡 알림톡을 통해 APL 3일 무료 이용권을 제공합니다. (1인 2만원 상당)\nPC 바로가기 ☞ (바로가기)\n모바일 바로가기 ☞ (바로가기)\nSAFETY&JOY 하나투어는 여행의 전 과정을 함께 합니다.\n① 여행 중 24시간 긴급 의료 지원 등 H-care\n② 여행 후에도 이어지는 고객 만족 서비스\n(바로가기)\n포함/불포함/선택경비 정보\n포함내역\n[교통]\n\n왕복항공권\n\n[제세금]\n\n국내공항세, 관광진흥개발기금, 전쟁보험료, 유류할증료\n\n[숙박]\n\n숙박비 : 2인 1실\n\n\n[식사]\n\n식사비 : 전일정 조식 (중/석식 불포함)\n\n\n[테마]\n\n그린피 : 일정표 세부 내역 참고\n\n\n[여행자보험]\n\n1억원 여행자보험\n\n불포함내역\n[교통]\n\n공항 미팅 & 샌딩 : 가격문의 (4인 이상 시 1인당 $60/ 3인 기준 1인당 $70 / 2인 기준 1인당 $110\n(해당금액은 미센딩&호텔<->골프장 차량비용) )\n\n[테마]\n\n캐디피 : THB 400 (1인 18홀 기준 ※예정 골프장 평균 요금으로 골프장 별 요금 추가될 수 있습니다. ), 전동카 : THB 800 (1인 18홀 기준 ※예정 골프장 평균 요금으로 골프장 별 요금 추가될 수 있습니다. ), 캐디팁 : THB 400 (1인 18홀 기준)\n\n개인 여행경비(물값, 자유시간시 개인비용 등)\n\n각종 매너팁(테이블팁, 객실팁, 포터비, 마사지팁 등)\n\n매너팁은 소비자의 자율적 선택으로 지불여부에 따른 불이익은 없습니다. \n\n선택경비\n[교통]\n\n항공리턴변경(문의), 클래스 차액 : 가격문의 (그룹항공요금 기준 상품가로서, 일반 좌석등급이 높아지면 상품가 상승됩니다. 좌석상황에 따라 변동되어 추가비용이 발생될 수 있으니 예약시 반드시 상담자와 확인부탁드립니다.)\n\n[숙박]\n\n객실 1인 사용료 : 150,000원\n\n선택관광/기항지관광/현지투어에 관한 상세 내역은 패키지 상품상세를 참고바랍니다. \n\n상품약관\t\n약관상세보기\n\n본 상품의 예약과 취소는 국외여행 특별약관이 적용됨을 알려드립니다.\n특별약관 적용 시 표준약관보다 높은 취소수수료가 부과될 수 있으며 이 경우 동의절차를 구합니다.\n\n계약금 규정\n예약일 기준 3일 이내에 1인당 300,000원을 납입하셔야합니다.\n취소료 규정\n이 상품은 항공(또는 선박)좌석 또는 호텔객실에 대한 비용을 선납해 놓은 상품으로서, 취소시 하단의 취소료가 적용됨을 양해해 주시기 바랍니다.\n특별규정\n※ 항공권 발권 및 골프장/호텔 확약 이후에는 기간에 따른 규정 외 취소패널티가 부가됩니다.\n더보기\n예약시 유의사항\n- 그린피 포함 상품으로 라운드 미진행 시 별도 그린피 환불은 없습니다.\n- 4인 라운드가 기본이며 4인 미만시 현지에서 라운드가 조인 될 수 있습니다.\n- 현지사정(기상상황, 토너먼트 개최 등)에 따라 라운드의 제한 또는 골프장 변경 될 수 있습니다.\n- 기본 2인1실 기준으로 홀 수 인원 시 싱글룸 사용하셔야 합니다.\n- 클럽 렌탈 시 담당자에게 출발전 미리 요청바랍니다.\n- 예약 후 항공좌석 및 호텔 가능여부 담당자에게 재확인 부탁드립니다.\n- 예약시 여권상에 기재된 정확한 영문이름과 주민번호가 필요합니다.\n- 해당 여행 지역의 기준으로 골프장 등급을 분류 하므로 한국 기준과 차이가 있을 수 있습니다.\n- 최종 계약시 반드시 예약하신 여행사에서 해외여행계약서를 작성해 주십시요.\n\n📢 선발권안내\n\n- 항공사 좌석 상황에 따라 빠른 발권 요청이 진행될 수 있으며, 발권이 진행되지 않은 경우 좌석 불가 또는 운임이 인상될 수 있습니다.\n- 발권 이후 영문 성명 변경 및 취소 시 변경 수수료 또는 항공 취소 수수료가 발생되니 확약 시 신중한 결정을 부탁드립니다.\n\n📢 예약 안내\n\n- 골프 상품의 특성상 호텔 + 골프장의 상황이 실시간으로 바뀔 수 있어 예약 후 행사 가능여부 확인을 꼭 부탁드립니다.\n\n■ 전자담배 소지안내\n본 일정은 전자담배의 제조/구매/소지/흡연이 금지된 국가를 방문하며,\n전자담배 소지가 적발될 경우 압수는 물론 벌금까지 낼 수 있으므로 소지하지 않으시도록 유의 부탁드립니다.\n가이드/인솔자 및 미팅정보\n가이드\n현지 도착시 차량기사와 미팅이 이루어집니다.\n인솔자\n인솔자가 동행하지 않습니다.\n미팅정보\t\n미팅장소보기\n일시 :\n11월 01일 오후 15:30\n장소 :\n김해공항 국제선 3층 오른쪽 하나투어 안내판 앞\n터미널과 미팅장소를 꼭 확인하세요!\n[항공 좌석배정]기내 좌석 배정은 항공사의 고유 권한으로 일행과 좌석이 분리될 수 있습니다.\n항공사 탑승수속(선박 승선수속) 마감시간까지 수속을 마치지 못한 경우 출국이 거절될 수 있으며 이 경우 당사의 책임범위가 아님을 알려드립니다. 안전한 출국을 위해 하나투어 미팅시간까지는 반드시 공항(터미널)에 도착해 주시기 바랍니다\n여행일정\n호텔 & 관광지\n참고사항\n해외 안전정보\n여행후기\n1일차\n2일차\n3일차\n4일차\n5일차\n일정 전체펼침\n\n여행일정 변경에 관한 사전 동의안내\n\n여행일정은 계약체결 시 예상하지 못한 부득이한 사정 등이 발생하는 경우 여행자의 사전동의를 거쳐 변경될 수 있음을 양지하시기 바랍니다. \n\n1일차\n11/01(일)\n부산, 방콕\n\n태국 입국 절차\n\n2일차\n11/02(월)\n방콕\n\n상세내용을 확인해보세요\n\n3일차\n11/03(화)\n방콕\n\n상세내용을 확인해보세요\n\n4일차\n11/04(수)\n방콕\n\n상세내용을 확인해보세요\n\n5일차\n11/05(목)\n방콕, 부산\n\n상세내용을 확인해보세요\n\n쇼핑정보\n\n해당상품은 쇼핑센터에 방문하지 않습니다.\n\n해외 여행시 US$800 초과 구입한 물품은 입국시 관세가 부과될 수 있습니다. \n\n함께 많이 본 상품\n[부산출발] 파타야 휴양 골프 5일 #다색골프 #18홀*3회 #시암/람차방/치찬CC #윈덤 좀티엔 파타야 또는 동급\n1,769,000원~\n[부산출발] 방콕 골프 5일 #골프텔 #36홀*3회 #유니랜드CC #27홀 규모 #2인출발\n1,199,000원~\n[가성비甲] 파타야 골프 5일 #다색골프 #18홀*3회 #트레져힐CC외 #트로피카나호텔 #레잇체크아웃 #발마사지 ...\n1,284,700원~\n[부산출발] 파타야 골프 5일 #골프텔 #18홀*3회 #세인트앤드류스CC #2인출발 #54홀규모 골프장\n1,039,000원~\n[오전출발/수하물20kg] 방콕 골프 5일 #다색골프 #18홀*3회 #파인허스트CC 외10곳 #스쿰빗시내 4성호텔 #2인 ...\n1,119,900원~\n[부산출발] 파타야 휴양 골프 5일 #다색골프 #18홀*3회 #시암/람차방/치찬CC #윈덤 좀티엔 파타야 또는 동급\n1,769,000원~\n[부산출발] 방콕 골프 5일 #골프텔 #36홀*3회 #유니랜드CC #27홀 규모 #2인출발\n1,199,000원~\n[가성비甲] 파타야 골프 5일 #다색골프 #18홀*3회 #트레져힐CC외 #트로피카나호텔 #레잇체크아웃 #발마사지 ...\n1,284,700원~\n[부산출발] 파타야 골프 5일 #골프텔 #18홀*3회 #세인트앤드류스CC #2인출발 #54홀규모 골프장\n1,039,000원~\n[오전출발/수하물20kg] 방콕 골프 5일 #다색골프 #18홀*3회 #파인허스트CC 외10곳 #스쿰빗시내 4성호텔 #2인 ...\n1,119,900원~\n[부산출발] 파타야 휴양 골프 5일 #다색골프 #18홀*3회 #시암/람차방/치찬CC #윈덤 좀티엔 파타야 또는 동급\n1,769,000원~\n[부산출발] 방콕 골프 5일 #골프텔 #36홀*3회 #유니랜드CC #27홀 규모 #2인출발\n1,199,000원~\n[가성비甲] 파타야 골프 5일 #다색골프 #18홀*3회 #트레져힐CC외 #트로피카나호텔 #레잇체크아웃 #발마사지 ...\n1,284,700원~\n이전\n다음\n_\n방문도시 정보 및 기타정보\n도시정보\t\n입국카드 작성법\t\n도시\t현재시간\t오늘의 환율\n\n(2026.09.30 기준) \n\n\t콘센트\n방콕(BKK)\t10:512026.09.30\n\n한국보다 2시간 느림\n\n\t\n\n1바트(THB) = 42.35원\n\n\t\n\n전압 : 220V\n\n주파수 : 50HZ\n\n※ 오늘의 환율은 실시간 '현찰 살 때' 기준으로, 은행에서 거래되지 않는 통화는 0원으로 표기될 수 있습니다. \n\n여행시 유의사항\n[여행시 유의사항]\n\n- 태국입국시 담배는 1인 1보루, 술은 1인 1병(1ℓ) 규정! 위반시 벌금부과\n- 전자담배 반입이 불가. 적발시 전자담배 몰수 및 벌금이 부과됩니다\n- 개인적인 세면도구(치약,칫솔 등)는 고객님께서 따로 준비하셔야 합니다.\n- 현지사정(기상상황, 토너먼트 개최 등)에 따라 라운드의 제한 또는 골프장 변경 될 수 있습니다.\n- 해외에서도 한국 골퍼로서의 기본 매너를 잘 지켜주시기 바랍니다.\n\n인원선택\n\n성인\n1,189,000원\n\n1\n\n아동 \n1,189,000원\n\n0\n\n유아 \n150,000원\n\n0\n회원 즉시 할인 적용가\n\n총 금액\n\n1,189,000원\n\n1,219,000\n\n유류할증료&제세공과금 포함 \n\n하나투어 마일리지 최대 9,690적립예정\n상품가격 안내\n예약하기\t\n찜\n할인쿠폰\n\n1인 30,000원 즉시할인 자동 적용중\n\n※ 쿠폰할인은 기본 상품금액 기준으로 계산\n\n쿠폰보기\n혜택\n추가 적립/할인\n이달의 카드할인 혜택\n상품별 차별점만 빠른 비교\nfacebook\ninstagram\nblog\nkakaoplus\nyoutube\nkakaostory\n회사소개\n이용약관\n개인정보처리방침\n여행약관\n해외여행자보험\n마케팅제휴\n공식인증예약센터 검색\n(주)하나투어      대표집행임원 : 조좌진      주소 : (03161) 서울특별시 종로구 인사동 5길 41\n사업자등록번호 : 102-81-39440      사업자정보확인      통신판매업신고번호 : 종로01-1806호      관광사업자 등록번호 : 제1993-000006호\n개인정보 보호책임자 : 전준형      영업보증보험 : 22억 1천만원 가입    팩스: 02-734-0392    이메일 : 15771233@hanatour.com      ☎고객센터 1577-1233\n\n※ 부득이한 사정에 의해 여행일정이 변경되는 경우 사전 동의를 받습니다.\n※ 하나투어는 개별 항공권 단독 판매에 대하여 판매중개자로서 통신판매의 당사자가 아니며 해당상품의 거래정보 및 거래등에 대해 책임을 지지 않습니다.\nCOPYRIGHTⓒ HANATOUR SERVICE INC. ALL RIGHTS RESERVED\n하나은행 구매안전 서비스\n고객님은 안전거래를 위해 현금으로 결제시\n(주)하나투어에서 가입한 하나은행으로\n구매안전서비스를 이용하실 수 있습니다.\n서비스 가입사실 확인\n브랜드스탁선정\n22년연속(2005~2026)\n브랜드스타 1위\n산업정책연구원 주관\n제9회 국가서비스대상 (2026)\n하이엔드 여행 부문 대상 (제우스월드)\n2026 뉴욕페스티벌\n대한민국 국가브랜드 대상\n업계 최초 여행사 부문 대상\n2025 대한민국 SNS 대상\n업계 최초 관광 부문 대상\n소비자중심경영(CCM)\n7회 연속 인증(2012~2024) 및\n2025년 ‘명예의 전당’ 포상\nKMAC 선정\n14년 연속(2009~2025)\n한국산업의 고객만족도 여행사부문 1위\n한국표준협회 선정\n4년 연속(2019~2025)\n한국서비스품질지수 여행사 부문 1위\n한국능률협회선정\n22년연속(2005~2026)\n브랜드파워 1위\n브랜드스탁선정\n22년연속(2005~2026)\n브랜드스타 1위\n산업정책연구원 주관\n제9회 국가서비스대상 (2026)\n하이엔드 여행 부문 대상 (제우스월드)\n2026 뉴욕페스티벌\n대한민국 국가브랜드 대상\n업계 최초 여행사 부문 대상\n2025 대한민국 SNS 대상\n업계 최초 관광 부문 대상\n소비자중심경영(CCM)\n7회 연속 인증(2012~2024) 및\n2025년 ‘명예의 전당’ 포상\nKMAC 선정\n14년 연속(2009~2025)\n한국산업의 고객만족도 여행사부문 1위\n한국표준협회 선정\n4년 연속(2019~2025)\n한국서비스품질지수 여행사 부문 1위\n한국능률협회선정\n22년연속(2005~2026)\n브랜드파워 1위\n이전보기\n다음보기\n 대한민국브랜드대상\n 국외여행상품 정보제공 표준안 참여여행사\n 개인정보보호우수사이트\n CCM\n ISMS 인증 취득\n 현금영수증 의무발행 가맹점",
+  "url": "https://cp.hanatour.com/trp/pkg/CHPC0PKG0200M200?pkgCd=AAG301261101BXM&prePage=major-products",
+  "slug": "hana-45383264bd16",
+  "checkedAt": "2026-09-30"
+}

@@ -20,8 +20,12 @@ export type Product = {
   detailCheckedAt?: string;
   detailBasis?: string;
   galleryCaptions?: string[];
+  thumbCaption?: string;
   itineraryNote?: string;
   inclusionNote?: string;
+  quoteNotice?: string;
+  scheduleNotice?: string;
+  optionalCosts?: string[];
 
   title: string;
   /** 목록 카드에 보이는 한 줄 설명 */
@@ -45,7 +49,7 @@ export type Product = {
   /** 상단에 크게 보여줄 핵심 정보 (최대 4개 권장) */
   highlights?: { label: string; value: string }[];
   /** 일정표 */
-  itinerary?: { day: string; plan: string }[];
+  itinerary?: { day: string; summary?: string; plan: string }[];
   includes?: string[];
   excludes?: string[];
   /** 자유 설명 문단 (줄바꿈은 항목을 나눠서) */
@@ -98,7 +102,7 @@ export const products: Product[] = [
     updatedAt: royalcc.checkedAt,
     quoteUrl: "/products/royalcc-festival-2026/#quote",
   },
-  ...partnerProducts.map(row => Object.fromEntries(Object.entries(row).filter(([key]) => !["sourcePriceFrom", "sourceUrl", "sourceCard", "sourceDetail", "sourceImage", "detailSourceUrl", "detailBasis"].includes(key))) as Product),
+  ...partnerProducts.map(row => Object.fromEntries(Object.entries(row).filter(([key]) => !["sourcePriceFrom", "sourceUrl", "sourceCard", "sourceDetail", "sourceImage", "detailSourceUrl", "detailBasis", "sourceHeading", "sourceFamilyDuration"].includes(key))) as Product),
 ];
 
 export const publishedProducts = products

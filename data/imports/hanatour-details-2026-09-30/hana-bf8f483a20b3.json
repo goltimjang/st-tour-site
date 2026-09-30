@@ -1,0 +1,927 @@
+{
+  "costs": [
+    {
+      "items": [
+        "왕복항공권 : ◆ 그룹항공 기준의 상품가입니다. 항공 좌석 상황에 따라 상품가 변동 됩니다. 예약시 반드시 상담자와 확인부탁드립니다.\n\n",
+        "국내공항세, 현지공항세, 관광진흥개발기금, 전쟁보험료, 유류할증료",
+        "숙박비 : 2인 1실 기준\n",
+        "식사비 : 일정표에 명기된 식사\n",
+        "그린피 : ◆ 라운드 미진행 또는 취소시 별도로 환불되지 않습니다.\n",
+        "1억원 여행자보험"
+      ],
+      "label": "포함내역"
+    },
+    {
+      "items": [
+        "클럽하우스 중식 : 1회 80~100위안 (메뉴별 금액 상이)",
+        "캐디팁 : 18홀 기준 1인 150위안\n*산동성(청도/연태/위해) 지역의 캐디 배정은 골프장 고유권한으로 2인 1캐디 또는 4인 1캐디 배정될 수 있습니다.\n4인 1캐디 배정되어도 동일한 비용이 청구 됩니다.\n\n캐디피 : 18홀 기준 1인 150위안(2인 1캐디)\n◆ 산동성(청도/연태/위해) 지역의 캐디 배정은 골프장 고유권한으로 2인 1캐디 또는 4인 1캐디 배정될 수 있습니다.\n4인 1캐디 배정되어도 동일한 비용이 청구 됩니다\n◆ 현지도착후 카트피+캐디피는 일괄 지불조건이며 천재지변이외 자의에 의한 라운드 취소시 환불되지 않습니다.\n◆ 본 상품은 의무 라운드 상품으로 라운드 불참시에도 [캐디피+전동카트] 비용은 지불 하셔야 합니다.\n\n전동카 : 18홀 기준 1인 150위안(2인 1카트)\n◆ 현지도착후 카트피+캐디피는 일괄 지불조건이며 천재지변이외 자의에 의한 라운드 취소시 환불되지 않습니다.\n◆ 본 상품은 의무 라운드 상품으로 라운드 불참시에도 [캐디피+전동카트] 비용은 지불 하셔야 합니다.\n\n",
+        "가이드/기사 경비 : 4인이상 1인 300위안 (4인미만 인원합계 1200위안)\n*해당 왕복 버스 차량은 하나투어 손님외 타사 및 외부 손님이 함께 탑승하는 차량입니다. 현지 사정상 30~50분 대기시간이 발생될 수 있습니다.\n\n",
+        "기타 : ▶석식 불포함\nㄴ메뉴별 금액 상이\nㄴ호텔 중식당 또는 시내식당 이용\n\n",
+        "개인 여행경비(물값, 자유시간시 개인비용 등)",
+        "각종 매너팁(테이블팁, 객실팁, 포터비, 마사지팁 등)",
+        "매너팁은 소비자의 자율적 선택으로 지불여부에 따른 불이익은 없습니다. "
+      ],
+      "label": "불포함내역"
+    },
+    {
+      "items": [
+        "항공리턴변경(불가), 클래스 차액 : ◆ 그룹항공 기준의 상품가입니다. 항공 좌석 상황에 따라 상품가 변동 됩니다. 예약시 반드시 상담자와 확인부탁드립니다.\n",
+        "객실 1인 사용료 : 120,000원",
+        "최소출발미달 : ◈2~3인 출발 시에는 추가 비용 발생하오니 별도 문의 바랍니다.\n\n기타 : ▶전동카 싱글차지 150위안\nㄴ18홀기준 : 2인승 1인 1카트 이용시 또는 4인승 3인 1카트 이용 시 싱글차지 발생\nㄴ3인 라운드시 전동카 싱글차지 발생\n\n",
+        "선택관광/기항지관광/현지투어에 관한 상세 내역은 패키지 상품상세를 참고바랍니다. "
+      ],
+      "label": "선택경비"
+    }
+  ],
+  "days": [
+    {
+      "cards": [
+        {
+          "images": [
+            {
+              "alt": "큐알",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/11/26/20000/2d57cf86-0faa-4a7b-9284-3b6dc1f4d77f.JPG"
+            }
+          ],
+          "text": "\n        출입국 정보상세보기\n        예약 전 유의사항\n        \n            \n            　'중국 무비자'  입국 시 준비사항　\n① 2024년 11월 8일부터~ 2026년 12월31일까지, 중국 입국하는 한국 관광객 대상으로 무비자로 진행합니다.\n: 여행·친지 방문은 중국 입국 시 30일까지 무비자 체류 가능하나 이외 특수 목적(공연,집회 등)으로 입국 시에는 무비자 진행 불가하오니 개인비자 진행 여부 개별확인 필요합니다.\n② 단수여권으로는 중국 입국시 무비자 입국이 불가능 할 수 있으므로 사전 확인 필수입니다.\n③ 무비자로 입국하는 한국관광객분들은 중국 입국 전 온라인 입국신고서를 작성 후 입국하시면 됩니다.\n④ 상기 QR 이미지를 촬영하여 온라인 입국신고서 작성하면 됩니다. 작성 방법은 작성 가이드를 참고하시면 됩니다.\n\n　중국 온라인 입국신고서 작성 가이드　\n2025년 11월 26일부터 중국에 입국하는 모든 외국인 여행객은 온라인 입국신고서를 의무적으로 작성해야 합니다.\n※ 미작성 시 중국 입국이 불가합니다.\n\n■ 작성 사이트 : https://s.nia.gov.cn/ArrivalCardFillingPC/entry-registation-home\n■ 작성 가이드 : https://drive.google.com/file/d/1UYVcfJPoAqWn8mbSW2haRoLyB40JXnFW/view\n\n■ 입국 시 제출 방법\n1) 작성 후 생성된 QR코드 캡쳐 또는 PDF 파일로 저장\n2) 생성된 QR코드는 이메일 발송 및 스캔 가능 // 프린트하는 경우 인식 불가될 수 있음\n★★ 한국 출국전 QR 코드 저장 필수 ★★ \n\n■ 작성 시점\n입국일을 포함하여 입국 90일 이내 작성 가능\n(EX. 12월20일 중국 입국 시 9월20일~12월20일 이내에 작성 가능\n\n■ 최대 10명까지 단체 작성 가능합니다.\n■ 작성 및 제출은 무료이며, 그 어떤 비용도 요구하지 않습니다.\n■ 출입국 관련 지침은 중국 정부 정책에 따라 변경될 수 있습니다.\n            \n            \n            \n        \n        \n         \n   \n   \n\n    ",
+          "title": "출입국 정보"
+        },
+        {
+          "images": [
+            {
+              "alt": "봉래 화교호텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/13/10000/1bf547aa-8341-4c79-9db5-2a8e9d948a6d.jpg"
+            },
+            {
+              "alt": "봉래화교호텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/6a2f10e9-9b0b-4a9f-b931-743de7e02525.jpg"
+            },
+            {
+              "alt": "봉래화교 호텔 (HUAQIAO HOTEL) ",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/07/06/10000/f477364b-2216-4f4d-94e0-e32796ce2ebe.jpg"
+            },
+            {
+              "alt": "봉래화교 호텔 (HUAQIAO HOTEL) ",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/07/06/10000/3eb672e9-3598-4242-9ed2-46b54f7f20ff.jpg"
+            },
+            {
+              "alt": "봉래 화교호텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/13/10000/51233483-6925-48e5-b93c-db488f64035d.jpg"
+            },
+            {
+              "alt": "봉래 화교호텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/13/10000/865769b9-6d2f-4142-a5cd-2c984e9fb6d1.jpg"
+            },
+            {
+              "alt": "봉래 화교호텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/13/10000/c289fcc5-6b81-4b27-959a-2c6924047004.jpg"
+            },
+            {
+              "alt": "봉래 화교호텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/13/10000/bde52bb6-e654-4557-8a5a-db9d01e66909.jpg"
+            },
+            {
+              "alt": "봉래화교호텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/02/24/10000/3e35cb1f-ef92-4c27-b147-cefb8dcbe1f8.jpg"
+            },
+            {
+              "alt": "봉래화교호텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/02/24/10000/7af5d9d6-d4d2-4cb2-ac58-4f680f7ee39c.jpg"
+            },
+            {
+              "alt": "봉래화교호텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/02/24/10000/10a5191f-bb8b-4713-913a-8707f3e6b134.jpg"
+            },
+            {
+              "alt": "봉래화교호텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/02/24/10000/a6dd92c0-0b6e-4502-b241-37bb994cc52d.jpg"
+            },
+            {
+              "alt": "봉래화교호텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/02/24/10000/9a4a67c9-cf4d-4cd0-b808-07ed9c8687f4.jpg"
+            },
+            {
+              "alt": "봉래화교호텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/02/24/10000/b47f769a-fd7a-4095-bd5a-a71ec0da13b9.jpg"
+            },
+            {
+              "alt": "봉래화교호텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/6897fd91-4f46-4867-8ef2-4f67f6eae473.jpg"
+            },
+            {
+              "alt": "봉래화교호텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/7a6fa77a-7cbd-4395-b147-b4ea006fdecb.jpg"
+            },
+            {
+              "alt": "봉래화교호텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/124b962c-d474-4c2f-9f5f-3510b217e563.jpg"
+            },
+            {
+              "alt": "봉래화교호텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/894e1e4e-9dbf-4f80-aee3-e2863111cbbd.jpg"
+            },
+            {
+              "alt": "봉래화교호텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/4b6488bb-51b8-46c0-a6f6-2a22ac3a5f32.jpg"
+            },
+            {
+              "alt": "봉래 화교호텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/13/10000/89fefef8-8535-4818-b368-c7e531f23767.jpg"
+            },
+            {
+              "alt": "봉래 화교호텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/13/10000/1bf547aa-8341-4c79-9db5-2a8e9d948a6d.jpg"
+            },
+            {
+              "alt": "봉래화교호텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/6a2f10e9-9b0b-4a9f-b931-743de7e02525.jpg"
+            },
+            {
+              "alt": "봉래화교 호텔 (HUAQIAO HOTEL) ",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/07/06/10000/f477364b-2216-4f4d-94e0-e32796ce2ebe.jpg"
+            },
+            {
+              "alt": "봉래화교 호텔 (HUAQIAO HOTEL) ",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/07/06/10000/3eb672e9-3598-4242-9ed2-46b54f7f20ff.jpg"
+            },
+            {
+              "alt": "봉래 화교호텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/13/10000/51233483-6925-48e5-b93c-db488f64035d.jpg"
+            }
+          ],
+          "text": "\n        HUAQIAO HOTEL\n        봉래 화교호텔\n        \n                  2/7이전다음\n            \n            봉래 화교호텔 (HUAQIAO HOTEL)2019년에 오픈한 4.5성급 호텔로 봉래시 중심에 위치해 있습니다.\n펑라이 시내 중심가인 덩저우루(登州路)와 중루(钟楼路)가 만나는 교차로 인근에 위치해 있으며, 도보 5~8분 거리에 대형 상권인 **바오롱 광장(쇼핑몰/맛집)(宝龙广场)**이 있어 접근성이 매우 훌륭합니다.\n옌타이 공항 및 주변 골프장과의 연계성도 좋아 한국인 골퍼들이 숙소로 자주 선택하는 곳입니다.\n룸갯수는 123개이며, 연태 공항까지 약 40분 소요, 봉래 시내까지는 약 10분 소요됩니다.위치정보●연태 펑라이 국제공항: 차량으로 약 35~40분 소요\n●봉래 시내: 차량으로 약 10분 소요\n●연태시내(지부구/Zhibu District 일대): 차량으로 약 1시간 소요\n●봉래군정 골프장: 차량으로 약 20분 소요\n●봉래군정리조트(골프텔): 차량으로 약 20분 소요\n            \n            \n        \n        \n        예정호텔 1 ☞예정호텔 만실인 경우 동급인 예정호텔로 변경될 수 있습니다. ☞가능한 호텔이나 룸타입에 따라 추가요금 발생할 수 있습니다.\n    ",
+          "title": "HUAQIAO HOTEL"
+        },
+        {
+          "images": [
+            {
+              "alt": "군정리조트",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/fd97de3d-06b9-4129-85fd-6c297ab7b9c5.jpg"
+            },
+            {
+              "alt": "군정리조트",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/9ed9e069-57db-4403-82b0-7c625ce3efd3.jpg"
+            },
+            {
+              "alt": "봉래군정리조트",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/47ea6451-5c2a-4270-a276-7813c83300f3.JPG"
+            },
+            {
+              "alt": "봉래군정리조트",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/4ddec6e9-08f0-4a09-af08-ee7f43148158.JPG"
+            },
+            {
+              "alt": "군정리조트",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/a87ef687-1187-4ec7-a74b-193b3339ed83.jpg"
+            },
+            {
+              "alt": "군정리조트",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/709d89e3-5d94-423e-95fb-32e46b5c8ed9.jpg"
+            },
+            {
+              "alt": "군정리조트",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/a3ca2783-4033-4c2e-8c85-c1f718914f68.jpg"
+            },
+            {
+              "alt": "군정리조트",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/a7e42125-cf92-41c8-be7c-c1633993cf5a.jpg"
+            },
+            {
+              "alt": "군정리조트",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/a69fa8c0-351a-43eb-8c9d-cc9c58662810.jpg"
+            },
+            {
+              "alt": "봉래군정리조트",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/0d7d945c-2d9a-429a-b60a-acfa92eb69d9.JPG"
+            },
+            {
+              "alt": "군정리조트",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/ddafa1da-ffa7-4966-ba93-beb47d701ab1.jpg"
+            },
+            {
+              "alt": "봉래군정리조트",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/f8c9ad07-ca7a-40c1-96b9-f816e83c32c4.JPG"
+            },
+            {
+              "alt": "봉래군정리조트",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/6565c027-e336-4037-bcd1-cb0a9486dcb9.JPG"
+            },
+            {
+              "alt": "군정리조트",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/75540584-4297-40bd-b515-b0dfe149c62c.jpg"
+            },
+            {
+              "alt": "군정리조트",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/fd97de3d-06b9-4129-85fd-6c297ab7b9c5.jpg"
+            },
+            {
+              "alt": "군정리조트",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/9ed9e069-57db-4403-82b0-7c625ce3efd3.jpg"
+            },
+            {
+              "alt": "봉래군정리조트",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/47ea6451-5c2a-4270-a276-7813c83300f3.JPG"
+            },
+            {
+              "alt": "봉래군정리조트",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/4ddec6e9-08f0-4a09-af08-ee7f43148158.JPG"
+            },
+            {
+              "alt": "군정리조트",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/a87ef687-1187-4ec7-a74b-193b3339ed83.jpg"
+            }
+          ],
+          "text": "\n        CHATEAU JUNDING RESORT\n        연태 군정리조트\n        \n                2/5이전다음\n            \n            연태 군정리조트 CHATEAU JUNDING RESORT(君頂酒店)리조트에서 골프장까지 약 5분거리에 위치학 있는 군정리조트는 총 80여개의 객실로 구성된 4.5성급 리조트입니다.\n유명한 와이너리에 위치한 리조트답게 곳곳에 장식되어 있는 와인들과 주변경관이 빼어나고 색다른 분위기를 연출해 고급스러운 분위기를 느낄 수 있습니다.위치정보●연태 펑라이 국제공항: 차량으로 약 40분 소요\n●봉래시내: 차량으로 약 20분\n●연태시내(지부구/Zhibu District 일대): 차량으로 약 1시간 10분 ~ 1시간 20분 소요\n●봉래군정CC 클럽하우스: 차량으로 약 5분 소요\n●봉래화교호텔: 차량으로 약 20분 소요\n            \n            \n        \n        \n        예정호텔 2 ☞예정호텔 만실인 경우 동급인 예정호텔로 변경될 수 있습니다. ☞가능한 호텔이나 룸타입에 따라 추가요금 발생할 수 있습니다.\n    ",
+          "title": "CHATEAU JUNDING RESORT"
+        }
+      ],
+      "day": "acc_con0",
+      "golf": [],
+      "hotel": [
+        "봉래 화교호텔",
+        "연태 군정리조트"
+      ],
+      "images": [
+        {
+          "alt": "진에어",
+          "src": "https://image.hanatour.com/usr/static/img/airline/LJ.png"
+        },
+        {
+          "alt": "큐알",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/11/26/20000/2d57cf86-0faa-4a7b-9284-3b6dc1f4d77f.JPG"
+        },
+        {
+          "alt": "봉래 화교호텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/13/10000/1bf547aa-8341-4c79-9db5-2a8e9d948a6d.jpg"
+        },
+        {
+          "alt": "봉래화교호텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/6a2f10e9-9b0b-4a9f-b931-743de7e02525.jpg"
+        },
+        {
+          "alt": "봉래화교 호텔 (HUAQIAO HOTEL) ",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/07/06/10000/f477364b-2216-4f4d-94e0-e32796ce2ebe.jpg"
+        },
+        {
+          "alt": "봉래화교 호텔 (HUAQIAO HOTEL) ",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/07/06/10000/3eb672e9-3598-4242-9ed2-46b54f7f20ff.jpg"
+        },
+        {
+          "alt": "봉래 화교호텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/13/10000/51233483-6925-48e5-b93c-db488f64035d.jpg"
+        },
+        {
+          "alt": "봉래 화교호텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/13/10000/865769b9-6d2f-4142-a5cd-2c984e9fb6d1.jpg"
+        },
+        {
+          "alt": "봉래 화교호텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/13/10000/c289fcc5-6b81-4b27-959a-2c6924047004.jpg"
+        },
+        {
+          "alt": "봉래 화교호텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/13/10000/bde52bb6-e654-4557-8a5a-db9d01e66909.jpg"
+        },
+        {
+          "alt": "봉래화교호텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/02/24/10000/3e35cb1f-ef92-4c27-b147-cefb8dcbe1f8.jpg"
+        },
+        {
+          "alt": "봉래화교호텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/02/24/10000/7af5d9d6-d4d2-4cb2-ac58-4f680f7ee39c.jpg"
+        },
+        {
+          "alt": "봉래화교호텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/02/24/10000/10a5191f-bb8b-4713-913a-8707f3e6b134.jpg"
+        },
+        {
+          "alt": "봉래화교호텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/02/24/10000/a6dd92c0-0b6e-4502-b241-37bb994cc52d.jpg"
+        },
+        {
+          "alt": "봉래화교호텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/02/24/10000/9a4a67c9-cf4d-4cd0-b808-07ed9c8687f4.jpg"
+        },
+        {
+          "alt": "봉래화교호텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/02/24/10000/b47f769a-fd7a-4095-bd5a-a71ec0da13b9.jpg"
+        },
+        {
+          "alt": "봉래화교호텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/6897fd91-4f46-4867-8ef2-4f67f6eae473.jpg"
+        },
+        {
+          "alt": "봉래화교호텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/7a6fa77a-7cbd-4395-b147-b4ea006fdecb.jpg"
+        },
+        {
+          "alt": "봉래화교호텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/124b962c-d474-4c2f-9f5f-3510b217e563.jpg"
+        },
+        {
+          "alt": "봉래화교호텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/894e1e4e-9dbf-4f80-aee3-e2863111cbbd.jpg"
+        },
+        {
+          "alt": "봉래화교호텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/4b6488bb-51b8-46c0-a6f6-2a22ac3a5f32.jpg"
+        },
+        {
+          "alt": "봉래 화교호텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/13/10000/89fefef8-8535-4818-b368-c7e531f23767.jpg"
+        },
+        {
+          "alt": "봉래 화교호텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/13/10000/1bf547aa-8341-4c79-9db5-2a8e9d948a6d.jpg"
+        },
+        {
+          "alt": "봉래화교호텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/6a2f10e9-9b0b-4a9f-b931-743de7e02525.jpg"
+        },
+        {
+          "alt": "봉래화교 호텔 (HUAQIAO HOTEL) ",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/07/06/10000/f477364b-2216-4f4d-94e0-e32796ce2ebe.jpg"
+        },
+        {
+          "alt": "봉래화교 호텔 (HUAQIAO HOTEL) ",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/07/06/10000/3eb672e9-3598-4242-9ed2-46b54f7f20ff.jpg"
+        },
+        {
+          "alt": "봉래 화교호텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/13/10000/51233483-6925-48e5-b93c-db488f64035d.jpg"
+        },
+        {
+          "alt": "군정리조트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/fd97de3d-06b9-4129-85fd-6c297ab7b9c5.jpg"
+        },
+        {
+          "alt": "군정리조트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/9ed9e069-57db-4403-82b0-7c625ce3efd3.jpg"
+        },
+        {
+          "alt": "봉래군정리조트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/47ea6451-5c2a-4270-a276-7813c83300f3.JPG"
+        },
+        {
+          "alt": "봉래군정리조트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/4ddec6e9-08f0-4a09-af08-ee7f43148158.JPG"
+        },
+        {
+          "alt": "군정리조트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/a87ef687-1187-4ec7-a74b-193b3339ed83.jpg"
+        },
+        {
+          "alt": "군정리조트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/709d89e3-5d94-423e-95fb-32e46b5c8ed9.jpg"
+        },
+        {
+          "alt": "군정리조트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/a3ca2783-4033-4c2e-8c85-c1f718914f68.jpg"
+        },
+        {
+          "alt": "군정리조트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/a7e42125-cf92-41c8-be7c-c1633993cf5a.jpg"
+        },
+        {
+          "alt": "군정리조트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/a69fa8c0-351a-43eb-8c9d-cc9c58662810.jpg"
+        },
+        {
+          "alt": "봉래군정리조트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/0d7d945c-2d9a-429a-b60a-acfa92eb69d9.JPG"
+        },
+        {
+          "alt": "군정리조트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/ddafa1da-ffa7-4966-ba93-beb47d701ab1.jpg"
+        },
+        {
+          "alt": "봉래군정리조트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/f8c9ad07-ca7a-40c1-96b9-f816e83c32c4.JPG"
+        },
+        {
+          "alt": "봉래군정리조트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/6565c027-e336-4037-bcd1-cb0a9486dcb9.JPG"
+        },
+        {
+          "alt": "군정리조트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/75540584-4297-40bd-b515-b0dfe149c62c.jpg"
+        },
+        {
+          "alt": "군정리조트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/fd97de3d-06b9-4129-85fd-6c297ab7b9c5.jpg"
+        },
+        {
+          "alt": "군정리조트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/9ed9e069-57db-4403-82b0-7c625ce3efd3.jpg"
+        },
+        {
+          "alt": "봉래군정리조트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/47ea6451-5c2a-4270-a276-7813c83300f3.JPG"
+        },
+        {
+          "alt": "봉래군정리조트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/4ddec6e9-08f0-4a09-af08-ee7f43148158.JPG"
+        },
+        {
+          "alt": "군정리조트",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/19/10000/a87ef687-1187-4ec7-a74b-193b3339ed83.jpg"
+        }
+      ],
+      "meals": "  [석식] 불포함",
+      "stops": [
+        {
+          "text": "인천          ",
+          "title": "인천"
+        },
+        {
+          "text": "옌타이          ",
+          "title": "옌타이"
+        },
+        {
+          "text": " \n    \n        출입국 정보상세보기\n        예약 전 유의사항\n        \n            \n            　'중국 무비자'  입국 시 준비사항　\n① 2024년 11월 8일부터~ 2026년 12월31일까지, 중국 입국하는 한국 관광객 대상으로 무비자로 진행합니다.\n: 여행·친지 방문은 중국 입국 시 30일까지 무비자 체류 가능하나 이외 특수 목적(공연,집회 등)으로 입국 시에는 무비자 진행 불가하오니 개인비자 진행 여부 개별확인 필요합니다.\n② 단수여권으로는 중국 입국시 무비자 입국이 불가능 할 수 있으므로 사전 확인 필수입니다.\n③ 무비자로 입국하는 한국관광객분들은 중국 입국 전 온라인 입국신고서를 작성 후 입국하시면 됩니다.\n④ 상기 QR 이미지를 촬영하여 온라인 입국신고서 작성하면 됩니다. 작성 방법은 작성 가이드를 참고하시면 됩니다.\n\n　중국 온라인 입국신고서 작성 가이드　\n2025년 11월 26일부터 중국에 입국하는 모든 외국인 여행객은 온라인 입국신고서를 의무적으로 작성해야 합니다.\n※ 미작성 시 중국 입국이 불가합니다.\n\n■ 작성 사이트 : https://s.nia.gov.cn/ArrivalCardFillingPC/entry-registation-home\n■ 작성 가이드 : https://drive.google.com/file/d/1UYVcfJPoAqWn8mbSW2haRoLyB40JXnFW/view\n\n■ 입국 시 제출 방법\n1) 작성 후 생성된 QR코드 캡쳐 또는 PDF 파일로 저장\n2) 생성된 QR코드는 이메일 발송 및 스캔 가능 // 프린트하는 경우 인식 불가될 수 있음\n★★ 한국 출국전 QR 코드 저장 필수 ★★ \n\n■ 작성 시점\n입국일을 포함하여 입국 90일 이내 작성 가능\n(EX. 12월20일 중국 입국 시 9월20일~12월20일 이내에 작성 가능\n\n■ 최대 10명까지 단체 작성 가능합니다.\n■ 작성 및 제출은 무료이며, 그 어떤 비용도 요구하지 않습니다.\n■ 출입국 관련 지침은 중국 정부 정책에 따라 변경될 수 있습니다.\n            \n            \n            \n        \n        \n         \n   \n   \n\n    \n         "
+        },
+        {
+          "text": "      중국 입국 절차 ① 중국 온라인 입국신고서 작성② 지문 및 얼굴사진 등록해당대상: 만14세~만70세 연령제외대상: 중국 다른 지역에서 지문등록 한 분③ 입국심사지문등록 후 출력되는 OK종이, 여권제출④수화물 수취 → 세관검사 → 가이드 또는 전담직원 미팅    ",
+          "title": "중국 입국 절차"
+        },
+        {
+          "text": "      가이드 미팅 후 호텔이동 (약 40~50분 소요)    ",
+          "title": "가이드 미팅 후 호텔이동 (약 40~50분 소요)"
+        },
+        {
+          "meal": "\n                                  석식 (불포함)\n                                ",
+          "text": "    \n                                  석식 (불포함)\n                                      "
+        },
+        {
+          "text": "      호텔 체크인 및 휴식    ",
+          "title": "호텔 체크인 및 휴식"
+        },
+        {
+          "text": " \n    \n        HUAQIAO HOTEL\n        봉래 화교호텔\n        \n                  2/7이전다음\n            \n            봉래 화교호텔 (HUAQIAO HOTEL)2019년에 오픈한 4.5성급 호텔로 봉래시 중심에 위치해 있습니다.\n펑라이 시내 중심가인 덩저우루(登州路)와 중루(钟楼路)가 만나는 교차로 인근에 위치해 있으며, 도보 5~8분 거리에 대형 상권인 **바오롱 광장(쇼핑몰/맛집)(宝龙广场)**이 있어 접근성이 매우 훌륭합니다.\n옌타이 공항 및 주변 골프장과의 연계성도 좋아 한국인 골퍼들이 숙소로 자주 선택하는 곳입니다.\n룸갯수는 123개이며, 연태 공항까지 약 40분 소요, 봉래 시내까지는 약 10분 소요됩니다.위치정보●연태 펑라이 국제공항: 차량으로 약 35~40분 소요\n●봉래 시내: 차량으로 약 10분 소요\n●연태시내(지부구/Zhibu District 일대): 차량으로 약 1시간 소요\n●봉래군정 골프장: 차량으로 약 20분 소요\n●봉래군정리조트(골프텔): 차량으로 약 20분 소요\n            \n            \n        \n        \n        예정호텔 1 ☞예정호텔 만실인 경우 동급인 예정호텔로 변경될 수 있습니다. ☞가능한 호텔이나 룸타입에 따라 추가요금 발생할 수 있습니다.\n    \n         "
+        },
+        {
+          "text": " \n    \n        CHATEAU JUNDING RESORT\n        연태 군정리조트\n        \n                2/5이전다음\n            \n            연태 군정리조트 CHATEAU JUNDING RESORT(君頂酒店)리조트에서 골프장까지 약 5분거리에 위치학 있는 군정리조트는 총 80여개의 객실로 구성된 4.5성급 리조트입니다.\n유명한 와이너리에 위치한 리조트답게 곳곳에 장식되어 있는 와인들과 주변경관이 빼어나고 색다른 분위기를 연출해 고급스러운 분위기를 느낄 수 있습니다.위치정보●연태 펑라이 국제공항: 차량으로 약 40분 소요\n●봉래시내: 차량으로 약 20분\n●연태시내(지부구/Zhibu District 일대): 차량으로 약 1시간 10분 ~ 1시간 20분 소요\n●봉래군정CC 클럽하우스: 차량으로 약 5분 소요\n●봉래화교호텔: 차량으로 약 20분 소요\n            \n            \n        \n        \n        예정호텔 2 ☞예정호텔 만실인 경우 동급인 예정호텔로 변경될 수 있습니다. ☞가능한 호텔이나 룸타입에 따라 추가요금 발생할 수 있습니다.\n    \n         "
+        }
+      ],
+      "text": "  진에어 01시간 45분 LJ0843 15:25  2026.11.01(일) 서울 ICN 출발 16:10  2026.11.01(일) 옌타이 YNT 도착      인천          옌타이           \n    \n        출입국 정보상세보기\n        예약 전 유의사항\n        \n            \n            　'중국 무비자'  입국 시 준비사항　\n① 2024년 11월 8일부터~ 2026년 12월31일까지, 중국 입국하는 한국 관광객 대상으로 무비자로 진행합니다.\n: 여행·친지 방문은 중국 입국 시 30일까지 무비자 체류 가능하나 이외 특수 목적(공연,집회 등)으로 입국 시에는 무비자 진행 불가하오니 개인비자 진행 여부 개별확인 필요합니다.\n② 단수여권으로는 중국 입국시 무비자 입국이 불가능 할 수 있으므로 사전 확인 필수입니다.\n③ 무비자로 입국하는 한국관광객분들은 중국 입국 전 온라인 입국신고서를 작성 후 입국하시면 됩니다.\n④ 상기 QR 이미지를 촬영하여 온라인 입국신고서 작성하면 됩니다. 작성 방법은 작성 가이드를 참고하시면 됩니다.\n\n　중국 온라인 입국신고서 작성 가이드　\n2025년 11월 26일부터 중국에 입국하는 모든 외국인 여행객은 온라인 입국신고서를 의무적으로 작성해야 합니다.\n※ 미작성 시 중국 입국이 불가합니다.\n\n■ 작성 사이트 : https://s.nia.gov.cn/ArrivalCardFillingPC/entry-registation-home\n■ 작성 가이드 : https://drive.google.com/file/d/1UYVcfJPoAqWn8mbSW2haRoLyB40JXnFW/view\n\n■ 입국 시 제출 방법\n1) 작성 후 생성된 QR코드 캡쳐 또는 PDF 파일로 저장\n2) 생성된 QR코드는 이메일 발송 및 스캔 가능 // 프린트하는 경우 인식 불가될 수 있음\n★★ 한국 출국전 QR 코드 저장 필수 ★★ \n\n■ 작성 시점\n입국일을 포함하여 입국 90일 이내 작성 가능\n(EX. 12월20일 중국 입국 시 9월20일~12월20일 이내에 작성 가능\n\n■ 최대 10명까지 단체 작성 가능합니다.\n■ 작성 및 제출은 무료이며, 그 어떤 비용도 요구하지 않습니다.\n■ 출입국 관련 지침은 중국 정부 정책에 따라 변경될 수 있습니다.\n            \n            \n            \n        \n        \n         \n   \n   \n\n    \n               중국 입국 절차 ① 중국 온라인 입국신고서 작성② 지문 및 얼굴사진 등록해당대상: 만14세~만70세 연령제외대상: 중국 다른 지역에서 지문등록 한 분③ 입국심사지문등록 후 출력되는 OK종이, 여권제출④수화물 수취 → 세관검사 → 가이드 또는 전담직원 미팅          가이드 미팅 후 호텔이동 (약 40~50분 소요)        \n                                  석식 (불포함)\n                                            호텔 체크인 및 휴식     \n    \n        HUAQIAO HOTEL\n        봉래 화교호텔\n        \n                  2/7이전다음\n            \n            봉래 화교호텔 (HUAQIAO HOTEL)2019년에 오픈한 4.5성급 호텔로 봉래시 중심에 위치해 있습니다.\n펑라이 시내 중심가인 덩저우루(登州路)와 중루(钟楼路)가 만나는 교차로 인근에 위치해 있으며, 도보 5~8분 거리에 대형 상권인 **바오롱 광장(쇼핑몰/맛집)(宝龙广场)**이 있어 접근성이 매우 훌륭합니다.\n옌타이 공항 및 주변 골프장과의 연계성도 좋아 한국인 골퍼들이 숙소로 자주 선택하는 곳입니다.\n룸갯수는 123개이며, 연태 공항까지 약 40분 소요, 봉래 시내까지는 약 10분 소요됩니다.위치정보●연태 펑라이 국제공항: 차량으로 약 35~40분 소요\n●봉래 시내: 차량으로 약 10분 소요\n●연태시내(지부구/Zhibu District 일대): 차량으로 약 1시간 소요\n●봉래군정 골프장: 차량으로 약 20분 소요\n●봉래군정리조트(골프텔): 차량으로 약 20분 소요\n            \n            \n        \n        \n        예정호텔 1 ☞예정호텔 만실인 경우 동급인 예정호텔로 변경될 수 있습니다. ☞가능한 호텔이나 룸타입에 따라 추가요금 발생할 수 있습니다.\n    \n          \n    \n        CHATEAU JUNDING RESORT\n        연태 군정리조트\n        \n                2/5이전다음\n            \n            연태 군정리조트 CHATEAU JUNDING RESORT(君頂酒店)리조트에서 골프장까지 약 5분거리에 위치학 있는 군정리조트는 총 80여개의 객실로 구성된 4.5성급 리조트입니다.\n유명한 와이너리에 위치한 리조트답게 곳곳에 장식되어 있는 와인들과 주변경관이 빼어나고 색다른 분위기를 연출해 고급스러운 분위기를 느낄 수 있습니다.위치정보●연태 펑라이 국제공항: 차량으로 약 40분 소요\n●봉래시내: 차량으로 약 20분\n●연태시내(지부구/Zhibu District 일대): 차량으로 약 1시간 10분 ~ 1시간 20분 소요\n●봉래군정CC 클럽하우스: 차량으로 약 5분 소요\n●봉래화교호텔: 차량으로 약 20분 소요\n            \n            \n        \n        \n        예정호텔 2 ☞예정호텔 만실인 경우 동급인 예정호텔로 변경될 수 있습니다. ☞가능한 호텔이나 룸타입에 따라 추가요금 발생할 수 있습니다.\n    \n           호텔 총 2개의\n                                  예정 호텔이 있습니다.\n                                출발 3일전까지 확정되어 일정표에서 확인하실\n                                수 있습니다.\n                                1일전 카카오 알림톡으로도 알려드립니다. 봉래 화교호텔  \n                                      HUAQIAO HOTEL상세보기연태 군정리조트  \n                                      CHATEAU JUNDING RESORT상세보기  식사   [석식] 불포함"
+    },
+    {
+      "cards": [
+        {
+          "images": [
+            {
+              "alt": "봉래 군정CC",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/98cc47b9-a027-4e49-bb76-ed12bd47f9d9.JPG"
+            },
+            {
+              "alt": "봉래 군정CC",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/5de70689-8c12-40dd-b145-139b40c9f096.JPG"
+            },
+            {
+              "alt": "봉래 군정CC",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/9134473b-71db-4b63-bcbb-676941056f95.JPG"
+            },
+            {
+              "alt": "봉래 군정 골프장",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2009/06/17/10000/3642f832-7cbc-42ed-b20c-2a10d8850ffb.jpg"
+            },
+            {
+              "alt": "봉래 군정CC",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/9c06b1a5-056f-44b5-9faa-8c9d0e78c3bb.JPG"
+            },
+            {
+              "alt": "봉래 군정CC",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/02990d2c-bcb2-46b6-8f83-e2c8e75f95e9.JPG"
+            },
+            {
+              "alt": "봉래 군정CC",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/98cc47b9-a027-4e49-bb76-ed12bd47f9d9.JPG"
+            },
+            {
+              "alt": "봉래 군정CC",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/5de70689-8c12-40dd-b145-139b40c9f096.JPG"
+            },
+            {
+              "alt": "봉래 군정CC",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/9134473b-71db-4b63-bcbb-676941056f95.JPG"
+            },
+            {
+              "alt": "봉래 군정 골프장",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2009/06/17/10000/3642f832-7cbc-42ed-b20c-2a10d8850ffb.jpg"
+            },
+            {
+              "alt": "봉래 군정CC",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/9c06b1a5-056f-44b5-9faa-8c9d0e78c3bb.JPG"
+            },
+            {
+              "alt": "봉래 군정CC",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/02990d2c-bcb2-46b6-8f83-e2c8e75f95e9.JPG"
+            }
+          ],
+          "text": "\n        JUNDING CHATEAU GOLF CLUB상세보기\n        \n        \n             2/2이전다음\n            \n            \n            위치정보 : 봉래시내 약 20분 거리, 공항 약 40분 거리홀(HOLE) : 18파(PAR) : 72야드(YARD) : 7293클럽하우스 : 1골프장소개군정 골프장은 봉황호에 인접하며, 중국에서 유일하게 포도원 내에 위치하고 있습니다. 4만 여평에 달하는 실외 골프 연습장이며, 24개 연습 타석이 있고 단독적인 연습장과 클럽하우스가 있습니다.봉래 군정 골프클럽남왕산곡군정골프클럽은 자고로 \"인간의 선경\" 으로 알려진 아름다운 해변도시 산동성 봉래시에 위치하여 있습니다.부지면적 150만평방미터,국제표준의 18홀,72파,총길이 7293야드입니다.    골프장은 기복이 약간 있는 구릉에 건설되어 있으며,아름다운 봉황호와 이웃하여 있어 그 자태가 더욱 웅장하고 아름다워 보입니다.골프장의 특색은 인코스는 과일나무,꽃나무,소나무와 조합되어 있어 매 홀마다의 아름다움과 그 형태는 가지각색이고 아웃코스는 기복과 함께 도전성이 있는 코스입니다.두가지 풍격의 코스가 변화가 많은 지형하에 대칭되어 있고,기분을 좋게 해주는 원생태자연경관과,독특한 도전성이 있는 설계가 함께 어울러져 있으며,호수건너로는 동방특색의 개성있는 포도주장원-군정장원과 마주하고 있어, 사람으로 하여금 산의 웅장함,호수의 아름다움. 꽃의 화려함,과일의 향기에 도취하게 하여 아주 독특한 골프장의 매력을 느끼게 합니다.    골프장에서 봉래시내중심과의 거리는 10키로미터 밖에 않되며 중국에서도 유명한 봉래팔선과해구 풍경구와 15분 거리이며, 연태공항과는 50분 거리다. 연태시내중심이랑은 8차선으로 쭉 뻗은 고속도로가 있으며 양켠에는 포도밭이 끝도 없이 펼쳐져 있습니다.      골프장주위에는 포도관광원,생태목장관광원, 5성급군정호텔,아름다운 봉황호,향기가 그윽한 과수원과 아울려져 환상의 무릉도원을 연상케 합니다.    이 아름다운 골프장에서 유쾌한 라운딩을 즐기신후 주위의 포도주문화를 느끼시고, 또 아름다운 봉황호에서 낚시한번 즐겨보시는것 또한 특별하고 잊지못할 골프투어가 아닐까 싶습니다.위치정보●연태 펑라이 국제공항: 차량으로 약 40분 소요\n●봉래시내: 차량으로 약 20분\n●연태시내(지부구/Zhibu District 일대): 차량으로 약 1시간 10분 ~ 1시간 20분 소요\n●군정리조트(골프텔): 차량으로 약 5분 소요\n●봉래화교호텔: 차량으로 약 20분 소요\n            \n        \n        \n         \n    ",
+          "title": "JUNDING CHATEAU GOLF CLUB"
+        },
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/06/10000/54dfe847-cd80-4288-8d8b-e5b9936a6196.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/06/10000/78a03530-d22c-4417-b9d6-96cc2da4b8f2.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2015/01/27/10000/2adf4b4e-35c2-460b-9bc8-2ee661deb5e9.jpg"
+            }
+          ],
+          "text": "\n        봉래각상세보기\n        연태 근교 관광지, 인간선경 봉래각\n        \n            \n            봉래각은 연태에서 약 70km떨어져 있는 근교 여행지로 1061년에 세워진 거대 건축물로 중국의 황학루, 악양루, 등왕각과 함께 \"중국 4대 명루각\"의 하나로 중국 국보로 지정된 곳 입니다. 자연경관이 신비롭고 아름다운 봉래각은 전해지는 이야기도 많습니다. 진시황이 이곳에서 불로초를 구하려 했던 것은 이미 널리 알려져 있으며, 신라시대 당나라에서 학업을 마치고 떠나려던 의상대사에게 선묘낭자가 사모의 정을 전하고 혼인을 간청했는데 의상대사는 이를 거절하고 끝내 귀국길에 올랐고, 결국 선묘낭자는 봉래각 앞바다에 몸을 던졌다는 안타까운 이야기도 전해지고 있습니다.\n            \n            \n            \n        \n        \n         \n  ◈해당 일정은 사전포함 사항이  아닌, 현지 선택관광 추천 일정입니다◈ \n  ☞해당 일정은 사전포함 사항이 아닌, 현지 선택관광 추천 일정입니다. \n\n    ",
+          "title": "봉래각"
+        },
+        {
+          "images": [
+            {
+              "alt": "브라이래디언스호텔 뷔페",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/21/10000/bcea13c8-461d-4336-b2b8-0b823bf235e8.jpg"
+            },
+            {
+              "alt": "브라이래디언스호텔 뷔페",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/21/10000/4f6a1cfb-48cf-4795-a229-aa79daeb5573.jpg"
+            },
+            {
+              "alt": "브라이래디언스호텔 뷔페",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/21/10000/4fe69f4d-2076-4fe7-857a-5c63895541d4.jpg"
+            },
+            {
+              "alt": "브라이래디언스호텔 뷔페",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/21/10000/bb1a29cf-f8f4-4af0-ad22-5ec17854c2b0.jpg"
+            },
+            {
+              "alt": "브라이래디언스호텔 뷔페 (해산물)",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/26/10000/758309bc-e7ad-410a-9ff8-175904d13384.jpg"
+            },
+            {
+              "alt": "브라이래디언스호텔 (해산물뷔페)",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/26/10000/7db9af78-b09d-4ab0-b494-bcd199b305fe.gif"
+            },
+            {
+              "alt": "브라이래디언스호텔 뷔페",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/21/10000/bcea13c8-461d-4336-b2b8-0b823bf235e8.jpg"
+            },
+            {
+              "alt": "브라이래디언스호텔 뷔페",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/21/10000/4f6a1cfb-48cf-4795-a229-aa79daeb5573.jpg"
+            },
+            {
+              "alt": "브라이래디언스호텔 뷔페",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/21/10000/4fe69f4d-2076-4fe7-857a-5c63895541d4.jpg"
+            },
+            {
+              "alt": "브라이래디언스호텔 뷔페",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/21/10000/bb1a29cf-f8f4-4af0-ad22-5ec17854c2b0.jpg"
+            },
+            {
+              "alt": "브라이래디언스호텔 뷔페 (해산물)",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/26/10000/758309bc-e7ad-410a-9ff8-175904d13384.jpg"
+            },
+            {
+              "alt": "브라이래디언스호텔 (해산물뷔페)",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/26/10000/7db9af78-b09d-4ab0-b494-bcd199b305fe.gif"
+            }
+          ],
+          "text": "\n        선택관광골프팀) 해산물 뷔페\n        \n        \n             2/2이전다음\n            싱하고 살아있는 전복, 해삼, 굴, 가리비, 바닷가재 등 발해만의 제철 해산물을 찌거나 구워서 맛보실수 있으며,그외 일식(연어, 참치 등 회, 초밥 모듬 요리),서양식(스테이크, 양갈비, 파스타, 피자 등),중국식요리(산둥 요리, 광둥 요리, 쓰촨 요리 등 )양꼬치,소고기꼬치,해산물꼬치구이도 맛보실수 있습니다 .\n\n전원 동의시 진행 가능 \n\n            \n            \n            요금 : 성인 35USD / 아동 35USD소요시간 : 약 1시간 30분대체일정 : 미진행시 기존 일정표의 식사대로 진행됩니다.미선택시 가이드동행 : 미동행\n        \n        \n        \n    ",
+          "title": "선택관광골프팀) 해산물 뷔페"
+        }
+      ],
+      "day": "acc_con1",
+      "golf": [
+        "봉래 군정 골프클럽"
+      ],
+      "hotel": [
+        "봉래 화교호텔",
+        "연태 군정리조트"
+      ],
+      "images": [
+        {
+          "alt": "봉래 군정CC",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/98cc47b9-a027-4e49-bb76-ed12bd47f9d9.JPG"
+        },
+        {
+          "alt": "봉래 군정CC",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/5de70689-8c12-40dd-b145-139b40c9f096.JPG"
+        },
+        {
+          "alt": "봉래 군정CC",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/9134473b-71db-4b63-bcbb-676941056f95.JPG"
+        },
+        {
+          "alt": "봉래 군정 골프장",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2009/06/17/10000/3642f832-7cbc-42ed-b20c-2a10d8850ffb.jpg"
+        },
+        {
+          "alt": "봉래 군정CC",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/9c06b1a5-056f-44b5-9faa-8c9d0e78c3bb.JPG"
+        },
+        {
+          "alt": "봉래 군정CC",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/02990d2c-bcb2-46b6-8f83-e2c8e75f95e9.JPG"
+        },
+        {
+          "alt": "봉래 군정CC",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/98cc47b9-a027-4e49-bb76-ed12bd47f9d9.JPG"
+        },
+        {
+          "alt": "봉래 군정CC",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/5de70689-8c12-40dd-b145-139b40c9f096.JPG"
+        },
+        {
+          "alt": "봉래 군정CC",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/9134473b-71db-4b63-bcbb-676941056f95.JPG"
+        },
+        {
+          "alt": "봉래 군정 골프장",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2009/06/17/10000/3642f832-7cbc-42ed-b20c-2a10d8850ffb.jpg"
+        },
+        {
+          "alt": "봉래 군정CC",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/9c06b1a5-056f-44b5-9faa-8c9d0e78c3bb.JPG"
+        },
+        {
+          "alt": "봉래 군정CC",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/02990d2c-bcb2-46b6-8f83-e2c8e75f95e9.JPG"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/06/10000/54dfe847-cd80-4288-8d8b-e5b9936a6196.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/06/10000/78a03530-d22c-4417-b9d6-96cc2da4b8f2.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2015/01/27/10000/2adf4b4e-35c2-460b-9bc8-2ee661deb5e9.jpg"
+        },
+        {
+          "alt": "브라이래디언스호텔 뷔페",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/21/10000/bcea13c8-461d-4336-b2b8-0b823bf235e8.jpg"
+        },
+        {
+          "alt": "브라이래디언스호텔 뷔페",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/21/10000/4f6a1cfb-48cf-4795-a229-aa79daeb5573.jpg"
+        },
+        {
+          "alt": "브라이래디언스호텔 뷔페",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/21/10000/4fe69f4d-2076-4fe7-857a-5c63895541d4.jpg"
+        },
+        {
+          "alt": "브라이래디언스호텔 뷔페",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/21/10000/bb1a29cf-f8f4-4af0-ad22-5ec17854c2b0.jpg"
+        },
+        {
+          "alt": "브라이래디언스호텔 뷔페 (해산물)",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/26/10000/758309bc-e7ad-410a-9ff8-175904d13384.jpg"
+        },
+        {
+          "alt": "브라이래디언스호텔 (해산물뷔페)",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/26/10000/7db9af78-b09d-4ab0-b494-bcd199b305fe.gif"
+        },
+        {
+          "alt": "브라이래디언스호텔 뷔페",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/21/10000/bcea13c8-461d-4336-b2b8-0b823bf235e8.jpg"
+        },
+        {
+          "alt": "브라이래디언스호텔 뷔페",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/21/10000/4f6a1cfb-48cf-4795-a229-aa79daeb5573.jpg"
+        },
+        {
+          "alt": "브라이래디언스호텔 뷔페",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/21/10000/4fe69f4d-2076-4fe7-857a-5c63895541d4.jpg"
+        },
+        {
+          "alt": "브라이래디언스호텔 뷔페",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/21/10000/bb1a29cf-f8f4-4af0-ad22-5ec17854c2b0.jpg"
+        },
+        {
+          "alt": "브라이래디언스호텔 뷔페 (해산물)",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/26/10000/758309bc-e7ad-410a-9ff8-175904d13384.jpg"
+        },
+        {
+          "alt": "브라이래디언스호텔 (해산물뷔페)",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/05/26/10000/7db9af78-b09d-4ab0-b494-bcd199b305fe.gif"
+        }
+      ],
+      "meals": "[조식] 호텔식 [중식] 불포함 [석식] 불포함",
+      "stops": [
+        {
+          "meal": "\n                                  조식 (호텔식)\n                                ",
+          "text": "    \n                                  조식 (호텔식)\n                                      "
+        },
+        {
+          "text": "      조식 후 봉래군정 골프장으로 이동 (약 20분 소요)    ",
+          "title": "조식 후 봉래군정 골프장으로 이동 (약 20분 소요)"
+        },
+        {
+          "text": "      오전 18홀 + 오후 18홀 라운드 ◈ TEE OFF - 미정 (전날 개별 안내)    ",
+          "title": "오전 18홀 + 오후 18홀 라운드"
+        },
+        {
+          "text": "      일몰시 조기 홀-아웃(종료) 됩니다. 골프장 안전규정에 따른 사항이며 별도의 환불 없는점 양해 부탁드립니다.    ",
+          "title": "일몰시 조기 홀-아웃(종료) 됩니다. 골프장 안전규정에 따른 사항이며 별도의 환불 없는점 양해 부탁드립니다."
+        },
+        {
+          "text": " \n    \n        JUNDING CHATEAU GOLF CLUB상세보기\n        \n        \n             2/2이전다음\n            \n            \n            위치정보 : 봉래시내 약 20분 거리, 공항 약 40분 거리홀(HOLE) : 18파(PAR) : 72야드(YARD) : 7293클럽하우스 : 1골프장소개군정 골프장은 봉황호에 인접하며, 중국에서 유일하게 포도원 내에 위치하고 있습니다. 4만 여평에 달하는 실외 골프 연습장이며, 24개 연습 타석이 있고 단독적인 연습장과 클럽하우스가 있습니다.봉래 군정 골프클럽남왕산곡군정골프클럽은 자고로 \"인간의 선경\" 으로 알려진 아름다운 해변도시 산동성 봉래시에 위치하여 있습니다.부지면적 150만평방미터,국제표준의 18홀,72파,총길이 7293야드입니다.    골프장은 기복이 약간 있는 구릉에 건설되어 있으며,아름다운 봉황호와 이웃하여 있어 그 자태가 더욱 웅장하고 아름다워 보입니다.골프장의 특색은 인코스는 과일나무,꽃나무,소나무와 조합되어 있어 매 홀마다의 아름다움과 그 형태는 가지각색이고 아웃코스는 기복과 함께 도전성이 있는 코스입니다.두가지 풍격의 코스가 변화가 많은 지형하에 대칭되어 있고,기분을 좋게 해주는 원생태자연경관과,독특한 도전성이 있는 설계가 함께 어울러져 있으며,호수건너로는 동방특색의 개성있는 포도주장원-군정장원과 마주하고 있어, 사람으로 하여금 산의 웅장함,호수의 아름다움. 꽃의 화려함,과일의 향기에 도취하게 하여 아주 독특한 골프장의 매력을 느끼게 합니다.    골프장에서 봉래시내중심과의 거리는 10키로미터 밖에 않되며 중국에서도 유명한 봉래팔선과해구 풍경구와 15분 거리이며, 연태공항과는 50분 거리다. 연태시내중심이랑은 8차선으로 쭉 뻗은 고속도로가 있으며 양켠에는 포도밭이 끝도 없이 펼쳐져 있습니다.      골프장주위에는 포도관광원,생태목장관광원, 5성급군정호텔,아름다운 봉황호,향기가 그윽한 과수원과 아울려져 환상의 무릉도원을 연상케 합니다.    이 아름다운 골프장에서 유쾌한 라운딩을 즐기신후 주위의 포도주문화를 느끼시고, 또 아름다운 봉황호에서 낚시한번 즐겨보시는것 또한 특별하고 잊지못할 골프투어가 아닐까 싶습니다.위치정보●연태 펑라이 국제공항: 차량으로 약 40분 소요\n●봉래시내: 차량으로 약 20분\n●연태시내(지부구/Zhibu District 일대): 차량으로 약 1시간 10분 ~ 1시간 20분 소요\n●군정리조트(골프텔): 차량으로 약 5분 소요\n●봉래화교호텔: 차량으로 약 20분 소요\n            \n        \n        \n         \n    \n         "
+        },
+        {
+          "meal": "\n                                  중식 (불포함)\n                                ",
+          "text": "    \n                                  중식 (불포함)\n                                      "
+        },
+        {
+          "text": "      라운드 종료 후 자유일정    ",
+          "title": "라운드 종료 후 자유일정"
+        },
+        {
+          "text": " \n    \n        봉래각상세보기\n        연태 근교 관광지, 인간선경 봉래각\n        \n            \n            봉래각은 연태에서 약 70km떨어져 있는 근교 여행지로 1061년에 세워진 거대 건축물로 중국의 황학루, 악양루, 등왕각과 함께 \"중국 4대 명루각\"의 하나로 중국 국보로 지정된 곳 입니다. 자연경관이 신비롭고 아름다운 봉래각은 전해지는 이야기도 많습니다. 진시황이 이곳에서 불로초를 구하려 했던 것은 이미 널리 알려져 있으며, 신라시대 당나라에서 학업을 마치고 떠나려던 의상대사에게 선묘낭자가 사모의 정을 전하고 혼인을 간청했는데 의상대사는 이를 거절하고 끝내 귀국길에 올랐고, 결국 선묘낭자는 봉래각 앞바다에 몸을 던졌다는 안타까운 이야기도 전해지고 있습니다.\n            \n            \n            \n        \n        \n         \n  ◈해당 일정은 사전포함 사항이  아닌, 현지 선택관광 추천 일정입니다◈ \n  ☞해당 일정은 사전포함 사항이 아닌, 현지 선택관광 추천 일정입니다. \n\n    \n         "
+        },
+        {
+          "text": " \n    \n        선택관광골프팀) 해산물 뷔페\n        \n        \n             2/2이전다음\n            싱하고 살아있는 전복, 해삼, 굴, 가리비, 바닷가재 등 발해만의 제철 해산물을 찌거나 구워서 맛보실수 있으며,그외 일식(연어, 참치 등 회, 초밥 모듬 요리),서양식(스테이크, 양갈비, 파스타, 피자 등),중국식요리(산둥 요리, 광둥 요리, 쓰촨 요리 등 )양꼬치,소고기꼬치,해산물꼬치구이도 맛보실수 있습니다 .\n\n전원 동의시 진행 가능 \n\n            \n            \n            요금 : 성인 35USD / 아동 35USD소요시간 : 약 1시간 30분대체일정 : 미진행시 기존 일정표의 식사대로 진행됩니다.미선택시 가이드동행 : 미동행\n        \n        \n        \n    \n         "
+        },
+        {
+          "meal": "\n                                  석식 (불포함)\n                                ",
+          "text": "    \n                                  석식 (불포함)\n                                      "
+        },
+        {
+          "text": "      호텔 투숙 및 휴식    ",
+          "title": "호텔 투숙 및 휴식"
+        }
+      ],
+      "text": "      \n                                  조식 (호텔식)\n                                            조식 후 봉래군정 골프장으로 이동 (약 20분 소요)          오전 18홀 + 오후 18홀 라운드 ◈ TEE OFF - 미정 (전날 개별 안내)          일몰시 조기 홀-아웃(종료) 됩니다. 골프장 안전규정에 따른 사항이며 별도의 환불 없는점 양해 부탁드립니다.     \n    \n        JUNDING CHATEAU GOLF CLUB상세보기\n        \n        \n             2/2이전다음\n            \n            \n            위치정보 : 봉래시내 약 20분 거리, 공항 약 40분 거리홀(HOLE) : 18파(PAR) : 72야드(YARD) : 7293클럽하우스 : 1골프장소개군정 골프장은 봉황호에 인접하며, 중국에서 유일하게 포도원 내에 위치하고 있습니다. 4만 여평에 달하는 실외 골프 연습장이며, 24개 연습 타석이 있고 단독적인 연습장과 클럽하우스가 있습니다.봉래 군정 골프클럽남왕산곡군정골프클럽은 자고로 \"인간의 선경\" 으로 알려진 아름다운 해변도시 산동성 봉래시에 위치하여 있습니다.부지면적 150만평방미터,국제표준의 18홀,72파,총길이 7293야드입니다.    골프장은 기복이 약간 있는 구릉에 건설되어 있으며,아름다운 봉황호와 이웃하여 있어 그 자태가 더욱 웅장하고 아름다워 보입니다.골프장의 특색은 인코스는 과일나무,꽃나무,소나무와 조합되어 있어 매 홀마다의 아름다움과 그 형태는 가지각색이고 아웃코스는 기복과 함께 도전성이 있는 코스입니다.두가지 풍격의 코스가 변화가 많은 지형하에 대칭되어 있고,기분을 좋게 해주는 원생태자연경관과,독특한 도전성이 있는 설계가 함께 어울러져 있으며,호수건너로는 동방특색의 개성있는 포도주장원-군정장원과 마주하고 있어, 사람으로 하여금 산의 웅장함,호수의 아름다움. 꽃의 화려함,과일의 향기에 도취하게 하여 아주 독특한 골프장의 매력을 느끼게 합니다.    골프장에서 봉래시내중심과의 거리는 10키로미터 밖에 않되며 중국에서도 유명한 봉래팔선과해구 풍경구와 15분 거리이며, 연태공항과는 50분 거리다. 연태시내중심이랑은 8차선으로 쭉 뻗은 고속도로가 있으며 양켠에는 포도밭이 끝도 없이 펼쳐져 있습니다.      골프장주위에는 포도관광원,생태목장관광원, 5성급군정호텔,아름다운 봉황호,향기가 그윽한 과수원과 아울려져 환상의 무릉도원을 연상케 합니다.    이 아름다운 골프장에서 유쾌한 라운딩을 즐기신후 주위의 포도주문화를 느끼시고, 또 아름다운 봉황호에서 낚시한번 즐겨보시는것 또한 특별하고 잊지못할 골프투어가 아닐까 싶습니다.위치정보●연태 펑라이 국제공항: 차량으로 약 40분 소요\n●봉래시내: 차량으로 약 20분\n●연태시내(지부구/Zhibu District 일대): 차량으로 약 1시간 10분 ~ 1시간 20분 소요\n●군정리조트(골프텔): 차량으로 약 5분 소요\n●봉래화교호텔: 차량으로 약 20분 소요\n            \n        \n        \n         \n    \n             \n                                  중식 (불포함)\n                                            라운드 종료 후 자유일정     \n    \n        봉래각상세보기\n        연태 근교 관광지, 인간선경 봉래각\n        \n            \n            봉래각은 연태에서 약 70km떨어져 있는 근교 여행지로 1061년에 세워진 거대 건축물로 중국의 황학루, 악양루, 등왕각과 함께 \"중국 4대 명루각\"의 하나로 중국 국보로 지정된 곳 입니다. 자연경관이 신비롭고 아름다운 봉래각은 전해지는 이야기도 많습니다. 진시황이 이곳에서 불로초를 구하려 했던 것은 이미 널리 알려져 있으며, 신라시대 당나라에서 학업을 마치고 떠나려던 의상대사에게 선묘낭자가 사모의 정을 전하고 혼인을 간청했는데 의상대사는 이를 거절하고 끝내 귀국길에 올랐고, 결국 선묘낭자는 봉래각 앞바다에 몸을 던졌다는 안타까운 이야기도 전해지고 있습니다.\n            \n            \n            \n        \n        \n         \n  ◈해당 일정은 사전포함 사항이  아닌, 현지 선택관광 추천 일정입니다◈ \n  ☞해당 일정은 사전포함 사항이 아닌, 현지 선택관광 추천 일정입니다. \n\n    \n          \n    \n        선택관광골프팀) 해산물 뷔페\n        \n        \n             2/2이전다음\n            싱하고 살아있는 전복, 해삼, 굴, 가리비, 바닷가재 등 발해만의 제철 해산물을 찌거나 구워서 맛보실수 있으며,그외 일식(연어, 참치 등 회, 초밥 모듬 요리),서양식(스테이크, 양갈비, 파스타, 피자 등),중국식요리(산둥 요리, 광둥 요리, 쓰촨 요리 등 )양꼬치,소고기꼬치,해산물꼬치구이도 맛보실수 있습니다 .\n\n전원 동의시 진행 가능 \n\n            \n            \n            요금 : 성인 35USD / 아동 35USD소요시간 : 약 1시간 30분대체일정 : 미진행시 기존 일정표의 식사대로 진행됩니다.미선택시 가이드동행 : 미동행\n        \n        \n        \n    \n             \n                                  석식 (불포함)\n                                            호텔 투숙 및 휴식      호텔 총 2개의\n                                  예정 호텔이 있습니다.\n                                출발 3일전까지 확정되어 일정표에서 확인하실\n                                수 있습니다.\n                                1일전 카카오 알림톡으로도 알려드립니다. 봉래 화교호텔  \n                                      HUAQIAO HOTEL상세보기연태 군정리조트  \n                                      CHATEAU JUNDING RESORT상세보기 골프 총 1개의\n                                  예정 골프장이 있습니다.\n                                출발 3일전까지 확정되어 일정표에서 확인하실\n                                수 있습니다.\n                                1일전 카카오 알림톡으로도 알려드립니다. 봉래 군정 골프클럽 \n                                      JUNDING CHATEAU GOLF CLUB상세보기  식사 [조식] 호텔식 [중식] 불포함 [석식] 불포함"
+    },
+    {
+      "cards": [
+        {
+          "images": [
+            {
+              "alt": "봉래 군정CC",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/98cc47b9-a027-4e49-bb76-ed12bd47f9d9.JPG"
+            },
+            {
+              "alt": "봉래 군정CC",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/5de70689-8c12-40dd-b145-139b40c9f096.JPG"
+            },
+            {
+              "alt": "봉래 군정CC",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/9134473b-71db-4b63-bcbb-676941056f95.JPG"
+            },
+            {
+              "alt": "봉래 군정 골프장",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2009/06/17/10000/3642f832-7cbc-42ed-b20c-2a10d8850ffb.jpg"
+            },
+            {
+              "alt": "봉래 군정CC",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/9c06b1a5-056f-44b5-9faa-8c9d0e78c3bb.JPG"
+            },
+            {
+              "alt": "봉래 군정CC",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/02990d2c-bcb2-46b6-8f83-e2c8e75f95e9.JPG"
+            },
+            {
+              "alt": "봉래 군정CC",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/98cc47b9-a027-4e49-bb76-ed12bd47f9d9.JPG"
+            },
+            {
+              "alt": "봉래 군정CC",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/5de70689-8c12-40dd-b145-139b40c9f096.JPG"
+            },
+            {
+              "alt": "봉래 군정CC",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/9134473b-71db-4b63-bcbb-676941056f95.JPG"
+            },
+            {
+              "alt": "봉래 군정 골프장",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2009/06/17/10000/3642f832-7cbc-42ed-b20c-2a10d8850ffb.jpg"
+            },
+            {
+              "alt": "봉래 군정CC",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/9c06b1a5-056f-44b5-9faa-8c9d0e78c3bb.JPG"
+            },
+            {
+              "alt": "봉래 군정CC",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/02990d2c-bcb2-46b6-8f83-e2c8e75f95e9.JPG"
+            }
+          ],
+          "text": "\n        JUNDING CHATEAU GOLF CLUB상세보기\n        \n        \n             2/2이전다음\n            \n            \n            위치정보 : 봉래시내 약 20분 거리, 공항 약 40분 거리홀(HOLE) : 18파(PAR) : 72야드(YARD) : 7293클럽하우스 : 1골프장소개군정 골프장은 봉황호에 인접하며, 중국에서 유일하게 포도원 내에 위치하고 있습니다. 4만 여평에 달하는 실외 골프 연습장이며, 24개 연습 타석이 있고 단독적인 연습장과 클럽하우스가 있습니다.봉래 군정 골프클럽남왕산곡군정골프클럽은 자고로 \"인간의 선경\" 으로 알려진 아름다운 해변도시 산동성 봉래시에 위치하여 있습니다.부지면적 150만평방미터,국제표준의 18홀,72파,총길이 7293야드입니다.    골프장은 기복이 약간 있는 구릉에 건설되어 있으며,아름다운 봉황호와 이웃하여 있어 그 자태가 더욱 웅장하고 아름다워 보입니다.골프장의 특색은 인코스는 과일나무,꽃나무,소나무와 조합되어 있어 매 홀마다의 아름다움과 그 형태는 가지각색이고 아웃코스는 기복과 함께 도전성이 있는 코스입니다.두가지 풍격의 코스가 변화가 많은 지형하에 대칭되어 있고,기분을 좋게 해주는 원생태자연경관과,독특한 도전성이 있는 설계가 함께 어울러져 있으며,호수건너로는 동방특색의 개성있는 포도주장원-군정장원과 마주하고 있어, 사람으로 하여금 산의 웅장함,호수의 아름다움. 꽃의 화려함,과일의 향기에 도취하게 하여 아주 독특한 골프장의 매력을 느끼게 합니다.    골프장에서 봉래시내중심과의 거리는 10키로미터 밖에 않되며 중국에서도 유명한 봉래팔선과해구 풍경구와 15분 거리이며, 연태공항과는 50분 거리다. 연태시내중심이랑은 8차선으로 쭉 뻗은 고속도로가 있으며 양켠에는 포도밭이 끝도 없이 펼쳐져 있습니다.      골프장주위에는 포도관광원,생태목장관광원, 5성급군정호텔,아름다운 봉황호,향기가 그윽한 과수원과 아울려져 환상의 무릉도원을 연상케 합니다.    이 아름다운 골프장에서 유쾌한 라운딩을 즐기신후 주위의 포도주문화를 느끼시고, 또 아름다운 봉황호에서 낚시한번 즐겨보시는것 또한 특별하고 잊지못할 골프투어가 아닐까 싶습니다.위치정보●연태 펑라이 국제공항: 차량으로 약 40분 소요\n●봉래시내: 차량으로 약 20분\n●연태시내(지부구/Zhibu District 일대): 차량으로 약 1시간 10분 ~ 1시간 20분 소요\n●군정리조트(골프텔): 차량으로 약 5분 소요\n●봉래화교호텔: 차량으로 약 20분 소요\n            \n        \n        \n         \n    ",
+          "title": "JUNDING CHATEAU GOLF CLUB"
+        }
+      ],
+      "day": "acc_con2",
+      "golf": [
+        "봉래 군정 골프클럽"
+      ],
+      "hotel": [],
+      "images": [
+        {
+          "alt": "봉래 군정CC",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/98cc47b9-a027-4e49-bb76-ed12bd47f9d9.JPG"
+        },
+        {
+          "alt": "봉래 군정CC",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/5de70689-8c12-40dd-b145-139b40c9f096.JPG"
+        },
+        {
+          "alt": "봉래 군정CC",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/9134473b-71db-4b63-bcbb-676941056f95.JPG"
+        },
+        {
+          "alt": "봉래 군정 골프장",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2009/06/17/10000/3642f832-7cbc-42ed-b20c-2a10d8850ffb.jpg"
+        },
+        {
+          "alt": "봉래 군정CC",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/9c06b1a5-056f-44b5-9faa-8c9d0e78c3bb.JPG"
+        },
+        {
+          "alt": "봉래 군정CC",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/02990d2c-bcb2-46b6-8f83-e2c8e75f95e9.JPG"
+        },
+        {
+          "alt": "봉래 군정CC",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/98cc47b9-a027-4e49-bb76-ed12bd47f9d9.JPG"
+        },
+        {
+          "alt": "봉래 군정CC",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/5de70689-8c12-40dd-b145-139b40c9f096.JPG"
+        },
+        {
+          "alt": "봉래 군정CC",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/9134473b-71db-4b63-bcbb-676941056f95.JPG"
+        },
+        {
+          "alt": "봉래 군정 골프장",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2009/06/17/10000/3642f832-7cbc-42ed-b20c-2a10d8850ffb.jpg"
+        },
+        {
+          "alt": "봉래 군정CC",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/9c06b1a5-056f-44b5-9faa-8c9d0e78c3bb.JPG"
+        },
+        {
+          "alt": "봉래 군정CC",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/12/09/10000/02990d2c-bcb2-46b6-8f83-e2c8e75f95e9.JPG"
+        },
+        {
+          "alt": "진에어",
+          "src": "https://image.hanatour.com/usr/static/img/airline/LJ.png"
+        }
+      ],
+      "meals": "숙박 없음",
+      "stops": [
+        {
+          "meal": "\n                                  조식 (호텔식)\n                                ",
+          "text": "    \n                                  조식 (호텔식)\n                                      "
+        },
+        {
+          "text": "      조식 후 봉래군정 골프장으로 이동 (약 20분 소요)    ",
+          "title": "조식 후 봉래군정 골프장으로 이동 (약 20분 소요)"
+        },
+        {
+          "text": "      오전 18홀 라운드\n ◈ TEE OFF - 미정 (전날 개별 안내)    ",
+          "title": "오전 18홀 라운드\n"
+        },
+        {
+          "text": " \n    \n        JUNDING CHATEAU GOLF CLUB상세보기\n        \n        \n             2/2이전다음\n            \n            \n            위치정보 : 봉래시내 약 20분 거리, 공항 약 40분 거리홀(HOLE) : 18파(PAR) : 72야드(YARD) : 7293클럽하우스 : 1골프장소개군정 골프장은 봉황호에 인접하며, 중국에서 유일하게 포도원 내에 위치하고 있습니다. 4만 여평에 달하는 실외 골프 연습장이며, 24개 연습 타석이 있고 단독적인 연습장과 클럽하우스가 있습니다.봉래 군정 골프클럽남왕산곡군정골프클럽은 자고로 \"인간의 선경\" 으로 알려진 아름다운 해변도시 산동성 봉래시에 위치하여 있습니다.부지면적 150만평방미터,국제표준의 18홀,72파,총길이 7293야드입니다.    골프장은 기복이 약간 있는 구릉에 건설되어 있으며,아름다운 봉황호와 이웃하여 있어 그 자태가 더욱 웅장하고 아름다워 보입니다.골프장의 특색은 인코스는 과일나무,꽃나무,소나무와 조합되어 있어 매 홀마다의 아름다움과 그 형태는 가지각색이고 아웃코스는 기복과 함께 도전성이 있는 코스입니다.두가지 풍격의 코스가 변화가 많은 지형하에 대칭되어 있고,기분을 좋게 해주는 원생태자연경관과,독특한 도전성이 있는 설계가 함께 어울러져 있으며,호수건너로는 동방특색의 개성있는 포도주장원-군정장원과 마주하고 있어, 사람으로 하여금 산의 웅장함,호수의 아름다움. 꽃의 화려함,과일의 향기에 도취하게 하여 아주 독특한 골프장의 매력을 느끼게 합니다.    골프장에서 봉래시내중심과의 거리는 10키로미터 밖에 않되며 중국에서도 유명한 봉래팔선과해구 풍경구와 15분 거리이며, 연태공항과는 50분 거리다. 연태시내중심이랑은 8차선으로 쭉 뻗은 고속도로가 있으며 양켠에는 포도밭이 끝도 없이 펼쳐져 있습니다.      골프장주위에는 포도관광원,생태목장관광원, 5성급군정호텔,아름다운 봉황호,향기가 그윽한 과수원과 아울려져 환상의 무릉도원을 연상케 합니다.    이 아름다운 골프장에서 유쾌한 라운딩을 즐기신후 주위의 포도주문화를 느끼시고, 또 아름다운 봉황호에서 낚시한번 즐겨보시는것 또한 특별하고 잊지못할 골프투어가 아닐까 싶습니다.위치정보●연태 펑라이 국제공항: 차량으로 약 40분 소요\n●봉래시내: 차량으로 약 20분\n●연태시내(지부구/Zhibu District 일대): 차량으로 약 1시간 10분 ~ 1시간 20분 소요\n●군정리조트(골프텔): 차량으로 약 5분 소요\n●봉래화교호텔: 차량으로 약 20분 소요\n            \n        \n        \n         \n    \n         "
+        },
+        {
+          "meal": "\n                                  중식 (불포함)\n                                ",
+          "text": "    \n                                  중식 (불포함)\n                                      "
+        },
+        {
+          "text": "      라운드 종료 후 공항으로 이동 (약 30~40분 소요)    ",
+          "title": "라운드 종료 후 공항으로 이동 (약 30~40분 소요)"
+        },
+        {
+          "text": "옌타이          ",
+          "title": "옌타이"
+        },
+        {
+          "meal": "\n                                  석식 (기내-불포함(유료제공))\n                                ",
+          "text": "    \n                                  석식 (기내-불포함(유료제공))\n                                      "
+        },
+        {
+          "text": "인천          ",
+          "title": "인천"
+        },
+        {
+          "meal": "*상기일정은 현지사정(교통,기상변화)에 따라 소비자의 동의를 얻어 변경될 수 있습니다.",
+          "text": "      *상기일정은 현지사정(교통,기상변화)에 따라 소비자의 동의를 얻어 변경될 수 있습니다.    "
+        }
+      ],
+      "text": "      \n                                  조식 (호텔식)\n                                            조식 후 봉래군정 골프장으로 이동 (약 20분 소요)          오전 18홀 라운드\n ◈ TEE OFF - 미정 (전날 개별 안내)     \n    \n        JUNDING CHATEAU GOLF CLUB상세보기\n        \n        \n             2/2이전다음\n            \n            \n            위치정보 : 봉래시내 약 20분 거리, 공항 약 40분 거리홀(HOLE) : 18파(PAR) : 72야드(YARD) : 7293클럽하우스 : 1골프장소개군정 골프장은 봉황호에 인접하며, 중국에서 유일하게 포도원 내에 위치하고 있습니다. 4만 여평에 달하는 실외 골프 연습장이며, 24개 연습 타석이 있고 단독적인 연습장과 클럽하우스가 있습니다.봉래 군정 골프클럽남왕산곡군정골프클럽은 자고로 \"인간의 선경\" 으로 알려진 아름다운 해변도시 산동성 봉래시에 위치하여 있습니다.부지면적 150만평방미터,국제표준의 18홀,72파,총길이 7293야드입니다.    골프장은 기복이 약간 있는 구릉에 건설되어 있으며,아름다운 봉황호와 이웃하여 있어 그 자태가 더욱 웅장하고 아름다워 보입니다.골프장의 특색은 인코스는 과일나무,꽃나무,소나무와 조합되어 있어 매 홀마다의 아름다움과 그 형태는 가지각색이고 아웃코스는 기복과 함께 도전성이 있는 코스입니다.두가지 풍격의 코스가 변화가 많은 지형하에 대칭되어 있고,기분을 좋게 해주는 원생태자연경관과,독특한 도전성이 있는 설계가 함께 어울러져 있으며,호수건너로는 동방특색의 개성있는 포도주장원-군정장원과 마주하고 있어, 사람으로 하여금 산의 웅장함,호수의 아름다움. 꽃의 화려함,과일의 향기에 도취하게 하여 아주 독특한 골프장의 매력을 느끼게 합니다.    골프장에서 봉래시내중심과의 거리는 10키로미터 밖에 않되며 중국에서도 유명한 봉래팔선과해구 풍경구와 15분 거리이며, 연태공항과는 50분 거리다. 연태시내중심이랑은 8차선으로 쭉 뻗은 고속도로가 있으며 양켠에는 포도밭이 끝도 없이 펼쳐져 있습니다.      골프장주위에는 포도관광원,생태목장관광원, 5성급군정호텔,아름다운 봉황호,향기가 그윽한 과수원과 아울려져 환상의 무릉도원을 연상케 합니다.    이 아름다운 골프장에서 유쾌한 라운딩을 즐기신후 주위의 포도주문화를 느끼시고, 또 아름다운 봉황호에서 낚시한번 즐겨보시는것 또한 특별하고 잊지못할 골프투어가 아닐까 싶습니다.위치정보●연태 펑라이 국제공항: 차량으로 약 40분 소요\n●봉래시내: 차량으로 약 20분\n●연태시내(지부구/Zhibu District 일대): 차량으로 약 1시간 10분 ~ 1시간 20분 소요\n●군정리조트(골프텔): 차량으로 약 5분 소요\n●봉래화교호텔: 차량으로 약 20분 소요\n            \n        \n        \n         \n    \n             \n                                  중식 (불포함)\n                                            라운드 종료 후 공항으로 이동 (약 30~40분 소요)    옌타이              \n                                  석식 (기내-불포함(유료제공))\n                                      인천                *상기일정은 현지사정(교통,기상변화)에 따라 소비자의 동의를 얻어 변경될 수 있습니다.      진에어 01시간 30분 LJ0844 17:10  2026.11.03(화) 옌타이 YNT 출발 19:40  2026.11.03(화) 서울 ICN 도착      호텔 숙박 없음 골프 총 1개의\n                                  예정 골프장이 있습니다.\n                                출발 3일전까지 확정되어 일정표에서 확인하실\n                                수 있습니다.\n                                1일전 카카오 알림톡으로도 알려드립니다. 봉래 군정 골프클럽 \n                                      JUNDING CHATEAU GOLF CLUB상세보기  식사 [조식] 호텔식 [중식] 불포함 [석식] 기내-불포함(유료제공)"
+    }
+  ],
+  "heading": "[2인출발보장]옌타이 골프 3일 #골프연계호텔 #54홀 #봉래군정CC #봉래화교호텔 #와인증정 #중석패턴",
+  "text": "(주)나침반여행사\n1899-7972\n로그인\n회원가입\n고객센터\n하나투어\n통합 검색어 입력폼\n검색\n튀르키예\n일본\n대마도\n장가계\n푸꾸옥\n대만\n후쿠오카\n상하이\n오사카\n스페인\n튀르키예\n일본\n마이메뉴\n예약내역\n찜\n전체메뉴\n해외여행\n항공\n호텔\n항공+호텔\n투어/입장권\n국내여행\n테마여행\n제우스\n여행기획전\n이달의 혜택\nH-AI가 요약한 후기 먼저 확인해보세요.\n여행 파트너\nH-AI\n최근 본 상품(0)\nTOP\n1/29\n이전\n다음\n상품코드 CAG173261101LJC\n인쇄하기 공유하기\n선발권특가, 골프연계호텔\n여행상품 핵심정보\n골프\n[2인출발보장]옌타이 골프 3일 #골프연계호텔 #54홀 #봉래군정CC #봉래화교호텔 #와인증정 #중석패턴\n\n와인을 컨셉으로 한 기품 있는 골프장. 실속있는 골퍼를 위한 옌타이 골프 상품입니다. \n\n#골프#골프연계호텔 #관광\n해시태그\n#와인향기와골프#유럽풍골프여행#햇살가득골프#연태골프여행#봉래군정골프#골프여행추천#봉래화교호텔#봉래각관광#단령골프클럽\n 4.4  14\n2박 3일\nLCC\n쇼핑없음\n단체여행\n가이드경비\n0\n선택관광있음\n출발예정\n항공예정\n일정예정\n호텔예정\n가격예정\n\n성인 1인\n\n399,000 원\n5개월 무이자 할부 예상가\n월 79,800원\n카드사별 무이자 혜택 \n여행 주요일정\n항공여정보기 다른 출발일 선택 \n최저가로 떠날 수 있는 날 알아보기\n일정 \n\n2박 3일 \n진에어\n\n출발 : 2026.11.01(일) 15:25 2026.11.01(일) 16:10 LJ0843총 01시간 45분 소요\n\n도착 : 2026.11.03(화) 17:10 2026.11.03(화) 19:40 LJ0844총 01시간 30분 소요\n\n 여행도시 옌타이(2) 예약현황 예약 : 0명 좌석 : 4석 (최소출발 : 성인4명) \n상품가격\n구분\t성인\n\n만 12세 이상\n\n\t아동\n\n만 12세 미만 \n\n\t유아\n\n만 2세 미만 \n\n\n기본상품\t399,000원\n\n유류할증료 90,000원/제세공과금 0원 포함\n\n\t399,000원\n\n유류할증료 90,000원/제세공과금 0원 포함 \n\n\t-\n유류할증료 및 제세공과금은 유가와 환율에 따라 변동될 수 있습니다.\n약관(이용운송, 숙박기관 등에 지급할 요금의 변동)에 따라 상품가격은 변동될 수 있습니다. 자세한 사항은 약관을 참조하시기 바랍니다.\n아동, 유아요금은 성인 2인과 같은 방 사용조건이며, 미충족시 아동추가 요금이 발생합니다.\n1인 객실 사용시 추가요금 발생됩니다.\n\n1인 객실 사용료 : 120,000원\n\n하나투어 마일리지 최대 3,090적립예정\n하나투어클럽 회원, 성인기준\n패키지 상품가 기준\n중국\n입국 규정 확인\n진에어\n항공사 유의사항 확인\n테마소개\t\n골프\n골프연계호텔\n\n골프\n\n\n[하나투어 X 보이스캐디 APL골프]\n핸드폰과 워치에서 골프장 코스/거리 정보를 확인할수 있어요.\n출발 7일전 카톡 알림톡을 통해 APL 3일 무료이용권을 제공합니다.\n\n\n골프연계호텔\n\n골프장 외부에 위치한 숙박시설에서 동일골프장 라운드를 즐기는 상품입니다\n\n프로모션\t선발권특가\n※ 해당 상품은 항공 특가가 적용된 상품으로 10월 24일 오전 10시까지 항공 좌석 발권 조건입니다.\n핵심\n포인트\n골프\n호텔\n교통\n가이드\n보험\n기타\nSAFETY\n&JOY\n상품 핵심포인트\n① 2박3일 총 54홀 환상의 라운드\n② 봉래화교호텔 또는 군정리조트 숙박\n③ 군정와인 1인 1병 제공\n④ 최대 1억원 보장 여행자 보험\n\n⛳우리가 이용하는 골프장 정보\n봉래군정CC\n① 코스규모 : 18홀 규모, Par72 / 7,293야드\n② 전동카트 : 2인 1카트\n③ 캐디운영 : 2인 1캐디 (주말, 명절 4인 1캐디)\n④ 카트진입 : 카트인 플레이 불가\n⑤ 위치안내 : 연태시내 약 70~80분 거리 / 봉래시내 약 15~20분 거리 / 연태공항 약 25~30분 거리\n\n※카트/캐디 운영 및 카트 진입여부는 현지 사정에 따라 변경 될 수 있습니다.\n\n◆ 본 상품은 의무 라운드 상품으로 라운드 불참시에도 [캐디피+전동카트] 비용은 지불 하셔야 합니다.\n🏌️‍♀️봉래군정 골프텔 100% 즐기기\n⛳ 연태 봉래 군정 리조트 – 와인의 향기와 골프의 품격이 만난 유럽풍 낙원\n🍷 군정 C.C – 세계 7대 와이너리 속 펼쳐진 아시아 유일의 와인 테마 코스 세계적인 와인 산지인 펑라이(봉래) 군정 와이너리 내에 위치하여, 끝없이 펼쳐진 포도밭과 아름다운 봉황호수를 배경으로 라운딩을 즐길 수 있습니다. 구릉지와 호수가 절묘하게 어우러진 레이아웃은 마치 유럽의 고성 한복판에서 티샷을 하는 듯한 이국적인 감동을 선사합니다.\n\n🟢 감각적인 페어웨이 & 도전적인 그린 – 자연의 곡선을 살린 예술적 설계 포도 넝쿨 사이를 지나는 페어웨이는 철저하게 관리되어 비단 같은 샷감을 제공하며, 곳곳에 배치된 워터 해저드와 벙커는 골퍼의 전략적 선택을 요구합니다. 기복 있는 그린과 빠른 스피드는 싱글 골퍼부터 초보자까지 모두에게 긴장감 넘치는 즐거움을 줍니다.\n\n🍇 오감을 깨우는 힐링 – 라운딩 후 즐기는 최고급 와인과 미식의 향연 단순한 골프를 넘어 와인 문화를 체험할 수 있는 특별한 공간입니다. 라운딩 후 와이너리 지하 셀러를 견학하거나, 갓 생산된 명품 와인을 곁들인 만찬을 즐기며 진정한 '럭셔리 휴양'을 만끽할 수 있습니다. 맑은 공기와 고요한 숲속에서 누리는 휴식은 일상의 스트레스를 완벽히 잊게 해줍니다.\n\n🏰 고품격 유럽풍 리조트 – 필드와 맞닿은 4.5성급 골프텔의 여유 고급스러운 유럽 대저택 스타일의 리조트는 필드 바로 옆에 위치하여 이동 시간을 최소화해 줍니다. 넓고 우아한 객실과 세심한 서비스는 부부 동반이나 귀빈 접대 여행에서 최고의 만족도를 보장합니다.\n🏨우리가 이용하는 호텔 정보\n▶봉래화교호텔 또는 동급 이용\n① 2019년에 오픈한 총 123개의 객실로 구성된 4.5성급 호텔로 봉래시 중심에 위치해 있습니다.\n펑라이 시내 중심가인 덩저우루(登州路)와 중루(钟楼路)가 만나는 교차로 인근에 위치해 있으며, 도보 5~8분 거리에 대형 상권인 **바오롱 광장(쇼핑몰/맛집)(宝龙广场)**이 있어 접근성이 매우 훌륭합니다.\n옌타이 공항 및 주변 골프장과의 연계성도 좋아 한국인 골퍼들이 숙소로 자주 선택하는 곳입니다.\n② 연태공항까지 약 40분 거리에 위치해 있고, 남산국제골프장까지 약 50분, 봉래군정골프장까지 약 20분 거리에 위치해 있습니다.\n\n▶봉래군정리조트 또는 동급 이용\n① 리조트에서 골프장까지 약 5분거리에 위치학 있는 군정리조트는 총 80여개의 객실로 구성된 4.5성급 리조트입니다.\n② 유명한 와이너리에 위치한 리조트답게 곳곳에 장식되어 있는 와인들과 주변경관이 빼어나고 색다른 분위기를 연출해 고급스러운 분위기를 느낄 수 있습니다.\n🏨 호텔 주변 추천 스팟\n① 옌타이 펑라이(봉래)의 중심지에 자리 잡은 Huaqiao Hotel은 펑라이의 주요 역사 유적 및 해안 명소들과 차량으로 5~10분 내외의 매우 뛰어난 접근성을 자랑합니다. 신선 사상과 바다의 낭만이 어우러진 펑라이에서 라운드 종료 후나 휴식 시간에 부담 없이 다녀올 수 있습니다.\n\n② 주변 먹거리존\n🏮 바오롱 광장 상권 (寶龍廣場)(차량 약 5분) : 호텔에서 북쪽으로 조금만 걸어가면 나오는 봉래 최대의 현대식 복합 쇼핑몰 구역입니다. 인프라가 깔끔하여 한국인 골퍼들이 첫날이나 가벼운 저녁 자리를 가질 때 가장 안심하고 방문하는 곳입니다.\n🏪 덩저우루 로컬 맛집 거리 (登州路)(도보 약 5분) : 호텔 주변 봉래 전통의 로컬 식당가입니다. 수십 년간 자리를 지켜온 전통 있는 국수집과 만두집이 늘어서 있습니다.\n\n③ 추천 일정\n🚗 봉래각 (Penglai Pavilion / 蓬莱阁) 차량 약 15분\n🚗 삼선산 풍경구 (Sanxianshan / 三仙山) 차량 약 15분\n\nℹ️ 안내 사항 :\n① 도심 외 명소 이동 시 택시 이용이 편리합니다. 대중교통 배차 간격이 길 수 있으니 일정은 사전에 여유 있게 계획하시는 것을 권장드립니다.\n② 대중교통이 불가능할 경우 현지 가이드 또는 전담직원과 차량 등 교통편(유료 및 비용 발생)에 대해 상의하시어 진행하는 것을 권장드립니다.\n\n※ 본 정보는 참고용으로, 영업시간·교통편은 변동될 수 있으니 방문 전 확인 부탁드립니다.\n※ 중국 현지 사정상 대중교통 또는 별도 교통편이 불가능 할 수도 있으니, 이부분 반드시 참고 부탁드립니다.\n항공 무료 위탁수화물 규정\n① 무게:15kg\n② 개수: 골프백 1개 +개인 수화물 1개 합산 15Kg 까지 가능\n※ 골프백을 가져가시는 고객께서는 골프백 이외의 짐은 기내수하물(반입금지품목확인)로 준비해주세요.\n※ 자세한 규정은 항공사 홈페이지에서 확인부탁드립니다.\n☞(바로가기)\nMD추천) 골프백을 15KG까지 준비후 개인짐은 기내용 캐리어에 최대 10Kg까지 준비 하시면 유용합니다.\n\nNO가이드 상품\n①가이드가 없는 상품입니다.\n②골프장/호텔내 현지 한국인 매니저 상주하여 친절하게 응대합니다.\n③미/센딩은 동일 항공 기준 다른 고객과 조인 진행 기준입니다.\n※공항 미팅샌딩 비용은 불포함으로(불포함 사항 참고) 일정 중 현지 상주 직원에게 지불 요청드립니다.\n\n비상 연락망\n골프장내 상주 스탭팀장-조영범 186 0535 6664\n현지 실장 - 황은화 186 0535 6648\n현지 실장 - 위챗아이디 'ytcits-11'\n\n1억원 여행자보험\n해외치료비 최대 보장 한도 [상해/질병]500만원\n[휴대품 도난/파손] 50만원보상\n* 국가/연령에 따라 보장내용이 상이할 수 있습니다.\n* 자세한 내용은 보장내역 자세히보기(클릭) 확인해주시기 바랍니다.\n항공 클래스 차액\n◆ 그룹항공 기준의 상품가입니다. 항공 좌석 상황에 따라 상품가 변동 됩니다. 예약시 반드시 상담자와 확인부탁드립니다.\n\n최소출발 미달\n①골프장은 기본적으로 4인 1조로 플레이가 진행됩니다.\n②2인 ~ 3인이 예약하신 경우 부족한 인원에 대해서는 합류 플레이가 진행 될 수 있습니다.\n③워크인 손님이 합류하시는 경우 언어에 따른 불편함이 발생될 수 있음을 사전에 고지 드립니다.\n④2~3인 출발 시에는 추가 비용 별도 문의 부탁드립니다.\n\n※기가팁(=미샌딩 비용)의경우, 2인~3인에 따른 비용이 추가될 수 있습니다.\n⭐하나투어X보이스캐디 APL골프 단독 제공⭐\n⚡하나투어X보이스캐디 APL골프 단독 제공⚡\n핸드폰과 워치에서 골프장 코스/거리 정보를 확인할수 있습니다.\n출발 7일전 카톡 알림톡을 통해 APL 3일 무료 이용권을 제공합니다. (1인 2만원 상당)\nPC 바로가기 ☞ (바로가기)\n모바일 바로가기 ☞ (바로가기)\n\nSAFETY&JOY 하나투어는 여행의 전 과정을 함께 합니다.\n① 여행 중 24시간 긴급 의료 지원 등 H-care\n② 여행 후에도 이어지는 고객 만족 서비스\n(바로가기)\n포함/불포함/선택경비 정보\n포함내역\n[교통]\n\n왕복항공권 : ◆ 그룹항공 기준의 상품가입니다. 항공 좌석 상황에 따라 상품가 변동 됩니다. 예약시 반드시 상담자와 확인부탁드립니다.\n\n\n\n[제세금]\n\n국내공항세, 현지공항세, 관광진흥개발기금, 전쟁보험료, 유류할증료\n\n[숙박]\n\n숙박비 : 2인 1실 기준\n\n\n[식사]\n\n식사비 : 일정표에 명기된 식사\n\n\n[테마]\n\n그린피 : ◆ 라운드 미진행 또는 취소시 별도로 환불되지 않습니다.\n\n\n[여행자보험]\n\n1억원 여행자보험\n\n불포함내역\n[식사]\n\n클럽하우스 중식 : 1회 80~100위안 (메뉴별 금액 상이)\n\n[테마]\n\n캐디팁 : 18홀 기준 1인 150위안\n*산동성(청도/연태/위해) 지역의 캐디 배정은 골프장 고유권한으로 2인 1캐디 또는 4인 1캐디 배정될 수 있습니다.\n4인 1캐디 배정되어도 동일한 비용이 청구 됩니다.\n\n캐디피 : 18홀 기준 1인 150위안(2인 1캐디)\n◆ 산동성(청도/연태/위해) 지역의 캐디 배정은 골프장 고유권한으로 2인 1캐디 또는 4인 1캐디 배정될 수 있습니다.\n4인 1캐디 배정되어도 동일한 비용이 청구 됩니다\n◆ 현지도착후 카트피+캐디피는 일괄 지불조건이며 천재지변이외 자의에 의한 라운드 취소시 환불되지 않습니다.\n◆ 본 상품은 의무 라운드 상품으로 라운드 불참시에도 [캐디피+전동카트] 비용은 지불 하셔야 합니다.\n\n전동카 : 18홀 기준 1인 150위안(2인 1카트)\n◆ 현지도착후 카트피+캐디피는 일괄 지불조건이며 천재지변이외 자의에 의한 라운드 취소시 환불되지 않습니다.\n◆ 본 상품은 의무 라운드 상품으로 라운드 불참시에도 [캐디피+전동카트] 비용은 지불 하셔야 합니다.\n\n\n\n[가이드/기사]\n\n가이드/기사 경비 : 4인이상 1인 300위안 (4인미만 인원합계 1200위안)\n*해당 왕복 버스 차량은 하나투어 손님외 타사 및 외부 손님이 함께 탑승하는 차량입니다. 현지 사정상 30~50분 대기시간이 발생될 수 있습니다.\n\n\n\n[기타]\n\n기타 : ▶석식 불포함\nㄴ메뉴별 금액 상이\nㄴ호텔 중식당 또는 시내식당 이용\n\n\n\n개인 여행경비(물값, 자유시간시 개인비용 등)\n\n각종 매너팁(테이블팁, 객실팁, 포터비, 마사지팁 등)\n\n매너팁은 소비자의 자율적 선택으로 지불여부에 따른 불이익은 없습니다. \n\n선택경비\n[교통]\n\n항공리턴변경(불가), 클래스 차액 : ◆ 그룹항공 기준의 상품가입니다. 항공 좌석 상황에 따라 상품가 변동 됩니다. 예약시 반드시 상담자와 확인부탁드립니다.\n\n\n[숙박]\n\n객실 1인 사용료 : 120,000원\n\n[기타]\n\n최소출발미달 : ◈2~3인 출발 시에는 추가 비용 발생하오니 별도 문의 바랍니다.\n\n기타 : ▶전동카 싱글차지 150위안\nㄴ18홀기준 : 2인승 1인 1카트 이용시 또는 4인승 3인 1카트 이용 시 싱글차지 발생\nㄴ3인 라운드시 전동카 싱글차지 발생\n\n\n\n선택관광/기항지관광/현지투어에 관한 상세 내역은 패키지 상품상세를 참고바랍니다. \n\n상품약관\t\n약관상세보기\n\n본 상품의 예약과 취소는 국외여행 특별약관이 적용됨을 알려드립니다.\n특별약관 적용 시 표준약관보다 높은 취소수수료가 부과될 수 있으며 이 경우 동의절차를 구합니다.\n\n계약금 규정\n예약일 기준 3일 이내에 1인당 100,000원을 납입하셔야합니다.\n취소료 규정\n이 상품은 항공(또는 선박)좌석 또는 호텔객실에 대한 비용을 선납해 놓은 상품으로서, 취소시 하단의 취소료가 적용됨을 양해해 주시기 바랍니다.\n특별규정\n상기 상품은 선발권 조건으로 세팅된 상품입니다. 선발권 이후 취소 시 출발 1일전까지는 인당 10만원, 출발 당일은 인당 24만원의 취소료가 부과됩니다.\n더보기\n예약시 유의사항\n📢 예약시 유의사항\n\n[패키지 일정 진행 안내]\n※ 현지 행사 관련 유의사항으로 여행 전 필독해주시기 바랍니다.\n▶ 2024년 11월 8일부터~ 2026년 12월31일까지, 중국 입국하는 한국 관광객 대상으로 무비자로 진행합니다.(비즈니스, 여행·관광, 친척·친구 방문 등 중국입국 시 30일까지 무비자 체류가능)\n▶ 본 상품은 단체 관광을 위해 기획된 패키지 상품입니다. 개별 일정을 원하는 고객님께서는 개별 여행 상품으로 예약하시기 바랍니다.\n▶ [표준 약관 13조 4항]에 의거 패키지 일정 불참 시, 숙박/식사/관광 등 포함된 서비스가 제공되지 않으며, 이에 상응하는 요금의 환급을 청구할 수 없습니다.\n▶ [현지 합류 행사 인원] 동일한 일정의 고객과 함께 진행되는경우, 상품 예약시 인원과 현지 행사 인원이 다를 수 있습니다.\n▶ 투어 진행 순서는 현지 사정에 따라 변경될 수 있습니다.\n▶ 현지에서 여권 분실 시에 중국 입국/출국의 문제가 발생 하며,분실 시 개인비용 처리되오니 유의 바랍니다.\n▶ 무비자 입국분들중에 중국 입국 불허의 사유가 있거나 심사를 해 볼 필요가 있는 분들은 중국 입국시 입국이 불허가 될 수 있습니다. 당사의 귀책사유가 아닌 개인적 사유로 입국이 거절되는 경우에 여행사는 책임지지 않습니다.\n\n\n[항공좌석 및 현지 골프라운드 관련 유의사항]\n- 중국 골프 상품의 항공권은 항공사 정책에 따라 출발일별, 예약일별로 가격이 다를 수 있으며, 예약시점과 항공좌석상황에 따라 추가요금이 발생 될 수 있으니, 예약 후 반드시 출발가능여부를 확인해 주시기 바랍니다.\n- 중국 골프장은 현지의 상황과 날짜별로 금액이 인상되는 경우가 있습니다. 예약 후 반드시 담당자와 출발가능여부를 확인해 주시기 바랍니다.\n- 중국 골프상품은 기본 2인1캐디로 배정이되지만, 티업시간과 골프장의 상황에따라 4인 1캐디로 배정될 수 있음을 양해해주시기 바랍니다.\n- 매 골프장들의 카트 규정이 상이합니다. 골프장별로 2인 1카트, 4인 1카트로 진행해야 하는 경우도 있으며, 1인 1카트를 사용하실 경우 싱글카트차지가 발생됩니다.\n\n[중국여행시 Wifi 또는 로밍 안내]\n중국여행 중 카카오톡, 네이버, 구글등 접속 불가안내\n중국에서는 인터넷도 통제하고 있어서 와이파이 연결시에는 카카오톡, 네이버, 구글 등에 원활하게 접속되지 않습니다.\n호텔에서는 와이파이 연결이 잘 되지만, 쇼핑몰이나 카페 등에서는 로그인시 중국사이트에서 별도의 승인을 받아야만 무료 와이파이 사용이 가능하게 되는 경우가 많습니다.\n단. 통신사 로밍시 한국처럼 접속이 가능합니다. 중요한 업무가 있으신 분들은 통신사 로밍을 권장합니다.\n\n※데이터 로밍 시 네이버 / 카톡 / 유튜브 / 구글 등 가능\n현지 와이파이 접속 시 위 사이트 불가 (단, 기본적인 인터넷은 접속 가능)\n가이드/인솔자 및 미팅정보\n가이드\n현지 도착시 현지가이드와 미팅이 이루어집니다\n인솔자\n인솔자가 동행하지 않습니다.\n미팅정보\t\n미팅장소보기\n일시 :\n11월 01일 오후 12:55\n장소 :\n인천공항 제2여객터미널 3층 1번 출입문(A카운터옆) 여행사카운터 內 하나투어 테이블\n터미널과 미팅장소를 꼭 확인하세요!\n[항공 좌석배정]기내 좌석 배정은 항공사의 고유 권한으로 일행과 좌석이 분리될 수 있습니다.\n항공사 탑승수속(선박 승선수속) 마감시간까지 수속을 마치지 못한 경우 출국이 거절될 수 있으며 이 경우 당사의 책임범위가 아님을 알려드립니다. 안전한 출국을 위해 하나투어 미팅시간까지는 반드시 공항(터미널)에 도착해 주시기 바랍니다\n여행일정\n호텔 & 관광지\n선택관광\n참고사항\n해외 안전정보\n여행후기\n1일차\n2일차\n3일차\n일정 전체펼침\n\n여행일정 변경에 관한 사전 동의안내\n\n여행일정은 계약체결 시 예상하지 못한 부득이한 사정 등이 발생하는 경우 여행자의 사전동의를 거쳐 변경될 수 있음을 양지하시기 바랍니다. \n\n1일차\n11/01(일)\n인천, 옌타이\n\n상세내용을 확인해보세요\n\n2일차\n11/02(월)\n옌타이\n\n봉래각\n\n3일차\n11/03(화)\n옌타이, 인천\n\n상세내용을 확인해보세요\n\n쇼핑정보\n\n해당상품은 쇼핑센터에 방문하지 않습니다.\n\n해외 여행시 US$800 초과 구입한 물품은 입국시 관세가 부과될 수 있습니다. \n\n쇼핑 시 유의사항\t\n- 본 상품은 행사일정 중 쇼핑센터를 방문하지 않습니다.\n함께 많이 본 상품\n옌타이 골프 3일 #다색골프 #54홀 #남산국제/단령CC #용구공상련합호텔 #와인증정 #2인예약 가능 #조조패턴\n489,000원~\n[파크골프]옌타이 골프 3일 #골프연계호텔 #무제한라운드*2회 #남산국제파크골프 #용구공상련합호텔 #핵심관 ...\n689,000원~\n[부산출발] 칭다오&옌타이 골프 4일#다색골프 #72홀#화산/단령/국제CC #공상연합호텔 #군정와인제공 #수하물 ...\n839,000원~\n[대구출발/칭다오 IN&OUT] 옌타이(하이양) 파크골프 4일 #골프연계호텔 #무제한라운드 *3회 #하이양CC # #전 ...\n754,000원~\n[2인출발보장]옌타이 골프 3일 #골프연계호텔 #54홀 #봉래군정CC #봉래화교호텔 #와인증정 #조조패턴\n409,000원~\n옌타이 골프 3일 #다색골프 #54홀 #남산국제/단령CC #용구공상련합호텔 #와인증정 #2인예약 가능 #조조패턴\n489,000원~\n[파크골프]옌타이 골프 3일 #골프연계호텔 #무제한라운드*2회 #남산국제파크골프 #용구공상련합호텔 #핵심관 ...\n689,000원~\n[부산출발] 칭다오&옌타이 골프 4일#다색골프 #72홀#화산/단령/국제CC #공상연합호텔 #군정와인제공 #수하물 ...\n839,000원~\n[대구출발/칭다오 IN&OUT] 옌타이(하이양) 파크골프 4일 #골프연계호텔 #무제한라운드 *3회 #하이양CC # #전 ...\n754,000원~\n[2인출발보장]옌타이 골프 3일 #골프연계호텔 #54홀 #봉래군정CC #봉래화교호텔 #와인증정 #조조패턴\n409,000원~\n옌타이 골프 3일 #다색골프 #54홀 #남산국제/단령CC #용구공상련합호텔 #와인증정 #2인예약 가능 #조조패턴\n489,000원~\n[파크골프]옌타이 골프 3일 #골프연계호텔 #무제한라운드*2회 #남산국제파크골프 #용구공상련합호텔 #핵심관 ...\n689,000원~\n[부산출발] 칭다오&옌타이 골프 4일#다색골프 #72홀#화산/단령/국제CC #공상연합호텔 #군정와인제공 #수하물 ...\n839,000원~\n이전\n다음\n_\n방문도시 정보 및 기타정보\n도시정보\t\n입국카드 작성법\t\n도시\t현재시간\t오늘의 환율\n\n(2026.09.30 기준) \n\n\t콘센트\n옌타이(YNT)\t11:512026.09.30\n\n한국보다 1시간 느림\n\n\t\n\n1위안(CNY) = 211.93원\n\n\t\n\n전압 : 220V\n\n주파수 : 50HZ\n\n※ 오늘의 환율은 실시간 '현찰 살 때' 기준으로, 은행에서 거래되지 않는 통화는 0원으로 표기될 수 있습니다. \n\n여행시 유의사항\n[중국 골프 안내사항]\n\n- 라운드 도중 자주 발생하는 전동카트 사고는 전동카트에 손해를 입힌자에게 부과하는것이 중국 골프장들의 일반적인 사항입니다.\n- 티업시간이 빠른 경우 호텔 조식 대신 도시락식으로 대체 되오니 이점 양해부탁드립니다.\n- 전동카트는 2인승이 주로 나오며,4인승을 요청할 수 있으나 구비하고 있는 곳이 거의 없습니다.\n- 골프 부대비용 지불시 달러($) 지불이 불가능한 것은 아니나, 환율로 인한 분쟁 소지가 있으니 가능하시면 위엔화(RMB)로 준비해 주십시오.\n\n[중국 공항 내 라이터 반입]\n중국은 공항 라이터 소지가 불가능하오니 고가의 라이터는 반입하지 않는 것을 권장드립니다.\n무조건 비행기 탑승시 라이터를 버리고 탑승해야 합니다.\n\n인원선택\n\n성인\n399,000원\n\n1\n\n아동 \n399,000원\n\n0\n\n유아 \n-\n\n0\n\n총 금액\n\n399,000원\n\n유류할증료&제세공과금 포함 \n\n하나투어 마일리지 최대 3,090적립예정\n상품가격 안내\n예약하기\t\n찜\n혜택\n추가 적립/할인\n이달의 카드할인 혜택\n상품별 차별점만 빠른 비교\nfacebook\ninstagram\nblog\nkakaoplus\nyoutube\nkakaostory\n회사소개\n이용약관\n개인정보처리방침\n여행약관\n해외여행자보험\n마케팅제휴\n공식인증예약센터 검색\n(주)하나투어      대표집행임원 : 조좌진      주소 : (03161) 서울특별시 종로구 인사동 5길 41\n사업자등록번호 : 102-81-39440      사업자정보확인      통신판매업신고번호 : 종로01-1806호      관광사업자 등록번호 : 제1993-000006호\n개인정보 보호책임자 : 전준형      영업보증보험 : 22억 1천만원 가입    팩스: 02-734-0392    이메일 : 15771233@hanatour.com      ☎고객센터 1577-1233\n\n※ 부득이한 사정에 의해 여행일정이 변경되는 경우 사전 동의를 받습니다.\n※ 하나투어는 개별 항공권 단독 판매에 대하여 판매중개자로서 통신판매의 당사자가 아니며 해당상품의 거래정보 및 거래등에 대해 책임을 지지 않습니다.\nCOPYRIGHTⓒ HANATOUR SERVICE INC. ALL RIGHTS RESERVED\n하나은행 구매안전 서비스\n고객님은 안전거래를 위해 현금으로 결제시\n(주)하나투어에서 가입한 하나은행으로\n구매안전서비스를 이용하실 수 있습니다.\n서비스 가입사실 확인\n브랜드스탁선정\n22년연속(2005~2026)\n브랜드스타 1위\n산업정책연구원 주관\n제9회 국가서비스대상 (2026)\n하이엔드 여행 부문 대상 (제우스월드)\n2026 뉴욕페스티벌\n대한민국 국가브랜드 대상\n업계 최초 여행사 부문 대상\n2025 대한민국 SNS 대상\n업계 최초 관광 부문 대상\n소비자중심경영(CCM)\n7회 연속 인증(2012~2024) 및\n2025년 ‘명예의 전당’ 포상\nKMAC 선정\n14년 연속(2009~2025)\n한국산업의 고객만족도 여행사부문 1위\n한국표준협회 선정\n4년 연속(2019~2025)\n한국서비스품질지수 여행사 부문 1위\n한국능률협회선정\n22년연속(2005~2026)\n브랜드파워 1위\n브랜드스탁선정\n22년연속(2005~2026)\n브랜드스타 1위\n산업정책연구원 주관\n제9회 국가서비스대상 (2026)\n하이엔드 여행 부문 대상 (제우스월드)\n2026 뉴욕페스티벌\n대한민국 국가브랜드 대상\n업계 최초 여행사 부문 대상\n2025 대한민국 SNS 대상\n업계 최초 관광 부문 대상\n소비자중심경영(CCM)\n7회 연속 인증(2012~2024) 및\n2025년 ‘명예의 전당’ 포상\nKMAC 선정\n14년 연속(2009~2025)\n한국산업의 고객만족도 여행사부문 1위\n한국표준협회 선정\n4년 연속(2019~2025)\n한국서비스품질지수 여행사 부문 1위\n한국능률협회선정\n22년연속(2005~2026)\n브랜드파워 1위\n이전보기\n다음보기\n 대한민국브랜드대상\n 국외여행상품 정보제공 표준안 참여여행사\n 개인정보보호우수사이트\n CCM\n ISMS 인증 취득\n 현금영수증 의무발행 가맹점",
+  "url": "https://cp.hanatour.com/trp/pkg/CHPC0PKG0200M200?pkgCd=CAG173261101LJC&prePage=major-products",
+  "slug": "hana-bf8f483a20b3",
+  "checkedAt": "2026-09-30"
+}

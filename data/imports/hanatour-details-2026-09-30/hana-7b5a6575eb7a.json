@@ -1,0 +1,763 @@
+{
+  "costs": [
+    {
+      "items": [
+        "왕복항공권",
+        "현지공항세, 관광진흥개발기금, 국내공항세, 전쟁보험료, 유류할증료",
+        "숙박비 : 2인 1실\n",
+        "식사비 : 조/중/석식 리조트식\n",
+        "그린피 : 일정표 세부 내역 참고\n",
+        "1억원 여행자보험"
+      ],
+      "label": "포함내역"
+    },
+    {
+      "items": [
+        "공항 미팅 & 샌딩 : USD 50 (4인 이상 출발 기준 1인 금액\n3인 출발시 1인 $60 / 2인 출발시 1인 $70\n** 공항 미팅/센딩은 필수 진행 조건이며, 인원수에 따라 요금 차등이 있으니 참고 부탁드립니다.)",
+        "캐디피 : THB 350 (1인/18홀 - 1인 1캐디 ), 전동카 : THB 500 (1인/18홀 - 2인 1카트 (1인1카트 이용시 1인 18홀 700바트)), 캐디팁 : THB 300 (1인/18홀 - 1인 1캐디 )",
+        "개인 여행경비(물값, 자유시간시 개인비용 등)",
+        "각종 매너팁(테이블팁, 객실팁, 포터비, 마사지팁 등)",
+        "매너팁은 소비자의 자율적 선택으로 지불여부에 따른 불이익은 없습니다. "
+      ],
+      "label": "불포함내역"
+    },
+    {
+      "items": [
+        "항공리턴변경(불가), 클래스 차액 : 가격문의 (그룹항공요금 기준 상품가로서, 일반 좌석등급이 높아지면 상품가 상승됩니다. 좌석상황에 따라 변동되어 추가비용이 발생될 수 있으니 예약시 반드시 상담자와 확인부탁드립니다.)",
+        "객실 1인 사용료 : 120,000원",
+        "렌탈비 : 가격문의 (1인 18홀 클럽렌탈 기준/사전 요청 조건(상품 담당자와 금액 확인 필요))",
+        "선택관광/기항지관광/현지투어에 관한 상세 내역은 패키지 상품상세를 참고바랍니다. "
+      ],
+      "label": "선택경비"
+    }
+  ],
+  "days": [
+    {
+      "cards": [
+        {
+          "images": [
+            {
+              "alt": "방콕 수완나품 국제공항 2",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2006/10/17/10000/5003e848-499c-4c3c-bbbb-9f447cdca6b9.jpg"
+            }
+          ],
+          "text": "\n        태국 입국 조건 및 필요 서류상세보기\n        \n        \n            \n            \n                [태국 디지털 입국 카드(TDAC) 작성 안내]\n\n태국 입국절차 변경(디지털 입국 카드) 안내 (25.5.1부터)\n태국에 입국하는 모든 외국인 여행객은 디지털 입국 카드를 필수로 작성해야 합니다. (미 작성 시 태국 입국 불가 )\n\n■ 작성 및 제출 방법\n태국 디지털 입국카드 등록 링크 : http://tdac.immigration.go.th \n작성방법 : https://drive.google.com/file/d/1Yw3aBUwElc0qPRPRmI3eLRC85YAxmBnQ/view?usp=sharing\n\n1. TDAC 홈페이지 접속 (필요 시 우측 상단 한국어 언어 변경)\n2. 홈페이지 안내에 따라 개인정보,여행 정보 등 입력\n3. 입력 사항 확인 후 제출\n4. 이메일로 받은 파일(QR코드)  확인 및 다운로드\n5. 태국 입국심사관에게 여권과 함께 파일(QR코드) 제시\n\n■ 작성 시점\n태국에 입국하는 날을 포함하여 입국 전 3일 이내에 작성 및 제출되어야 합니다.\n예시: 5월 4일 태국 입국 시 → 5월 2일 ~ 5월 4일 사이에 작성하여 제출\n\n■ 주의사항\n- 입국심사 시 인터넷 환경이 좋지 않을 수 있으므로 수신된 파일(QR코드)을 별도로 소지(출력 또는 캡처 등)하시기 바랍니다.\n- 입국신고는 비자와는 별개의 제도이므로 비자 소지 여부와 상관없이 모두 적용됩니다.\n- TDAC 작성 시 별도 비용은 없으며, TDAC를 제출한 이후에 여행 일정이 연기된 경우 도착 일정에 맞춰 다시 작성하여야 합니다.\n\n※ 출입국 절차 및 내용은 태국 정부 및 국내 지침에 따라 변경될 수 있는 점 참고 부탁드립니다.\n                \n                \n                \n            \n        \n        \n         \n    ",
+          "title": "태국 입국 조건 및 필요 서류"
+        },
+        {
+          "images": [
+            {
+              "alt": "수완나폼 B게이트 4번 출입구",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/06/02/10000/985db33f-83c5-40d8-bca7-7a714765ab69.jpg"
+            },
+            {
+              "alt": "수완나폼 B게이트 4번 출입구",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/06/02/10000/70636e32-35e4-416d-8762-082bfad143df.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/27/10000/7ddd468e-0f87-489e-86b9-3efadbad0c74.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/27/10000/09a9fd5c-b244-4b11-85dd-010d5758cf77.jpg"
+            },
+            {
+              "alt": "수완나폼 B게이트 4번 출입구",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/06/02/10000/171c203f-d6c6-4812-b896-2b6c907783cb.jpg"
+            },
+            {
+              "alt": "수완나폼 B게이트 4번 출입구",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/06/02/10000/985db33f-83c5-40d8-bca7-7a714765ab69.jpg"
+            },
+            {
+              "alt": "수완나폼 B게이트 4번 출입구",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/06/02/10000/70636e32-35e4-416d-8762-082bfad143df.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/27/10000/7ddd468e-0f87-489e-86b9-3efadbad0c74.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/27/10000/09a9fd5c-b244-4b11-85dd-010d5758cf77.jpg"
+            },
+            {
+              "alt": "수완나폼 B게이트 4번 출입구",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/06/02/10000/171c203f-d6c6-4812-b896-2b6c907783cb.jpg"
+            }
+          ],
+          "text": "\n        태국 입국 절차상세보기\n        \n        \n                   2/2이전다음\n            비행기에서 내리면 immigration 표지판을 따라 이동하다 입국 심사대(passport control)에서 여권을 제출하고 입국 심사를 받습니다. 입국 심사대를 통과하면 모니터에 도착 비행기에 따른 수하물 벨트가 나옵니다. 이를 확인한 후 해당 수하물 벨트로 이동하여 짐을 찾습니다. 짐을 찾은 후에는 세관 구역을 통과한 후 밖으로 나갈 수 있습니다. \n\n※ 수완나폼 공항 미팅 포인트 : 2층 B게이트 3번~4번출구\n            \n            \n            \n        \n        \n         \n   \n   \n\n    ",
+          "title": "태국 입국 절차"
+        },
+        {
+          "images": [],
+          "text": "\n        태국 입국시 유의사항상세보기\n        태국입국시 담배는 1인 1보루, 술은 1인 1병(1ℓ), 전자담배 금지 규정! 위반시 벌금부과! \n\n        \n            태국은 세관 규정이 엄격하며 위반 적발 시 물품 압수 및 큰 금액의 벌금이 부과됩니다. 세관을 벗어난 공간에서도 사복 공항 직원이 적발하는 경우가 있으므로, 차량에 탑승하여 공항을 완전히 벗어날 때 까지 이 규정을 준수하셔야 합니다.  또한 타인의 짐을 대신 맡아 들고 있는 경우더라도 예외 없이 위반으로 적발되므로 주의하시기 바랍니다.\n            \n            \n            \n        \n        \n         \n   \n   \n\n    ",
+          "title": "태국 입국시 유의사항"
+        },
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/5b2ce985-ef85-4402-b960-b3999d7a182a.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d140a0ee-6c91-483e-894d-6a076c3fc41f.bmp"
+            },
+            {
+              "alt": "프라임 골프텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/4592c6f8-86a4-4d5a-a689-c798aa93facd.jpg"
+            },
+            {
+              "alt": "프라임 골프텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/c99d9d43-8379-4b72-b2ad-19821827bea3.jpg"
+            },
+            {
+              "alt": "프라임 골프텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/31baf099-fc8a-4e9a-9c2e-e79ee4ff3e77.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/5b2ce985-ef85-4402-b960-b3999d7a182a.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d140a0ee-6c91-483e-894d-6a076c3fc41f.bmp"
+            },
+            {
+              "alt": "프라임 골프텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/4592c6f8-86a4-4d5a-a689-c798aa93facd.jpg"
+            },
+            {
+              "alt": "프라임 골프텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/c99d9d43-8379-4b72-b2ad-19821827bea3.jpg"
+            },
+            {
+              "alt": "프라임 골프텔",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/31baf099-fc8a-4e9a-9c2e-e79ee4ff3e77.jpg"
+            }
+          ],
+          "text": "\n        PRIME GOIF RESORT\n        프라임 골프 리조트\n        \n             2/2이전다음\n            \n            \n            호텔소개PRIME GOLF RESORT(프라임 골프 리조트)는 방콕 북동부에 위치한 가성비 골프텔로서 오랜 기간 한국 골퍼들에게 사랑을 받아온 골프텔입니다. 숙소는 다소 노후화 되어 컨디션이 상급은 아니지만 라운드 후 편한 휴식을 취할 수 있도록 지속적인 개보수 작업을 진행중이며, 룸에서 바라보는 광활한 호수 위로 보여지는 일출과 일몰은 환상적으로 다른 여타 골프장에서는 보기 힘든 귀한 장면이 영화처럼 파노라마식으로 연출됩니다.\n또한 한국식 식단은 타 골프장에서 따라 올 수 없는 맛과 음식의 다양한 식단으로 먹는 즐거움까지 더해 참 된 휴식과 즐거움을 마음껏 누릴 수 있는 체류형 골프 숙소입니다.\n            \n        \n        \n        \n    ",
+          "title": "PRIME GOIF RESORT"
+        }
+      ],
+      "day": "acc_con0",
+      "golf": [],
+      "hotel": [
+        "프라임 골프 리조트"
+      ],
+      "images": [
+        {
+          "alt": "트리니티항공(구)티웨이항공",
+          "src": "https://image.hanatour.com/usr/static/img/airline/TW.png"
+        },
+        {
+          "alt": "방콕 수완나품 국제공항 2",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2006/10/17/10000/5003e848-499c-4c3c-bbbb-9f447cdca6b9.jpg"
+        },
+        {
+          "alt": "수완나폼 B게이트 4번 출입구",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/06/02/10000/985db33f-83c5-40d8-bca7-7a714765ab69.jpg"
+        },
+        {
+          "alt": "수완나폼 B게이트 4번 출입구",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/06/02/10000/70636e32-35e4-416d-8762-082bfad143df.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/27/10000/7ddd468e-0f87-489e-86b9-3efadbad0c74.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/27/10000/09a9fd5c-b244-4b11-85dd-010d5758cf77.jpg"
+        },
+        {
+          "alt": "수완나폼 B게이트 4번 출입구",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/06/02/10000/171c203f-d6c6-4812-b896-2b6c907783cb.jpg"
+        },
+        {
+          "alt": "수완나폼 B게이트 4번 출입구",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/06/02/10000/985db33f-83c5-40d8-bca7-7a714765ab69.jpg"
+        },
+        {
+          "alt": "수완나폼 B게이트 4번 출입구",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/06/02/10000/70636e32-35e4-416d-8762-082bfad143df.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/27/10000/7ddd468e-0f87-489e-86b9-3efadbad0c74.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/27/10000/09a9fd5c-b244-4b11-85dd-010d5758cf77.jpg"
+        },
+        {
+          "alt": "수완나폼 B게이트 4번 출입구",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/06/02/10000/171c203f-d6c6-4812-b896-2b6c907783cb.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/5b2ce985-ef85-4402-b960-b3999d7a182a.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d140a0ee-6c91-483e-894d-6a076c3fc41f.bmp"
+        },
+        {
+          "alt": "프라임 골프텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/4592c6f8-86a4-4d5a-a689-c798aa93facd.jpg"
+        },
+        {
+          "alt": "프라임 골프텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/c99d9d43-8379-4b72-b2ad-19821827bea3.jpg"
+        },
+        {
+          "alt": "프라임 골프텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/31baf099-fc8a-4e9a-9c2e-e79ee4ff3e77.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/5b2ce985-ef85-4402-b960-b3999d7a182a.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d140a0ee-6c91-483e-894d-6a076c3fc41f.bmp"
+        },
+        {
+          "alt": "프라임 골프텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/4592c6f8-86a4-4d5a-a689-c798aa93facd.jpg"
+        },
+        {
+          "alt": "프라임 골프텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/c99d9d43-8379-4b72-b2ad-19821827bea3.jpg"
+        },
+        {
+          "alt": "프라임 골프텔",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/31baf099-fc8a-4e9a-9c2e-e79ee4ff3e77.jpg"
+        }
+      ],
+      "meals": "  [석식] 기내-불포함(유료제공)",
+      "stops": [
+        {
+          "text": "인천          ",
+          "title": "인천"
+        },
+        {
+          "meal": "\n                                  석식 (기내-불포함(유료제공))\n                                ",
+          "text": "    \n                                  석식 (기내-불포함(유료제공))\n                                      "
+        },
+        {
+          "text": "방콕          ",
+          "title": "방콕"
+        },
+        {
+          "text": " \n    \n        태국 입국 조건 및 필요 서류상세보기\n        \n        \n            \n            \n                [태국 디지털 입국 카드(TDAC) 작성 안내]\n\n태국 입국절차 변경(디지털 입국 카드) 안내 (25.5.1부터)\n태국에 입국하는 모든 외국인 여행객은 디지털 입국 카드를 필수로 작성해야 합니다. (미 작성 시 태국 입국 불가 )\n\n■ 작성 및 제출 방법\n태국 디지털 입국카드 등록 링크 : http://tdac.immigration.go.th \n작성방법 : https://drive.google.com/file/d/1Yw3aBUwElc0qPRPRmI3eLRC85YAxmBnQ/view?usp=sharing\n\n1. TDAC 홈페이지 접속 (필요 시 우측 상단 한국어 언어 변경)\n2. 홈페이지 안내에 따라 개인정보,여행 정보 등 입력\n3. 입력 사항 확인 후 제출\n4. 이메일로 받은 파일(QR코드)  확인 및 다운로드\n5. 태국 입국심사관에게 여권과 함께 파일(QR코드) 제시\n\n■ 작성 시점\n태국에 입국하는 날을 포함하여 입국 전 3일 이내에 작성 및 제출되어야 합니다.\n예시: 5월 4일 태국 입국 시 → 5월 2일 ~ 5월 4일 사이에 작성하여 제출\n\n■ 주의사항\n- 입국심사 시 인터넷 환경이 좋지 않을 수 있으므로 수신된 파일(QR코드)을 별도로 소지(출력 또는 캡처 등)하시기 바랍니다.\n- 입국신고는 비자와는 별개의 제도이므로 비자 소지 여부와 상관없이 모두 적용됩니다.\n- TDAC 작성 시 별도 비용은 없으며, TDAC를 제출한 이후에 여행 일정이 연기된 경우 도착 일정에 맞춰 다시 작성하여야 합니다.\n\n※ 출입국 절차 및 내용은 태국 정부 및 국내 지침에 따라 변경될 수 있는 점 참고 부탁드립니다.\n                \n                \n                \n            \n        \n        \n         \n    \n         "
+        },
+        {
+          "text": " \n    \n        태국 입국 절차상세보기\n        \n        \n                   2/2이전다음\n            비행기에서 내리면 immigration 표지판을 따라 이동하다 입국 심사대(passport control)에서 여권을 제출하고 입국 심사를 받습니다. 입국 심사대를 통과하면 모니터에 도착 비행기에 따른 수하물 벨트가 나옵니다. 이를 확인한 후 해당 수하물 벨트로 이동하여 짐을 찾습니다. 짐을 찾은 후에는 세관 구역을 통과한 후 밖으로 나갈 수 있습니다. \n\n※ 수완나폼 공항 미팅 포인트 : 2층 B게이트 3번~4번출구\n            \n            \n            \n        \n        \n         \n   \n   \n\n    \n         "
+        },
+        {
+          "text": " \n    \n        태국 입국시 유의사항상세보기\n        태국입국시 담배는 1인 1보루, 술은 1인 1병(1ℓ), 전자담배 금지 규정! 위반시 벌금부과! \n\n        \n            태국은 세관 규정이 엄격하며 위반 적발 시 물품 압수 및 큰 금액의 벌금이 부과됩니다. 세관을 벗어난 공간에서도 사복 공항 직원이 적발하는 경우가 있으므로, 차량에 탑승하여 공항을 완전히 벗어날 때 까지 이 규정을 준수하셔야 합니다.  또한 타인의 짐을 대신 맡아 들고 있는 경우더라도 예외 없이 위반으로 적발되므로 주의하시기 바랍니다.\n            \n            \n            \n        \n        \n         \n   \n   \n\n    \n         "
+        },
+        {
+          "meal": "프라임 골프텔로 이동 [약 1시간 소요]",
+          "text": "      프라임 골프텔로 이동 [약 1시간 소요]    "
+        },
+        {
+          "text": " \n    \n        PRIME GOIF RESORT\n        프라임 골프 리조트\n        \n             2/2이전다음\n            \n            \n            호텔소개PRIME GOLF RESORT(프라임 골프 리조트)는 방콕 북동부에 위치한 가성비 골프텔로서 오랜 기간 한국 골퍼들에게 사랑을 받아온 골프텔입니다. 숙소는 다소 노후화 되어 컨디션이 상급은 아니지만 라운드 후 편한 휴식을 취할 수 있도록 지속적인 개보수 작업을 진행중이며, 룸에서 바라보는 광활한 호수 위로 보여지는 일출과 일몰은 환상적으로 다른 여타 골프장에서는 보기 힘든 귀한 장면이 영화처럼 파노라마식으로 연출됩니다.\n또한 한국식 식단은 타 골프장에서 따라 올 수 없는 맛과 음식의 다양한 식단으로 먹는 즐거움까지 더해 참 된 휴식과 즐거움을 마음껏 누릴 수 있는 체류형 골프 숙소입니다.\n            \n        \n        \n        \n    \n         "
+        },
+        {
+          "text": "      골프텔 투숙 및 휴식    ",
+          "title": "골프텔 투숙 및 휴식"
+        }
+      ],
+      "text": "  트리니티항공(구)티웨이항공 06시간 20분 TW0101 19:50  2026.11.01(일) 서울 ICN 출발 00:10  2026.11.02(월) 방콕 BKK 도착     +1 인천              \n                                  석식 (기내-불포함(유료제공))\n                                      방콕           \n    \n        태국 입국 조건 및 필요 서류상세보기\n        \n        \n            \n            \n                [태국 디지털 입국 카드(TDAC) 작성 안내]\n\n태국 입국절차 변경(디지털 입국 카드) 안내 (25.5.1부터)\n태국에 입국하는 모든 외국인 여행객은 디지털 입국 카드를 필수로 작성해야 합니다. (미 작성 시 태국 입국 불가 )\n\n■ 작성 및 제출 방법\n태국 디지털 입국카드 등록 링크 : http://tdac.immigration.go.th \n작성방법 : https://drive.google.com/file/d/1Yw3aBUwElc0qPRPRmI3eLRC85YAxmBnQ/view?usp=sharing\n\n1. TDAC 홈페이지 접속 (필요 시 우측 상단 한국어 언어 변경)\n2. 홈페이지 안내에 따라 개인정보,여행 정보 등 입력\n3. 입력 사항 확인 후 제출\n4. 이메일로 받은 파일(QR코드)  확인 및 다운로드\n5. 태국 입국심사관에게 여권과 함께 파일(QR코드) 제시\n\n■ 작성 시점\n태국에 입국하는 날을 포함하여 입국 전 3일 이내에 작성 및 제출되어야 합니다.\n예시: 5월 4일 태국 입국 시 → 5월 2일 ~ 5월 4일 사이에 작성하여 제출\n\n■ 주의사항\n- 입국심사 시 인터넷 환경이 좋지 않을 수 있으므로 수신된 파일(QR코드)을 별도로 소지(출력 또는 캡처 등)하시기 바랍니다.\n- 입국신고는 비자와는 별개의 제도이므로 비자 소지 여부와 상관없이 모두 적용됩니다.\n- TDAC 작성 시 별도 비용은 없으며, TDAC를 제출한 이후에 여행 일정이 연기된 경우 도착 일정에 맞춰 다시 작성하여야 합니다.\n\n※ 출입국 절차 및 내용은 태국 정부 및 국내 지침에 따라 변경될 수 있는 점 참고 부탁드립니다.\n                \n                \n                \n            \n        \n        \n         \n    \n          \n    \n        태국 입국 절차상세보기\n        \n        \n                   2/2이전다음\n            비행기에서 내리면 immigration 표지판을 따라 이동하다 입국 심사대(passport control)에서 여권을 제출하고 입국 심사를 받습니다. 입국 심사대를 통과하면 모니터에 도착 비행기에 따른 수하물 벨트가 나옵니다. 이를 확인한 후 해당 수하물 벨트로 이동하여 짐을 찾습니다. 짐을 찾은 후에는 세관 구역을 통과한 후 밖으로 나갈 수 있습니다. \n\n※ 수완나폼 공항 미팅 포인트 : 2층 B게이트 3번~4번출구\n            \n            \n            \n        \n        \n         \n   \n   \n\n    \n          \n    \n        태국 입국시 유의사항상세보기\n        태국입국시 담배는 1인 1보루, 술은 1인 1병(1ℓ), 전자담배 금지 규정! 위반시 벌금부과! \n\n        \n            태국은 세관 규정이 엄격하며 위반 적발 시 물품 압수 및 큰 금액의 벌금이 부과됩니다. 세관을 벗어난 공간에서도 사복 공항 직원이 적발하는 경우가 있으므로, 차량에 탑승하여 공항을 완전히 벗어날 때 까지 이 규정을 준수하셔야 합니다.  또한 타인의 짐을 대신 맡아 들고 있는 경우더라도 예외 없이 위반으로 적발되므로 주의하시기 바랍니다.\n            \n            \n            \n        \n        \n         \n   \n   \n\n    \n               프라임 골프텔로 이동 [약 1시간 소요]     \n    \n        PRIME GOIF RESORT\n        프라임 골프 리조트\n        \n             2/2이전다음\n            \n            \n            호텔소개PRIME GOLF RESORT(프라임 골프 리조트)는 방콕 북동부에 위치한 가성비 골프텔로서 오랜 기간 한국 골퍼들에게 사랑을 받아온 골프텔입니다. 숙소는 다소 노후화 되어 컨디션이 상급은 아니지만 라운드 후 편한 휴식을 취할 수 있도록 지속적인 개보수 작업을 진행중이며, 룸에서 바라보는 광활한 호수 위로 보여지는 일출과 일몰은 환상적으로 다른 여타 골프장에서는 보기 힘든 귀한 장면이 영화처럼 파노라마식으로 연출됩니다.\n또한 한국식 식단은 타 골프장에서 따라 올 수 없는 맛과 음식의 다양한 식단으로 먹는 즐거움까지 더해 참 된 휴식과 즐거움을 마음껏 누릴 수 있는 체류형 골프 숙소입니다.\n            \n        \n        \n        \n    \n               골프텔 투숙 및 휴식      호텔 총 1개의\n                                  예정 호텔이 있습니다.\n                                출발 3일전까지 확정되어 일정표에서 확인하실\n                                수 있습니다.\n                                1일전 카카오 알림톡으로도 알려드립니다. 프라임 골프 리조트  \n                                      PRIME GOIF RESORT상세보기  식사   [석식] 기내-불포함(유료제공)"
+    },
+    {
+      "cards": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d140a0ee-6c91-483e-894d-6a076c3fc41f.bmp"
+            },
+            {
+              "alt": "프라임 골프장",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/6253ddbc-2082-4fe7-83ca-95773bf49907.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d82fab7f-1912-4e31-b376-16768bd78283.bmp"
+            },
+            {
+              "alt": "프라임 골프장",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/e2da96fb-2d15-454e-8559-3e0b2aa1f232.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/8f640822-b069-48a1-b284-11cbacbb9e12.bmp"
+            },
+            {
+              "alt": "B.K PRIME C.C_골프장 전경",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/5b2ce985-ef85-4402-b960-b3999d7a182a.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d140a0ee-6c91-483e-894d-6a076c3fc41f.bmp"
+            },
+            {
+              "alt": "프라임 골프장",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/6253ddbc-2082-4fe7-83ca-95773bf49907.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d82fab7f-1912-4e31-b376-16768bd78283.bmp"
+            },
+            {
+              "alt": "프라임 골프장",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/e2da96fb-2d15-454e-8559-3e0b2aa1f232.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/8f640822-b069-48a1-b284-11cbacbb9e12.bmp"
+            },
+            {
+              "alt": "B.K PRIME C.C_골프장 전경",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/5b2ce985-ef85-4402-b960-b3999d7a182a.jpg"
+            }
+          ],
+          "text": "\n        Prime City Golf Club상세보기\n        \n        \n             2/2이전다음\n            골프장 소개PRIME CITY 골프클럽은 방콕 수완나폼 공항에서 동북쪽 나콘나욕주에 위치하여 있으며, 공항에서 약 1시간 내 거리로 접근성이 뛰어나며 2020년 4월부터 새롭게 리모델링 되어 운영되고 있습니다.  \n클럽하우스를 중심으로 전 홀이 호수의 가장자리를 향해 잔잔한 물살처럼 자연스럽게 퍼져있으며 물과 잔디가 조화를 이루고 있어 시원함을 더해줍니다. \n\n※ 특징 \n-  완만한 페어웨이와 빠르고 기복있는 그린과, 아름다운 호수와 연못으로 구성된 천혜의 자연 환경과 골프장 내의 시설이 최상급. \n - 전체 홀이 레이크 코스로 아름답고 자연 친화적인 골프장. \n - 페어웨이가 넓어 호쾌한 샷을 할 수 있는 남성적인 코스. \n - 200만평 대지의 거대한 호수 - 복사열이 적어 타 골프장 대비 2도 정도 시원함 \n -각 홀이 비슷한 홀이 전혀 없으며, 골프클럽 14개를 모두 사용해야하는 골프장이다.\n            \n            홀(HOLE) : 18가는방법 : 방콕에서 40KM - 공항에서 약50분 소요파(PAR) : 72야드(YARD) : 7117\n            \n        \n        \n         \n    ",
+          "title": "Prime City Golf Club"
+        }
+      ],
+      "day": "acc_con1",
+      "golf": [
+        "방콕 프라임시티 GC"
+      ],
+      "hotel": [
+        "프라임 골프 리조트"
+      ],
+      "images": [
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d140a0ee-6c91-483e-894d-6a076c3fc41f.bmp"
+        },
+        {
+          "alt": "프라임 골프장",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/6253ddbc-2082-4fe7-83ca-95773bf49907.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d82fab7f-1912-4e31-b376-16768bd78283.bmp"
+        },
+        {
+          "alt": "프라임 골프장",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/e2da96fb-2d15-454e-8559-3e0b2aa1f232.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/8f640822-b069-48a1-b284-11cbacbb9e12.bmp"
+        },
+        {
+          "alt": "B.K PRIME C.C_골프장 전경",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/5b2ce985-ef85-4402-b960-b3999d7a182a.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d140a0ee-6c91-483e-894d-6a076c3fc41f.bmp"
+        },
+        {
+          "alt": "프라임 골프장",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/6253ddbc-2082-4fe7-83ca-95773bf49907.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d82fab7f-1912-4e31-b376-16768bd78283.bmp"
+        },
+        {
+          "alt": "프라임 골프장",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/e2da96fb-2d15-454e-8559-3e0b2aa1f232.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/8f640822-b069-48a1-b284-11cbacbb9e12.bmp"
+        },
+        {
+          "alt": "B.K PRIME C.C_골프장 전경",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/5b2ce985-ef85-4402-b960-b3999d7a182a.jpg"
+        }
+      ],
+      "meals": "[조식] 리조트식 [중식] 리조트식 [석식] 리조트식",
+      "stops": [
+        {
+          "text": "방콕          ",
+          "title": "방콕"
+        },
+        {
+          "meal": "\n                                  조식 (리조트식)\n                                ",
+          "text": "    \n                                  조식 (리조트식)\n                                      "
+        },
+        {
+          "text": "      오전 라운드 18홀    ",
+          "title": "오전 라운드 18홀"
+        },
+        {
+          "text": " \n    \n        Prime City Golf Club상세보기\n        \n        \n             2/2이전다음\n            골프장 소개PRIME CITY 골프클럽은 방콕 수완나폼 공항에서 동북쪽 나콘나욕주에 위치하여 있으며, 공항에서 약 1시간 내 거리로 접근성이 뛰어나며 2020년 4월부터 새롭게 리모델링 되어 운영되고 있습니다.  \n클럽하우스를 중심으로 전 홀이 호수의 가장자리를 향해 잔잔한 물살처럼 자연스럽게 퍼져있으며 물과 잔디가 조화를 이루고 있어 시원함을 더해줍니다. \n\n※ 특징 \n-  완만한 페어웨이와 빠르고 기복있는 그린과, 아름다운 호수와 연못으로 구성된 천혜의 자연 환경과 골프장 내의 시설이 최상급. \n - 전체 홀이 레이크 코스로 아름답고 자연 친화적인 골프장. \n - 페어웨이가 넓어 호쾌한 샷을 할 수 있는 남성적인 코스. \n - 200만평 대지의 거대한 호수 - 복사열이 적어 타 골프장 대비 2도 정도 시원함 \n -각 홀이 비슷한 홀이 전혀 없으며, 골프클럽 14개를 모두 사용해야하는 골프장이다.\n            \n            홀(HOLE) : 18가는방법 : 방콕에서 40KM - 공항에서 약50분 소요파(PAR) : 72야드(YARD) : 7117\n            \n        \n        \n         \n    \n         "
+        },
+        {
+          "meal": "\n                                  중식 (리조트식)\n                                ",
+          "text": "    \n                                  중식 (리조트식)\n                                      "
+        },
+        {
+          "text": "      중식 후 추가 라운드    ",
+          "title": "중식 후 추가 라운드"
+        },
+        {
+          "meal": "\n                                  석식 (리조트식)\n                                ",
+          "text": "    \n                                  석식 (리조트식)\n                                      "
+        },
+        {
+          "text": "      골프텔 투숙 및 휴식    ",
+          "title": "골프텔 투숙 및 휴식"
+        }
+      ],
+      "text": "  방콕              \n                                  조식 (리조트식)\n                                            오전 라운드 18홀     \n    \n        Prime City Golf Club상세보기\n        \n        \n             2/2이전다음\n            골프장 소개PRIME CITY 골프클럽은 방콕 수완나폼 공항에서 동북쪽 나콘나욕주에 위치하여 있으며, 공항에서 약 1시간 내 거리로 접근성이 뛰어나며 2020년 4월부터 새롭게 리모델링 되어 운영되고 있습니다.  \n클럽하우스를 중심으로 전 홀이 호수의 가장자리를 향해 잔잔한 물살처럼 자연스럽게 퍼져있으며 물과 잔디가 조화를 이루고 있어 시원함을 더해줍니다. \n\n※ 특징 \n-  완만한 페어웨이와 빠르고 기복있는 그린과, 아름다운 호수와 연못으로 구성된 천혜의 자연 환경과 골프장 내의 시설이 최상급. \n - 전체 홀이 레이크 코스로 아름답고 자연 친화적인 골프장. \n - 페어웨이가 넓어 호쾌한 샷을 할 수 있는 남성적인 코스. \n - 200만평 대지의 거대한 호수 - 복사열이 적어 타 골프장 대비 2도 정도 시원함 \n -각 홀이 비슷한 홀이 전혀 없으며, 골프클럽 14개를 모두 사용해야하는 골프장이다.\n            \n            홀(HOLE) : 18가는방법 : 방콕에서 40KM - 공항에서 약50분 소요파(PAR) : 72야드(YARD) : 7117\n            \n        \n        \n         \n    \n             \n                                  중식 (리조트식)\n                                            중식 후 추가 라운드        \n                                  석식 (리조트식)\n                                            골프텔 투숙 및 휴식      호텔 총 1개의\n                                  예정 호텔이 있습니다.\n                                출발 3일전까지 확정되어 일정표에서 확인하실\n                                수 있습니다.\n                                1일전 카카오 알림톡으로도 알려드립니다. 프라임 골프 리조트  \n                                      PRIME GOIF RESORT상세보기 골프 총 1개의\n                                  예정 골프장이 있습니다.\n                                출발 3일전까지 확정되어 일정표에서 확인하실\n                                수 있습니다.\n                                1일전 카카오 알림톡으로도 알려드립니다. 방콕 프라임시티 GC \n                                      Prime City Golf Club상세보기  식사 [조식] 리조트식 [중식] 리조트식 [석식] 리조트식"
+    },
+    {
+      "cards": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d140a0ee-6c91-483e-894d-6a076c3fc41f.bmp"
+            },
+            {
+              "alt": "프라임 골프장",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/6253ddbc-2082-4fe7-83ca-95773bf49907.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d82fab7f-1912-4e31-b376-16768bd78283.bmp"
+            },
+            {
+              "alt": "프라임 골프장",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/e2da96fb-2d15-454e-8559-3e0b2aa1f232.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/8f640822-b069-48a1-b284-11cbacbb9e12.bmp"
+            },
+            {
+              "alt": "B.K PRIME C.C_골프장 전경",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/5b2ce985-ef85-4402-b960-b3999d7a182a.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d140a0ee-6c91-483e-894d-6a076c3fc41f.bmp"
+            },
+            {
+              "alt": "프라임 골프장",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/6253ddbc-2082-4fe7-83ca-95773bf49907.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d82fab7f-1912-4e31-b376-16768bd78283.bmp"
+            },
+            {
+              "alt": "프라임 골프장",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/e2da96fb-2d15-454e-8559-3e0b2aa1f232.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/8f640822-b069-48a1-b284-11cbacbb9e12.bmp"
+            },
+            {
+              "alt": "B.K PRIME C.C_골프장 전경",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/5b2ce985-ef85-4402-b960-b3999d7a182a.jpg"
+            }
+          ],
+          "text": "\n        Prime City Golf Club상세보기\n        \n        \n             2/2이전다음\n            골프장 소개PRIME CITY 골프클럽은 방콕 수완나폼 공항에서 동북쪽 나콘나욕주에 위치하여 있으며, 공항에서 약 1시간 내 거리로 접근성이 뛰어나며 2020년 4월부터 새롭게 리모델링 되어 운영되고 있습니다.  \n클럽하우스를 중심으로 전 홀이 호수의 가장자리를 향해 잔잔한 물살처럼 자연스럽게 퍼져있으며 물과 잔디가 조화를 이루고 있어 시원함을 더해줍니다. \n\n※ 특징 \n-  완만한 페어웨이와 빠르고 기복있는 그린과, 아름다운 호수와 연못으로 구성된 천혜의 자연 환경과 골프장 내의 시설이 최상급. \n - 전체 홀이 레이크 코스로 아름답고 자연 친화적인 골프장. \n - 페어웨이가 넓어 호쾌한 샷을 할 수 있는 남성적인 코스. \n - 200만평 대지의 거대한 호수 - 복사열이 적어 타 골프장 대비 2도 정도 시원함 \n -각 홀이 비슷한 홀이 전혀 없으며, 골프클럽 14개를 모두 사용해야하는 골프장이다.\n            \n            홀(HOLE) : 18가는방법 : 방콕에서 40KM - 공항에서 약50분 소요파(PAR) : 72야드(YARD) : 7117\n            \n        \n        \n         \n    ",
+          "title": "Prime City Golf Club"
+        }
+      ],
+      "day": "acc_con2",
+      "golf": [
+        "방콕 프라임시티 GC"
+      ],
+      "hotel": [
+        "프라임 골프 리조트"
+      ],
+      "images": [
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d140a0ee-6c91-483e-894d-6a076c3fc41f.bmp"
+        },
+        {
+          "alt": "프라임 골프장",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/6253ddbc-2082-4fe7-83ca-95773bf49907.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d82fab7f-1912-4e31-b376-16768bd78283.bmp"
+        },
+        {
+          "alt": "프라임 골프장",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/e2da96fb-2d15-454e-8559-3e0b2aa1f232.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/8f640822-b069-48a1-b284-11cbacbb9e12.bmp"
+        },
+        {
+          "alt": "B.K PRIME C.C_골프장 전경",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/5b2ce985-ef85-4402-b960-b3999d7a182a.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d140a0ee-6c91-483e-894d-6a076c3fc41f.bmp"
+        },
+        {
+          "alt": "프라임 골프장",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/6253ddbc-2082-4fe7-83ca-95773bf49907.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d82fab7f-1912-4e31-b376-16768bd78283.bmp"
+        },
+        {
+          "alt": "프라임 골프장",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/e2da96fb-2d15-454e-8559-3e0b2aa1f232.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/8f640822-b069-48a1-b284-11cbacbb9e12.bmp"
+        },
+        {
+          "alt": "B.K PRIME C.C_골프장 전경",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/5b2ce985-ef85-4402-b960-b3999d7a182a.jpg"
+        }
+      ],
+      "meals": "[조식] 리조트식 [중식] 리조트식 [석식] 리조트식",
+      "stops": [
+        {
+          "text": "방콕          ",
+          "title": "방콕"
+        },
+        {
+          "meal": "\n                                  조식 (리조트식)\n                                ",
+          "text": "    \n                                  조식 (리조트식)\n                                      "
+        },
+        {
+          "text": "      오전 라운드 18홀    ",
+          "title": "오전 라운드 18홀"
+        },
+        {
+          "text": " \n    \n        Prime City Golf Club상세보기\n        \n        \n             2/2이전다음\n            골프장 소개PRIME CITY 골프클럽은 방콕 수완나폼 공항에서 동북쪽 나콘나욕주에 위치하여 있으며, 공항에서 약 1시간 내 거리로 접근성이 뛰어나며 2020년 4월부터 새롭게 리모델링 되어 운영되고 있습니다.  \n클럽하우스를 중심으로 전 홀이 호수의 가장자리를 향해 잔잔한 물살처럼 자연스럽게 퍼져있으며 물과 잔디가 조화를 이루고 있어 시원함을 더해줍니다. \n\n※ 특징 \n-  완만한 페어웨이와 빠르고 기복있는 그린과, 아름다운 호수와 연못으로 구성된 천혜의 자연 환경과 골프장 내의 시설이 최상급. \n - 전체 홀이 레이크 코스로 아름답고 자연 친화적인 골프장. \n - 페어웨이가 넓어 호쾌한 샷을 할 수 있는 남성적인 코스. \n - 200만평 대지의 거대한 호수 - 복사열이 적어 타 골프장 대비 2도 정도 시원함 \n -각 홀이 비슷한 홀이 전혀 없으며, 골프클럽 14개를 모두 사용해야하는 골프장이다.\n            \n            홀(HOLE) : 18가는방법 : 방콕에서 40KM - 공항에서 약50분 소요파(PAR) : 72야드(YARD) : 7117\n            \n        \n        \n         \n    \n         "
+        },
+        {
+          "meal": "\n                                  중식 (리조트식)\n                                ",
+          "text": "    \n                                  중식 (리조트식)\n                                      "
+        },
+        {
+          "text": "      추가 라운드 18홀    ",
+          "title": "추가 라운드 18홀"
+        },
+        {
+          "meal": "\n                                  석식 (리조트식)\n                                ",
+          "text": "    \n                                  석식 (리조트식)\n                                      "
+        },
+        {
+          "text": "      골프텔 투숙 및 휴식    ",
+          "title": "골프텔 투숙 및 휴식"
+        }
+      ],
+      "text": "  방콕              \n                                  조식 (리조트식)\n                                            오전 라운드 18홀     \n    \n        Prime City Golf Club상세보기\n        \n        \n             2/2이전다음\n            골프장 소개PRIME CITY 골프클럽은 방콕 수완나폼 공항에서 동북쪽 나콘나욕주에 위치하여 있으며, 공항에서 약 1시간 내 거리로 접근성이 뛰어나며 2020년 4월부터 새롭게 리모델링 되어 운영되고 있습니다.  \n클럽하우스를 중심으로 전 홀이 호수의 가장자리를 향해 잔잔한 물살처럼 자연스럽게 퍼져있으며 물과 잔디가 조화를 이루고 있어 시원함을 더해줍니다. \n\n※ 특징 \n-  완만한 페어웨이와 빠르고 기복있는 그린과, 아름다운 호수와 연못으로 구성된 천혜의 자연 환경과 골프장 내의 시설이 최상급. \n - 전체 홀이 레이크 코스로 아름답고 자연 친화적인 골프장. \n - 페어웨이가 넓어 호쾌한 샷을 할 수 있는 남성적인 코스. \n - 200만평 대지의 거대한 호수 - 복사열이 적어 타 골프장 대비 2도 정도 시원함 \n -각 홀이 비슷한 홀이 전혀 없으며, 골프클럽 14개를 모두 사용해야하는 골프장이다.\n            \n            홀(HOLE) : 18가는방법 : 방콕에서 40KM - 공항에서 약50분 소요파(PAR) : 72야드(YARD) : 7117\n            \n        \n        \n         \n    \n             \n                                  중식 (리조트식)\n                                            추가 라운드 18홀        \n                                  석식 (리조트식)\n                                            골프텔 투숙 및 휴식      호텔 총 1개의\n                                  예정 호텔이 있습니다.\n                                출발 3일전까지 확정되어 일정표에서 확인하실\n                                수 있습니다.\n                                1일전 카카오 알림톡으로도 알려드립니다. 프라임 골프 리조트  \n                                      PRIME GOIF RESORT상세보기 골프 총 1개의\n                                  예정 골프장이 있습니다.\n                                출발 3일전까지 확정되어 일정표에서 확인하실\n                                수 있습니다.\n                                1일전 카카오 알림톡으로도 알려드립니다. 방콕 프라임시티 GC \n                                      Prime City Golf Club상세보기  식사 [조식] 리조트식 [중식] 리조트식 [석식] 리조트식"
+    },
+    {
+      "cards": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d140a0ee-6c91-483e-894d-6a076c3fc41f.bmp"
+            },
+            {
+              "alt": "프라임 골프장",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/6253ddbc-2082-4fe7-83ca-95773bf49907.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d82fab7f-1912-4e31-b376-16768bd78283.bmp"
+            },
+            {
+              "alt": "프라임 골프장",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/e2da96fb-2d15-454e-8559-3e0b2aa1f232.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/8f640822-b069-48a1-b284-11cbacbb9e12.bmp"
+            },
+            {
+              "alt": "B.K PRIME C.C_골프장 전경",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/5b2ce985-ef85-4402-b960-b3999d7a182a.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d140a0ee-6c91-483e-894d-6a076c3fc41f.bmp"
+            },
+            {
+              "alt": "프라임 골프장",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/6253ddbc-2082-4fe7-83ca-95773bf49907.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d82fab7f-1912-4e31-b376-16768bd78283.bmp"
+            },
+            {
+              "alt": "프라임 골프장",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/e2da96fb-2d15-454e-8559-3e0b2aa1f232.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/8f640822-b069-48a1-b284-11cbacbb9e12.bmp"
+            },
+            {
+              "alt": "B.K PRIME C.C_골프장 전경",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/5b2ce985-ef85-4402-b960-b3999d7a182a.jpg"
+            }
+          ],
+          "text": "\n        Prime City Golf Club상세보기\n        \n        \n             2/2이전다음\n            골프장 소개PRIME CITY 골프클럽은 방콕 수완나폼 공항에서 동북쪽 나콘나욕주에 위치하여 있으며, 공항에서 약 1시간 내 거리로 접근성이 뛰어나며 2020년 4월부터 새롭게 리모델링 되어 운영되고 있습니다.  \n클럽하우스를 중심으로 전 홀이 호수의 가장자리를 향해 잔잔한 물살처럼 자연스럽게 퍼져있으며 물과 잔디가 조화를 이루고 있어 시원함을 더해줍니다. \n\n※ 특징 \n-  완만한 페어웨이와 빠르고 기복있는 그린과, 아름다운 호수와 연못으로 구성된 천혜의 자연 환경과 골프장 내의 시설이 최상급. \n - 전체 홀이 레이크 코스로 아름답고 자연 친화적인 골프장. \n - 페어웨이가 넓어 호쾌한 샷을 할 수 있는 남성적인 코스. \n - 200만평 대지의 거대한 호수 - 복사열이 적어 타 골프장 대비 2도 정도 시원함 \n -각 홀이 비슷한 홀이 전혀 없으며, 골프클럽 14개를 모두 사용해야하는 골프장이다.\n            \n            홀(HOLE) : 18가는방법 : 방콕에서 40KM - 공항에서 약50분 소요파(PAR) : 72야드(YARD) : 7117\n            \n        \n        \n         \n    ",
+          "title": "Prime City Golf Club"
+        }
+      ],
+      "day": "acc_con3",
+      "golf": [
+        "방콕 프라임시티 GC"
+      ],
+      "hotel": [],
+      "images": [
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d140a0ee-6c91-483e-894d-6a076c3fc41f.bmp"
+        },
+        {
+          "alt": "프라임 골프장",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/6253ddbc-2082-4fe7-83ca-95773bf49907.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d82fab7f-1912-4e31-b376-16768bd78283.bmp"
+        },
+        {
+          "alt": "프라임 골프장",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/e2da96fb-2d15-454e-8559-3e0b2aa1f232.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/8f640822-b069-48a1-b284-11cbacbb9e12.bmp"
+        },
+        {
+          "alt": "B.K PRIME C.C_골프장 전경",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/5b2ce985-ef85-4402-b960-b3999d7a182a.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d140a0ee-6c91-483e-894d-6a076c3fc41f.bmp"
+        },
+        {
+          "alt": "프라임 골프장",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/6253ddbc-2082-4fe7-83ca-95773bf49907.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/d82fab7f-1912-4e31-b376-16768bd78283.bmp"
+        },
+        {
+          "alt": "프라임 골프장",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/e2da96fb-2d15-454e-8559-3e0b2aa1f232.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/8f640822-b069-48a1-b284-11cbacbb9e12.bmp"
+        },
+        {
+          "alt": "B.K PRIME C.C_골프장 전경",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/10/04/10000/5b2ce985-ef85-4402-b960-b3999d7a182a.jpg"
+        }
+      ],
+      "meals": "기내숙박",
+      "stops": [
+        {
+          "text": "방콕          ",
+          "title": "방콕"
+        },
+        {
+          "meal": "\n                                  조식 (리조트식)\n                                ",
+          "text": "    \n                                  조식 (리조트식)\n                                      "
+        },
+        {
+          "text": "      오전 라운드 18홀    ",
+          "title": "오전 라운드 18홀"
+        },
+        {
+          "text": " \n    \n        Prime City Golf Club상세보기\n        \n        \n             2/2이전다음\n            골프장 소개PRIME CITY 골프클럽은 방콕 수완나폼 공항에서 동북쪽 나콘나욕주에 위치하여 있으며, 공항에서 약 1시간 내 거리로 접근성이 뛰어나며 2020년 4월부터 새롭게 리모델링 되어 운영되고 있습니다.  \n클럽하우스를 중심으로 전 홀이 호수의 가장자리를 향해 잔잔한 물살처럼 자연스럽게 퍼져있으며 물과 잔디가 조화를 이루고 있어 시원함을 더해줍니다. \n\n※ 특징 \n-  완만한 페어웨이와 빠르고 기복있는 그린과, 아름다운 호수와 연못으로 구성된 천혜의 자연 환경과 골프장 내의 시설이 최상급. \n - 전체 홀이 레이크 코스로 아름답고 자연 친화적인 골프장. \n - 페어웨이가 넓어 호쾌한 샷을 할 수 있는 남성적인 코스. \n - 200만평 대지의 거대한 호수 - 복사열이 적어 타 골프장 대비 2도 정도 시원함 \n -각 홀이 비슷한 홀이 전혀 없으며, 골프클럽 14개를 모두 사용해야하는 골프장이다.\n            \n            홀(HOLE) : 18가는방법 : 방콕에서 40KM - 공항에서 약50분 소요파(PAR) : 72야드(YARD) : 7117\n            \n        \n        \n         \n    \n         "
+        },
+        {
+          "meal": "\n                                  중식 (리조트식)\n                                ",
+          "text": "    \n                                  중식 (리조트식)\n                                      "
+        },
+        {
+          "text": "      추가 라운드 18홀    ",
+          "title": "추가 라운드 18홀"
+        },
+        {
+          "meal": "\n                                  석식 (리조트식)\n                                ",
+          "text": "    \n                                  석식 (리조트식)\n                                      "
+        },
+        {
+          "text": "      차량 기사 미팅 후 공항으로 이동    ",
+          "title": "차량 기사 미팅 후 공항으로 이동"
+        }
+      ],
+      "text": "  방콕              \n                                  조식 (리조트식)\n                                            오전 라운드 18홀     \n    \n        Prime City Golf Club상세보기\n        \n        \n             2/2이전다음\n            골프장 소개PRIME CITY 골프클럽은 방콕 수완나폼 공항에서 동북쪽 나콘나욕주에 위치하여 있으며, 공항에서 약 1시간 내 거리로 접근성이 뛰어나며 2020년 4월부터 새롭게 리모델링 되어 운영되고 있습니다.  \n클럽하우스를 중심으로 전 홀이 호수의 가장자리를 향해 잔잔한 물살처럼 자연스럽게 퍼져있으며 물과 잔디가 조화를 이루고 있어 시원함을 더해줍니다. \n\n※ 특징 \n-  완만한 페어웨이와 빠르고 기복있는 그린과, 아름다운 호수와 연못으로 구성된 천혜의 자연 환경과 골프장 내의 시설이 최상급. \n - 전체 홀이 레이크 코스로 아름답고 자연 친화적인 골프장. \n - 페어웨이가 넓어 호쾌한 샷을 할 수 있는 남성적인 코스. \n - 200만평 대지의 거대한 호수 - 복사열이 적어 타 골프장 대비 2도 정도 시원함 \n -각 홀이 비슷한 홀이 전혀 없으며, 골프클럽 14개를 모두 사용해야하는 골프장이다.\n            \n            홀(HOLE) : 18가는방법 : 방콕에서 40KM - 공항에서 약50분 소요파(PAR) : 72야드(YARD) : 7117\n            \n        \n        \n         \n    \n             \n                                  중식 (리조트식)\n                                            추가 라운드 18홀        \n                                  석식 (리조트식)\n                                            차량 기사 미팅 후 공항으로 이동      호텔 기내숙박 골프 총 1개의\n                                  예정 골프장이 있습니다.\n                                출발 3일전까지 확정되어 일정표에서 확인하실\n                                수 있습니다.\n                                1일전 카카오 알림톡으로도 알려드립니다. 방콕 프라임시티 GC \n                                      Prime City Golf Club상세보기  식사 [조식] 리조트식 [중식] 리조트식 [석식] 리조트식"
+    },
+    {
+      "cards": [],
+      "day": "acc_con4",
+      "golf": [],
+      "hotel": [],
+      "images": [
+        {
+          "alt": "트리니티항공(구)티웨이항공",
+          "src": "https://image.hanatour.com/usr/static/img/airline/TW.png"
+        }
+      ],
+      "meals": "숙박 없음",
+      "stops": [
+        {
+          "text": "방콕          ",
+          "title": "방콕"
+        },
+        {
+          "meal": "\n                                  조식 (기내-불포함(유료제공))\n                                ",
+          "text": "    \n                                  조식 (기내-불포함(유료제공))\n                                      "
+        },
+        {
+          "text": "인천          ",
+          "title": "인천"
+        },
+        {
+          "text": "      ♥ 하나투어를 이용해 주셔서 감사합니다 ♥ 즐거운 라운드와 함께 소중한 추억 만드셨기를 바랍니다    ",
+          "title": "♥ 하나투어를 이용해 주셔서 감사합니다 ♥"
+        }
+      ],
+      "text": "  방콕              \n                                  조식 (기내-불포함(유료제공))\n                                      인천                ♥ 하나투어를 이용해 주셔서 감사합니다 ♥ 즐거운 라운드와 함께 소중한 추억 만드셨기를 바랍니다      트리니티항공(구)티웨이항공 05시간 30분 TW0102 01:30  2026.11.05(목) 방콕 BKK 출발 09:00  2026.11.05(목) 서울 ICN 도착      호텔 숙박 없음  식사 [조식] 기내-불포함(유료제공)  "
+    }
+  ],
+  "heading": "방콕 골프 5일 #골프텔 #36홀*3회 #프라임시티GC #가성비추천 #2인출발 #전일정식사포함 #세탁비무료",
+  "text": "(주)나침반여행사\n1899-7972\n로그인\n회원가입\n고객센터\n하나투어\n통합 검색어 입력폼\n검색\n튀르키예\n일본\n대마도\n장가계\n푸꾸옥\n대만\n후쿠오카\n상하이\n오사카\n스페인\n튀르키예\n일본\n마이메뉴\n예약내역\n찜\n전체메뉴\n해외여행\n항공\n호텔\n항공+호텔\n투어/입장권\n국내여행\n테마여행\n제우스\n여행기획전\n이달의 혜택\n여행 파트너\nH-AI\n최근 본 상품(0)\nTOP\n1/8\n이전\n다음\n상품코드 AAG200261101TWF\n인쇄하기 공유하기\n골프텔\n여행상품 핵심정보\n골프\n방콕 골프 5일 #골프텔 #36홀*3회 #프라임시티GC #가성비추천 #2인출발 #전일정식사포함 #세탁비무료\n#골프#골프텔 #관광\n해시태그\n#골프와함께하는휴식#여유로운골프여행#즐거운골프추억#방콕골프여행#태국골프투어#프라임시티골프#방콕프라임골프텔#PrimeCityGC라운드#태국골프장추천\n 5  1\n3박 5일\nLCC\n쇼핑없음\n단체여행\n선택관광없음\n출발예정\n항공예정\n일정예정\n호텔예정\n가격예정\n\n성인 1인\n\n781,300 원\n5개월 무이자 할부 예상가\n월 156,260원\n카드사별 무이자 혜택 \n여행 주요일정\n항공여정보기 다른 출발일 선택 \n최저가로 떠날 수 있는 날 알아보기\n일정 \n\n3박 5일 \n트리니티항공(구)티웨이항공\n\n출발 : 2026.11.01(일) 19:50 2026.11.02(월) 00:10 TW0101총 06시간 20분 소요\n\n도착 : 2026.11.05(목) 01:30 2026.11.05(목) 09:00 TW0102총 05시간 30분 소요\n\n 여행도시 방콕(3) 예약현황 예약 : 0명 좌석 : 4석 (최소출발 : 성인2명) \n상품가격\n구분\t성인\n\n만 12세 이상\n\n\t아동\n\n만 12세 미만 \n\n\t유아\n\n만 2세 미만 \n\n\n기본상품\t781,300원\n\n유류할증료 211,400원/제세공과금 0원 포함\n\n\t781,300원\n\n유류할증료 211,400원/제세공과금 0원 포함 \n\n\t150,000원\n\n유류할증료 0원/제세공과금 0원 포함 \n\n유류할증료 및 제세공과금은 유가와 환율에 따라 변동될 수 있습니다.\n약관(이용운송, 숙박기관 등에 지급할 요금의 변동)에 따라 상품가격은 변동될 수 있습니다. 자세한 사항은 약관을 참조하시기 바랍니다.\n아동, 유아요금은 성인 2인과 같은 방 사용조건이며, 미충족시 아동추가 요금이 발생합니다.\n1인 객실 사용시 추가요금 발생됩니다.\n\n1인 객실 사용료 : 120,000원\n\n하나투어 마일리지 최대 5,699적립예정\n하나투어클럽 회원, 성인기준\n패키지 상품가 기준\n태국\n입국 규정 확인\n트리니티항공\n항공사 유의사항 확인\n테마소개\t\n골프\n골프텔\n\n골프\n\n\n[하나투어 X 보이스캐디 APL골프]\n핸드폰과 워치에서 골프장 코스/거리 정보를 확인할수 있어요.\n출발 7일전 카톡 알림톡을 통해 APL 3일 무료이용권을 제공합니다.\n\n\n골프텔\n\n골프장 내부에 위치한 숙박시설에서 동일골프장 라운드를 즐기는 상품입니다.\n\n\n핵심\n포인트\n골프\n호텔\n식사\n교통\n보험\n기타\nSAFETY\n&JOY\n상품 핵심포인트\n① 골프에 최적인 일정♥ 오후 출발! 아침 도착! 항공편\n② 한국인에게 오랜 시간 사랑받아온 최적화된 골프텔\n③ 18홀 규모의 골프장(페어웨이 진입 부분 가능)\n④ 전 일정 조/중/석식 포함\n⑤ 세탁비무료포함\n⑤ 한국인 직원 상주 관리\n⑥ 2인 출발 가능(티오프 시간에 따라 조인 가능)\n방콕 프라임시티 골프텔, 왜 특별할까요? ⛳️\n\n👍 방콕 근거리 골프텔\n방콕 수완나폼 공항에서 북동쪽으로 약 1시간 거리에 있는 나콘나욕 지역에 위치한 18홀 골프장입니다. 넓고 평탄한 코스로 초보자에게 적합하며, 골프텔을 함께 운영하는 경우도 많아 장박 골프 여행지로 알려져 있습니다.\n\n👍 가성비 추천\n'방콕 프라임 골프텔'은 합리적인 가격에 무제한 라운딩을 즐길 수 있고, 식사나 시설이 잘 갖춰져 있어 가성비 좋은 골프 여행지로 평가받고 있습니다.\n\n👍 클럽하우스 주변을 둘러썬 호수 전경\n거대한 호수를 끼고 있어 시원한 바람이 불고, 탁 트인 경관을 자랑합니다. 코스 곳곳에 워터 해저드와 벙커가 전략적으로 배치되어 있어 지루하지 않은 플레이를 할 수 있습니다.\n\n\n①코스규모 : 18홀 규모\n②전동카트 : 1인 1카트 또는 2인 1카트\n③캐디운영 : 1인 1캐디 또는 2인 1캐디\n④카트진입 : 카트인 플레이 일부 구간 부분적 허용\n⑤연습시설 : 드라이빙레인지, 연습그린 등\n⑥부대시설 : 클럽하우스, 프로샵, 락커룸, 마사지, 레스토랑 및 BAR\n프라임골프텔 🏨\n①한국인 직원이 상주하여 의사소통에 불편함이 적으며, 세탁 서비스가 포함되어 있어 장박 골프 여행객들에게 편리합니다.\n②1시간 내 방콕시내로 이동하여 관광 가능합니다.\n③호수 전망의 객실이 많아 쾌적한 환경을 제공합니다.\n④식당(한식 제공), 마사지샵, 미니마트, 노래방, 드라이빙 레인지, 퍼팅/어프로치 연습장 등 다양한 시설을 갖추고 있어 골프 외의 휴식과 여가 활동도 가능합니다.\n\n건강한 식단 및 다양한 식단 제공 🍜\n전일정 식사포함으로 한국인 골퍼들에게 최적화된 서비스를 제공합니다.\n체류 인원에 따라 뷔페식or세트메뉴로 진행됩니다.\n조식: ABF+한식, 중/석식: 한식\n항공규정안내\n1.골프 무료 수하물 규정 안내\n　- 기내캐리어 : 10kg이하 1개\n　- 위탁수하물 : [일반 수하물 + 골프백] 합산하여 15kg 이하\n※ 항공사 규정은 변경될 수 있으니 자세한 내용은 해당 항공 홈페이지를 참고하세요\n\n2. 그룹항공권 수속규정 :\n기내 좌석 배정은 항공사의 고유 권한으로 여행사의 귀책사유는 없음을 알려드리며, 고객님이 희망하시는 좌석으로 배정이 안 될 수 있음을 널리 양해 부탁드립니다.\n사전 좌석 배정이 가능한 항공사의 경우, 출발 2~3일 전 전자 항공권(e-티켓)을 받으시고 고객님께서 직접 웹 체크인을 통해 좌석 지정받으시길 권해드립니다.\n※ 공동 운항 편 및 미주노선 등 일부 항공편은 서비스 이용이 제한될 수 있으며, 항공사 규정에 따라 상이합니다.\n★★ 태국 방콕 수완나폼공항 골프백 픽업 관련 ★★\n수완나폼 공항에서 골프백과 같은 대형수화물은 Oversize Baggage Claim (일반적으로 Z2~Z3 클레임)\n에서 별도 픽업해야 되니 참고 부탁드립니다.\n1억원 여행자보험\n해외치료비 최대 보장 한도 [상해/질병]500만원\n[휴대품 도난/파손] 50만원보상\n* 국가/연령에 따라 보장내용이 상이할 수 있습니다.\n* 자세한 내용은 보장내역 자세히보기(클릭) 확인해주시기 바랍니다.\nNO가이드 상품\n①가이드가 없는 상품입니다.\n②골프장내 현지 한국인 매니저 상주하여 친절하게 응대합니다.\n③미/센딩은 동일 항공 기준 다른 고객과 조인 진행 기준이며 한국인 직원은 동행하지 않습니다.\n※공항 미팅샌딩 비용은 불포함으로(불포함 사항 참고) 일정 중 현지 상주 직원에게 지불 요청드립니다.\n\n2인 출발가능\n①골프장은 기본적으로 4인 1조로 플레이가 진행됩니다.\n②2인 ~ 3인이 예약하신 경우 부족한 인원에 대해서는 합류 플레이가 진행 될 수 있습니다.\n③워크인 손님이 합류하시는 경우 언어에 따른 불편함이 발생될 수 있음을 사전에 고지 드립니다.\n※합류 인원이 없이 라운드을 하시려면 부족한 인원수에 대한 그린피를 지불한다면 조인 없이 단독 라운드 가능합니다.\n※공항-골프장 미팅샌딩비용이 불포함된 경우, 2인~3인에 따른 비용이 추가될 수 있습니다.\n⭐하나투어X보이스캐디 APL골프 단독제공⭐\n⚡하나투어X보이스캐디 APL골프 단독 제공⚡\n핸드폰과 워치에서 골프장 코스/거리 정보를 확인할수 있습니다.\n출발 7일전 카톡 알림톡을 통해 APL 3일 무료 이용권을 제공합니다. (1인 2만원 상당)\nPC 바로가기 ☞ (바로가기)\n모바일 바로가기 ☞ (바로가기)\nSAFETY&JOY 하나투어는 여행의 전 과정을 함께 합니다.\n① 여행 중 24시간 긴급 의료 지원 등 H-care\n② 여행 후에도 이어지는 고객 만족 서비스\n(바로가기)\n포함/불포함/선택경비 정보\n포함내역\n[교통]\n\n왕복항공권\n\n[제세금]\n\n현지공항세, 관광진흥개발기금, 국내공항세, 전쟁보험료, 유류할증료\n\n[숙박]\n\n숙박비 : 2인 1실\n\n\n[식사]\n\n식사비 : 조/중/석식 리조트식\n\n\n[테마]\n\n그린피 : 일정표 세부 내역 참고\n\n\n[여행자보험]\n\n1억원 여행자보험\n\n불포함내역\n[교통]\n\n공항 미팅 & 샌딩 : USD 50 (4인 이상 출발 기준 1인 금액\n3인 출발시 1인 $60 / 2인 출발시 1인 $70\n** 공항 미팅/센딩은 필수 진행 조건이며, 인원수에 따라 요금 차등이 있으니 참고 부탁드립니다.)\n\n[테마]\n\n캐디피 : THB 350 (1인/18홀 - 1인 1캐디 ), 전동카 : THB 500 (1인/18홀 - 2인 1카트 (1인1카트 이용시 1인 18홀 700바트)), 캐디팁 : THB 300 (1인/18홀 - 1인 1캐디 )\n\n개인 여행경비(물값, 자유시간시 개인비용 등)\n\n각종 매너팁(테이블팁, 객실팁, 포터비, 마사지팁 등)\n\n매너팁은 소비자의 자율적 선택으로 지불여부에 따른 불이익은 없습니다. \n\n선택경비\n[교통]\n\n항공리턴변경(불가), 클래스 차액 : 가격문의 (그룹항공요금 기준 상품가로서, 일반 좌석등급이 높아지면 상품가 상승됩니다. 좌석상황에 따라 변동되어 추가비용이 발생될 수 있으니 예약시 반드시 상담자와 확인부탁드립니다.)\n\n[숙박]\n\n객실 1인 사용료 : 120,000원\n\n[테마]\n\n렌탈비 : 가격문의 (1인 18홀 클럽렌탈 기준/사전 요청 조건(상품 담당자와 금액 확인 필요))\n\n선택관광/기항지관광/현지투어에 관한 상세 내역은 패키지 상품상세를 참고바랍니다. \n\n상품약관\t\n약관상세보기\n\n본 상품의 예약과 취소는 국외여행 특별약관이 적용됨을 알려드립니다.\n특별약관 적용 시 표준약관보다 높은 취소수수료가 부과될 수 있으며 이 경우 동의절차를 구합니다.\n\n계약금 규정\n예약일 기준 3일 이내에 1인당 300,000원을 납입하셔야합니다.\n취소료 규정\n이 상품은 항공(또는 선박)좌석 또는 호텔객실에 대한 비용을 선납해 놓은 상품으로서, 취소시 하단의 취소료가 적용됨을 양해해 주시기 바랍니다.\n특별규정\n※ 항공권 발권 및 골프장/호텔 확약 이후에는 기간에 따른 규정 외 취소패널티가 부가됩니다.\n더보기\n예약시 유의사항\n- 그린피 포함 상품으로 라운드 미진행 시 별도 그린피 환불은 없습니다.\n- 4인 라운드가 기본이며 4인 미만시 현지에서 라운드가 조인 될 수 있습니다.\n- 현지사정(기상상황, 토너먼트 개최 등)에 따라 라운드의 제한 또는 골프장 변경 될 수 있습니다.\n- 기본 2인1실 기준으로 홀 수 인원 시 싱글룸 사용하셔야 합니다.\n- 클럽 렌탈 시 담당자에게 출발전 미리 요청바랍니다.\n- 예약 후 항공좌석 및 호텔 가능여부 담당자에게 재확인 부탁드립니다.\n- 예약시 여권상에 기재된 정확한 영문이름과 주민번호가 필요합니다.\n- 해당 여행 지역의 기준으로 골프장 등급을 분류 하므로 한국 기준과 차이가 있을 수 있습니다.\n- 최종 계약시 반드시 예약하신 여행사에서 해외여행계약서를 작성해 주십시요.\n\n📢 선발권안내\n\n- 항공사 좌석 상황에 따라 빠른 발권 요청이 진행될 수 있으며, 발권이 진행되지 않은 경우 좌석 불가 또는 운임이 인상될 수 있습니다.\n- 발권 이후 영문 성명 변경 및 취소 시 변경 수수료 또는 항공 취소 수수료가 발생되니 확약 시 신중한 결정을 부탁드립니다.\n\n📢 예약 안내\n\n- 골프 상품의 특성상 호텔 + 골프장의 상황이 실시간으로 바뀔 수 있어 예약 후 행사 가능여부 확인을 꼭 부탁드립니다.\n\n■ 전자담배 소지안내\n본 일정은 전자담배의 제조/구매/소지/흡연이 금지된 국가를 방문하며,\n전자담배 소지가 적발될 경우 압수는 물론 벌금까지 낼 수 있으므로 소지하지 않으시도록 유의 부탁드립니다.\n가이드/인솔자 및 미팅정보\n가이드\n현지 도착시 차량기사와 미팅이 이루어집니다.\n인솔자\n인솔자가 동행하지 않습니다.\n미팅정보\t\n미팅장소보기\n일시 :\n11월 01일 오후 17:20\n장소 :\n인천공항 제1여객터미널 3층 1번 출입문(A카운터옆) 하나투어 21~24 테이블\n터미널과 미팅장소를 꼭 확인하세요!\n[항공 좌석배정]기내 좌석 배정은 항공사의 고유 권한으로 일행과 좌석이 분리될 수 있습니다.\n항공사 탑승수속(선박 승선수속) 마감시간까지 수속을 마치지 못한 경우 출국이 거절될 수 있으며 이 경우 당사의 책임범위가 아님을 알려드립니다. 안전한 출국을 위해 하나투어 미팅시간까지는 반드시 공항(터미널)에 도착해 주시기 바랍니다\n여행일정\n호텔 & 관광지\n참고사항\n해외 안전정보\n여행후기\n1일차\n2일차\n3일차\n4일차\n5일차\n일정 전체펼침\n\n여행일정 변경에 관한 사전 동의안내\n\n여행일정은 계약체결 시 예상하지 못한 부득이한 사정 등이 발생하는 경우 여행자의 사전동의를 거쳐 변경될 수 있음을 양지하시기 바랍니다. \n\n1일차\n11/01(일)\n인천, 방콕\n\n태국 입국 절차\n\n2일차\n11/02(월)\n방콕\n\n상세내용을 확인해보세요\n\n3일차\n11/03(화)\n방콕\n\n상세내용을 확인해보세요\n\n4일차\n11/04(수)\n방콕\n\n상세내용을 확인해보세요\n\n5일차\n11/05(목)\n방콕, 인천\n\n상세내용을 확인해보세요\n\n쇼핑정보\n\n해당상품은 쇼핑센터에 방문하지 않습니다.\n\n해외 여행시 US$800 초과 구입한 물품은 입국시 관세가 부과될 수 있습니다. \n\n함께 많이 본 상품\n[가성비甲] 파타야 골프 5일 #다색골프 #18홀*3회 #트레져힐CC외 #트로피카나호텔 #레잇체크아웃 #발마사지 ...\n1,284,700원~\n[부산출발] 방콕 골프 5일 #골프텔 #36홀*3회 #유니랜드CC #27홀 규모 #2인출발\n1,199,000원~\n[부산출발] 파타야 휴양 골프 5일 #다색골프 #18홀*3회 #시암/람차방/치찬CC #윈덤 좀티엔 파타야 또는 동급\n1,769,000원~\n[부산출발] 파타야 골프 5일 #골프텔 #18홀*3회 #세인트앤드류스CC #2인출발 #54홀규모 골프장\n1,039,000원~\n[오전출발/수하물20kg] 방콕 골프 5일 #다색골프 #18홀*3회 #파인허스트CC 외10곳 #스쿰빗시내 4성호텔 #2인 ...\n1,119,900원~\n[가성비甲] 파타야 골프 5일 #다색골프 #18홀*3회 #트레져힐CC외 #트로피카나호텔 #레잇체크아웃 #발마사지 ...\n1,284,700원~\n[부산출발] 방콕 골프 5일 #골프텔 #36홀*3회 #유니랜드CC #27홀 규모 #2인출발\n1,199,000원~\n[부산출발] 파타야 휴양 골프 5일 #다색골프 #18홀*3회 #시암/람차방/치찬CC #윈덤 좀티엔 파타야 또는 동급\n1,769,000원~\n[부산출발] 파타야 골프 5일 #골프텔 #18홀*3회 #세인트앤드류스CC #2인출발 #54홀규모 골프장\n1,039,000원~\n[오전출발/수하물20kg] 방콕 골프 5일 #다색골프 #18홀*3회 #파인허스트CC 외10곳 #스쿰빗시내 4성호텔 #2인 ...\n1,119,900원~\n[가성비甲] 파타야 골프 5일 #다색골프 #18홀*3회 #트레져힐CC외 #트로피카나호텔 #레잇체크아웃 #발마사지 ...\n1,284,700원~\n[부산출발] 방콕 골프 5일 #골프텔 #36홀*3회 #유니랜드CC #27홀 규모 #2인출발\n1,199,000원~\n[부산출발] 파타야 휴양 골프 5일 #다색골프 #18홀*3회 #시암/람차방/치찬CC #윈덤 좀티엔 파타야 또는 동급\n1,769,000원~\n이전\n다음\n_\n방문도시 정보 및 기타정보\n도시정보\t\n입국카드 작성법\t\n도시\t현재시간\t오늘의 환율\n\n(2026.09.30 기준) \n\n\t콘센트\n방콕(BKK)\t10:512026.09.30\n\n한국보다 2시간 느림\n\n\t\n\n1바트(THB) = 42.35원\n\n\t\n\n전압 : 220V\n\n주파수 : 50HZ\n\n※ 오늘의 환율은 실시간 '현찰 살 때' 기준으로, 은행에서 거래되지 않는 통화는 0원으로 표기될 수 있습니다. \n\n여행시 유의사항\n[여행시 유의사항]\n\n- 태국입국시 담배는 1인 1보루, 술은 1인 1병(1ℓ) 규정! 위반시 벌금부과\n- 전자담배 반입이 불가. 적발시 전자담배 몰수 및 벌금이 부과됩니다\n- 개인적인 세면도구(치약,칫솔 등)는 고객님께서 따로 준비하셔야 합니다.\n- 현지사정(기상상황, 토너먼트 개최 등)에 따라 라운드의 제한 또는 골프장 변경 될 수 있습니다.\n- 해외에서도 한국 골퍼로서의 기본 매너를 잘 지켜주시기 바랍니다.\n\n인원선택\n\n성인\n781,300원\n\n1\n\n아동 \n781,300원\n\n0\n\n유아 \n150,000원\n\n0\n\n총 금액\n\n781,300원\n\n유류할증료&제세공과금 포함 \n\n하나투어 마일리지 최대 5,699적립예정\n상품가격 안내\n예약하기\t\n찜\n혜택\n추가 적립/할인\n이달의 카드할인 혜택\n상품별 차별점만 빠른 비교\nfacebook\ninstagram\nblog\nkakaoplus\nyoutube\nkakaostory\n회사소개\n이용약관\n개인정보처리방침\n여행약관\n해외여행자보험\n마케팅제휴\n공식인증예약센터 검색\n(주)하나투어      대표집행임원 : 조좌진      주소 : (03161) 서울특별시 종로구 인사동 5길 41\n사업자등록번호 : 102-81-39440      사업자정보확인      통신판매업신고번호 : 종로01-1806호      관광사업자 등록번호 : 제1993-000006호\n개인정보 보호책임자 : 전준형      영업보증보험 : 22억 1천만원 가입    팩스: 02-734-0392    이메일 : 15771233@hanatour.com      ☎고객센터 1577-1233\n\n※ 부득이한 사정에 의해 여행일정이 변경되는 경우 사전 동의를 받습니다.\n※ 하나투어는 개별 항공권 단독 판매에 대하여 판매중개자로서 통신판매의 당사자가 아니며 해당상품의 거래정보 및 거래등에 대해 책임을 지지 않습니다.\nCOPYRIGHTⓒ HANATOUR SERVICE INC. ALL RIGHTS RESERVED\n하나은행 구매안전 서비스\n고객님은 안전거래를 위해 현금으로 결제시\n(주)하나투어에서 가입한 하나은행으로\n구매안전서비스를 이용하실 수 있습니다.\n서비스 가입사실 확인\n브랜드스탁선정\n22년연속(2005~2026)\n브랜드스타 1위\n산업정책연구원 주관\n제9회 국가서비스대상 (2026)\n하이엔드 여행 부문 대상 (제우스월드)\n2026 뉴욕페스티벌\n대한민국 국가브랜드 대상\n업계 최초 여행사 부문 대상\n2025 대한민국 SNS 대상\n업계 최초 관광 부문 대상\n소비자중심경영(CCM)\n7회 연속 인증(2012~2024) 및\n2025년 ‘명예의 전당’ 포상\nKMAC 선정\n14년 연속(2009~2025)\n한국산업의 고객만족도 여행사부문 1위\n한국표준협회 선정\n4년 연속(2019~2025)\n한국서비스품질지수 여행사 부문 1위\n한국능률협회선정\n22년연속(2005~2026)\n브랜드파워 1위\n브랜드스탁선정\n22년연속(2005~2026)\n브랜드스타 1위\n산업정책연구원 주관\n제9회 국가서비스대상 (2026)\n하이엔드 여행 부문 대상 (제우스월드)\n2026 뉴욕페스티벌\n대한민국 국가브랜드 대상\n업계 최초 여행사 부문 대상\n2025 대한민국 SNS 대상\n업계 최초 관광 부문 대상\n소비자중심경영(CCM)\n7회 연속 인증(2012~2024) 및\n2025년 ‘명예의 전당’ 포상\nKMAC 선정\n14년 연속(2009~2025)\n한국산업의 고객만족도 여행사부문 1위\n한국표준협회 선정\n4년 연속(2019~2025)\n한국서비스품질지수 여행사 부문 1위\n한국능률협회선정\n22년연속(2005~2026)\n브랜드파워 1위\n이전보기\n다음보기\n 대한민국브랜드대상\n 국외여행상품 정보제공 표준안 참여여행사\n 개인정보보호우수사이트\n CCM\n ISMS 인증 취득\n 현금영수증 의무발행 가맹점",
+  "url": "https://cp.hanatour.com/trp/pkg/CHPC0PKG0200M200?pkgCd=AAG200261101TWF&prePage=major-products",
+  "slug": "hana-7b5a6575eb7a",
+  "checkedAt": "2026-09-30"
+}

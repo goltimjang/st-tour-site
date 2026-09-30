@@ -18,7 +18,7 @@ type Props = {
   prefillRegion?: string;
   /** 국가 페이지에서 진입 시 국가 미리 선택 */
   prefillCountry?: string;
-  inquiryProduct?: { id: string; title: string; country: string; area: string; duration?: string };
+  inquiryProduct?: { id: string; title: string; country: string; area: string; duration?: string; notice?: string };
   product?: { id: string; title: string; country: string; start: string; end: string; duration: string; course: string };
 };
 
@@ -182,7 +182,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
   }, [isDom, regions, country]);
 
   const whenLabel =
-    inquiryProduct ? (dateStart && dateStart >= new Date().toLocaleDateString("sv-SE") ? `${dateStart} 출발 · ${duration || "기간 상담 후 결정"}` : "") : dateMode === "date"
+    inquiryProduct ? (dateMode === "flexible" ? `${flexTime || "미정 (상담 후 결정)"} · ${duration || "기간 상담 후 결정"}` : dateStart && dateStart >= new Date().toLocaleDateString("sv-SE") ? `${dateStart} 출발 · ${duration || "기간 상담 후 결정"}` : "") : dateMode === "date"
       ? dateStart && dateEnd && dateEnd >= dateStart
         ? `${dateStart.replace(/-/g, ". ")} 출발 ~ ${dateEnd.replace(/-/g, ". ")} 도착 (${stay})`
         : ""
@@ -217,7 +217,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
     const payload = {
       접수번호: no,
       상품: product?.title ?? inquiryProduct?.title ?? "맞춤 골프투어",
-      ...(inquiryProduct ? { 상품코드: inquiryProduct.id } : {}),
+      ...(inquiryProduct ? { 상품코드: inquiryProduct.id, 상품구성확인사항: inquiryProduct.notice || "출발일별 현지 구성 확인" } : {}),
       type: isDom ? "국내 골프투어" : "해외 골프투어",
       지역: destinationLabel,
       희망시기: whenLabel,
@@ -328,7 +328,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
       {step === 1 && (
         <div className="space-y-7">
           {product ? <div className="rounded-xl bg-paper p-4"><b>{product.title}</b><p>{product.start} ~ {product.end} · {product.duration}</p><p className="text-sm text-mute">베트남 닌빈 로얄CC · 항공 포함 · 총 54홀</p><Link href="/overseas/vietnam/?flexible=1#quote" className="inline-block py-2 underline text-royaldark">다른 날짜로 문의하기</Link></div> : <>
-          {inquiryProduct ? <div className="rounded-xl bg-paper p-4"><p className="text-sm text-royaldark font-bold">선택한 상품</p><p className="text-sm">{inquiryProduct.country} · {inquiryProduct.area} · {inquiryProduct.duration}</p></div> : <>
+          {inquiryProduct ? <div className="rounded-xl bg-paper p-4"><p className="text-sm text-royaldark font-bold">선택한 상품</p><p className="font-semibold text-sm my-1">{inquiryProduct.title}</p><p className="text-sm">{inquiryProduct.country} · {inquiryProduct.area} · {inquiryProduct.duration}</p></div> : <>
           <Field label={isDom ? "희망 지역 (복수 선택 가능)" : "희망 국가"} required>
             {isDom ? (
               <div className="flex flex-wrap gap-2.5">
@@ -366,7 +366,15 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
           {!isDom && <DestinationRegionChoices country={country} value={area} onChange={setArea} />}
           </>}
 
-          {inquiryProduct ? <Field label="희망 출발일" htmlFor="product-departure" required><input id="product-departure" type="date" className="field min-w-0" min={new Date().toLocaleDateString("sv-SE")} value={dateStart} onChange={e => setDateStart(e.target.value)} /><p className="text-sm text-mute mt-2">{inquiryProduct.duration} · 항공권 별도 · 출발 가능 여부는 상담 후 확정</p></Field> : <>
+          {inquiryProduct ? <div>
+            <div className="grid grid-cols-2 gap-2 mb-3">
+              <button type="button" className="choice !min-w-0 !px-2" data-on={dateMode === "date"} aria-pressed={dateMode === "date"} onClick={() => setDateMode("date")}>출발일 선택</button>
+              <button type="button" className="choice !min-w-0 !px-2" data-on={dateMode === "flexible"} aria-pressed={dateMode === "flexible"} onClick={() => {setDateMode("flexible"); if (!flexTime) setFlexTime("미정 (상담 후 결정)");}}>날짜 미정</button>
+            </div>
+            {dateMode === "date" ? <Field label="희망 출발일" htmlFor="product-departure" required><input id="product-departure" type="date" className="field min-w-0" min={new Date().toLocaleDateString("sv-SE")} value={dateStart} onChange={e => setDateStart(e.target.value)} /></Field> : <Field label="희망 시기" htmlFor="product-flexible"><select id="product-flexible" className="field" value={flexTime} onChange={e=>setFlexTime(e.target.value)}>{["미정 (상담 후 결정)","이번 달 안에","1~2개월 안에","3개월 이후"].map(t=><option key={t}>{t}</option>)}</select></Field>}
+            <p className="text-sm text-mute mt-2">항공권 별도 · 출발 가능 여부는 상담 후 확정</p>
+            {inquiryProduct.notice && <p className="mt-3 text-sm leading-relaxed rounded-lg bg-amber-50 p-3">{inquiryProduct.notice}</p>}
+          </div> : <>
           <Field label="희망 일정 (출발일 → 도착일)" required>
             <div className="flex flex-wrap gap-2.5 mb-3">
               <button type="button" className="choice" data-on={dateMode === "date"} aria-pressed={dateMode === "date"} onClick={() => setDateMode("date")}>날짜를 정했어요</button>
@@ -477,6 +485,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
           <div className="rounded-xl border border-line bg-paper p-4" data-testid="quote-summary">
             <p className="font-bold">{product?.title ?? inquiryProduct?.title ?? "맞춤 골프투어"}</p>
             <dl className="mt-2 space-y-1 text-[15px]"><div><dt className="inline text-mute">지역: </dt><dd className="inline">{destinationLabel}</dd></div><div><dt className="inline text-mute">일정: </dt><dd className="inline">{whenLabel}</dd></div><div><dt className="inline text-mute">인원: </dt><dd className="inline">{people}명</dd></div>{inquiryProduct && <div><dt className="inline text-mute">견적 기준: </dt><dd className="inline">항공 불포함 · 현지 일정</dd></div>}{course && <div><dt className="inline text-mute">골프장: </dt><dd className="inline">{course}</dd></div>}</dl>
+            {inquiryProduct?.notice && <p className="text-sm mt-3 text-mute">{inquiryProduct.notice}</p>}
             <button type="button" className="mt-2 py-2 underline text-royaldark font-semibold" onClick={() => goStep(1)}>여행 조건 수정</button>
           </div>
           <Field label="성함" htmlFor="quote-name" required>

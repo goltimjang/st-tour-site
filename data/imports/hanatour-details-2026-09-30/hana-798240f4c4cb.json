@@ -1,0 +1,667 @@
+{
+  "costs": [
+    {
+      "items": [
+        "왕복항공권, 전용 차량비",
+        "국내공항세, 현지공항세, 관광진흥개발기금, 전쟁보험료, 유류할증료",
+        "숙박비 : 2인 1실\n",
+        "식사비 : 조/중/석식\n",
+        "그린피 : 무제한\n",
+        "1억원 여행자보험"
+      ],
+      "label": "포함내역"
+    },
+    {
+      "items": [
+        "공항 미팅 & 샌딩 : USD 40",
+        "기타 : USD 2 (청소비용(2일1회진행))",
+        "개인 여행경비(물값, 자유시간시 개인비용 등)",
+        "각종 매너팁(테이블팁, 객실팁, 포터비, 마사지팁 등)",
+        "매너팁은 소비자의 자율적 선택으로 지불여부에 따른 불이익은 없습니다. "
+      ],
+      "label": "불포함내역"
+    },
+    {
+      "items": [
+        "항공리턴변경(불가), 클래스 차액 : 가격문의 (그룹항공요금 기준 상품가로서, 일반 좌석등급이 높아지면 상품가 상승됩니다. 좌석상황에 따라 변동되어 추가비용이 발생될 수 있으니 예약시 반드시 상담자와 확인부탁드립니다.)",
+        "객실 1인 사용료 : 120,000원",
+        "현지합류(불가)",
+        "선택관광/기항지관광/현지투어에 관한 상세 내역은 패키지 상품상세를 참고바랍니다. "
+      ],
+      "label": "선택경비"
+    }
+  ],
+  "days": [
+    {
+      "cards": [
+        {
+          "images": [],
+          "text": "\n        치앙마이 입국 절차상세보기\n        \n\n        \n             [태국 디지털 입국 카드(TDAC) 작성 안내]\n\n태국 입국절차 변경(디지털 입국 카드) 안내 (25.5.1부터)\n태국에 입국하는 모든 외국인 여행객은 디지털 입국 카드를 필수로 작성해야 합니다. (미 작성 시 태국 입국 불가 )\n\n■ 작성 및 제출 방법\n태국 디지털 입국카드 등록 링크 : http://tdac.immigration.go.th \n작성방법 : https://drive.google.com/file/d/1Yw3aBUwElc0qPRPRmI3eLRC85YAxmBnQ/view?usp=sharing\n\n1. TDAC 홈페이지 접속 (필요 시 우측 상단 한국어 언어 변경)\n2. 홈페이지 안내에 따라 개인정보,여행 정보 등 입력\n3. 입력 사항 확인 후 제출\n4. 이메일로 받은 파일(QR코드)  확인 및 다운로드\n5. 태국 입국심사관에게 여권과 함께 파일(QR코드) 제시\n\n■ 작성 시점\n태국에 입국하는 날을 포함하여 입국 전 3일 이내에 작성 및 제출되어야 합니다.\n예시: 5월 4일 태국 입국 시 → 5월 2일 ~ 5월 4일 사이에 작성하여 제출\n\n■ 주의사항\n- 입국심사 시 인터넷 환경이 좋지 않을 수 있으므로 수신된 파일(QR코드)을 별도로 소지(출력 또는 캡처 등)하시기 바랍니다.\n- 입국신고는 비자와는 별개의 제도이므로 비자 소지 여부와 상관없이 모두 적용됩니다.\n- TDAC 작성 시 별도 비용은 없으며, TDAC를 제출한 이후에 여행 일정이 연기된 경우 도착 일정에 맞춰 다시 작성하여야 합니다.\n\n※ 출입국 절차 및 내용은 태국 정부 및 국내 지침에 따라 변경될 수 있는 점 참고 부탁드립니다. \n            \n            \n            \n        \n        \n         \n   \n   \n\n    ",
+          "title": "치앙마이 입국 절차"
+        },
+        {
+          "images": [],
+          "text": "\n        태국 입국시 유의사항상세보기\n        태국입국시 담배는 1인 1보루, 술은 1인 1병(1ℓ), 전자담배 금지 규정! 위반시 벌금부과! \n\n        \n            태국은 세관 규정이 엄격하며 위반 적발 시 물품 압수 및 큰 금액의 벌금이 부과됩니다. 세관을 벗어난 공간에서도 사복 공항 직원이 적발하는 경우가 있으므로, 차량에 탑승하여 공항을 완전히 벗어날 때 까지 이 규정을 준수하셔야 합니다.  또한 타인의 짐을 대신 맡아 들고 있는 경우더라도 예외 없이 위반으로 적발되므로 주의하시기 바랍니다.\n            \n            \n            \n        \n        \n         \n   \n   \n\n    ",
+          "title": "태국 입국시 유의사항"
+        },
+        {
+          "images": [
+            {
+              "alt": "jacki park golf resort",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/31/270000/1453e2bc-6ef7-4c89-9c98-f6e6ed430fb3.jpg"
+            },
+            {
+              "alt": "jacki park golf resort",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/31/270000/2376a64f-e3f6-44e2-b447-69c487a82081.jpg"
+            },
+            {
+              "alt": "jacki park golf resort",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/31/270000/8838f0c9-8cec-427f-8637-98bada228b9b.jpg"
+            },
+            {
+              "alt": "jacki park golf resort",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/31/270000/e5e14d0d-0ed1-4150-9d82-b57d71ff3eb6.jpg"
+            },
+            {
+              "alt": "jacki park golf resort",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/31/270000/89c86a88-17e6-4851-9a68-c8fb5d1026cc.jpg"
+            },
+            {
+              "alt": "jacki park golf resort",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/31/270000/1453e2bc-6ef7-4c89-9c98-f6e6ed430fb3.jpg"
+            },
+            {
+              "alt": "jacki park golf resort",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/31/270000/2376a64f-e3f6-44e2-b447-69c487a82081.jpg"
+            },
+            {
+              "alt": "jacki park golf resort",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/31/270000/8838f0c9-8cec-427f-8637-98bada228b9b.jpg"
+            },
+            {
+              "alt": "jacki park golf resort",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/31/270000/e5e14d0d-0ed1-4150-9d82-b57d71ff3eb6.jpg"
+            },
+            {
+              "alt": "jacki park golf resort",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/31/270000/89c86a88-17e6-4851-9a68-c8fb5d1026cc.jpg"
+            }
+          ],
+          "text": "\n        Jacki Park Golf & Resort\n        젝키 파크골프 리조트\n        \n             2/2이전다음\n            \n            Jacki park golf resort태국 3대 명산 중 하나인 도이루앙산(해발 2,225m)자락에 위치하여 숲, 티크나무, 호수 등 풍부한 자연을 배경으로맑은 공기를 마시며, 36홀 다양한 구성으로 라운딩을 즐기면서 다양한 형태의 테마별 숙소 카라반, 오두막, 가족동 또는 외부에 위치한 콘도 등 의숙소에서 랜덤으로  배정되어 숙박합니다.\n\n주소 :  9WFV+QC9, Chiang Dao, Chiang Dao District, Chiang Mai, Thailand \n연락처:  063-548-0043 \n            \n            \n        \n        \n        \n    ",
+          "title": "Jacki Park Golf & Resort"
+        }
+      ],
+      "day": "acc_con0",
+      "golf": [],
+      "hotel": [
+        "젝키 파크골프 리조트"
+      ],
+      "images": [
+        {
+          "alt": "이스타항공",
+          "src": "https://image.hanatour.com/usr/static/img/airline/ZE.png"
+        },
+        {
+          "alt": "jacki park golf resort",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/31/270000/1453e2bc-6ef7-4c89-9c98-f6e6ed430fb3.jpg"
+        },
+        {
+          "alt": "jacki park golf resort",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/31/270000/2376a64f-e3f6-44e2-b447-69c487a82081.jpg"
+        },
+        {
+          "alt": "jacki park golf resort",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/31/270000/8838f0c9-8cec-427f-8637-98bada228b9b.jpg"
+        },
+        {
+          "alt": "jacki park golf resort",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/31/270000/e5e14d0d-0ed1-4150-9d82-b57d71ff3eb6.jpg"
+        },
+        {
+          "alt": "jacki park golf resort",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/31/270000/89c86a88-17e6-4851-9a68-c8fb5d1026cc.jpg"
+        },
+        {
+          "alt": "jacki park golf resort",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/31/270000/1453e2bc-6ef7-4c89-9c98-f6e6ed430fb3.jpg"
+        },
+        {
+          "alt": "jacki park golf resort",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/31/270000/2376a64f-e3f6-44e2-b447-69c487a82081.jpg"
+        },
+        {
+          "alt": "jacki park golf resort",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/31/270000/8838f0c9-8cec-427f-8637-98bada228b9b.jpg"
+        },
+        {
+          "alt": "jacki park golf resort",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/31/270000/e5e14d0d-0ed1-4150-9d82-b57d71ff3eb6.jpg"
+        },
+        {
+          "alt": "jacki park golf resort",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/31/270000/89c86a88-17e6-4851-9a68-c8fb5d1026cc.jpg"
+        }
+      ],
+      "stops": [
+        {
+          "text": "인천          ",
+          "title": "인천"
+        },
+        {
+          "text": "치앙마이          ",
+          "title": "치앙마이"
+        },
+        {
+          "text": " \n    \n        치앙마이 입국 절차상세보기\n        \n\n        \n             [태국 디지털 입국 카드(TDAC) 작성 안내]\n\n태국 입국절차 변경(디지털 입국 카드) 안내 (25.5.1부터)\n태국에 입국하는 모든 외국인 여행객은 디지털 입국 카드를 필수로 작성해야 합니다. (미 작성 시 태국 입국 불가 )\n\n■ 작성 및 제출 방법\n태국 디지털 입국카드 등록 링크 : http://tdac.immigration.go.th \n작성방법 : https://drive.google.com/file/d/1Yw3aBUwElc0qPRPRmI3eLRC85YAxmBnQ/view?usp=sharing\n\n1. TDAC 홈페이지 접속 (필요 시 우측 상단 한국어 언어 변경)\n2. 홈페이지 안내에 따라 개인정보,여행 정보 등 입력\n3. 입력 사항 확인 후 제출\n4. 이메일로 받은 파일(QR코드)  확인 및 다운로드\n5. 태국 입국심사관에게 여권과 함께 파일(QR코드) 제시\n\n■ 작성 시점\n태국에 입국하는 날을 포함하여 입국 전 3일 이내에 작성 및 제출되어야 합니다.\n예시: 5월 4일 태국 입국 시 → 5월 2일 ~ 5월 4일 사이에 작성하여 제출\n\n■ 주의사항\n- 입국심사 시 인터넷 환경이 좋지 않을 수 있으므로 수신된 파일(QR코드)을 별도로 소지(출력 또는 캡처 등)하시기 바랍니다.\n- 입국신고는 비자와는 별개의 제도이므로 비자 소지 여부와 상관없이 모두 적용됩니다.\n- TDAC 작성 시 별도 비용은 없으며, TDAC를 제출한 이후에 여행 일정이 연기된 경우 도착 일정에 맞춰 다시 작성하여야 합니다.\n\n※ 출입국 절차 및 내용은 태국 정부 및 국내 지침에 따라 변경될 수 있는 점 참고 부탁드립니다. \n            \n            \n            \n        \n        \n         \n   \n   \n\n    \n         "
+        },
+        {
+          "text": " \n    \n        태국 입국시 유의사항상세보기\n        태국입국시 담배는 1인 1보루, 술은 1인 1병(1ℓ), 전자담배 금지 규정! 위반시 벌금부과! \n\n        \n            태국은 세관 규정이 엄격하며 위반 적발 시 물품 압수 및 큰 금액의 벌금이 부과됩니다. 세관을 벗어난 공간에서도 사복 공항 직원이 적발하는 경우가 있으므로, 차량에 탑승하여 공항을 완전히 벗어날 때 까지 이 규정을 준수하셔야 합니다.  또한 타인의 짐을 대신 맡아 들고 있는 경우더라도 예외 없이 위반으로 적발되므로 주의하시기 바랍니다.\n            \n            \n            \n        \n        \n         \n   \n   \n\n    \n         "
+        },
+        {
+          "text": "      치앙마이 국제공항 도착 후, 입국 수속    ",
+          "title": "치앙마이 국제공항 도착 후, 입국 수속"
+        },
+        {
+          "text": "      입국수속 후 미팅보드를 들고있는 현지인 직원과 미팅 - 현지인 직원과 미팅 하여 차량 탑승 후 리조트 이동합니다.※ 미팅보드: '제키 파크골프 - 손님이름'    ",
+          "title": "입국수속 후 미팅보드를 들고있는 현지인 직원과 미팅"
+        },
+        {
+          "text": "      리조트로 이동 - 약 60분 소요    ",
+          "title": "리조트로 이동"
+        },
+        {
+          "text": "치앙다오          ",
+          "title": "치앙다오"
+        },
+        {
+          "meal": "리조트 투숙 및 휴식",
+          "text": "      리조트 투숙 및 휴식    "
+        },
+        {
+          "text": " \n    \n        Jacki Park Golf & Resort\n        젝키 파크골프 리조트\n        \n             2/2이전다음\n            \n            Jacki park golf resort태국 3대 명산 중 하나인 도이루앙산(해발 2,225m)자락에 위치하여 숲, 티크나무, 호수 등 풍부한 자연을 배경으로맑은 공기를 마시며, 36홀 다양한 구성으로 라운딩을 즐기면서 다양한 형태의 테마별 숙소 카라반, 오두막, 가족동 또는 외부에 위치한 콘도 등 의숙소에서 랜덤으로  배정되어 숙박합니다.\n\n주소 :  9WFV+QC9, Chiang Dao, Chiang Dao District, Chiang Mai, Thailand \n연락처:  063-548-0043 \n            \n            \n        \n        \n        \n    \n         "
+        }
+      ],
+      "text": "  이스타항공 05시간 55분 ZE0517 17:25  2026.11.01(일) 서울 ICN 출발 21:20  2026.11.01(일) 치앙마이 CNX 도착      인천          치앙마이           \n    \n        치앙마이 입국 절차상세보기\n        \n\n        \n             [태국 디지털 입국 카드(TDAC) 작성 안내]\n\n태국 입국절차 변경(디지털 입국 카드) 안내 (25.5.1부터)\n태국에 입국하는 모든 외국인 여행객은 디지털 입국 카드를 필수로 작성해야 합니다. (미 작성 시 태국 입국 불가 )\n\n■ 작성 및 제출 방법\n태국 디지털 입국카드 등록 링크 : http://tdac.immigration.go.th \n작성방법 : https://drive.google.com/file/d/1Yw3aBUwElc0qPRPRmI3eLRC85YAxmBnQ/view?usp=sharing\n\n1. TDAC 홈페이지 접속 (필요 시 우측 상단 한국어 언어 변경)\n2. 홈페이지 안내에 따라 개인정보,여행 정보 등 입력\n3. 입력 사항 확인 후 제출\n4. 이메일로 받은 파일(QR코드)  확인 및 다운로드\n5. 태국 입국심사관에게 여권과 함께 파일(QR코드) 제시\n\n■ 작성 시점\n태국에 입국하는 날을 포함하여 입국 전 3일 이내에 작성 및 제출되어야 합니다.\n예시: 5월 4일 태국 입국 시 → 5월 2일 ~ 5월 4일 사이에 작성하여 제출\n\n■ 주의사항\n- 입국심사 시 인터넷 환경이 좋지 않을 수 있으므로 수신된 파일(QR코드)을 별도로 소지(출력 또는 캡처 등)하시기 바랍니다.\n- 입국신고는 비자와는 별개의 제도이므로 비자 소지 여부와 상관없이 모두 적용됩니다.\n- TDAC 작성 시 별도 비용은 없으며, TDAC를 제출한 이후에 여행 일정이 연기된 경우 도착 일정에 맞춰 다시 작성하여야 합니다.\n\n※ 출입국 절차 및 내용은 태국 정부 및 국내 지침에 따라 변경될 수 있는 점 참고 부탁드립니다. \n            \n            \n            \n        \n        \n         \n   \n   \n\n    \n          \n    \n        태국 입국시 유의사항상세보기\n        태국입국시 담배는 1인 1보루, 술은 1인 1병(1ℓ), 전자담배 금지 규정! 위반시 벌금부과! \n\n        \n            태국은 세관 규정이 엄격하며 위반 적발 시 물품 압수 및 큰 금액의 벌금이 부과됩니다. 세관을 벗어난 공간에서도 사복 공항 직원이 적발하는 경우가 있으므로, 차량에 탑승하여 공항을 완전히 벗어날 때 까지 이 규정을 준수하셔야 합니다.  또한 타인의 짐을 대신 맡아 들고 있는 경우더라도 예외 없이 위반으로 적발되므로 주의하시기 바랍니다.\n            \n            \n            \n        \n        \n         \n   \n   \n\n    \n               치앙마이 국제공항 도착 후, 입국 수속          입국수속 후 미팅보드를 들고있는 현지인 직원과 미팅 - 현지인 직원과 미팅 하여 차량 탑승 후 리조트 이동합니다.※ 미팅보드: '제키 파크골프 - 손님이름'          리조트로 이동 - 약 60분 소요    치앙다오                리조트 투숙 및 휴식     \n    \n        Jacki Park Golf & Resort\n        젝키 파크골프 리조트\n        \n             2/2이전다음\n            \n            Jacki park golf resort태국 3대 명산 중 하나인 도이루앙산(해발 2,225m)자락에 위치하여 숲, 티크나무, 호수 등 풍부한 자연을 배경으로맑은 공기를 마시며, 36홀 다양한 구성으로 라운딩을 즐기면서 다양한 형태의 테마별 숙소 카라반, 오두막, 가족동 또는 외부에 위치한 콘도 등 의숙소에서 랜덤으로  배정되어 숙박합니다.\n\n주소 :  9WFV+QC9, Chiang Dao, Chiang Dao District, Chiang Mai, Thailand \n연락처:  063-548-0043 \n            \n            \n        \n        \n        \n    \n           호텔 총 1개의\n                                  예정 호텔이 있습니다.\n                                출발 3일전까지 확정되어 일정표에서 확인하실\n                                수 있습니다.\n                                1일전 카카오 알림톡으로도 알려드립니다. 젝키 파크골프 리조트  \n                                      Jacki Park Golf & Resort상세보기  "
+    },
+    {
+      "cards": [
+        {
+          "images": [
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/9d260975-442e-41f5-829e-d25ad391f88a.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/cb728fbe-8473-42bd-a893-675b9870b268.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/012795e6-aebf-4f44-9a5c-e3d0b92fc35f.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/4eb2e1cc-9961-4292-b400-76612fd59cd9.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/d31902eb-d750-4b0a-979d-9b44a4927b44.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/69f3c97b-a0e9-46ac-8729-13b1c4db876f.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/9d260975-442e-41f5-829e-d25ad391f88a.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/cb728fbe-8473-42bd-a893-675b9870b268.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/012795e6-aebf-4f44-9a5c-e3d0b92fc35f.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/4eb2e1cc-9961-4292-b400-76612fd59cd9.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/d31902eb-d750-4b0a-979d-9b44a4927b44.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/69f3c97b-a0e9-46ac-8729-13b1c4db876f.JPG"
+            }
+          ],
+          "text": "\n        Jacki park golf & resort상세보기\n        \n        \n             2/2이전다음\n            \n            \n            골프장 소개태국의 2대도시 치앙마이의 공항에서 아주 가까운 거리로 약 50 ~60 분 정도 소요되는 곳에 위치한 Jacki Park Golf는 별의 도시 치앙다오에 위치한 파크 골프장으로 유네스코에 등재된 지역에서 최적의 힐링과 파크골프를 즐기실 수 있습니다.\n골프장 서쪽편에는 태국3대 산인 도이루앙 (해발 2,225M) 산기슭을 배경으로 아름다운 숲과 티크나무들, 그리고 호수가 잘 어우려져 머무는 동안 이색적인 분위기와 편안하고 안정감있는 분위속에서 힐링의 파크골프를 즐기실 수 있으며 10월부터~ 2월까지는 이른아침 좋은 날씨와 도이루앙 산에서 불어오는 시원한 바람을 느끼실수 있습니다.\n치앙다오의 높은 산이 바로 보이는 자연친화적인 공간에서 맑은 공기 마시며 라운딩을 즐길수 있고, 36홀로 다양한 구성으로  라운딩을 즐길 수 있습니다 .      \n\n※운영시간\n동계 - 07:00 ~ 17:00\n하계 - 06:00 ~ 18:00\n[야광공(개인지참) 준비 시 야간라운드 가능]\n            \n        \n        \n         \n    ",
+          "title": "Jacki park golf & resort"
+        }
+      ],
+      "day": "acc_con1",
+      "golf": [
+        "젝키 파크 골프 앤 리조트"
+      ],
+      "hotel": [
+        "젝키 파크골프 리조트"
+      ],
+      "images": [
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/9d260975-442e-41f5-829e-d25ad391f88a.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/cb728fbe-8473-42bd-a893-675b9870b268.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/012795e6-aebf-4f44-9a5c-e3d0b92fc35f.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/4eb2e1cc-9961-4292-b400-76612fd59cd9.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/d31902eb-d750-4b0a-979d-9b44a4927b44.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/69f3c97b-a0e9-46ac-8729-13b1c4db876f.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/9d260975-442e-41f5-829e-d25ad391f88a.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/cb728fbe-8473-42bd-a893-675b9870b268.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/012795e6-aebf-4f44-9a5c-e3d0b92fc35f.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/4eb2e1cc-9961-4292-b400-76612fd59cd9.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/d31902eb-d750-4b0a-979d-9b44a4927b44.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/69f3c97b-a0e9-46ac-8729-13b1c4db876f.JPG"
+        }
+      ],
+      "meals": "[조식] 리조트식 [중식] 리조트식 [석식] 리조트식",
+      "stops": [
+        {
+          "text": "치앙다오          ",
+          "title": "치앙다오"
+        },
+        {
+          "meal": "\n                                  조식 (리조트식)\n                                ",
+          "text": "    \n                                  조식 (리조트식)\n                                      "
+        },
+        {
+          "text": "      36홀 라운드 ※ TEE OFF 07:00 ~ 18:00    ",
+          "title": "36홀 라운드"
+        },
+        {
+          "text": " \n    \n        Jacki park golf & resort상세보기\n        \n        \n             2/2이전다음\n            \n            \n            골프장 소개태국의 2대도시 치앙마이의 공항에서 아주 가까운 거리로 약 50 ~60 분 정도 소요되는 곳에 위치한 Jacki Park Golf는 별의 도시 치앙다오에 위치한 파크 골프장으로 유네스코에 등재된 지역에서 최적의 힐링과 파크골프를 즐기실 수 있습니다.\n골프장 서쪽편에는 태국3대 산인 도이루앙 (해발 2,225M) 산기슭을 배경으로 아름다운 숲과 티크나무들, 그리고 호수가 잘 어우려져 머무는 동안 이색적인 분위기와 편안하고 안정감있는 분위속에서 힐링의 파크골프를 즐기실 수 있으며 10월부터~ 2월까지는 이른아침 좋은 날씨와 도이루앙 산에서 불어오는 시원한 바람을 느끼실수 있습니다.\n치앙다오의 높은 산이 바로 보이는 자연친화적인 공간에서 맑은 공기 마시며 라운딩을 즐길수 있고, 36홀로 다양한 구성으로  라운딩을 즐길 수 있습니다 .      \n\n※운영시간\n동계 - 07:00 ~ 17:00\n하계 - 06:00 ~ 18:00\n[야광공(개인지참) 준비 시 야간라운드 가능]\n            \n        \n        \n         \n    \n         "
+        },
+        {
+          "meal": "\n                                  중식 (리조트식)\n                                ",
+          "text": "    \n                                  중식 (리조트식)\n                                      "
+        },
+        {
+          "meal": "\n                                  석식 (리조트식)\n                                ",
+          "text": "    \n                                  석식 (리조트식)\n                                      "
+        },
+        {
+          "text": "      라운드 후 휴식 및 자유시간    ",
+          "title": "라운드 후 휴식 및 자유시간"
+        }
+      ],
+      "text": "  치앙다오              \n                                  조식 (리조트식)\n                                            36홀 라운드 ※ TEE OFF 07:00 ~ 18:00     \n    \n        Jacki park golf & resort상세보기\n        \n        \n             2/2이전다음\n            \n            \n            골프장 소개태국의 2대도시 치앙마이의 공항에서 아주 가까운 거리로 약 50 ~60 분 정도 소요되는 곳에 위치한 Jacki Park Golf는 별의 도시 치앙다오에 위치한 파크 골프장으로 유네스코에 등재된 지역에서 최적의 힐링과 파크골프를 즐기실 수 있습니다.\n골프장 서쪽편에는 태국3대 산인 도이루앙 (해발 2,225M) 산기슭을 배경으로 아름다운 숲과 티크나무들, 그리고 호수가 잘 어우려져 머무는 동안 이색적인 분위기와 편안하고 안정감있는 분위속에서 힐링의 파크골프를 즐기실 수 있으며 10월부터~ 2월까지는 이른아침 좋은 날씨와 도이루앙 산에서 불어오는 시원한 바람을 느끼실수 있습니다.\n치앙다오의 높은 산이 바로 보이는 자연친화적인 공간에서 맑은 공기 마시며 라운딩을 즐길수 있고, 36홀로 다양한 구성으로  라운딩을 즐길 수 있습니다 .      \n\n※운영시간\n동계 - 07:00 ~ 17:00\n하계 - 06:00 ~ 18:00\n[야광공(개인지참) 준비 시 야간라운드 가능]\n            \n        \n        \n         \n    \n             \n                                  중식 (리조트식)\n                                          \n                                  석식 (리조트식)\n                                            라운드 후 휴식 및 자유시간      호텔 총 1개의\n                                  예정 호텔이 있습니다.\n                                출발 3일전까지 확정되어 일정표에서 확인하실\n                                수 있습니다.\n                                1일전 카카오 알림톡으로도 알려드립니다. 젝키 파크골프 리조트  \n                                      Jacki Park Golf & Resort상세보기 골프 총 1개의\n                                  예정 골프장이 있습니다.\n                                출발 3일전까지 확정되어 일정표에서 확인하실\n                                수 있습니다.\n                                1일전 카카오 알림톡으로도 알려드립니다. 젝키 파크 골프 앤 리조트 \n                                      Jacki park golf & resort상세보기  식사 [조식] 리조트식 [중식] 리조트식 [석식] 리조트식"
+    },
+    {
+      "cards": [
+        {
+          "images": [
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/9d260975-442e-41f5-829e-d25ad391f88a.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/cb728fbe-8473-42bd-a893-675b9870b268.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/012795e6-aebf-4f44-9a5c-e3d0b92fc35f.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/4eb2e1cc-9961-4292-b400-76612fd59cd9.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/d31902eb-d750-4b0a-979d-9b44a4927b44.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/69f3c97b-a0e9-46ac-8729-13b1c4db876f.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/9d260975-442e-41f5-829e-d25ad391f88a.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/cb728fbe-8473-42bd-a893-675b9870b268.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/012795e6-aebf-4f44-9a5c-e3d0b92fc35f.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/4eb2e1cc-9961-4292-b400-76612fd59cd9.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/d31902eb-d750-4b0a-979d-9b44a4927b44.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/69f3c97b-a0e9-46ac-8729-13b1c4db876f.JPG"
+            }
+          ],
+          "text": "\n        Jacki park golf & resort상세보기\n        \n        \n             2/2이전다음\n            \n            \n            골프장 소개태국의 2대도시 치앙마이의 공항에서 아주 가까운 거리로 약 50 ~60 분 정도 소요되는 곳에 위치한 Jacki Park Golf는 별의 도시 치앙다오에 위치한 파크 골프장으로 유네스코에 등재된 지역에서 최적의 힐링과 파크골프를 즐기실 수 있습니다.\n골프장 서쪽편에는 태국3대 산인 도이루앙 (해발 2,225M) 산기슭을 배경으로 아름다운 숲과 티크나무들, 그리고 호수가 잘 어우려져 머무는 동안 이색적인 분위기와 편안하고 안정감있는 분위속에서 힐링의 파크골프를 즐기실 수 있으며 10월부터~ 2월까지는 이른아침 좋은 날씨와 도이루앙 산에서 불어오는 시원한 바람을 느끼실수 있습니다.\n치앙다오의 높은 산이 바로 보이는 자연친화적인 공간에서 맑은 공기 마시며 라운딩을 즐길수 있고, 36홀로 다양한 구성으로  라운딩을 즐길 수 있습니다 .      \n\n※운영시간\n동계 - 07:00 ~ 17:00\n하계 - 06:00 ~ 18:00\n[야광공(개인지참) 준비 시 야간라운드 가능]\n            \n        \n        \n         \n    ",
+          "title": "Jacki park golf & resort"
+        }
+      ],
+      "day": "acc_con2",
+      "golf": [
+        "젝키 파크 골프 앤 리조트"
+      ],
+      "hotel": [
+        "젝키 파크골프 리조트"
+      ],
+      "images": [
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/9d260975-442e-41f5-829e-d25ad391f88a.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/cb728fbe-8473-42bd-a893-675b9870b268.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/012795e6-aebf-4f44-9a5c-e3d0b92fc35f.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/4eb2e1cc-9961-4292-b400-76612fd59cd9.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/d31902eb-d750-4b0a-979d-9b44a4927b44.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/69f3c97b-a0e9-46ac-8729-13b1c4db876f.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/9d260975-442e-41f5-829e-d25ad391f88a.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/cb728fbe-8473-42bd-a893-675b9870b268.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/012795e6-aebf-4f44-9a5c-e3d0b92fc35f.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/4eb2e1cc-9961-4292-b400-76612fd59cd9.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/d31902eb-d750-4b0a-979d-9b44a4927b44.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/69f3c97b-a0e9-46ac-8729-13b1c4db876f.JPG"
+        }
+      ],
+      "meals": "[조식] 리조트식 [중식] 리조트식 [석식] 리조트식",
+      "stops": [
+        {
+          "text": "치앙다오          ",
+          "title": "치앙다오"
+        },
+        {
+          "meal": "\n                                  조식 (리조트식)\n                                ",
+          "text": "    \n                                  조식 (리조트식)\n                                      "
+        },
+        {
+          "text": "      36홀 라운드 ※ TEE OFF 07:00 ~ 18:00    ",
+          "title": "36홀 라운드"
+        },
+        {
+          "text": " \n    \n        Jacki park golf & resort상세보기\n        \n        \n             2/2이전다음\n            \n            \n            골프장 소개태국의 2대도시 치앙마이의 공항에서 아주 가까운 거리로 약 50 ~60 분 정도 소요되는 곳에 위치한 Jacki Park Golf는 별의 도시 치앙다오에 위치한 파크 골프장으로 유네스코에 등재된 지역에서 최적의 힐링과 파크골프를 즐기실 수 있습니다.\n골프장 서쪽편에는 태국3대 산인 도이루앙 (해발 2,225M) 산기슭을 배경으로 아름다운 숲과 티크나무들, 그리고 호수가 잘 어우려져 머무는 동안 이색적인 분위기와 편안하고 안정감있는 분위속에서 힐링의 파크골프를 즐기실 수 있으며 10월부터~ 2월까지는 이른아침 좋은 날씨와 도이루앙 산에서 불어오는 시원한 바람을 느끼실수 있습니다.\n치앙다오의 높은 산이 바로 보이는 자연친화적인 공간에서 맑은 공기 마시며 라운딩을 즐길수 있고, 36홀로 다양한 구성으로  라운딩을 즐길 수 있습니다 .      \n\n※운영시간\n동계 - 07:00 ~ 17:00\n하계 - 06:00 ~ 18:00\n[야광공(개인지참) 준비 시 야간라운드 가능]\n            \n        \n        \n         \n    \n         "
+        },
+        {
+          "meal": "\n                                  중식 (리조트식)\n                                ",
+          "text": "    \n                                  중식 (리조트식)\n                                      "
+        },
+        {
+          "meal": "\n                                  석식 (리조트식)\n                                ",
+          "text": "    \n                                  석식 (리조트식)\n                                      "
+        },
+        {
+          "text": "      라운드 후 휴식 및 자유시간    ",
+          "title": "라운드 후 휴식 및 자유시간"
+        }
+      ],
+      "text": "  치앙다오              \n                                  조식 (리조트식)\n                                            36홀 라운드 ※ TEE OFF 07:00 ~ 18:00     \n    \n        Jacki park golf & resort상세보기\n        \n        \n             2/2이전다음\n            \n            \n            골프장 소개태국의 2대도시 치앙마이의 공항에서 아주 가까운 거리로 약 50 ~60 분 정도 소요되는 곳에 위치한 Jacki Park Golf는 별의 도시 치앙다오에 위치한 파크 골프장으로 유네스코에 등재된 지역에서 최적의 힐링과 파크골프를 즐기실 수 있습니다.\n골프장 서쪽편에는 태국3대 산인 도이루앙 (해발 2,225M) 산기슭을 배경으로 아름다운 숲과 티크나무들, 그리고 호수가 잘 어우려져 머무는 동안 이색적인 분위기와 편안하고 안정감있는 분위속에서 힐링의 파크골프를 즐기실 수 있으며 10월부터~ 2월까지는 이른아침 좋은 날씨와 도이루앙 산에서 불어오는 시원한 바람을 느끼실수 있습니다.\n치앙다오의 높은 산이 바로 보이는 자연친화적인 공간에서 맑은 공기 마시며 라운딩을 즐길수 있고, 36홀로 다양한 구성으로  라운딩을 즐길 수 있습니다 .      \n\n※운영시간\n동계 - 07:00 ~ 17:00\n하계 - 06:00 ~ 18:00\n[야광공(개인지참) 준비 시 야간라운드 가능]\n            \n        \n        \n         \n    \n             \n                                  중식 (리조트식)\n                                          \n                                  석식 (리조트식)\n                                            라운드 후 휴식 및 자유시간      호텔 총 1개의\n                                  예정 호텔이 있습니다.\n                                출발 3일전까지 확정되어 일정표에서 확인하실\n                                수 있습니다.\n                                1일전 카카오 알림톡으로도 알려드립니다. 젝키 파크골프 리조트  \n                                      Jacki Park Golf & Resort상세보기 골프 총 1개의\n                                  예정 골프장이 있습니다.\n                                출발 3일전까지 확정되어 일정표에서 확인하실\n                                수 있습니다.\n                                1일전 카카오 알림톡으로도 알려드립니다. 젝키 파크 골프 앤 리조트 \n                                      Jacki park golf & resort상세보기  식사 [조식] 리조트식 [중식] 리조트식 [석식] 리조트식"
+    },
+    {
+      "cards": [
+        {
+          "images": [
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/9d260975-442e-41f5-829e-d25ad391f88a.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/cb728fbe-8473-42bd-a893-675b9870b268.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/012795e6-aebf-4f44-9a5c-e3d0b92fc35f.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/4eb2e1cc-9961-4292-b400-76612fd59cd9.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/d31902eb-d750-4b0a-979d-9b44a4927b44.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/69f3c97b-a0e9-46ac-8729-13b1c4db876f.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/9d260975-442e-41f5-829e-d25ad391f88a.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/cb728fbe-8473-42bd-a893-675b9870b268.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/012795e6-aebf-4f44-9a5c-e3d0b92fc35f.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/4eb2e1cc-9961-4292-b400-76612fd59cd9.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/d31902eb-d750-4b0a-979d-9b44a4927b44.JPG"
+            },
+            {
+              "alt": "JACKI PARK GOLF - 파크골프",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/69f3c97b-a0e9-46ac-8729-13b1c4db876f.JPG"
+            }
+          ],
+          "text": "\n        Jacki park golf & resort상세보기\n        \n        \n             2/2이전다음\n            \n            \n            골프장 소개태국의 2대도시 치앙마이의 공항에서 아주 가까운 거리로 약 50 ~60 분 정도 소요되는 곳에 위치한 Jacki Park Golf는 별의 도시 치앙다오에 위치한 파크 골프장으로 유네스코에 등재된 지역에서 최적의 힐링과 파크골프를 즐기실 수 있습니다.\n골프장 서쪽편에는 태국3대 산인 도이루앙 (해발 2,225M) 산기슭을 배경으로 아름다운 숲과 티크나무들, 그리고 호수가 잘 어우려져 머무는 동안 이색적인 분위기와 편안하고 안정감있는 분위속에서 힐링의 파크골프를 즐기실 수 있으며 10월부터~ 2월까지는 이른아침 좋은 날씨와 도이루앙 산에서 불어오는 시원한 바람을 느끼실수 있습니다.\n치앙다오의 높은 산이 바로 보이는 자연친화적인 공간에서 맑은 공기 마시며 라운딩을 즐길수 있고, 36홀로 다양한 구성으로  라운딩을 즐길 수 있습니다 .      \n\n※운영시간\n동계 - 07:00 ~ 17:00\n하계 - 06:00 ~ 18:00\n[야광공(개인지참) 준비 시 야간라운드 가능]\n            \n        \n        \n         \n    ",
+          "title": "Jacki park golf & resort"
+        }
+      ],
+      "day": "acc_con3",
+      "golf": [
+        "젝키 파크 골프 앤 리조트"
+      ],
+      "hotel": [],
+      "images": [
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/9d260975-442e-41f5-829e-d25ad391f88a.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/cb728fbe-8473-42bd-a893-675b9870b268.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/012795e6-aebf-4f44-9a5c-e3d0b92fc35f.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/4eb2e1cc-9961-4292-b400-76612fd59cd9.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/d31902eb-d750-4b0a-979d-9b44a4927b44.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/69f3c97b-a0e9-46ac-8729-13b1c4db876f.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/9d260975-442e-41f5-829e-d25ad391f88a.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/cb728fbe-8473-42bd-a893-675b9870b268.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/012795e6-aebf-4f44-9a5c-e3d0b92fc35f.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/4eb2e1cc-9961-4292-b400-76612fd59cd9.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/d31902eb-d750-4b0a-979d-9b44a4927b44.JPG"
+        },
+        {
+          "alt": "JACKI PARK GOLF - 파크골프",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/02/02/10000/69f3c97b-a0e9-46ac-8729-13b1c4db876f.JPG"
+        },
+        {
+          "alt": "이스타항공",
+          "src": "https://image.hanatour.com/usr/static/img/airline/ZE.png"
+        }
+      ],
+      "meals": "기내숙박",
+      "stops": [
+        {
+          "text": "치앙다오          ",
+          "title": "치앙다오"
+        },
+        {
+          "meal": "\n                                  조식 (리조트식)\n                                ",
+          "text": "    \n                                  조식 (리조트식)\n                                      "
+        },
+        {
+          "text": "      36홀 라운드 ※ TEE OFF 07:00 ~ 18:00    ",
+          "title": "36홀 라운드"
+        },
+        {
+          "text": " \n    \n        Jacki park golf & resort상세보기\n        \n        \n             2/2이전다음\n            \n            \n            골프장 소개태국의 2대도시 치앙마이의 공항에서 아주 가까운 거리로 약 50 ~60 분 정도 소요되는 곳에 위치한 Jacki Park Golf는 별의 도시 치앙다오에 위치한 파크 골프장으로 유네스코에 등재된 지역에서 최적의 힐링과 파크골프를 즐기실 수 있습니다.\n골프장 서쪽편에는 태국3대 산인 도이루앙 (해발 2,225M) 산기슭을 배경으로 아름다운 숲과 티크나무들, 그리고 호수가 잘 어우려져 머무는 동안 이색적인 분위기와 편안하고 안정감있는 분위속에서 힐링의 파크골프를 즐기실 수 있으며 10월부터~ 2월까지는 이른아침 좋은 날씨와 도이루앙 산에서 불어오는 시원한 바람을 느끼실수 있습니다.\n치앙다오의 높은 산이 바로 보이는 자연친화적인 공간에서 맑은 공기 마시며 라운딩을 즐길수 있고, 36홀로 다양한 구성으로  라운딩을 즐길 수 있습니다 .      \n\n※운영시간\n동계 - 07:00 ~ 17:00\n하계 - 06:00 ~ 18:00\n[야광공(개인지참) 준비 시 야간라운드 가능]\n            \n        \n        \n         \n    \n         "
+        },
+        {
+          "meal": "\n                                  중식 (리조트식)\n                                ",
+          "text": "    \n                                  중식 (리조트식)\n                                      "
+        },
+        {
+          "text": "      리조트 체크아웃     ",
+          "title": "리조트 체크아웃 "
+        },
+        {
+          "text": "      리조트 특별프로그램 -  공항으로 이동 전 우산마을/ 야시장 관광 가능 (리조트에 직접 신청해주세요)  [🎁 리조트 특별 프로그램 안내]라운드 외 시간에 현지의 매력을 느낄 수 있는 관광 프로그램을 운영합니다.운영 코스: 알록달록 우산마을  ⛱️ + 로컬 야시장  투어 🏮신청 방법: 리조트 프런트 데스크 또는 컨시어지에서 직접 신청참고 사항: * 해당 프로그램은 리조트 자체 운영 상품으로 상세 일정은  현지에서 확인 가능합니다.     ",
+          "title": "리조트 특별프로그램 -  공항으로 이동 전 우산마을/ 야시장 관광 가능 (리조트에 직접 신청해주세요) "
+        },
+        {
+          "meal": "\n                                  석식 (리조트식)\n                                ",
+          "text": "    \n                                  석식 (리조트식)\n                                      "
+        },
+        {
+          "text": "      치앙마이 국제공항으로 이동 - 약 60분 소요    ",
+          "title": "치앙마이 국제공항으로 이동"
+        },
+        {
+          "text": "치앙마이          ",
+          "title": "치앙마이"
+        }
+      ],
+      "text": "  치앙다오              \n                                  조식 (리조트식)\n                                            36홀 라운드 ※ TEE OFF 07:00 ~ 18:00     \n    \n        Jacki park golf & resort상세보기\n        \n        \n             2/2이전다음\n            \n            \n            골프장 소개태국의 2대도시 치앙마이의 공항에서 아주 가까운 거리로 약 50 ~60 분 정도 소요되는 곳에 위치한 Jacki Park Golf는 별의 도시 치앙다오에 위치한 파크 골프장으로 유네스코에 등재된 지역에서 최적의 힐링과 파크골프를 즐기실 수 있습니다.\n골프장 서쪽편에는 태국3대 산인 도이루앙 (해발 2,225M) 산기슭을 배경으로 아름다운 숲과 티크나무들, 그리고 호수가 잘 어우려져 머무는 동안 이색적인 분위기와 편안하고 안정감있는 분위속에서 힐링의 파크골프를 즐기실 수 있으며 10월부터~ 2월까지는 이른아침 좋은 날씨와 도이루앙 산에서 불어오는 시원한 바람을 느끼실수 있습니다.\n치앙다오의 높은 산이 바로 보이는 자연친화적인 공간에서 맑은 공기 마시며 라운딩을 즐길수 있고, 36홀로 다양한 구성으로  라운딩을 즐길 수 있습니다 .      \n\n※운영시간\n동계 - 07:00 ~ 17:00\n하계 - 06:00 ~ 18:00\n[야광공(개인지참) 준비 시 야간라운드 가능]\n            \n        \n        \n         \n    \n             \n                                  중식 (리조트식)\n                                            리조트 체크아웃           리조트 특별프로그램 -  공항으로 이동 전 우산마을/ 야시장 관광 가능 (리조트에 직접 신청해주세요)  [🎁 리조트 특별 프로그램 안내]라운드 외 시간에 현지의 매력을 느낄 수 있는 관광 프로그램을 운영합니다.운영 코스: 알록달록 우산마을  ⛱️ + 로컬 야시장  투어 🏮신청 방법: 리조트 프런트 데스크 또는 컨시어지에서 직접 신청참고 사항: * 해당 프로그램은 리조트 자체 운영 상품으로 상세 일정은  현지에서 확인 가능합니다.         \n                                  석식 (리조트식)\n                                            치앙마이 국제공항으로 이동 - 약 60분 소요    치앙마이            이스타항공 05시간 15분 ZE0518 22:15  2026.11.04(수) 치앙마이 CNX 출발 05:30  2026.11.05(목) 서울 ICN 도착     +1 호텔 기내숙박 골프 총 1개의\n                                  예정 골프장이 있습니다.\n                                출발 3일전까지 확정되어 일정표에서 확인하실\n                                수 있습니다.\n                                1일전 카카오 알림톡으로도 알려드립니다. 젝키 파크 골프 앤 리조트 \n                                      Jacki park golf & resort상세보기  식사 [조식] 리조트식 [중식] 리조트식 [석식] 리조트식"
+    },
+    {
+      "cards": [],
+      "day": "acc_con4",
+      "golf": [],
+      "hotel": [],
+      "images": [],
+      "meals": "숙박 없음",
+      "stops": [
+        {
+          "text": "치앙마이          ",
+          "title": "치앙마이"
+        },
+        {
+          "meal": "\n                                  조식 (기내-불포함(유료제공))\n                                ",
+          "text": "    \n                                  조식 (기내-불포함(유료제공))\n                                      "
+        },
+        {
+          "text": "인천          ",
+          "title": "인천"
+        }
+      ],
+      "text": "  치앙마이              \n                                  조식 (기내-불포함(유료제공))\n                                      인천            호텔 숙박 없음  식사 [조식] 기내-불포함(유료제공)  "
+    }
+  ],
+  "heading": "[파크골프] 치앙마이 골프 5일 #골프리조트 #제키파크골프 #무제한라운드#조/중/석식포함 #2인출발가능",
+  "text": "(주)나침반여행사\n1899-7972\n로그인\n회원가입\n고객센터\n하나투어\n통합 검색어 입력폼\n검색\n튀르키예\n일본\n대마도\n장가계\n푸꾸옥\n대만\n후쿠오카\n상하이\n오사카\n스페인\n튀르키예\n일본\n마이메뉴\n예약내역\n찜\n전체메뉴\n해외여행\n항공\n호텔\n항공+호텔\n투어/입장권\n국내여행\n테마여행\n제우스\n여행기획전\n이달의 혜택\n여행 파트너\nH-AI\n최근 본 상품(0)\nTOP\n1/4\n이전\n다음\n상품코드 ACG225261101ZEP\n인쇄하기 공유하기\n파크골프\n여행상품 핵심정보\n골프\n[파크골프] 치앙마이 골프 5일 #골프리조트 #제키파크골프 #무제한라운드#조/중/석식포함 #2인출발가능\n\n간편하고 부담없이 즐기는 파크골프 ~! 힐링과 라운드를 한번에 경험해보세요!\n\n#골프#골프리조트 #관광\n해시태그\n#자연속힐링#골프의즐거움#편안한여행#치앙마이골프여행#골프리조트추천#무제한라운드#잭키파크골프장#치앙다오골프투어#치앙마이자유여행\n3박 5일\nLCC\n쇼핑없음\n단체여행\n선택관광있음\n출발예정\n항공예정\n일정예정\n호텔예정\n가격예정\n\n성인 1인\n\n999,000 원\n5개월 무이자 할부 예상가\n월 199,800원\n카드사별 무이자 혜택 \n여행 주요일정\n항공여정보기 다른 출발일 선택 \n최저가로 떠날 수 있는 날 알아보기\n일정 \n\n3박 5일 \n이스타항공\n\n출발 : 2026.11.01(일) 17:25 2026.11.01(일) 21:20 ZE0517총 05시간 55분 소요\n\n도착 : 2026.11.04(수) 22:15 2026.11.05(목) 05:30 ZE0518총 05시간 15분 소요\n\n 여행도시 치앙마이(3) 예약현황 예약 : 0명 좌석 : 10석 (최소출발 : 성인2명) \n상품가격\n구분\t성인\n\n만 12세 이상\n\n\t아동\n\n만 12세 미만 \n\n\t유아\n\n만 2세 미만 \n\n\n기본상품\t999,000원\n\n유류할증료 230,000원/제세공과금 0원 포함\n\n\t999,000원\n\n유류할증료 230,000원/제세공과금 0원 포함 \n\n\t-\n유류할증료 및 제세공과금은 유가와 환율에 따라 변동될 수 있습니다.\n약관(이용운송, 숙박기관 등에 지급할 요금의 변동)에 따라 상품가격은 변동될 수 있습니다. 자세한 사항은 약관을 참조하시기 바랍니다.\n1인 객실 사용시 추가요금 발생됩니다.\n\n1인 객실 사용료 : 120,000원\n\n하나투어 마일리지 최대 7,690적립예정\n하나투어클럽 회원, 성인기준\n패키지 상품가 기준\n태국\n입국 규정 확인\n이스타항공\n항공사 유의사항 확인\n테마소개\t\n골프\n골프리조트\n\n골프\n\n\n[하나투어 X 보이스캐디 APL골프]\n핸드폰과 워치에서 골프장 코스/거리 정보를 확인할수 있어요.\n출발 7일전 카톡 알림톡을 통해 APL 3일 무료이용권을 제공합니다.\n\n\n파크골프\n\n공원(park)와 골프(golf)의 합성어로\n도심의 공원에서 나무 채와 플라스틱 공으로 간편하게 즐길 수 있는 골프상품입니다.\n\n핵심\n포인트\n골프\n호텔\n식사\n교통\n보험\n기타\nSAFETY\n&JOY\n상품 핵심포인트\n① 골프에 최적화된 일정♥ 오후 출발! 아침 도착! 항공편\n② 치앙마이 국제공항에서 1시간소요 '치앙다오' 위치\n③ 2023년 10월 개장한 36홀 규모의 신설 파크골프장\n④ 36홀 *3회\n⑤ 전일정 식사 제공\n⑥ 다양한 테마의 리조트 숙박\n⑦ 한국인 상주 직원\n⛳ 파크골프 - 무제한 라운드\n⛳ 주간 라운드: 무제한 이용 가능 (현지 상황 및 일몰 시간에 따라 변동 가능)\n🌙 야간 라운드: * 조건: 야광볼(Luminous Ball) 개인 지참 필수\n🏌️ 클럽 렌탈 필요 시 사전 요청 필수 (1일/ 5천원)\n\n♣ 최소한의 장비로 짧고 간단한 코스를 돌며 골프의 묘미를 즐기실수 있는 생활 스포츠 입니다.\n\n✔ 파크골프의 개요: 1983년 일본 홋카이도에서 시작된 스포츠로, 공원(Park)와 골프(Golf)의 합성어 입니다.\n✔ 경기방식: 골프처럼 티샷 > 페어웨이 >홀인과정을 거치지만, 코스는 짧고 단순하여 경기시간이 짧습니다.\n(18홀 기준 평균 소요시간 - 약 1시간 30분 ~ 2시간)\n✔ 장비: 클럽 1개, 공 1개, 티만 있으면 가능합니다.\n✔ 코스: 보통 9홀 또는 18홀 기준 / 1홀 길이는 20 ~ 100M\n✔ 규칙: 골프와 유사하나 간소화되어 초보자도 쉽게 적응이 가능합니다.\n\n👍 파크골프는 장비와 비용 부담이 적어 누구나 쉽게 시작할 수 있습니다.\n👍 코스가 짧고 규칙이 단순해 남녀노소 모두 즐길 수 있는 생활 스포츠입니다.\n👍 자연속에서 걷고 스윙하면 운동하므로 체력항상과 건강 증진에 효과적입니다.\n👍 친구,가족,지역사회와 함께 어울리며 여가와 교류의 즐거움을 얻을 수 있습니다.\n⛳ 잭키 파크골프장 정보\n① 치앙마이의 공항에서 약 60분 정도 소요되는 치앙다오에 위치한 파크골프장입니다.\n② 태국 3대 명산중 하나인 도이루앙산(해발 2,225m)자락에 위치하여 숲, 티크나무, 호수 등 풍부한 자연을 배경으로\n맑은 공기를 마시며, 36홀 다양한 구성으로 라운딩을 즐길 수 있습니다 .\n③ 러프와 벙커 배치가 적절해 집중도와 전략적 공략성이 높습니다.\n\n※ 총 36홀 구성 [9홀 * 4개 코스]\nHoles : 36 / Par : 132 /Total Yardage : 2995\n- A코스 / 파33 , 658M\n- B코스 / 파33 , 709M\n- C코스 / 파33 , 649M\n- D코스 / 파33 , 723M\n🏨 골프리조트 이용\n- 카라반, 오두막, 가족동 또는 외부에 위치한 콘도 등 다양한 형태의 숙소에서 랜덤으로 배정되어 숙박합니다.\n※ 객실타입 지정 불가합니다.\n🍜 전일정 식사 포함\n조/중/석식 포함\n항공 규정 안내\n★위탁수하물 ★\n\n　- 기내 : 10kg이하 1개\n　- 위탁 : [일반 수하물 + 골프백] 합산하여 15kg 이하\n\n\n2. 항공권 수속규정 :\n기내 좌석 배정은 항공사의 고유 권한으로 여행사의 귀책사유는 없음을 알려드리며, 고객님이 희망하시는 좌석으로 배정이 안 될 수 있음을 널리 양해 부탁드립니다.\n사전 좌석 배정이 가능한 항공사의 경우, 출발 2~3일 전 전자 항공권(e-티켓)을 받으시고 고객님께서 직접 웹 체크인을 통해 좌석 지정받으시길 권해드립니다.\n※ 공동 운항 편 및 미주노선 등 일부 항공편은 서비스 이용이 제한될 수 있으며, 항공사 규정에 따라 상이합니다.\n1억원 여행자보험\n해외치료비 최대 보장 한도 [상해/질병]500만원\n[휴대품 도난/파손] 50만원보상\n* 국가/연령에 따라 보장내용이 상이할 수 있습니다.\n* 자세한 내용은 보장내역 자세히보기(클릭) 확인해주시기 바랍니다.\nNO가이드 상품\n#NO가이드 상품\n①가이드가 없는 상품입니다.\n②미/센딩은 동일 항공 기준 다른 고객과 조인 진행 기준이며 한국인 직원은 동행하지 않습니다.\n※공항 미팅샌딩 비용은 불포함으로(불포함 사항 참고) 일정 중 현지 상주 한국인 직원이 지불 요청드립니다.\n※개별이동을 원하시는 경우 출발 전 차량/가이드 미배정 요청 부탁드립니다.\n2인 출발가능\n노팁 / 노쇼핑\n#노팁, 노쇼핑으로 부담 ZERO, 알찬 골프여행\n1.의무적인 가이드팁은 NO\n2.단체 여행객만을 위한 쇼핑센타 방문은 NO\nSAFETY&JOY 하나투어는 여행의 전 과정을 함께 합니다.\n① 여행 중 24시간 긴급 의료 지원 등 H-care\n② 여행 후에도 이어지는 고객 만족 서비스\n(바로가기)\n포함/불포함/선택경비 정보\n포함내역\n[교통]\n\n왕복항공권, 전용 차량비\n\n[제세금]\n\n국내공항세, 현지공항세, 관광진흥개발기금, 전쟁보험료, 유류할증료\n\n[숙박]\n\n숙박비 : 2인 1실\n\n\n[식사]\n\n식사비 : 조/중/석식\n\n\n[테마]\n\n그린피 : 무제한\n\n\n[여행자보험]\n\n1억원 여행자보험\n\n불포함내역\n[교통]\n\n공항 미팅 & 샌딩 : USD 40\n\n[기타]\n\n기타 : USD 2 (청소비용(2일1회진행))\n\n개인 여행경비(물값, 자유시간시 개인비용 등)\n\n각종 매너팁(테이블팁, 객실팁, 포터비, 마사지팁 등)\n\n매너팁은 소비자의 자율적 선택으로 지불여부에 따른 불이익은 없습니다. \n\n선택경비\n[교통]\n\n항공리턴변경(불가), 클래스 차액 : 가격문의 (그룹항공요금 기준 상품가로서, 일반 좌석등급이 높아지면 상품가 상승됩니다. 좌석상황에 따라 변동되어 추가비용이 발생될 수 있으니 예약시 반드시 상담자와 확인부탁드립니다.)\n\n[숙박]\n\n객실 1인 사용료 : 120,000원\n\n[관광]\n\n현지합류(불가)\n\n선택관광/기항지관광/현지투어에 관한 상세 내역은 패키지 상품상세를 참고바랍니다. \n\n상품약관\t\n약관상세보기\n\n본 상품의 예약과 취소는 국외여행 특별약관이 적용됨을 알려드립니다.\n특별약관 적용 시 표준약관보다 높은 취소수수료가 부과될 수 있으며 이 경우 동의절차를 구합니다.\n\n계약금 규정\n예약일 기준 3일 이내에 1인당 100,000원을 납입하셔야합니다.\n취소료 규정\n이 상품은 항공(또는 선박)좌석 또는 호텔객실에 대한 비용을 선납해 놓은 상품으로서, 취소시 하단의 취소료가 적용됨을 양해해 주시기 바랍니다.\n더보기\n예약시 유의사항\n- 그린피 포함 상품으로 라운드 미진행 시 별도 그린피 환불은 없습니다.\n- 4인 라운드가 기본이며 4인 미만시 현지에서 라운드가 조인 될 수 있습니다.\n- 현지사정(기상상황, 토너먼트 개최 등)에 따라 라운드의 제한 또는 골프장 변경 될 수 있습니다.\n- 기본 2인1실 기준으로 홀 수 인원 시 싱글룸 사용하셔야 합니다.\n- 클럽 렌탈 시 담당자에게 출발전 미리 요청바랍니다.\n- 예약 후 항공좌석 및 호텔 가능여부 담당자에게 재확인 부탁드립니다.\n- 예약시 여권상에 기재된 정확한 영문이름과 주민번호가 필요합니다.\n- 해당 여행 지역의 기준으로 골프장 등급을 분류 하므로 한국 기준과 차이가 있을 수 있습니다.\n- 최종 계약시 반드시 예약하신 여행사에서 해외여행계약서를 작성해 주십시요.\n\n\n■ 전자담배 소지안내\n본 일정은 전자담배의 제조/구매/소지/흡연이 금지된 국가를 방문하며,\n전자담배 소지가 적발될 경우 압수는 물론 벌금까지 낼 수 있으므로 소지하지 않으시도록 유의 부탁드립니다.\n가이드/인솔자 및 미팅정보\n가이드\n현지 도착시 차량기사와 미팅이 이루어집니다.\n인솔자\n인솔자가 동행하지 않습니다.\n미팅정보\t\n미팅장소보기\n일시 :\n11월 01일 오후 14:55\n장소 :\n인천공항 제1여객터미널 3층 1번 출입문(A카운터옆) 하나투어 21~24 테이블\n터미널과 미팅장소를 꼭 확인하세요!\n[항공 좌석배정]기내 좌석 배정은 항공사의 고유 권한으로 일행과 좌석이 분리될 수 있습니다.\n항공사 탑승수속(선박 승선수속) 마감시간까지 수속을 마치지 못한 경우 출국이 거절될 수 있으며 이 경우 당사의 책임범위가 아님을 알려드립니다. 안전한 출국을 위해 하나투어 미팅시간까지는 반드시 공항(터미널)에 도착해 주시기 바랍니다\n여행일정\n호텔 & 관광지\n참고사항\n해외 안전정보\n여행후기\n1일차\n2일차\n3일차\n4일차\n5일차\n일정 전체펼침\n\n여행일정 변경에 관한 사전 동의안내\n\n여행일정은 계약체결 시 예상하지 못한 부득이한 사정 등이 발생하는 경우 여행자의 사전동의를 거쳐 변경될 수 있음을 양지하시기 바랍니다. \n\n1일차\n11/01(일)\n인천, 치앙마이, 치앙다오\n\n상세내용을 확인해보세요\n\n2일차\n11/02(월)\n치앙다오\n\n상세내용을 확인해보세요\n\n3일차\n11/03(화)\n치앙다오\n\n상세내용을 확인해보세요\n\n4일차\n11/04(수)\n치앙다오, 치앙마이\n\n상세내용을 확인해보세요\n\n5일차\n11/05(목)\n치앙마이, 인천\n\n상세내용을 확인해보세요\n\n쇼핑정보\n\n해당상품은 쇼핑센터에 방문하지 않습니다.\n\n해외 여행시 US$800 초과 구입한 물품은 입국시 관세가 부과될 수 있습니다. \n\n함께 많이 본 상품\n[부산출발][스마트초이스] 치앙마이 골프 5일 #다색골프 #18홀*3회 #노스힐/레가시CC 외 4곳 #센타라/아모라 ...\n1,169,000원~\n[부산출발][스마트초이스/골프 +관광] 치앙마이 골프 5일 #다색골프 #18홀*3회 #노스힐/레가시CC 외 4곳 #센 ...\n1,219,000원~\n치앙마이 골프 5일 #가산파노라마골프텔#36홀*3회 #파노라마CC #2인출발 #조/중/석식 포함\n1,429,000원~\n[스마트 초이스]치앙마이 골프 5일 #다색골프 #18홀*3회#알파인, 레가시외 # 샹그릴라, 멜리아,라티란나,메 ...\n1,959,000원~\n[파크골프] 치앙마이 골프 5일 #골프리조트 #제키파크골프 #무제한라운드#조/중/석식포함 #2인출발가능\n1,099,000원~\n[부산출발][스마트초이스] 치앙마이 골프 5일 #다색골프 #18홀*3회 #노스힐/레가시CC 외 4곳 #센타라/아모라 ...\n1,169,000원~\n[부산출발][스마트초이스/골프 +관광] 치앙마이 골프 5일 #다색골프 #18홀*3회 #노스힐/레가시CC 외 4곳 #센 ...\n1,219,000원~\n치앙마이 골프 5일 #가산파노라마골프텔#36홀*3회 #파노라마CC #2인출발 #조/중/석식 포함\n1,429,000원~\n[스마트 초이스]치앙마이 골프 5일 #다색골프 #18홀*3회#알파인, 레가시외 # 샹그릴라, 멜리아,라티란나,메 ...\n1,959,000원~\n[파크골프] 치앙마이 골프 5일 #골프리조트 #제키파크골프 #무제한라운드#조/중/석식포함 #2인출발가능\n1,099,000원~\n[부산출발][스마트초이스] 치앙마이 골프 5일 #다색골프 #18홀*3회 #노스힐/레가시CC 외 4곳 #센타라/아모라 ...\n1,169,000원~\n[부산출발][스마트초이스/골프 +관광] 치앙마이 골프 5일 #다색골프 #18홀*3회 #노스힐/레가시CC 외 4곳 #센 ...\n1,219,000원~\n치앙마이 골프 5일 #가산파노라마골프텔#36홀*3회 #파노라마CC #2인출발 #조/중/석식 포함\n1,429,000원~\n이전\n다음\n_\n방문도시 정보 및 기타정보\n도시정보\t\n입국카드 작성법\t\n도시\t현재시간\t오늘의 환율\n\n(2026.09.30 기준) \n\n\t콘센트\n치앙마이(CNX)\t10:512026.09.30\n\n한국보다 2시간 느림\n\n\t\n\n1바트(THB) = 42.35원\n\n\t\n\n전압 : 220V\n\n주파수 : 50HZ\n\n※ 오늘의 환율은 실시간 '현찰 살 때' 기준으로, 은행에서 거래되지 않는 통화는 0원으로 표기될 수 있습니다. \n\n여행시 유의사항\n[여행시 유의사항]\n\n- 태국입국시 담배는 1인 1보루, 술은 1인 1병(1ℓ) 규정! 위반시 벌금부과\n- 전자담배 반입이 불가. 적발시 전자담배 몰수 및 벌금이 부과됩니다\n- 개인적인 세면도구(치약,칫솔 등)는 고객님께서 따로 준비하셔야 합니다.\n- 현지사정(기상상황, 토너먼트 개최 등)에 따라 라운드의 제한 또는 골프장 변경 될 수 있습니다.\n- 해외에서도 한국 골퍼로서의 기본 매너를 잘 지켜주시기 바랍니다.\n\n인원선택\n\n성인\n999,000원\n\n1\n\n아동 \n999,000원\n\n0\n\n유아 \n-\n\n0\n\n총 금액\n\n999,000원\n\n유류할증료&제세공과금 포함 \n\n하나투어 마일리지 최대 7,690적립예정\n상품가격 안내\n예약하기\t\n찜\n혜택\n추가 적립/할인\n이달의 카드할인 혜택\n상품별 차별점만 빠른 비교\nfacebook\ninstagram\nblog\nkakaoplus\nyoutube\nkakaostory\n회사소개\n이용약관\n개인정보처리방침\n여행약관\n해외여행자보험\n마케팅제휴\n공식인증예약센터 검색\n(주)하나투어      대표집행임원 : 조좌진      주소 : (03161) 서울특별시 종로구 인사동 5길 41\n사업자등록번호 : 102-81-39440      사업자정보확인      통신판매업신고번호 : 종로01-1806호      관광사업자 등록번호 : 제1993-000006호\n개인정보 보호책임자 : 전준형      영업보증보험 : 22억 1천만원 가입    팩스: 02-734-0392    이메일 : 15771233@hanatour.com      ☎고객센터 1577-1233\n\n※ 부득이한 사정에 의해 여행일정이 변경되는 경우 사전 동의를 받습니다.\n※ 하나투어는 개별 항공권 단독 판매에 대하여 판매중개자로서 통신판매의 당사자가 아니며 해당상품의 거래정보 및 거래등에 대해 책임을 지지 않습니다.\nCOPYRIGHTⓒ HANATOUR SERVICE INC. ALL RIGHTS RESERVED\n하나은행 구매안전 서비스\n고객님은 안전거래를 위해 현금으로 결제시\n(주)하나투어에서 가입한 하나은행으로\n구매안전서비스를 이용하실 수 있습니다.\n서비스 가입사실 확인\n브랜드스탁선정\n22년연속(2005~2026)\n브랜드스타 1위\n산업정책연구원 주관\n제9회 국가서비스대상 (2026)\n하이엔드 여행 부문 대상 (제우스월드)\n2026 뉴욕페스티벌\n대한민국 국가브랜드 대상\n업계 최초 여행사 부문 대상\n2025 대한민국 SNS 대상\n업계 최초 관광 부문 대상\n소비자중심경영(CCM)\n7회 연속 인증(2012~2024) 및\n2025년 ‘명예의 전당’ 포상\nKMAC 선정\n14년 연속(2009~2025)\n한국산업의 고객만족도 여행사부문 1위\n한국표준협회 선정\n4년 연속(2019~2025)\n한국서비스품질지수 여행사 부문 1위\n한국능률협회선정\n22년연속(2005~2026)\n브랜드파워 1위\n브랜드스탁선정\n22년연속(2005~2026)\n브랜드스타 1위\n산업정책연구원 주관\n제9회 국가서비스대상 (2026)\n하이엔드 여행 부문 대상 (제우스월드)\n2026 뉴욕페스티벌\n대한민국 국가브랜드 대상\n업계 최초 여행사 부문 대상\n2025 대한민국 SNS 대상\n업계 최초 관광 부문 대상\n소비자중심경영(CCM)\n7회 연속 인증(2012~2024) 및\n2025년 ‘명예의 전당’ 포상\nKMAC 선정\n14년 연속(2009~2025)\n한국산업의 고객만족도 여행사부문 1위\n한국표준협회 선정\n4년 연속(2019~2025)\n한국서비스품질지수 여행사 부문 1위\n한국능률협회선정\n22년연속(2005~2026)\n브랜드파워 1위\n이전보기\n다음보기\n 대한민국브랜드대상\n 국외여행상품 정보제공 표준안 참여여행사\n 개인정보보호우수사이트\n CCM\n ISMS 인증 취득\n 현금영수증 의무발행 가맹점",
+  "url": "https://cp.hanatour.com/trp/pkg/CHPC0PKG0200M200?pkgCd=ACG225261101ZEP&prePage=major-products",
+  "slug": "hana-798240f4c4cb",
+  "checkedAt": "2026-09-30"
+}

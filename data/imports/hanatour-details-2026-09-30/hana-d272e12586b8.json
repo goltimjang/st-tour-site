@@ -1,0 +1,2220 @@
+{
+  "costs": [
+    {
+      "items": [
+        "왕복항공권",
+        "관광진흥개발기금, 투어리스트 텍스, 국내공항세, 현지공항세, 전쟁보험료, 유류할증료",
+        "숙박비 : 2인1실 기준\n",
+        "관광지 입장료 : 일정표에 방문지로 표기된 관광지 포함 및 도착일 중식 포함\n",
+        "그린피, 전동카 : 2인 1카트\n",
+        "3억원 여행자보험",
+        "가이드/기사 경비"
+      ],
+      "label": "포함내역"
+    },
+    {
+      "items": [
+        "식사비 : 전일정 호텔 조식 및 중/석식 불포함(도착일 중식 1회만 제공)",
+        "최소출발미달 : 2인 출발 가능하며, 송영 추가비용 발생합니다.\n\n■ 송영 추가비용 (1인/전일정)\n- 3인1조시 1인당 $30\n- 2인1조시 1인당 $80\n\n※2인 라운드 확약 요청 시 추가요금 발생됩니다. (문의바람) 비자 발급비 : 80,000원 (미국 ESTA 발급 수수료, 전자 여권 소지자만 가능), 기타 : 가격문의 (골프장 체크인 시 포터팁 (1인당 1회당 $2 ~ $3))",
+        "개인 여행경비(물값, 자유시간시 개인비용 등)",
+        "각종 매너팁(테이블팁, 객실팁, 포터비, 마사지팁 등)",
+        "매너팁은 소비자의 자율적 선택으로 지불여부에 따른 불이익은 없습니다. "
+      ],
+      "label": "불포함내역"
+    },
+    {
+      "items": [
+        "항공리턴변경(불가), 클래스 차액 : 해당 상품은 그룹항공권 요금 기준으로 세팅이 되어있습니다.\n다만, 좌석은 실시간 상황에 따라 가능 여부 및 요금이 변동될 수 있습니다.\n상품에 대한 예약이 가능하더라도 반드시, 여행사의 진행 가능 여부에 대한 답변을 기다려 주시기 바랍니다.\n\n또한 그룹항공권 이용이 불가할 경우, 개별항공권으로 진행되며 그에 따라 금액 추가 및 사전 발권이 진행될 수 있습니다.\n발권 후 취소 시, 취소 수수료가 발생할 수 있으며 관련 내용은 사전에 고지해 드립니다.\n",
+        "객실 1인 사용료 : 요금미정, 문의바랍니다., 싱글룸비용 : 가격문의 (기간별 요금이 상이함으로 문의 부탁드립니다. )",
+        "선택관광/기항지관광/현지투어에 관한 상세 내역은 패키지 상품상세를 참고바랍니다. "
+      ],
+      "label": "선택경비"
+    }
+  ],
+  "days": [
+    {
+      "cards": [
+        {
+          "images": [
+            {
+              "alt": "주정부청사",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/10/21/10000/5241725a-86dc-4ff4-8860-f8895d0ae085.jpg"
+            },
+            {
+              "alt": "주정부 청사",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/04/26/10000/d5694a86-8e2b-4461-8935-6612d26ed19b.jpg"
+            },
+            {
+              "alt": "주정부 청사",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/04/26/10000/f0cadae6-b9f7-47c5-8552-367a6ccef1d0.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/10/21/10000/3a2d9e66-97bc-4fda-a03f-1afbf684a842.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2007/05/02/10000/313a291d-3f68-4c3b-95f4-0322f243da08.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/08/10/10000/67ee6f28-7a62-4739-ab94-96ef96568699.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/13/10000/ecf2d6ce-dbb4-4a6a-8ba0-33b6c8ed8d7b.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/04/26/10000/4593d536-9240-4576-845d-d7109831cfb3.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/04/26/10000/fdd85a97-6e88-4c26-bf0f-504698cf2d1f.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2005/06/14/10000/a24c2ce8-65b3-4078-8815-c8d8340a71bf.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/26/10000/0fe175d7-20bc-4ce0-94b8-ac3cd949746e.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/04/26/10000/a333c935-e38d-4b58-a102-03a1734dfa66.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/10/21/10000/3a2d9e66-97bc-4fda-a03f-1afbf684a842.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2007/05/02/10000/313a291d-3f68-4c3b-95f4-0322f243da08.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/08/10/10000/67ee6f28-7a62-4739-ab94-96ef96568699.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/13/10000/ecf2d6ce-dbb4-4a6a-8ba0-33b6c8ed8d7b.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/04/26/10000/4593d536-9240-4576-845d-d7109831cfb3.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/04/26/10000/fdd85a97-6e88-4c26-bf0f-504698cf2d1f.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/28/10000/e56f1f60-6ccf-4cb0-a2a5-b6ef32d339f2.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/13/10000/2f4380d7-9b6b-4056-83ff-13c173716b0d.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/26/10000/8c5beec9-1136-4391-aaf0-eb84d694724b.jpg"
+            },
+            {
+              "alt": "카카오코거리 오아후-하와이관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/7a726042-66cc-46e9-85ce-824246d09b9a.jpg"
+            },
+            {
+              "alt": "카카아코 오아후 - 하와이관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/8d8cd28c-e879-4939-bb76-a71aecaa9e30.jpg"
+            },
+            {
+              "alt": "카카아코 오아후 - 하와이관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/af9ccd2e-bf10-424c-a2c9-eb7f86e95868.jpg"
+            },
+            {
+              "alt": "알로하타워",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/26/10000/4d6e1ae3-2352-4fea-81bf-c9490b6b2d3c.jpg"
+            },
+            {
+              "alt": "알로하 타워",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/10/21/10000/92bcd7d0-670e-450d-be61-59c029b27f27.jpg"
+            },
+            {
+              "alt": "알로하타워",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/26/10000/7d12c9ec-3a9f-4abc-a126-983f22cb513b.jpg"
+            },
+            {
+              "alt": "카카오코거리 오아후-하와이관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/765bdc2f-5f4c-45e7-a501-f5fd7ce1ea5b.jpg"
+            },
+            {
+              "alt": "카카오코거리 오아후-하와이관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/e670fdc6-b6f2-4e20-800c-37f7d77da7ba.jpg"
+            },
+            {
+              "alt": "카카오코거리 오아후-하와이관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/254aaa96-dfa6-4523-980c-f717314051bd.jpg"
+            },
+            {
+              "alt": "알라모아나 비치 파크",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/04/15/10000/f98b3bec-8ae7-47bb-a1b4-ab9549507eef.jpg"
+            },
+            {
+              "alt": "알라모아나 비치 공원 - 하와이 관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/f54f2001-eee2-4927-bdb8-7d7d53b817a5.jpg"
+            },
+            {
+              "alt": "알라모아나 비치 공원 - 하와이 관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/996fc11c-a312-4943-b86a-eebcf0bc36b3.jpg"
+            },
+            {
+              "alt": "알라모아나 비치 공원 - 하와이 관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/7a026be8-78aa-4f17-b1fd-4a552df94be0.jpg"
+            },
+            {
+              "alt": "알라모아나 비치 파크",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/04/15/10000/fbc738e3-283a-4e3c-813d-24c7fe0e1592.jpg"
+            },
+            {
+              "alt": "하와이 관광청 오아후",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/01/30/10000/3b159205-edec-4d22-9793-8a762e80a7ff.jpg"
+            },
+            {
+              "alt": "알라모아나 비치 파크",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/04/15/10000/f98b3bec-8ae7-47bb-a1b4-ab9549507eef.jpg"
+            },
+            {
+              "alt": "알라모아나 비치 공원 - 하와이 관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/f54f2001-eee2-4927-bdb8-7d7d53b817a5.jpg"
+            },
+            {
+              "alt": "알라모아나 비치 공원 - 하와이 관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/996fc11c-a312-4943-b86a-eebcf0bc36b3.jpg"
+            },
+            {
+              "alt": "알라모아나 비치 공원 - 하와이 관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/7a026be8-78aa-4f17-b1fd-4a552df94be0.jpg"
+            },
+            {
+              "alt": "알라모아나 비치 파크",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/04/15/10000/fbc738e3-283a-4e3c-813d-24c7fe0e1592.jpg"
+            },
+            {
+              "alt": "하와이 관광청 오아후",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/01/30/10000/3b159205-edec-4d22-9793-8a762e80a7ff.jpg"
+            }
+          ],
+          "text": "예정 관광지\n주(州)정부청사\n상세보기\n\nHawaii State Capitol\n\n하와이 주(州)정부 청사\n\n호놀룰루에 있는 하와이 상징 주정부 청사는 1969년 3월 15일 완공된 블록식의 근대 건축물입니다. 중앙에는 천장이 없이 개방되어 있어 1층 로비에서는 하늘을 볼 수 있습니다. 건물의 곳곳에서 하와이의 상징적인 것들을 살펴볼 수 있습니다. 8개의 기둥은 하와이 8개의 섬을, 건물 주위의 물은 태평양, 작은 돌들은 하와이의 크고 작은 섬들을 의미합니다. 내부에는 주지사 및 부지사 집무실, 상,하 양원 회의장 각 의원 사무실 등이 있습니다. 1층 로비 앞에는 문둥병 환자를 위해 평생을 바친 데미안 신부의 동상이 있습니다.\n이올라니 궁전\n상세보기\n\nIolani Palace\n\n미국 유일의 궁전 건물\n\n1/3\n이전\n다음\n1882년에 지어진 미국 내 유일한 왕궁으로 하와이 왕조의 파란만장한 역사를 볼 수 있는 장소입니다. 침실, 무도회장을 비롯하여 하와이 최초 수세식 화장실 등이 잘 보존되어 당시 왕조의 문화를 배울 수 있습니다.\n카메하메하 대왕 동상\n상세보기\n\nKing Kamehameha's Statue\n\n하와이 통일의 주역, 카메하메하 대왕 동상\n\n하와이를 최초로 통일시킨 카메하메하 왕을 위하여 만든 것입니다. 동상의 목과 어깨, 팔을 감싸고 있는 5m가 넘는 긴 꽃목걸이가 눈에 띕니다. 카메하메하는 전사로 외로운 사람이라는 뜻을 가지고 있으며, 매년 6월 11일은 대왕의 탄생 기념일로 정해져 화려한 퍼레이드가 열리고 있습니다.\n카카아코 거리\n상세보기\n\n오아후섬의 새로운 트렌디 플레이스\n\n일반적인 하와이의 모습과는 달리 뉴욕에서나 볼만한 세련된 도시를 느끼고 싶다면 추천하는 곳입니다. 거리 주변으로 럭셔리 콘도들이 건축되기 시작하며, 인기가 급부상한 핫스팟입니다. 특히 하와이에서 시작한 그라피티 예술가들의 주 무대이기도 하며, 매달 40개 이상의 푸드트럭이 참여해 만드는 잇 더 스트리트(Eat the Street) 등 크고 작은 행사가 개최되고 있습니다. 유니크한 작은 상점들에서는 하와이 고유의 특산물과 현지 로컬푸드를 동시에 체험할 수 있어 많은 관광객의 발길을 잡는 매력적인 거리입니다.\n알로하 타워\n상세보기\n\n호놀룰루를 대표하는 타워\n\n옛 오아후의 관문 역할을 했던 10층에 위치한 전망대입니다. 시원하고 탁 트인 전망을 자랑하는 호놀룰루의 랜드마크라고 할 수 있습니다. 1926년에 세워져 오아후의 관문역할로, 등대로 멋진 활약을 펼쳤던 역사적인 타워입니다. 등대로서의 역할이 끝남과 동시에 알로하 타워의 인기도 같이 내려갔지만 전망대로 다시 태어나면서 다시금 명성을 얻게 되었습니다. 알로하 타워 10층에 위치한 전망대에서는 오아후의 멋진 전망을 한눈에 감상할 수 있어 인기입니다. 특히, 야경이 멋지기로 유명합니다. 토요일 저녁에는 10시까지 개방하고 있어 여유롭게 멋진 야경을 즐길 수 있습니다. 알로하 타워 바로 아래에 알로하 타워 마켓 플레이스가 있으니 토요일 저녁에 방문한다면 쇼핑과 식사를 즐긴 뒤, 저녁 무렵 알로하 타워로 올라가 야경을 감상하는 것도 좋습니다.\n카카아코 벽화\n상세보기\n\n하와이의 그래피티 아트\n\n카카아코는 하와이에서 시작한 파우와우 예술가 모임의 주본거지입니다. 이곳의 벽면은 트렌디하고 유니크한 벽화로 가득합니다. 독일, 괌 등 글로벌한 영향력으로 카카아코 거리에서 페스티벌을 개최하기도 하며, 국내 수많은 방송과 매거진의 촬영 장소로도 애용되어 독특한 하와이를 경험하고자 하는 분들께 추천합니다.\n\n알라모아나 비치 & 파크\n상세보기\n\nAlamoana Beach Park\n\n공원과 어우러진 도심의 자연 비치\n\n1/2\n이전\n다음\n자연 비치를 중심으로 공원이 자리 잡아 바비큐 등을 해 먹을 수 있으며 자연 만이 형성되어 파도가 없으며 수심이 얕아 아이들이 놀기 좋은 다운타운 근처의 비치입니다. 주말이면 많은 현지인들이 바비큐 등을 해 먹는 모습을 볼 수 있는 소박하지만 아름다운 해변입니다.",
+          "title": "예정 관광지"
+        },
+        {
+          "images": [
+            {
+              "alt": "주정부청사",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/10/21/10000/5241725a-86dc-4ff4-8860-f8895d0ae085.jpg"
+            },
+            {
+              "alt": "주정부 청사",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/04/26/10000/d5694a86-8e2b-4461-8935-6612d26ed19b.jpg"
+            },
+            {
+              "alt": "주정부 청사",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/04/26/10000/f0cadae6-b9f7-47c5-8552-367a6ccef1d0.jpg"
+            }
+          ],
+          "text": "주(州)정부청사\n상세보기\n\nHawaii State Capitol\n\n하와이 주(州)정부 청사\n\n호놀룰루에 있는 하와이 상징 주정부 청사는 1969년 3월 15일 완공된 블록식의 근대 건축물입니다. 중앙에는 천장이 없이 개방되어 있어 1층 로비에서는 하늘을 볼 수 있습니다. 건물의 곳곳에서 하와이의 상징적인 것들을 살펴볼 수 있습니다. 8개의 기둥은 하와이 8개의 섬을, 건물 주위의 물은 태평양, 작은 돌들은 하와이의 크고 작은 섬들을 의미합니다. 내부에는 주지사 및 부지사 집무실, 상,하 양원 회의장 각 의원 사무실 등이 있습니다. 1층 로비 앞에는 문둥병 환자를 위해 평생을 바친 데미안 신부의 동상이 있습니다.",
+          "title": "주(州)정부청사"
+        },
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/10/21/10000/3a2d9e66-97bc-4fda-a03f-1afbf684a842.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2007/05/02/10000/313a291d-3f68-4c3b-95f4-0322f243da08.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/08/10/10000/67ee6f28-7a62-4739-ab94-96ef96568699.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/13/10000/ecf2d6ce-dbb4-4a6a-8ba0-33b6c8ed8d7b.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/04/26/10000/4593d536-9240-4576-845d-d7109831cfb3.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/04/26/10000/fdd85a97-6e88-4c26-bf0f-504698cf2d1f.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2005/06/14/10000/a24c2ce8-65b3-4078-8815-c8d8340a71bf.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/26/10000/0fe175d7-20bc-4ce0-94b8-ac3cd949746e.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/04/26/10000/a333c935-e38d-4b58-a102-03a1734dfa66.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/10/21/10000/3a2d9e66-97bc-4fda-a03f-1afbf684a842.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2007/05/02/10000/313a291d-3f68-4c3b-95f4-0322f243da08.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/08/10/10000/67ee6f28-7a62-4739-ab94-96ef96568699.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/13/10000/ecf2d6ce-dbb4-4a6a-8ba0-33b6c8ed8d7b.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/04/26/10000/4593d536-9240-4576-845d-d7109831cfb3.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/04/26/10000/fdd85a97-6e88-4c26-bf0f-504698cf2d1f.jpg"
+            }
+          ],
+          "text": "이올라니 궁전\n상세보기\n\nIolani Palace\n\n미국 유일의 궁전 건물\n\n1/3\n이전\n다음\n1882년에 지어진 미국 내 유일한 왕궁으로 하와이 왕조의 파란만장한 역사를 볼 수 있는 장소입니다. 침실, 무도회장을 비롯하여 하와이 최초 수세식 화장실 등이 잘 보존되어 당시 왕조의 문화를 배울 수 있습니다.",
+          "title": "이올라니 궁전"
+        },
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/28/10000/e56f1f60-6ccf-4cb0-a2a5-b6ef32d339f2.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/13/10000/2f4380d7-9b6b-4056-83ff-13c173716b0d.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/26/10000/8c5beec9-1136-4391-aaf0-eb84d694724b.jpg"
+            }
+          ],
+          "text": "카메하메하 대왕 동상\n상세보기\n\nKing Kamehameha's Statue\n\n하와이 통일의 주역, 카메하메하 대왕 동상\n\n하와이를 최초로 통일시킨 카메하메하 왕을 위하여 만든 것입니다. 동상의 목과 어깨, 팔을 감싸고 있는 5m가 넘는 긴 꽃목걸이가 눈에 띕니다. 카메하메하는 전사로 외로운 사람이라는 뜻을 가지고 있으며, 매년 6월 11일은 대왕의 탄생 기념일로 정해져 화려한 퍼레이드가 열리고 있습니다.",
+          "title": "카메하메하 대왕 동상"
+        },
+        {
+          "images": [
+            {
+              "alt": "카카오코거리 오아후-하와이관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/7a726042-66cc-46e9-85ce-824246d09b9a.jpg"
+            },
+            {
+              "alt": "카카아코 오아후 - 하와이관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/8d8cd28c-e879-4939-bb76-a71aecaa9e30.jpg"
+            },
+            {
+              "alt": "카카아코 오아후 - 하와이관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/af9ccd2e-bf10-424c-a2c9-eb7f86e95868.jpg"
+            }
+          ],
+          "text": "카카아코 거리\n상세보기\n\n오아후섬의 새로운 트렌디 플레이스\n\n일반적인 하와이의 모습과는 달리 뉴욕에서나 볼만한 세련된 도시를 느끼고 싶다면 추천하는 곳입니다. 거리 주변으로 럭셔리 콘도들이 건축되기 시작하며, 인기가 급부상한 핫스팟입니다. 특히 하와이에서 시작한 그라피티 예술가들의 주 무대이기도 하며, 매달 40개 이상의 푸드트럭이 참여해 만드는 잇 더 스트리트(Eat the Street) 등 크고 작은 행사가 개최되고 있습니다. 유니크한 작은 상점들에서는 하와이 고유의 특산물과 현지 로컬푸드를 동시에 체험할 수 있어 많은 관광객의 발길을 잡는 매력적인 거리입니다.",
+          "title": "카카아코 거리"
+        },
+        {
+          "images": [
+            {
+              "alt": "알로하타워",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/26/10000/4d6e1ae3-2352-4fea-81bf-c9490b6b2d3c.jpg"
+            },
+            {
+              "alt": "알로하 타워",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/10/21/10000/92bcd7d0-670e-450d-be61-59c029b27f27.jpg"
+            },
+            {
+              "alt": "알로하타워",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/26/10000/7d12c9ec-3a9f-4abc-a126-983f22cb513b.jpg"
+            }
+          ],
+          "text": "알로하 타워\n상세보기\n\n호놀룰루를 대표하는 타워\n\n옛 오아후의 관문 역할을 했던 10층에 위치한 전망대입니다. 시원하고 탁 트인 전망을 자랑하는 호놀룰루의 랜드마크라고 할 수 있습니다. 1926년에 세워져 오아후의 관문역할로, 등대로 멋진 활약을 펼쳤던 역사적인 타워입니다. 등대로서의 역할이 끝남과 동시에 알로하 타워의 인기도 같이 내려갔지만 전망대로 다시 태어나면서 다시금 명성을 얻게 되었습니다. 알로하 타워 10층에 위치한 전망대에서는 오아후의 멋진 전망을 한눈에 감상할 수 있어 인기입니다. 특히, 야경이 멋지기로 유명합니다. 토요일 저녁에는 10시까지 개방하고 있어 여유롭게 멋진 야경을 즐길 수 있습니다. 알로하 타워 바로 아래에 알로하 타워 마켓 플레이스가 있으니 토요일 저녁에 방문한다면 쇼핑과 식사를 즐긴 뒤, 저녁 무렵 알로하 타워로 올라가 야경을 감상하는 것도 좋습니다.",
+          "title": "알로하 타워"
+        },
+        {
+          "images": [
+            {
+              "alt": "카카오코거리 오아후-하와이관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/765bdc2f-5f4c-45e7-a501-f5fd7ce1ea5b.jpg"
+            },
+            {
+              "alt": "카카오코거리 오아후-하와이관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/e670fdc6-b6f2-4e20-800c-37f7d77da7ba.jpg"
+            },
+            {
+              "alt": "카카오코거리 오아후-하와이관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/254aaa96-dfa6-4523-980c-f717314051bd.jpg"
+            }
+          ],
+          "text": "카카아코 벽화\n상세보기\n\n하와이의 그래피티 아트\n\n카카아코는 하와이에서 시작한 파우와우 예술가 모임의 주본거지입니다. 이곳의 벽면은 트렌디하고 유니크한 벽화로 가득합니다. 독일, 괌 등 글로벌한 영향력으로 카카아코 거리에서 페스티벌을 개최하기도 하며, 국내 수많은 방송과 매거진의 촬영 장소로도 애용되어 독특한 하와이를 경험하고자 하는 분들께 추천합니다.\n",
+          "title": "카카아코 벽화"
+        },
+        {
+          "images": [
+            {
+              "alt": "알라모아나 비치 파크",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/04/15/10000/f98b3bec-8ae7-47bb-a1b4-ab9549507eef.jpg"
+            },
+            {
+              "alt": "알라모아나 비치 공원 - 하와이 관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/f54f2001-eee2-4927-bdb8-7d7d53b817a5.jpg"
+            },
+            {
+              "alt": "알라모아나 비치 공원 - 하와이 관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/996fc11c-a312-4943-b86a-eebcf0bc36b3.jpg"
+            },
+            {
+              "alt": "알라모아나 비치 공원 - 하와이 관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/7a026be8-78aa-4f17-b1fd-4a552df94be0.jpg"
+            },
+            {
+              "alt": "알라모아나 비치 파크",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/04/15/10000/fbc738e3-283a-4e3c-813d-24c7fe0e1592.jpg"
+            },
+            {
+              "alt": "하와이 관광청 오아후",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/01/30/10000/3b159205-edec-4d22-9793-8a762e80a7ff.jpg"
+            },
+            {
+              "alt": "알라모아나 비치 파크",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/04/15/10000/f98b3bec-8ae7-47bb-a1b4-ab9549507eef.jpg"
+            },
+            {
+              "alt": "알라모아나 비치 공원 - 하와이 관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/f54f2001-eee2-4927-bdb8-7d7d53b817a5.jpg"
+            },
+            {
+              "alt": "알라모아나 비치 공원 - 하와이 관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/996fc11c-a312-4943-b86a-eebcf0bc36b3.jpg"
+            },
+            {
+              "alt": "알라모아나 비치 공원 - 하와이 관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/7a026be8-78aa-4f17-b1fd-4a552df94be0.jpg"
+            },
+            {
+              "alt": "알라모아나 비치 파크",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/04/15/10000/fbc738e3-283a-4e3c-813d-24c7fe0e1592.jpg"
+            },
+            {
+              "alt": "하와이 관광청 오아후",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/01/30/10000/3b159205-edec-4d22-9793-8a762e80a7ff.jpg"
+            }
+          ],
+          "text": "알라모아나 비치 & 파크\n상세보기\n\nAlamoana Beach Park\n\n공원과 어우러진 도심의 자연 비치\n\n1/2\n이전\n다음\n자연 비치를 중심으로 공원이 자리 잡아 바비큐 등을 해 먹을 수 있으며 자연 만이 형성되어 파도가 없으며 수심이 얕아 아이들이 놀기 좋은 다운타운 근처의 비치입니다. 주말이면 많은 현지인들이 바비큐 등을 해 먹는 모습을 볼 수 있는 소박하지만 아름다운 해변입니다.",
+          "title": "알라모아나 비치 & 파크"
+        },
+        {
+          "images": [
+            {
+              "alt": "폴리네시안 레지던스 와이키키 비치",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/25/10000/fcb85242-e460-4d45-be85-6a78cac363ea.jpg"
+            },
+            {
+              "alt": "폴리네시안 레지던스 와이키키 비치",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/25/10000/45dc2da1-9aee-4049-87f4-6b17185b476f.jpg"
+            },
+            {
+              "alt": "폴리네시안 레지던스 와이키키 비치",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/25/10000/6dd7d9e3-1203-4b26-8338-82d10ce98fc4.jpg"
+            },
+            {
+              "alt": "폴리네시안 레지던스 와이키키 비치",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/25/10000/4b3551ee-db8f-4e11-b37c-4e0788a69923.jpg"
+            },
+            {
+              "alt": "폴리네시안 레지던스 와이키키 비치",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/25/10000/54296840-5258-4c40-8cd1-be24e052047e.jpg"
+            },
+            {
+              "alt": "폴리네시안 레지던스 와이키키 비치",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/25/10000/22f5546b-5fe4-4f10-80ab-ef6604e012ce.jpg"
+            },
+            {
+              "alt": "폴리네시안 레지던스 와이키키 비치",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/25/10000/fcb85242-e460-4d45-be85-6a78cac363ea.jpg"
+            },
+            {
+              "alt": "폴리네시안 레지던스 와이키키 비치",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/25/10000/45dc2da1-9aee-4049-87f4-6b17185b476f.jpg"
+            },
+            {
+              "alt": "폴리네시안 레지던스 와이키키 비치",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/25/10000/6dd7d9e3-1203-4b26-8338-82d10ce98fc4.jpg"
+            },
+            {
+              "alt": "폴리네시안 레지던스 와이키키 비치",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/25/10000/4b3551ee-db8f-4e11-b37c-4e0788a69923.jpg"
+            },
+            {
+              "alt": "폴리네시안 레지던스 와이키키 비치",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/25/10000/54296840-5258-4c40-8cd1-be24e052047e.jpg"
+            },
+            {
+              "alt": "폴리네시안 레지던스 와이키키 비치",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/25/10000/22f5546b-5fe4-4f10-80ab-ef6604e012ce.jpg"
+            }
+          ],
+          "text": "POLYNESIAN RESIDENCES WAIKIKI BEACH\n\n폴리네시안 레지던시스 와이키키 비치\n\n1/2\n이전\n다음\n호텔소개\nPOLYNESIAN PLAZA 은 와이키키 해변과 가까이에 있으며 약 55개의 객실을 보유한 2성급 호텔입니다. 다양한 편의시설 및 부대시설을 갖추고 있으며 하와이 미 육군 박물관에서 도보로 약 5분 거리에 위치하고 있습니다.\n부대시설\n- 주차장\n- 야외 수영장\n- 24시간 프런트 데스크\n- 테라스\n- 세탁시설\n호텔위치\n- Waikiki 해변에서 약 700 m 거리에 위치\n- Honolulu 국제공항에서 차량으로 약 20분 거리에 위치",
+          "title": "POLYNESIAN RESIDENCES WAIKIKI BEACH"
+        }
+      ],
+      "day": "acc_con0",
+      "golf": [],
+      "hotel": [
+        "폴리네시안 레지던시스 와이키키 비치"
+      ],
+      "images": [
+        {
+          "alt": "에어프레미아",
+          "src": "https://image.hanatour.com/usr/static/img/airline/YP.png"
+        },
+        {
+          "alt": "주정부청사",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/10/21/10000/5241725a-86dc-4ff4-8860-f8895d0ae085.jpg"
+        },
+        {
+          "alt": "주정부 청사",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/04/26/10000/d5694a86-8e2b-4461-8935-6612d26ed19b.jpg"
+        },
+        {
+          "alt": "주정부 청사",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/04/26/10000/f0cadae6-b9f7-47c5-8552-367a6ccef1d0.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/10/21/10000/3a2d9e66-97bc-4fda-a03f-1afbf684a842.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2007/05/02/10000/313a291d-3f68-4c3b-95f4-0322f243da08.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/08/10/10000/67ee6f28-7a62-4739-ab94-96ef96568699.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/13/10000/ecf2d6ce-dbb4-4a6a-8ba0-33b6c8ed8d7b.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/04/26/10000/4593d536-9240-4576-845d-d7109831cfb3.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/04/26/10000/fdd85a97-6e88-4c26-bf0f-504698cf2d1f.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2005/06/14/10000/a24c2ce8-65b3-4078-8815-c8d8340a71bf.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/26/10000/0fe175d7-20bc-4ce0-94b8-ac3cd949746e.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/04/26/10000/a333c935-e38d-4b58-a102-03a1734dfa66.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/10/21/10000/3a2d9e66-97bc-4fda-a03f-1afbf684a842.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2007/05/02/10000/313a291d-3f68-4c3b-95f4-0322f243da08.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/08/10/10000/67ee6f28-7a62-4739-ab94-96ef96568699.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/13/10000/ecf2d6ce-dbb4-4a6a-8ba0-33b6c8ed8d7b.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/04/26/10000/4593d536-9240-4576-845d-d7109831cfb3.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/04/26/10000/fdd85a97-6e88-4c26-bf0f-504698cf2d1f.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/28/10000/e56f1f60-6ccf-4cb0-a2a5-b6ef32d339f2.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/13/10000/2f4380d7-9b6b-4056-83ff-13c173716b0d.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/26/10000/8c5beec9-1136-4391-aaf0-eb84d694724b.jpg"
+        },
+        {
+          "alt": "카카오코거리 오아후-하와이관광청",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/7a726042-66cc-46e9-85ce-824246d09b9a.jpg"
+        },
+        {
+          "alt": "카카아코 오아후 - 하와이관광청",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/8d8cd28c-e879-4939-bb76-a71aecaa9e30.jpg"
+        },
+        {
+          "alt": "카카아코 오아후 - 하와이관광청",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/af9ccd2e-bf10-424c-a2c9-eb7f86e95868.jpg"
+        },
+        {
+          "alt": "알로하타워",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/26/10000/4d6e1ae3-2352-4fea-81bf-c9490b6b2d3c.jpg"
+        },
+        {
+          "alt": "알로하 타워",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/10/21/10000/92bcd7d0-670e-450d-be61-59c029b27f27.jpg"
+        },
+        {
+          "alt": "알로하타워",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/26/10000/7d12c9ec-3a9f-4abc-a126-983f22cb513b.jpg"
+        },
+        {
+          "alt": "카카오코거리 오아후-하와이관광청",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/765bdc2f-5f4c-45e7-a501-f5fd7ce1ea5b.jpg"
+        },
+        {
+          "alt": "카카오코거리 오아후-하와이관광청",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/e670fdc6-b6f2-4e20-800c-37f7d77da7ba.jpg"
+        },
+        {
+          "alt": "카카오코거리 오아후-하와이관광청",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/254aaa96-dfa6-4523-980c-f717314051bd.jpg"
+        },
+        {
+          "alt": "알라모아나 비치 파크",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/04/15/10000/f98b3bec-8ae7-47bb-a1b4-ab9549507eef.jpg"
+        },
+        {
+          "alt": "알라모아나 비치 공원 - 하와이 관광청",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/f54f2001-eee2-4927-bdb8-7d7d53b817a5.jpg"
+        },
+        {
+          "alt": "알라모아나 비치 공원 - 하와이 관광청",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/996fc11c-a312-4943-b86a-eebcf0bc36b3.jpg"
+        },
+        {
+          "alt": "알라모아나 비치 공원 - 하와이 관광청",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/7a026be8-78aa-4f17-b1fd-4a552df94be0.jpg"
+        },
+        {
+          "alt": "알라모아나 비치 파크",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/04/15/10000/fbc738e3-283a-4e3c-813d-24c7fe0e1592.jpg"
+        },
+        {
+          "alt": "하와이 관광청 오아후",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/01/30/10000/3b159205-edec-4d22-9793-8a762e80a7ff.jpg"
+        },
+        {
+          "alt": "알라모아나 비치 파크",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/04/15/10000/f98b3bec-8ae7-47bb-a1b4-ab9549507eef.jpg"
+        },
+        {
+          "alt": "알라모아나 비치 공원 - 하와이 관광청",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/f54f2001-eee2-4927-bdb8-7d7d53b817a5.jpg"
+        },
+        {
+          "alt": "알라모아나 비치 공원 - 하와이 관광청",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/996fc11c-a312-4943-b86a-eebcf0bc36b3.jpg"
+        },
+        {
+          "alt": "알라모아나 비치 공원 - 하와이 관광청",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/7a026be8-78aa-4f17-b1fd-4a552df94be0.jpg"
+        },
+        {
+          "alt": "알라모아나 비치 파크",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/04/15/10000/fbc738e3-283a-4e3c-813d-24c7fe0e1592.jpg"
+        },
+        {
+          "alt": "하와이 관광청 오아후",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/01/30/10000/3b159205-edec-4d22-9793-8a762e80a7ff.jpg"
+        },
+        {
+          "alt": "폴리네시안 레지던스 와이키키 비치",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/25/10000/fcb85242-e460-4d45-be85-6a78cac363ea.jpg"
+        },
+        {
+          "alt": "폴리네시안 레지던스 와이키키 비치",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/25/10000/45dc2da1-9aee-4049-87f4-6b17185b476f.jpg"
+        },
+        {
+          "alt": "폴리네시안 레지던스 와이키키 비치",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/25/10000/6dd7d9e3-1203-4b26-8338-82d10ce98fc4.jpg"
+        },
+        {
+          "alt": "폴리네시안 레지던스 와이키키 비치",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/25/10000/4b3551ee-db8f-4e11-b37c-4e0788a69923.jpg"
+        },
+        {
+          "alt": "폴리네시안 레지던스 와이키키 비치",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/25/10000/54296840-5258-4c40-8cd1-be24e052047e.jpg"
+        },
+        {
+          "alt": "폴리네시안 레지던스 와이키키 비치",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/25/10000/22f5546b-5fe4-4f10-80ab-ef6604e012ce.jpg"
+        },
+        {
+          "alt": "폴리네시안 레지던스 와이키키 비치",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/25/10000/fcb85242-e460-4d45-be85-6a78cac363ea.jpg"
+        },
+        {
+          "alt": "폴리네시안 레지던스 와이키키 비치",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/25/10000/45dc2da1-9aee-4049-87f4-6b17185b476f.jpg"
+        },
+        {
+          "alt": "폴리네시안 레지던스 와이키키 비치",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/25/10000/6dd7d9e3-1203-4b26-8338-82d10ce98fc4.jpg"
+        },
+        {
+          "alt": "폴리네시안 레지던스 와이키키 비치",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/25/10000/4b3551ee-db8f-4e11-b37c-4e0788a69923.jpg"
+        },
+        {
+          "alt": "폴리네시안 레지던스 와이키키 비치",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/25/10000/54296840-5258-4c40-8cd1-be24e052047e.jpg"
+        },
+        {
+          "alt": "폴리네시안 레지던스 와이키키 비치",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/25/10000/22f5546b-5fe4-4f10-80ab-ef6604e012ce.jpg"
+        }
+      ],
+      "meals": "[조식] 기내식 [중식] 현지식[한식] [석식] 불포함",
+      "stops": [
+        {
+          "text": "인천",
+          "title": "인천"
+        },
+        {
+          "meal": "인천-호놀룰루로 이동",
+          "text": "인천-호놀룰루로 이동\n\n- 기내식 2회 [석식/조식]\n- 시차정보 : 한국보다 19시간 느림"
+        },
+        {
+          "meal": "조식 (기내식)",
+          "text": "조식 (기내식)"
+        },
+        {
+          "text": "호놀룰루",
+          "title": "호놀룰루"
+        },
+        {
+          "text": "입국절차 주의사항 안내\n\n※ 입국절차 강화로 많은 시간이 소요될 수 있습니다.\n※ 상세 사항은 출발 전 상담원을 통해 안내드립니다.",
+          "title": "입국절차 주의사항 안내"
+        },
+        {
+          "text": "착륙 후 안내사항\n\n☞메인 터미널로 이동 > 2층으로 내려가 외국인(Visitor) 심사대에서 입국심사\n☞1층으로 내려가 짐을 찾은 후 > 세관검사\n☞두군데의 출구 중 > 좌측 그룹게이트(Tour Group)로 나가 가이드 미팅\n☞좌측 출구로 나가셔야 가이드를 바로 만나실 수 있으며, 우측으로 나가신 경우에는 돌아가시면 됩니다.\n\n",
+          "title": "착륙 후 안내사항"
+        },
+        {
+          "text": "미팅 안내사항\n\n☞ 피 켓 : 하나투어\n☞ 하나투어 다른 상품코드 손님들과 합류 행사합니다.",
+          "title": "미팅 안내사항"
+        },
+        {
+          "text": "미팅 후 호놀룰루 시티투어 출발",
+          "title": "미팅 후 호놀룰루 시티투어 출발"
+        },
+        {
+          "meal": "중식 (현지식[한식])",
+          "text": "중식 (현지식[한식])"
+        },
+        {
+          "text": "예정 관광지\n주(州)정부청사\n상세보기\n\nHawaii State Capitol\n\n하와이 주(州)정부 청사\n\n호놀룰루에 있는 하와이 상징 주정부 청사는 1969년 3월 15일 완공된 블록식의 근대 건축물입니다. 중앙에는 천장이 없이 개방되어 있어 1층 로비에서는 하늘을 볼 수 있습니다. 건물의 곳곳에서 하와이의 상징적인 것들을 살펴볼 수 있습니다. 8개의 기둥은 하와이 8개의 섬을, 건물 주위의 물은 태평양, 작은 돌들은 하와이의 크고 작은 섬들을 의미합니다. 내부에는 주지사 및 부지사 집무실, 상,하 양원 회의장 각 의원 사무실 등이 있습니다. 1층 로비 앞에는 문둥병 환자를 위해 평생을 바친 데미안 신부의 동상이 있습니다.\n이올라니 궁전\n상세보기\n\nIolani Palace\n\n미국 유일의 궁전 건물\n\n1/3\n이전\n다음\n1882년에 지어진 미국 내 유일한 왕궁으로 하와이 왕조의 파란만장한 역사를 볼 수 있는 장소입니다. 침실, 무도회장을 비롯하여 하와이 최초 수세식 화장실 등이 잘 보존되어 당시 왕조의 문화를 배울 수 있습니다.\n카메하메하 대왕 동상\n상세보기\n\nKing Kamehameha's Statue\n\n하와이 통일의 주역, 카메하메하 대왕 동상\n\n하와이를 최초로 통일시킨 카메하메하 왕을 위하여 만든 것입니다. 동상의 목과 어깨, 팔을 감싸고 있는 5m가 넘는 긴 꽃목걸이가 눈에 띕니다. 카메하메하는 전사로 외로운 사람이라는 뜻을 가지고 있으며, 매년 6월 11일은 대왕의 탄생 기념일로 정해져 화려한 퍼레이드가 열리고 있습니다.\n카카아코 거리\n상세보기\n\n오아후섬의 새로운 트렌디 플레이스\n\n일반적인 하와이의 모습과는 달리 뉴욕에서나 볼만한 세련된 도시를 느끼고 싶다면 추천하는 곳입니다. 거리 주변으로 럭셔리 콘도들이 건축되기 시작하며, 인기가 급부상한 핫스팟입니다. 특히 하와이에서 시작한 그라피티 예술가들의 주 무대이기도 하며, 매달 40개 이상의 푸드트럭이 참여해 만드는 잇 더 스트리트(Eat the Street) 등 크고 작은 행사가 개최되고 있습니다. 유니크한 작은 상점들에서는 하와이 고유의 특산물과 현지 로컬푸드를 동시에 체험할 수 있어 많은 관광객의 발길을 잡는 매력적인 거리입니다.\n알로하 타워\n상세보기\n\n호놀룰루를 대표하는 타워\n\n옛 오아후의 관문 역할을 했던 10층에 위치한 전망대입니다. 시원하고 탁 트인 전망을 자랑하는 호놀룰루의 랜드마크라고 할 수 있습니다. 1926년에 세워져 오아후의 관문역할로, 등대로 멋진 활약을 펼쳤던 역사적인 타워입니다. 등대로서의 역할이 끝남과 동시에 알로하 타워의 인기도 같이 내려갔지만 전망대로 다시 태어나면서 다시금 명성을 얻게 되었습니다. 알로하 타워 10층에 위치한 전망대에서는 오아후의 멋진 전망을 한눈에 감상할 수 있어 인기입니다. 특히, 야경이 멋지기로 유명합니다. 토요일 저녁에는 10시까지 개방하고 있어 여유롭게 멋진 야경을 즐길 수 있습니다. 알로하 타워 바로 아래에 알로하 타워 마켓 플레이스가 있으니 토요일 저녁에 방문한다면 쇼핑과 식사를 즐긴 뒤, 저녁 무렵 알로하 타워로 올라가 야경을 감상하는 것도 좋습니다.\n카카아코 벽화\n상세보기\n\n하와이의 그래피티 아트\n\n카카아코는 하와이에서 시작한 파우와우 예술가 모임의 주본거지입니다. 이곳의 벽면은 트렌디하고 유니크한 벽화로 가득합니다. 독일, 괌 등 글로벌한 영향력으로 카카아코 거리에서 페스티벌을 개최하기도 하며, 국내 수많은 방송과 매거진의 촬영 장소로도 애용되어 독특한 하와이를 경험하고자 하는 분들께 추천합니다.\n\n알라모아나 비치 & 파크\n상세보기\n\nAlamoana Beach Park\n\n공원과 어우러진 도심의 자연 비치\n\n1/2\n이전\n다음\n자연 비치를 중심으로 공원이 자리 잡아 바비큐 등을 해 먹을 수 있으며 자연 만이 형성되어 파도가 없으며 수심이 얕아 아이들이 놀기 좋은 다운타운 근처의 비치입니다. 주말이면 많은 현지인들이 바비큐 등을 해 먹는 모습을 볼 수 있는 소박하지만 아름다운 해변입니다."
+        },
+        {
+          "text": "체크인 후 자유일정",
+          "title": "체크인 후 자유일정"
+        },
+        {
+          "text": "POLYNESIAN RESIDENCES WAIKIKI BEACH\n\n폴리네시안 레지던시스 와이키키 비치\n\n1/2\n이전\n다음\n호텔소개\nPOLYNESIAN PLAZA 은 와이키키 해변과 가까이에 있으며 약 55개의 객실을 보유한 2성급 호텔입니다. 다양한 편의시설 및 부대시설을 갖추고 있으며 하와이 미 육군 박물관에서 도보로 약 5분 거리에 위치하고 있습니다.\n부대시설\n- 주차장\n- 야외 수영장\n- 24시간 프런트 데스크\n- 테라스\n- 세탁시설\n호텔위치\n- Waikiki 해변에서 약 700 m 거리에 위치\n- Honolulu 국제공항에서 차량으로 약 20분 거리에 위치"
+        },
+        {
+          "meal": "석식 (불포함)",
+          "text": "석식 (불포함)"
+        }
+      ],
+      "text": "에어프레미아\n08시간 20분 YP0151\n\n22:50\n2026.11.01(일)\n서울 ICN 출발\n12:10\n2026.11.01(일)\n호놀룰루 HNL 도착\n인천\n\n인천-호놀룰루로 이동\n\n- 기내식 2회 [석식/조식]\n- 시차정보 : 한국보다 19시간 느림\n\n조식 (기내식)\n\n호놀룰루\n입국절차 주의사항 안내\n\n※ 입국절차 강화로 많은 시간이 소요될 수 있습니다.\n※ 상세 사항은 출발 전 상담원을 통해 안내드립니다.\n\n착륙 후 안내사항\n\n☞메인 터미널로 이동 > 2층으로 내려가 외국인(Visitor) 심사대에서 입국심사\n☞1층으로 내려가 짐을 찾은 후 > 세관검사\n☞두군데의 출구 중 > 좌측 그룹게이트(Tour Group)로 나가 가이드 미팅\n☞좌측 출구로 나가셔야 가이드를 바로 만나실 수 있으며, 우측으로 나가신 경우에는 돌아가시면 됩니다.\n\n\n\n미팅 안내사항\n\n☞ 피 켓 : 하나투어\n☞ 하나투어 다른 상품코드 손님들과 합류 행사합니다.\n\n미팅 후 호놀룰루 시티투어 출발\n\n중식 (현지식[한식])\n\n예정 관광지\n주(州)정부청사\n상세보기\n\nHawaii State Capitol\n\n하와이 주(州)정부 청사\n\n호놀룰루에 있는 하와이 상징 주정부 청사는 1969년 3월 15일 완공된 블록식의 근대 건축물입니다. 중앙에는 천장이 없이 개방되어 있어 1층 로비에서는 하늘을 볼 수 있습니다. 건물의 곳곳에서 하와이의 상징적인 것들을 살펴볼 수 있습니다. 8개의 기둥은 하와이 8개의 섬을, 건물 주위의 물은 태평양, 작은 돌들은 하와이의 크고 작은 섬들을 의미합니다. 내부에는 주지사 및 부지사 집무실, 상,하 양원 회의장 각 의원 사무실 등이 있습니다. 1층 로비 앞에는 문둥병 환자를 위해 평생을 바친 데미안 신부의 동상이 있습니다.\n이올라니 궁전\n상세보기\n\nIolani Palace\n\n미국 유일의 궁전 건물\n\n1/3\n이전\n다음\n1882년에 지어진 미국 내 유일한 왕궁으로 하와이 왕조의 파란만장한 역사를 볼 수 있는 장소입니다. 침실, 무도회장을 비롯하여 하와이 최초 수세식 화장실 등이 잘 보존되어 당시 왕조의 문화를 배울 수 있습니다.\n카메하메하 대왕 동상\n상세보기\n\nKing Kamehameha's Statue\n\n하와이 통일의 주역, 카메하메하 대왕 동상\n\n하와이를 최초로 통일시킨 카메하메하 왕을 위하여 만든 것입니다. 동상의 목과 어깨, 팔을 감싸고 있는 5m가 넘는 긴 꽃목걸이가 눈에 띕니다. 카메하메하는 전사로 외로운 사람이라는 뜻을 가지고 있으며, 매년 6월 11일은 대왕의 탄생 기념일로 정해져 화려한 퍼레이드가 열리고 있습니다.\n카카아코 거리\n상세보기\n\n오아후섬의 새로운 트렌디 플레이스\n\n일반적인 하와이의 모습과는 달리 뉴욕에서나 볼만한 세련된 도시를 느끼고 싶다면 추천하는 곳입니다. 거리 주변으로 럭셔리 콘도들이 건축되기 시작하며, 인기가 급부상한 핫스팟입니다. 특히 하와이에서 시작한 그라피티 예술가들의 주 무대이기도 하며, 매달 40개 이상의 푸드트럭이 참여해 만드는 잇 더 스트리트(Eat the Street) 등 크고 작은 행사가 개최되고 있습니다. 유니크한 작은 상점들에서는 하와이 고유의 특산물과 현지 로컬푸드를 동시에 체험할 수 있어 많은 관광객의 발길을 잡는 매력적인 거리입니다.\n알로하 타워\n상세보기\n\n호놀룰루를 대표하는 타워\n\n옛 오아후의 관문 역할을 했던 10층에 위치한 전망대입니다. 시원하고 탁 트인 전망을 자랑하는 호놀룰루의 랜드마크라고 할 수 있습니다. 1926년에 세워져 오아후의 관문역할로, 등대로 멋진 활약을 펼쳤던 역사적인 타워입니다. 등대로서의 역할이 끝남과 동시에 알로하 타워의 인기도 같이 내려갔지만 전망대로 다시 태어나면서 다시금 명성을 얻게 되었습니다. 알로하 타워 10층에 위치한 전망대에서는 오아후의 멋진 전망을 한눈에 감상할 수 있어 인기입니다. 특히, 야경이 멋지기로 유명합니다. 토요일 저녁에는 10시까지 개방하고 있어 여유롭게 멋진 야경을 즐길 수 있습니다. 알로하 타워 바로 아래에 알로하 타워 마켓 플레이스가 있으니 토요일 저녁에 방문한다면 쇼핑과 식사를 즐긴 뒤, 저녁 무렵 알로하 타워로 올라가 야경을 감상하는 것도 좋습니다.\n카카아코 벽화\n상세보기\n\n하와이의 그래피티 아트\n\n카카아코는 하와이에서 시작한 파우와우 예술가 모임의 주본거지입니다. 이곳의 벽면은 트렌디하고 유니크한 벽화로 가득합니다. 독일, 괌 등 글로벌한 영향력으로 카카아코 거리에서 페스티벌을 개최하기도 하며, 국내 수많은 방송과 매거진의 촬영 장소로도 애용되어 독특한 하와이를 경험하고자 하는 분들께 추천합니다.\n\n알라모아나 비치 & 파크\n상세보기\n\nAlamoana Beach Park\n\n공원과 어우러진 도심의 자연 비치\n\n1/2\n이전\n다음\n자연 비치를 중심으로 공원이 자리 잡아 바비큐 등을 해 먹을 수 있으며 자연 만이 형성되어 파도가 없으며 수심이 얕아 아이들이 놀기 좋은 다운타운 근처의 비치입니다. 주말이면 많은 현지인들이 바비큐 등을 해 먹는 모습을 볼 수 있는 소박하지만 아름다운 해변입니다.\n\n체크인 후 자유일정\nPOLYNESIAN RESIDENCES WAIKIKI BEACH\n\n폴리네시안 레지던시스 와이키키 비치\n\n1/2\n이전\n다음\n호텔소개\nPOLYNESIAN PLAZA 은 와이키키 해변과 가까이에 있으며 약 55개의 객실을 보유한 2성급 호텔입니다. 다양한 편의시설 및 부대시설을 갖추고 있으며 하와이 미 육군 박물관에서 도보로 약 5분 거리에 위치하고 있습니다.\n부대시설\n- 주차장\n- 야외 수영장\n- 24시간 프런트 데스크\n- 테라스\n- 세탁시설\n호텔위치\n- Waikiki 해변에서 약 700 m 거리에 위치\n- Honolulu 국제공항에서 차량으로 약 20분 거리에 위치\n\n석식 (불포함)\n\n호텔\n총 1개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n폴리네시안 레지던시스 와이키키 비치 \n\nPolynesian Residences Waikiki Beach상세보기\n\n식사\n[조식] 기내식 [중식] 현지식[한식] [석식] 불포함"
+    },
+    {
+      "cards": [
+        {
+          "images": [
+            {
+              "alt": "하와이 프린스 골프클럽",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/07/02/10000/780202d5-a5a6-48e2-8b43-6f2985c9f7d8.jpg"
+            },
+            {
+              "alt": "하와이 프린스 골프클럽",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/07/02/10000/7c0b1288-420c-4a70-8abc-c1b53655d445.jpg"
+            },
+            {
+              "alt": "하와이 프린스 골프클럽",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/07/02/10000/92a30f85-4575-41f4-b5ce-df2dc25362e8.jpg"
+            }
+          ],
+          "text": "HAWAII PRINCE GOLF CLUB\n상세보기\n하와이 프린스 골프 클럽 코스정보\n1992년에 오픈된 코스로 아놀드파머(Arnold Palmer)와 에드씨(Ed Seay)에 의해 설계된 하와이의 유일한 27홀의 골프코스이다. 와이키키 내 호텔 중 하나인 하와이프린스 호텔의 소유이다. 일반적으로 리조트 골프코스들은 리조트와 골프장이 바로 옆 혹은 주변에 위치해 있어 리조트에 숙박을 하고 근처의 골프코스를 이용하는 개념이지만 이 곳은 독특하게 호텔은 와이키키에 위치하고 골프장은 드라이브로 40여분을 가야만 골프장에 닿게 되어 일반적인 리조트 골프장과는 조금 색다른 개념으로 이해해야 한다.\n\n아놀드파머는 오랫동안 사탕수수밭이었던 와이아네 지역의 270 에이커 면적을 믿을수 없을 만큼 아름다운 골프장으로 변신시켰다. 그로 인해 농지와 평지는 골프의 스릴을 주는 언덕과 내리막길로 변하고 사탕수수밭은 야자수 나무들로 둔갑하여 하얀 모래 벙커 90개와 10개의 연못으로 이루어진 페어웨이의 장애물이 되었다.\n\n그리고 그곳에 골프장은 프론트와 백, 9홀과 9홀 합해서 18홀로 구성되어야 한다는 고정관념을 깨고 그곳에 각각 9홀로 구성된 A, B, C코스로 나누어진 전체 27 홀의 골프장을 완성시켰다. 세개의 9홀 코스로 이루어져 있는 하와이프린스 코스에서는 세개의 9홀 중 두개를 선택해서 18홀 게임을 즐길수 있다. 3개의 코스는 믹스 앤 매치 플레이 방법으로 라운딩할수 있으니 결국 6개의 색다른 분위기의 코스를 만나 볼 수 있는 셈이다.(A&B, B&C, A&C)\n\n가장 긴 코스는 7255야드로 B&C의 조화이다. 이 코스는 전에 사탕수수밭이었던 지역이며 이곳에서 와이아네 마운틴의 멋진 전경도 볼수있다. 10개의 아름다운 강들은 잘 보존되어 있는 푸르름을 보호한다. 하와이 프린스 골프 클럽은 더 골프 채널 아마추어 투어장소중 한곳이기도 하고 클럽에선 여러종류의 토너먼트 게임과 슈퍼 프로 암 골프대회가 개최된다. 하와이프린스 코스는 골프초보자나 중급수준 이상인 전문골퍼 급 등 두클래스의 골퍼들에게 모두 추천되어지는 인기코스이다.\n\n한글명 : 프린스 골프클럽\n\n홈페이지 : http://www.princeresortshawaii.com/HPH/golf/\n\n홀(HOLE) : 27\n\n위치정보 : Hawaii Prince Hotel에서 서쪽으로 40분 거리에 위치\n\n파(PAR) : 108\n\n야드(YARD) : 9313",
+          "title": "HAWAII PRINCE GOLF CLUB"
+        },
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/02/10000/cb17c486-7f0f-4073-aed0-0f8c8f59eca0.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/02/10000/825fe4e1-d5be-4729-88e5-85d0a0db0a2e.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/29/10000/491e7aa7-754d-454a-b13b-fb232a4bb40a.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/11/14/10000/1e1a6a14-045f-493a-b139-51b667da3574.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/11/14/10000/200d9660-1896-4cae-aa14-a2c83ca01e63.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/11/14/10000/85654499-4782-4fd5-a448-1adb7c74be28.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/29/10000/fac8cb06-af51-454a-a729-68e3c2d0fba7.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/11/15/10000/ad948166-a39f-4e39-aed3-1adfc130f500.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/11/15/10000/352d4011-f5f8-4d2c-bf37-a2a264f15161.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/ca37e886-28ce-48ef-aa69-5ea517891ebb.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/82f9885d-c472-453b-9095-abb2f2fa46ed.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/30/10000/439e9b79-c053-4927-8c3d-c79eeadd3baf.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/10/14/10000/642999ca-ba9a-4ac5-9683-e5843b59b636.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/28/10000/2244b1f4-1d8e-4c51-bb99-14c49f4ed7e2.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/28/10000/94cb2eef-f5e0-49ce-80ee-d4f80ab3f8cc.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/29/10000/a85342d5-2536-4088-ba86-52c6bf3f3192.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/28/10000/5c38e469-89b5-468e-a9ea-f1ddf3e5da87.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/29/10000/a3ac94ac-5bde-48e0-9ed3-aec83779c592.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/04/30/10000/5c1c64fb-736a-4ac0-85b0-85b802be6a2f.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/d5b262b0-d6d4-4290-a72c-e3fd2d8071cf.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/04/27/10000/652dbd92-90e4-48db-b676-8378f1c5557b.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/04/30/10000/f332caee-5fc2-4dec-9a3c-edd7ae61b0e5.png"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/04/30/10000/aa674458-cb7e-4a58-9020-366058b15446.png"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/8f6d313e-8906-4b90-ab84-3597279b17c1.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/04/30/10000/5c1c64fb-736a-4ac0-85b0-85b802be6a2f.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/d5b262b0-d6d4-4290-a72c-e3fd2d8071cf.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/04/27/10000/652dbd92-90e4-48db-b676-8378f1c5557b.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/04/30/10000/f332caee-5fc2-4dec-9a3c-edd7ae61b0e5.png"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/04/30/10000/aa674458-cb7e-4a58-9020-366058b15446.png"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/8f6d313e-8906-4b90-ab84-3597279b17c1.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/29/10000/ad32d385-ee04-437b-8e2d-249d230524dd.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/29/10000/caefcf42-a27a-4124-8511-63c6f773fa23.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/29/10000/7fe40084-8cfe-4838-8f9e-3a437f3045bc.jpg"
+            }
+          ],
+          "text": "하와이 먹거리 추천 #로컬의 맛\n지오반니 새우 트럭\n상세보기\n\n하와이의 명물 새우 트럭\n\n노스 쇼어는 새우 양식장이 많아 새우 요리를 하는 트럭이 굉장히 다양합니다. 그중에서도 가장 인기가 많은 곳은 지오반니 새우 트럭입니다. 겉모습은 다른 곳들과 차이점이 없지만 입에 넣는 순간 지오반니 새우 트럭이 왜 유명한지 금세 깨닫게 됩니다. 오일로 볶은 가장 기본적인 슈림프 스캄피, 매콤한 양념의 핫&스파이시 슈림프, 레몬 소스를 첨가한 레몬 버터 슈림프 이렇게 3가지 메뉴가 있으며, 언제나 많은 사람들이 몰려 있습니다. 오동통한 새우의 식감을 잘 살렸으며 새우 비린내도 잘 잡아 누구나 만족하는 음식을 맛볼 수 있습니다. 저렴하고 간편하게 한 끼를 해결할 수 있으니 노스 쇼어에 방문하면 드셔보시기 바랍니다.\n치즈케이크 팩토리 The Cheesecake Factory\n상세보기\n\nThe Cheesecake Factory\n\n다양한 종류의 치즈케이크를 맛볼 수 있는 가게\n\n치즈케이크를 좋아하는 사람이라면 꼭 한번 가볼 만한 곳입니다. 50여 종류의 치즈케이크와 200여 가지가 넘는 다양한 메뉴 셀렉션이 있어 골라 먹을 수 있는 재미가 있습니다. 또한 이곳에서는 케이크뿐만 아니라 식사도 함께 할 수 있습니다.\n호놀룰루 쿠키 컴퍼니 Honolulu Cookie Company\n상세보기\n\n선물하기에도 좋은 쿠키 전문점\n\n수많은 종류의 쿠키 중에 파인애플 모양의 쿠기가 가장 인기인 쿠키 컴퍼니의 쿠키는 선물로도 제격입니다. 망고, 마카다미아 너츠, 코나커피, 파인애플, 초콜릿 등 상상이상의 다양한 재료로 만들어졌습니다. 맛이 궁금하다면 마련된 시식코너에서 자신의 입맛에 딱 맞는 쿠키를 고를 수도 있습니다. 쿠키는 제한없이 맛 볼 수 있으며 선물용으로도 제격입니다. 매장은 하얏트 리젠시 와이키키, 알라 모아나 센터, 로열 하와이안 센터를 비롯해 각종 쇼핑센터에서 쉽게 찾을 수 있습니다.\n아일랜드 빈티지 커피 Island Vintage Coffee\n상세보기\n\n100% 하와이안 코나 커피 전문점\n\n100% 하와이안 코나 커피 브랜드 아일랜드 빈티지 커피는 전 세계의 커피를 사랑하는 모든 사람들을 위해 준비된 곳입니다. 전통적인 재배 방식을 고수하며, 매일 로스팅을 진행하여 신선함을 유지하고 최상급 원두를 이용한 최고의 향과 맛으로 전 세계 관광객과 현지인들의 사랑을 받고 있습니다. 아사이가 들어 있는 인기 만점 영양 간식인 아사이볼도 놓치지 마세요 :-)\n레오나즈 베이커리 Leonard's Bakery\n상세보기\n\nLeonard's Bakery\n\n폭신하고 달콤해! ‘말라사다 도넛’\n\n1952년, 포르투갈식 도넛 ‘말라사다’를 파는 레오나즈 베이커리가 하와이에 문을 열었습니다. 말라사다(Malasada)는 ‘살짝 구운’이라는 뜻의 포르투갈어. 갓 구워 따끈따끈한 도넛에 설탕 가루를 솔솔 뿌려 만든 말라사다는 도톰하고 동그란 모양에 겉에 입힌 설탕까지 언뜻 우리나라 전통시장에서 파는 도넛을 닮았습니다. 슈크림을 채운 오리지널에 코코넛 크림, 초콜릿, 바나나 커스터드, 시나몬 등 종류도 다양합니다.\n마츠모토 쉐이브 아이스 Matsumoto Shave Ice\n상세보기\n\nMatsumoto Grocery Store\n\n형형색색 로컬 빙수, ‘쉐이브 아이스’\n\n하와이안이 더위를 식히기 위해 즐겨 먹는 로컬 빙수로 즉석에서 곱게 간 얼음 위에 빨강, 노랑, 파랑 등 총천연색 과일 시럽을 뿌려 과즙 함량을 높이고 청량감을 더했습니다. 수십 종류의 알록달록한 시럽이 있어 취향대로 고르면 됩니다. 현지인들은 주로 팥이나 아이스크림을 토핑 해 먹습니다. 마을 곳곳에 쉐이브 아이스 집이 숨어 있지만, 오바마 전 미국 대통령이 하와이에 올 때마다 들렀다는 마츠모토 쉐이브 아이스가 가장 유명합니다.\n에그 앤 띵스 Eggs'n Things\n상세보기\n\nEggs'n Things\n\n맛있는 팬케이크와 오믈렛을 맛볼 수 있는 레스토랑\n\n1/2\n이전\n다음\n1974년 오픈한 오래된 음식점으로 팬케이크와 오믈렛 그리고 와플 등의 메뉴를 제공하고 있습니다. 팬케이크는 두께가 두툼하고 다양한 토핑 재료가 있어 골라 먹는 재미도 있습니다.\n하와이 열대과일\n상세보기\n\n하와이에서 꼭 맛봐야 할 별미\n\n망고, 바나나, 파인애플 등 한국인에게 익숙한 열대 과일뿐만 아니라 구아바, 코코넛, 브레드 후르츠, 슈가 애플 등 국내에서는 접하기 힘든 희귀한 과일까지 다양하게 접할 수 있습니다.",
+          "title": "하와이 먹거리 추천 #로컬의 맛"
+        },
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/02/10000/cb17c486-7f0f-4073-aed0-0f8c8f59eca0.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/02/10000/825fe4e1-d5be-4729-88e5-85d0a0db0a2e.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/29/10000/491e7aa7-754d-454a-b13b-fb232a4bb40a.jpg"
+            }
+          ],
+          "text": "지오반니 새우 트럭\n상세보기\n\n하와이의 명물 새우 트럭\n\n노스 쇼어는 새우 양식장이 많아 새우 요리를 하는 트럭이 굉장히 다양합니다. 그중에서도 가장 인기가 많은 곳은 지오반니 새우 트럭입니다. 겉모습은 다른 곳들과 차이점이 없지만 입에 넣는 순간 지오반니 새우 트럭이 왜 유명한지 금세 깨닫게 됩니다. 오일로 볶은 가장 기본적인 슈림프 스캄피, 매콤한 양념의 핫&스파이시 슈림프, 레몬 소스를 첨가한 레몬 버터 슈림프 이렇게 3가지 메뉴가 있으며, 언제나 많은 사람들이 몰려 있습니다. 오동통한 새우의 식감을 잘 살렸으며 새우 비린내도 잘 잡아 누구나 만족하는 음식을 맛볼 수 있습니다. 저렴하고 간편하게 한 끼를 해결할 수 있으니 노스 쇼어에 방문하면 드셔보시기 바랍니다.",
+          "title": "지오반니 새우 트럭"
+        },
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/11/14/10000/1e1a6a14-045f-493a-b139-51b667da3574.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/11/14/10000/200d9660-1896-4cae-aa14-a2c83ca01e63.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/11/14/10000/85654499-4782-4fd5-a448-1adb7c74be28.jpg"
+            }
+          ],
+          "text": "치즈케이크 팩토리 The Cheesecake Factory\n상세보기\n\nThe Cheesecake Factory\n\n다양한 종류의 치즈케이크를 맛볼 수 있는 가게\n\n치즈케이크를 좋아하는 사람이라면 꼭 한번 가볼 만한 곳입니다. 50여 종류의 치즈케이크와 200여 가지가 넘는 다양한 메뉴 셀렉션이 있어 골라 먹을 수 있는 재미가 있습니다. 또한 이곳에서는 케이크뿐만 아니라 식사도 함께 할 수 있습니다.",
+          "title": "치즈케이크 팩토리 The Cheesecake Factory"
+        },
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/29/10000/fac8cb06-af51-454a-a729-68e3c2d0fba7.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/11/15/10000/ad948166-a39f-4e39-aed3-1adfc130f500.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/11/15/10000/352d4011-f5f8-4d2c-bf37-a2a264f15161.jpg"
+            }
+          ],
+          "text": "호놀룰루 쿠키 컴퍼니 Honolulu Cookie Company\n상세보기\n\n선물하기에도 좋은 쿠키 전문점\n\n수많은 종류의 쿠키 중에 파인애플 모양의 쿠기가 가장 인기인 쿠키 컴퍼니의 쿠키는 선물로도 제격입니다. 망고, 마카다미아 너츠, 코나커피, 파인애플, 초콜릿 등 상상이상의 다양한 재료로 만들어졌습니다. 맛이 궁금하다면 마련된 시식코너에서 자신의 입맛에 딱 맞는 쿠키를 고를 수도 있습니다. 쿠키는 제한없이 맛 볼 수 있으며 선물용으로도 제격입니다. 매장은 하얏트 리젠시 와이키키, 알라 모아나 센터, 로열 하와이안 센터를 비롯해 각종 쇼핑센터에서 쉽게 찾을 수 있습니다.",
+          "title": "호놀룰루 쿠키 컴퍼니 Honolulu Cookie Company"
+        },
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/ca37e886-28ce-48ef-aa69-5ea517891ebb.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/82f9885d-c472-453b-9095-abb2f2fa46ed.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/30/10000/439e9b79-c053-4927-8c3d-c79eeadd3baf.jpg"
+            }
+          ],
+          "text": "아일랜드 빈티지 커피 Island Vintage Coffee\n상세보기\n\n100% 하와이안 코나 커피 전문점\n\n100% 하와이안 코나 커피 브랜드 아일랜드 빈티지 커피는 전 세계의 커피를 사랑하는 모든 사람들을 위해 준비된 곳입니다. 전통적인 재배 방식을 고수하며, 매일 로스팅을 진행하여 신선함을 유지하고 최상급 원두를 이용한 최고의 향과 맛으로 전 세계 관광객과 현지인들의 사랑을 받고 있습니다. 아사이가 들어 있는 인기 만점 영양 간식인 아사이볼도 놓치지 마세요 :-)",
+          "title": "아일랜드 빈티지 커피 Island Vintage Coffee"
+        },
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/10/14/10000/642999ca-ba9a-4ac5-9683-e5843b59b636.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/28/10000/2244b1f4-1d8e-4c51-bb99-14c49f4ed7e2.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/28/10000/94cb2eef-f5e0-49ce-80ee-d4f80ab3f8cc.jpg"
+            }
+          ],
+          "text": "레오나즈 베이커리 Leonard's Bakery\n상세보기\n\nLeonard's Bakery\n\n폭신하고 달콤해! ‘말라사다 도넛’\n\n1952년, 포르투갈식 도넛 ‘말라사다’를 파는 레오나즈 베이커리가 하와이에 문을 열었습니다. 말라사다(Malasada)는 ‘살짝 구운’이라는 뜻의 포르투갈어. 갓 구워 따끈따끈한 도넛에 설탕 가루를 솔솔 뿌려 만든 말라사다는 도톰하고 동그란 모양에 겉에 입힌 설탕까지 언뜻 우리나라 전통시장에서 파는 도넛을 닮았습니다. 슈크림을 채운 오리지널에 코코넛 크림, 초콜릿, 바나나 커스터드, 시나몬 등 종류도 다양합니다.",
+          "title": "레오나즈 베이커리 Leonard's Bakery"
+        },
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/29/10000/a85342d5-2536-4088-ba86-52c6bf3f3192.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/28/10000/5c38e469-89b5-468e-a9ea-f1ddf3e5da87.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/29/10000/a3ac94ac-5bde-48e0-9ed3-aec83779c592.jpg"
+            }
+          ],
+          "text": "마츠모토 쉐이브 아이스 Matsumoto Shave Ice\n상세보기\n\nMatsumoto Grocery Store\n\n형형색색 로컬 빙수, ‘쉐이브 아이스’\n\n하와이안이 더위를 식히기 위해 즐겨 먹는 로컬 빙수로 즉석에서 곱게 간 얼음 위에 빨강, 노랑, 파랑 등 총천연색 과일 시럽을 뿌려 과즙 함량을 높이고 청량감을 더했습니다. 수십 종류의 알록달록한 시럽이 있어 취향대로 고르면 됩니다. 현지인들은 주로 팥이나 아이스크림을 토핑 해 먹습니다. 마을 곳곳에 쉐이브 아이스 집이 숨어 있지만, 오바마 전 미국 대통령이 하와이에 올 때마다 들렀다는 마츠모토 쉐이브 아이스가 가장 유명합니다.",
+          "title": "마츠모토 쉐이브 아이스 Matsumoto Shave Ice"
+        },
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/04/30/10000/5c1c64fb-736a-4ac0-85b0-85b802be6a2f.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/d5b262b0-d6d4-4290-a72c-e3fd2d8071cf.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/04/27/10000/652dbd92-90e4-48db-b676-8378f1c5557b.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/04/30/10000/f332caee-5fc2-4dec-9a3c-edd7ae61b0e5.png"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/04/30/10000/aa674458-cb7e-4a58-9020-366058b15446.png"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/8f6d313e-8906-4b90-ab84-3597279b17c1.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/04/30/10000/5c1c64fb-736a-4ac0-85b0-85b802be6a2f.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/d5b262b0-d6d4-4290-a72c-e3fd2d8071cf.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/04/27/10000/652dbd92-90e4-48db-b676-8378f1c5557b.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/04/30/10000/f332caee-5fc2-4dec-9a3c-edd7ae61b0e5.png"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/04/30/10000/aa674458-cb7e-4a58-9020-366058b15446.png"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/8f6d313e-8906-4b90-ab84-3597279b17c1.jpg"
+            }
+          ],
+          "text": "에그 앤 띵스 Eggs'n Things\n상세보기\n\nEggs'n Things\n\n맛있는 팬케이크와 오믈렛을 맛볼 수 있는 레스토랑\n\n1/2\n이전\n다음\n1974년 오픈한 오래된 음식점으로 팬케이크와 오믈렛 그리고 와플 등의 메뉴를 제공하고 있습니다. 팬케이크는 두께가 두툼하고 다양한 토핑 재료가 있어 골라 먹는 재미도 있습니다.",
+          "title": "에그 앤 띵스 Eggs'n Things"
+        },
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/29/10000/ad32d385-ee04-437b-8e2d-249d230524dd.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/29/10000/caefcf42-a27a-4124-8511-63c6f773fa23.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/29/10000/7fe40084-8cfe-4838-8f9e-3a437f3045bc.jpg"
+            }
+          ],
+          "text": "하와이 열대과일\n상세보기\n\n하와이에서 꼭 맛봐야 할 별미\n\n망고, 바나나, 파인애플 등 한국인에게 익숙한 열대 과일뿐만 아니라 구아바, 코코넛, 브레드 후르츠, 슈가 애플 등 국내에서는 접하기 힘든 희귀한 과일까지 다양하게 접할 수 있습니다.",
+          "title": "하와이 열대과일"
+        }
+      ],
+      "day": "acc_con1",
+      "golf": [
+        "프린스 골프클럽"
+      ],
+      "hotel": [
+        "폴리네시안 레지던시스 와이키키 비치"
+      ],
+      "images": [
+        {
+          "alt": "하와이 프린스 골프클럽",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/07/02/10000/780202d5-a5a6-48e2-8b43-6f2985c9f7d8.jpg"
+        },
+        {
+          "alt": "하와이 프린스 골프클럽",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/07/02/10000/7c0b1288-420c-4a70-8abc-c1b53655d445.jpg"
+        },
+        {
+          "alt": "하와이 프린스 골프클럽",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/07/02/10000/92a30f85-4575-41f4-b5ce-df2dc25362e8.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/02/10000/cb17c486-7f0f-4073-aed0-0f8c8f59eca0.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/02/10000/825fe4e1-d5be-4729-88e5-85d0a0db0a2e.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/29/10000/491e7aa7-754d-454a-b13b-fb232a4bb40a.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/11/14/10000/1e1a6a14-045f-493a-b139-51b667da3574.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/11/14/10000/200d9660-1896-4cae-aa14-a2c83ca01e63.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/11/14/10000/85654499-4782-4fd5-a448-1adb7c74be28.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/29/10000/fac8cb06-af51-454a-a729-68e3c2d0fba7.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/11/15/10000/ad948166-a39f-4e39-aed3-1adfc130f500.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/11/15/10000/352d4011-f5f8-4d2c-bf37-a2a264f15161.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/ca37e886-28ce-48ef-aa69-5ea517891ebb.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/82f9885d-c472-453b-9095-abb2f2fa46ed.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/30/10000/439e9b79-c053-4927-8c3d-c79eeadd3baf.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/10/14/10000/642999ca-ba9a-4ac5-9683-e5843b59b636.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/28/10000/2244b1f4-1d8e-4c51-bb99-14c49f4ed7e2.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/28/10000/94cb2eef-f5e0-49ce-80ee-d4f80ab3f8cc.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/29/10000/a85342d5-2536-4088-ba86-52c6bf3f3192.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/28/10000/5c38e469-89b5-468e-a9ea-f1ddf3e5da87.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/29/10000/a3ac94ac-5bde-48e0-9ed3-aec83779c592.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/04/30/10000/5c1c64fb-736a-4ac0-85b0-85b802be6a2f.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/d5b262b0-d6d4-4290-a72c-e3fd2d8071cf.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/04/27/10000/652dbd92-90e4-48db-b676-8378f1c5557b.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/04/30/10000/f332caee-5fc2-4dec-9a3c-edd7ae61b0e5.png"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/04/30/10000/aa674458-cb7e-4a58-9020-366058b15446.png"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/8f6d313e-8906-4b90-ab84-3597279b17c1.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/04/30/10000/5c1c64fb-736a-4ac0-85b0-85b802be6a2f.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/d5b262b0-d6d4-4290-a72c-e3fd2d8071cf.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/04/27/10000/652dbd92-90e4-48db-b676-8378f1c5557b.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/04/30/10000/f332caee-5fc2-4dec-9a3c-edd7ae61b0e5.png"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/04/30/10000/aa674458-cb7e-4a58-9020-366058b15446.png"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/8f6d313e-8906-4b90-ab84-3597279b17c1.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/29/10000/ad32d385-ee04-437b-8e2d-249d230524dd.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/29/10000/caefcf42-a27a-4124-8511-63c6f773fa23.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/06/29/10000/7fe40084-8cfe-4838-8f9e-3a437f3045bc.jpg"
+        }
+      ],
+      "meals": "[조식] 불포함 [중식] 불포함 [석식] 불포함",
+      "stops": [
+        {
+          "text": "호놀룰루",
+          "title": "호놀룰루"
+        },
+        {
+          "meal": "조식 (불포함)",
+          "text": "조식 (불포함)"
+        },
+        {
+          "text": "호텔 조식 후 골프장으로 이동\n\n☞합류 서틀버스 이용 (이동 소요시간 : 약 40분)\n☞골프장 이동을 도와드리는 가이드는 하나투어 가이드가 아닌 골프전문업체 가이드입니다.\n☞골프장 체크인은 티타임 약 30분 전으로, 호텔에서 골프장까지는 평균 40~50분 정도 소요되기 때문에 약 1시간 10분에서 1시간 20분 정도 전에 미팅이 진행됩니다.\n☞미팅 시간은 현지 상황에 따라 변경될 수 있습니다.",
+          "title": "호텔 조식 후 골프장으로 이동"
+        },
+        {
+          "text": "오전 라운드 18홀\n\n☞하와이 프린스GC 18홀 라운드 진행됩니다.\n☞TEE OFF TIME : 예약 이후 안내드리겠습니다.\n\n※골프장 순서는 변경될 수 있습니다.",
+          "title": "오전 라운드 18홀"
+        },
+        {
+          "text": "HAWAII PRINCE GOLF CLUB\n상세보기\n하와이 프린스 골프 클럽 코스정보\n1992년에 오픈된 코스로 아놀드파머(Arnold Palmer)와 에드씨(Ed Seay)에 의해 설계된 하와이의 유일한 27홀의 골프코스이다. 와이키키 내 호텔 중 하나인 하와이프린스 호텔의 소유이다. 일반적으로 리조트 골프코스들은 리조트와 골프장이 바로 옆 혹은 주변에 위치해 있어 리조트에 숙박을 하고 근처의 골프코스를 이용하는 개념이지만 이 곳은 독특하게 호텔은 와이키키에 위치하고 골프장은 드라이브로 40여분을 가야만 골프장에 닿게 되어 일반적인 리조트 골프장과는 조금 색다른 개념으로 이해해야 한다.\n\n아놀드파머는 오랫동안 사탕수수밭이었던 와이아네 지역의 270 에이커 면적을 믿을수 없을 만큼 아름다운 골프장으로 변신시켰다. 그로 인해 농지와 평지는 골프의 스릴을 주는 언덕과 내리막길로 변하고 사탕수수밭은 야자수 나무들로 둔갑하여 하얀 모래 벙커 90개와 10개의 연못으로 이루어진 페어웨이의 장애물이 되었다.\n\n그리고 그곳에 골프장은 프론트와 백, 9홀과 9홀 합해서 18홀로 구성되어야 한다는 고정관념을 깨고 그곳에 각각 9홀로 구성된 A, B, C코스로 나누어진 전체 27 홀의 골프장을 완성시켰다. 세개의 9홀 코스로 이루어져 있는 하와이프린스 코스에서는 세개의 9홀 중 두개를 선택해서 18홀 게임을 즐길수 있다. 3개의 코스는 믹스 앤 매치 플레이 방법으로 라운딩할수 있으니 결국 6개의 색다른 분위기의 코스를 만나 볼 수 있는 셈이다.(A&B, B&C, A&C)\n\n가장 긴 코스는 7255야드로 B&C의 조화이다. 이 코스는 전에 사탕수수밭이었던 지역이며 이곳에서 와이아네 마운틴의 멋진 전경도 볼수있다. 10개의 아름다운 강들은 잘 보존되어 있는 푸르름을 보호한다. 하와이 프린스 골프 클럽은 더 골프 채널 아마추어 투어장소중 한곳이기도 하고 클럽에선 여러종류의 토너먼트 게임과 슈퍼 프로 암 골프대회가 개최된다. 하와이프린스 코스는 골프초보자나 중급수준 이상인 전문골퍼 급 등 두클래스의 골퍼들에게 모두 추천되어지는 인기코스이다.\n\n한글명 : 프린스 골프클럽\n\n홈페이지 : http://www.princeresortshawaii.com/HPH/golf/\n\n홀(HOLE) : 27\n\n위치정보 : Hawaii Prince Hotel에서 서쪽으로 40분 거리에 위치\n\n파(PAR) : 108\n\n야드(YARD) : 9313"
+        },
+        {
+          "meal": "중식 (불포함)",
+          "text": "중식 (불포함)"
+        },
+        {
+          "text": "라운드 후 자유일정",
+          "title": "라운드 후 자유일정"
+        },
+        {
+          "text": "하와이 먹거리 추천 #로컬의 맛\n지오반니 새우 트럭\n상세보기\n\n하와이의 명물 새우 트럭\n\n노스 쇼어는 새우 양식장이 많아 새우 요리를 하는 트럭이 굉장히 다양합니다. 그중에서도 가장 인기가 많은 곳은 지오반니 새우 트럭입니다. 겉모습은 다른 곳들과 차이점이 없지만 입에 넣는 순간 지오반니 새우 트럭이 왜 유명한지 금세 깨닫게 됩니다. 오일로 볶은 가장 기본적인 슈림프 스캄피, 매콤한 양념의 핫&스파이시 슈림프, 레몬 소스를 첨가한 레몬 버터 슈림프 이렇게 3가지 메뉴가 있으며, 언제나 많은 사람들이 몰려 있습니다. 오동통한 새우의 식감을 잘 살렸으며 새우 비린내도 잘 잡아 누구나 만족하는 음식을 맛볼 수 있습니다. 저렴하고 간편하게 한 끼를 해결할 수 있으니 노스 쇼어에 방문하면 드셔보시기 바랍니다.\n치즈케이크 팩토리 The Cheesecake Factory\n상세보기\n\nThe Cheesecake Factory\n\n다양한 종류의 치즈케이크를 맛볼 수 있는 가게\n\n치즈케이크를 좋아하는 사람이라면 꼭 한번 가볼 만한 곳입니다. 50여 종류의 치즈케이크와 200여 가지가 넘는 다양한 메뉴 셀렉션이 있어 골라 먹을 수 있는 재미가 있습니다. 또한 이곳에서는 케이크뿐만 아니라 식사도 함께 할 수 있습니다.\n호놀룰루 쿠키 컴퍼니 Honolulu Cookie Company\n상세보기\n\n선물하기에도 좋은 쿠키 전문점\n\n수많은 종류의 쿠키 중에 파인애플 모양의 쿠기가 가장 인기인 쿠키 컴퍼니의 쿠키는 선물로도 제격입니다. 망고, 마카다미아 너츠, 코나커피, 파인애플, 초콜릿 등 상상이상의 다양한 재료로 만들어졌습니다. 맛이 궁금하다면 마련된 시식코너에서 자신의 입맛에 딱 맞는 쿠키를 고를 수도 있습니다. 쿠키는 제한없이 맛 볼 수 있으며 선물용으로도 제격입니다. 매장은 하얏트 리젠시 와이키키, 알라 모아나 센터, 로열 하와이안 센터를 비롯해 각종 쇼핑센터에서 쉽게 찾을 수 있습니다.\n아일랜드 빈티지 커피 Island Vintage Coffee\n상세보기\n\n100% 하와이안 코나 커피 전문점\n\n100% 하와이안 코나 커피 브랜드 아일랜드 빈티지 커피는 전 세계의 커피를 사랑하는 모든 사람들을 위해 준비된 곳입니다. 전통적인 재배 방식을 고수하며, 매일 로스팅을 진행하여 신선함을 유지하고 최상급 원두를 이용한 최고의 향과 맛으로 전 세계 관광객과 현지인들의 사랑을 받고 있습니다. 아사이가 들어 있는 인기 만점 영양 간식인 아사이볼도 놓치지 마세요 :-)\n레오나즈 베이커리 Leonard's Bakery\n상세보기\n\nLeonard's Bakery\n\n폭신하고 달콤해! ‘말라사다 도넛’\n\n1952년, 포르투갈식 도넛 ‘말라사다’를 파는 레오나즈 베이커리가 하와이에 문을 열었습니다. 말라사다(Malasada)는 ‘살짝 구운’이라는 뜻의 포르투갈어. 갓 구워 따끈따끈한 도넛에 설탕 가루를 솔솔 뿌려 만든 말라사다는 도톰하고 동그란 모양에 겉에 입힌 설탕까지 언뜻 우리나라 전통시장에서 파는 도넛을 닮았습니다. 슈크림을 채운 오리지널에 코코넛 크림, 초콜릿, 바나나 커스터드, 시나몬 등 종류도 다양합니다.\n마츠모토 쉐이브 아이스 Matsumoto Shave Ice\n상세보기\n\nMatsumoto Grocery Store\n\n형형색색 로컬 빙수, ‘쉐이브 아이스’\n\n하와이안이 더위를 식히기 위해 즐겨 먹는 로컬 빙수로 즉석에서 곱게 간 얼음 위에 빨강, 노랑, 파랑 등 총천연색 과일 시럽을 뿌려 과즙 함량을 높이고 청량감을 더했습니다. 수십 종류의 알록달록한 시럽이 있어 취향대로 고르면 됩니다. 현지인들은 주로 팥이나 아이스크림을 토핑 해 먹습니다. 마을 곳곳에 쉐이브 아이스 집이 숨어 있지만, 오바마 전 미국 대통령이 하와이에 올 때마다 들렀다는 마츠모토 쉐이브 아이스가 가장 유명합니다.\n에그 앤 띵스 Eggs'n Things\n상세보기\n\nEggs'n Things\n\n맛있는 팬케이크와 오믈렛을 맛볼 수 있는 레스토랑\n\n1/2\n이전\n다음\n1974년 오픈한 오래된 음식점으로 팬케이크와 오믈렛 그리고 와플 등의 메뉴를 제공하고 있습니다. 팬케이크는 두께가 두툼하고 다양한 토핑 재료가 있어 골라 먹는 재미도 있습니다.\n하와이 열대과일\n상세보기\n\n하와이에서 꼭 맛봐야 할 별미\n\n망고, 바나나, 파인애플 등 한국인에게 익숙한 열대 과일뿐만 아니라 구아바, 코코넛, 브레드 후르츠, 슈가 애플 등 국내에서는 접하기 힘든 희귀한 과일까지 다양하게 접할 수 있습니다."
+        },
+        {
+          "meal": "석식 (불포함)",
+          "text": "석식 (불포함)"
+        }
+      ],
+      "text": "호놀룰루\n\n조식 (불포함)\n\n호텔 조식 후 골프장으로 이동\n\n☞합류 서틀버스 이용 (이동 소요시간 : 약 40분)\n☞골프장 이동을 도와드리는 가이드는 하나투어 가이드가 아닌 골프전문업체 가이드입니다.\n☞골프장 체크인은 티타임 약 30분 전으로, 호텔에서 골프장까지는 평균 40~50분 정도 소요되기 때문에 약 1시간 10분에서 1시간 20분 정도 전에 미팅이 진행됩니다.\n☞미팅 시간은 현지 상황에 따라 변경될 수 있습니다.\n\n오전 라운드 18홀\n\n☞하와이 프린스GC 18홀 라운드 진행됩니다.\n☞TEE OFF TIME : 예약 이후 안내드리겠습니다.\n\n※골프장 순서는 변경될 수 있습니다.\n\nHAWAII PRINCE GOLF CLUB\n상세보기\n하와이 프린스 골프 클럽 코스정보\n1992년에 오픈된 코스로 아놀드파머(Arnold Palmer)와 에드씨(Ed Seay)에 의해 설계된 하와이의 유일한 27홀의 골프코스이다. 와이키키 내 호텔 중 하나인 하와이프린스 호텔의 소유이다. 일반적으로 리조트 골프코스들은 리조트와 골프장이 바로 옆 혹은 주변에 위치해 있어 리조트에 숙박을 하고 근처의 골프코스를 이용하는 개념이지만 이 곳은 독특하게 호텔은 와이키키에 위치하고 골프장은 드라이브로 40여분을 가야만 골프장에 닿게 되어 일반적인 리조트 골프장과는 조금 색다른 개념으로 이해해야 한다.\n\n아놀드파머는 오랫동안 사탕수수밭이었던 와이아네 지역의 270 에이커 면적을 믿을수 없을 만큼 아름다운 골프장으로 변신시켰다. 그로 인해 농지와 평지는 골프의 스릴을 주는 언덕과 내리막길로 변하고 사탕수수밭은 야자수 나무들로 둔갑하여 하얀 모래 벙커 90개와 10개의 연못으로 이루어진 페어웨이의 장애물이 되었다.\n\n그리고 그곳에 골프장은 프론트와 백, 9홀과 9홀 합해서 18홀로 구성되어야 한다는 고정관념을 깨고 그곳에 각각 9홀로 구성된 A, B, C코스로 나누어진 전체 27 홀의 골프장을 완성시켰다. 세개의 9홀 코스로 이루어져 있는 하와이프린스 코스에서는 세개의 9홀 중 두개를 선택해서 18홀 게임을 즐길수 있다. 3개의 코스는 믹스 앤 매치 플레이 방법으로 라운딩할수 있으니 결국 6개의 색다른 분위기의 코스를 만나 볼 수 있는 셈이다.(A&B, B&C, A&C)\n\n가장 긴 코스는 7255야드로 B&C의 조화이다. 이 코스는 전에 사탕수수밭이었던 지역이며 이곳에서 와이아네 마운틴의 멋진 전경도 볼수있다. 10개의 아름다운 강들은 잘 보존되어 있는 푸르름을 보호한다. 하와이 프린스 골프 클럽은 더 골프 채널 아마추어 투어장소중 한곳이기도 하고 클럽에선 여러종류의 토너먼트 게임과 슈퍼 프로 암 골프대회가 개최된다. 하와이프린스 코스는 골프초보자나 중급수준 이상인 전문골퍼 급 등 두클래스의 골퍼들에게 모두 추천되어지는 인기코스이다.\n\n한글명 : 프린스 골프클럽\n\n홈페이지 : http://www.princeresortshawaii.com/HPH/golf/\n\n홀(HOLE) : 27\n\n위치정보 : Hawaii Prince Hotel에서 서쪽으로 40분 거리에 위치\n\n파(PAR) : 108\n\n야드(YARD) : 9313\n\n중식 (불포함)\n\n라운드 후 자유일정\n하와이 먹거리 추천 #로컬의 맛\n지오반니 새우 트럭\n상세보기\n\n하와이의 명물 새우 트럭\n\n노스 쇼어는 새우 양식장이 많아 새우 요리를 하는 트럭이 굉장히 다양합니다. 그중에서도 가장 인기가 많은 곳은 지오반니 새우 트럭입니다. 겉모습은 다른 곳들과 차이점이 없지만 입에 넣는 순간 지오반니 새우 트럭이 왜 유명한지 금세 깨닫게 됩니다. 오일로 볶은 가장 기본적인 슈림프 스캄피, 매콤한 양념의 핫&스파이시 슈림프, 레몬 소스를 첨가한 레몬 버터 슈림프 이렇게 3가지 메뉴가 있으며, 언제나 많은 사람들이 몰려 있습니다. 오동통한 새우의 식감을 잘 살렸으며 새우 비린내도 잘 잡아 누구나 만족하는 음식을 맛볼 수 있습니다. 저렴하고 간편하게 한 끼를 해결할 수 있으니 노스 쇼어에 방문하면 드셔보시기 바랍니다.\n치즈케이크 팩토리 The Cheesecake Factory\n상세보기\n\nThe Cheesecake Factory\n\n다양한 종류의 치즈케이크를 맛볼 수 있는 가게\n\n치즈케이크를 좋아하는 사람이라면 꼭 한번 가볼 만한 곳입니다. 50여 종류의 치즈케이크와 200여 가지가 넘는 다양한 메뉴 셀렉션이 있어 골라 먹을 수 있는 재미가 있습니다. 또한 이곳에서는 케이크뿐만 아니라 식사도 함께 할 수 있습니다.\n호놀룰루 쿠키 컴퍼니 Honolulu Cookie Company\n상세보기\n\n선물하기에도 좋은 쿠키 전문점\n\n수많은 종류의 쿠키 중에 파인애플 모양의 쿠기가 가장 인기인 쿠키 컴퍼니의 쿠키는 선물로도 제격입니다. 망고, 마카다미아 너츠, 코나커피, 파인애플, 초콜릿 등 상상이상의 다양한 재료로 만들어졌습니다. 맛이 궁금하다면 마련된 시식코너에서 자신의 입맛에 딱 맞는 쿠키를 고를 수도 있습니다. 쿠키는 제한없이 맛 볼 수 있으며 선물용으로도 제격입니다. 매장은 하얏트 리젠시 와이키키, 알라 모아나 센터, 로열 하와이안 센터를 비롯해 각종 쇼핑센터에서 쉽게 찾을 수 있습니다.\n아일랜드 빈티지 커피 Island Vintage Coffee\n상세보기\n\n100% 하와이안 코나 커피 전문점\n\n100% 하와이안 코나 커피 브랜드 아일랜드 빈티지 커피는 전 세계의 커피를 사랑하는 모든 사람들을 위해 준비된 곳입니다. 전통적인 재배 방식을 고수하며, 매일 로스팅을 진행하여 신선함을 유지하고 최상급 원두를 이용한 최고의 향과 맛으로 전 세계 관광객과 현지인들의 사랑을 받고 있습니다. 아사이가 들어 있는 인기 만점 영양 간식인 아사이볼도 놓치지 마세요 :-)\n레오나즈 베이커리 Leonard's Bakery\n상세보기\n\nLeonard's Bakery\n\n폭신하고 달콤해! ‘말라사다 도넛’\n\n1952년, 포르투갈식 도넛 ‘말라사다’를 파는 레오나즈 베이커리가 하와이에 문을 열었습니다. 말라사다(Malasada)는 ‘살짝 구운’이라는 뜻의 포르투갈어. 갓 구워 따끈따끈한 도넛에 설탕 가루를 솔솔 뿌려 만든 말라사다는 도톰하고 동그란 모양에 겉에 입힌 설탕까지 언뜻 우리나라 전통시장에서 파는 도넛을 닮았습니다. 슈크림을 채운 오리지널에 코코넛 크림, 초콜릿, 바나나 커스터드, 시나몬 등 종류도 다양합니다.\n마츠모토 쉐이브 아이스 Matsumoto Shave Ice\n상세보기\n\nMatsumoto Grocery Store\n\n형형색색 로컬 빙수, ‘쉐이브 아이스’\n\n하와이안이 더위를 식히기 위해 즐겨 먹는 로컬 빙수로 즉석에서 곱게 간 얼음 위에 빨강, 노랑, 파랑 등 총천연색 과일 시럽을 뿌려 과즙 함량을 높이고 청량감을 더했습니다. 수십 종류의 알록달록한 시럽이 있어 취향대로 고르면 됩니다. 현지인들은 주로 팥이나 아이스크림을 토핑 해 먹습니다. 마을 곳곳에 쉐이브 아이스 집이 숨어 있지만, 오바마 전 미국 대통령이 하와이에 올 때마다 들렀다는 마츠모토 쉐이브 아이스가 가장 유명합니다.\n에그 앤 띵스 Eggs'n Things\n상세보기\n\nEggs'n Things\n\n맛있는 팬케이크와 오믈렛을 맛볼 수 있는 레스토랑\n\n1/2\n이전\n다음\n1974년 오픈한 오래된 음식점으로 팬케이크와 오믈렛 그리고 와플 등의 메뉴를 제공하고 있습니다. 팬케이크는 두께가 두툼하고 다양한 토핑 재료가 있어 골라 먹는 재미도 있습니다.\n하와이 열대과일\n상세보기\n\n하와이에서 꼭 맛봐야 할 별미\n\n망고, 바나나, 파인애플 등 한국인에게 익숙한 열대 과일뿐만 아니라 구아바, 코코넛, 브레드 후르츠, 슈가 애플 등 국내에서는 접하기 힘든 희귀한 과일까지 다양하게 접할 수 있습니다.\n\n석식 (불포함)\n\n호텔\n총 1개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n폴리네시안 레지던시스 와이키키 비치 \n\nPolynesian Residences Waikiki Beach상세보기\n\n골프\n총 1개의 예정 골프장이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n프린스 골프클럽\n\nHAWAII PRINCE GOLF CLUB상세보기\n\n식사\n[조식] 불포함 [중식] 불포함 [석식] 불포함"
+    },
+    {
+      "cards": [
+        {
+          "images": [
+            {
+              "alt": "와이켈레 골프클럽",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/07/02/10000/5399a9bf-74ef-498b-8f3e-5765567b5971.jpg"
+            },
+            {
+              "alt": "와이켈레 골프클럽",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/07/02/10000/4b8c3732-4e13-4d61-bc46-f2b36e0bc6a2.jpg"
+            },
+            {
+              "alt": "와이켈레 골프클럽",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/07/02/10000/182c3b45-45d0-42a1-8ce1-bb8d5dbcf5e1.jpg"
+            }
+          ],
+          "text": "WAIKELE GOLF CLUB\n상세보기\n골프장소개\n와이켈레 골프클럽은 와이키키에 머물고 있는 가족여행객들에게 최상의 결정이다. 가족들이 오아후섬의 유일한 대형 아웃렛 매장인 근처 와이켈레 프리미어 팩토리 아웃렛(Waikele Premier Factory Outlet)에서 쇼핑을 즐기는 동안 골퍼들은 최고의 게임을 즐길 수 있다. 와이켈레 골프 코스는 더 골프 채널 아마추어 투어(The Golf Amateur tour)가 열리는 코스이다.\n\n국제적으로 유명한 골프 코스 설계자인 테드 로빈슨(Ted Robinson)에 의해 디자인되었으며 와이키키에서 겨우 30분 정도의 드라이브 거리면 닿는 와이켈레라는 신흥주택지역과 아웃렛 쇼핑타운 안, 언덕중턱에 위치해 있어 이국적이고 아름다운 분위기를 느끼게 해 준다.\n\n골프코스에서는 진주만과 파란 태평양을 볼 수 있어 오아후섬에서 몇 안되는 바다전망을 가진 코스이기도 하다. 1993년에 오픈되었고 특별한 지형으로 다듬어진 와이켈레 골프 클럽은 그리 긴 코스는 아니지만 언덕의 굴곡과 연못 등을 이용한 난이도를 살린 코스로 샷의 별미를 느낄수 있는 아기자기한 맛이 있으며 초보자서부터 프로 골퍼들까지 전 레밸의 골퍼들에게 도전과 흥미를 함께 제공한다.\n\n코스에서는 평화롭게 자리한 진주만 (Pearl Harbor) 과 코발트색의 태평양 바다 전경도 즐길수 있고 멀리 다이아몬드헤드, 코올라우산맥, 와이아네 마운틴까지 골고루 주변경관과 멋진 전망을 즐길수 있다.\n\n와이켈레에서는 4번(par 4), 17번(par 3), 그리고 18번(par 4) 홀이 특히 흥미롭다. 4번홀은 330 yards 의 길이이며 폭포와 연못이 앞쪽으로 그리고 벙커가 뒷편으로 조화롭게 배치되어 있어 쉽지 않은 코스이다. 202 yards 길이의 17번홀은 굴곡있는 언덕이 배치되어 있고 왼편으로 연못이 장애물로 막혀 있다. Par 4의 18홀은 392 yards 길이이며 오른편으로 연못과 폭포의 장애물을 두고 난이도가 높은 홀로 알려져 있다. 전반적으로 초보에서 상급의 골퍼들이 모두 즐길수 있는 코스이며 최근에 새로 리노베이션 되어 더욱 깔끔하고 정돈된 코스이기도 하다.\n\n*클럽하우스와 프로샵,레스토랑, 샤워와 락커가 있으며 바다전망을 즐길수 있다 (GPS 시스템은 없음)\n\n한글명 : 와이켈레 골프클럽\n\n홀(HOLE) : 18\n\n파(PAR) : 72\n\n야드(YARD) : 6663",
+          "title": "WAIKELE GOLF CLUB"
+        },
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/21/10000/5fc8119e-a0d2-4cc3-bb47-e74af1a801d7.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/13/10000/15572a4a-c879-40b3-84d5-f9425c1d9502.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/10/14/10000/78c914c1-697e-47ca-b6fc-9034c96af801.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/12/11/10000/dd369e60-12c2-47e8-b0da-4a8f19d69210.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/12/11/10000/63e82169-1b1d-474d-a858-8b3610e1fec4.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2005/06/14/20000/1ce73b64-19f6-457e-b220-79e236c9a014.jpg"
+            },
+            {
+              "alt": "하와이 관광청 이미지",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/04/08/10000/7e4a01e4-b8e2-42b7-97fa-87a22f56e9e8.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/29/10000/66c0433e-2e66-42f9-9ecc-8e637878109b.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/12/10/10000/426bddb6-df2b-43c2-ad39-7a8330591b09.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/10/26/10000/a6a98374-e9ff-4807-be99-fb3ce0978755.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/10/26/10000/431bc286-a1e2-410b-abd6-fc51e2981d54.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/10/26/10000/764446d2-22fe-48b6-bcf1-ba89ded24c36.jpg"
+            }
+          ],
+          "text": "오아후섬 가볼만한 곳 #추천관광지\n쿠알로아 랜치 무비 사이트\n상세보기\n\n쿠알로아 랜치 영화 촬영지 투어\n\n쿠알로아 랜치는 \"쥬라기 공원\", \"고질라\", \"로스트\", \"진주만\" 등 다양한 영화의 배경 무대가 될 만큼 수려한 절경을 자랑합니다. 쿠알로아 랜치의 전용 오픈 차량을 이용하여 각 작품들의 무대 속으로 들어가는 \"무비 사이트 투어\"로 영화의 감동을 다시 느껴 볼 수 있습니다.\n다양한 익스피리언스 투어 \"EXPERIENCE TOUR\" 중 하나인 쿠알로아 랜치 무비 사이트 투어는 세계적으로 유명한 관광지인 하와이의 각종 투어 프로그램 중에서도 최고의 무비 투어로 선정되어진 영화 촬영지 & 목장 투어로 가족 단위의 관광객에게 최고의 선택이 될 것입니다.\n폴리네시안 문화센터(PCC)\n상세보기\n\n다양한 문화체험을 할 수 있는 문화센터\n\n하와이 최고의 관광지인 폴리네시안 문화센터는 하와이를 비롯한 폴리네시아에 속하는 서로 다른 지역의 문화와 전통을 그대로 체험하실 수 있는 전통 민속촌 입니다.\n돌 파인애플 플랜테이션\n상세보기\n\n달콤한 파인애플에 빠지다\n\n카메하메하 고속도로를 타고 할레이바로 가는 길목에는 익숙한 로고, 돌(Dole)이 나타납니다. 세계적인 열대과일 생산지인 하와이에 열대과일 가공업체 돌이 파인애플 농장을 열었습니다. 이 대규모 농장 단지에서는 파인애플의 종류는 물론 생육 과정을 볼 수 있습니다. 그리고 이곳에 방문하면 꼭 먹어봐야 하는 파인애플 아이스크림도 지나치지 마시기 바랍니다. 부드럽고 깊은 파인애플 맛이 혀끝을 감동시킵니다.\nUSS 미주리호\n상세보기\n\n한국전쟁에도 참전한 미국의 마지막 전함\n\n1944년 건조된 미국 해군의 마지막 전함인 USS 미주리호는 한국과도 인연이 깊은 전함입니다. 일본의 진주만 공습 이후 태평양 전쟁의 최전선에서 활약했고, 갑판에서는 1945년 9월 2일 일본 외무대신 시게미쓰 마모루가 정식으로 항복 문서에 서명을 하기도 하였습니다. 1950년대는 한국전쟁에 참전하기도 하였습니다. 현재는 진주만에서 전쟁기념관으로 운영 중입니다.",
+          "title": "오아후섬 가볼만한 곳 #추천관광지"
+        },
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/21/10000/5fc8119e-a0d2-4cc3-bb47-e74af1a801d7.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/13/10000/15572a4a-c879-40b3-84d5-f9425c1d9502.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/10/14/10000/78c914c1-697e-47ca-b6fc-9034c96af801.jpg"
+            }
+          ],
+          "text": "쿠알로아 랜치 무비 사이트\n상세보기\n\n쿠알로아 랜치 영화 촬영지 투어\n\n쿠알로아 랜치는 \"쥬라기 공원\", \"고질라\", \"로스트\", \"진주만\" 등 다양한 영화의 배경 무대가 될 만큼 수려한 절경을 자랑합니다. 쿠알로아 랜치의 전용 오픈 차량을 이용하여 각 작품들의 무대 속으로 들어가는 \"무비 사이트 투어\"로 영화의 감동을 다시 느껴 볼 수 있습니다.\n다양한 익스피리언스 투어 \"EXPERIENCE TOUR\" 중 하나인 쿠알로아 랜치 무비 사이트 투어는 세계적으로 유명한 관광지인 하와이의 각종 투어 프로그램 중에서도 최고의 무비 투어로 선정되어진 영화 촬영지 & 목장 투어로 가족 단위의 관광객에게 최고의 선택이 될 것입니다.",
+          "title": "쿠알로아 랜치 무비 사이트"
+        },
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/12/11/10000/dd369e60-12c2-47e8-b0da-4a8f19d69210.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/12/11/10000/63e82169-1b1d-474d-a858-8b3610e1fec4.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2005/06/14/20000/1ce73b64-19f6-457e-b220-79e236c9a014.jpg"
+            }
+          ],
+          "text": "폴리네시안 문화센터(PCC)\n상세보기\n\n다양한 문화체험을 할 수 있는 문화센터\n\n하와이 최고의 관광지인 폴리네시안 문화센터는 하와이를 비롯한 폴리네시아에 속하는 서로 다른 지역의 문화와 전통을 그대로 체험하실 수 있는 전통 민속촌 입니다.",
+          "title": "폴리네시안 문화센터(PCC)"
+        },
+        {
+          "images": [
+            {
+              "alt": "하와이 관광청 이미지",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/04/08/10000/7e4a01e4-b8e2-42b7-97fa-87a22f56e9e8.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/29/10000/66c0433e-2e66-42f9-9ecc-8e637878109b.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/12/10/10000/426bddb6-df2b-43c2-ad39-7a8330591b09.jpg"
+            }
+          ],
+          "text": "돌 파인애플 플랜테이션\n상세보기\n\n달콤한 파인애플에 빠지다\n\n카메하메하 고속도로를 타고 할레이바로 가는 길목에는 익숙한 로고, 돌(Dole)이 나타납니다. 세계적인 열대과일 생산지인 하와이에 열대과일 가공업체 돌이 파인애플 농장을 열었습니다. 이 대규모 농장 단지에서는 파인애플의 종류는 물론 생육 과정을 볼 수 있습니다. 그리고 이곳에 방문하면 꼭 먹어봐야 하는 파인애플 아이스크림도 지나치지 마시기 바랍니다. 부드럽고 깊은 파인애플 맛이 혀끝을 감동시킵니다.",
+          "title": "돌 파인애플 플랜테이션"
+        },
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/10/26/10000/a6a98374-e9ff-4807-be99-fb3ce0978755.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/10/26/10000/431bc286-a1e2-410b-abd6-fc51e2981d54.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/10/26/10000/764446d2-22fe-48b6-bcf1-ba89ded24c36.jpg"
+            }
+          ],
+          "text": "USS 미주리호\n상세보기\n\n한국전쟁에도 참전한 미국의 마지막 전함\n\n1944년 건조된 미국 해군의 마지막 전함인 USS 미주리호는 한국과도 인연이 깊은 전함입니다. 일본의 진주만 공습 이후 태평양 전쟁의 최전선에서 활약했고, 갑판에서는 1945년 9월 2일 일본 외무대신 시게미쓰 마모루가 정식으로 항복 문서에 서명을 하기도 하였습니다. 1950년대는 한국전쟁에 참전하기도 하였습니다. 현재는 진주만에서 전쟁기념관으로 운영 중입니다.",
+          "title": "USS 미주리호"
+        }
+      ],
+      "day": "acc_con2",
+      "golf": [
+        "와이켈레 골프클럽"
+      ],
+      "hotel": [
+        "폴리네시안 레지던시스 와이키키 비치"
+      ],
+      "images": [
+        {
+          "alt": "와이켈레 골프클럽",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/07/02/10000/5399a9bf-74ef-498b-8f3e-5765567b5971.jpg"
+        },
+        {
+          "alt": "와이켈레 골프클럽",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/07/02/10000/4b8c3732-4e13-4d61-bc46-f2b36e0bc6a2.jpg"
+        },
+        {
+          "alt": "와이켈레 골프클럽",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/07/02/10000/182c3b45-45d0-42a1-8ce1-bb8d5dbcf5e1.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/21/10000/5fc8119e-a0d2-4cc3-bb47-e74af1a801d7.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/13/10000/15572a4a-c879-40b3-84d5-f9425c1d9502.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/10/14/10000/78c914c1-697e-47ca-b6fc-9034c96af801.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/12/11/10000/dd369e60-12c2-47e8-b0da-4a8f19d69210.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/12/11/10000/63e82169-1b1d-474d-a858-8b3610e1fec4.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2005/06/14/20000/1ce73b64-19f6-457e-b220-79e236c9a014.jpg"
+        },
+        {
+          "alt": "하와이 관광청 이미지",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/04/08/10000/7e4a01e4-b8e2-42b7-97fa-87a22f56e9e8.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/29/10000/66c0433e-2e66-42f9-9ecc-8e637878109b.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/12/10/10000/426bddb6-df2b-43c2-ad39-7a8330591b09.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/10/26/10000/a6a98374-e9ff-4807-be99-fb3ce0978755.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/10/26/10000/431bc286-a1e2-410b-abd6-fc51e2981d54.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/10/26/10000/764446d2-22fe-48b6-bcf1-ba89ded24c36.jpg"
+        }
+      ],
+      "meals": "[조식] 불포함 [중식] 불포함 [석식] 불포함",
+      "stops": [
+        {
+          "text": "호놀룰루",
+          "title": "호놀룰루"
+        },
+        {
+          "meal": "조식 (불포함)",
+          "text": "조식 (불포함)"
+        },
+        {
+          "text": "호텔 조식 후 골프장으로 이동\n\n☞합류 서틀버스 이용 (이동 소요시간 : 약 40분)\n☞골프장 이동을 도와드리는 가이드는 하나투어 가이드가 아닌 골프전문업체 가이드입니다.\n☞골프장 체크인은 티타임 약 30분 전으로, 호텔에서 골프장까지는 평균 40~50분 정도 소요되기 때문에 약 1시간 10분에서 1시간 20분 정도 전에 미팅이 진행됩니다.\n☞미팅 시간은 현지 상황에 따라 변경될 수 있습니다.",
+          "title": "호텔 조식 후 골프장으로 이동"
+        },
+        {
+          "text": "오전 라운드 18홀\n\n☞와이켈레GC 18홀 라운드 진행됩니다.\n☞TEE OFF TIME : 예약 이후 안내드리겠습니다.\n\n※골프장 순서는 변경될 수 있습니다.",
+          "title": "오전 라운드 18홀"
+        },
+        {
+          "text": "WAIKELE GOLF CLUB\n상세보기\n골프장소개\n와이켈레 골프클럽은 와이키키에 머물고 있는 가족여행객들에게 최상의 결정이다. 가족들이 오아후섬의 유일한 대형 아웃렛 매장인 근처 와이켈레 프리미어 팩토리 아웃렛(Waikele Premier Factory Outlet)에서 쇼핑을 즐기는 동안 골퍼들은 최고의 게임을 즐길 수 있다. 와이켈레 골프 코스는 더 골프 채널 아마추어 투어(The Golf Amateur tour)가 열리는 코스이다.\n\n국제적으로 유명한 골프 코스 설계자인 테드 로빈슨(Ted Robinson)에 의해 디자인되었으며 와이키키에서 겨우 30분 정도의 드라이브 거리면 닿는 와이켈레라는 신흥주택지역과 아웃렛 쇼핑타운 안, 언덕중턱에 위치해 있어 이국적이고 아름다운 분위기를 느끼게 해 준다.\n\n골프코스에서는 진주만과 파란 태평양을 볼 수 있어 오아후섬에서 몇 안되는 바다전망을 가진 코스이기도 하다. 1993년에 오픈되었고 특별한 지형으로 다듬어진 와이켈레 골프 클럽은 그리 긴 코스는 아니지만 언덕의 굴곡과 연못 등을 이용한 난이도를 살린 코스로 샷의 별미를 느낄수 있는 아기자기한 맛이 있으며 초보자서부터 프로 골퍼들까지 전 레밸의 골퍼들에게 도전과 흥미를 함께 제공한다.\n\n코스에서는 평화롭게 자리한 진주만 (Pearl Harbor) 과 코발트색의 태평양 바다 전경도 즐길수 있고 멀리 다이아몬드헤드, 코올라우산맥, 와이아네 마운틴까지 골고루 주변경관과 멋진 전망을 즐길수 있다.\n\n와이켈레에서는 4번(par 4), 17번(par 3), 그리고 18번(par 4) 홀이 특히 흥미롭다. 4번홀은 330 yards 의 길이이며 폭포와 연못이 앞쪽으로 그리고 벙커가 뒷편으로 조화롭게 배치되어 있어 쉽지 않은 코스이다. 202 yards 길이의 17번홀은 굴곡있는 언덕이 배치되어 있고 왼편으로 연못이 장애물로 막혀 있다. Par 4의 18홀은 392 yards 길이이며 오른편으로 연못과 폭포의 장애물을 두고 난이도가 높은 홀로 알려져 있다. 전반적으로 초보에서 상급의 골퍼들이 모두 즐길수 있는 코스이며 최근에 새로 리노베이션 되어 더욱 깔끔하고 정돈된 코스이기도 하다.\n\n*클럽하우스와 프로샵,레스토랑, 샤워와 락커가 있으며 바다전망을 즐길수 있다 (GPS 시스템은 없음)\n\n한글명 : 와이켈레 골프클럽\n\n홀(HOLE) : 18\n\n파(PAR) : 72\n\n야드(YARD) : 6663"
+        },
+        {
+          "meal": "중식 (불포함)",
+          "text": "중식 (불포함)"
+        },
+        {
+          "text": "라운드 후 자유일정",
+          "title": "라운드 후 자유일정"
+        },
+        {
+          "text": "오아후섬 가볼만한 곳 #추천관광지\n쿠알로아 랜치 무비 사이트\n상세보기\n\n쿠알로아 랜치 영화 촬영지 투어\n\n쿠알로아 랜치는 \"쥬라기 공원\", \"고질라\", \"로스트\", \"진주만\" 등 다양한 영화의 배경 무대가 될 만큼 수려한 절경을 자랑합니다. 쿠알로아 랜치의 전용 오픈 차량을 이용하여 각 작품들의 무대 속으로 들어가는 \"무비 사이트 투어\"로 영화의 감동을 다시 느껴 볼 수 있습니다.\n다양한 익스피리언스 투어 \"EXPERIENCE TOUR\" 중 하나인 쿠알로아 랜치 무비 사이트 투어는 세계적으로 유명한 관광지인 하와이의 각종 투어 프로그램 중에서도 최고의 무비 투어로 선정되어진 영화 촬영지 & 목장 투어로 가족 단위의 관광객에게 최고의 선택이 될 것입니다.\n폴리네시안 문화센터(PCC)\n상세보기\n\n다양한 문화체험을 할 수 있는 문화센터\n\n하와이 최고의 관광지인 폴리네시안 문화센터는 하와이를 비롯한 폴리네시아에 속하는 서로 다른 지역의 문화와 전통을 그대로 체험하실 수 있는 전통 민속촌 입니다.\n돌 파인애플 플랜테이션\n상세보기\n\n달콤한 파인애플에 빠지다\n\n카메하메하 고속도로를 타고 할레이바로 가는 길목에는 익숙한 로고, 돌(Dole)이 나타납니다. 세계적인 열대과일 생산지인 하와이에 열대과일 가공업체 돌이 파인애플 농장을 열었습니다. 이 대규모 농장 단지에서는 파인애플의 종류는 물론 생육 과정을 볼 수 있습니다. 그리고 이곳에 방문하면 꼭 먹어봐야 하는 파인애플 아이스크림도 지나치지 마시기 바랍니다. 부드럽고 깊은 파인애플 맛이 혀끝을 감동시킵니다.\nUSS 미주리호\n상세보기\n\n한국전쟁에도 참전한 미국의 마지막 전함\n\n1944년 건조된 미국 해군의 마지막 전함인 USS 미주리호는 한국과도 인연이 깊은 전함입니다. 일본의 진주만 공습 이후 태평양 전쟁의 최전선에서 활약했고, 갑판에서는 1945년 9월 2일 일본 외무대신 시게미쓰 마모루가 정식으로 항복 문서에 서명을 하기도 하였습니다. 1950년대는 한국전쟁에 참전하기도 하였습니다. 현재는 진주만에서 전쟁기념관으로 운영 중입니다."
+        },
+        {
+          "meal": "석식 (불포함)",
+          "text": "석식 (불포함)"
+        }
+      ],
+      "text": "호놀룰루\n\n조식 (불포함)\n\n호텔 조식 후 골프장으로 이동\n\n☞합류 서틀버스 이용 (이동 소요시간 : 약 40분)\n☞골프장 이동을 도와드리는 가이드는 하나투어 가이드가 아닌 골프전문업체 가이드입니다.\n☞골프장 체크인은 티타임 약 30분 전으로, 호텔에서 골프장까지는 평균 40~50분 정도 소요되기 때문에 약 1시간 10분에서 1시간 20분 정도 전에 미팅이 진행됩니다.\n☞미팅 시간은 현지 상황에 따라 변경될 수 있습니다.\n\n오전 라운드 18홀\n\n☞와이켈레GC 18홀 라운드 진행됩니다.\n☞TEE OFF TIME : 예약 이후 안내드리겠습니다.\n\n※골프장 순서는 변경될 수 있습니다.\n\nWAIKELE GOLF CLUB\n상세보기\n골프장소개\n와이켈레 골프클럽은 와이키키에 머물고 있는 가족여행객들에게 최상의 결정이다. 가족들이 오아후섬의 유일한 대형 아웃렛 매장인 근처 와이켈레 프리미어 팩토리 아웃렛(Waikele Premier Factory Outlet)에서 쇼핑을 즐기는 동안 골퍼들은 최고의 게임을 즐길 수 있다. 와이켈레 골프 코스는 더 골프 채널 아마추어 투어(The Golf Amateur tour)가 열리는 코스이다.\n\n국제적으로 유명한 골프 코스 설계자인 테드 로빈슨(Ted Robinson)에 의해 디자인되었으며 와이키키에서 겨우 30분 정도의 드라이브 거리면 닿는 와이켈레라는 신흥주택지역과 아웃렛 쇼핑타운 안, 언덕중턱에 위치해 있어 이국적이고 아름다운 분위기를 느끼게 해 준다.\n\n골프코스에서는 진주만과 파란 태평양을 볼 수 있어 오아후섬에서 몇 안되는 바다전망을 가진 코스이기도 하다. 1993년에 오픈되었고 특별한 지형으로 다듬어진 와이켈레 골프 클럽은 그리 긴 코스는 아니지만 언덕의 굴곡과 연못 등을 이용한 난이도를 살린 코스로 샷의 별미를 느낄수 있는 아기자기한 맛이 있으며 초보자서부터 프로 골퍼들까지 전 레밸의 골퍼들에게 도전과 흥미를 함께 제공한다.\n\n코스에서는 평화롭게 자리한 진주만 (Pearl Harbor) 과 코발트색의 태평양 바다 전경도 즐길수 있고 멀리 다이아몬드헤드, 코올라우산맥, 와이아네 마운틴까지 골고루 주변경관과 멋진 전망을 즐길수 있다.\n\n와이켈레에서는 4번(par 4), 17번(par 3), 그리고 18번(par 4) 홀이 특히 흥미롭다. 4번홀은 330 yards 의 길이이며 폭포와 연못이 앞쪽으로 그리고 벙커가 뒷편으로 조화롭게 배치되어 있어 쉽지 않은 코스이다. 202 yards 길이의 17번홀은 굴곡있는 언덕이 배치되어 있고 왼편으로 연못이 장애물로 막혀 있다. Par 4의 18홀은 392 yards 길이이며 오른편으로 연못과 폭포의 장애물을 두고 난이도가 높은 홀로 알려져 있다. 전반적으로 초보에서 상급의 골퍼들이 모두 즐길수 있는 코스이며 최근에 새로 리노베이션 되어 더욱 깔끔하고 정돈된 코스이기도 하다.\n\n*클럽하우스와 프로샵,레스토랑, 샤워와 락커가 있으며 바다전망을 즐길수 있다 (GPS 시스템은 없음)\n\n한글명 : 와이켈레 골프클럽\n\n홀(HOLE) : 18\n\n파(PAR) : 72\n\n야드(YARD) : 6663\n\n중식 (불포함)\n\n라운드 후 자유일정\n오아후섬 가볼만한 곳 #추천관광지\n쿠알로아 랜치 무비 사이트\n상세보기\n\n쿠알로아 랜치 영화 촬영지 투어\n\n쿠알로아 랜치는 \"쥬라기 공원\", \"고질라\", \"로스트\", \"진주만\" 등 다양한 영화의 배경 무대가 될 만큼 수려한 절경을 자랑합니다. 쿠알로아 랜치의 전용 오픈 차량을 이용하여 각 작품들의 무대 속으로 들어가는 \"무비 사이트 투어\"로 영화의 감동을 다시 느껴 볼 수 있습니다.\n다양한 익스피리언스 투어 \"EXPERIENCE TOUR\" 중 하나인 쿠알로아 랜치 무비 사이트 투어는 세계적으로 유명한 관광지인 하와이의 각종 투어 프로그램 중에서도 최고의 무비 투어로 선정되어진 영화 촬영지 & 목장 투어로 가족 단위의 관광객에게 최고의 선택이 될 것입니다.\n폴리네시안 문화센터(PCC)\n상세보기\n\n다양한 문화체험을 할 수 있는 문화센터\n\n하와이 최고의 관광지인 폴리네시안 문화센터는 하와이를 비롯한 폴리네시아에 속하는 서로 다른 지역의 문화와 전통을 그대로 체험하실 수 있는 전통 민속촌 입니다.\n돌 파인애플 플랜테이션\n상세보기\n\n달콤한 파인애플에 빠지다\n\n카메하메하 고속도로를 타고 할레이바로 가는 길목에는 익숙한 로고, 돌(Dole)이 나타납니다. 세계적인 열대과일 생산지인 하와이에 열대과일 가공업체 돌이 파인애플 농장을 열었습니다. 이 대규모 농장 단지에서는 파인애플의 종류는 물론 생육 과정을 볼 수 있습니다. 그리고 이곳에 방문하면 꼭 먹어봐야 하는 파인애플 아이스크림도 지나치지 마시기 바랍니다. 부드럽고 깊은 파인애플 맛이 혀끝을 감동시킵니다.\nUSS 미주리호\n상세보기\n\n한국전쟁에도 참전한 미국의 마지막 전함\n\n1944년 건조된 미국 해군의 마지막 전함인 USS 미주리호는 한국과도 인연이 깊은 전함입니다. 일본의 진주만 공습 이후 태평양 전쟁의 최전선에서 활약했고, 갑판에서는 1945년 9월 2일 일본 외무대신 시게미쓰 마모루가 정식으로 항복 문서에 서명을 하기도 하였습니다. 1950년대는 한국전쟁에 참전하기도 하였습니다. 현재는 진주만에서 전쟁기념관으로 운영 중입니다.\n\n석식 (불포함)\n\n호텔\n총 1개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n폴리네시안 레지던시스 와이키키 비치 \n\nPolynesian Residences Waikiki Beach상세보기\n\n골프\n총 1개의 예정 골프장이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n와이켈레 골프클럽\n\nWAIKELE GOLF CLUB상세보기\n\n식사\n[조식] 불포함 [중식] 불포함 [석식] 불포함"
+    },
+    {
+      "cards": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/11/25/10000/85d78e15-1985-4a7c-bbd3-38cfe93d956e.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/01/13/10000/dc497329-a834-4ac4-9c11-711aca2caa05.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/01/13/10000/11bf5893-55e0-4f8e-be4b-f98254b62a2b.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/13/10000/9a85eccf-156d-46fc-b735-b192d4dcdf98.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/13/10000/a9ba008c-7811-4600-8154-93d0b9205ff2.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/13/10000/c2d80d9f-d890-4507-87c0-87fb08a670da.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/12/11/10000/4b379f5c-f630-49d6-a837-7d1b17c0ed68.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/29/10000/900698a1-29ac-4ec5-91a0-685fe43b4816.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/29/10000/bc0f5f0f-73e6-4b02-a480-563071bb31a6.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/08/05/10000/af5ad247-ce1a-494d-94b0-b749697a1af6.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/08/05/10000/c0a75702-02b7-4301-b29d-4985b602d074.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/08/05/10000/1b6fbb5c-85fd-42b5-b0c8-d78e908f9ead.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/12/11/10000/3155fafb-4827-4ffc-a854-772df44070ca.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/29/10000/8256c3ff-d243-4f7e-abe8-47a01fb731d0.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/10/31/10000/478fe66f-cbd8-49b6-adfe-dfe93b6a3771.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/54d59800-564a-4169-b9f9-e6ed53d702ae.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/29/10000/c83b750b-3898-4451-ac37-9a596066b19f.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/29/10000/1a36db05-1f1a-4ecd-84d9-d622cffed567.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/5c1b1fd2-1655-473b-a908-e5aa1dc55ecd.jpg"
+            },
+            {
+              "alt": "와이키키비치워크 쇼핑몰-하와이관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/dc3cc995-cedd-4adc-bec1-66d76784844d.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/2b4ec4f2-8ba5-45ba-945a-82dfdf622754.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/d144ae38-7553-48ed-b5d2-6045c0142ed2.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/5c1b1fd2-1655-473b-a908-e5aa1dc55ecd.jpg"
+            },
+            {
+              "alt": "와이키키비치워크 쇼핑몰-하와이관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/dc3cc995-cedd-4adc-bec1-66d76784844d.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/2b4ec4f2-8ba5-45ba-945a-82dfdf622754.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/d144ae38-7553-48ed-b5d2-6045c0142ed2.jpg"
+            }
+          ],
+          "text": "하와이 쇼핑명소 추천 #득템의 성지\n와이켈레 프리미엄 아웃렛\n상세보기\n\n최대 50퍼센트까지 할인되는 브랜드 아웃렛, 와이켈레 프리미엄 아웃렛\n\n하와이를 다녀왔다고 한다면, 한 번쯤은 무조건 들리는 와이켈레 프리미엄 아웃렛은 명품 브랜드를 비롯하여 75개가 넘는 의류, 신발 등 유명 브랜드들을 판매하고 있습니다. 대부분 20~50% 정도 한국보다 저렴한 가격으로 미국 브랜드 상품을 구매할 수 있으며 많은 분들이 꼭 들리는 곳입니다.\n\n* 항공 수하물 규정은 1개당 23kg까지 허용됩니다. (1인당 수화물 2개 가능) 초과 되지 않도록 주의 부탁드립니다.\n알라 모아나 쇼핑센터\n상세보기\n\n세계 최대 규모 아웃도어 쇼핑몰\n\n260여 개 점포들이 입점해 있는 거대한 아웃도어 쇼핑몰입니다. 새로운 가게들이 등장하고 있으며, 꾸준하게 증축과 보수 공사가 이루어지고 있습니다. 중저가 캐주얼 브랜드부터 명품 브랜드, 그리고 식료품까지 다양한 제품이 있으며 식당가와 휴식 공간도 있습니다.\nT 갤러리아 DFS 하와이\n상세보기\n\n와이키키 중심부의 명품 브랜드 쇼핑 매장\n\n와이키키 메인 로드인 칼라카우아 에비뉴와 로얄 하와이언 에비뉴에 걸쳐 넓게 자리 잡은 명품 브랜드 면세점입니다. 1층은 코치, 마크 제이콥스, 폴로 그리고 엠포리오 알마니 등 매장과 하와이 특산품(코나 커피, 초콜릿 등)이 있으며 2층에는 60여 가지의 세계적인 화장품 브랜드 매장과 토리 버치 매장이 있습니다. 3층은 면세 매장으로 에르메스, 프라다, 페라가모, 버버리, 카르티에, 태그 호이어 등 명품 부띠크 매장입니다. 100% 품질과 최저가가 보장되어 하와이 내 여느 쇼핑몰 보다 저렴한 가격에 제공하고 있어 더욱 많은 이들의 발걸음을 붙잡는 곳입니다.\n월마트\n상세보기\n\n다양한 물건들을 저렴하게 살 수 있는 하와이 대표 마트\n\n미국의 타 지역보다 주세가 낮은 하와이에서는 더욱 저렴하게 쇼핑을 즐길 수 있습니다. 하와이의 키아모쿠 스트리트(Keeaumoku St.)에는 미국의 대표적인 할인 매장인 월마트가 위치하고 있습니다. 다양한 식료품은 물론이고 화장품, 비치타월 등 생활 필수품을 저렴하게 구입할 수 있으며, 하와이 관광의 필수품인 스노클링 장비도 약 $10~$30 정도면 구입 가능합니다. 이러한 장비들은 여러 번 대여하는 것보다 월마트에서 구입하는 것이 더욱 경제적일 수 있기 때문에 미리 쇼핑 리스트를 만들어가는 것도 좋습니다.\nABC 스토어\n상세보기\n\n모든 종류의 상품이 구비된 하와이 쇼핑의 필수 스팟\n\n하와이의 대표적인 마켓으로 식품, 의류, 장난감, 잡화 등 다양한 상품을 구비하고 있습니다. 미국 브랜드는 더 저렴하게 판매하고 오아후 내에만 39개 매장이 있습니다. 하와이 최고의 마켓 ABC 스토어는 한 블록마다 있다고 해도 과언이 아닙니다. 각종 의류, 잡화부터 커피나 무스비 등의 식품도 판매하는 대형 슈퍼마켓입니다. 없는 것을 찾는 것이 더 빠를 정도로 각양각색의 물건을 구비하고 있어, 무엇인가 필요한 물건이 있을 때 ABC 스토어를 찾아주시면 됩니다. 특히 미국 코스메틱 브랜드 제품이 저렴해 지인들의 기념품으로 대량 구매하기 좋습니다. 소소한 아이템부터 간식 혹은 간단한 한 끼 식사를 해결할 수 있어 하와이 여...\n인터내셔널 마켓 플레이스\n상세보기\n\n와이키키 중심부의 쇼핑센터\n\n와이키키 메인 로드인 칼라카우아 에비뉴를 마주 보고 위치하고 있는 인터내셔널 마켓 플레이스는 삭스 피프스 에비뉴를 포함하여 50개 이상의 매장이 입점해 있는 쇼핑센터입니다. 인터내셔널 마켓 플레이스의 중심에는 100년 넘은 반얀 나무가 각종 야생 식물, 연못 등과 함께 자리 잡고 있어 하와이의 정취를 한 층 더해줍니다.\n와이키키 비치 워크\n상세보기\n\n와이키키의 쇼핑 거리\n\n1/2\n이전\n다음\n와이키키 비치 워크는 루어스 스트리트와 칼리아 로드에 형성된 쇼핑 거리입니다. 깔끔하고 모던한 분위기를 자랑하며 고급스러우면서도 활기차기 때문에 많은 사랑을 받고 있습니다. 인기가 있는 브랜드 상점 위주로 되어 있으며, 쇼핑뿐만 아니라 공연을 할 수 있는 무대도 있어 다양한 즐길 거리가 있습니다. 정기적으로 콘서트나 훌라 춤, 요가 등의 무료 강습이 열리기도 하며 호텔과 유명 맛집 등이 몰려 있어 다양한 체험이 가능합니다. 또한 비교적 여유로운 쇼핑을 즐길 수 있습니다.",
+          "title": "하와이 쇼핑명소 추천 #득템의 성지"
+        },
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/11/25/10000/85d78e15-1985-4a7c-bbd3-38cfe93d956e.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/01/13/10000/dc497329-a834-4ac4-9c11-711aca2caa05.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/01/13/10000/11bf5893-55e0-4f8e-be4b-f98254b62a2b.jpg"
+            }
+          ],
+          "text": "와이켈레 프리미엄 아웃렛\n상세보기\n\n최대 50퍼센트까지 할인되는 브랜드 아웃렛, 와이켈레 프리미엄 아웃렛\n\n하와이를 다녀왔다고 한다면, 한 번쯤은 무조건 들리는 와이켈레 프리미엄 아웃렛은 명품 브랜드를 비롯하여 75개가 넘는 의류, 신발 등 유명 브랜드들을 판매하고 있습니다. 대부분 20~50% 정도 한국보다 저렴한 가격으로 미국 브랜드 상품을 구매할 수 있으며 많은 분들이 꼭 들리는 곳입니다.\n\n* 항공 수하물 규정은 1개당 23kg까지 허용됩니다. (1인당 수화물 2개 가능) 초과 되지 않도록 주의 부탁드립니다.",
+          "title": "와이켈레 프리미엄 아웃렛"
+        },
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/13/10000/9a85eccf-156d-46fc-b735-b192d4dcdf98.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/13/10000/a9ba008c-7811-4600-8154-93d0b9205ff2.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/13/10000/c2d80d9f-d890-4507-87c0-87fb08a670da.jpg"
+            }
+          ],
+          "text": "알라 모아나 쇼핑센터\n상세보기\n\n세계 최대 규모 아웃도어 쇼핑몰\n\n260여 개 점포들이 입점해 있는 거대한 아웃도어 쇼핑몰입니다. 새로운 가게들이 등장하고 있으며, 꾸준하게 증축과 보수 공사가 이루어지고 있습니다. 중저가 캐주얼 브랜드부터 명품 브랜드, 그리고 식료품까지 다양한 제품이 있으며 식당가와 휴식 공간도 있습니다.",
+          "title": "알라 모아나 쇼핑센터"
+        },
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/12/11/10000/4b379f5c-f630-49d6-a837-7d1b17c0ed68.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/29/10000/900698a1-29ac-4ec5-91a0-685fe43b4816.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/29/10000/bc0f5f0f-73e6-4b02-a480-563071bb31a6.jpg"
+            }
+          ],
+          "text": "T 갤러리아 DFS 하와이\n상세보기\n\n와이키키 중심부의 명품 브랜드 쇼핑 매장\n\n와이키키 메인 로드인 칼라카우아 에비뉴와 로얄 하와이언 에비뉴에 걸쳐 넓게 자리 잡은 명품 브랜드 면세점입니다. 1층은 코치, 마크 제이콥스, 폴로 그리고 엠포리오 알마니 등 매장과 하와이 특산품(코나 커피, 초콜릿 등)이 있으며 2층에는 60여 가지의 세계적인 화장품 브랜드 매장과 토리 버치 매장이 있습니다. 3층은 면세 매장으로 에르메스, 프라다, 페라가모, 버버리, 카르티에, 태그 호이어 등 명품 부띠크 매장입니다. 100% 품질과 최저가가 보장되어 하와이 내 여느 쇼핑몰 보다 저렴한 가격에 제공하고 있어 더욱 많은 이들의 발걸음을 붙잡는 곳입니다.",
+          "title": "T 갤러리아 DFS 하와이"
+        },
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/08/05/10000/af5ad247-ce1a-494d-94b0-b749697a1af6.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/08/05/10000/c0a75702-02b7-4301-b29d-4985b602d074.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/08/05/10000/1b6fbb5c-85fd-42b5-b0c8-d78e908f9ead.jpg"
+            }
+          ],
+          "text": "월마트\n상세보기\n\n다양한 물건들을 저렴하게 살 수 있는 하와이 대표 마트\n\n미국의 타 지역보다 주세가 낮은 하와이에서는 더욱 저렴하게 쇼핑을 즐길 수 있습니다. 하와이의 키아모쿠 스트리트(Keeaumoku St.)에는 미국의 대표적인 할인 매장인 월마트가 위치하고 있습니다. 다양한 식료품은 물론이고 화장품, 비치타월 등 생활 필수품을 저렴하게 구입할 수 있으며, 하와이 관광의 필수품인 스노클링 장비도 약 $10~$30 정도면 구입 가능합니다. 이러한 장비들은 여러 번 대여하는 것보다 월마트에서 구입하는 것이 더욱 경제적일 수 있기 때문에 미리 쇼핑 리스트를 만들어가는 것도 좋습니다.",
+          "title": "월마트"
+        },
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/12/11/10000/3155fafb-4827-4ffc-a854-772df44070ca.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/29/10000/8256c3ff-d243-4f7e-abe8-47a01fb731d0.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/10/31/10000/478fe66f-cbd8-49b6-adfe-dfe93b6a3771.jpg"
+            }
+          ],
+          "text": "ABC 스토어\n상세보기\n\n모든 종류의 상품이 구비된 하와이 쇼핑의 필수 스팟\n\n하와이의 대표적인 마켓으로 식품, 의류, 장난감, 잡화 등 다양한 상품을 구비하고 있습니다. 미국 브랜드는 더 저렴하게 판매하고 오아후 내에만 39개 매장이 있습니다. 하와이 최고의 마켓 ABC 스토어는 한 블록마다 있다고 해도 과언이 아닙니다. 각종 의류, 잡화부터 커피나 무스비 등의 식품도 판매하는 대형 슈퍼마켓입니다. 없는 것을 찾는 것이 더 빠를 정도로 각양각색의 물건을 구비하고 있어, 무엇인가 필요한 물건이 있을 때 ABC 스토어를 찾아주시면 됩니다. 특히 미국 코스메틱 브랜드 제품이 저렴해 지인들의 기념품으로 대량 구매하기 좋습니다. 소소한 아이템부터 간식 혹은 간단한 한 끼 식사를 해결할 수 있어 하와이 여...",
+          "title": "ABC 스토어"
+        },
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/54d59800-564a-4169-b9f9-e6ed53d702ae.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/29/10000/c83b750b-3898-4451-ac37-9a596066b19f.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/29/10000/1a36db05-1f1a-4ecd-84d9-d622cffed567.jpg"
+            }
+          ],
+          "text": "인터내셔널 마켓 플레이스\n상세보기\n\n와이키키 중심부의 쇼핑센터\n\n와이키키 메인 로드인 칼라카우아 에비뉴를 마주 보고 위치하고 있는 인터내셔널 마켓 플레이스는 삭스 피프스 에비뉴를 포함하여 50개 이상의 매장이 입점해 있는 쇼핑센터입니다. 인터내셔널 마켓 플레이스의 중심에는 100년 넘은 반얀 나무가 각종 야생 식물, 연못 등과 함께 자리 잡고 있어 하와이의 정취를 한 층 더해줍니다.",
+          "title": "인터내셔널 마켓 플레이스"
+        },
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/5c1b1fd2-1655-473b-a908-e5aa1dc55ecd.jpg"
+            },
+            {
+              "alt": "와이키키비치워크 쇼핑몰-하와이관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/dc3cc995-cedd-4adc-bec1-66d76784844d.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/2b4ec4f2-8ba5-45ba-945a-82dfdf622754.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/d144ae38-7553-48ed-b5d2-6045c0142ed2.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/5c1b1fd2-1655-473b-a908-e5aa1dc55ecd.jpg"
+            },
+            {
+              "alt": "와이키키비치워크 쇼핑몰-하와이관광청",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/dc3cc995-cedd-4adc-bec1-66d76784844d.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/2b4ec4f2-8ba5-45ba-945a-82dfdf622754.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/d144ae38-7553-48ed-b5d2-6045c0142ed2.jpg"
+            }
+          ],
+          "text": "와이키키 비치 워크\n상세보기\n\n와이키키의 쇼핑 거리\n\n1/2\n이전\n다음\n와이키키 비치 워크는 루어스 스트리트와 칼리아 로드에 형성된 쇼핑 거리입니다. 깔끔하고 모던한 분위기를 자랑하며 고급스러우면서도 활기차기 때문에 많은 사랑을 받고 있습니다. 인기가 있는 브랜드 상점 위주로 되어 있으며, 쇼핑뿐만 아니라 공연을 할 수 있는 무대도 있어 다양한 즐길 거리가 있습니다. 정기적으로 콘서트나 훌라 춤, 요가 등의 무료 강습이 열리기도 하며 호텔과 유명 맛집 등이 몰려 있어 다양한 체험이 가능합니다. 또한 비교적 여유로운 쇼핑을 즐길 수 있습니다.",
+          "title": "와이키키 비치 워크"
+        }
+      ],
+      "day": "acc_con3",
+      "golf": [],
+      "hotel": [
+        "폴리네시안 레지던시스 와이키키 비치"
+      ],
+      "images": [
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/11/25/10000/85d78e15-1985-4a7c-bbd3-38cfe93d956e.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/01/13/10000/dc497329-a834-4ac4-9c11-711aca2caa05.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/01/13/10000/11bf5893-55e0-4f8e-be4b-f98254b62a2b.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/13/10000/9a85eccf-156d-46fc-b735-b192d4dcdf98.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/13/10000/a9ba008c-7811-4600-8154-93d0b9205ff2.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/13/10000/c2d80d9f-d890-4507-87c0-87fb08a670da.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/12/11/10000/4b379f5c-f630-49d6-a837-7d1b17c0ed68.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/29/10000/900698a1-29ac-4ec5-91a0-685fe43b4816.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/29/10000/bc0f5f0f-73e6-4b02-a480-563071bb31a6.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/08/05/10000/af5ad247-ce1a-494d-94b0-b749697a1af6.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/08/05/10000/c0a75702-02b7-4301-b29d-4985b602d074.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/08/05/10000/1b6fbb5c-85fd-42b5-b0c8-d78e908f9ead.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/12/11/10000/3155fafb-4827-4ffc-a854-772df44070ca.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/29/10000/8256c3ff-d243-4f7e-abe8-47a01fb731d0.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/10/31/10000/478fe66f-cbd8-49b6-adfe-dfe93b6a3771.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/54d59800-564a-4169-b9f9-e6ed53d702ae.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/29/10000/c83b750b-3898-4451-ac37-9a596066b19f.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/08/29/10000/1a36db05-1f1a-4ecd-84d9-d622cffed567.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/5c1b1fd2-1655-473b-a908-e5aa1dc55ecd.jpg"
+        },
+        {
+          "alt": "와이키키비치워크 쇼핑몰-하와이관광청",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/dc3cc995-cedd-4adc-bec1-66d76784844d.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/2b4ec4f2-8ba5-45ba-945a-82dfdf622754.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/d144ae38-7553-48ed-b5d2-6045c0142ed2.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/5c1b1fd2-1655-473b-a908-e5aa1dc55ecd.jpg"
+        },
+        {
+          "alt": "와이키키비치워크 쇼핑몰-하와이관광청",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/03/12/10000/dc3cc995-cedd-4adc-bec1-66d76784844d.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/2b4ec4f2-8ba5-45ba-945a-82dfdf622754.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/d144ae38-7553-48ed-b5d2-6045c0142ed2.jpg"
+        }
+      ],
+      "meals": "[조식] 불포함 [중식] 불포함 [석식] 불포함",
+      "stops": [
+        {
+          "text": "호놀룰루",
+          "title": "호놀룰루"
+        },
+        {
+          "meal": "조식 (불포함)",
+          "text": "조식 (불포함)"
+        },
+        {
+          "text": "전일 자유일정\n\n리조트의 부대시설을 이용하시며 즐거운 자유일정시간을 보내세요",
+          "title": "전일 자유일정"
+        },
+        {
+          "meal": "중식 (불포함)",
+          "text": "중식 (불포함)"
+        },
+        {
+          "text": "하와이 쇼핑명소 추천 #득템의 성지\n와이켈레 프리미엄 아웃렛\n상세보기\n\n최대 50퍼센트까지 할인되는 브랜드 아웃렛, 와이켈레 프리미엄 아웃렛\n\n하와이를 다녀왔다고 한다면, 한 번쯤은 무조건 들리는 와이켈레 프리미엄 아웃렛은 명품 브랜드를 비롯하여 75개가 넘는 의류, 신발 등 유명 브랜드들을 판매하고 있습니다. 대부분 20~50% 정도 한국보다 저렴한 가격으로 미국 브랜드 상품을 구매할 수 있으며 많은 분들이 꼭 들리는 곳입니다.\n\n* 항공 수하물 규정은 1개당 23kg까지 허용됩니다. (1인당 수화물 2개 가능) 초과 되지 않도록 주의 부탁드립니다.\n알라 모아나 쇼핑센터\n상세보기\n\n세계 최대 규모 아웃도어 쇼핑몰\n\n260여 개 점포들이 입점해 있는 거대한 아웃도어 쇼핑몰입니다. 새로운 가게들이 등장하고 있으며, 꾸준하게 증축과 보수 공사가 이루어지고 있습니다. 중저가 캐주얼 브랜드부터 명품 브랜드, 그리고 식료품까지 다양한 제품이 있으며 식당가와 휴식 공간도 있습니다.\nT 갤러리아 DFS 하와이\n상세보기\n\n와이키키 중심부의 명품 브랜드 쇼핑 매장\n\n와이키키 메인 로드인 칼라카우아 에비뉴와 로얄 하와이언 에비뉴에 걸쳐 넓게 자리 잡은 명품 브랜드 면세점입니다. 1층은 코치, 마크 제이콥스, 폴로 그리고 엠포리오 알마니 등 매장과 하와이 특산품(코나 커피, 초콜릿 등)이 있으며 2층에는 60여 가지의 세계적인 화장품 브랜드 매장과 토리 버치 매장이 있습니다. 3층은 면세 매장으로 에르메스, 프라다, 페라가모, 버버리, 카르티에, 태그 호이어 등 명품 부띠크 매장입니다. 100% 품질과 최저가가 보장되어 하와이 내 여느 쇼핑몰 보다 저렴한 가격에 제공하고 있어 더욱 많은 이들의 발걸음을 붙잡는 곳입니다.\n월마트\n상세보기\n\n다양한 물건들을 저렴하게 살 수 있는 하와이 대표 마트\n\n미국의 타 지역보다 주세가 낮은 하와이에서는 더욱 저렴하게 쇼핑을 즐길 수 있습니다. 하와이의 키아모쿠 스트리트(Keeaumoku St.)에는 미국의 대표적인 할인 매장인 월마트가 위치하고 있습니다. 다양한 식료품은 물론이고 화장품, 비치타월 등 생활 필수품을 저렴하게 구입할 수 있으며, 하와이 관광의 필수품인 스노클링 장비도 약 $10~$30 정도면 구입 가능합니다. 이러한 장비들은 여러 번 대여하는 것보다 월마트에서 구입하는 것이 더욱 경제적일 수 있기 때문에 미리 쇼핑 리스트를 만들어가는 것도 좋습니다.\nABC 스토어\n상세보기\n\n모든 종류의 상품이 구비된 하와이 쇼핑의 필수 스팟\n\n하와이의 대표적인 마켓으로 식품, 의류, 장난감, 잡화 등 다양한 상품을 구비하고 있습니다. 미국 브랜드는 더 저렴하게 판매하고 오아후 내에만 39개 매장이 있습니다. 하와이 최고의 마켓 ABC 스토어는 한 블록마다 있다고 해도 과언이 아닙니다. 각종 의류, 잡화부터 커피나 무스비 등의 식품도 판매하는 대형 슈퍼마켓입니다. 없는 것을 찾는 것이 더 빠를 정도로 각양각색의 물건을 구비하고 있어, 무엇인가 필요한 물건이 있을 때 ABC 스토어를 찾아주시면 됩니다. 특히 미국 코스메틱 브랜드 제품이 저렴해 지인들의 기념품으로 대량 구매하기 좋습니다. 소소한 아이템부터 간식 혹은 간단한 한 끼 식사를 해결할 수 있어 하와이 여...\n인터내셔널 마켓 플레이스\n상세보기\n\n와이키키 중심부의 쇼핑센터\n\n와이키키 메인 로드인 칼라카우아 에비뉴를 마주 보고 위치하고 있는 인터내셔널 마켓 플레이스는 삭스 피프스 에비뉴를 포함하여 50개 이상의 매장이 입점해 있는 쇼핑센터입니다. 인터내셔널 마켓 플레이스의 중심에는 100년 넘은 반얀 나무가 각종 야생 식물, 연못 등과 함께 자리 잡고 있어 하와이의 정취를 한 층 더해줍니다.\n와이키키 비치 워크\n상세보기\n\n와이키키의 쇼핑 거리\n\n1/2\n이전\n다음\n와이키키 비치 워크는 루어스 스트리트와 칼리아 로드에 형성된 쇼핑 거리입니다. 깔끔하고 모던한 분위기를 자랑하며 고급스러우면서도 활기차기 때문에 많은 사랑을 받고 있습니다. 인기가 있는 브랜드 상점 위주로 되어 있으며, 쇼핑뿐만 아니라 공연을 할 수 있는 무대도 있어 다양한 즐길 거리가 있습니다. 정기적으로 콘서트나 훌라 춤, 요가 등의 무료 강습이 열리기도 하며 호텔과 유명 맛집 등이 몰려 있어 다양한 체험이 가능합니다. 또한 비교적 여유로운 쇼핑을 즐길 수 있습니다."
+        },
+        {
+          "meal": "석식 (불포함)",
+          "text": "석식 (불포함)"
+        }
+      ],
+      "text": "호놀룰루\n\n조식 (불포함)\n\n전일 자유일정\n\n리조트의 부대시설을 이용하시며 즐거운 자유일정시간을 보내세요\n\n중식 (불포함)\n\n하와이 쇼핑명소 추천 #득템의 성지\n와이켈레 프리미엄 아웃렛\n상세보기\n\n최대 50퍼센트까지 할인되는 브랜드 아웃렛, 와이켈레 프리미엄 아웃렛\n\n하와이를 다녀왔다고 한다면, 한 번쯤은 무조건 들리는 와이켈레 프리미엄 아웃렛은 명품 브랜드를 비롯하여 75개가 넘는 의류, 신발 등 유명 브랜드들을 판매하고 있습니다. 대부분 20~50% 정도 한국보다 저렴한 가격으로 미국 브랜드 상품을 구매할 수 있으며 많은 분들이 꼭 들리는 곳입니다.\n\n* 항공 수하물 규정은 1개당 23kg까지 허용됩니다. (1인당 수화물 2개 가능) 초과 되지 않도록 주의 부탁드립니다.\n알라 모아나 쇼핑센터\n상세보기\n\n세계 최대 규모 아웃도어 쇼핑몰\n\n260여 개 점포들이 입점해 있는 거대한 아웃도어 쇼핑몰입니다. 새로운 가게들이 등장하고 있으며, 꾸준하게 증축과 보수 공사가 이루어지고 있습니다. 중저가 캐주얼 브랜드부터 명품 브랜드, 그리고 식료품까지 다양한 제품이 있으며 식당가와 휴식 공간도 있습니다.\nT 갤러리아 DFS 하와이\n상세보기\n\n와이키키 중심부의 명품 브랜드 쇼핑 매장\n\n와이키키 메인 로드인 칼라카우아 에비뉴와 로얄 하와이언 에비뉴에 걸쳐 넓게 자리 잡은 명품 브랜드 면세점입니다. 1층은 코치, 마크 제이콥스, 폴로 그리고 엠포리오 알마니 등 매장과 하와이 특산품(코나 커피, 초콜릿 등)이 있으며 2층에는 60여 가지의 세계적인 화장품 브랜드 매장과 토리 버치 매장이 있습니다. 3층은 면세 매장으로 에르메스, 프라다, 페라가모, 버버리, 카르티에, 태그 호이어 등 명품 부띠크 매장입니다. 100% 품질과 최저가가 보장되어 하와이 내 여느 쇼핑몰 보다 저렴한 가격에 제공하고 있어 더욱 많은 이들의 발걸음을 붙잡는 곳입니다.\n월마트\n상세보기\n\n다양한 물건들을 저렴하게 살 수 있는 하와이 대표 마트\n\n미국의 타 지역보다 주세가 낮은 하와이에서는 더욱 저렴하게 쇼핑을 즐길 수 있습니다. 하와이의 키아모쿠 스트리트(Keeaumoku St.)에는 미국의 대표적인 할인 매장인 월마트가 위치하고 있습니다. 다양한 식료품은 물론이고 화장품, 비치타월 등 생활 필수품을 저렴하게 구입할 수 있으며, 하와이 관광의 필수품인 스노클링 장비도 약 $10~$30 정도면 구입 가능합니다. 이러한 장비들은 여러 번 대여하는 것보다 월마트에서 구입하는 것이 더욱 경제적일 수 있기 때문에 미리 쇼핑 리스트를 만들어가는 것도 좋습니다.\nABC 스토어\n상세보기\n\n모든 종류의 상품이 구비된 하와이 쇼핑의 필수 스팟\n\n하와이의 대표적인 마켓으로 식품, 의류, 장난감, 잡화 등 다양한 상품을 구비하고 있습니다. 미국 브랜드는 더 저렴하게 판매하고 오아후 내에만 39개 매장이 있습니다. 하와이 최고의 마켓 ABC 스토어는 한 블록마다 있다고 해도 과언이 아닙니다. 각종 의류, 잡화부터 커피나 무스비 등의 식품도 판매하는 대형 슈퍼마켓입니다. 없는 것을 찾는 것이 더 빠를 정도로 각양각색의 물건을 구비하고 있어, 무엇인가 필요한 물건이 있을 때 ABC 스토어를 찾아주시면 됩니다. 특히 미국 코스메틱 브랜드 제품이 저렴해 지인들의 기념품으로 대량 구매하기 좋습니다. 소소한 아이템부터 간식 혹은 간단한 한 끼 식사를 해결할 수 있어 하와이 여...\n인터내셔널 마켓 플레이스\n상세보기\n\n와이키키 중심부의 쇼핑센터\n\n와이키키 메인 로드인 칼라카우아 에비뉴를 마주 보고 위치하고 있는 인터내셔널 마켓 플레이스는 삭스 피프스 에비뉴를 포함하여 50개 이상의 매장이 입점해 있는 쇼핑센터입니다. 인터내셔널 마켓 플레이스의 중심에는 100년 넘은 반얀 나무가 각종 야생 식물, 연못 등과 함께 자리 잡고 있어 하와이의 정취를 한 층 더해줍니다.\n와이키키 비치 워크\n상세보기\n\n와이키키의 쇼핑 거리\n\n1/2\n이전\n다음\n와이키키 비치 워크는 루어스 스트리트와 칼리아 로드에 형성된 쇼핑 거리입니다. 깔끔하고 모던한 분위기를 자랑하며 고급스러우면서도 활기차기 때문에 많은 사랑을 받고 있습니다. 인기가 있는 브랜드 상점 위주로 되어 있으며, 쇼핑뿐만 아니라 공연을 할 수 있는 무대도 있어 다양한 즐길 거리가 있습니다. 정기적으로 콘서트나 훌라 춤, 요가 등의 무료 강습이 열리기도 하며 호텔과 유명 맛집 등이 몰려 있어 다양한 체험이 가능합니다. 또한 비교적 여유로운 쇼핑을 즐길 수 있습니다.\n\n석식 (불포함)\n\n호텔\n총 1개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n폴리네시안 레지던시스 와이키키 비치 \n\nPolynesian Residences Waikiki Beach상세보기\n\n식사\n[조식] 불포함 [중식] 불포함 [석식] 불포함"
+    },
+    {
+      "cards": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/21/10000/5fc8119e-a0d2-4cc3-bb47-e74af1a801d7.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/13/10000/15572a4a-c879-40b3-84d5-f9425c1d9502.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/10/14/10000/78c914c1-697e-47ca-b6fc-9034c96af801.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/12/11/10000/dd369e60-12c2-47e8-b0da-4a8f19d69210.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/12/11/10000/63e82169-1b1d-474d-a858-8b3610e1fec4.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2005/06/14/20000/1ce73b64-19f6-457e-b220-79e236c9a014.jpg"
+            },
+            {
+              "alt": "하와이 관광청 이미지",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/04/08/10000/7e4a01e4-b8e2-42b7-97fa-87a22f56e9e8.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/29/10000/66c0433e-2e66-42f9-9ecc-8e637878109b.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/12/10/10000/426bddb6-df2b-43c2-ad39-7a8330591b09.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/10/26/10000/a6a98374-e9ff-4807-be99-fb3ce0978755.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/10/26/10000/431bc286-a1e2-410b-abd6-fc51e2981d54.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/10/26/10000/764446d2-22fe-48b6-bcf1-ba89ded24c36.jpg"
+            }
+          ],
+          "text": "오아후섬 가볼만한 곳 #추천관광지\n쿠알로아 랜치 무비 사이트\n상세보기\n\n쿠알로아 랜치 영화 촬영지 투어\n\n쿠알로아 랜치는 \"쥬라기 공원\", \"고질라\", \"로스트\", \"진주만\" 등 다양한 영화의 배경 무대가 될 만큼 수려한 절경을 자랑합니다. 쿠알로아 랜치의 전용 오픈 차량을 이용하여 각 작품들의 무대 속으로 들어가는 \"무비 사이트 투어\"로 영화의 감동을 다시 느껴 볼 수 있습니다.\n다양한 익스피리언스 투어 \"EXPERIENCE TOUR\" 중 하나인 쿠알로아 랜치 무비 사이트 투어는 세계적으로 유명한 관광지인 하와이의 각종 투어 프로그램 중에서도 최고의 무비 투어로 선정되어진 영화 촬영지 & 목장 투어로 가족 단위의 관광객에게 최고의 선택이 될 것입니다.\n폴리네시안 문화센터(PCC)\n상세보기\n\n다양한 문화체험을 할 수 있는 문화센터\n\n하와이 최고의 관광지인 폴리네시안 문화센터는 하와이를 비롯한 폴리네시아에 속하는 서로 다른 지역의 문화와 전통을 그대로 체험하실 수 있는 전통 민속촌 입니다.\n돌 파인애플 플랜테이션\n상세보기\n\n달콤한 파인애플에 빠지다\n\n카메하메하 고속도로를 타고 할레이바로 가는 길목에는 익숙한 로고, 돌(Dole)이 나타납니다. 세계적인 열대과일 생산지인 하와이에 열대과일 가공업체 돌이 파인애플 농장을 열었습니다. 이 대규모 농장 단지에서는 파인애플의 종류는 물론 생육 과정을 볼 수 있습니다. 그리고 이곳에 방문하면 꼭 먹어봐야 하는 파인애플 아이스크림도 지나치지 마시기 바랍니다. 부드럽고 깊은 파인애플 맛이 혀끝을 감동시킵니다.\nUSS 미주리호\n상세보기\n\n한국전쟁에도 참전한 미국의 마지막 전함\n\n1944년 건조된 미국 해군의 마지막 전함인 USS 미주리호는 한국과도 인연이 깊은 전함입니다. 일본의 진주만 공습 이후 태평양 전쟁의 최전선에서 활약했고, 갑판에서는 1945년 9월 2일 일본 외무대신 시게미쓰 마모루가 정식으로 항복 문서에 서명을 하기도 하였습니다. 1950년대는 한국전쟁에 참전하기도 하였습니다. 현재는 진주만에서 전쟁기념관으로 운영 중입니다.",
+          "title": "오아후섬 가볼만한 곳 #추천관광지"
+        },
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/21/10000/5fc8119e-a0d2-4cc3-bb47-e74af1a801d7.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/13/10000/15572a4a-c879-40b3-84d5-f9425c1d9502.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/10/14/10000/78c914c1-697e-47ca-b6fc-9034c96af801.jpg"
+            }
+          ],
+          "text": "쿠알로아 랜치 무비 사이트\n상세보기\n\n쿠알로아 랜치 영화 촬영지 투어\n\n쿠알로아 랜치는 \"쥬라기 공원\", \"고질라\", \"로스트\", \"진주만\" 등 다양한 영화의 배경 무대가 될 만큼 수려한 절경을 자랑합니다. 쿠알로아 랜치의 전용 오픈 차량을 이용하여 각 작품들의 무대 속으로 들어가는 \"무비 사이트 투어\"로 영화의 감동을 다시 느껴 볼 수 있습니다.\n다양한 익스피리언스 투어 \"EXPERIENCE TOUR\" 중 하나인 쿠알로아 랜치 무비 사이트 투어는 세계적으로 유명한 관광지인 하와이의 각종 투어 프로그램 중에서도 최고의 무비 투어로 선정되어진 영화 촬영지 & 목장 투어로 가족 단위의 관광객에게 최고의 선택이 될 것입니다.",
+          "title": "쿠알로아 랜치 무비 사이트"
+        },
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/12/11/10000/dd369e60-12c2-47e8-b0da-4a8f19d69210.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/12/11/10000/63e82169-1b1d-474d-a858-8b3610e1fec4.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2005/06/14/20000/1ce73b64-19f6-457e-b220-79e236c9a014.jpg"
+            }
+          ],
+          "text": "폴리네시안 문화센터(PCC)\n상세보기\n\n다양한 문화체험을 할 수 있는 문화센터\n\n하와이 최고의 관광지인 폴리네시안 문화센터는 하와이를 비롯한 폴리네시아에 속하는 서로 다른 지역의 문화와 전통을 그대로 체험하실 수 있는 전통 민속촌 입니다.",
+          "title": "폴리네시안 문화센터(PCC)"
+        },
+        {
+          "images": [
+            {
+              "alt": "하와이 관광청 이미지",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/04/08/10000/7e4a01e4-b8e2-42b7-97fa-87a22f56e9e8.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/29/10000/66c0433e-2e66-42f9-9ecc-8e637878109b.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/12/10/10000/426bddb6-df2b-43c2-ad39-7a8330591b09.jpg"
+            }
+          ],
+          "text": "돌 파인애플 플랜테이션\n상세보기\n\n달콤한 파인애플에 빠지다\n\n카메하메하 고속도로를 타고 할레이바로 가는 길목에는 익숙한 로고, 돌(Dole)이 나타납니다. 세계적인 열대과일 생산지인 하와이에 열대과일 가공업체 돌이 파인애플 농장을 열었습니다. 이 대규모 농장 단지에서는 파인애플의 종류는 물론 생육 과정을 볼 수 있습니다. 그리고 이곳에 방문하면 꼭 먹어봐야 하는 파인애플 아이스크림도 지나치지 마시기 바랍니다. 부드럽고 깊은 파인애플 맛이 혀끝을 감동시킵니다.",
+          "title": "돌 파인애플 플랜테이션"
+        },
+        {
+          "images": [
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/10/26/10000/a6a98374-e9ff-4807-be99-fb3ce0978755.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/10/26/10000/431bc286-a1e2-410b-abd6-fc51e2981d54.jpg"
+            },
+            {
+              "alt": "",
+              "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/10/26/10000/764446d2-22fe-48b6-bcf1-ba89ded24c36.jpg"
+            }
+          ],
+          "text": "USS 미주리호\n상세보기\n\n한국전쟁에도 참전한 미국의 마지막 전함\n\n1944년 건조된 미국 해군의 마지막 전함인 USS 미주리호는 한국과도 인연이 깊은 전함입니다. 일본의 진주만 공습 이후 태평양 전쟁의 최전선에서 활약했고, 갑판에서는 1945년 9월 2일 일본 외무대신 시게미쓰 마모루가 정식으로 항복 문서에 서명을 하기도 하였습니다. 1950년대는 한국전쟁에 참전하기도 하였습니다. 현재는 진주만에서 전쟁기념관으로 운영 중입니다.",
+          "title": "USS 미주리호"
+        }
+      ],
+      "day": "acc_con4",
+      "golf": [],
+      "hotel": [
+        "폴리네시안 레지던시스 와이키키 비치"
+      ],
+      "images": [
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/21/10000/5fc8119e-a0d2-4cc3-bb47-e74af1a801d7.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/13/10000/15572a4a-c879-40b3-84d5-f9425c1d9502.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/10/14/10000/78c914c1-697e-47ca-b6fc-9034c96af801.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/12/11/10000/dd369e60-12c2-47e8-b0da-4a8f19d69210.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/12/11/10000/63e82169-1b1d-474d-a858-8b3610e1fec4.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2005/06/14/20000/1ce73b64-19f6-457e-b220-79e236c9a014.jpg"
+        },
+        {
+          "alt": "하와이 관광청 이미지",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/04/08/10000/7e4a01e4-b8e2-42b7-97fa-87a22f56e9e8.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/29/10000/66c0433e-2e66-42f9-9ecc-8e637878109b.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/12/10/10000/426bddb6-df2b-43c2-ad39-7a8330591b09.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/10/26/10000/a6a98374-e9ff-4807-be99-fb3ce0978755.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/10/26/10000/431bc286-a1e2-410b-abd6-fc51e2981d54.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/10/26/10000/764446d2-22fe-48b6-bcf1-ba89ded24c36.jpg"
+        }
+      ],
+      "meals": "[조식] 불포함 [중식] 불포함 [석식] 불포함",
+      "stops": [
+        {
+          "text": "호놀룰루",
+          "title": "호놀룰루"
+        },
+        {
+          "meal": "조식 (불포함)",
+          "text": "조식 (불포함)"
+        },
+        {
+          "text": "전일 자유일정\n\n리조트의 부대시설을 이용하시며 즐거운 자유일정시간을 보내세요",
+          "title": "전일 자유일정"
+        },
+        {
+          "meal": "중식 (불포함)",
+          "text": "중식 (불포함)"
+        },
+        {
+          "text": "오아후섬 가볼만한 곳 #추천관광지\n쿠알로아 랜치 무비 사이트\n상세보기\n\n쿠알로아 랜치 영화 촬영지 투어\n\n쿠알로아 랜치는 \"쥬라기 공원\", \"고질라\", \"로스트\", \"진주만\" 등 다양한 영화의 배경 무대가 될 만큼 수려한 절경을 자랑합니다. 쿠알로아 랜치의 전용 오픈 차량을 이용하여 각 작품들의 무대 속으로 들어가는 \"무비 사이트 투어\"로 영화의 감동을 다시 느껴 볼 수 있습니다.\n다양한 익스피리언스 투어 \"EXPERIENCE TOUR\" 중 하나인 쿠알로아 랜치 무비 사이트 투어는 세계적으로 유명한 관광지인 하와이의 각종 투어 프로그램 중에서도 최고의 무비 투어로 선정되어진 영화 촬영지 & 목장 투어로 가족 단위의 관광객에게 최고의 선택이 될 것입니다.\n폴리네시안 문화센터(PCC)\n상세보기\n\n다양한 문화체험을 할 수 있는 문화센터\n\n하와이 최고의 관광지인 폴리네시안 문화센터는 하와이를 비롯한 폴리네시아에 속하는 서로 다른 지역의 문화와 전통을 그대로 체험하실 수 있는 전통 민속촌 입니다.\n돌 파인애플 플랜테이션\n상세보기\n\n달콤한 파인애플에 빠지다\n\n카메하메하 고속도로를 타고 할레이바로 가는 길목에는 익숙한 로고, 돌(Dole)이 나타납니다. 세계적인 열대과일 생산지인 하와이에 열대과일 가공업체 돌이 파인애플 농장을 열었습니다. 이 대규모 농장 단지에서는 파인애플의 종류는 물론 생육 과정을 볼 수 있습니다. 그리고 이곳에 방문하면 꼭 먹어봐야 하는 파인애플 아이스크림도 지나치지 마시기 바랍니다. 부드럽고 깊은 파인애플 맛이 혀끝을 감동시킵니다.\nUSS 미주리호\n상세보기\n\n한국전쟁에도 참전한 미국의 마지막 전함\n\n1944년 건조된 미국 해군의 마지막 전함인 USS 미주리호는 한국과도 인연이 깊은 전함입니다. 일본의 진주만 공습 이후 태평양 전쟁의 최전선에서 활약했고, 갑판에서는 1945년 9월 2일 일본 외무대신 시게미쓰 마모루가 정식으로 항복 문서에 서명을 하기도 하였습니다. 1950년대는 한국전쟁에 참전하기도 하였습니다. 현재는 진주만에서 전쟁기념관으로 운영 중입니다."
+        },
+        {
+          "meal": "석식 (불포함)",
+          "text": "석식 (불포함)"
+        }
+      ],
+      "text": "호놀룰루\n\n조식 (불포함)\n\n전일 자유일정\n\n리조트의 부대시설을 이용하시며 즐거운 자유일정시간을 보내세요\n\n중식 (불포함)\n\n오아후섬 가볼만한 곳 #추천관광지\n쿠알로아 랜치 무비 사이트\n상세보기\n\n쿠알로아 랜치 영화 촬영지 투어\n\n쿠알로아 랜치는 \"쥬라기 공원\", \"고질라\", \"로스트\", \"진주만\" 등 다양한 영화의 배경 무대가 될 만큼 수려한 절경을 자랑합니다. 쿠알로아 랜치의 전용 오픈 차량을 이용하여 각 작품들의 무대 속으로 들어가는 \"무비 사이트 투어\"로 영화의 감동을 다시 느껴 볼 수 있습니다.\n다양한 익스피리언스 투어 \"EXPERIENCE TOUR\" 중 하나인 쿠알로아 랜치 무비 사이트 투어는 세계적으로 유명한 관광지인 하와이의 각종 투어 프로그램 중에서도 최고의 무비 투어로 선정되어진 영화 촬영지 & 목장 투어로 가족 단위의 관광객에게 최고의 선택이 될 것입니다.\n폴리네시안 문화센터(PCC)\n상세보기\n\n다양한 문화체험을 할 수 있는 문화센터\n\n하와이 최고의 관광지인 폴리네시안 문화센터는 하와이를 비롯한 폴리네시아에 속하는 서로 다른 지역의 문화와 전통을 그대로 체험하실 수 있는 전통 민속촌 입니다.\n돌 파인애플 플랜테이션\n상세보기\n\n달콤한 파인애플에 빠지다\n\n카메하메하 고속도로를 타고 할레이바로 가는 길목에는 익숙한 로고, 돌(Dole)이 나타납니다. 세계적인 열대과일 생산지인 하와이에 열대과일 가공업체 돌이 파인애플 농장을 열었습니다. 이 대규모 농장 단지에서는 파인애플의 종류는 물론 생육 과정을 볼 수 있습니다. 그리고 이곳에 방문하면 꼭 먹어봐야 하는 파인애플 아이스크림도 지나치지 마시기 바랍니다. 부드럽고 깊은 파인애플 맛이 혀끝을 감동시킵니다.\nUSS 미주리호\n상세보기\n\n한국전쟁에도 참전한 미국의 마지막 전함\n\n1944년 건조된 미국 해군의 마지막 전함인 USS 미주리호는 한국과도 인연이 깊은 전함입니다. 일본의 진주만 공습 이후 태평양 전쟁의 최전선에서 활약했고, 갑판에서는 1945년 9월 2일 일본 외무대신 시게미쓰 마모루가 정식으로 항복 문서에 서명을 하기도 하였습니다. 1950년대는 한국전쟁에 참전하기도 하였습니다. 현재는 진주만에서 전쟁기념관으로 운영 중입니다.\n\n석식 (불포함)\n\n호텔\n총 1개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n폴리네시안 레지던시스 와이키키 비치 \n\nPolynesian Residences Waikiki Beach상세보기\n\n식사\n[조식] 불포함 [중식] 불포함 [석식] 불포함"
+    },
+    {
+      "cards": [],
+      "day": "acc_con5",
+      "golf": [],
+      "hotel": [],
+      "images": [
+        {
+          "alt": "에어프레미아",
+          "src": "https://image.hanatour.com/usr/static/img/airline/YP.png"
+        }
+      ],
+      "meals": "숙박 없음",
+      "stops": [
+        {
+          "text": "호놀룰루",
+          "title": "호놀룰루"
+        },
+        {
+          "meal": "조식 (불포함)",
+          "text": "조식 (불포함)"
+        },
+        {
+          "text": "가이드 미팅하여 공항으로 이동 [약 30분 소요]",
+          "title": "가이드 미팅하여 공항으로 이동 [약 30분 소요]"
+        },
+        {
+          "meal": "중식 (기내식)",
+          "text": "중식 (기내식)"
+        },
+        {
+          "meal": "석식 (기내식)",
+          "text": "석식 (기내식)"
+        }
+      ],
+      "text": "호놀룰루\n\n조식 (불포함)\n\n가이드 미팅하여 공항으로 이동 [약 30분 소요]\n\n중식 (기내식)\n\n석식 (기내식)\n\n에어프레미아\n11시간 00분 YP0152\n\n14:20\n2026.11.06(금)\n호놀룰루 HNL 출발\n20:20\n2026.11.07(토)\n서울 ICN 도착\n+1\n호텔\n숙박 없음\n식사\n[조식] 불포함 [중식] 기내식 [석식] 기내식"
+    },
+    {
+      "cards": [
+        {
+          "images": [],
+          "text": "기타 정보\n상세보기\n\n📚[여권/비자]\n1. 여권 만료기간 6개월 이상 및 여권 종류를 반드시 확인 필요합니다.\n- 단수여권(PS)으로 해외출국 이력이있다면 반드시신규 발급 필요합니다.\n2. 고객의 안전을 위하여 가이드 안내사항 및 안전 수칙을 준수하여 모든 안전사고에 유의하시기 바랍니다.\n특히, 현지 선택 관광은 가이드의 주의사항을 숙지 후 참여 여부를 결정하여 주시기 바라며 이용자 본인의 과실 및 본인 건강상태로 인하여 발생한 안전사고에 대해서는 이용자 본인의 책임임을 알려드립니다.\n3. 기존 관광비자 소지자의 경우 반드시 관광비자(B1/B2)인지 확인바랍니다. 관광 목적에 맞지 않은 비자(유학비자 등)는 출국 할 수 없습니다.\n\n❌[미국 입국시 반입금지 식품]\n최근 승객이 미국(미국령 포함) 입국 시 식품 반입 관련 CBP의 검색 절차가 강화되어 아래와 같이 공지하오니, 협조하여 주시기 바랍니다.\n1) 주요 적발 품목 : 라면 및 소시지, 건어물 (미역, 멸치, 오징어, 쥐포 등)\n2) 적발 시 제재 조치 사항\n- 세관신고서에 기입하였을 경우, 압수 및 폐기 조치\n- 세관신고서에 기입하지 않은 상태로 적발될 경우, 압수 및 승객에게 패널티 부과 (최하 USD 300)\n3) 기타\n- 이전에는 박스로 포장된 짐이 주요 대상이었으나 최근에는 모든 수하물에 대한 랜덤 체크 및 그 빈도가 증가하고 있음\n- 한국 적발될 경우, 향후 입국 시마다 실시 등 입국 사열에 많은 시간과 불편을 겪게 되는바, 고객 안내 시 참고하여 주시기 바랍니다.\n\n💵[하와이의 팁 문화]\n- 도어맨 : 택시를 잡아줄 경우 $1\n- 호텔 침구 정리 : 매일 아침 침대맡에 $1\n- 택시 : 택시 요금의 10~15% 정도와 짐을 들어줄 경우 짐 하나에 $1\n- 음식점 : 전체 요금의 15% 정도를 지불 (계산에 이미 포함되어 있는 경우도 있음)\n\n☎️[하와이 지역번호]\n- 미국 국가번호 : +1\n- 하와이 지역번호 : +808\n\n⏰[우리나라와의 시차]\n하와이는 우리나라와의 시차가 -19시간으로, 19시간이 늦다. 미국은 서머타임을 시행하고 있으나, 하와이는 서머타임 제도가 적용되지 않는 곳이다. 고민할 것 없이 19시간! 기억하자.\n\n🚭[흡연]\n하와이에서 공공장소 흡연은 엄격히 금지! 레스토랑, 쇼핑 센터, 택시 내부에서는 금연이며, 한정된 장소에서만 제한적으로 흡연이 가능하다. 위반시 벌금을 내야 한다. 꼭 흡연을 해야 한다면, 지정장소의 재떨이를 이용하자.\n\n🍻[음주]\n미국은 만 21세부터 술을 살 수도, 마실 수도 있다. 그렇기에 술을 사기 위해서는 신분증이 반드시 필요하다. 또한 우리나라와 다르게 해변가, 공원 등 공공장소에서의 음주가 금지되어 있으므로 분위기를 내기 위해 야외에서 술판을 벌이다가는 그대로 연행될 수 있으니 유의 하자. 물론 음주운전 역시 절대 금물!",
+          "title": "기타 정보"
+        }
+      ],
+      "day": "acc_con6",
+      "golf": [],
+      "hotel": [],
+      "images": [],
+      "meals": "숙박 없음",
+      "stops": [
+        {
+          "text": "인천",
+          "title": "인천"
+        },
+        {
+          "text": "기타 정보\n상세보기\n\n📚[여권/비자]\n1. 여권 만료기간 6개월 이상 및 여권 종류를 반드시 확인 필요합니다.\n- 단수여권(PS)으로 해외출국 이력이있다면 반드시신규 발급 필요합니다.\n2. 고객의 안전을 위하여 가이드 안내사항 및 안전 수칙을 준수하여 모든 안전사고에 유의하시기 바랍니다.\n특히, 현지 선택 관광은 가이드의 주의사항을 숙지 후 참여 여부를 결정하여 주시기 바라며 이용자 본인의 과실 및 본인 건강상태로 인하여 발생한 안전사고에 대해서는 이용자 본인의 책임임을 알려드립니다.\n3. 기존 관광비자 소지자의 경우 반드시 관광비자(B1/B2)인지 확인바랍니다. 관광 목적에 맞지 않은 비자(유학비자 등)는 출국 할 수 없습니다.\n\n❌[미국 입국시 반입금지 식품]\n최근 승객이 미국(미국령 포함) 입국 시 식품 반입 관련 CBP의 검색 절차가 강화되어 아래와 같이 공지하오니, 협조하여 주시기 바랍니다.\n1) 주요 적발 품목 : 라면 및 소시지, 건어물 (미역, 멸치, 오징어, 쥐포 등)\n2) 적발 시 제재 조치 사항\n- 세관신고서에 기입하였을 경우, 압수 및 폐기 조치\n- 세관신고서에 기입하지 않은 상태로 적발될 경우, 압수 및 승객에게 패널티 부과 (최하 USD 300)\n3) 기타\n- 이전에는 박스로 포장된 짐이 주요 대상이었으나 최근에는 모든 수하물에 대한 랜덤 체크 및 그 빈도가 증가하고 있음\n- 한국 적발될 경우, 향후 입국 시마다 실시 등 입국 사열에 많은 시간과 불편을 겪게 되는바, 고객 안내 시 참고하여 주시기 바랍니다.\n\n💵[하와이의 팁 문화]\n- 도어맨 : 택시를 잡아줄 경우 $1\n- 호텔 침구 정리 : 매일 아침 침대맡에 $1\n- 택시 : 택시 요금의 10~15% 정도와 짐을 들어줄 경우 짐 하나에 $1\n- 음식점 : 전체 요금의 15% 정도를 지불 (계산에 이미 포함되어 있는 경우도 있음)\n\n☎️[하와이 지역번호]\n- 미국 국가번호 : +1\n- 하와이 지역번호 : +808\n\n⏰[우리나라와의 시차]\n하와이는 우리나라와의 시차가 -19시간으로, 19시간이 늦다. 미국은 서머타임을 시행하고 있으나, 하와이는 서머타임 제도가 적용되지 않는 곳이다. 고민할 것 없이 19시간! 기억하자.\n\n🚭[흡연]\n하와이에서 공공장소 흡연은 엄격히 금지! 레스토랑, 쇼핑 센터, 택시 내부에서는 금연이며, 한정된 장소에서만 제한적으로 흡연이 가능하다. 위반시 벌금을 내야 한다. 꼭 흡연을 해야 한다면, 지정장소의 재떨이를 이용하자.\n\n🍻[음주]\n미국은 만 21세부터 술을 살 수도, 마실 수도 있다. 그렇기에 술을 사기 위해서는 신분증이 반드시 필요하다. 또한 우리나라와 다르게 해변가, 공원 등 공공장소에서의 음주가 금지되어 있으므로 분위기를 내기 위해 야외에서 술판을 벌이다가는 그대로 연행될 수 있으니 유의 하자. 물론 음주운전 역시 절대 금물!"
+        }
+      ],
+      "text": "인천\n기타 정보\n상세보기\n\n📚[여권/비자]\n1. 여권 만료기간 6개월 이상 및 여권 종류를 반드시 확인 필요합니다.\n- 단수여권(PS)으로 해외출국 이력이있다면 반드시신규 발급 필요합니다.\n2. 고객의 안전을 위하여 가이드 안내사항 및 안전 수칙을 준수하여 모든 안전사고에 유의하시기 바랍니다.\n특히, 현지 선택 관광은 가이드의 주의사항을 숙지 후 참여 여부를 결정하여 주시기 바라며 이용자 본인의 과실 및 본인 건강상태로 인하여 발생한 안전사고에 대해서는 이용자 본인의 책임임을 알려드립니다.\n3. 기존 관광비자 소지자의 경우 반드시 관광비자(B1/B2)인지 확인바랍니다. 관광 목적에 맞지 않은 비자(유학비자 등)는 출국 할 수 없습니다.\n\n❌[미국 입국시 반입금지 식품]\n최근 승객이 미국(미국령 포함) 입국 시 식품 반입 관련 CBP의 검색 절차가 강화되어 아래와 같이 공지하오니, 협조하여 주시기 바랍니다.\n1) 주요 적발 품목 : 라면 및 소시지, 건어물 (미역, 멸치, 오징어, 쥐포 등)\n2) 적발 시 제재 조치 사항\n- 세관신고서에 기입하였을 경우, 압수 및 폐기 조치\n- 세관신고서에 기입하지 않은 상태로 적발될 경우, 압수 및 승객에게 패널티 부과 (최하 USD 300)\n3) 기타\n- 이전에는 박스로 포장된 짐이 주요 대상이었으나 최근에는 모든 수하물에 대한 랜덤 체크 및 그 빈도가 증가하고 있음\n- 한국 적발될 경우, 향후 입국 시마다 실시 등 입국 사열에 많은 시간과 불편을 겪게 되는바, 고객 안내 시 참고하여 주시기 바랍니다.\n\n💵[하와이의 팁 문화]\n- 도어맨 : 택시를 잡아줄 경우 $1\n- 호텔 침구 정리 : 매일 아침 침대맡에 $1\n- 택시 : 택시 요금의 10~15% 정도와 짐을 들어줄 경우 짐 하나에 $1\n- 음식점 : 전체 요금의 15% 정도를 지불 (계산에 이미 포함되어 있는 경우도 있음)\n\n☎️[하와이 지역번호]\n- 미국 국가번호 : +1\n- 하와이 지역번호 : +808\n\n⏰[우리나라와의 시차]\n하와이는 우리나라와의 시차가 -19시간으로, 19시간이 늦다. 미국은 서머타임을 시행하고 있으나, 하와이는 서머타임 제도가 적용되지 않는 곳이다. 고민할 것 없이 19시간! 기억하자.\n\n🚭[흡연]\n하와이에서 공공장소 흡연은 엄격히 금지! 레스토랑, 쇼핑 센터, 택시 내부에서는 금연이며, 한정된 장소에서만 제한적으로 흡연이 가능하다. 위반시 벌금을 내야 한다. 꼭 흡연을 해야 한다면, 지정장소의 재떨이를 이용하자.\n\n🍻[음주]\n미국은 만 21세부터 술을 살 수도, 마실 수도 있다. 그렇기에 술을 사기 위해서는 신분증이 반드시 필요하다. 또한 우리나라와 다르게 해변가, 공원 등 공공장소에서의 음주가 금지되어 있으므로 분위기를 내기 위해 야외에서 술판을 벌이다가는 그대로 연행될 수 있으니 유의 하자. 물론 음주운전 역시 절대 금물!\n호텔\n숙박 없음"
+    }
+  ],
+  "heading": "하와이 골프 7일 #2색골프 #18홀*2회 #하와이프린스/와이켈레GC #폴리네시안 레지던스 리조트 #2인출발가능 #시티투어 #2일 자유일정 #하나투어스마트카드",
+  "text": "(주)나침반여행사\n1899-7972\n로그인\n회원가입\n고객센터\n하나투어\n통합 검색어 입력폼\n검색\n튀르키예\n일본\n대마도\n장가계\n푸꾸옥\n대만\n후쿠오카\n상하이\n오사카\n스페인\n튀르키예\n일본\n마이메뉴\n예약내역\n찜\n전체메뉴\n해외여행\n항공\n호텔\n항공+호텔\n투어/입장권\n국내여행\n테마여행\n제우스\n여행기획전\n이달의 혜택\n여행 파트너\nH-AI\n최근 본 상품(0)\nTOP\n1/9\n이전\n다음\n상품코드 HHG109261101YP2\n인쇄하기 공유하기\n다색골프\n여행상품 핵심정보\n골프\n하와이 골프 7일 #2색골프 #18홀*2회 #하와이프린스/와이켈레GC #폴리네시안 레지던스 리조트 #2인출발가능 #시티투어 #2일 자유일정 #하나투어스마트카드\n\n폴리네시안 레지던스 리조트에 머물며, 매일 다른 코스에서 색다른 매력을 경험하는 2색 골프 라운드 상품입니다.\n\n#골프#다색골프 #관광\n해시태그\n#해변가의여유#환상적인골프라운드#하와이의로맨틱한하루#하와이골프여행#호놀룰루자유일정#하와이관광코스#하와이프린스골프#와이켈레골프클럽#호놀룰루시티투어\n5박 7일\nLCC\n쇼핑없음\n단체여행\n가이드경비없음\n선택관광있음\n출발예정\n항공예정\n일정예정\n호텔예정\n가격예정\n\n성인 1인\n\n3,045,200 원\n5개월 무이자 할부 예상가\n월 609,040원\n카드사별 무이자 혜택 \n여행 주요일정\n항공여정보기 다른 출발일 선택 \n최저가로 떠날 수 있는 날 알아보기\n일정 \n\n5박 7일 \n에어프레미아\n\n출발 : 2026.11.01(일) 22:50 2026.11.01(일) 12:10 YP0151총 08시간 20분 소요\n\n도착 : 2026.11.06(금) 14:20 2026.11.07(토) 20:20 YP0152총 11시간 00분 소요\n\n 여행도시 호놀룰루(5) 예약현황 예약 : 0명 좌석 : 2석 (최소출발 : 성인2명) \n상품가격\n구분\t성인\n\n만 12세 이상\n\n\t아동\n\n만 12세 미만 \n\n\t유아\n\n만 2세 미만 \n\n\n기본상품\t3,045,200원\n\n유류할증료 445,200원/제세공과금 0원 포함\n\n\t3,045,200원\n\n유류할증료 445,200원/제세공과금 0원 포함 \n\n\t357,000원\n\n유류할증료 0원/제세공과금 0원 포함 \n\n유류할증료 및 제세공과금은 유가와 환율에 따라 변동될 수 있습니다.\n약관(이용운송, 숙박기관 등에 지급할 요금의 변동)에 따라 상품가격은 변동될 수 있습니다. 자세한 사항은 약관을 참조하시기 바랍니다.\n아동, 유아요금은 성인 2인과 같은 방 사용조건이며, 미충족시 아동추가 요금이 발생합니다.\n1인 객실 사용시 추가요금 발생됩니다.\n\n1인 객실 사용료 : 문의\n\n하나투어 마일리지 최대 26,000적립예정\n하나투어클럽 회원, 성인기준\n패키지 상품가 기준\n미국\n입국 규정 확인\n테마소개\t\n골프\n다색골프\n\n골프\n\n\n[하나투어 X 보이스캐디 APL골프]\n핸드폰과 워치에서 골프장 코스/거리 정보를 확인할수 있어요.\n출발 7일전 카톡 알림톡을 통해 APL 3일 무료이용권을 제공합니다.\n\n\n다색골프\n\n골프장 외부에 위치한 숙박시설에서 다양한 골프장 라운드를 즐기는 상품입니다.\n\n핵심\n포인트\n관광\n골프\n호텔\n교통\n가이드\n보험\n기타\nSAFETY\n&JOY\n상품 핵심포인트\n① 밤 출발! 오후 귀국! 최적의 항공편\n② 다양한 골프장에서 즐기는 환상의 라운드\n③ 와이키키 해변에 위치한 폴리네시안 레지던스 리조트 숙박\n④ 호놀룰루 시내 관광 포함\n⑤ 골프장-호텔간 셔틀 서비스 운영\n⑥ 2인 출발 가능\n⑦ 최대 3억원 보장 여행자 보험\n하나투어 안심여행과 함께 “SAFETY&JOY”\n① 응급/위기상황 발생 시 체계적인 현장 지원\n② 안전/위생지침 준수업체 이용(차량/호텔/선박/식당 등)\n③ 국가별 방역지침 준수\n하와이 여행의 치트키 🗝️ 하나투어 스마트카드 특별 증정\n하나 스마트 제휴카드란?\n\n💳새롭게 출시된 하나스마트카드는 현지에서 처음 선보이는 특별한 제휴카드로, 소지한 회원이라면 누구나 다양한 혜택을 편리하게 누리실 수 있습니다.\n\n💳하와이 여행에 대한 폭넓은 정보와 혜택을 공유하며, 스마트하게 여행을 즐길 수 있도록 마련되었습니다. 하와이의 대표적인 레스토랑, 쇼핑센터, 각종 투어업체와 제휴하여 고객분들께 실질적인 혜택을 제공하고, 여행 만족도를 높여드립니다.\n\n자세한 내용은 아래 홈페이지 참고 바랍니다.\n(바로가기)\n호놀룰루 시티투어\n① 호놀룰루 다운타운 탐방\n📍️ 호놀룰루 다운타운 – 오아후의 경제·역사 중심지\n고풍스러운 건물과 현대적인 도시 풍경이 조화를 이루는 지역으로, 하와이의 과거와 현재를 동시에 느낄 수 있는 곳입니다.\n🏮 차이나타운 & 하와이 극장\n다양한 먹거리와 로컬 문화가 살아있는 거리로, 1920년대 양식의 하와이 극장이 상징적인 랜드마크입니다.\n🏛️ 주정부 청사\n하와이 정치의 중심지로, 개방형 구조와 독특한 건축미가 돋보이는 건물입니다.\n👑 이올라니 궁전\n미국 내 유일한 왕궁으로, 하와이 왕국의 역사와 문화가 고스란히 남아 있는 대표 명소입니다.\n🗿 카메하메하 동상\n하와이를 통일한 카메하메하 대왕을 기리는 상징적인 동상으로, 대표적인 인증샷 포인트입니다.\n🎨 카카아코 거리\n신흥 예술 지구로, 감각적인 벽화와 로컬 숍들이 어우러져 활기찬 분위기를 느낄 수 있는 곳입니다.\n\n② 포인트 하차 코스\n🗼 알로하 타워\n과거 하와이의 관문 역할을 했던 랜드마크로, 항구와 어우러진 상징적인 전망 타워입니다.\n🖌️ 카카아코 그래피티 아트 스트리트\n세계적인 아티스트들의 스트리트 아트가 펼쳐진 공간으로, 감각적인 포토 스팟으로 유명합니다.\n🌊 알라모아나 비치 파크\n현지인과 여행객 모두 즐겨 찾는 해변 공원으로, 여유로운 바다 풍경과 휴식을 즐기기 좋습니다.\n\n18홀 2회 라운드\n① 공통사항\n☞전동카트 : 2인 1카트\n☞캐디운영 : 노캐디\n\n② 이용 골프장 정보\n\n☀️ 하와이 프린스 GC – 바다를 따라 펼쳐지는 오션뷰 리조트 코스\n3개의 9홀 코스로 구성된 27홀 골프장으로, 평탄한 지형과 넓은 페어웨이가 특징입니다.\n바닷바람과 워터 해저드가 변수로 작용하며, 여유로운 분위기 속에서 플레이를 즐기기 좋습니다.\n• PAR 108 / 27H / 9,313Y\n\n🌴 와이켈레 GC – 하와이를 대표하는 클래식 리조트 코스\nLPGA 대회 개최 이력이 있는 코스로, 잘 정돈된 페어웨이와 전략적인 해저드 배치가 특징입니다.\n전반적으로 밸런스가 좋아 초중급자부터 상급자까지 모두 만족도 높은 라운드가 가능합니다.\n• PAR 72 / 18H / 6,333Y\n\n하와이 골프 안내사항 (최소 출발인원 2인 이상)\n① 1~7인 15인승 또는 8~12인 25인승 행사합니다.\n② 차량 & 드라이빙 가이드가 미팅/센딩을 진행합니다.\n③ 골프 라운드 날짜에는 합류 셔틀 차량을 탑승하여 골프장으로 이동합니다.\n④ 하와이는 캐디가 없으며, 4인 1조 라운딩 기준으로 2인 예약 시 타 팀과 조인하여 진행합니다.\n폴리네시안 레지던스 리조트 호텔 연박\n① 2인 1실 기준\n② 슈페리어 타입 숙박\n③ 호텔 조식 불포함\n\n💬 와이키키 중심 입지의 레지던스형 숙소, 폴리네시안 레지던스 와이키키 비치 (Polynesian Residences Waikiki Beach)\n📍️ 와이키키 중심 접근성\n와이키키 중심부에 위치해 해변, 쇼핑, 레스토랑 모두 도보 이동이 가능합니다.\n로얄하와이안센터, DFS 등 주요 상권 접근이 뛰어난 입지입니다.\n\n🛏️ 실용적인 객실 구성\n레지던스형 객실로 전자레인지, 간단한 주방시설이 구비되어 있어 활용도가 높습니다.\n넉넉한 공간감으로 장기 체류나 자유여행에 적합합니다.\n\n🍽️ 다양한 식사 환경\n호텔 내 조식은 없지만, 주변에 카페·맛집·푸드코트가 밀집해 있어\n외부 식사 선택지가 매우 풍부한 편입니다.\n\n🏖️ 해변·쇼핑 모두 도보 가능\n와이키키 해변까지 도보 이동 가능하며, 쇼핑과 관광을 함께 즐기기 좋은 위치입니다.\n일정 중 이동 부담 없이 자유롭게 시간을 활용할 수 있습니다.\n\n호텔 주변 추천 스팟\n① 이동 거리/시간\n✈️ 다니엘 K. 이노우에 국제공항(호놀룰루 공항)에서 차량으로 약 25~30분 거리입니다. 알라모아나 쇼핑센터까지는 차량 약 8분(도보 약 25분)이 소요되며, 와이키키 시내 주요 관광지는 대부분 도보로 편리하게 이동할 수 있습니다.\n\n② 주변 먹거리존\n🥩 칼라카우아 에비뉴 및 비치워크 (호텔 인근, 도보 3~5분) : 유명 스테이크하우스(루스 크리스 등), 하와이 로컬 음식점, 각종 트렌디한 카페 및 펍 밀집 구역입니다.\n🛒 편의점 및 마트: 하와이 여행의 필수 편의점인 ABC스토어가 도보 2분 거리에 있어 간단한 간식이나 생필품 구매가 매우 용이합니다.\n\n③ 추천 일정\n🛍️ 럭셔리 로우(Luxury Row) & 와이키키 비치 워크 : 도보 3~5분 / 차량 1분\n🏖️ 와이키키 해변 (Waikiki Beach) : 도보 5~7분 / 차량 2분\n🐢 호놀룰루 동물원 & 카피올라니 공원 : 도보 20분 / 차량 5분\n\n※ 본 정보는 참고용으로, 영업시간·교통편은 변동될 수 있으니 방문 전 확인 부탁드립니다.\n항공 수하물 규정\n※ 에어프레미아 골프 무료 수하물 규정 안내\n\n[이코노미 클래스 기준]\n▷위탁 수하물: 1인당 2개까지 무료 제공\n◦무게: 각각 최대 23kg\n◦크기: 각각 최대 158cm (가로 + 세로 + 높이의 합)\n\n▷기내 반입 수하물:\n•휴대 수하물 (Carry-on Bag): 1개\n◾무게: 최대 10kg\n◾크기: 55 x 40 x 20cm 이하\n•개인 물품 (Personal Item): 1개\n◾예시: 백팩, 노트북 가방 등\n◾무게: 최대 10kg\n◾크기: 40 x 30 x 15cm 이하\n\n[골프백 운반 안내]\n•골프백: 위탁 수하물로 취급되며, 1인당 1개까지 무료로 허용됩니다.\n•무게 제한: 골프백의 무게가 23kg을 초과할 경우, 초과 요금이 부과될 수 있습니다.\n•사전 수하물 구매: 추가 수하물이 필요하신 경우, 사전 수하물 구매를 통해 최대 32kg까지 위탁하실 수 있습니다.\n\n자세한 수하물 규정은 아래 홈페이지 참고 바랍니다.\n무료 수하물 규정\n(바로가기)\n사전수하물 구매\n(바로가기)\nFAQ\n(바로가기)\n\n가이드 부분 동행\n① 가이드는 공항 미팅/센딩 및 1일차 관광 시에만 동행합니다.\n② 이외의 골프 라운드 일정 시에는 왕복 셔틀 드라이버(한국인)와 미팅하여 각 골프장 이동합니다.\n3억원 여행자보험\n해외치료비 최대 보장 한도 [상해/질병]3,000만원\n[휴대품 도난/파손] 최대100만원보상\n* 국가/연령에 따라 보장내용이 상이할 수 있습니다.\n* 자세한 내용은 보장내역 자세히보기(클릭) 확인해주시기 바랍니다.\n2인 출발 가능\n① 하와이 골프장은 4인 1조로 플레이가 진행됩니다.\n② 1인~3인 예약하신 경우, 부족한 인원에 대해서는 합류 플레이가 진행 됩니다.\n(워크인 손님이 합류하시는 경우, 언어에 따른 불편함이 발생될 수 있음을 사전에 고지 드립니다. )\n③ 합류 인원 없이 라운딩을 하시려면 부족한 인원수에 대한 그린피를 지불한다면 조인 없이 플레이 가능합니다.\n\n※ 정확한 요금은 문의부탁드립니다.\n※ 해당 규정 및 금액은 현지 사정에 따라 변경될 수 있습니다.\n출입국 정보\n· 여행 필요서류/준비사항 [대한민국 → 미국(하와이)]\n\n▶예약 전 필수 체크 사항\n- 입국 가능 승객 : 미국 시민권자/영주권자, 유효한 미국 비자 소지자(ESTA 포함)\n\n▶필수 준비 서류\n- 미국 입국 가능 비자\n- 전자 여권(칩 내장有) 소지\n(여권 유효기간: 출국일 기준, 6개월 이상)\n- 여권 사본\n- 왕복 항공권 (전자 항공권의 경우, 출입국 심사관 제시용 여정 사본 소지)\n⭐보이스캐디 APL골프 X 하나투어 단독 제공⭐\n핸드폰과 워치에서 골프장 코스/거리 정보를 확인할수 있습니다.\n출발 7일전 카톡 알림톡을 통해 APL 3일 무료 이용권을 제공합니다. (1인 2만원 상당)\nPC 바로가기 ☞ (바로가기)\n모바일 바로가기 ☞ (바로가기)\n\nSAFETY&JOY 하나투어는 여행의 전 과정을 함께 합니다.\n① 여행 중 24시간 긴급 의료 지원 등 H-care\n② 여행 후에도 이어지는 고객 만족 서비스\n(바로가기)\n포함/불포함/선택경비 정보\n포함내역\n[교통]\n\n왕복항공권\n\n[제세금]\n\n관광진흥개발기금, 투어리스트 텍스, 국내공항세, 현지공항세, 전쟁보험료, 유류할증료\n\n[숙박]\n\n숙박비 : 2인1실 기준\n\n\n[관광]\n\n관광지 입장료 : 일정표에 방문지로 표기된 관광지 포함 및 도착일 중식 포함\n\n\n[테마]\n\n그린피, 전동카 : 2인 1카트\n\n\n[여행자보험]\n\n3억원 여행자보험\n\n[가이드/기사]\n\n가이드/기사 경비\n\n불포함내역\n[식사]\n\n식사비 : 전일정 호텔 조식 및 중/석식 불포함(도착일 중식 1회만 제공)\n\n[기타]\n\n최소출발미달 : 2인 출발 가능하며, 송영 추가비용 발생합니다.\n\n■ 송영 추가비용 (1인/전일정)\n- 3인1조시 1인당 $30\n- 2인1조시 1인당 $80\n\n※2인 라운드 확약 요청 시 추가요금 발생됩니다. (문의바람) 비자 발급비 : 80,000원 (미국 ESTA 발급 수수료, 전자 여권 소지자만 가능), 기타 : 가격문의 (골프장 체크인 시 포터팁 (1인당 1회당 $2 ~ $3))\n\n개인 여행경비(물값, 자유시간시 개인비용 등)\n\n각종 매너팁(테이블팁, 객실팁, 포터비, 마사지팁 등)\n\n매너팁은 소비자의 자율적 선택으로 지불여부에 따른 불이익은 없습니다. \n\n선택경비\n[교통]\n\n항공리턴변경(불가), 클래스 차액 : 해당 상품은 그룹항공권 요금 기준으로 세팅이 되어있습니다.\n다만, 좌석은 실시간 상황에 따라 가능 여부 및 요금이 변동될 수 있습니다.\n상품에 대한 예약이 가능하더라도 반드시, 여행사의 진행 가능 여부에 대한 답변을 기다려 주시기 바랍니다.\n\n또한 그룹항공권 이용이 불가할 경우, 개별항공권으로 진행되며 그에 따라 금액 추가 및 사전 발권이 진행될 수 있습니다.\n발권 후 취소 시, 취소 수수료가 발생할 수 있으며 관련 내용은 사전에 고지해 드립니다.\n\n\n[숙박]\n\n객실 1인 사용료 : 요금미정, 문의바랍니다., 싱글룸비용 : 가격문의 (기간별 요금이 상이함으로 문의 부탁드립니다. )\n\n선택관광/기항지관광/현지투어에 관한 상세 내역은 패키지 상품상세를 참고바랍니다. \n\n상품약관\t\n약관상세보기\n\n본 상품의 예약과 취소는 국외여행 특별약관이 적용됨을 알려드립니다.\n특별약관 적용 시 표준약관보다 높은 취소수수료가 부과될 수 있으며 이 경우 동의절차를 구합니다.\n\n계약금 규정\n예약일 기준 3일 이내에 1인당 300,000원을 납입하셔야합니다.\n취소료 규정\n이 상품은 항공(또는 선박)좌석 또는 호텔객실에 대한 비용을 선납해 놓은 상품으로서, 취소시 하단의 취소료가 적용됨을 양해해 주시기 바랍니다.\n특별규정\n☆개별항공발권조건(인디비)☆ -발권과 동시에 패널티 발생 (약관상 패널티와 별개로 적용) -페널티 금액과 기간에 대해서는 에약 시 고지 드립니다. [항공 취소 수수료 특별약관] 출발일 기준 30일 이전 선발권 진행 고객은 별도의 항공사 환불차지가 부과됩니다. (출발일 30일이내 고객은 여행약관규정에 의거 취소료부과)\n더보기\n예약시 유의사항\n📢 실시간 항공권 사용 상품안내\n- 예약 후 3일 이내 발권 조건입니다.\n- 실시간 개별 특가 항공권으로 해당 특가 운임 클래스 조기 마감시, 추가요금 발생 가능성 있습니다.\n- 기내 좌석 배정은 항공사의 고유 권한으로 여행사의 귀책사유는 없음을 알려드리며, 고객님이 희망하시는 좌석으로 배정이 안 될 수 있음을 널리 양해 부탁드립니다.\n- 사전 좌석 배정이 가능한 항공사의 경우, 출발 2~3일 전 전자 항공권(e-티켓)을 받으시고 고객님께서 직접 웹 체크인을 통해 좌석 지정받으시길 권해드립니다.\n※ 미주노선 등 일부 항공편은 서비스 이용이 제한될 수 있으며, 항공사 규정에 따라 상이합니다.\n\n📢 예약 안내\n- 골프 상품의 특성상 호텔 + 골프장의 상황이 실시간으로 바뀔 수 있어 예약 후 행사 가능여부 확인을 꼭 부탁드립니다.\n\n※ 항공 스케줄은 항공사의 사정에 따라 변경될 수 있습니다. 추후 여행이 가능한 항공편 및 출·도착 일정으로 변경될 수 있습니다.\n※ 해당 상품은 개별항공권을 이용하며, 상세 항공 좌석은 예약 대리점에 문의 부탁 드립니다. 항공 좌석 마감 시에 추가 차액 발생할 수 있습니다.\n\n- 예약 후 항공&호텔에 대한 확약은 상담원을 통하여 안내가 될 예정입니다.\n- 본인 귀책사유에 의한 입국거절시엔 환불되는 금액이 없습니다.\n- 여행상품 특성상 예약시기, 조건에 따른 상품가 차이가 있을 수 있습니다\n- 원활한 입국을 위해 18세미만 미성년자 동반시 준비할 서류가 있습니다. 자세한 내용은 예약처에 문의 바랍니다.\n- 대한민국 국적이 아닌 경우 방문 국가의 비자관련 사항을 대사관에 확인해주시기 바랍니다.\n- 예약후 호텔이 확정 되는데 3~5일 정도 소요되며 현지 사정으로 인한 호텔 요금 변동 및 동급 호텔로 변경될 수 있습니다.\n- 기내 좌석 배정은 항공사의 고유 권한으로 항공사의 규정에 따라 웹/모바일 체크인 혹은 출발 당일 체크인 순서대로 이루어집니다. 또한 일행과 좌석이 분리될 수 있습니다.\n\n📢 하와이 골프 관련 안내사항\n- 하와이 골프는 4인 1조로 운영되며, 4의 배수가 되지 않는 경우 현지인 합류 행사로 진행됩니다.\n- 하와이 골프는 4인 1조로 진행되어 약 8~10분의 티타임 인터벌이 발생되오니 참고 부탁드립니다.\n- 하와이 골프는 1인 1클럽 필수이며, 쉐어는 불가합니다.\n- 코올리나 골프장을 제외한 타 골프장은 락커와 샤워 시설이 준비되어 있지 않습니다.\n- 귀중품은 분실 위험이 있어 객실에 보관하시는 것을 추천드립니다.\n- 플레이하지 않는 인원은 현장에서 라이더 비용을 지불해야 합니다.\n- 와이키키 호텔에서 골프장까지 약 1시간 소요됩니다. (터틀베이 약 1시간 30분 소요 / 편도기준)\n- 골프장 그늘집의 경우 우동, 햄버거스테이크, 돈까스, 스테이크, 샌드위치 등이 판매 되며 금액은 $20 전후 입니다\n- 현지 선택관광 및 매너팁 등은 불포함이며, 현지에서 지불합니다.\n- 미주 지역 특성상 식사팁을 관습에 의해 지불해야 합니다.($2/1인/1식, 특식인 경우 $3~4/1인/1식)\n- 하와이 모든 호텔은 체크인 시 손님 카드로 오픈하게 되어 있습니다. 추후 체크아웃 시\n- 호텔 내 객실 시설 및 객실 미니바 사용에 따른 추가 결제를 위한 조치이므로, 꼭 손님 명의의 신용카드를 여행시 지참하셔야 합니다.\n가이드/인솔자 및 미팅정보\n가이드\n현지 도착시 가이드와 미팅이 이루어집니다\n인솔자\n인솔자가 동행하지 않습니다.\n미팅정보\t\n미팅장소보기\n일시 :\n11월 01일 오후 20:20\n장소 :\n인천공항 제1여객터미널 3층 1번 출입문(A카운터옆) 하나투어 21~24 테이블\n터미널과 미팅장소를 꼭 확인하세요!\n[항공 좌석배정]기내 좌석 배정은 항공사의 고유 권한으로 일행과 좌석이 분리될 수 있습니다.\n항공사 탑승수속(선박 승선수속) 마감시간까지 수속을 마치지 못한 경우 출국이 거절될 수 있으며 이 경우 당사의 책임범위가 아님을 알려드립니다. 안전한 출국을 위해 하나투어 미팅시간까지는 반드시 공항(터미널)에 도착해 주시기 바랍니다\n여행일정\n호텔 & 관광지\n선택관광\n참고사항\n해외 안전정보\n여행후기\n1일차\n2일차\n3일차\n4일차\n5일차\n6일차\n7일차\n일정 전체닫힘\n\n여행일정 변경에 관한 사전 동의안내\n\n여행일정은 계약체결 시 예상하지 못한 부득이한 사정 등이 발생하는 경우 여행자의 사전동의를 거쳐 변경될 수 있음을 양지하시기 바랍니다. \n\n1일차\n11/01(일)\n인천, 호놀룰루\n\n주(州)정부청사, 이올라니 궁전, 카메하메하 대왕 동상, 카카아코 거리, 알로하 타워, 카카아코 벽화, 알라 ...\n\n에어프레미아\n08시간 20분 YP0151\n\n22:50\n2026.11.01(일)\n서울 ICN 출발\n12:10\n2026.11.01(일)\n호놀룰루 HNL 도착\n인천\n\n인천-호놀룰루로 이동\n\n- 기내식 2회 [석식/조식]\n- 시차정보 : 한국보다 19시간 느림\n\n조식 (기내식)\n\n호놀룰루\n입국절차 주의사항 안내\n\n※ 입국절차 강화로 많은 시간이 소요될 수 있습니다.\n※ 상세 사항은 출발 전 상담원을 통해 안내드립니다.\n\n착륙 후 안내사항\n\n☞메인 터미널로 이동 > 2층으로 내려가 외국인(Visitor) 심사대에서 입국심사\n☞1층으로 내려가 짐을 찾은 후 > 세관검사\n☞두군데의 출구 중 > 좌측 그룹게이트(Tour Group)로 나가 가이드 미팅\n☞좌측 출구로 나가셔야 가이드를 바로 만나실 수 있으며, 우측으로 나가신 경우에는 돌아가시면 됩니다.\n\n\n\n미팅 안내사항\n\n☞ 피 켓 : 하나투어\n☞ 하나투어 다른 상품코드 손님들과 합류 행사합니다.\n\n미팅 후 호놀룰루 시티투어 출발\n\n중식 (현지식[한식])\n\n예정 관광지\n주(州)정부청사\n상세보기\n\nHawaii State Capitol\n\n하와이 주(州)정부 청사\n\n호놀룰루에 있는 하와이 상징 주정부 청사는 1969년 3월 15일 완공된 블록식의 근대 건축물입니다. 중앙에는 천장이 없이 개방되어 있어 1층 로비에서는 하늘을 볼 수 있습니다. 건물의 곳곳에서 하와이의 상징적인 것들을 살펴볼 수 있습니다. 8개의 기둥은 하와이 8개의 섬을, 건물 주위의 물은 태평양, 작은 돌들은 하와이의 크고 작은 섬들을 의미합니다. 내부에는 주지사 및 부지사 집무실, 상,하 양원 회의장 각 의원 사무실 등이 있습니다. 1층 로비 앞에는 문둥병 환자를 위해 평생을 바친 데미안 신부의 동상이 있습니다.\n이올라니 궁전\n상세보기\n\nIolani Palace\n\n미국 유일의 궁전 건물\n\n1/3\n이전\n다음\n1882년에 지어진 미국 내 유일한 왕궁으로 하와이 왕조의 파란만장한 역사를 볼 수 있는 장소입니다. 침실, 무도회장을 비롯하여 하와이 최초 수세식 화장실 등이 잘 보존되어 당시 왕조의 문화를 배울 수 있습니다.\n카메하메하 대왕 동상\n상세보기\n\nKing Kamehameha's Statue\n\n하와이 통일의 주역, 카메하메하 대왕 동상\n\n하와이를 최초로 통일시킨 카메하메하 왕을 위하여 만든 것입니다. 동상의 목과 어깨, 팔을 감싸고 있는 5m가 넘는 긴 꽃목걸이가 눈에 띕니다. 카메하메하는 전사로 외로운 사람이라는 뜻을 가지고 있으며, 매년 6월 11일은 대왕의 탄생 기념일로 정해져 화려한 퍼레이드가 열리고 있습니다.\n카카아코 거리\n상세보기\n\n오아후섬의 새로운 트렌디 플레이스\n\n일반적인 하와이의 모습과는 달리 뉴욕에서나 볼만한 세련된 도시를 느끼고 싶다면 추천하는 곳입니다. 거리 주변으로 럭셔리 콘도들이 건축되기 시작하며, 인기가 급부상한 핫스팟입니다. 특히 하와이에서 시작한 그라피티 예술가들의 주 무대이기도 하며, 매달 40개 이상의 푸드트럭이 참여해 만드는 잇 더 스트리트(Eat the Street) 등 크고 작은 행사가 개최되고 있습니다. 유니크한 작은 상점들에서는 하와이 고유의 특산물과 현지 로컬푸드를 동시에 체험할 수 있어 많은 관광객의 발길을 잡는 매력적인 거리입니다.\n알로하 타워\n상세보기\n\n호놀룰루를 대표하는 타워\n\n옛 오아후의 관문 역할을 했던 10층에 위치한 전망대입니다. 시원하고 탁 트인 전망을 자랑하는 호놀룰루의 랜드마크라고 할 수 있습니다. 1926년에 세워져 오아후의 관문역할로, 등대로 멋진 활약을 펼쳤던 역사적인 타워입니다. 등대로서의 역할이 끝남과 동시에 알로하 타워의 인기도 같이 내려갔지만 전망대로 다시 태어나면서 다시금 명성을 얻게 되었습니다. 알로하 타워 10층에 위치한 전망대에서는 오아후의 멋진 전망을 한눈에 감상할 수 있어 인기입니다. 특히, 야경이 멋지기로 유명합니다. 토요일 저녁에는 10시까지 개방하고 있어 여유롭게 멋진 야경을 즐길 수 있습니다. 알로하 타워 바로 아래에 알로하 타워 마켓 플레이스가 있으니 토요일 저녁에 방문한다면 쇼핑과 식사를 즐긴 뒤, 저녁 무렵 알로하 타워로 올라가 야경을 감상하는 것도 좋습니다.\n카카아코 벽화\n상세보기\n\n하와이의 그래피티 아트\n\n카카아코는 하와이에서 시작한 파우와우 예술가 모임의 주본거지입니다. 이곳의 벽면은 트렌디하고 유니크한 벽화로 가득합니다. 독일, 괌 등 글로벌한 영향력으로 카카아코 거리에서 페스티벌을 개최하기도 하며, 국내 수많은 방송과 매거진의 촬영 장소로도 애용되어 독특한 하와이를 경험하고자 하는 분들께 추천합니다.\n\n알라모아나 비치 & 파크\n상세보기\n\nAlamoana Beach Park\n\n공원과 어우러진 도심의 자연 비치\n\n1/2\n이전\n다음\n자연 비치를 중심으로 공원이 자리 잡아 바비큐 등을 해 먹을 수 있으며 자연 만이 형성되어 파도가 없으며 수심이 얕아 아이들이 놀기 좋은 다운타운 근처의 비치입니다. 주말이면 많은 현지인들이 바비큐 등을 해 먹는 모습을 볼 수 있는 소박하지만 아름다운 해변입니다.\n\n체크인 후 자유일정\nPOLYNESIAN RESIDENCES WAIKIKI BEACH\n\n폴리네시안 레지던시스 와이키키 비치\n\n1/2\n이전\n다음\n호텔소개\nPOLYNESIAN PLAZA 은 와이키키 해변과 가까이에 있으며 약 55개의 객실을 보유한 2성급 호텔입니다. 다양한 편의시설 및 부대시설을 갖추고 있으며 하와이 미 육군 박물관에서 도보로 약 5분 거리에 위치하고 있습니다.\n부대시설\n- 주차장\n- 야외 수영장\n- 24시간 프런트 데스크\n- 테라스\n- 세탁시설\n호텔위치\n- Waikiki 해변에서 약 700 m 거리에 위치\n- Honolulu 국제공항에서 차량으로 약 20분 거리에 위치\n\n석식 (불포함)\n\n호텔\n총 1개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n폴리네시안 레지던시스 와이키키 비치 \n\nPolynesian Residences Waikiki Beach상세보기\n\n식사\n[조식] 기내식 [중식] 현지식[한식] [석식] 불포함\n2일차\n11/02(월)\n호놀룰루\n\n지오반니 새우 트럭, 치즈케이크 팩토리 The Cheesecake Factory, 호놀룰루 쿠키 컴퍼니 Honolulu Cookie C ...\n\n호놀룰루\n\n조식 (불포함)\n\n호텔 조식 후 골프장으로 이동\n\n☞합류 서틀버스 이용 (이동 소요시간 : 약 40분)\n☞골프장 이동을 도와드리는 가이드는 하나투어 가이드가 아닌 골프전문업체 가이드입니다.\n☞골프장 체크인은 티타임 약 30분 전으로, 호텔에서 골프장까지는 평균 40~50분 정도 소요되기 때문에 약 1시간 10분에서 1시간 20분 정도 전에 미팅이 진행됩니다.\n☞미팅 시간은 현지 상황에 따라 변경될 수 있습니다.\n\n오전 라운드 18홀\n\n☞하와이 프린스GC 18홀 라운드 진행됩니다.\n☞TEE OFF TIME : 예약 이후 안내드리겠습니다.\n\n※골프장 순서는 변경될 수 있습니다.\n\nHAWAII PRINCE GOLF CLUB\n상세보기\n하와이 프린스 골프 클럽 코스정보\n1992년에 오픈된 코스로 아놀드파머(Arnold Palmer)와 에드씨(Ed Seay)에 의해 설계된 하와이의 유일한 27홀의 골프코스이다. 와이키키 내 호텔 중 하나인 하와이프린스 호텔의 소유이다. 일반적으로 리조트 골프코스들은 리조트와 골프장이 바로 옆 혹은 주변에 위치해 있어 리조트에 숙박을 하고 근처의 골프코스를 이용하는 개념이지만 이 곳은 독특하게 호텔은 와이키키에 위치하고 골프장은 드라이브로 40여분을 가야만 골프장에 닿게 되어 일반적인 리조트 골프장과는 조금 색다른 개념으로 이해해야 한다.\n\n아놀드파머는 오랫동안 사탕수수밭이었던 와이아네 지역의 270 에이커 면적을 믿을수 없을 만큼 아름다운 골프장으로 변신시켰다. 그로 인해 농지와 평지는 골프의 스릴을 주는 언덕과 내리막길로 변하고 사탕수수밭은 야자수 나무들로 둔갑하여 하얀 모래 벙커 90개와 10개의 연못으로 이루어진 페어웨이의 장애물이 되었다.\n\n그리고 그곳에 골프장은 프론트와 백, 9홀과 9홀 합해서 18홀로 구성되어야 한다는 고정관념을 깨고 그곳에 각각 9홀로 구성된 A, B, C코스로 나누어진 전체 27 홀의 골프장을 완성시켰다. 세개의 9홀 코스로 이루어져 있는 하와이프린스 코스에서는 세개의 9홀 중 두개를 선택해서 18홀 게임을 즐길수 있다. 3개의 코스는 믹스 앤 매치 플레이 방법으로 라운딩할수 있으니 결국 6개의 색다른 분위기의 코스를 만나 볼 수 있는 셈이다.(A&B, B&C, A&C)\n\n가장 긴 코스는 7255야드로 B&C의 조화이다. 이 코스는 전에 사탕수수밭이었던 지역이며 이곳에서 와이아네 마운틴의 멋진 전경도 볼수있다. 10개의 아름다운 강들은 잘 보존되어 있는 푸르름을 보호한다. 하와이 프린스 골프 클럽은 더 골프 채널 아마추어 투어장소중 한곳이기도 하고 클럽에선 여러종류의 토너먼트 게임과 슈퍼 프로 암 골프대회가 개최된다. 하와이프린스 코스는 골프초보자나 중급수준 이상인 전문골퍼 급 등 두클래스의 골퍼들에게 모두 추천되어지는 인기코스이다.\n\n한글명 : 프린스 골프클럽\n\n홈페이지 : http://www.princeresortshawaii.com/HPH/golf/\n\n홀(HOLE) : 27\n\n위치정보 : Hawaii Prince Hotel에서 서쪽으로 40분 거리에 위치\n\n파(PAR) : 108\n\n야드(YARD) : 9313\n\n중식 (불포함)\n\n라운드 후 자유일정\n하와이 먹거리 추천 #로컬의 맛\n지오반니 새우 트럭\n상세보기\n\n하와이의 명물 새우 트럭\n\n노스 쇼어는 새우 양식장이 많아 새우 요리를 하는 트럭이 굉장히 다양합니다. 그중에서도 가장 인기가 많은 곳은 지오반니 새우 트럭입니다. 겉모습은 다른 곳들과 차이점이 없지만 입에 넣는 순간 지오반니 새우 트럭이 왜 유명한지 금세 깨닫게 됩니다. 오일로 볶은 가장 기본적인 슈림프 스캄피, 매콤한 양념의 핫&스파이시 슈림프, 레몬 소스를 첨가한 레몬 버터 슈림프 이렇게 3가지 메뉴가 있으며, 언제나 많은 사람들이 몰려 있습니다. 오동통한 새우의 식감을 잘 살렸으며 새우 비린내도 잘 잡아 누구나 만족하는 음식을 맛볼 수 있습니다. 저렴하고 간편하게 한 끼를 해결할 수 있으니 노스 쇼어에 방문하면 드셔보시기 바랍니다.\n치즈케이크 팩토리 The Cheesecake Factory\n상세보기\n\nThe Cheesecake Factory\n\n다양한 종류의 치즈케이크를 맛볼 수 있는 가게\n\n치즈케이크를 좋아하는 사람이라면 꼭 한번 가볼 만한 곳입니다. 50여 종류의 치즈케이크와 200여 가지가 넘는 다양한 메뉴 셀렉션이 있어 골라 먹을 수 있는 재미가 있습니다. 또한 이곳에서는 케이크뿐만 아니라 식사도 함께 할 수 있습니다.\n호놀룰루 쿠키 컴퍼니 Honolulu Cookie Company\n상세보기\n\n선물하기에도 좋은 쿠키 전문점\n\n수많은 종류의 쿠키 중에 파인애플 모양의 쿠기가 가장 인기인 쿠키 컴퍼니의 쿠키는 선물로도 제격입니다. 망고, 마카다미아 너츠, 코나커피, 파인애플, 초콜릿 등 상상이상의 다양한 재료로 만들어졌습니다. 맛이 궁금하다면 마련된 시식코너에서 자신의 입맛에 딱 맞는 쿠키를 고를 수도 있습니다. 쿠키는 제한없이 맛 볼 수 있으며 선물용으로도 제격입니다. 매장은 하얏트 리젠시 와이키키, 알라 모아나 센터, 로열 하와이안 센터를 비롯해 각종 쇼핑센터에서 쉽게 찾을 수 있습니다.\n아일랜드 빈티지 커피 Island Vintage Coffee\n상세보기\n\n100% 하와이안 코나 커피 전문점\n\n100% 하와이안 코나 커피 브랜드 아일랜드 빈티지 커피는 전 세계의 커피를 사랑하는 모든 사람들을 위해 준비된 곳입니다. 전통적인 재배 방식을 고수하며, 매일 로스팅을 진행하여 신선함을 유지하고 최상급 원두를 이용한 최고의 향과 맛으로 전 세계 관광객과 현지인들의 사랑을 받고 있습니다. 아사이가 들어 있는 인기 만점 영양 간식인 아사이볼도 놓치지 마세요 :-)\n레오나즈 베이커리 Leonard's Bakery\n상세보기\n\nLeonard's Bakery\n\n폭신하고 달콤해! ‘말라사다 도넛’\n\n1952년, 포르투갈식 도넛 ‘말라사다’를 파는 레오나즈 베이커리가 하와이에 문을 열었습니다. 말라사다(Malasada)는 ‘살짝 구운’이라는 뜻의 포르투갈어. 갓 구워 따끈따끈한 도넛에 설탕 가루를 솔솔 뿌려 만든 말라사다는 도톰하고 동그란 모양에 겉에 입힌 설탕까지 언뜻 우리나라 전통시장에서 파는 도넛을 닮았습니다. 슈크림을 채운 오리지널에 코코넛 크림, 초콜릿, 바나나 커스터드, 시나몬 등 종류도 다양합니다.\n마츠모토 쉐이브 아이스 Matsumoto Shave Ice\n상세보기\n\nMatsumoto Grocery Store\n\n형형색색 로컬 빙수, ‘쉐이브 아이스’\n\n하와이안이 더위를 식히기 위해 즐겨 먹는 로컬 빙수로 즉석에서 곱게 간 얼음 위에 빨강, 노랑, 파랑 등 총천연색 과일 시럽을 뿌려 과즙 함량을 높이고 청량감을 더했습니다. 수십 종류의 알록달록한 시럽이 있어 취향대로 고르면 됩니다. 현지인들은 주로 팥이나 아이스크림을 토핑 해 먹습니다. 마을 곳곳에 쉐이브 아이스 집이 숨어 있지만, 오바마 전 미국 대통령이 하와이에 올 때마다 들렀다는 마츠모토 쉐이브 아이스가 가장 유명합니다.\n에그 앤 띵스 Eggs'n Things\n상세보기\n\nEggs'n Things\n\n맛있는 팬케이크와 오믈렛을 맛볼 수 있는 레스토랑\n\n1/2\n이전\n다음\n1974년 오픈한 오래된 음식점으로 팬케이크와 오믈렛 그리고 와플 등의 메뉴를 제공하고 있습니다. 팬케이크는 두께가 두툼하고 다양한 토핑 재료가 있어 골라 먹는 재미도 있습니다.\n하와이 열대과일\n상세보기\n\n하와이에서 꼭 맛봐야 할 별미\n\n망고, 바나나, 파인애플 등 한국인에게 익숙한 열대 과일뿐만 아니라 구아바, 코코넛, 브레드 후르츠, 슈가 애플 등 국내에서는 접하기 힘든 희귀한 과일까지 다양하게 접할 수 있습니다.\n\n석식 (불포함)\n\n호텔\n총 1개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n폴리네시안 레지던시스 와이키키 비치 \n\nPolynesian Residences Waikiki Beach상세보기\n\n골프\n총 1개의 예정 골프장이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n프린스 골프클럽\n\nHAWAII PRINCE GOLF CLUB상세보기\n\n식사\n[조식] 불포함 [중식] 불포함 [석식] 불포함\n3일차\n11/03(화)\n호놀룰루\n\n쿠알로아 랜치 무비 사이트, 폴리네시안 문화센터(PCC), 돌 파인애플 플랜테이션, USS 미주리호\n\n호놀룰루\n\n조식 (불포함)\n\n호텔 조식 후 골프장으로 이동\n\n☞합류 서틀버스 이용 (이동 소요시간 : 약 40분)\n☞골프장 이동을 도와드리는 가이드는 하나투어 가이드가 아닌 골프전문업체 가이드입니다.\n☞골프장 체크인은 티타임 약 30분 전으로, 호텔에서 골프장까지는 평균 40~50분 정도 소요되기 때문에 약 1시간 10분에서 1시간 20분 정도 전에 미팅이 진행됩니다.\n☞미팅 시간은 현지 상황에 따라 변경될 수 있습니다.\n\n오전 라운드 18홀\n\n☞와이켈레GC 18홀 라운드 진행됩니다.\n☞TEE OFF TIME : 예약 이후 안내드리겠습니다.\n\n※골프장 순서는 변경될 수 있습니다.\n\nWAIKELE GOLF CLUB\n상세보기\n골프장소개\n와이켈레 골프클럽은 와이키키에 머물고 있는 가족여행객들에게 최상의 결정이다. 가족들이 오아후섬의 유일한 대형 아웃렛 매장인 근처 와이켈레 프리미어 팩토리 아웃렛(Waikele Premier Factory Outlet)에서 쇼핑을 즐기는 동안 골퍼들은 최고의 게임을 즐길 수 있다. 와이켈레 골프 코스는 더 골프 채널 아마추어 투어(The Golf Amateur tour)가 열리는 코스이다.\n\n국제적으로 유명한 골프 코스 설계자인 테드 로빈슨(Ted Robinson)에 의해 디자인되었으며 와이키키에서 겨우 30분 정도의 드라이브 거리면 닿는 와이켈레라는 신흥주택지역과 아웃렛 쇼핑타운 안, 언덕중턱에 위치해 있어 이국적이고 아름다운 분위기를 느끼게 해 준다.\n\n골프코스에서는 진주만과 파란 태평양을 볼 수 있어 오아후섬에서 몇 안되는 바다전망을 가진 코스이기도 하다. 1993년에 오픈되었고 특별한 지형으로 다듬어진 와이켈레 골프 클럽은 그리 긴 코스는 아니지만 언덕의 굴곡과 연못 등을 이용한 난이도를 살린 코스로 샷의 별미를 느낄수 있는 아기자기한 맛이 있으며 초보자서부터 프로 골퍼들까지 전 레밸의 골퍼들에게 도전과 흥미를 함께 제공한다.\n\n코스에서는 평화롭게 자리한 진주만 (Pearl Harbor) 과 코발트색의 태평양 바다 전경도 즐길수 있고 멀리 다이아몬드헤드, 코올라우산맥, 와이아네 마운틴까지 골고루 주변경관과 멋진 전망을 즐길수 있다.\n\n와이켈레에서는 4번(par 4), 17번(par 3), 그리고 18번(par 4) 홀이 특히 흥미롭다. 4번홀은 330 yards 의 길이이며 폭포와 연못이 앞쪽으로 그리고 벙커가 뒷편으로 조화롭게 배치되어 있어 쉽지 않은 코스이다. 202 yards 길이의 17번홀은 굴곡있는 언덕이 배치되어 있고 왼편으로 연못이 장애물로 막혀 있다. Par 4의 18홀은 392 yards 길이이며 오른편으로 연못과 폭포의 장애물을 두고 난이도가 높은 홀로 알려져 있다. 전반적으로 초보에서 상급의 골퍼들이 모두 즐길수 있는 코스이며 최근에 새로 리노베이션 되어 더욱 깔끔하고 정돈된 코스이기도 하다.\n\n*클럽하우스와 프로샵,레스토랑, 샤워와 락커가 있으며 바다전망을 즐길수 있다 (GPS 시스템은 없음)\n\n한글명 : 와이켈레 골프클럽\n\n홀(HOLE) : 18\n\n파(PAR) : 72\n\n야드(YARD) : 6663\n\n중식 (불포함)\n\n라운드 후 자유일정\n오아후섬 가볼만한 곳 #추천관광지\n쿠알로아 랜치 무비 사이트\n상세보기\n\n쿠알로아 랜치 영화 촬영지 투어\n\n쿠알로아 랜치는 \"쥬라기 공원\", \"고질라\", \"로스트\", \"진주만\" 등 다양한 영화의 배경 무대가 될 만큼 수려한 절경을 자랑합니다. 쿠알로아 랜치의 전용 오픈 차량을 이용하여 각 작품들의 무대 속으로 들어가는 \"무비 사이트 투어\"로 영화의 감동을 다시 느껴 볼 수 있습니다.\n다양한 익스피리언스 투어 \"EXPERIENCE TOUR\" 중 하나인 쿠알로아 랜치 무비 사이트 투어는 세계적으로 유명한 관광지인 하와이의 각종 투어 프로그램 중에서도 최고의 무비 투어로 선정되어진 영화 촬영지 & 목장 투어로 가족 단위의 관광객에게 최고의 선택이 될 것입니다.\n폴리네시안 문화센터(PCC)\n상세보기\n\n다양한 문화체험을 할 수 있는 문화센터\n\n하와이 최고의 관광지인 폴리네시안 문화센터는 하와이를 비롯한 폴리네시아에 속하는 서로 다른 지역의 문화와 전통을 그대로 체험하실 수 있는 전통 민속촌 입니다.\n돌 파인애플 플랜테이션\n상세보기\n\n달콤한 파인애플에 빠지다\n\n카메하메하 고속도로를 타고 할레이바로 가는 길목에는 익숙한 로고, 돌(Dole)이 나타납니다. 세계적인 열대과일 생산지인 하와이에 열대과일 가공업체 돌이 파인애플 농장을 열었습니다. 이 대규모 농장 단지에서는 파인애플의 종류는 물론 생육 과정을 볼 수 있습니다. 그리고 이곳에 방문하면 꼭 먹어봐야 하는 파인애플 아이스크림도 지나치지 마시기 바랍니다. 부드럽고 깊은 파인애플 맛이 혀끝을 감동시킵니다.\nUSS 미주리호\n상세보기\n\n한국전쟁에도 참전한 미국의 마지막 전함\n\n1944년 건조된 미국 해군의 마지막 전함인 USS 미주리호는 한국과도 인연이 깊은 전함입니다. 일본의 진주만 공습 이후 태평양 전쟁의 최전선에서 활약했고, 갑판에서는 1945년 9월 2일 일본 외무대신 시게미쓰 마모루가 정식으로 항복 문서에 서명을 하기도 하였습니다. 1950년대는 한국전쟁에 참전하기도 하였습니다. 현재는 진주만에서 전쟁기념관으로 운영 중입니다.\n\n석식 (불포함)\n\n호텔\n총 1개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n폴리네시안 레지던시스 와이키키 비치 \n\nPolynesian Residences Waikiki Beach상세보기\n\n골프\n총 1개의 예정 골프장이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n와이켈레 골프클럽\n\nWAIKELE GOLF CLUB상세보기\n\n식사\n[조식] 불포함 [중식] 불포함 [석식] 불포함\n4일차\n11/04(수)\n호놀룰루\n\n와이켈레 프리미엄 아웃렛, 알라 모아나 쇼핑센터, T 갤러리아 DFS 하와이, 월마트, ABC 스토어, 인터내셔널 ...\n\n호놀룰루\n\n조식 (불포함)\n\n전일 자유일정\n\n리조트의 부대시설을 이용하시며 즐거운 자유일정시간을 보내세요\n\n중식 (불포함)\n\n하와이 쇼핑명소 추천 #득템의 성지\n와이켈레 프리미엄 아웃렛\n상세보기\n\n최대 50퍼센트까지 할인되는 브랜드 아웃렛, 와이켈레 프리미엄 아웃렛\n\n하와이를 다녀왔다고 한다면, 한 번쯤은 무조건 들리는 와이켈레 프리미엄 아웃렛은 명품 브랜드를 비롯하여 75개가 넘는 의류, 신발 등 유명 브랜드들을 판매하고 있습니다. 대부분 20~50% 정도 한국보다 저렴한 가격으로 미국 브랜드 상품을 구매할 수 있으며 많은 분들이 꼭 들리는 곳입니다.\n\n* 항공 수하물 규정은 1개당 23kg까지 허용됩니다. (1인당 수화물 2개 가능) 초과 되지 않도록 주의 부탁드립니다.\n알라 모아나 쇼핑센터\n상세보기\n\n세계 최대 규모 아웃도어 쇼핑몰\n\n260여 개 점포들이 입점해 있는 거대한 아웃도어 쇼핑몰입니다. 새로운 가게들이 등장하고 있으며, 꾸준하게 증축과 보수 공사가 이루어지고 있습니다. 중저가 캐주얼 브랜드부터 명품 브랜드, 그리고 식료품까지 다양한 제품이 있으며 식당가와 휴식 공간도 있습니다.\nT 갤러리아 DFS 하와이\n상세보기\n\n와이키키 중심부의 명품 브랜드 쇼핑 매장\n\n와이키키 메인 로드인 칼라카우아 에비뉴와 로얄 하와이언 에비뉴에 걸쳐 넓게 자리 잡은 명품 브랜드 면세점입니다. 1층은 코치, 마크 제이콥스, 폴로 그리고 엠포리오 알마니 등 매장과 하와이 특산품(코나 커피, 초콜릿 등)이 있으며 2층에는 60여 가지의 세계적인 화장품 브랜드 매장과 토리 버치 매장이 있습니다. 3층은 면세 매장으로 에르메스, 프라다, 페라가모, 버버리, 카르티에, 태그 호이어 등 명품 부띠크 매장입니다. 100% 품질과 최저가가 보장되어 하와이 내 여느 쇼핑몰 보다 저렴한 가격에 제공하고 있어 더욱 많은 이들의 발걸음을 붙잡는 곳입니다.\n월마트\n상세보기\n\n다양한 물건들을 저렴하게 살 수 있는 하와이 대표 마트\n\n미국의 타 지역보다 주세가 낮은 하와이에서는 더욱 저렴하게 쇼핑을 즐길 수 있습니다. 하와이의 키아모쿠 스트리트(Keeaumoku St.)에는 미국의 대표적인 할인 매장인 월마트가 위치하고 있습니다. 다양한 식료품은 물론이고 화장품, 비치타월 등 생활 필수품을 저렴하게 구입할 수 있으며, 하와이 관광의 필수품인 스노클링 장비도 약 $10~$30 정도면 구입 가능합니다. 이러한 장비들은 여러 번 대여하는 것보다 월마트에서 구입하는 것이 더욱 경제적일 수 있기 때문에 미리 쇼핑 리스트를 만들어가는 것도 좋습니다.\nABC 스토어\n상세보기\n\n모든 종류의 상품이 구비된 하와이 쇼핑의 필수 스팟\n\n하와이의 대표적인 마켓으로 식품, 의류, 장난감, 잡화 등 다양한 상품을 구비하고 있습니다. 미국 브랜드는 더 저렴하게 판매하고 오아후 내에만 39개 매장이 있습니다. 하와이 최고의 마켓 ABC 스토어는 한 블록마다 있다고 해도 과언이 아닙니다. 각종 의류, 잡화부터 커피나 무스비 등의 식품도 판매하는 대형 슈퍼마켓입니다. 없는 것을 찾는 것이 더 빠를 정도로 각양각색의 물건을 구비하고 있어, 무엇인가 필요한 물건이 있을 때 ABC 스토어를 찾아주시면 됩니다. 특히 미국 코스메틱 브랜드 제품이 저렴해 지인들의 기념품으로 대량 구매하기 좋습니다. 소소한 아이템부터 간식 혹은 간단한 한 끼 식사를 해결할 수 있어 하와이 여...\n인터내셔널 마켓 플레이스\n상세보기\n\n와이키키 중심부의 쇼핑센터\n\n와이키키 메인 로드인 칼라카우아 에비뉴를 마주 보고 위치하고 있는 인터내셔널 마켓 플레이스는 삭스 피프스 에비뉴를 포함하여 50개 이상의 매장이 입점해 있는 쇼핑센터입니다. 인터내셔널 마켓 플레이스의 중심에는 100년 넘은 반얀 나무가 각종 야생 식물, 연못 등과 함께 자리 잡고 있어 하와이의 정취를 한 층 더해줍니다.\n와이키키 비치 워크\n상세보기\n\n와이키키의 쇼핑 거리\n\n1/2\n이전\n다음\n와이키키 비치 워크는 루어스 스트리트와 칼리아 로드에 형성된 쇼핑 거리입니다. 깔끔하고 모던한 분위기를 자랑하며 고급스러우면서도 활기차기 때문에 많은 사랑을 받고 있습니다. 인기가 있는 브랜드 상점 위주로 되어 있으며, 쇼핑뿐만 아니라 공연을 할 수 있는 무대도 있어 다양한 즐길 거리가 있습니다. 정기적으로 콘서트나 훌라 춤, 요가 등의 무료 강습이 열리기도 하며 호텔과 유명 맛집 등이 몰려 있어 다양한 체험이 가능합니다. 또한 비교적 여유로운 쇼핑을 즐길 수 있습니다.\n\n석식 (불포함)\n\n호텔\n총 1개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n폴리네시안 레지던시스 와이키키 비치 \n\nPolynesian Residences Waikiki Beach상세보기\n\n식사\n[조식] 불포함 [중식] 불포함 [석식] 불포함\n5일차\n11/05(목)\n호놀룰루\n\n쿠알로아 랜치 무비 사이트, 폴리네시안 문화센터(PCC), 돌 파인애플 플랜테이션, USS 미주리호\n\n호놀룰루\n\n조식 (불포함)\n\n전일 자유일정\n\n리조트의 부대시설을 이용하시며 즐거운 자유일정시간을 보내세요\n\n중식 (불포함)\n\n오아후섬 가볼만한 곳 #추천관광지\n쿠알로아 랜치 무비 사이트\n상세보기\n\n쿠알로아 랜치 영화 촬영지 투어\n\n쿠알로아 랜치는 \"쥬라기 공원\", \"고질라\", \"로스트\", \"진주만\" 등 다양한 영화의 배경 무대가 될 만큼 수려한 절경을 자랑합니다. 쿠알로아 랜치의 전용 오픈 차량을 이용하여 각 작품들의 무대 속으로 들어가는 \"무비 사이트 투어\"로 영화의 감동을 다시 느껴 볼 수 있습니다.\n다양한 익스피리언스 투어 \"EXPERIENCE TOUR\" 중 하나인 쿠알로아 랜치 무비 사이트 투어는 세계적으로 유명한 관광지인 하와이의 각종 투어 프로그램 중에서도 최고의 무비 투어로 선정되어진 영화 촬영지 & 목장 투어로 가족 단위의 관광객에게 최고의 선택이 될 것입니다.\n폴리네시안 문화센터(PCC)\n상세보기\n\n다양한 문화체험을 할 수 있는 문화센터\n\n하와이 최고의 관광지인 폴리네시안 문화센터는 하와이를 비롯한 폴리네시아에 속하는 서로 다른 지역의 문화와 전통을 그대로 체험하실 수 있는 전통 민속촌 입니다.\n돌 파인애플 플랜테이션\n상세보기\n\n달콤한 파인애플에 빠지다\n\n카메하메하 고속도로를 타고 할레이바로 가는 길목에는 익숙한 로고, 돌(Dole)이 나타납니다. 세계적인 열대과일 생산지인 하와이에 열대과일 가공업체 돌이 파인애플 농장을 열었습니다. 이 대규모 농장 단지에서는 파인애플의 종류는 물론 생육 과정을 볼 수 있습니다. 그리고 이곳에 방문하면 꼭 먹어봐야 하는 파인애플 아이스크림도 지나치지 마시기 바랍니다. 부드럽고 깊은 파인애플 맛이 혀끝을 감동시킵니다.\nUSS 미주리호\n상세보기\n\n한국전쟁에도 참전한 미국의 마지막 전함\n\n1944년 건조된 미국 해군의 마지막 전함인 USS 미주리호는 한국과도 인연이 깊은 전함입니다. 일본의 진주만 공습 이후 태평양 전쟁의 최전선에서 활약했고, 갑판에서는 1945년 9월 2일 일본 외무대신 시게미쓰 마모루가 정식으로 항복 문서에 서명을 하기도 하였습니다. 1950년대는 한국전쟁에 참전하기도 하였습니다. 현재는 진주만에서 전쟁기념관으로 운영 중입니다.\n\n석식 (불포함)\n\n호텔\n총 1개의 예정 호텔이 있습니다. 출발 3일전까지 확정되어 일정표에서 확인하실 수 있습니다.\n\n1일전 카카오 알림톡으로도 알려드립니다.\n\n폴리네시안 레지던시스 와이키키 비치 \n\nPolynesian Residences Waikiki Beach상세보기\n\n식사\n[조식] 불포함 [중식] 불포함 [석식] 불포함\n6일차\n11/06(금)\n호놀룰루\n\n상세내용을 확인해보세요\n\n호놀룰루\n\n조식 (불포함)\n\n가이드 미팅하여 공항으로 이동 [약 30분 소요]\n\n중식 (기내식)\n\n석식 (기내식)\n\n에어프레미아\n11시간 00분 YP0152\n\n14:20\n2026.11.06(금)\n호놀룰루 HNL 출발\n20:20\n2026.11.07(토)\n서울 ICN 도착\n+1\n호텔\n숙박 없음\n식사\n[조식] 불포함 [중식] 기내식 [석식] 기내식\n7일차\n11/07(토)\n인천\n\n상세내용을 확인해보세요\n\n인천\n기타 정보\n상세보기\n\n📚[여권/비자]\n1. 여권 만료기간 6개월 이상 및 여권 종류를 반드시 확인 필요합니다.\n- 단수여권(PS)으로 해외출국 이력이있다면 반드시신규 발급 필요합니다.\n2. 고객의 안전을 위하여 가이드 안내사항 및 안전 수칙을 준수하여 모든 안전사고에 유의하시기 바랍니다.\n특히, 현지 선택 관광은 가이드의 주의사항을 숙지 후 참여 여부를 결정하여 주시기 바라며 이용자 본인의 과실 및 본인 건강상태로 인하여 발생한 안전사고에 대해서는 이용자 본인의 책임임을 알려드립니다.\n3. 기존 관광비자 소지자의 경우 반드시 관광비자(B1/B2)인지 확인바랍니다. 관광 목적에 맞지 않은 비자(유학비자 등)는 출국 할 수 없습니다.\n\n❌[미국 입국시 반입금지 식품]\n최근 승객이 미국(미국령 포함) 입국 시 식품 반입 관련 CBP의 검색 절차가 강화되어 아래와 같이 공지하오니, 협조하여 주시기 바랍니다.\n1) 주요 적발 품목 : 라면 및 소시지, 건어물 (미역, 멸치, 오징어, 쥐포 등)\n2) 적발 시 제재 조치 사항\n- 세관신고서에 기입하였을 경우, 압수 및 폐기 조치\n- 세관신고서에 기입하지 않은 상태로 적발될 경우, 압수 및 승객에게 패널티 부과 (최하 USD 300)\n3) 기타\n- 이전에는 박스로 포장된 짐이 주요 대상이었으나 최근에는 모든 수하물에 대한 랜덤 체크 및 그 빈도가 증가하고 있음\n- 한국 적발될 경우, 향후 입국 시마다 실시 등 입국 사열에 많은 시간과 불편을 겪게 되는바, 고객 안내 시 참고하여 주시기 바랍니다.\n\n💵[하와이의 팁 문화]\n- 도어맨 : 택시를 잡아줄 경우 $1\n- 호텔 침구 정리 : 매일 아침 침대맡에 $1\n- 택시 : 택시 요금의 10~15% 정도와 짐을 들어줄 경우 짐 하나에 $1\n- 음식점 : 전체 요금의 15% 정도를 지불 (계산에 이미 포함되어 있는 경우도 있음)\n\n☎️[하와이 지역번호]\n- 미국 국가번호 : +1\n- 하와이 지역번호 : +808\n\n⏰[우리나라와의 시차]\n하와이는 우리나라와의 시차가 -19시간으로, 19시간이 늦다. 미국은 서머타임을 시행하고 있으나, 하와이는 서머타임 제도가 적용되지 않는 곳이다. 고민할 것 없이 19시간! 기억하자.\n\n🚭[흡연]\n하와이에서 공공장소 흡연은 엄격히 금지! 레스토랑, 쇼핑 센터, 택시 내부에서는 금연이며, 한정된 장소에서만 제한적으로 흡연이 가능하다. 위반시 벌금을 내야 한다. 꼭 흡연을 해야 한다면, 지정장소의 재떨이를 이용하자.\n\n🍻[음주]\n미국은 만 21세부터 술을 살 수도, 마실 수도 있다. 그렇기에 술을 사기 위해서는 신분증이 반드시 필요하다. 또한 우리나라와 다르게 해변가, 공원 등 공공장소에서의 음주가 금지되어 있으므로 분위기를 내기 위해 야외에서 술판을 벌이다가는 그대로 연행될 수 있으니 유의 하자. 물론 음주운전 역시 절대 금물!\n호텔\n숙박 없음\n쇼핑정보\n\n해당상품은 쇼핑센터에 방문하지 않습니다.\n\n해외 여행시 US$800 초과 구입한 물품은 입국시 관세가 부과될 수 있습니다. \n\n함께 많이 본 상품\n오아후 리츠칼튼 와이키키 비치 6일 #1베드룸 디럭스오션뷰 #전일 단독관광\n15,000,000원~\n하와이 8일 #알로힐라니리조트 #오션뷰UP #2일관광 #호텔디너뷔페 #핫플레이스+맛집투어\n3,959,000원~\n하와이 6일 #와이키키비치메리어트 #오션뷰UP #1일관광 #로코모코 #동부해안일주\n4,379,000원~\n하와이 6일 #르네상스호놀룰루 #시티뷰 #2024년 신규오픈#2일관광 #체크인전알찬일정 #인생샷포인트\n3,079,000원~\n하와이 골프 7일 #3색골프 #18홀*3회 #하와이프린스/와이켈레/코올리나GC #폴리네시안 레지던스 리조트 #2인 ...\n3,515,200원~\n오아후 리츠칼튼 와이키키 비치 6일 #1베드룸 디럭스오션뷰 #전일 단독관광\n15,000,000원~\n하와이 8일 #알로힐라니리조트 #오션뷰UP #2일관광 #호텔디너뷔페 #핫플레이스+맛집투어\n3,959,000원~\n하와이 6일 #와이키키비치메리어트 #오션뷰UP #1일관광 #로코모코 #동부해안일주\n4,379,000원~\n하와이 6일 #르네상스호놀룰루 #시티뷰 #2024년 신규오픈#2일관광 #체크인전알찬일정 #인생샷포인트\n3,079,000원~\n하와이 골프 7일 #3색골프 #18홀*3회 #하와이프린스/와이켈레/코올리나GC #폴리네시안 레지던스 리조트 #2인 ...\n3,515,200원~\n오아후 리츠칼튼 와이키키 비치 6일 #1베드룸 디럭스오션뷰 #전일 단독관광\n15,000,000원~\n하와이 8일 #알로힐라니리조트 #오션뷰UP #2일관광 #호텔디너뷔페 #핫플레이스+맛집투어\n3,959,000원~\n하와이 6일 #와이키키비치메리어트 #오션뷰UP #1일관광 #로코모코 #동부해안일주\n4,379,000원~\n이전\n다음\n_\n방문도시 정보 및 기타정보\n도시정보\t\n입국카드 작성법\t\n도시\t현재시간\t오늘의 환율\n\n(2026.09.30 기준) \n\n\t콘센트\n호놀룰루(HNL)\t17:512026.09.29\n\n한국보다 19시간 느림\n\n\t\n\n1달러(USD) = 1377.59원\n\n\t\n\n전압 : 120V\n\n주파수 : 60HZ\n\n※ 오늘의 환율은 실시간 '현찰 살 때' 기준으로, 은행에서 거래되지 않는 통화는 0원으로 표기될 수 있습니다. \n\n여행시 유의사항\n[하와이 골프 관련 일반사항]\n1. 골프장 체크인 시, 포터팁(USD 2~3)이 발생합니다.\n2. 하와이의 골프장에는 캐디가 없습니다.\n3. 4인 미만 라운드 진행 시 조인 플레이로 진행되며, 단독으로 플레이를 원하실 경우 부족한 인원에 대한 그린피를 지불하시면 됩니다.\n4. 4인1조로 진행되기에 약 8~10분 정도 티타임 인터벌(간격)이 발생되오니 참고 부탁드립니다.\n5. 골프장은 1인1클럽을 필수로 지참해야 하며, 쉐어를 하시는 경우 체크인이 불가능합니다.\n6. 현재 코올리나 골프장을 제외한 타 골프장은 락커와 샤워 시설이 준비되어 있지 않습니다.\n7. 귀중품은 분실 위험이 있으니 객실 금고에 보관하시는 것을 추천드립니다.\n8. 와이키키 호텔에서 골프장까지 대략 약1시간 소요됩니다.\n\n[일정 관련 일반사항]\n1. 밴 또는 중형버스로 행사 진행되며, 하와이는 가이드가 운전과 안내를 병행합니다.\n2. 엑스트라베드 추가 가능여부 사전확인 부탁드립니다.\n3. 항공기 좌석배정은 여행사의 권한이 없으며, 항공사의 규정에 따라 웹/모바일 체크인 혹은 출발 당일 체크인 순서대로 이루어집니다.\n4. 체크인 시 좌석상황에 따라 일행과 좌석이 떨어질 수 있습니다.\n5. 탑승전 사전 신고 하지 않은 물품 파손, 분실시 배상불가하니 개별 휴대하시길 바랍니다.\n\n[18세 미만의 미성년자 동반시 유의사항]\n미 관세국경보호청 권고사항으로 원활한 입국을 위한 미성년자 동반시 준비 서류 안내\n1. 부모와 함께 입국시 - 부모임을 입증 할 수있는 서류(영 호적등본 혹은 주민등록등본)\n2. 부모 중 한사람만 동반하여 입국시 - 동반하지 않는 부 또는 모의 영문동의서\n3. 이혼한 부모 중 한사람이 동반하여 입국시 - 동반하는사람이 양육권이 있음을 증빙하는 서류(영문호적등본)\n4. 부모가 아닌 사람과 동반하는 경우 - 동반하는 어린이 양친부모의 영문동의서\n\n[하와이 관광 관련 안내사항]\n1. 연중 온화한 기후로 20~28도가 평균 기온(선글라스, 우산, 해수욕시 수영복 준비)입니다.\n2. 마우이 섬 또는 빅아일랜드 섬 관광시 휴대가 용이한 긴팔 티셔츠 및 점퍼를 준비바랍니다.\n3. 미국 표준전압은 110볼트입니다. 필요시 별도의 플러그 변환 어댑터를 준비해주세요.\n4. 선택관광 또는 렌터카 예약 등 고객님 선택 사항에 따라 하신 예약의 취소규정은 선택관광별로 상이하오니 별도의 문의 바랍니다.\n5. 섬일주 관광시 행사인원이 많을 경우 부득이하게 담당 가이드가 변경될 수 있습니다.\n6. 현지 선택관광은 담당가이드가 아닌 현지 업체에서 왕복 송영 서비스를 담당합니다.\n7. 일정 중 개인 사정으로 참여하지 못한 부분에 대해서는 환불되지 않습니다.\n8. 하와이 호텔의 룸타입[부분 오션뷰/오션뷰/디럭스 오션뷰]은 각 호텔에서 지정한 룸 카테고리입니다. 오션뷰룸이라고해서 반드시 객실에서 바다가 전면으로 보이는 방은 아니오니 예약 시 참고 부탁드립니다.\n9. 하와이 호텔의 경우 배드타입은 사전 지정 불가하며 [킹배드 1개 OR 더블배드 2개] 중 랜덤 제공되니 미리 양해 부탁드립니다.\n10. 일정상 입력된 호텔은 부득이한 경우 약관에 근거한 동급의 다른 호텔로 변동가능합니다.\n11. 미주 대부분의 호텔에서는 객실에서의 흡연이 절대 불가합니다. 흡연시에는 페널티(최하 약 300달러)가 부과되오며, 이에 대한 비용은 해당 고객님께서 부담하셔야 합니다.\n\n\n인원선택\n\n성인\n3,045,200원\n\n1\n\n아동 \n3,045,200원\n\n0\n\n유아 \n357,000원\n\n0\n\n총 금액\n\n3,045,200원\n\n유류할증료&제세공과금 포함 \n\n하나투어 마일리지 최대 26,000적립예정\n상품가격 안내\n예약하기\t\n찜\n혜택\n추가 적립/할인\n이달의 카드할인 혜택\n상품별 차별점만 빠른 비교\nfacebook\ninstagram\nblog\nkakaoplus\nyoutube\nkakaostory\n회사소개\n이용약관\n개인정보처리방침\n여행약관\n해외여행자보험\n마케팅제휴\n공식인증예약센터 검색\n(주)하나투어      대표집행임원 : 조좌진      주소 : (03161) 서울특별시 종로구 인사동 5길 41\n사업자등록번호 : 102-81-39440      사업자정보확인      통신판매업신고번호 : 종로01-1806호      관광사업자 등록번호 : 제1993-000006호\n개인정보 보호책임자 : 전준형      영업보증보험 : 22억 1천만원 가입    팩스: 02-734-0392    이메일 : 15771233@hanatour.com      ☎고객센터 1577-1233\n\n※ 부득이한 사정에 의해 여행일정이 변경되는 경우 사전 동의를 받습니다.\n※ 하나투어는 개별 항공권 단독 판매에 대하여 판매중개자로서 통신판매의 당사자가 아니며 해당상품의 거래정보 및 거래등에 대해 책임을 지지 않습니다.\nCOPYRIGHTⓒ HANATOUR SERVICE INC. ALL RIGHTS RESERVED\n하나은행 구매안전 서비스\n고객님은 안전거래를 위해 현금으로 결제시\n(주)하나투어에서 가입한 하나은행으로\n구매안전서비스를 이용하실 수 있습니다.\n서비스 가입사실 확인\n브랜드스탁선정\n22년연속(2005~2026)\n브랜드스타 1위\n산업정책연구원 주관\n제9회 국가서비스대상 (2026)\n하이엔드 여행 부문 대상 (제우스월드)\n2026 뉴욕페스티벌\n대한민국 국가브랜드 대상\n업계 최초 여행사 부문 대상\n2025 대한민국 SNS 대상\n업계 최초 관광 부문 대상\n소비자중심경영(CCM)\n7회 연속 인증(2012~2024) 및\n2025년 ‘명예의 전당’ 포상\nKMAC 선정\n14년 연속(2009~2025)\n한국산업의 고객만족도 여행사부문 1위\n한국표준협회 선정\n4년 연속(2019~2025)\n한국서비스품질지수 여행사 부문 1위\n한국능률협회선정\n22년연속(2005~2026)\n브랜드파워 1위\n브랜드스탁선정\n22년연속(2005~2026)\n브랜드스타 1위\n산업정책연구원 주관\n제9회 국가서비스대상 (2026)\n하이엔드 여행 부문 대상 (제우스월드)\n2026 뉴욕페스티벌\n대한민국 국가브랜드 대상\n업계 최초 여행사 부문 대상\n2025 대한민국 SNS 대상\n업계 최초 관광 부문 대상\n소비자중심경영(CCM)\n7회 연속 인증(2012~2024) 및\n2025년 ‘명예의 전당’ 포상\nKMAC 선정\n14년 연속(2009~2025)\n한국산업의 고객만족도 여행사부문 1위\n한국표준협회 선정\n4년 연속(2019~2025)\n한국서비스품질지수 여행사 부문 1위\n한국능률협회선정\n22년연속(2005~2026)\n브랜드파워 1위\n이전보기\n다음보기\n 대한민국브랜드대상\n 국외여행상품 정보제공 표준안 참여여행사\n 개인정보보호우수사이트\n CCM\n ISMS 인증 취득\n 현금영수증 의무발행 가맹점",
+  "url": "https://cp.hanatour.com/trp/pkg/CHPC0PKG0200M200?pkgCd=HHG109261101YP2&prePage=major-products",
+  "slug": "hana-d272e12586b8",
+  "checkedAt": "2026-09-30"
+}
