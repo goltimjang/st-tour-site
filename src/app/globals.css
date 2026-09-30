@@ -402,3 +402,15 @@ body:has(.site-search-dialog[open]) .contact-bar { display: none; }
   .gallery-thumb, .gallery-arrow, .product-card, .product-card img, .product-quote-link span { transition: none; }
   .product-card:hover, .product-card:hover img, .product-quote-link:hover span, .product-quote-link:focus-visible span { transform: none; }
 }
+
+.country-rail { display: grid; grid-auto-flow: column; grid-auto-columns: calc((100% - 100px) / 6); gap: 20px; overflow-x: auto; scroll-snap-type: x mandatory; padding-block: 4px 8px; }
+.country-arrow { position: absolute; top: 35%; display: flex; align-items: center; justify-content: center; width: 44px; height: 44px; border: 1px solid var(--color-line); border-radius: 50%; background: white; box-shadow: 0 4px 18px #06143e25; font-size: 26px; }
+@media (max-width: 1023px) { .country-rail { grid-auto-columns: calc((100% - 48px) / 4); gap: 16px; } }
+@media (max-width: 639px) { .country-rail { grid-auto-columns: calc((100% - 24px) / 2.5); gap: 12px; } .country-arrow { display: none; } }
+.festival-dialog { position: fixed; inset: 0; margin: auto; padding: 0; border: 0; border-radius: 18px; width: min(420px, calc(100vw - 24px)); max-height: calc(100dvh - 24px); color: var(--color-ink); background: white; box-shadow: 0 24px 80px #0006; overflow: auto; }
+.festival-dialog::backdrop { background: #06143e99; backdrop-filter: blur(3px); }
+.festival-popup-content { display: flex; flex-direction: column; }
+.festival-popup-poster { display: block; width: 100%; height: auto; max-height: calc(100dvh - 188px); object-fit: contain; }
+body:has(.festival-dialog[open]) { overflow: hidden; }
+body:has(.festival-dialog[open]) .contact-bar { display: none; }
+@media (prefers-reduced-motion: reduce) { .country-rail img { transition: none; transform: none; } }
