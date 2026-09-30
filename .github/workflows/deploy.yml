@@ -29,6 +29,7 @@ jobs:
           NEXT_PUBLIC_GA4_ID: ${{ vars.NEXT_PUBLIC_GA4_ID }}
       - run: python3 scripts/check-export.py
       - run: python3 scripts/check-catalog.py
+      - run: node scripts/check-product-images.mjs
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out
