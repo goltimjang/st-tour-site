@@ -32,8 +32,7 @@ export default function ProductDetails({ product: p }: { product: Product }) {
       </div>
     </section>
     <section id="detail-panel-2" role="tabpanel" aria-labelledby="detail-tab-2" hidden={active!==2} tabIndex={0} className="p-4 sm:p-7">
-      <h2 className="text-xl font-bold mb-4">예정 골프장 사진</h2><ProductGallery product={p}/>
-      <p className="text-xs leading-relaxed text-mute mt-4">상품의 대표 일정에 소개된 골프장 사진입니다. 최종 이용 코스와 숙박 시설은 출발일별 견적서에서 확인합니다.</p>
+      <h2 className="text-xl font-bold mb-4">골프장·숙소·시설 사진</h2><ProductGallery product={p}/>
     </section>
     <div className="border-t border-line bg-paper p-4 sm:p-6"><p className="font-bold mb-1">이 여행이 마음에 드시나요?</p><p className="text-sm text-mute mb-4">희망 날짜와 인원을 남기면 담당자가 가능한 구성과 금액을 안내합니다.</p><a className="btn btn-royal w-full" href="#quote">이 상품으로 무료 견적 받기</a></div>
   </div>;

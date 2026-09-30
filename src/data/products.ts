@@ -20,6 +20,7 @@ export type Product = {
   detailCheckedAt?: string;
   detailBasis?: string;
   galleryCaptions?: string[];
+  gallerySubjects?: ("course" | "clubhouse" | "hotel" | "facility" | "pending")[];
   thumbCaption?: string;
   photoPending?: boolean;
   itineraryNote?: string;
@@ -72,8 +73,9 @@ export const products: Product[] = [
     summary: "닌빈 로얄CC 54홀 라운드와 숙박. 항공을 제외한 현지 일정의 가능 여부를 문의하세요.",
     thumb: "/promotion/royalcc/course-signature-110.webp",
     thumbCaption: "닌빈 로얄CC · 행사 공식 안내의 코스 사진",
-    gallery: ["/promotion/royalcc/course-signature-110.webp"],
-    galleryCaptions: ["닌빈 로얄CC · 행사 공식 안내의 코스 사진"],
+    gallery: ["/promotion/royalcc/course-signature-110.webp", "/promotion/royalcc/resort-exterior.webp", "/promotion/royalcc/resort-twin-room.webp"],
+    galleryCaptions: ["닌빈 로얄CC · 행사 공식 안내의 코스 사진", "더 파이브 빌라스 앤 리조트 · 예정 숙소 외관", "더 파이브 빌라스 앤 리조트 · 트윈 객실 예시"],
+    gallerySubjects: ["course", "hotel", "hotel"],
     country: "베트남",
     kind: "해외",
     duration: "3박 5일",

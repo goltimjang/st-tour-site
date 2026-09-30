@@ -381,3 +381,24 @@ body:has(.site-search-dialog[open]) .contact-bar { display: none; }
 .product-section-nav { position: sticky; top: 80px; z-index: 30; background: #fff; border-block: 1px solid var(--color-line); }
 .product-section-nav a { display: inline-flex; align-items: center; min-height: 48px; padding: 8px 14px; font-size: 15px; font-weight: 700; white-space: nowrap; }
 .product-section { scroll-margin-top: 148px; }
+
+/* Manual photo browsing and small interaction accents, with no automatic slide changes. */
+@keyframes galleryPhotoIn {
+  from { opacity: .45; transform: scale(1.015); }
+  to { opacity: 1; transform: scale(1); }
+}
+.gallery-photo { animation: galleryPhotoIn .28s ease-out both; }
+.gallery-thumb, .gallery-arrow { transition: border-color .2s ease, opacity .2s ease, background-color .2s ease; }
+.gallery-arrow:hover, .gallery-arrow:focus-visible { background-color: #eaf0ff; }
+.product-card { transition: transform .25s ease, box-shadow .25s ease; }
+.product-quote-link span { transition: transform .2s ease; }
+.product-quote-link:focus-visible span { transform: translateX(4px); }
+@media (hover: hover) and (pointer: fine) {
+  .product-card:hover { transform: translateY(-4px); }
+  .product-quote-link:hover span { transform: translateX(4px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .gallery-photo { animation: none; }
+  .gallery-thumb, .gallery-arrow, .product-card, .product-card img, .product-quote-link span { transition: none; }
+  .product-card:hover, .product-card:hover img, .product-quote-link:hover span, .product-quote-link:focus-visible span { transform: none; }
+}

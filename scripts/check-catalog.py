@@ -37,13 +37,19 @@ for p in products:
   assert p['detailCheckedAt']=='2026-09-30'
   reviewed=curation[p['slug']]
   assert reviewed['sourceUrl']==detail['url']
-  assert p['gallery']==[x['path'] for x in reviewed['photos']]
-  assert len(p['gallery'])==len(p['galleryCaptions'])
+  prefix=['/images/product-photo-pending.svg'] if p.get('photoPending') else []
+  assert p['gallery']==prefix+[x['path'] for x in reviewed['photos']]
+  assert p['gallerySubjects']==(['pending'] if prefix else [])+[x['subject'] for x in reviewed['photos']]
+  assert len(p['gallery'])==len(p['galleryCaptions'])==len(p['gallerySubjects'])
+  assert len(p['gallery'])==len(set(p['gallery']))
   if p.get('photoPending'):
-   assert not p['gallery'] and p['thumb']=='/images/product-photo-pending.svg'
+   assert p['gallery'][0]==p['thumb']=='/images/product-photo-pending.svg'
+   assert any(x in ('hotel','facility') for x in p['gallerySubjects'][1:]), 'Pending course must not hide verified lodging'
   else:
    assert p['thumb']==p['gallery'][0] and reviewed['photos'][0]['subject'] in ('course','clubhouse')
-  assert all(x['subject'] in ('course','clubhouse') for x in reviewed['photos'])
+  assert all(x['subject'] in ('course','clubhouse','hotel','facility') for x in reviewed['photos'])
+  if any(x['subject'] in ('hotel','facility') for x in reviewed['photos']):
+   assert p['gallerySubjects'][1] in ('hotel','facility'), 'Lodging should follow the primary course photo'
   assert not rejected.intersection(p['gallery'])
   for photo in reviewed['photos']:
    assert any(c['title']==photo['facility'] and photo['src'] in [im['src'] for im in c['images']] for day in detail['days'] for c in day['cards']), 'Photo belongs to another facility or product'
@@ -68,6 +74,7 @@ for p in products:
  for photo in curation[p['slug']]['photos']:
   identity=(p['country'],photo['facility'])
   assert identities.setdefault(photo['src'],identity)==identity, 'Photo reused for a different facility'
-  assert photo['sourceWidth']>0 and photo['originalUrl'].replace('/0_0/','/400_0/')==photo['src']
+  assert photo['sourceWidth']>0 and re.sub(r'/resize/\d+_\d+/', '/resize/0_0/', photo['originalUrl'])==re.sub(r'/resize/\d+_\d+/', '/resize/0_0/', photo['src'])
 assert sum(bool(p.get('photoPending')) for p in products)==3
+assert sum(any(s in ('hotel','facility') for s in p['gallerySubjects']) for p in products)==72, 'Do not remove verified lodging from galleries'
 print('PASS: 76 live-source snapshots, matching duration, facility-bound photos, land-join caveats, mixed inclusion parsing, static quote routes and price safety')

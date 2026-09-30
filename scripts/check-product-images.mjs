@@ -17,14 +17,15 @@ const limited = [];
 for (const p of products) {
   const photos = curation[p.slug].photos;
   assert(!conceptPaths.has(p.thumb), `Generated product thumbnail: ${p.slug}`);
+  assert(p.photoPending || ['course', 'clubhouse'].includes(photos[0]?.subject), `Wrong primary photo: ${p.slug}`);
   for (const photo of photos) {
     const m = await sharp(`public${photo.path}`).metadata();
     assert(m.width <= photo.sourceWidth && m.height <= photo.sourceHeight, `Upscaled: ${p.slug}`);
-    assert(['course', 'clubhouse'].includes(photo.subject), `Wrong photo subject: ${p.slug}`);
+    assert(['course', 'clubhouse', 'hotel', 'facility'].includes(photo.subject), `Wrong photo subject: ${p.slug}`);
     assert(!conceptPaths.has(photo.path), `Generated gallery image: ${p.slug}`);
     count++;
   }
-  if (photos.length && photos[0].sourceWidth < 800) limited.push(`${p.title}: ${photos[0].sourceWidth}px`);
+  if (!p.photoPending && photos.length && photos[0].sourceWidth < 800) limited.push(`${p.title}: ${photos[0].sourceWidth}px`);
 }
 console.log(`PASS: 13 labeled destination concepts; ${count} source-bound product photo placements; no upscaling`);
 console.log('Native source size limitations:', limited);

@@ -124,8 +124,14 @@ for p in products:
     photos = review['photos']
     p['gallery'] = [x['path'] for x in photos]
     p['galleryCaptions'] = [clean(x['caption']) for x in photos]
+    p['gallerySubjects'] = [x['subject'] for x in photos]
     p['photoPending'] = bool(review.get('photoPending'))
-    if photos:
+    if p['photoPending']:
+        # Only the primary course photo is pending; verified lodging stays visible.
+        p['gallery'].insert(0, '/images/product-photo-pending.svg')
+        p['galleryCaptions'].insert(0, '골프장 사진 확인 중')
+        p['gallerySubjects'].insert(0, 'pending')
+    elif photos:
         assert photos[0]['subject'] in ('course', 'clubhouse'), 'Hotel or generic image cannot be a product thumbnail'
     p['thumb'] = p['gallery'][0] if photos else '/images/product-photo-pending.svg'
     p['thumbCaption'] = p['galleryCaptions'][0] if photos else '골프장 사진 확인 중'

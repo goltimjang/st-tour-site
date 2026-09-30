@@ -77,10 +77,12 @@
     ],
     "gallery": [
       "/products/courses/678f8784c5938749.webp",
+      "/products/facilities/cb112aed7170416d.webp",
       "/products/courses/78a14588703fd251.webp"
     ],
     "galleryCaptions": [
       "Pine Hurst Golf&Country Club · 예정 골프장 코스",
+      "AMBASSADOR HOTEL BANGKOK · 외관·수영장",
       "Pine Hurst Golf&Country Club · 예정 골프장 코스"
     ],
     "sourceHeading": "[추가수하물 +5kg] 방콕 골프 5일 #다색골프 #18홀*3회 #파인허스트CC 외10곳 #스쿰빗시내 4성호텔 #2인출발가능",
@@ -90,7 +92,12 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "Pine Hurst Golf&Country Club · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "course"
+    ]
   },
   {
     "slug": "hana-3de70b2e8f8e",
@@ -159,11 +166,13 @@
     ],
     "gallery": [
       "/products/courses/2a0c73635eb168f6.webp",
+      "/products/facilities/eed081d68a5ab733.webp",
       "/products/courses/2706bdcb79c4b383.webp",
       "/products/courses/6931c6bb05a6ed95.webp"
     ],
     "galleryCaptions": [
       "Shandong Qingdao Kaisile Golf Club · 예정 골프장 코스",
+      "Castlex Qingdao Golf & Resort · 객실 예시",
       "Shandong Qingdao Kaisile Golf Club · 예정 골프장 코스",
       "Shandong Qingdao Kaisile Golf Club · 예정 골프장 코스"
     ],
@@ -176,7 +185,13 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "Shandong Qingdao Kaisile Golf Club · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-d9ec5178e945",
@@ -255,11 +270,15 @@
     ],
     "gallery": [
       "/products/courses/dfc9da2a7f16f4e4.webp",
+      "/products/facilities/8a99b814127c2993.webp",
+      "/products/facilities/ddb7c3d906d13439.webp",
       "/products/courses/fa163fa488a9cb63.webp",
       "/products/courses/f1ede32ac4ba882f.webp"
     ],
     "galleryCaptions": [
       "Orient Golf & Country Club · 예정 골프장 코스",
+      "XIAMEN DISCOVERY HOTEL · 로비",
+      "Xianglu Grand Hotel · 레스토랑",
       "Orient Golf & Country Club · 예정 골프장 코스",
       "Orient Golf & Country Club · 예정 골프장 코스"
     ],
@@ -272,7 +291,14 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "Orient Golf & Country Club · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "facility",
+      "facility",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-7ba6e568a76a",
@@ -351,11 +377,15 @@
     ],
     "gallery": [
       "/products/courses/d63e241c7c8c6de3.webp",
+      "/products/facilities/00e4cc955ea01317.webp",
+      "/products/facilities/c0ef949dce85afff.webp",
       "/products/courses/76d488b9b7590b64.webp",
       "/products/courses/b9543a28043e953a.webp"
     ],
     "galleryCaptions": [
       "Artitaya Golf Club · 예정 골프장 코스",
+      "ARTITAYA GOLF CLUB HOTEL · 수영장",
+      "ARTITAYA GOLF CLUB HOTEL · 로비",
       "Artitaya Golf Club · 예정 골프장 코스",
       "Artitaya Golf Club · 예정 골프장 코스"
     ],
@@ -367,7 +397,14 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "Artitaya Golf Club · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "facility",
+      "facility",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-3fd6eb7ee0f9",
@@ -446,10 +483,14 @@
     ],
     "gallery": [
       "/products/courses/d1288e8a111c6884.webp",
+      "/products/facilities/ebe0888da0bfc310.webp",
+      "/products/facilities/8e4a47fb0527a302.webp",
       "/products/courses/a6a086ee9cb4b540.webp"
     ],
     "galleryCaptions": [
       "Gassan Panorama Golf Club · 예정 골프장 코스",
+      "GASSAN LEGACY GOLF CLUB · 외관",
+      "GASSAN LEGACY GOLF CLUB · 숙소 전경",
       "Gassan Panorama Golf Club · 예정 골프장 코스"
     ],
     "sourceHeading": "[출발확정] [글로벌 골프챌린지][부산출발]치앙마이 골프 5일 #가산레가시골프텔 #54홀 #레가시CC/파노라마CC #조/중/석식포함 #골프대회 #카트피/캐디피포함 #18시레이트체크아웃#1000만원상당의경품 #수하물 23kg",
@@ -460,7 +501,13 @@
     ],
     "thumbCaption": "Gassan Panorama Golf Club · 예정 골프장 코스",
     "photoPending": false,
-    "scheduleNotice": "2026년 12월 9일 출발 골프챌린지 일정입니다. 다른 날짜는 같은 행사 구성으로 진행되지 않으며, 별도 골프여행으로 상담합니다."
+    "scheduleNotice": "2026년 12월 9일 출발 골프챌린지 일정입니다. 다른 날짜는 같은 행사 구성으로 진행되지 않으며, 별도 골프여행으로 상담합니다.",
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "hotel",
+      "course"
+    ]
   },
   {
     "slug": "hana-89ed0db8b937",
@@ -540,10 +587,14 @@
     ],
     "gallery": [
       "/products/courses/a5459be158745944.webp",
+      "/products/facilities/8fc57794584128ad.webp",
+      "/products/facilities/758d329140d5ce3a.webp",
       "/products/courses/831e844376c2a46b.webp"
     ],
     "galleryCaptions": [
       "LAKEWOOD GOLF CLUB · 예정 골프장 코스",
+      "LAKEWOOD Golf Stay · 객실 예시",
+      "ACROPOLIS · 외관",
       "LAKEWOOD GOLF CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "[청주출발][베스트셀러]클락 골프 5일 #골프텔 #36홀*3회 #레이크우드 골프텔 #레이크우드CC #가성비최고 #2인단독라운드 #카트진입가능 #조중식포함",
@@ -554,7 +605,13 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "LAKEWOOD GOLF CLUB · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "hotel",
+      "course"
+    ]
   },
   {
     "slug": "hana-0f8104f0807b",
@@ -633,11 +690,15 @@
     ],
     "gallery": [
       "/products/courses/1b7718b4dea45928.webp",
+      "/products/facilities/6124b341ef9ec737.webp",
+      "/products/facilities/b6b875e13fd93416.webp",
       "/products/courses/ea1cde5734ae5f01.webp",
       "/products/courses/3b14205f229a650f.webp"
     ],
     "galleryCaptions": [
       "Yen Bai Star Golf & Resort · 예정 골프장 코스",
+      "Le Blanc Heritage Hotel · 객실 예시",
+      "Le Blanc Heritage Hotel · 객실 예시",
       "Yen Bai Star Golf & Resort · 예정 골프장 코스",
       "Yen Bai Star Golf & Resort · 예정 골프장 코스"
     ],
@@ -648,7 +709,14 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "Yen Bai Star Golf & Resort · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "hotel",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-67b49d0d8a63",
@@ -721,10 +789,12 @@
     ],
     "gallery": [
       "/products/courses/1f03baf962a24857.webp",
+      "/products/facilities/c9e2d5f84c4e4623.webp",
       "/products/courses/0acb1e5e57958283.webp"
     ],
     "galleryCaptions": [
       "아이와 미야자키 골프 클럽 · 예정 골프장 코스",
+      "AIWA MIYAZAKI RESORT · 객실 예시",
       "아이와 미야자키 골프 클럽 · 예정 골프장 코스"
     ],
     "sourceHeading": "미야자키 골프 4일 #골프텔 #63홀 #아이와GC #한국인직원상주 #조/중/석식포함 #2인출발&2인라운드가능(추가비용)",
@@ -734,7 +804,12 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "아이와 미야자키 골프 클럽 · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "course"
+    ]
   },
   {
     "slug": "hana-f2c173f5369f",
@@ -810,11 +885,13 @@
     ],
     "gallery": [
       "/products/courses/c0dac092f6cedc30.webp",
+      "/products/facilities/f2176909dff9603d.webp",
       "/products/courses/924f464c9f28be68.webp",
       "/products/courses/23502b84abe11eb4.webp"
     ],
     "galleryCaptions": [
       "사츠마 골프 & 온천 리조트 · 예정 골프장 코스",
+      "SATSUMA GOLF & SPA RESORT · 로비",
       "사츠마 골프 & 온천 리조트 · 예정 골프장 코스",
       "사츠마 골프 & 온천 리조트 · 예정 골프장 코스"
     ],
@@ -825,7 +902,13 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "사츠마 골프 & 온천 리조트 · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "facility",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-a41f2f21ebd4",
@@ -904,11 +987,15 @@
     ],
     "gallery": [
       "/products/courses/41812793cc0a370a.webp",
+      "/products/facilities/7cb046a1dd1755d8.webp",
+      "/products/facilities/9fb9067209da9d3b.webp",
       "/products/courses/01cb9977e0e3ff62.webp",
       "/products/courses/c5375f646cd01c93.webp"
     ],
     "galleryCaptions": [
       "ASO SKY BLUE GOLF CLUB · 예정 골프장 코스",
+      "ASO SKYBLUE GOLF RESORT_EX.ASO TAKAMORI GOLF CLUB HOTEL · 외관",
+      "ASO SKYBLUE GOLF RESORT_EX.ASO TAKAMORI GOLF CLUB HOTEL · 객실 예시",
       "ASO SKY BLUE GOLF CLUB · 예정 골프장 코스",
       "ASO SKY BLUE GOLF CLUB · 예정 골프장 코스"
     ],
@@ -920,7 +1007,14 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "ASO SKY BLUE GOLF CLUB · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "hotel",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-1e9409fb560b",
@@ -997,10 +1091,14 @@
     ],
     "gallery": [
       "/products/courses/d20e9e31a1be06a1.webp",
+      "/products/facilities/32b7e4abf269552f.webp",
+      "/products/facilities/eb896cc5aa159668.webp",
       "/products/courses/31c2c94a47b2a20f.webp"
     ],
     "galleryCaptions": [
       "CHIRAN COUNTRY CLUB · 예정 골프장 코스",
+      "[ONSEN HOTEL] KAGOSHIMA SUN ROYAL HOTEL · 외관",
+      "[ONSEN HOTEL] KAGOSHIMA SUN ROYAL HOTEL · 온천 시설",
       "CHIRAN COUNTRY CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "[부산출발]가고시마 골프 4일 #2색골프 #18홀*3회 #썬로얄호텔 #치란/남국CC #조식포함 #온천포함 #시내호텔 #2인출발가능(추가금발생)",
@@ -1010,7 +1108,13 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "CHIRAN COUNTRY CLUB · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "facility",
+      "course"
+    ]
   },
   {
     "slug": "hana-f61f5a0b20b6",
@@ -1082,11 +1186,13 @@
     ],
     "gallery": [
       "/products/courses/740bb2987f211e0c.webp",
+      "/products/facilities/63e8a46c283caa0b.webp",
       "/products/courses/5cb1cceb2f8f0d5d.webp",
       "/products/courses/81309f6c8ab746bf.webp"
     ],
     "galleryCaptions": [
       "Beppu Golf Club · 예정 골프장 코스",
+      "Apartment Hotel YAEZAKI · 객실 예시",
       "Beppu Golf Club · 예정 골프장 코스",
       "Beppu Golf Club · 예정 골프장 코스"
     ],
@@ -1097,7 +1203,13 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "Beppu Golf Club · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-a358573bdc29",
@@ -1172,11 +1284,15 @@
     ],
     "gallery": [
       "/products/courses/8cad19e4e1a0f088.webp",
+      "/products/facilities/4e04f45062ca7625.webp",
+      "/products/facilities/3a4cd1254039657f.webp",
       "/products/courses/db5ea8c8b177a0ff.webp",
       "/products/courses/45e988f519ec94e6.webp"
     ],
     "galleryCaptions": [
       "KANUCHA GOLF COURSE · 예정 골프장 코스",
+      "KANUCHA RESORT · 테라스",
+      "KANUCHA RESORT · 수영장 시설",
       "KANUCHA GOLF COURSE · 예정 골프장 코스",
       "KANUCHA GOLF COURSE · 예정 골프장 코스"
     ],
@@ -1187,7 +1303,14 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "KANUCHA GOLF COURSE · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "facility",
+      "facility",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-a2585b31f20e",
@@ -1264,11 +1387,13 @@
     ],
     "gallery": [
       "/products/courses/a1e27e72e21418ff.webp",
+      "/products/facilities/c947e502c8cf2886.webp",
       "/products/courses/7ec41fa95a3bf0a9.webp",
       "/products/courses/48d76f86f144320b.webp"
     ],
     "galleryCaptions": [
       "FUJICHISAN COUNTRY CLUB · 예정 골프장 코스",
+      "G8FUJI COUNTRY CLUB · 로비",
       "FUJICHISAN COUNTRY CLUB · 예정 골프장 코스",
       "FUJICHISAN COUNTRY CLUB · 예정 골프장 코스"
     ],
@@ -1280,7 +1405,13 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "FUJICHISAN COUNTRY CLUB · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "facility",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-ed11a374247a",
@@ -1351,11 +1482,13 @@
     ],
     "gallery": [
       "/products/courses/6fef967aa79c7dd9.webp",
+      "/products/facilities/8c7c1c171d3549c9.webp",
       "/products/courses/c7f7a50e73e41632.webp",
       "/products/courses/1290a5fcf18a75c6.webp"
     ],
     "galleryCaptions": [
       "Zuien Country Club · 예정 골프장 코스",
+      "Hotel Monte Hermana Kobe Amalie · 외관",
       "Zuien Country Club · 예정 골프장 코스",
       "Zuien Country Club · 예정 골프장 코스"
     ],
@@ -1366,7 +1499,13 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "Zuien Country Club · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-b49345d3e79e",
@@ -1440,11 +1579,15 @@
     ],
     "gallery": [
       "/products/courses/cb868656cf2c3208.webp",
+      "/products/facilities/a3be449b9de6397c.webp",
+      "/products/facilities/081f6baa9cff3b3c.webp",
       "/products/courses/8954d813cf32114e.webp",
       "/products/courses/cde3280df1656101.webp"
     ],
     "galleryCaptions": [
       "TOJO NO MORI COUNTRY CLUB · 예정 골프장 코스",
+      "Hotel Route Inn Kato · 로비",
+      "Hotel Route Inn Kato · 대욕장",
       "TOJO NO MORI COUNTRY CLUB · 예정 골프장 코스",
       "TOJO NO MORI COUNTRY CLUB · 예정 골프장 코스"
     ],
@@ -1455,7 +1598,14 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "TOJO NO MORI COUNTRY CLUB · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "facility",
+      "facility",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-4ec11ea9b80d",
@@ -1526,10 +1676,12 @@
     ],
     "gallery": [
       "/products/courses/26bce4dc50c6375d.webp",
+      "/products/facilities/0cbd675a6af89a88.webp",
       "/products/courses/8f93521a2fd392f8.webp"
     ],
     "galleryCaptions": [
       "Kitakobe Golf Ground · 예정 골프장 코스",
+      "HOTEL FRUIT FLOWER · 대욕장",
       "Kitakobe Golf Ground · 예정 골프장 코스"
     ],
     "sourceHeading": "[부산출발] 고베 골프 3일 #다색골프 #45홀 #오노그랜드/기타고베/기타롯코CC #아리마온천호텔 #조/석식포함 #특급온천",
@@ -1539,7 +1691,12 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "Kitakobe Golf Ground · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "facility",
+      "course"
+    ]
   },
   {
     "slug": "hana-bf8f483a20b3",
@@ -1609,11 +1766,13 @@
     ],
     "gallery": [
       "/products/courses/3486e0149116b06e.webp",
+      "/products/facilities/cf6c7d8686c1f5a4.webp",
       "/products/courses/2c369bbb4d6bd69c.webp",
       "/products/courses/6289b892706ba44f.webp"
     ],
     "galleryCaptions": [
       "JUNDING CHATEAU GOLF CLUB · 예정 골프장 코스",
+      "HUAQIAO HOTEL · 레스토랑",
       "JUNDING CHATEAU GOLF CLUB · 예정 골프장 코스",
       "JUNDING CHATEAU GOLF CLUB · 예정 골프장 코스"
     ],
@@ -1625,7 +1784,13 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "JUNDING CHATEAU GOLF CLUB · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "facility",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-749d185487f1",
@@ -1706,11 +1871,15 @@
     ],
     "gallery": [
       "/products/courses/db9b2832e81bbe6a.webp",
+      "/products/facilities/b0f9ce13952ee88e.webp",
+      "/products/facilities/70484fcbff37ee83.webp",
       "/products/courses/2572efed537d1665.webp",
       "/products/courses/59c71fd600279147.webp"
     ],
     "galleryCaptions": [
       "ZHAOQING RESORT AND GOLF CLUB · 예정 골프장 코스",
+      "Holiday Inn Express Foshan Sanshui by IHG · 레스토랑",
+      "Wyndham Foshan Nanhai · 피트니스 시설",
       "ZHAOQING RESORT AND GOLF CLUB · 예정 골프장 코스",
       "ZHAOQING RESORT AND GOLF CLUB · 예정 골프장 코스"
     ],
@@ -1723,7 +1892,14 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "ZHAOQING RESORT AND GOLF CLUB · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "facility",
+      "facility",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-4c144ff01513",
@@ -1802,11 +1978,15 @@
     ],
     "gallery": [
       "/products/courses/dfc9da2a7f16f4e4.webp",
+      "/products/facilities/c43fc900f1a4305d.webp",
+      "/products/facilities/61445b55da7efc2d.webp",
       "/products/courses/fa163fa488a9cb63.webp",
       "/products/courses/f1ede32ac4ba882f.webp"
     ],
     "galleryCaptions": [
       "Orient Golf & Country Club · 예정 골프장 코스",
+      "Joyze Hotel Xiamen, Curio Collection by Hilton · 수영장",
+      "HUALUXE Xiamen Haicang Harbour View by IHG · 피트니스 시설",
       "Orient Golf & Country Club · 예정 골프장 코스",
       "Orient Golf & Country Club · 예정 골프장 코스"
     ],
@@ -1819,7 +1999,14 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "Orient Golf & Country Club · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "facility",
+      "facility",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-46923e275b2e",
@@ -1895,11 +2082,15 @@
     ],
     "gallery": [
       "/products/courses/4d96389eba8ee8dc.webp",
+      "/products/facilities/ebc783f4cc6cdb6c.webp",
+      "/products/facilities/53664ac334309edc.webp",
       "/products/courses/8d4cffeea406ade8.webp",
       "/products/courses/25abfe452ea611c1.webp"
     ],
     "galleryCaptions": [
       "Tianyi Golf Club · 예정 골프장 코스",
+      "Hampton by Hilton Rongcheng · 레스토랑",
+      "Hampton by Hilton Rongcheng · 피트니스 시설",
       "Tianyi Golf Club · 예정 골프장 코스",
       "Tianyi Golf Club · 예정 골프장 코스"
     ],
@@ -1911,7 +2102,14 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "Tianyi Golf Club · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "facility",
+      "facility",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-113dba734e28",
@@ -1990,11 +2188,15 @@
     ],
     "gallery": [
       "/products/courses/e605e3afcdba1ecb.webp",
+      "/products/facilities/0485092665f71621.webp",
+      "/products/facilities/bf9ce63aa626613b.webp",
       "/products/courses/003cef7bffc5283a.webp",
       "/products/courses/a813fb65a2868f0e.webp"
     ],
     "galleryCaptions": [
       "Mission Hills Golf Club Haikou · 예정 골프장 코스",
+      "Holiday Inn Express Haikou World Trade Center by IHG (Xiuying Port, an IHG Hotel) · 외관",
+      "Holiday Inn Express Haikou World Trade Center by IHG (Xiuying Port, an IHG Hotel) · 레스토랑",
       "Mission Hills Golf Club Haikou · 예정 골프장 코스",
       "Mission Hills Golf Club Haikou · 예정 골프장 코스"
     ],
@@ -2007,7 +2209,14 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "Mission Hills Golf Club Haikou · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "facility",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-387bb1416e0e",
@@ -2085,11 +2294,15 @@
     ],
     "gallery": [
       "/products/courses/294a248323325231.webp",
+      "/products/facilities/225662f770c1d795.webp",
+      "/products/facilities/524b0ea973d488bc.webp",
       "/products/courses/ebd1122b726589fd.webp",
       "/products/courses/34d341e423955f54.webp"
     ],
     "galleryCaptions": [
       "HAINAN ANCIENT SALTERN GOLF CLUB (Guyantian Golf Club) · 예정 골프장 코스",
+      "GARDEN LANE MEILAN AIRPORT (EX. HAIKOU MEILAN AIRPORT HOTEL) · 로비",
+      "GARDEN LANE MEILAN AIRPORT (EX. HAIKOU MEILAN AIRPORT HOTEL) · 레스토랑",
       "HAINAN ANCIENT SALTERN GOLF CLUB (Guyantian Golf Club) · 예정 골프장 코스",
       "HAINAN ANCIENT SALTERN GOLF CLUB (Guyantian Golf Club) · 예정 골프장 코스"
     ],
@@ -2102,7 +2315,14 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "HAINAN ANCIENT SALTERN GOLF CLUB (Guyantian Golf Club) · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "facility",
+      "facility",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-a2883955afa4",
@@ -2174,11 +2394,13 @@
     ],
     "gallery": [
       "/products/courses/7fd6aaf962c7ded7.webp",
+      "/products/facilities/be61b41b83cc7bef.webp",
       "/products/courses/2671a23880902925.webp",
       "/products/courses/382828ee3b1ea126.webp"
     ],
     "galleryCaptions": [
       "Linghai Hot Spring Golf Club · 예정 골프장 코스",
+      "GLORIA PLAZA HOTEL QINGDAO · 로비",
       "Linghai Hot Spring Golf Club · 예정 골프장 코스",
       "Linghai Hot Spring Golf Club · 예정 골프장 코스"
     ],
@@ -2191,7 +2413,13 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "Linghai Hot Spring Golf Club · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "facility",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-b1557629f0e5",
@@ -2274,10 +2502,12 @@
     ],
     "gallery": [
       "/products/courses/7b0ab431a53a6560.webp",
+      "/products/facilities/6b348faa84607a7c.webp",
       "/products/courses/b1f7811d1069d867.webp"
     ],
     "galleryCaptions": [
       "Ba Na Hills Golf CLub · 예정 골프장 코스",
+      "무엉탄 다낭 호텔 · 외관",
       "Ba Na Hills Golf CLub · 예정 골프장 코스"
     ],
     "sourceHeading": "[5大특전] 다낭 골프+관광 5일 #다색골프 #18홀*3회 #골든샌즈/빈펄/몽고메리GC 외 #4성호텔 #한국인가이드",
@@ -2289,7 +2519,12 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "Ba Na Hills Golf CLub · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "course"
+    ]
   },
   {
     "slug": "hana-912f5b4e8824",
@@ -2369,10 +2604,12 @@
     ],
     "gallery": [
       "/products/courses/fa91b28c8f078d65.webp",
+      "/products/facilities/d848b94003e48d42.webp",
       "/products/courses/409799150f42b73c.webp"
     ],
     "galleryCaptions": [
       "Diamond Bay Golf Club · 예정 골프장 코스",
+      "PREMIER HAVANA NHA TRANG HOTEL · 외관",
       "Diamond Bay Golf Club · 예정 골프장 코스"
     ],
     "sourceHeading": "[청주출발] 나트랑 골프 5일 #다색골프 #다이아몬드베이/KN깜란/빈펄CC #18홀*3회 #하바나호텔(비치앞5성) #No가이드",
@@ -2382,7 +2619,12 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "Diamond Bay Golf Club · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "course"
+    ]
   },
   {
     "slug": "hana-2ca11e342bc8",
@@ -2462,11 +2704,15 @@
     ],
     "gallery": [
       "/products/courses/653ce0d0d5a90e62.webp",
+      "/products/facilities/f26f632196a20ea6.webp",
+      "/products/facilities/22f60a9e5fea4678.webp",
       "/products/courses/cd984c10802f433c.webp",
       "/products/courses/37f3caf0e15cfe7c.webp"
     ],
     "galleryCaptions": [
       "Royal Central CC · 예정 골프장 코스",
+      "HANIN TOWN HOTEL · 외관",
+      "HANIN TOWN HOTEL · 로비",
       "Royal Central CC · 예정 골프장 코스",
       "Royal Central CC · 예정 골프장 코스"
     ],
@@ -2478,7 +2724,14 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "Royal Central CC · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "facility",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-cbc60807bbf4",
@@ -2562,10 +2815,14 @@
     ],
     "gallery": [
       "/products/courses/de8b7fd5dfb6662d.webp",
+      "/products/facilities/bd524682c4345a56.webp",
+      "/products/facilities/a7d93987d83783dc.webp",
       "/products/courses/a8aadc1317bb9a77.webp"
     ],
     "galleryCaptions": [
       "보르네오 골프 & 컨트리 클럽 · 예정 골프장 코스",
+      "BORNEO GOLF RESORT (EX. BORNEO GOLF AND COUNTRY CLUB) · 수영장",
+      "BORNEO GOLF RESORT (EX. BORNEO GOLF AND COUNTRY CLUB) · 객실 테라스 예시",
       "보르네오 골프 & 컨트리 클럽 · 예정 골프장 코스"
     ],
     "sourceHeading": "[베스트셀러]코타키나발루 골프 6일 #골프텔 #36홀*4회 #보르네오 리조트 #보르네오CC #전일정식사포함 #레이트체크아웃",
@@ -2578,7 +2835,13 @@
     ],
     "thumbCaption": "보르네오 골프 & 컨트리 클럽 · 예정 골프장 코스",
     "photoPending": false,
-    "quoteNotice": "공급사 원상품은 현지 합류 불가로 안내되어 있습니다. 항공 제외 구성 가능 여부를 먼저 확인하고, 어려운 경우 대체 상품을 안내합니다."
+    "quoteNotice": "공급사 원상품은 현지 합류 불가로 안내되어 있습니다. 항공 제외 구성 가능 여부를 먼저 확인하고, 어려운 경우 대체 상품을 안내합니다.",
+    "gallerySubjects": [
+      "course",
+      "facility",
+      "hotel",
+      "course"
+    ]
   },
   {
     "slug": "hana-bf3c78d5f18c",
@@ -2659,10 +2922,12 @@
     ],
     "gallery": [
       "/products/courses/6abf8dce6f127b7b.webp",
+      "/products/facilities/a8317584d17c887c.webp",
       "/products/courses/de6c44d9fdc911b5.webp"
     ],
     "galleryCaptions": [
       "SILKY OAK COUNTRY CLUB · 예정 골프장 코스",
+      "브라이튼 그랜드 호텔 · 외관",
       "SILKY OAK COUNTRY CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "파타야 골프 5일 #다색골프 #18홀*3회 #No.1 시암 + 세인트앤드류스CC #시내호텔 #2인출발",
@@ -2672,7 +2937,12 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "SILKY OAK COUNTRY CLUB · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "course"
+    ]
   },
   {
     "slug": "hana-be0bb02b8171",
@@ -2752,10 +3022,12 @@
     ],
     "gallery": [
       "/products/courses/cc684e7e1bd32d8c.webp",
+      "/products/facilities/e17d54ad219c9ab3.webp",
       "/products/courses/bb0e1e58fd5834d9.webp"
     ],
     "galleryCaptions": [
       "St. ANDREWS 2000 · 예정 골프장 코스",
+      "T Pattaya Hotel · 외관·수영장",
       "St. ANDREWS 2000 · 예정 골프장 코스"
     ],
     "sourceHeading": "파타야 골프 5일 #다색골프 #18홀*3회 #세인트앤드류스CC외 2곳 #2인출발 #시내호텔 #전일정중식포함",
@@ -2765,7 +3037,12 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "St. ANDREWS 2000 · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "course"
+    ]
   },
   {
     "slug": "hana-7a170301d0df",
@@ -2843,10 +3120,14 @@
     ],
     "gallery": [
       "/products/courses/858b9fb0d42f4801.webp",
+      "/products/facilities/e0214e8d1c1acc45.webp",
+      "/products/facilities/c6651b690807e764.webp",
       "/products/courses/4ce7f98d28baa239.webp"
     ],
     "galleryCaptions": [
       "GASSAN KHUNTAN GOLF & RESORT · 예정 골프장 코스",
+      "GASSAN KHUNTAN GOLF&RESORT · 외관",
+      "GASSAN KHUNTAN GOLF&RESORT · 숙소 전경",
       "GASSAN KHUNTAN GOLF & RESORT · 예정 골프장 코스"
     ],
     "sourceHeading": "[홈쇼핑에디션]치앙마이 골프 5일 #가산쿤탄CC#90홀라운드#신관룸 #보쌍우산마을관광 #조/중/석포함 #90분마사지포함",
@@ -2856,7 +3137,13 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "GASSAN KHUNTAN GOLF & RESORT · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "hotel",
+      "course"
+    ]
   },
   {
     "slug": "hana-1fd1908f2873",
@@ -2937,11 +3224,15 @@
     ],
     "gallery": [
       "/products/courses/e635c7d1012f952a.webp",
+      "/products/facilities/eec097b584913247.webp",
+      "/products/facilities/f7bb1de1d1b64790.webp",
       "/products/courses/2e28e052edc2ea3b.webp",
       "/products/courses/c7049669ff173dd4.webp"
     ],
     "galleryCaptions": [
       "FLC HALONGBAY GOLF CLUB · 예정 골프장 코스",
+      "FLC HA LONG BAY GOLF AND LUXURY RESORT · 객실 예시",
+      "FLC HA LONG BAY GOLF AND LUXURY RESORT · 객실 예시",
       "FLC HALONGBAY GOLF CLUB · 예정 골프장 코스",
       "FLC HALONGBAY GOLF CLUB · 예정 골프장 코스"
     ],
@@ -2953,7 +3244,14 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "FLC HALONGBAY GOLF CLUB · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "hotel",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-7842baa0a472",
@@ -3035,11 +3333,17 @@
     ],
     "gallery": [
       "/products/courses/a70b7cba0f7adc14.webp",
+      "/products/facilities/05931ff3b9524886.webp",
+      "/products/facilities/bf95d137b522d662.webp",
+      "/products/facilities/62c03d4778a47dba.webp",
       "/products/courses/38c195b7560255d9.webp",
       "/products/courses/24bf6b3a7b4f544b.webp"
     ],
     "galleryCaptions": [
       "LONGVIEN GOLF CLUB · 예정 골프장 코스",
+      "Amari Vientiane Laos · 외관",
+      "Amari Vientiane Laos · 객실 예시",
+      "Amari Vientiane Laos · 수영장",
       "LONGVIEN GOLF CLUB · 예정 골프장 코스",
       "LONGVIEN GOLF CLUB · 예정 골프장 코스"
     ],
@@ -3051,7 +3355,15 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "LONGVIEN GOLF CLUB · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "hotel",
+      "facility",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-28e8915e4795",
@@ -3147,7 +3459,11 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "NORTH HILL GOLF CLUB · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-70b8c3a64fb7",
@@ -3230,10 +3546,14 @@
     ],
     "gallery": [
       "/products/courses/8f0e4ce1e2a6f7e6.webp",
+      "/products/facilities/69e577d9aef28d81.webp",
+      "/products/facilities/3fe881c6b1476e3a.webp",
       "/products/courses/8517715d30cd9d35.webp"
     ],
     "galleryCaptions": [
       "ALPINE C.C · 예정 골프장 코스",
+      "RATILANNA RIVERSIDE SPA RESORT CHIANG MAI · 외관",
+      "RATILANNA RIVERSIDE SPA RESORT CHIANG MAI · 객실 예시",
       "ALPINE C.C · 예정 골프장 코스"
     ],
     "sourceHeading": "[스마트 초이스]치앙마이 골프 5일 #다색골프 #18홀*3회#알파인, 레가시외 # 샹그릴라, 멜리아,라티란나,메리어트 호텔",
@@ -3243,7 +3563,13 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "ALPINE C.C · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "hotel",
+      "course"
+    ]
   },
   {
     "slug": "hana-6ed8e6e7dcaf",
@@ -3321,10 +3647,14 @@
     ],
     "gallery": [
       "/products/courses/c94e5bb3557eec9a.webp",
+      "/products/facilities/f60095c923e5ada0.webp",
+      "/products/facilities/c696c1e067123439.webp",
       "/products/courses/0f341435c3fdd82d.webp"
     ],
     "galleryCaptions": [
       "Palm Springs Golf & Beach Resort · 예정 골프장 코스",
+      "BATAM VIEW BEACH RESORT · 외관",
+      "BATAM VIEW BEACH RESORT · 객실 예시",
       "Palm Springs Golf & Beach Resort · 예정 골프장 코스"
     ],
     "sourceHeading": "바탐 골프 5일 #골프텔 #18홀X3회 #팜스프링스CC #바탐뷰리조트 #전식포함 #2인출발가능",
@@ -3335,7 +3665,13 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "Palm Springs Golf & Beach Resort · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "hotel",
+      "course"
+    ]
   },
   {
     "slug": "hana-7ad5e0d28261",
@@ -3416,11 +3752,15 @@
     ],
     "gallery": [
       "/products/courses/f80949143b701025.webp",
+      "/products/facilities/d449663f771098e7.webp",
+      "/products/facilities/075ea444ea597df2.webp",
       "/products/courses/96cfccfd85425fe1.webp",
       "/products/courses/fae587db347cedaa.webp"
     ],
     "galleryCaptions": [
       "SouthLinks Country Club · 예정 골프장 코스",
+      "RADISSON GOLF AND CONVENTION CENTER BATAM · 수영장",
+      "RADISSON GOLF AND CONVENTION CENTER BATAM · 객실 예시",
       "SouthLinks Country Club · 예정 골프장 코스",
       "SouthLinks Country Club · 예정 골프장 코스"
     ],
@@ -3432,7 +3772,14 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "SouthLinks Country Club · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "facility",
+      "hotel",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-b32260463f3d",
@@ -3513,10 +3860,12 @@
     ],
     "gallery": [
       "/products/courses/282fe292a0d9faed.webp",
+      "/products/facilities/0a1761cac525b198.webp",
       "/products/courses/8e845245c100d413.webp"
     ],
     "galleryCaptions": [
       "PADANG SUKAJADI GOLF · 예정 골프장 코스",
+      "ASTON BATAM HOTEL AND RESIDENCE · 외관",
       "PADANG SUKAJADI GOLF · 예정 골프장 코스"
     ],
     "sourceHeading": "바탐 골프 5일 #다색골프 #36홀*3회 #인다푸리/바탐힐/파당수카자디/아일랜드CC #4성급호텔 #조/석식포함 #2인출발가능 #수화물23KG지원",
@@ -3527,7 +3876,12 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "PADANG SUKAJADI GOLF · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "course"
+    ]
   },
   {
     "slug": "hana-2cbcc113beb2",
@@ -3628,11 +3982,13 @@
     ],
     "gallery": [
       "/products/courses/c8e1d2b8132097b4.webp",
+      "/products/facilities/0a1761cac525b198.webp",
       "/products/courses/904974c705d1c536.webp",
       "/products/courses/15b7a4942588ad55.webp"
     ],
     "galleryCaptions": [
       "INDAH PURI RESORT & GOLF CLUB · 예정 골프장 코스",
+      "ASTON BATAM HOTEL AND RESIDENCE · 외관",
       "INDAH PURI RESORT & GOLF CLUB · 예정 골프장 코스",
       "INDAH PURI RESORT & GOLF CLUB · 예정 골프장 코스"
     ],
@@ -3644,7 +4000,13 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "INDAH PURI RESORT & GOLF CLUB · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-1cde89363822",
@@ -3726,10 +4088,12 @@
     ],
     "gallery": [
       "/products/courses/a5459be158745944.webp",
+      "/products/facilities/3e571aab1ce82ddd.webp",
       "/products/courses/831e844376c2a46b.webp"
     ],
     "galleryCaptions": [
       "LAKEWOOD GOLF CLUB · 예정 골프장 코스",
+      "Hotel Halo · 레스토랑",
       "LAKEWOOD GOLF CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "[청주출발][신개념골프][하나투어 단독 특전_1인 1실]클락 골프 5일 #다색골프 #18홀*3회 #헤일로호텔 #FA코리아/레이크우드CC #시내호텔 #2인출발확정 #23시 레이트체크아웃",
@@ -3740,7 +4104,12 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "LAKEWOOD GOLF CLUB · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "facility",
+      "course"
+    ]
   },
   {
     "slug": "hana-7a3c79d27d22",
@@ -3826,10 +4195,12 @@
     ],
     "gallery": [
       "/products/courses/af9b3e2d599ce219.webp",
+      "/products/facilities/f6904462596a8945.webp",
       "/products/courses/d57981996768d69c.webp"
     ],
     "galleryCaptions": [
       "AYUTTHAYA GOLF CLUB · 예정 골프장 코스",
+      "Centara Ayutthaya · 외관",
       "AYUTTHAYA GOLF CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "[추가수하물 +5kg] 아유타야 골프 6일 #다색골프 #36홀*3회 #아유타야/방사이/노턴랑싯CC #4성급호텔 #전일정식사포함",
@@ -3839,7 +4210,12 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "AYUTTHAYA GOLF CLUB · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "course"
+    ]
   },
   {
     "slug": "hana-fbb7046b7fb3",
@@ -3920,10 +4296,12 @@
     ],
     "gallery": [
       "/products/courses/f81abe248ab6dbbd.webp",
+      "/products/facilities/54ded09d245dab1f.webp",
       "/products/courses/f05b533d8188b267.webp"
     ],
     "galleryCaptions": [
       "Pattavia Golf Club · 예정 골프장 코스",
+      "Oakwood Hotel and Residence Sri Racha · 외관",
       "Pattavia Golf Club · 예정 골프장 코스"
     ],
     "sourceHeading": "시라차 골프 5일 #다색골프 #27홀*3회 #파타비아GC외 5곳 #5성급호텔 #2인출발",
@@ -3933,7 +4311,12 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "Pattavia Golf Club · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "course"
+    ]
   },
   {
     "slug": "hana-d036ac707f3e",
@@ -4009,10 +4392,14 @@
       }
     ],
     "gallery": [
-      "/products/courses/25cfb9072285ea53.webp"
+      "/products/courses/25cfb9072285ea53.webp",
+      "/products/facilities/1875ce5f975e3fac.webp",
+      "/products/facilities/3308610670ceaf8c.webp"
     ],
     "galleryCaptions": [
-      "FINEST GUAM GOLF & RESORT · 예정 골프장 코스"
+      "FINEST GUAM GOLF & RESORT · 예정 골프장 코스",
+      "FINEST GUAM GOLF & RESORT · 외관·수영장",
+      "FINEST GUAM GOLF & RESORT · 객실 예시"
     ],
     "sourceHeading": "⭐선착순할인⭐ [부산출발] 괌 골프 5일 #골프리조트 #18홀*3회+주중9홀서비스라운드 #파인이스트CC #파인이스트골프리조트(구)스타츠 #2인라운드 #수하물23KG2개",
     "sourceFamilyDuration": "5일",
@@ -4021,7 +4408,12 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "FINEST GUAM GOLF & RESORT · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "hotel"
+    ]
   },
   {
     "slug": "hana-6e772e4d4f8e",
@@ -4098,10 +4490,16 @@
     ],
     "gallery": [
       "/products/courses/120f2534b4800ff9.webp",
+      "/products/facilities/3e0e1c63e107b044.webp",
+      "/products/facilities/37ee38787dfeb4d1.webp",
+      "/products/facilities/f29143c4094b5f32.webp",
       "/products/courses/a0452782c15a70fa.webp"
     ],
     "galleryCaptions": [
       "Coral Ocean Golf Resort · 예정 골프장 코스",
+      "CORAL OCEAN RESORT SAIPAN · 외관",
+      "CORAL OCEAN RESORT SAIPAN · 수영장",
+      "CORAL OCEAN RESORT SAIPAN · 로비",
       "Coral Ocean Golf Resort · 예정 골프장 코스"
     ],
     "sourceHeading": "[Reopening/2색골프]사이판 골프 5일#코럴오션리조트 #18홀x3회#COR CC #라오라오베이 CC #조/석식포함 #2인라운드",
@@ -4111,7 +4509,14 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "Coral Ocean Golf Resort · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "facility",
+      "facility",
+      "course"
+    ]
   },
   {
     "slug": "hana-3e391ff168d3",
@@ -4191,10 +4596,16 @@
     ],
     "gallery": [
       "/products/courses/120f2534b4800ff9.webp",
+      "/products/facilities/3f4332d203523a50.webp",
+      "/products/facilities/0c4c0fbcf9a0bf65.webp",
+      "/products/facilities/a0f509546bfc90e8.webp",
       "/products/courses/a0452782c15a70fa.webp"
     ],
     "galleryCaptions": [
       "Coral Ocean Golf Resort · 예정 골프장 코스",
+      "PACIFIC ISLANDS CLUB SAIPAN (PIC SAIPAN) · 수영장",
+      "PACIFIC ISLANDS CLUB SAIPAN (PIC SAIPAN) · 워터슬라이드",
+      "Pacific Islands Club SAIPAN · 레스토랑",
       "Coral Ocean Golf Resort · 예정 골프장 코스"
     ],
     "sourceHeading": "[특별기획!]사이판 골프 6일#PIC 호텔 디럭스룸 #18홀x4회# COR CC #조/석식호텔식 #2인라운드",
@@ -4204,7 +4615,14 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "Coral Ocean Golf Resort · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "facility",
+      "facility",
+      "facility",
+      "course"
+    ]
   },
   {
     "slug": "hana-f2eecda00a3a",
@@ -4283,10 +4701,12 @@
     ],
     "gallery": [
       "/products/courses/499f39a4c7dc4ef6.webp",
+      "/products/facilities/33bf96c47df9de50.webp",
       "/products/courses/f38ca5fefab4ef5f.webp"
     ],
     "galleryCaptions": [
       "Mangilao Golf Club · 예정 골프장 코스",
+      "THE TSUBAKI TOWER · 레스토랑",
       "Mangilao Golf Club · 예정 골프장 코스"
     ],
     "sourceHeading": "[부산출발] 괌 골프 5일 #다색골프 #18홀*3회 #초특급 #츠바키타워 #카멜리아로우룸 #망길라오/탈로포포/CCP2인라운드 #수하물 23KG*2개",
@@ -4297,7 +4717,12 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "Mangilao Golf Club · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "facility",
+      "course"
+    ]
   },
   {
     "slug": "hana-0b8f7cf81a12",
@@ -4380,10 +4805,12 @@
     ],
     "gallery": [
       "/products/courses/6d708e7ab1c46769.webp",
+      "/products/facilities/a647db21ccf9adfe.webp",
       "/products/courses/29f80f8711128abf.webp"
     ],
     "galleryCaptions": [
       "Serket Golf Club · 예정 골프장 코스",
+      "뉴욕 뉴욕 호텔 앤드 카지노 · 외관",
       "Serket Golf Club · 예정 골프장 코스"
     ],
     "sourceHeading": "[항공불포함] 라스베이거스 5일 #Las Vegas Paiute/Serket #18홀X2회 #라스베이거스관광 #그랜드캐년관광 #2인출발가능",
@@ -4394,7 +4821,12 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "Serket Golf Club · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "course"
+    ]
   },
   {
     "slug": "hana-adf95b46aa8d",
@@ -4496,10 +4928,12 @@
       }
     ],
     "gallery": [
-      "/products/courses/e70475af9c6c59f9.webp"
+      "/products/courses/e70475af9c6c59f9.webp",
+      "/products/facilities/ee783afb131d7586.webp"
     ],
     "galleryCaptions": [
-      "MAUNA LANI BAY GOLF CLUB · 예정 골프장 코스"
+      "MAUNA LANI BAY GOLF CLUB · 예정 골프장 코스",
+      "PRIDE OF AMERICA · 숙박 선실 예시"
     ],
     "sourceHeading": "[2인 출발확정] 하와이 4개 섬 골프+크루즈 10일 #NCL POA ＃발코니 선실 #90홀 라운딩 포함 (18홀X5회) ＃힐로 관광 ＃오아후 시내관광",
     "sourceFamilyDuration": "10일",
@@ -4509,7 +4943,11 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "MAUNA LANI BAY GOLF CLUB · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel"
+    ]
   },
   {
     "slug": "hana-5243d7d08215",
@@ -4587,10 +5025,14 @@
     ],
     "gallery": [
       "/products/courses/b34b3ff87b5bfc6d.webp",
+      "/products/facilities/fe1d581a8c78e691.webp",
+      "/products/facilities/edbed09152c6f508.webp",
       "/products/courses/ded08a95fbe205d8.webp"
     ],
     "galleryCaptions": [
       "[100대 골프장]Pebble Beach · 예정 골프장 코스",
+      "The Lodge at Pebble Beach · 외관",
+      "The Inn at Spanish Bay · 레스토랑",
       "[100대 골프장]Pebble Beach · 예정 골프장 코스"
     ],
     "sourceHeading": "[항공불포함] 미서부 골프 4일 #몬테리 #페블비치 #Pebble Beach® #18홀X3회 #5성급호텔 #전일정 VIP송영서비스",
@@ -4602,7 +5044,13 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "[100대 골프장]Pebble Beach · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "facility",
+      "course"
+    ]
   },
   {
     "slug": "hana-cb72bc8eb717",
@@ -4700,10 +5148,12 @@
     ],
     "gallery": [
       "/products/courses/67f3f2fa7df29cd2.webp",
+      "/products/facilities/44e5a67dfe617393.webp",
       "/products/courses/c1e081c523478896.webp"
     ],
     "galleryCaptions": [
       "Carnoustie Golf Links · 예정 골프장 코스",
+      "The Caledonian Edinburgh, Curio Collection by Hilton · 로비",
       "Carnoustie Golf Links · 예정 골프장 코스"
     ],
     "sourceHeading": "[2027 디오픈 참관] 스코틀랜드 골프 9일#세인트앤드류스등 세계 100대 골프투어 #18홀 X 4회라운드 # 5성급호텔 #주요관광지",
@@ -4714,7 +5164,12 @@
     ],
     "thumbCaption": "Carnoustie Golf Links · 예정 골프장 코스",
     "photoPending": false,
-    "scheduleNotice": "2027년 7월 14일 출발 디오픈 참관 일정입니다. 다른 날짜는 같은 행사 구성으로 진행되지 않으며, 별도 골프여행으로 상담합니다."
+    "scheduleNotice": "2027년 7월 14일 출발 디오픈 참관 일정입니다. 다른 날짜는 같은 행사 구성으로 진행되지 않으며, 별도 골프여행으로 상담합니다.",
+    "gallerySubjects": [
+      "course",
+      "facility",
+      "course"
+    ]
   },
   {
     "slug": "hana-b266585ce489",
@@ -4811,10 +5266,14 @@
     ],
     "gallery": [
       "/products/courses/c58f6f9509d3b2e5.webp",
+      "/products/facilities/e7cff12db2861921.webp",
+      "/products/facilities/01972d07165daefb.webp",
       "/products/courses/a38a1ec101cd64c5.webp"
     ],
     "galleryCaptions": [
       "CARYA GOLF CLUB · 예정 골프장 코스",
+      "REGNUM CARYA GOLF AND SPA RESORT · 로비",
+      "REGNUM CARYA GOLF AND SPA RESORT · 실내 수영장",
       "CARYA GOLF CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "[항공불포함] 튀르키예(터키)안탈리아 다색골프 8일# 레그넘카리야리조트 #18홀 *5회 #내셔널GC#카리야GC #안탈리아GC",
@@ -4824,7 +5283,13 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "CARYA GOLF CLUB · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "facility",
+      "facility",
+      "course"
+    ]
   },
   {
     "slug": "hana-bb30ff6959a1",
@@ -4915,10 +5380,14 @@
     ],
     "gallery": [
       "/products/courses/936b244b5923cfbc.webp",
+      "/products/facilities/80e3e9469b2c95b5.webp",
+      "/products/facilities/c6d6732be9840b46.webp",
       "/products/courses/e1960a1d3db09627.webp"
     ],
     "galleryCaptions": [
       "[100대 골프장]ST. ANDREWS (Old Course) · 예정 골프장 코스",
+      "OLD COURSE · 객실 예시",
+      "OLD COURSE · 레스토랑",
       "[100대 골프장]ST. ANDREWS (Old Course) · 예정 골프장 코스"
     ],
     "sourceHeading": "[항공불포함]스코틀랜드 골프 7일 # 세인드앤드류스 올드코스 호텔 #18홀 x5회 #세인트앤드류 올드코스 외 5곳 #세계100대골프장 #조/중식포함",
@@ -4928,7 +5397,13 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "[100대 골프장]ST. ANDREWS (Old Course) · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "facility",
+      "course"
+    ]
   },
   {
     "slug": "hana-2a359818408b",
@@ -5029,10 +5504,14 @@
     ],
     "gallery": [
       "/products/courses/750c85d1e84e96fd.webp",
+      "/products/facilities/c1c4bde463f459c8.webp",
+      "/products/facilities/7ccf6a5dfa3f2313.webp",
       "/products/courses/1b17e39e6706d092.webp"
     ],
     "galleryCaptions": [
       "CABO REAL GOLF CLUB · 예정 골프장 코스",
+      "PUEBLO BONITO PACIFICA GOLF AND SPA RESORT · 라운지",
+      "Grand Solmar Pacific Dunes Resort, Golf & Spa · 레스토랑",
       "CABO REAL GOLF CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "[제우스 셀렉트] 멕시코 골프 9일 #다색골프 #로스카보스 명문 코스 #올인클리시브 리조트 #전일정 고품격 전용 차량 #2인출발가능",
@@ -5043,7 +5522,13 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "CABO REAL GOLF CLUB · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "facility",
+      "facility",
+      "course"
+    ]
   },
   {
     "slug": "hana-d272e12586b8",
@@ -5133,10 +5618,12 @@
     ],
     "gallery": [
       "/products/courses/222cd74f167bfc1d.webp",
+      "/products/facilities/77d36e5c3bfb247a.webp",
       "/products/courses/85d7aae7e8bc210c.webp"
     ],
     "galleryCaptions": [
       "WAIKELE GOLF CLUB · 예정 골프장 코스",
+      "POLYNESIAN RESIDENCES WAIKIKI BEACH · 객실 예시",
       "WAIKELE GOLF CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "하와이 골프 7일 #2색골프 #18홀*2회 #하와이프린스/와이켈레GC #폴리네시안 레지던스 리조트 #2인출발가능 #시티투어 #2일 자유일정 #하나투어스마트카드",
@@ -5146,7 +5633,12 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "WAIKELE GOLF CLUB · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "course"
+    ]
   },
   {
     "slug": "hana-7b5a6575eb7a",
@@ -5224,10 +5716,12 @@
     ],
     "gallery": [
       "/products/courses/49f7f5dd8433d773.webp",
+      "/products/facilities/5d3787d024f8d320.webp",
       "/products/courses/c3154f92f626ee57.webp"
     ],
     "galleryCaptions": [
       "Prime City Golf Club · 예정 골프장 코스",
+      "PRIME GOIF RESORT · 객실 예시",
       "Prime City Golf Club · 예정 골프장 코스"
     ],
     "sourceHeading": "방콕 골프 5일 #골프텔 #36홀*3회 #프라임시티GC #가성비추천 #2인출발 #전일정식사포함 #세탁비무료",
@@ -5238,7 +5732,12 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "Prime City Golf Club · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "course"
+    ]
   },
   {
     "slug": "hana-c6f0b0c36fd9",
@@ -5317,10 +5816,12 @@
     ],
     "gallery": [
       "/products/courses/e03e173d9ef705a8.webp",
+      "/products/facilities/b9785016fb6b9563.webp",
       "/products/courses/a612ded834773b36.webp"
     ],
     "galleryCaptions": [
       "SUNRISE LAGOON COUNTRY CLUB · 예정 골프장 코스",
+      "SUNRISE LAGOON HOTEL AND GOLF · 외관",
       "SUNRISE LAGOON COUNTRY CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "방콕 골프 5일 #골프텔 #36홀*3회 #썬라이즈라군CC/스카이밸리CC #2인출발",
@@ -5331,7 +5832,12 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "SUNRISE LAGOON COUNTRY CLUB · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "course"
+    ]
   },
   {
     "slug": "hana-ee5f845d78d2",
@@ -5408,10 +5914,14 @@
     ],
     "gallery": [
       "/products/courses/f27e91b314093a5b.webp",
+      "/products/facilities/6162c7a6d5594879.webp",
+      "/products/facilities/9fe93e071ab38f6b.webp",
       "/products/courses/d53029d8a4832ee5.webp"
     ],
     "galleryCaptions": [
       "Leopalace Resort Country Club · 예정 골프장 코스",
+      "LEOPALACE RESORT GUAM · 수영장",
+      "LEOPALACE RESORT GUAM · 외관",
       "Leopalace Resort Country Club · 예정 골프장 코스"
     ],
     "sourceHeading": "[부산출발/특가!] 괌 골프 5일 #골프리조트 #36홀 *3회 #레오팔레스CC #프리미엄룸 #2인라운드 #4명이상예약시할인 #23KG*2개",
@@ -5421,7 +5931,13 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "Leopalace Resort Country Club · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "facility",
+      "hotel",
+      "course"
+    ]
   },
   {
     "slug": "hana-73e4b8a97f10",
@@ -5500,10 +6016,14 @@
     ],
     "gallery": [
       "/products/courses/d4dbba7cacf6d053.webp",
+      "/products/facilities/d12aa6a5f6fdc263.webp",
+      "/products/facilities/a77e8577c274f6fb.webp",
       "/products/courses/4daac4bbb5cc7da5.webp"
     ],
     "galleryCaptions": [
       "INTHANON GOLF & NATURAL RESORT · 예정 골프장 코스",
+      "INTHANON GOLF AND NATURAL RESORT · 객실 예시",
+      "INTHANON GOLF AND NATURAL RESORT · 숙소 전경",
       "INTHANON GOLF & NATURAL RESORT · 예정 골프장 코스"
     ],
     "sourceHeading": "치앙마이 골프 5일 #골프텔 #36홀*3회 #인타논 CC #2인출발 #식사포함 #가성비",
@@ -5514,7 +6034,13 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "INTHANON GOLF & NATURAL RESORT · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "hotel",
+      "course"
+    ]
   },
   {
     "slug": "hana-bd2c17ebe70c",
@@ -5595,10 +6121,12 @@
     ],
     "gallery": [
       "/products/courses/02aadf039bc496e2.webp",
+      "/products/facilities/fff07ced082a8416.webp",
       "/products/courses/bb0e1e58fd5834d9.webp"
     ],
     "galleryCaptions": [
       "St. ANDREWS 2000 · 예정 골프장 코스",
+      "RAYONG GREEN VALLEY C.C AND RESORT · 로비",
       "St. ANDREWS 2000 · 예정 골프장 코스"
     ],
     "sourceHeading": "파타야 골프 5일#골프텔 #18홀*3회 #세인트앤드류스CC #2인출발 #54홀규모 골프장",
@@ -5609,7 +6137,12 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "St. ANDREWS 2000 · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "facility",
+      "course"
+    ]
   },
   {
     "slug": "hana-66b15455952d",
@@ -5703,7 +6236,11 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "SONO FELICE CC HAIPONG · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-7cb12d27edf5",
@@ -5786,11 +6323,15 @@
     ],
     "gallery": [
       "/products/courses/a70b7cba0f7adc14.webp",
+      "/products/facilities/f23a18d0203838cb.webp",
+      "/products/facilities/1097494df24e7217.webp",
       "/products/courses/38c195b7560255d9.webp",
       "/products/courses/24bf6b3a7b4f544b.webp"
     ],
     "galleryCaptions": [
       "LONGVIEN GOLF CLUB · 예정 골프장 코스",
+      "MUONG THANH LUXURY VIENTIANE HOTEL · 외관",
+      "YOOEUN HOTEL · 외관",
       "LONGVIEN GOLF CLUB · 예정 골프장 코스",
       "LONGVIEN GOLF CLUB · 예정 골프장 코스"
     ],
@@ -5802,7 +6343,14 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "LONGVIEN GOLF CLUB · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "hotel",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-414cce9a8d57",
@@ -5882,10 +6430,12 @@
     ],
     "gallery": [
       "/products/courses/7b0ab431a53a6560.webp",
+      "/products/facilities/ea129a27a6dfb10c.webp",
       "/products/courses/b1f7811d1069d867.webp"
     ],
     "galleryCaptions": [
       "Ba Na Hills Golf CLub · 예정 골프장 코스",
+      "ROYAL LOTUS HOTEL · 객실 예시",
       "Ba Na Hills Golf CLub · 예정 골프장 코스"
     ],
     "sourceHeading": "다낭 골프 5일 #다색골프 #18홀X2회 #몽고메리/바나힐/라구나 외 #로얄 로터스(4성급) #1일자유시간 #No가이드/쇼핑 #2인출발가능",
@@ -5896,7 +6446,12 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "Ba Na Hills Golf CLub · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "course"
+    ]
   },
   {
     "slug": "hana-d6291eba0f9a",
@@ -5988,7 +6543,11 @@
     ],
     "thumbCaption": "Thai Siam Park Golf & Resort · 예정 골프장 코스",
     "photoPending": false,
-    "quoteNotice": "공급사 원상품은 현지 합류 불가로 안내되어 있습니다. 항공 제외 구성 가능 여부를 먼저 확인하고, 어려운 경우 대체 상품을 안내합니다."
+    "quoteNotice": "공급사 원상품은 현지 합류 불가로 안내되어 있습니다. 항공 제외 구성 가능 여부를 먼저 확인하고, 어려운 경우 대체 상품을 안내합니다.",
+    "gallerySubjects": [
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-882a42dace3a",
@@ -6065,11 +6624,15 @@
     ],
     "gallery": [
       "/products/courses/1572bd7d86defe1c.webp",
+      "/products/facilities/a1ddc4a14243f862.webp",
+      "/products/facilities/0fb0034b671bf37c.webp",
       "/products/courses/1b41685306df3586.webp",
       "/products/courses/56b06a5c3f5d140b.webp"
     ],
     "galleryCaptions": [
       "Parkgolfvillage · 예정 골프장 코스",
+      "HONEY QUEEN PARKGOLF VILLAGE · 객실 예시",
+      "HONEY QUEEN PARKGOLF VILLAGE · 외관",
       "Parkgolfvillage · 예정 골프장 코스",
       "Parkgolfvillage · 예정 골프장 코스"
     ],
@@ -6081,7 +6644,14 @@
     ],
     "thumbCaption": "Parkgolfvillage · 예정 골프장 코스",
     "photoPending": false,
-    "quoteNotice": "공급사 원상품은 현지 합류 불가로 안내되어 있습니다. 항공 제외 구성 가능 여부를 먼저 확인하고, 어려운 경우 대체 상품을 안내합니다."
+    "quoteNotice": "공급사 원상품은 현지 합류 불가로 안내되어 있습니다. 항공 제외 구성 가능 여부를 먼저 확인하고, 어려운 경우 대체 상품을 안내합니다.",
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "hotel",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-798240f4c4cb",
@@ -6160,11 +6730,15 @@
     ],
     "gallery": [
       "/products/courses/2700cff373143b88.webp",
+      "/products/facilities/0cd96192603cc1b0.webp",
+      "/products/facilities/d3575586bb6116ed.webp",
       "/products/courses/f0bee91b4912b640.webp",
       "/products/courses/50ded7dfdf137bbe.webp"
     ],
     "galleryCaptions": [
       "Jacki park golf & resort · 예정 골프장 코스",
+      "Jacki Park Golf & Resort · 숙소 외관",
+      "Jacki Park Golf & Resort · 숙소 외관",
       "Jacki park golf & resort · 예정 골프장 코스",
       "Jacki park golf & resort · 예정 골프장 코스"
     ],
@@ -6176,7 +6750,14 @@
     ],
     "thumbCaption": "Jacki park golf & resort · 예정 골프장 코스",
     "photoPending": false,
-    "quoteNotice": "공급사 원상품은 현지 합류 불가로 안내되어 있습니다. 항공 제외 구성 가능 여부를 먼저 확인하고, 어려운 경우 대체 상품을 안내합니다."
+    "quoteNotice": "공급사 원상품은 현지 합류 불가로 안내되어 있습니다. 항공 제외 구성 가능 여부를 먼저 확인하고, 어려운 경우 대체 상품을 안내합니다.",
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "hotel",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-52c2e708f5ea",
@@ -6243,8 +6824,16 @@
         "plan": "미야자키\n조식 (호텔식)\n호텔 체크아웃 후, 공항으로 이동 송영차량 이용 소요시간 : 약 30분\n중식 (기내식)\n인천"
       }
     ],
-    "gallery": [],
-    "galleryCaptions": [],
+    "gallery": [
+      "/images/product-photo-pending.svg",
+      "/products/facilities/5ff7e95df9c2f516.webp",
+      "/products/facilities/f9cac7ff6ad32442.webp"
+    ],
+    "galleryCaptions": [
+      "골프장 사진 확인 중",
+      "ANA Holiday Inn Resort Miyazaki · 숙소 전경",
+      "ANA Holiday Inn Resort Miyazaki · 외관"
+    ],
     "sourceHeading": "[파크골프] 미야자키 골프 3일 #아오시마파크골프장 #무제한라운드*2회 #아나홀리데이호텔 #온천욕 #조/석식포함",
     "sourceFamilyDuration": "3일",
     "optionalCosts": [
@@ -6252,7 +6841,12 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "골프장 사진 확인 중",
-    "photoPending": true
+    "photoPending": true,
+    "gallerySubjects": [
+      "pending",
+      "hotel",
+      "hotel"
+    ]
   },
   {
     "slug": "hana-bb5cdbc72a86",
@@ -6331,10 +6925,14 @@
     ],
     "gallery": [
       "/products/courses/d4eae8b6a977bedd.webp",
+      "/products/facilities/25a72c57fc0cadcb.webp",
+      "/products/facilities/0d3bcd83b3cccca1.webp",
       "/products/courses/630ebe2b3d5754f9.webp"
     ],
     "galleryCaptions": [
       "Selectum Noa Resort Park Golf Course · 예정 골프장 코스",
+      "Selectum Noa Resort Cam Ranh · 외관·수영장",
+      "Selectum Noa Resort Cam Ranh · 워터슬라이드",
       "Selectum Noa Resort Park Golf Course · 예정 골프장 코스"
     ],
     "sourceHeading": "[파크골프/부산출발] 나트랑 골프 5일#골프리조트 #셀렉텀노아 리조트&파크CC #무제한*3회 #올인클루시브",
@@ -6344,7 +6942,13 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "Selectum Noa Resort Park Golf Course · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "facility",
+      "course"
+    ]
   },
   {
     "slug": "hana-d478236041b1",
@@ -6415,8 +7019,16 @@
         "plan": "조식 (불포함)\n부산"
       }
     ],
-    "gallery": [],
-    "galleryCaptions": [],
+    "gallery": [
+      "/images/product-photo-pending.svg",
+      "/products/facilities/1f2acd7db4a2e576.webp",
+      "/products/facilities/23c731b9d0739dbe.webp"
+    ],
+    "galleryCaptions": [
+      "골프장 사진 확인 중",
+      "Hotel Sekia · 외관",
+      "Hotel Sekia · 객실 예시"
+    ],
     "sourceHeading": "큐슈 4일 #파크골프 #시오이가와36H #초요36H #부관훼리 #온천호텔 #유후인관광 #다자이후텐만궁 #노쇼핑 #8명이상출발가능",
     "sourceFamilyDuration": "4일",
     "optionalCosts": [
@@ -6425,7 +7037,12 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "골프장 사진 확인 중",
-    "photoPending": true
+    "photoPending": true,
+    "gallerySubjects": [
+      "pending",
+      "hotel",
+      "hotel"
+    ]
   },
   {
     "slug": "hana-b08c688159c9",
@@ -6496,8 +7113,18 @@
         "plan": "조식 (호텔식)\n호텔 조식 후 체크아웃\n하카타 항으로 이동하여 탑승수속\n후쿠오카\n부산"
       }
     ],
-    "gallery": [],
-    "galleryCaptions": [],
+    "gallery": [
+      "/images/product-photo-pending.svg",
+      "/products/facilities/1f2acd7db4a2e576.webp",
+      "/products/facilities/23c731b9d0739dbe.webp",
+      "/products/facilities/05f01a3b38c58630.webp"
+    ],
+    "galleryCaptions": [
+      "골프장 사진 확인 중",
+      "Hotel Sekia · 외관",
+      "Hotel Sekia · 객실 예시",
+      "스마일 호텔 하카타 · 외관"
+    ],
     "sourceHeading": "큐슈 4일 #파크골프 #시오이가와36H #초요36H #카멜리아호 #온천호텔 #후쿠오카시내호텔 #유후인관광 #다자이후텐만궁 #노쇼핑 #8명이상출발가능",
     "sourceFamilyDuration": "4일",
     "optionalCosts": [
@@ -6506,7 +7133,13 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "골프장 사진 확인 중",
-    "photoPending": true
+    "photoPending": true,
+    "gallerySubjects": [
+      "pending",
+      "hotel",
+      "hotel",
+      "hotel"
+    ]
   },
   {
     "slug": "hana-45383264bd16",
@@ -6586,10 +7219,12 @@
     ],
     "gallery": [
       "/products/courses/678f8784c5938749.webp",
+      "/products/facilities/cb112aed7170416d.webp",
       "/products/courses/78a14588703fd251.webp"
     ],
     "galleryCaptions": [
       "Pine Hurst Golf&Country Club · 예정 골프장 코스",
+      "AMBASSADOR HOTEL BANGKOK · 외관·수영장",
       "Pine Hurst Golf&Country Club · 예정 골프장 코스"
     ],
     "sourceHeading": "[부산출발] 방콕 골프 5일 #다색골프 #18홀*3회 #파인허스트CC 외10곳 #스쿰빗시내 4성호텔 #2인출발가능",
@@ -6599,7 +7234,12 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "Pine Hurst Golf&Country Club · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "course"
+    ]
   },
   {
     "slug": "hana-028ca29bbf44",
@@ -6676,11 +7316,13 @@
     ],
     "gallery": [
       "/products/courses/b48680f1f4667ce8.webp",
+      "/products/facilities/b7e94aa7f3d930d7.webp",
       "/products/courses/dc60f22c54634691.webp",
       "/products/courses/c62bf7f12aec16f3.webp"
     ],
     "galleryCaptions": [
       "슈레이 컨트리 클럽 · 예정 골프장 코스",
+      "Hotel Torifito Naha Asahibashi · 로비",
       "슈레이 컨트리 클럽 · 예정 골프장 코스",
       "슈레이 컨트리 클럽 · 예정 골프장 코스"
     ],
@@ -6691,7 +7333,13 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "슈레이 컨트리 클럽 · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "facility",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-f6b18d8b6db0",
@@ -6775,11 +7423,15 @@
     ],
     "gallery": [
       "/products/courses/dfc9da2a7f16f4e4.webp",
+      "/products/facilities/c43fc900f1a4305d.webp",
+      "/products/facilities/61445b55da7efc2d.webp",
       "/products/courses/fa163fa488a9cb63.webp",
       "/products/courses/f1ede32ac4ba882f.webp"
     ],
     "galleryCaptions": [
       "Orient Golf & Country Club · 예정 골프장 코스",
+      "Joyze Hotel Xiamen, Curio Collection by Hilton · 수영장",
+      "HUALUXE Xiamen Haicang Harbour View by IHG · 피트니스 시설",
       "Orient Golf & Country Club · 예정 골프장 코스",
       "Orient Golf & Country Club · 예정 골프장 코스"
     ],
@@ -6791,7 +7443,14 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "Orient Golf & Country Club · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "facility",
+      "facility",
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-15fb867acf04",
@@ -6873,10 +7532,12 @@
     ],
     "gallery": [
       "/products/courses/7138446fbd0e4c66.webp",
+      "/products/facilities/4d09fc6cffb98956.webp",
       "/products/courses/0829c8c004c79a5d.webp"
     ],
     "galleryCaptions": [
       "LAO COUNTRY CLUB · 예정 골프장 코스",
+      "S2 MODERN BOUTIQUE HOTEL · 레스토랑",
       "LAO COUNTRY CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "✨가격이특전✨ [부산출발] 비엔티안 골프 5일 #다색골프 #18홀*3회 #라오/부영/메콩CC #4성급호텔 #Beer LAO + 망고도시락제공",
@@ -6888,7 +7549,12 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "LAO COUNTRY CLUB · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "facility",
+      "course"
+    ]
   },
   {
     "slug": "hana-fd773d89f0c6",
@@ -6967,10 +7633,14 @@
     ],
     "gallery": [
       "/products/courses/d574f1fa8af49bd3.webp",
+      "/products/facilities/bef2c82af8d4402a.webp",
+      "/products/facilities/6584a6a52d353966.webp",
       "/products/courses/609dec455e58e17c.webp"
     ],
     "galleryCaptions": [
       "ANARA BINHTIEN GOLF CLUB · 예정 골프장 코스",
+      "The Empyrean Cam Ranh Beach Resort · 외관·수영장",
+      "The Empyrean Cam Ranh Beach Resort · 객실 예시",
       "ANARA BINHTIEN GOLF CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "[부산출발] 나트랑 골프 5일 #골프연계호텔 #27홀*3회 #아나라 빈티엔CC #엠피리언깜란리조트 #전식포함 #2인출발가능",
@@ -6981,7 +7651,13 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "ANARA BINHTIEN GOLF CLUB · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "hotel",
+      "hotel",
+      "course"
+    ]
   },
   {
     "slug": "hana-00c99bfabd4e",
@@ -7077,7 +7753,11 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "DAI LAI STAR GOLF & COUNTRY CLUB · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "course"
+    ]
   },
   {
     "slug": "hana-5df4eb8d7864",
@@ -7148,10 +7828,12 @@
     ],
     "gallery": [
       "/products/courses/e6115588b3f7fad3.webp",
+      "/products/facilities/ed9e87fdfd00b79e.webp",
       "/products/courses/63a68994abe2b80c.webp"
     ],
     "galleryCaptions": [
       "TENZAN COUNTRY CLUB · 예정 골프장 코스",
+      "CENTRAL HOTEL IMARI · 대욕장",
       "TENZAN COUNTRY CLUB · 예정 골프장 코스"
     ],
     "sourceHeading": "[부산출발] 사가 골프 3일 #다색골프 #18홀*2회 #이마리센트럴호텔 #텐잔/타케오우레시노/싸이칸위너스CC #조식포함 #1인1실 #온천호텔 #2인출발&2인라운드가능",
@@ -7162,6 +7844,11 @@
       "매너팁은 자율 선택이며, 지불하지 않아도 불이익이 없습니다."
     ],
     "thumbCaption": "TENZAN COUNTRY CLUB · 예정 골프장 코스",
-    "photoPending": false
+    "photoPending": false,
+    "gallerySubjects": [
+      "course",
+      "facility",
+      "course"
+    ]
   }
 ]

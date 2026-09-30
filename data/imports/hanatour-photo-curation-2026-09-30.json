@@ -16,6 +16,19 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/cb112aed7170416d.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/11/29/50000/01dc785b-c9d8-4a92-8fc1-88a5cea82ce5.jpg",
+        "facility": "AMBASSADOR HOTEL BANGKOK",
+        "caption": "AMBASSADOR HOTEL BANGKOK · 외관·수영장",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2025/11/29/50000/01dc785b-c9d8-4a92-8fc1-88a5cea82ce5.jpg",
+        "sourceWidth": 4000,
+        "sourceHeight": 3000
+      },
+      {
         "path": "/products/courses/78a14588703fd251.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/11/22/10000/af0fd5e8-437b-4c34-a0df-18cf46664a1e.jpg",
         "facility": "Pine Hurst Golf&Country Club",
@@ -27,7 +40,9 @@
         "sourceHeight": 960,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-3de70b2e8f8e": {
     "checkedAt": "2026-09-30",
@@ -44,6 +59,19 @@
         "sourceWidth": 4000,
         "sourceHeight": 2953,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/eed081d68a5ab733.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2008/09/11/10000/5f9884e9-0d67-4269-9d49-93bdf2230a36.jpg",
+        "facility": "Castlex Qingdao Golf & Resort",
+        "caption": "Castlex Qingdao Golf & Resort · 객실 예시",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2008/09/11/10000/5f9884e9-0d67-4269-9d49-93bdf2230a36.jpg",
+        "sourceWidth": 234,
+        "sourceHeight": 220
       },
       {
         "path": "/products/courses/2706bdcb79c4b383.webp",
@@ -69,7 +97,9 @@
         "sourceHeight": 633,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-d9ec5178e945": {
     "checkedAt": "2026-09-30",
@@ -86,6 +116,32 @@
         "sourceWidth": 1994,
         "sourceHeight": 1078,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/8a99b814127c2993.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/07/08/10000/55d69596-a983-41b3-a20e-08de18a72812.jpg",
+        "facility": "XIAMEN DISCOVERY HOTEL",
+        "caption": "XIAMEN DISCOVERY HOTEL · 로비",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2026/07/08/10000/55d69596-a983-41b3-a20e-08de18a72812.jpg",
+        "sourceWidth": 1292,
+        "sourceHeight": 852
+      },
+      {
+        "path": "/products/facilities/ddb7c3d906d13439.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/07/29/10000/0bfb89a2-aea3-406a-b9d2-162d494ac44d.jpg",
+        "facility": "Xianglu Grand Hotel",
+        "caption": "Xianglu Grand Hotel · 레스토랑",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2021/07/29/10000/0bfb89a2-aea3-406a-b9d2-162d494ac44d.jpg",
+        "sourceWidth": 1024,
+        "sourceHeight": 685
       },
       {
         "path": "/products/courses/fa163fa488a9cb63.webp",
@@ -111,7 +167,9 @@
         "sourceHeight": 647,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-7ba6e568a76a": {
     "checkedAt": "2026-09-30",
@@ -128,6 +186,32 @@
         "sourceWidth": 2560,
         "sourceHeight": 1618,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/00e4cc955ea01317.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/01/13/10000/c7340a76-a0d6-4407-a7fc-c07ef740851a.jpg",
+        "facility": "ARTITAYA GOLF CLUB HOTEL",
+        "caption": "ARTITAYA GOLF CLUB HOTEL · 수영장",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2021/01/13/10000/c7340a76-a0d6-4407-a7fc-c07ef740851a.jpg",
+        "sourceWidth": 2560,
+        "sourceHeight": 1384
+      },
+      {
+        "path": "/products/facilities/c0ef949dce85afff.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/01/13/10000/b8addff5-d4d5-4d93-a2b9-3d112933273e.jpg",
+        "facility": "ARTITAYA GOLF CLUB HOTEL",
+        "caption": "ARTITAYA GOLF CLUB HOTEL · 로비",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2021/01/13/10000/b8addff5-d4d5-4d93-a2b9-3d112933273e.jpg",
+        "sourceWidth": 2560,
+        "sourceHeight": 1508
       },
       {
         "path": "/products/courses/76d488b9b7590b64.webp",
@@ -153,7 +237,9 @@
         "sourceHeight": 1671,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-3fd6eb7ee0f9": {
     "checkedAt": "2026-09-30",
@@ -172,6 +258,32 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/ebe0888da0bfc310.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/27/10000/e6746dd8-c7db-47c3-8c30-fb74b88fe60c.jpg",
+        "facility": "GASSAN LEGACY GOLF CLUB",
+        "caption": "GASSAN LEGACY GOLF CLUB · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2016/09/27/10000/e6746dd8-c7db-47c3-8c30-fb74b88fe60c.jpg",
+        "sourceWidth": 5199,
+        "sourceHeight": 3466
+      },
+      {
+        "path": "/products/facilities/8e4a47fb0527a302.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/09/27/10000/1be02544-2f6a-4105-8954-51b4414e15c5.jpg",
+        "facility": "GASSAN LEGACY GOLF CLUB",
+        "caption": "GASSAN LEGACY GOLF CLUB · 숙소 전경",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2016/09/27/10000/1be02544-2f6a-4105-8954-51b4414e15c5.jpg",
+        "sourceWidth": 5472,
+        "sourceHeight": 3648
+      },
+      {
         "path": "/products/courses/a6a086ee9cb4b540.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/08/17/10000/34d02503-af98-4512-853b-2d5aa82cee79.jpg",
         "facility": "Gassan Panorama Golf Club",
@@ -183,7 +295,9 @@
         "sourceHeight": 959,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-89ed0db8b937": {
     "checkedAt": "2026-09-30",
@@ -202,6 +316,32 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/8fc57794584128ad.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/02/19/30000/41f094f5-ade0-404d-a4bb-d8f7f964974b.jpg",
+        "facility": "LAKEWOOD Golf Stay",
+        "caption": "LAKEWOOD Golf Stay · 객실 예시",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2025/02/19/30000/41f094f5-ade0-404d-a4bb-d8f7f964974b.jpg",
+        "sourceWidth": 1200,
+        "sourceHeight": 677
+      },
+      {
+        "path": "/products/facilities/758d329140d5ce3a.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/09/06/10000/8003ee78-6ca3-493c-bb85-d7704fe949c9.jpg",
+        "facility": "ACROPOLIS",
+        "caption": "ACROPOLIS · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2013/09/06/10000/8003ee78-6ca3-493c-bb85-d7704fe949c9.jpg",
+        "sourceWidth": 1660,
+        "sourceHeight": 1280
+      },
+      {
         "path": "/products/courses/831e844376c2a46b.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2009/02/18/10000/e52354bf-c381-4cb6-bc62-0a95f1585b9d.jpg",
         "facility": "LAKEWOOD GOLF CLUB",
@@ -213,7 +353,9 @@
         "sourceHeight": 768,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-0f8104f0807b": {
     "checkedAt": "2026-09-30",
@@ -230,6 +372,32 @@
         "sourceWidth": 2560,
         "sourceHeight": 1271,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/6124b341ef9ec737.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/06/17/10000/4039c9bc-16a2-45a6-ad1d-b95cc9407fed.jpg",
+        "facility": "Le Blanc Heritage Hotel",
+        "caption": "Le Blanc Heritage Hotel · 객실 예시",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2026/06/17/10000/4039c9bc-16a2-45a6-ad1d-b95cc9407fed.jpg",
+        "sourceWidth": 2560,
+        "sourceHeight": 1708
+      },
+      {
+        "path": "/products/facilities/b6b875e13fd93416.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/06/17/10000/4e5b6230-faba-4475-a971-3a9ce73b9574.jpg",
+        "facility": "Le Blanc Heritage Hotel",
+        "caption": "Le Blanc Heritage Hotel · 객실 예시",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2026/06/17/10000/4e5b6230-faba-4475-a971-3a9ce73b9574.jpg",
+        "sourceWidth": 2560,
+        "sourceHeight": 1708
       },
       {
         "path": "/products/courses/ea1cde5734ae5f01.webp",
@@ -255,7 +423,9 @@
         "sourceHeight": 506,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-67b49d0d8a63": {
     "checkedAt": "2026-09-30",
@@ -274,6 +444,19 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/c9e2d5f84c4e4623.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/10/31/40000/533bbee2-635a-4fef-acc1-26395ee9d4e6.jpg",
+        "facility": "AIWA MIYAZAKI RESORT",
+        "caption": "AIWA MIYAZAKI RESORT · 객실 예시",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2025/10/31/40000/533bbee2-635a-4fef-acc1-26395ee9d4e6.jpg",
+        "sourceWidth": 3596,
+        "sourceHeight": 2400
+      },
+      {
         "path": "/products/courses/0acb1e5e57958283.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/08/13/10000/135cfea1-a573-47a5-bc09-31ebd836a30a.JPG",
         "facility": "아이와 미야자키 골프 클럽",
@@ -285,7 +468,9 @@
         "sourceHeight": 2592,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-f2c173f5369f": {
     "checkedAt": "2026-09-30",
@@ -302,6 +487,19 @@
         "sourceWidth": 4000,
         "sourceHeight": 3000,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/f2176909dff9603d.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/01/07/10000/ced9a351-f573-49d1-86aa-6597af9207b9.jpg",
+        "facility": "SATSUMA GOLF & SPA RESORT",
+        "caption": "SATSUMA GOLF & SPA RESORT · 로비",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2026/01/07/10000/ced9a351-f573-49d1-86aa-6597af9207b9.jpg",
+        "sourceWidth": 1008,
+        "sourceHeight": 756
       },
       {
         "path": "/products/courses/924f464c9f28be68.webp",
@@ -327,7 +525,9 @@
         "sourceHeight": 1080,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-a41f2f21ebd4": {
     "checkedAt": "2026-09-30",
@@ -344,6 +544,32 @@
         "sourceWidth": 1800,
         "sourceHeight": 1200,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/7cb046a1dd1755d8.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2012/08/30/10000/a113125e-aa46-414b-b1f6-06e7f4f635df.gif",
+        "facility": "ASO SKYBLUE GOLF RESORT_EX.ASO TAKAMORI GOLF CLUB HOTEL",
+        "caption": "ASO SKYBLUE GOLF RESORT_EX.ASO TAKAMORI GOLF CLUB HOTEL · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2012/08/30/10000/a113125e-aa46-414b-b1f6-06e7f4f635df.gif",
+        "sourceWidth": 606,
+        "sourceHeight": 379
+      },
+      {
+        "path": "/products/facilities/9fb9067209da9d3b.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/01/25/10000/a97d2af1-54a4-499c-afc5-84ec03f3d863.jpg",
+        "facility": "ASO SKYBLUE GOLF RESORT_EX.ASO TAKAMORI GOLF CLUB HOTEL",
+        "caption": "ASO SKYBLUE GOLF RESORT_EX.ASO TAKAMORI GOLF CLUB HOTEL · 객실 예시",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2024/01/25/10000/a97d2af1-54a4-499c-afc5-84ec03f3d863.jpg",
+        "sourceWidth": 1500,
+        "sourceHeight": 1000
       },
       {
         "path": "/products/courses/01cb9977e0e3ff62.webp",
@@ -369,7 +595,9 @@
         "sourceHeight": 720,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-1e9409fb560b": {
     "checkedAt": "2026-09-30",
@@ -388,6 +616,32 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/32b7e4abf269552f.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/08/09/10000/0cdc89f6-2f1e-49de-a455-4a5a1bd97db4.jpg",
+        "facility": "[ONSEN HOTEL] KAGOSHIMA SUN ROYAL HOTEL",
+        "caption": "[ONSEN HOTEL] KAGOSHIMA SUN ROYAL HOTEL · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2018/08/09/10000/0cdc89f6-2f1e-49de-a455-4a5a1bd97db4.jpg",
+        "sourceWidth": 1200,
+        "sourceHeight": 900
+      },
+      {
+        "path": "/products/facilities/eb896cc5aa159668.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2005/06/14/40000/65a235f2-973a-43fd-893b-18833721bf19.jpg",
+        "facility": "[ONSEN HOTEL] KAGOSHIMA SUN ROYAL HOTEL",
+        "caption": "[ONSEN HOTEL] KAGOSHIMA SUN ROYAL HOTEL · 온천 시설",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2005/06/14/40000/65a235f2-973a-43fd-893b-18833721bf19.jpg",
+        "sourceWidth": 225,
+        "sourceHeight": 180
+      },
+      {
         "path": "/products/courses/31c2c94a47b2a20f.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/09/18/10000/f506c982-f673-46ef-ad35-0c52817932fe.jpg",
         "facility": "CHIRAN COUNTRY CLUB",
@@ -399,7 +653,9 @@
         "sourceHeight": 545,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-f61f5a0b20b6": {
     "checkedAt": "2026-09-30",
@@ -416,6 +672,19 @@
         "sourceWidth": 1080,
         "sourceHeight": 720,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/63e8a46c283caa0b.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/03/19/10000/1824ca6d-3117-45b0-b4e6-eeb540327cd8.jpg",
+        "facility": "Apartment Hotel YAEZAKI",
+        "caption": "Apartment Hotel YAEZAKI · 객실 예시",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2026/03/19/10000/1824ca6d-3117-45b0-b4e6-eeb540327cd8.jpg",
+        "sourceWidth": 1000,
+        "sourceHeight": 750
       },
       {
         "path": "/products/courses/5cb1cceb2f8f0d5d.webp",
@@ -441,7 +710,9 @@
         "sourceHeight": 720,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-a358573bdc29": {
     "checkedAt": "2026-09-30",
@@ -458,6 +729,32 @@
         "sourceWidth": 2000,
         "sourceHeight": 1335,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/4e04f45062ca7625.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2020/05/13/30000/0ca19838-7a36-4e9f-adc6-5cd6bdc27fd6.jpg",
+        "facility": "KANUCHA RESORT",
+        "caption": "KANUCHA RESORT · 테라스",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2020/05/13/30000/0ca19838-7a36-4e9f-adc6-5cd6bdc27fd6.jpg",
+        "sourceWidth": 1000,
+        "sourceHeight": 667
+      },
+      {
+        "path": "/products/facilities/3a4cd1254039657f.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2020/05/13/30000/77638c83-fbc9-43d3-9804-b8bbc1a5cd05.jpg",
+        "facility": "KANUCHA RESORT",
+        "caption": "KANUCHA RESORT · 수영장 시설",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2020/05/13/30000/77638c83-fbc9-43d3-9804-b8bbc1a5cd05.jpg",
+        "sourceWidth": 1000,
+        "sourceHeight": 667
       },
       {
         "path": "/products/courses/db5ea8c8b177a0ff.webp",
@@ -483,7 +780,9 @@
         "sourceHeight": 2848,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-a2585b31f20e": {
     "checkedAt": "2026-09-30",
@@ -500,6 +799,19 @@
         "sourceWidth": 1080,
         "sourceHeight": 720,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/c947e502c8cf2886.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/07/30/30000/dc6f26c7-bff1-4ae1-ac48-3b788b501226.png",
+        "facility": "G8FUJI COUNTRY CLUB",
+        "caption": "G8FUJI COUNTRY CLUB · 로비",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2025/07/30/30000/dc6f26c7-bff1-4ae1-ac48-3b788b501226.png",
+        "sourceWidth": 310,
+        "sourceHeight": 230
       },
       {
         "path": "/products/courses/7ec41fa95a3bf0a9.webp",
@@ -525,7 +837,9 @@
         "sourceHeight": 720,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-ed11a374247a": {
     "checkedAt": "2026-09-30",
@@ -542,6 +856,19 @@
         "sourceWidth": 800,
         "sourceHeight": 534,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/8c7c1c171d3549c9.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2020/05/17/20000/1f3576e5-731b-4b5e-89bf-615d481c4d37.jpg",
+        "facility": "Hotel Monte Hermana Kobe Amalie",
+        "caption": "Hotel Monte Hermana Kobe Amalie · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2020/05/17/20000/1f3576e5-731b-4b5e-89bf-615d481c4d37.jpg",
+        "sourceWidth": 1000,
+        "sourceHeight": 667
       },
       {
         "path": "/products/courses/c7f7a50e73e41632.webp",
@@ -567,7 +894,9 @@
         "sourceHeight": 534,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-b49345d3e79e": {
     "checkedAt": "2026-09-30",
@@ -584,6 +913,32 @@
         "sourceWidth": 4000,
         "sourceHeight": 2250,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/a3be449b9de6397c.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/06/16/10000/972431c7-d5c6-4698-9a13-04630306f281.png",
+        "facility": "Hotel Route Inn Kato",
+        "caption": "Hotel Route Inn Kato · 로비",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2026/06/16/10000/972431c7-d5c6-4698-9a13-04630306f281.png",
+        "sourceWidth": 924,
+        "sourceHeight": 503
+      },
+      {
+        "path": "/products/facilities/081f6baa9cff3b3c.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/06/16/10000/b660e744-3cf1-48b3-affb-edf5034fde0c.png",
+        "facility": "Hotel Route Inn Kato",
+        "caption": "Hotel Route Inn Kato · 대욕장",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2026/06/16/10000/b660e744-3cf1-48b3-affb-edf5034fde0c.png",
+        "sourceWidth": 1140,
+        "sourceHeight": 661
       },
       {
         "path": "/products/courses/8954d813cf32114e.webp",
@@ -609,7 +964,9 @@
         "sourceHeight": 2252,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-4ec11ea9b80d": {
     "checkedAt": "2026-09-30",
@@ -628,6 +985,19 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/0cbd675a6af89a88.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/05/20/10000/db93e7dc-d052-4d01-8899-874990eda804.jpg",
+        "facility": "HOTEL FRUIT FLOWER",
+        "caption": "HOTEL FRUIT FLOWER · 대욕장",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2024/05/20/10000/db93e7dc-d052-4d01-8899-874990eda804.jpg",
+        "sourceWidth": 1360,
+        "sourceHeight": 907
+      },
+      {
         "path": "/products/courses/8f93521a2fd392f8.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/05/20/10000/1820174d-2536-435c-8975-c435bcb89ffd.jpg",
         "facility": "Kitakobe Golf Ground",
@@ -639,7 +1009,9 @@
         "sourceHeight": 2000,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-bf8f483a20b3": {
     "checkedAt": "2026-09-30",
@@ -656,6 +1028,19 @@
         "sourceWidth": 1046,
         "sourceHeight": 695,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/cf6c7d8686c1f5a4.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/13/10000/1bf547aa-8341-4c79-9db5-2a8e9d948a6d.jpg",
+        "facility": "HUAQIAO HOTEL",
+        "caption": "HUAQIAO HOTEL · 레스토랑",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2026/04/13/10000/1bf547aa-8341-4c79-9db5-2a8e9d948a6d.jpg",
+        "sourceWidth": 1307,
+        "sourceHeight": 850
       },
       {
         "path": "/products/courses/2c369bbb4d6bd69c.webp",
@@ -681,7 +1066,9 @@
         "sourceHeight": 699,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-749d185487f1": {
     "checkedAt": "2026-09-30",
@@ -698,6 +1085,32 @@
         "sourceWidth": 1920,
         "sourceHeight": 1080,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/b0f9ce13952ee88e.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/07/12/10000/ff4e72ec-6448-4195-8327-3e3bc2e196e3.jpg",
+        "facility": "Holiday Inn Express Foshan Sanshui by IHG",
+        "caption": "Holiday Inn Express Foshan Sanshui by IHG · 레스토랑",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2026/07/12/10000/ff4e72ec-6448-4195-8327-3e3bc2e196e3.jpg",
+        "sourceWidth": 1532,
+        "sourceHeight": 828
+      },
+      {
+        "path": "/products/facilities/70484fcbff37ee83.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/07/21/10000/a02f11fc-4e31-4c54-94da-22fb85266b51.jpg",
+        "facility": "Wyndham Foshan Nanhai",
+        "caption": "Wyndham Foshan Nanhai · 피트니스 시설",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2026/07/21/10000/a02f11fc-4e31-4c54-94da-22fb85266b51.jpg",
+        "sourceWidth": 1380,
+        "sourceHeight": 853
       },
       {
         "path": "/products/courses/2572efed537d1665.webp",
@@ -723,7 +1136,9 @@
         "sourceHeight": 1080,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-4c144ff01513": {
     "checkedAt": "2026-09-30",
@@ -740,6 +1155,32 @@
         "sourceWidth": 1994,
         "sourceHeight": 1078,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/c43fc900f1a4305d.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/08/08/10000/39b9b6cd-8de6-4748-8979-1af829b89fd8.jpg",
+        "facility": "Joyze Hotel Xiamen, Curio Collection by Hilton",
+        "caption": "Joyze Hotel Xiamen, Curio Collection by Hilton · 수영장",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2026/08/08/10000/39b9b6cd-8de6-4748-8979-1af829b89fd8.jpg",
+        "sourceWidth": 1295,
+        "sourceHeight": 857
+      },
+      {
+        "path": "/products/facilities/61445b55da7efc2d.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/08/08/10000/0d5b753c-3749-460f-bfdc-a8e6152610d5.jpg",
+        "facility": "HUALUXE Xiamen Haicang Harbour View by IHG",
+        "caption": "HUALUXE Xiamen Haicang Harbour View by IHG · 피트니스 시설",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2026/08/08/10000/0d5b753c-3749-460f-bfdc-a8e6152610d5.jpg",
+        "sourceWidth": 1538,
+        "sourceHeight": 848
       },
       {
         "path": "/products/courses/fa163fa488a9cb63.webp",
@@ -765,7 +1206,9 @@
         "sourceHeight": 647,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-46923e275b2e": {
     "checkedAt": "2026-09-30",
@@ -782,6 +1225,32 @@
         "sourceWidth": 2592,
         "sourceHeight": 1728,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/ebc783f4cc6cdb6c.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/02/25/10000/432bd79c-fada-4dba-9ad2-8ae57fd902f7.jpg",
+        "facility": "Hampton by Hilton Rongcheng",
+        "caption": "Hampton by Hilton Rongcheng · 레스토랑",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2025/02/25/10000/432bd79c-fada-4dba-9ad2-8ae57fd902f7.jpg",
+        "sourceWidth": 1080,
+        "sourceHeight": 719
+      },
+      {
+        "path": "/products/facilities/53664ac334309edc.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/23/10000/d2f83d60-b6aa-4664-b882-54bee0f13597.jpg",
+        "facility": "Hampton by Hilton Rongcheng",
+        "caption": "Hampton by Hilton Rongcheng · 피트니스 시설",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2026/04/23/10000/d2f83d60-b6aa-4664-b882-54bee0f13597.jpg",
+        "sourceWidth": 1920,
+        "sourceHeight": 1280
       },
       {
         "path": "/products/courses/8d4cffeea406ade8.webp",
@@ -807,7 +1276,9 @@
         "sourceHeight": 1728,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-113dba734e28": {
     "checkedAt": "2026-09-30",
@@ -824,6 +1295,32 @@
         "sourceWidth": 5766,
         "sourceHeight": 3514,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/0485092665f71621.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/10/05/10000/a717b032-04d5-4a18-bd38-175d98ac8436.JPG",
+        "facility": "Holiday Inn Express Haikou World Trade Center by IHG (Xiuying Port, an IHG Hotel)",
+        "caption": "Holiday Inn Express Haikou World Trade Center by IHG (Xiuying Port, an IHG Hotel) · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2025/10/05/10000/a717b032-04d5-4a18-bd38-175d98ac8436.JPG",
+        "sourceWidth": 1355,
+        "sourceHeight": 759
+      },
+      {
+        "path": "/products/facilities/bf9ce63aa626613b.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/01/13/10000/87c5235f-3dfc-47ea-b324-4beb345ca219.jpg",
+        "facility": "Holiday Inn Express Haikou World Trade Center by IHG (Xiuying Port, an IHG Hotel)",
+        "caption": "Holiday Inn Express Haikou World Trade Center by IHG (Xiuying Port, an IHG Hotel) · 레스토랑",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2026/01/13/10000/87c5235f-3dfc-47ea-b324-4beb345ca219.jpg",
+        "sourceWidth": 1440,
+        "sourceHeight": 1081
       },
       {
         "path": "/products/courses/003cef7bffc5283a.webp",
@@ -849,7 +1346,9 @@
         "sourceHeight": 3567,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-387bb1416e0e": {
     "checkedAt": "2026-09-30",
@@ -866,6 +1365,32 @@
         "sourceWidth": 5280,
         "sourceHeight": 2970,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/225662f770c1d795.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/11/03/20000/2c487d96-9605-481d-bf13-65f8e77966ad.JPG",
+        "facility": "GARDEN LANE MEILAN AIRPORT (EX. HAIKOU MEILAN AIRPORT HOTEL)",
+        "caption": "GARDEN LANE MEILAN AIRPORT (EX. HAIKOU MEILAN AIRPORT HOTEL) · 로비",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2025/11/03/20000/2c487d96-9605-481d-bf13-65f8e77966ad.JPG",
+        "sourceWidth": 744,
+        "sourceHeight": 493
+      },
+      {
+        "path": "/products/facilities/524b0ea973d488bc.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/11/03/20000/530fc54f-be7a-4573-8525-6edd61f5db83.JPG",
+        "facility": "GARDEN LANE MEILAN AIRPORT (EX. HAIKOU MEILAN AIRPORT HOTEL)",
+        "caption": "GARDEN LANE MEILAN AIRPORT (EX. HAIKOU MEILAN AIRPORT HOTEL) · 레스토랑",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2025/11/03/20000/530fc54f-be7a-4573-8525-6edd61f5db83.JPG",
+        "sourceWidth": 1345,
+        "sourceHeight": 898
       },
       {
         "path": "/products/courses/ebd1122b726589fd.webp",
@@ -891,7 +1416,9 @@
         "sourceHeight": 864,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-a2883955afa4": {
     "checkedAt": "2026-09-30",
@@ -908,6 +1435,19 @@
         "sourceWidth": 1448,
         "sourceHeight": 1086,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/be61b41b83cc7bef.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/02/21/10000/79543412-019c-4bbe-9179-2f7bb83d6d42.jpg",
+        "facility": "GLORIA PLAZA HOTEL QINGDAO",
+        "caption": "GLORIA PLAZA HOTEL QINGDAO · 로비",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2018/02/21/10000/79543412-019c-4bbe-9179-2f7bb83d6d42.jpg",
+        "sourceWidth": 350,
+        "sourceHeight": 350
       },
       {
         "path": "/products/courses/2671a23880902925.webp",
@@ -933,7 +1473,9 @@
         "sourceHeight": 1086,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-b1557629f0e5": {
     "checkedAt": "2026-09-30",
@@ -952,6 +1494,19 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/6b348faa84607a7c.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/800_0/2015/11/27/10000/2daed29b-cce0-474e-a636-a78a87c9af9e.jpg",
+        "facility": "무엉탄 다낭 호텔",
+        "caption": "무엉탄 다낭 호텔 · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2015/11/27/10000/2daed29b-cce0-474e-a636-a78a87c9af9e.jpg",
+        "sourceWidth": 1000,
+        "sourceHeight": 757
+      },
+      {
         "path": "/products/courses/b1f7811d1069d867.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/02/07/10000/07c3daca-c655-4b46-bc6e-e86e1e29b7ed.jpg",
         "facility": "Ba Na Hills Golf CLub",
@@ -963,7 +1518,9 @@
         "sourceHeight": 683,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-912f5b4e8824": {
     "checkedAt": "2026-09-30",
@@ -982,6 +1539,19 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/d848b94003e48d42.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/11/07/10000/868eac1f-01ad-43b0-9cfe-4f0f6047c189.jpg",
+        "facility": "PREMIER HAVANA NHA TRANG HOTEL",
+        "caption": "PREMIER HAVANA NHA TRANG HOTEL · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2013/11/07/10000/868eac1f-01ad-43b0-9cfe-4f0f6047c189.jpg",
+        "sourceWidth": 533,
+        "sourceHeight": 800
+      },
+      {
         "path": "/products/courses/409799150f42b73c.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2014/05/16/10000/8499674c-195f-471b-abef-9c94227b012a.jpg",
         "facility": "Diamond Bay Golf Club",
@@ -993,7 +1563,9 @@
         "sourceHeight": 1240,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-2ca11e342bc8": {
     "checkedAt": "2026-09-30",
@@ -1010,6 +1582,32 @@
         "sourceWidth": 1184,
         "sourceHeight": 864,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/f26f632196a20ea6.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/03/10/10000/fff18e5b-1ab3-446b-9bfd-e0c35608fbb4.jpg",
+        "facility": "HANIN TOWN HOTEL",
+        "caption": "HANIN TOWN HOTEL · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2026/03/10/10000/fff18e5b-1ab3-446b-9bfd-e0c35608fbb4.jpg",
+        "sourceWidth": 4000,
+        "sourceHeight": 3000
+      },
+      {
+        "path": "/products/facilities/22f60a9e5fea4678.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/03/10/10000/e93939be-0d74-4779-9227-1d2c1479b616.jpg",
+        "facility": "HANIN TOWN HOTEL",
+        "caption": "HANIN TOWN HOTEL · 로비",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2026/03/10/10000/e93939be-0d74-4779-9227-1d2c1479b616.jpg",
+        "sourceWidth": 4000,
+        "sourceHeight": 3000
       },
       {
         "path": "/products/courses/cd984c10802f433c.webp",
@@ -1035,7 +1633,9 @@
         "sourceHeight": 864,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-cbc60807bbf4": {
     "checkedAt": "2026-09-30",
@@ -1054,6 +1654,32 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/bd524682c4345a56.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2008/12/09/10000/fcaf196e-e6e5-4a99-b0c4-5dc40a242f89.jpg",
+        "facility": "BORNEO GOLF RESORT (EX. BORNEO GOLF AND COUNTRY CLUB)",
+        "caption": "BORNEO GOLF RESORT (EX. BORNEO GOLF AND COUNTRY CLUB) · 수영장",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2008/12/09/10000/fcaf196e-e6e5-4a99-b0c4-5dc40a242f89.jpg",
+        "sourceWidth": 600,
+        "sourceHeight": 450
+      },
+      {
+        "path": "/products/facilities/a7d93987d83783dc.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2008/01/10/10000/81f6a6ca-e787-4f16-959b-fad5e5adbbfe.jpg",
+        "facility": "BORNEO GOLF RESORT (EX. BORNEO GOLF AND COUNTRY CLUB)",
+        "caption": "BORNEO GOLF RESORT (EX. BORNEO GOLF AND COUNTRY CLUB) · 객실 테라스 예시",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2008/01/10/10000/81f6a6ca-e787-4f16-959b-fad5e5adbbfe.jpg",
+        "sourceWidth": 600,
+        "sourceHeight": 450
+      },
+      {
         "path": "/products/courses/a8aadc1317bb9a77.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2014/11/18/10000/a81af92c-cf46-49c2-b9b1-be43fd3672c0.jpg",
         "facility": "보르네오 골프 & 컨트리 클럽",
@@ -1065,7 +1691,9 @@
         "sourceHeight": 1089,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-bf3c78d5f18c": {
     "checkedAt": "2026-09-30",
@@ -1084,6 +1712,19 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/a8317584d17c887c.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/800_0/2018/07/30/10000/3ffaea10-2da9-4f6e-97e8-267ca98a72bf.jpg",
+        "facility": "브라이튼 그랜드 호텔",
+        "caption": "브라이튼 그랜드 호텔 · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2018/07/30/10000/3ffaea10-2da9-4f6e-97e8-267ca98a72bf.jpg",
+        "sourceWidth": 5763,
+        "sourceHeight": 3829
+      },
+      {
         "path": "/products/courses/de6c44d9fdc911b5.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/07/21/10000/f62cc1f1-15b7-4f45-b696-eb5159cbea2c.jpg",
         "facility": "SILKY OAK COUNTRY CLUB",
@@ -1095,7 +1736,9 @@
         "sourceHeight": 638,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-be0bb02b8171": {
     "checkedAt": "2026-09-30",
@@ -1114,6 +1757,19 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/e17d54ad219c9ab3.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/11/16/10000/282be713-8a5b-4694-82b5-ab53a945d946.jpg",
+        "facility": "T Pattaya Hotel",
+        "caption": "T Pattaya Hotel · 외관·수영장",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2023/11/16/10000/282be713-8a5b-4694-82b5-ab53a945d946.jpg",
+        "sourceWidth": 4918,
+        "sourceHeight": 3276
+      },
+      {
         "path": "/products/courses/bb0e1e58fd5834d9.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2006/11/21/10000/c944848d-45f5-47d4-aa4d-71d9a6d46a89.jpg",
         "facility": "St. ANDREWS 2000",
@@ -1125,7 +1781,9 @@
         "sourceHeight": 450,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-7a170301d0df": {
     "checkedAt": "2026-09-30",
@@ -1144,6 +1802,32 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/e0214e8d1c1acc45.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2008/03/07/10000/fb6dd617-33dc-4225-9a65-cb2812fee821.jpg",
+        "facility": "GASSAN KHUNTAN GOLF&RESORT",
+        "caption": "GASSAN KHUNTAN GOLF&RESORT · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2008/03/07/10000/fb6dd617-33dc-4225-9a65-cb2812fee821.jpg",
+        "sourceWidth": 234,
+        "sourceHeight": 220
+      },
+      {
+        "path": "/products/facilities/c6651b690807e764.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2008/03/07/10000/84b0479b-8d7c-4296-9c3c-804fa8b94b7c.jpg",
+        "facility": "GASSAN KHUNTAN GOLF&RESORT",
+        "caption": "GASSAN KHUNTAN GOLF&RESORT · 숙소 전경",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2008/03/07/10000/84b0479b-8d7c-4296-9c3c-804fa8b94b7c.jpg",
+        "sourceWidth": 234,
+        "sourceHeight": 220
+      },
+      {
         "path": "/products/courses/4ce7f98d28baa239.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/07/30/10000/23f09363-d036-481f-b2b6-eab9321ae1fc.jpeg",
         "facility": "GASSAN KHUNTAN GOLF & RESORT",
@@ -1155,7 +1839,9 @@
         "sourceHeight": 620,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-1fd1908f2873": {
     "checkedAt": "2026-09-30",
@@ -1172,6 +1858,32 @@
         "sourceWidth": 5458,
         "sourceHeight": 3634,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/eec097b584913247.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2020/03/27/170000/90c98acd-269c-4cbf-a016-00d3e72d1632.jpg",
+        "facility": "FLC HA LONG BAY GOLF AND LUXURY RESORT",
+        "caption": "FLC HA LONG BAY GOLF AND LUXURY RESORT · 객실 예시",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2020/03/27/170000/90c98acd-269c-4cbf-a016-00d3e72d1632.jpg",
+        "sourceWidth": 1000,
+        "sourceHeight": 666
+      },
+      {
+        "path": "/products/facilities/f7bb1de1d1b64790.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2020/03/27/170000/85d914b0-078d-441c-9550-f49052960b01.jpg",
+        "facility": "FLC HA LONG BAY GOLF AND LUXURY RESORT",
+        "caption": "FLC HA LONG BAY GOLF AND LUXURY RESORT · 객실 예시",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2020/03/27/170000/85d914b0-078d-441c-9550-f49052960b01.jpg",
+        "sourceWidth": 1000,
+        "sourceHeight": 666
       },
       {
         "path": "/products/courses/2e28e052edc2ea3b.webp",
@@ -1197,7 +1909,9 @@
         "sourceHeight": 3633,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-7842baa0a472": {
     "checkedAt": "2026-09-30",
@@ -1214,6 +1928,45 @@
         "sourceWidth": 4992,
         "sourceHeight": 3328,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/21/10000/3f7ff2b1-aad3-498f-a6ce-cc84e2671736.jpg",
+        "facility": "Amari Vientiane Laos",
+        "caption": "Amari Vientiane Laos · 외관",
+        "subject": "hotel",
+        "kind": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "path": "/products/facilities/05931ff3b9524886.webp",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2025/08/21/10000/3f7ff2b1-aad3-498f-a6ce-cc84e2671736.jpg",
+        "sourceWidth": 1600,
+        "sourceHeight": 900
+      },
+      {
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/e944735a-03a1-4cd8-a0ad-8f4539648387.jpg",
+        "facility": "Amari Vientiane Laos",
+        "caption": "Amari Vientiane Laos · 객실 예시",
+        "subject": "hotel",
+        "kind": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "path": "/products/facilities/bf95d137b522d662.webp",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2025/08/20/10000/e944735a-03a1-4cd8-a0ad-8f4539648387.jpg",
+        "sourceWidth": 4000,
+        "sourceHeight": 2252
+      },
+      {
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/6906184e-581c-4d7f-b01b-4c92615e97b8.jpg",
+        "facility": "Amari Vientiane Laos",
+        "caption": "Amari Vientiane Laos · 수영장",
+        "subject": "facility",
+        "kind": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "path": "/products/facilities/62c03d4778a47dba.webp",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2025/08/20/10000/6906184e-581c-4d7f-b01b-4c92615e97b8.jpg",
+        "sourceWidth": 4000,
+        "sourceHeight": 2252
       },
       {
         "path": "/products/courses/38c195b7560255d9.webp",
@@ -1239,7 +1992,9 @@
         "sourceHeight": 2832,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-28e8915e4795": {
     "checkedAt": "2026-09-30",
@@ -1269,7 +2024,10 @@
         "sourceHeight": 540,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류.",
+    "lodgingPhotoNote": "일정 스냅샷에 숙소 사진 카드가 없거나 확인 가능한 숙소 사진이 없음. 타 상품 사진으로 대체하지 않음."
   },
   "hana-70b8c3a64fb7": {
     "checkedAt": "2026-09-30",
@@ -1288,6 +2046,32 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/69e577d9aef28d81.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/02/23/10000/32e815d5-68ba-4eea-ad56-488d00dd3313.jpg",
+        "facility": "RATILANNA RIVERSIDE SPA RESORT CHIANG MAI",
+        "caption": "RATILANNA RIVERSIDE SPA RESORT CHIANG MAI · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2011/02/23/10000/32e815d5-68ba-4eea-ad56-488d00dd3313.jpg",
+        "sourceWidth": 1772,
+        "sourceHeight": 1181
+      },
+      {
+        "path": "/products/facilities/3fe881c6b1476e3a.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/05/06/10000/91b20613-923f-4fc4-bfa5-d3b595025f9b.jpg",
+        "facility": "RATILANNA RIVERSIDE SPA RESORT CHIANG MAI",
+        "caption": "RATILANNA RIVERSIDE SPA RESORT CHIANG MAI · 객실 예시",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2011/05/06/10000/91b20613-923f-4fc4-bfa5-d3b595025f9b.jpg",
+        "sourceWidth": 800,
+        "sourceHeight": 450
+      },
+      {
         "path": "/products/courses/8517715d30cd9d35.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/07/11/10000/d772d229-d386-4cad-b5ff-0bc270eb4c9f.jpg",
         "facility": "ALPINE C.C",
@@ -1299,7 +2083,9 @@
         "sourceHeight": 2912,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-6ed8e6e7dcaf": {
     "checkedAt": "2026-09-30",
@@ -1318,6 +2104,32 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/f60095c923e5ada0.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/10/24/10000/09f34070-f38c-4ee2-bdb2-87f18396e82c.jpg",
+        "facility": "BATAM VIEW BEACH RESORT",
+        "caption": "BATAM VIEW BEACH RESORT · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2024/10/24/10000/09f34070-f38c-4ee2-bdb2-87f18396e82c.jpg",
+        "sourceWidth": 4800,
+        "sourceHeight": 3200
+      },
+      {
+        "path": "/products/facilities/c696c1e067123439.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/10/24/10000/0d224b7b-f476-4d2a-8d7a-075f62be31ef.jpg",
+        "facility": "BATAM VIEW BEACH RESORT",
+        "caption": "BATAM VIEW BEACH RESORT · 객실 예시",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2024/10/24/10000/0d224b7b-f476-4d2a-8d7a-075f62be31ef.jpg",
+        "sourceWidth": 4032,
+        "sourceHeight": 3024
+      },
+      {
         "path": "/products/courses/0f341435c3fdd82d.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/08/26/10000/ed47d962-50cb-4e21-a7b1-e6328da21c7e.jpg",
         "facility": "Palm Springs Golf & Beach Resort",
@@ -1329,7 +2141,9 @@
         "sourceHeight": 2458,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-7ad5e0d28261": {
     "checkedAt": "2026-09-30",
@@ -1346,6 +2160,32 @@
         "sourceWidth": 1440,
         "sourceHeight": 1080,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/d449663f771098e7.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/09/13/10000/f2aa06af-bb45-4a94-8eea-d62c915c2c4d.jpg",
+        "facility": "RADISSON GOLF AND CONVENTION CENTER BATAM",
+        "caption": "RADISSON GOLF AND CONVENTION CENTER BATAM · 수영장",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2017/09/13/10000/f2aa06af-bb45-4a94-8eea-d62c915c2c4d.jpg",
+        "sourceWidth": 658,
+        "sourceHeight": 432
+      },
+      {
+        "path": "/products/facilities/075ea444ea597df2.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/09/13/10000/f336970b-77e2-497f-87ef-83125b73b670.jpg",
+        "facility": "RADISSON GOLF AND CONVENTION CENTER BATAM",
+        "caption": "RADISSON GOLF AND CONVENTION CENTER BATAM · 객실 예시",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2017/09/13/10000/f336970b-77e2-497f-87ef-83125b73b670.jpg",
+        "sourceWidth": 641,
+        "sourceHeight": 432
       },
       {
         "path": "/products/courses/96cfccfd85425fe1.webp",
@@ -1371,7 +2211,9 @@
         "sourceHeight": 1082,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-b32260463f3d": {
     "checkedAt": "2026-09-30",
@@ -1390,6 +2232,19 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/0a1761cac525b198.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/8aba2926-e8e5-4245-ad88-1a46a5198f0c.jpg",
+        "facility": "ASTON BATAM HOTEL AND RESIDENCE",
+        "caption": "ASTON BATAM HOTEL AND RESIDENCE · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2018/07/03/10000/8aba2926-e8e5-4245-ad88-1a46a5198f0c.jpg",
+        "sourceWidth": 1000,
+        "sourceHeight": 666
+      },
+      {
         "path": "/products/courses/8e845245c100d413.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/08/30/10000/2baaa08a-f080-4e3e-bed2-a386cb2d6abd.jpg",
         "facility": "PADANG SUKAJADI GOLF",
@@ -1401,7 +2256,9 @@
         "sourceHeight": 416,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-2cbcc113beb2": {
     "checkedAt": "2026-09-30",
@@ -1418,6 +2275,19 @@
         "sourceWidth": 1024,
         "sourceHeight": 768,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/0a1761cac525b198.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2018/07/03/10000/8aba2926-e8e5-4245-ad88-1a46a5198f0c.jpg",
+        "facility": "ASTON BATAM HOTEL AND RESIDENCE",
+        "caption": "ASTON BATAM HOTEL AND RESIDENCE · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2018/07/03/10000/8aba2926-e8e5-4245-ad88-1a46a5198f0c.jpg",
+        "sourceWidth": 1000,
+        "sourceHeight": 666
       },
       {
         "path": "/products/courses/904974c705d1c536.webp",
@@ -1443,7 +2313,9 @@
         "sourceHeight": 768,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-1cde89363822": {
     "checkedAt": "2026-09-30",
@@ -1462,6 +2334,19 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/3e571aab1ce82ddd.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/03/04/10000/cb598bbf-17df-4043-9e8e-7c47dc4df141.jpg",
+        "facility": "Hotel Halo",
+        "caption": "Hotel Halo · 레스토랑",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2025/03/04/10000/cb598bbf-17df-4043-9e8e-7c47dc4df141.jpg",
+        "sourceWidth": 3480,
+        "sourceHeight": 2216
+      },
+      {
         "path": "/products/courses/831e844376c2a46b.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2009/02/18/10000/e52354bf-c381-4cb6-bc62-0a95f1585b9d.jpg",
         "facility": "LAKEWOOD GOLF CLUB",
@@ -1473,7 +2358,9 @@
         "sourceHeight": 768,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-7a3c79d27d22": {
     "checkedAt": "2026-09-30",
@@ -1492,6 +2379,19 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/f6904462596a8945.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/09/26/10000/eb520289-9dfa-4225-a1fb-8a3a051551bb.jpg",
+        "facility": "Centara Ayutthaya",
+        "caption": "Centara Ayutthaya · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2024/09/26/10000/eb520289-9dfa-4225-a1fb-8a3a051551bb.jpg",
+        "sourceWidth": 1828,
+        "sourceHeight": 1369
+      },
+      {
         "path": "/products/courses/d57981996768d69c.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2019/06/13/10000/c6a83ed3-b4e5-4ce9-92e4-c4e2d94227b2.jpg",
         "facility": "AYUTTHAYA GOLF CLUB",
@@ -1503,7 +2403,9 @@
         "sourceHeight": 512,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-fbb7046b7fb3": {
     "checkedAt": "2026-09-30",
@@ -1522,6 +2424,19 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/54ded09d245dab1f.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/08/07/10000/9bca5c56-865d-4c83-ab97-fac4dd7c8699.jpg",
+        "facility": "Oakwood Hotel and Residence Sri Racha",
+        "caption": "Oakwood Hotel and Residence Sri Racha · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2024/08/07/10000/9bca5c56-865d-4c83-ab97-fac4dd7c8699.jpg",
+        "sourceWidth": 2973,
+        "sourceHeight": 1982
+      },
+      {
         "path": "/products/courses/f05b533d8188b267.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/03/09/10000/0820b01f-3b0a-4f67-9c6d-9ec3bdd7835b.jpg",
         "facility": "Pattavia Golf Club",
@@ -1533,7 +2448,9 @@
         "sourceHeight": 1365,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-d036ac707f3e": {
     "checkedAt": "2026-09-30",
@@ -1550,8 +2467,36 @@
         "sourceWidth": 1024,
         "sourceHeight": 768,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/09/30/10000/d928b9f3-4d4f-4e80-add6-4d7b509e3bce.jpg",
+        "facility": "FINEST GUAM GOLF & RESORT",
+        "caption": "FINEST GUAM GOLF & RESORT · 외관·수영장",
+        "subject": "hotel",
+        "kind": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "path": "/products/facilities/1875ce5f975e3fac.webp",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2024/09/30/10000/d928b9f3-4d4f-4e80-add6-4d7b509e3bce.jpg",
+        "sourceWidth": 1100,
+        "sourceHeight": 619
+      },
+      {
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/09/30/10000/b7c5384d-266a-459c-a945-77f87453261a.jpg",
+        "facility": "FINEST GUAM GOLF & RESORT",
+        "caption": "FINEST GUAM GOLF & RESORT · 객실 예시",
+        "subject": "hotel",
+        "kind": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "path": "/products/facilities/3308610670ceaf8c.webp",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2024/09/30/10000/b7c5384d-266a-459c-a945-77f87453261a.jpg",
+        "sourceWidth": 1400,
+        "sourceHeight": 1050
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-6e772e4d4f8e": {
     "checkedAt": "2026-09-30",
@@ -1570,6 +2515,45 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/12/09/10000/8413c5c7-7d93-4706-b889-89613a3b4eaf.jpg",
+        "facility": "CORAL OCEAN RESORT SAIPAN",
+        "caption": "CORAL OCEAN RESORT SAIPAN · 외관",
+        "subject": "hotel",
+        "kind": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "path": "/products/facilities/3e0e1c63e107b044.webp",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2021/12/09/10000/8413c5c7-7d93-4706-b889-89613a3b4eaf.jpg",
+        "sourceWidth": 5000,
+        "sourceHeight": 3335
+      },
+      {
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/12/09/10000/5eee4d24-1d34-4dba-8be2-70059989d686.jpg",
+        "facility": "CORAL OCEAN RESORT SAIPAN",
+        "caption": "CORAL OCEAN RESORT SAIPAN · 수영장",
+        "subject": "facility",
+        "kind": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "path": "/products/facilities/37ee38787dfeb4d1.webp",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2021/12/09/10000/5eee4d24-1d34-4dba-8be2-70059989d686.jpg",
+        "sourceWidth": 5000,
+        "sourceHeight": 3335
+      },
+      {
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/12/09/10000/58825d5f-992d-460f-b3c5-95d7253d46e8.jpg",
+        "facility": "CORAL OCEAN RESORT SAIPAN",
+        "caption": "CORAL OCEAN RESORT SAIPAN · 로비",
+        "subject": "facility",
+        "kind": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "path": "/products/facilities/f29143c4094b5f32.webp",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2021/12/09/10000/58825d5f-992d-460f-b3c5-95d7253d46e8.jpg",
+        "sourceWidth": 5000,
+        "sourceHeight": 3335
+      },
+      {
         "path": "/products/courses/a0452782c15a70fa.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/12/09/10000/fa9485ba-ab8b-446d-ab3b-c483e695616a.jpg",
         "facility": "Coral Ocean Golf Resort",
@@ -1581,7 +2565,9 @@
         "sourceHeight": 3335,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-3e391ff168d3": {
     "checkedAt": "2026-09-30",
@@ -1600,6 +2586,45 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/3f4332d203523a50.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/03/17/10000/7520d629-7109-4a84-8151-cd3bbb3cabfd.jpg",
+        "facility": "PACIFIC ISLANDS CLUB SAIPAN (PIC SAIPAN)",
+        "caption": "PACIFIC ISLANDS CLUB SAIPAN (PIC SAIPAN) · 수영장",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2017/03/17/10000/7520d629-7109-4a84-8151-cd3bbb3cabfd.jpg",
+        "sourceWidth": 6000,
+        "sourceHeight": 4007
+      },
+      {
+        "path": "/products/facilities/0c4c0fbcf9a0bf65.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/03/23/10000/29d62f9f-adea-4e00-bdbe-7cd89abd31cd.jpg",
+        "facility": "PACIFIC ISLANDS CLUB SAIPAN (PIC SAIPAN)",
+        "caption": "PACIFIC ISLANDS CLUB SAIPAN (PIC SAIPAN) · 워터슬라이드",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2022/03/23/10000/29d62f9f-adea-4e00-bdbe-7cd89abd31cd.jpg",
+        "sourceWidth": 5000,
+        "sourceHeight": 3335
+      },
+      {
+        "path": "/products/facilities/a0f509546bfc90e8.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/03/23/10000/22a1563f-ee7f-48d5-abdb-d251337d270e.jpg",
+        "facility": "Pacific Islands Club SAIPAN",
+        "caption": "Pacific Islands Club SAIPAN · 레스토랑",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2022/03/23/10000/22a1563f-ee7f-48d5-abdb-d251337d270e.jpg",
+        "sourceWidth": 5000,
+        "sourceHeight": 3335
+      },
+      {
         "path": "/products/courses/a0452782c15a70fa.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/12/09/10000/fa9485ba-ab8b-446d-ab3b-c483e695616a.jpg",
         "facility": "Coral Ocean Golf Resort",
@@ -1611,7 +2636,9 @@
         "sourceHeight": 3335,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-f2eecda00a3a": {
     "checkedAt": "2026-09-30",
@@ -1630,6 +2657,19 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/33bf96c47df9de50.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2020/02/13/10000/e20c73b1-b45c-435d-8175-cbe0bca5f3fc.jpg",
+        "facility": "THE TSUBAKI TOWER",
+        "caption": "THE TSUBAKI TOWER · 레스토랑",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2020/02/13/10000/e20c73b1-b45c-435d-8175-cbe0bca5f3fc.jpg",
+        "sourceWidth": 3900,
+        "sourceHeight": 2025
+      },
+      {
         "path": "/products/courses/f38ca5fefab4ef5f.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/11/24/10000/9f978a04-7667-4bc7-a7fb-10c5497a0d6e.jpg",
         "facility": "Mangilao Golf Club",
@@ -1641,7 +2681,9 @@
         "sourceHeight": 2000,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-0b8f7cf81a12": {
     "checkedAt": "2026-09-30",
@@ -1660,6 +2702,19 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/a647db21ccf9adfe.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/800_0/2005/06/14/50000/345f51fd-3149-434c-93d8-0991c130b834.jpg",
+        "facility": "뉴욕 뉴욕 호텔 앤드 카지노",
+        "caption": "뉴욕 뉴욕 호텔 앤드 카지노 · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2005/06/14/50000/345f51fd-3149-434c-93d8-0991c130b834.jpg",
+        "sourceWidth": 225,
+        "sourceHeight": 180
+      },
+      {
         "path": "/products/courses/29f80f8711128abf.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/05/10000/6413edc1-b1b0-4c9f-a343-200f538dcd55.jpg",
         "facility": "Serket Golf Club",
@@ -1671,7 +2726,9 @@
         "sourceHeight": 1080,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-adf95b46aa8d": {
     "checkedAt": "2026-09-30",
@@ -1688,8 +2745,23 @@
         "sourceWidth": 2076,
         "sourceHeight": 942,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/ee783afb131d7586.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/04/12/10000/959fa3af-4941-451c-948a-b25370f798f1.jpg",
+        "facility": "PRIDE OF AMERICA",
+        "caption": "PRIDE OF AMERICA · 숙박 선실 예시",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2023/04/12/10000/959fa3af-4941-451c-948a-b25370f798f1.jpg",
+        "sourceWidth": 1280,
+        "sourceHeight": 695
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-5243d7d08215": {
     "checkedAt": "2026-09-30",
@@ -1708,6 +2780,32 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/fe1d581a8c78e691.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/04/06/10000/86def61d-39f3-404b-ba2e-36f37f2ae8aa.jpg",
+        "facility": "The Lodge at Pebble Beach",
+        "caption": "The Lodge at Pebble Beach · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2022/04/06/10000/86def61d-39f3-404b-ba2e-36f37f2ae8aa.jpg",
+        "sourceWidth": 1127,
+        "sourceHeight": 626
+      },
+      {
+        "path": "/products/facilities/edbed09152c6f508.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/04/21/10000/7c9923e0-2da5-4f5e-a75f-9dfae6cff3d5.jpg",
+        "facility": "The Inn at Spanish Bay",
+        "caption": "The Inn at Spanish Bay · 레스토랑",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2026/04/21/10000/7c9923e0-2da5-4f5e-a75f-9dfae6cff3d5.jpg",
+        "sourceWidth": 6720,
+        "sourceHeight": 4480
+      },
+      {
         "path": "/products/courses/ded08a95fbe205d8.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/08/08/10000/a900368c-f700-419e-ae11-ad56df49c4df.jpg",
         "facility": "[100대 골프장]Pebble Beach",
@@ -1719,7 +2817,9 @@
         "sourceHeight": 1667,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-cb72bc8eb717": {
     "checkedAt": "2026-09-30",
@@ -1738,6 +2838,19 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/44e5a67dfe617393.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/09/16/10000/0c3fc2e2-54b3-41c6-84ec-acebe1662354.png",
+        "facility": "The Caledonian Edinburgh, Curio Collection by Hilton",
+        "caption": "The Caledonian Edinburgh, Curio Collection by Hilton · 로비",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2026/09/16/10000/0c3fc2e2-54b3-41c6-84ec-acebe1662354.png",
+        "sourceWidth": 956,
+        "sourceHeight": 632
+      },
+      {
         "path": "/products/courses/c1e081c523478896.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/06/30/10000/71a2168b-971c-42b4-8b10-6bb3c09b68af.jpg",
         "facility": "Carnoustie Golf Links",
@@ -1749,7 +2862,9 @@
         "sourceHeight": 1024,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-b266585ce489": {
     "checkedAt": "2026-09-30",
@@ -1768,6 +2883,32 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/e7cff12db2861921.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2020/11/12/10000/c88392d6-87ce-4183-9da1-339a4307fae1.jpg",
+        "facility": "REGNUM CARYA GOLF AND SPA RESORT",
+        "caption": "REGNUM CARYA GOLF AND SPA RESORT · 로비",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2020/11/12/10000/c88392d6-87ce-4183-9da1-339a4307fae1.jpg",
+        "sourceWidth": 2000,
+        "sourceHeight": 1307
+      },
+      {
+        "path": "/products/facilities/01972d07165daefb.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2020/11/12/10000/e5b3b9e8-619f-4450-a073-ee39d63e4a07.jpg",
+        "facility": "REGNUM CARYA GOLF AND SPA RESORT",
+        "caption": "REGNUM CARYA GOLF AND SPA RESORT · 실내 수영장",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2020/11/12/10000/e5b3b9e8-619f-4450-a073-ee39d63e4a07.jpg",
+        "sourceWidth": 1900,
+        "sourceHeight": 1214
+      },
+      {
         "path": "/products/courses/a38a1ec101cd64c5.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/12/29/10000/0bde8bc8-8c7a-423c-8198-ef48adcf1133.jpg",
         "facility": "CARYA GOLF CLUB",
@@ -1779,7 +2920,9 @@
         "sourceHeight": 1944,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-bb30ff6959a1": {
     "checkedAt": "2026-09-30",
@@ -1798,6 +2941,32 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/80e3e9469b2c95b5.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/02/10000/2afec6e9-e9a5-4aee-b8f9-ab7ceca081cd.jpg",
+        "facility": "OLD COURSE",
+        "caption": "OLD COURSE · 객실 예시",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2025/09/02/10000/2afec6e9-e9a5-4aee-b8f9-ab7ceca081cd.jpg",
+        "sourceWidth": 680,
+        "sourceHeight": 453
+      },
+      {
+        "path": "/products/facilities/c6d6732be9840b46.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/02/10000/e3713f90-d0d6-4e6b-9602-83405eb8b9c5.jpg",
+        "facility": "OLD COURSE",
+        "caption": "OLD COURSE · 레스토랑",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2025/09/02/10000/e3713f90-d0d6-4e6b-9602-83405eb8b9c5.jpg",
+        "sourceWidth": 680,
+        "sourceHeight": 452
+      },
+      {
         "path": "/products/courses/e1960a1d3db09627.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2009/12/16/10000/af8804c3-7db0-4058-a0af-1711a37f4f1f.jpg",
         "facility": "[100대 골프장]ST. ANDREWS (Old Course)",
@@ -1809,7 +2978,9 @@
         "sourceHeight": 2304,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-2a359818408b": {
     "checkedAt": "2026-09-30",
@@ -1828,6 +2999,32 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/c1c4bde463f459c8.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/02/05/10000/751c3144-c9e7-4c0f-ba2f-1efda1557e70.jpg",
+        "facility": "PUEBLO BONITO PACIFICA GOLF AND SPA RESORT",
+        "caption": "PUEBLO BONITO PACIFICA GOLF AND SPA RESORT · 라운지",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2026/02/05/10000/751c3144-c9e7-4c0f-ba2f-1efda1557e70.jpg",
+        "sourceWidth": 480,
+        "sourceHeight": 300
+      },
+      {
+        "path": "/products/facilities/7ccf6a5dfa3f2313.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/02/09/10000/07e4f4c0-1928-4a37-bdfa-bc283f2f9f6c.jpg",
+        "facility": "Grand Solmar Pacific Dunes Resort, Golf & Spa",
+        "caption": "Grand Solmar Pacific Dunes Resort, Golf & Spa · 레스토랑",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2026/02/09/10000/07e4f4c0-1928-4a37-bdfa-bc283f2f9f6c.jpg",
+        "sourceWidth": 750,
+        "sourceHeight": 500
+      },
+      {
         "path": "/products/courses/1b17e39e6706d092.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2020/01/17/10000/9da9d746-5bf1-4e9d-b526-0be27f746244.jpg",
         "facility": "CABO REAL GOLF CLUB",
@@ -1839,7 +3036,9 @@
         "sourceHeight": 1500,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-d272e12586b8": {
     "checkedAt": "2026-09-30",
@@ -1858,6 +3057,19 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/77d36e5c3bfb247a.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/25/10000/fcb85242-e460-4d45-be85-6a78cac363ea.jpg",
+        "facility": "POLYNESIAN RESIDENCES WAIKIKI BEACH",
+        "caption": "POLYNESIAN RESIDENCES WAIKIKI BEACH · 객실 예시",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2025/09/25/10000/fcb85242-e460-4d45-be85-6a78cac363ea.jpg",
+        "sourceWidth": 1621,
+        "sourceHeight": 1080
+      },
+      {
         "path": "/products/courses/85d7aae7e8bc210c.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2013/07/02/10000/5399a9bf-74ef-498b-8f3e-5765567b5971.jpg",
         "facility": "WAIKELE GOLF CLUB",
@@ -1869,7 +3081,9 @@
         "sourceHeight": 480,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-7b5a6575eb7a": {
     "checkedAt": "2026-09-30",
@@ -1888,6 +3102,19 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/c99d9d43-8379-4b72-b2ad-19821827bea3.jpg",
+        "facility": "PRIME GOIF RESORT",
+        "caption": "PRIME GOIF RESORT · 객실 예시",
+        "subject": "hotel",
+        "kind": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "path": "/products/facilities/5d3787d024f8d320.webp",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2025/08/20/10000/c99d9d43-8379-4b72-b2ad-19821827bea3.jpg",
+        "sourceWidth": 1477,
+        "sourceHeight": 1108
+      },
+      {
         "path": "/products/courses/c3154f92f626ee57.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/20/10000/e2da96fb-2d15-454e-8559-3e0b2aa1f232.jpg",
         "facility": "Prime City Golf Club",
@@ -1899,7 +3126,9 @@
         "sourceHeight": 640,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-c6f0b0c36fd9": {
     "checkedAt": "2026-09-30",
@@ -1918,6 +3147,19 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/b9785016fb6b9563.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/05/13/10000/6ae92a6a-aa40-4efe-a701-4289bb3a99eb.jpg",
+        "facility": "SUNRISE LAGOON HOTEL AND GOLF",
+        "caption": "SUNRISE LAGOON HOTEL AND GOLF · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2022/05/13/10000/6ae92a6a-aa40-4efe-a701-4289bb3a99eb.jpg",
+        "sourceWidth": 3264,
+        "sourceHeight": 2448
+      },
+      {
         "path": "/products/courses/a612ded834773b36.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/05/12/10000/a965565b-5cc2-426f-a9b0-b895399d7149.jpg",
         "facility": "SUNRISE LAGOON COUNTRY CLUB",
@@ -1929,7 +3171,9 @@
         "sourceHeight": 3000,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-ee5f845d78d2": {
     "checkedAt": "2026-09-30",
@@ -1948,6 +3192,32 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/6162c7a6d5594879.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/11/24/10000/20041017-0dc1-48d0-9618-208c2b7ecbff.jpg",
+        "facility": "LEOPALACE RESORT GUAM",
+        "caption": "LEOPALACE RESORT GUAM · 수영장",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2016/11/24/10000/20041017-0dc1-48d0-9618-208c2b7ecbff.jpg",
+        "sourceWidth": 2333,
+        "sourceHeight": 1555
+      },
+      {
+        "path": "/products/facilities/9fe93e071ab38f6b.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2015/11/10/10000/cd21a9e2-222d-4e5a-b465-d98ab2ea4ed2.jpg",
+        "facility": "LEOPALACE RESORT GUAM",
+        "caption": "LEOPALACE RESORT GUAM · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2015/11/10/10000/cd21a9e2-222d-4e5a-b465-d98ab2ea4ed2.jpg",
+        "sourceWidth": 1378,
+        "sourceHeight": 1084
+      },
+      {
         "path": "/products/courses/d53029d8a4832ee5.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2015/11/10/10000/18ea641e-39c0-4f85-8a88-3a0e3cf1446e.jpg",
         "facility": "Leopalace Resort Country Club",
@@ -1959,7 +3229,9 @@
         "sourceHeight": 3744,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-73e4b8a97f10": {
     "checkedAt": "2026-09-30",
@@ -1978,6 +3250,32 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/d12aa6a5f6fdc263.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/07/19/10000/a0b491aa-4eb5-408b-b574-e1a2814c7f08.jpg",
+        "facility": "INTHANON GOLF AND NATURAL RESORT",
+        "caption": "INTHANON GOLF AND NATURAL RESORT · 객실 예시",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2024/07/19/10000/a0b491aa-4eb5-408b-b574-e1a2814c7f08.jpg",
+        "sourceWidth": 1200,
+        "sourceHeight": 900
+      },
+      {
+        "path": "/products/facilities/a77e8577c274f6fb.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/07/04/10000/c55dbe2a-393e-4c5b-898c-c873ef9c35ee.jpg",
+        "facility": "INTHANON GOLF AND NATURAL RESORT",
+        "caption": "INTHANON GOLF AND NATURAL RESORT · 숙소 전경",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2011/07/04/10000/c55dbe2a-393e-4c5b-898c-c873ef9c35ee.jpg",
+        "sourceWidth": 2640,
+        "sourceHeight": 1760
+      },
+      {
         "path": "/products/courses/4daac4bbb5cc7da5.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2010/11/08/10000/77096697-6b7d-4632-8c0c-d122e6aa4f62.jpg",
         "facility": "INTHANON GOLF & NATURAL RESORT",
@@ -1989,7 +3287,9 @@
         "sourceHeight": 1760,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-bd2c17ebe70c": {
     "checkedAt": "2026-09-30",
@@ -2008,6 +3308,19 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/fff07ced082a8416.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/07/16/30000/fe7fdc18-0812-4f0d-88d8-783c392e441d.jpg",
+        "facility": "RAYONG GREEN VALLEY C.C AND RESORT",
+        "caption": "RAYONG GREEN VALLEY C.C AND RESORT · 로비",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2025/07/16/30000/fe7fdc18-0812-4f0d-88d8-783c392e441d.jpg",
+        "sourceWidth": 4000,
+        "sourceHeight": 3000
+      },
+      {
         "path": "/products/courses/bb0e1e58fd5834d9.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2006/11/21/10000/c944848d-45f5-47d4-aa4d-71d9a6d46a89.jpg",
         "facility": "St. ANDREWS 2000",
@@ -2019,7 +3332,9 @@
         "sourceHeight": 450,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-66b15455952d": {
     "checkedAt": "2026-09-30",
@@ -2049,7 +3364,10 @@
         "sourceHeight": 1080,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류.",
+    "lodgingPhotoNote": "일정 스냅샷에 숙소 사진 카드가 없거나 확인 가능한 숙소 사진이 없음. 타 상품 사진으로 대체하지 않음."
   },
   "hana-7cb12d27edf5": {
     "checkedAt": "2026-09-30",
@@ -2066,6 +3384,32 @@
         "sourceWidth": 4992,
         "sourceHeight": 3328,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/f23a18d0203838cb.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/05/30/10000/a9867376-7375-4f90-a0bc-b8a954e0a219.jpg",
+        "facility": "MUONG THANH LUXURY VIENTIANE HOTEL",
+        "caption": "MUONG THANH LUXURY VIENTIANE HOTEL · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2017/05/30/10000/a9867376-7375-4f90-a0bc-b8a954e0a219.jpg",
+        "sourceWidth": 360,
+        "sourceHeight": 262
+      },
+      {
+        "path": "/products/facilities/1097494df24e7217.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2019/11/26/10000/3d4e72a7-bbeb-4473-9829-fbae853bb8ff.png",
+        "facility": "YOOEUN HOTEL",
+        "caption": "YOOEUN HOTEL · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2019/11/26/10000/3d4e72a7-bbeb-4473-9829-fbae853bb8ff.png",
+        "sourceWidth": 770,
+        "sourceHeight": 502
       },
       {
         "path": "/products/courses/38c195b7560255d9.webp",
@@ -2091,7 +3435,9 @@
         "sourceHeight": 2832,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-414cce9a8d57": {
     "checkedAt": "2026-09-30",
@@ -2110,6 +3456,19 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/ea129a27a6dfb10c.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2020/05/06/130000/434d079e-1398-4f1c-8b19-2d4103bbc5bc.jpg",
+        "facility": "ROYAL LOTUS HOTEL",
+        "caption": "ROYAL LOTUS HOTEL · 객실 예시",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2020/05/06/130000/434d079e-1398-4f1c-8b19-2d4103bbc5bc.jpg",
+        "sourceWidth": 1000,
+        "sourceHeight": 667
+      },
+      {
         "path": "/products/courses/b1f7811d1069d867.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2017/02/07/10000/07c3daca-c655-4b46-bc6e-e86e1e29b7ed.jpg",
         "facility": "Ba Na Hills Golf CLub",
@@ -2121,7 +3480,9 @@
         "sourceHeight": 683,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-d6291eba0f9a": {
     "checkedAt": "2026-09-30",
@@ -2151,7 +3512,10 @@
         "sourceHeight": 676,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류.",
+    "lodgingPhotoNote": "일정 스냅샷에 숙소 사진 카드가 없거나 확인 가능한 숙소 사진이 없음. 타 상품 사진으로 대체하지 않음."
   },
   "hana-882a42dace3a": {
     "checkedAt": "2026-09-30",
@@ -2168,6 +3532,32 @@
         "sourceWidth": 3000,
         "sourceHeight": 4000,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/a1ddc4a14243f862.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/11/07/10000/e16c0cd3-97ec-493e-bc9b-8da6dc1d9b0f.jpg",
+        "facility": "HONEY QUEEN PARKGOLF VILLAGE",
+        "caption": "HONEY QUEEN PARKGOLF VILLAGE · 객실 예시",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2024/11/07/10000/e16c0cd3-97ec-493e-bc9b-8da6dc1d9b0f.jpg",
+        "sourceWidth": 1280,
+        "sourceHeight": 851
+      },
+      {
+        "path": "/products/facilities/0fb0034b671bf37c.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2024/11/07/10000/2d52f835-767a-40f3-af72-88901498a64f.jpg",
+        "facility": "HONEY QUEEN PARKGOLF VILLAGE",
+        "caption": "HONEY QUEEN PARKGOLF VILLAGE · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2024/11/07/10000/2d52f835-767a-40f3-af72-88901498a64f.jpg",
+        "sourceWidth": 3000,
+        "sourceHeight": 4000
       },
       {
         "path": "/products/courses/1b41685306df3586.webp",
@@ -2193,7 +3583,9 @@
         "sourceHeight": 900,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-798240f4c4cb": {
     "checkedAt": "2026-09-30",
@@ -2210,6 +3602,32 @@
         "sourceWidth": 4032,
         "sourceHeight": 3024,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/0cd96192603cc1b0.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/31/270000/2376a64f-e3f6-44e2-b447-69c487a82081.jpg",
+        "facility": "Jacki Park Golf & Resort",
+        "caption": "Jacki Park Golf & Resort · 숙소 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2025/08/31/270000/2376a64f-e3f6-44e2-b447-69c487a82081.jpg",
+        "sourceWidth": 1500,
+        "sourceHeight": 1125
+      },
+      {
+        "path": "/products/facilities/d3575586bb6116ed.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/31/270000/8838f0c9-8cec-427f-8637-98bada228b9b.jpg",
+        "facility": "Jacki Park Golf & Resort",
+        "caption": "Jacki Park Golf & Resort · 숙소 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2025/08/31/270000/8838f0c9-8cec-427f-8637-98bada228b9b.jpg",
+        "sourceWidth": 1500,
+        "sourceHeight": 1125
       },
       {
         "path": "/products/courses/f0bee91b4912b640.webp",
@@ -2235,14 +3653,45 @@
         "sourceHeight": 3024,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-52c2e708f5ea": {
     "checkedAt": "2026-09-30",
     "sourceUrl": "https://cp.hanatour.com/trp/pkg/CHPC0PKG0200M200?pkgCd=JNG109261104OZP&prePage=major-products",
-    "photos": [],
+    "photos": [
+      {
+        "path": "/products/facilities/5ff7e95df9c2f516.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2008/11/20/10000/9544f985-606a-48cd-b1f9-bab1b82f02d4.jpg",
+        "facility": "ANA Holiday Inn Resort Miyazaki",
+        "caption": "ANA Holiday Inn Resort Miyazaki · 숙소 전경",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2008/11/20/10000/9544f985-606a-48cd-b1f9-bab1b82f02d4.jpg",
+        "sourceWidth": 600,
+        "sourceHeight": 450
+      },
+      {
+        "path": "/products/facilities/f9cac7ff6ad32442.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2008/11/20/10000/c2b35554-4976-4cf4-ac5d-4764b00532f2.jpg",
+        "facility": "ANA Holiday Inn Resort Miyazaki",
+        "caption": "ANA Holiday Inn Resort Miyazaki · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2008/11/20/10000/c2b35554-4976-4cf4-ac5d-4764b00532f2.jpg",
+        "sourceWidth": 600,
+        "sourceHeight": 450
+      }
+    ],
     "photoPending": true,
-    "reason": "일치하는 코스·클럽하우스 사진의 해상도 또는 시설 정보 확인 필요"
+    "reason": "일치하는 코스·클럽하우스 사진의 해상도 또는 시설 정보 확인 필요",
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-bb5cdbc72a86": {
     "checkedAt": "2026-09-30",
@@ -2261,6 +3710,32 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/25a72c57fc0cadcb.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/07/25/10000/c4151fa0-9c37-4a06-86d3-2220415cc47f.jpg",
+        "facility": "Selectum Noa Resort Cam Ranh",
+        "caption": "Selectum Noa Resort Cam Ranh · 외관·수영장",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2022/07/25/10000/c4151fa0-9c37-4a06-86d3-2220415cc47f.jpg",
+        "sourceWidth": 1000,
+        "sourceHeight": 563
+      },
+      {
+        "path": "/products/facilities/0d3bcd83b3cccca1.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/07/25/10000/33afb351-1492-49a0-9fef-557c69e39b7c.jpg",
+        "facility": "Selectum Noa Resort Cam Ranh",
+        "caption": "Selectum Noa Resort Cam Ranh · 워터슬라이드",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2022/07/25/10000/33afb351-1492-49a0-9fef-557c69e39b7c.jpg",
+        "sourceWidth": 1000,
+        "sourceHeight": 667
+      },
+      {
         "path": "/products/courses/630ebe2b3d5754f9.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/09/17/10000/babd3a66-6b73-4d5d-83a2-160f874e27c5.jpg",
         "facility": "Selectum Noa Resort Park Golf Course",
@@ -2272,21 +3747,94 @@
         "sourceHeight": 2252,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-d478236041b1": {
     "checkedAt": "2026-09-30",
     "sourceUrl": "https://cp.hanatour.com/trp/pkg/CHPC0PKG0200M200?pkgCd=JKG400261104P01&prePage=major-products",
-    "photos": [],
+    "photos": [
+      {
+        "path": "/products/facilities/1f2acd7db4a2e576.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/03/21/10000/95e7af6b-091a-4730-b3af-43603a10a110.jpg",
+        "facility": "Hotel Sekia",
+        "caption": "Hotel Sekia · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2011/03/21/10000/95e7af6b-091a-4730-b3af-43603a10a110.jpg",
+        "sourceWidth": 3888,
+        "sourceHeight": 2592
+      },
+      {
+        "path": "/products/facilities/23c731b9d0739dbe.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/03/18/10000/cf1a18cd-710c-43df-b1b5-f161b485517c.jpg",
+        "facility": "Hotel Sekia",
+        "caption": "Hotel Sekia · 객실 예시",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2016/03/18/10000/cf1a18cd-710c-43df-b1b5-f161b485517c.jpg",
+        "sourceWidth": 1500,
+        "sourceHeight": 992
+      }
+    ],
     "photoPending": true,
-    "reason": "일치하는 코스·클럽하우스 사진의 해상도 또는 시설 정보 확인 필요"
+    "reason": "일치하는 코스·클럽하우스 사진의 해상도 또는 시설 정보 확인 필요",
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-b08c688159c9": {
     "checkedAt": "2026-09-30",
     "sourceUrl": "https://cp.hanatour.com/trp/pkg/CHPC0PKG0200M200?pkgCd=JKG401261104CR1&prePage=major-products",
-    "photos": [],
+    "photos": [
+      {
+        "path": "/products/facilities/1f2acd7db4a2e576.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2011/03/21/10000/95e7af6b-091a-4730-b3af-43603a10a110.jpg",
+        "facility": "Hotel Sekia",
+        "caption": "Hotel Sekia · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2011/03/21/10000/95e7af6b-091a-4730-b3af-43603a10a110.jpg",
+        "sourceWidth": 3888,
+        "sourceHeight": 2592
+      },
+      {
+        "path": "/products/facilities/23c731b9d0739dbe.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2016/03/18/10000/cf1a18cd-710c-43df-b1b5-f161b485517c.jpg",
+        "facility": "Hotel Sekia",
+        "caption": "Hotel Sekia · 객실 예시",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2016/03/18/10000/cf1a18cd-710c-43df-b1b5-f161b485517c.jpg",
+        "sourceWidth": 1500,
+        "sourceHeight": 992
+      },
+      {
+        "path": "/products/facilities/05f01a3b38c58630.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/800_0/2007/06/22/10000/d55237d6-95a4-46d1-ad75-8b6b10209c7e.jpg",
+        "facility": "스마일 호텔 하카타",
+        "caption": "스마일 호텔 하카타 · 외관",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2007/06/22/10000/d55237d6-95a4-46d1-ad75-8b6b10209c7e.jpg",
+        "sourceWidth": 234,
+        "sourceHeight": 220
+      }
+    ],
     "photoPending": true,
-    "reason": "일치하는 코스·클럽하우스 사진의 해상도 또는 시설 정보 확인 필요"
+    "reason": "일치하는 코스·클럽하우스 사진의 해상도 또는 시설 정보 확인 필요",
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-45383264bd16": {
     "checkedAt": "2026-09-30",
@@ -2305,6 +3853,19 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/cb112aed7170416d.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/11/29/50000/01dc785b-c9d8-4a92-8fc1-88a5cea82ce5.jpg",
+        "facility": "AMBASSADOR HOTEL BANGKOK",
+        "caption": "AMBASSADOR HOTEL BANGKOK · 외관·수영장",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2025/11/29/50000/01dc785b-c9d8-4a92-8fc1-88a5cea82ce5.jpg",
+        "sourceWidth": 4000,
+        "sourceHeight": 3000
+      },
+      {
         "path": "/products/courses/78a14588703fd251.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2021/11/22/10000/af0fd5e8-437b-4c34-a0df-18cf46664a1e.jpg",
         "facility": "Pine Hurst Golf&Country Club",
@@ -2316,7 +3877,9 @@
         "sourceHeight": 960,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-028ca29bbf44": {
     "checkedAt": "2026-09-30",
@@ -2333,6 +3896,19 @@
         "sourceWidth": 800,
         "sourceHeight": 534,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/b7e94aa7f3d930d7.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2020/04/05/590000/36f767cf-1ff5-4ff6-b2a0-6a14a2c27254.jpg",
+        "facility": "Hotel Torifito Naha Asahibashi",
+        "caption": "Hotel Torifito Naha Asahibashi · 로비",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2020/04/05/590000/36f767cf-1ff5-4ff6-b2a0-6a14a2c27254.jpg",
+        "sourceWidth": 1000,
+        "sourceHeight": 625
       },
       {
         "path": "/products/courses/dc60f22c54634691.webp",
@@ -2358,7 +3934,9 @@
         "sourceHeight": 532,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-f6b18d8b6db0": {
     "checkedAt": "2026-09-30",
@@ -2375,6 +3953,32 @@
         "sourceWidth": 1994,
         "sourceHeight": 1078,
         "reviewedAt": "2026-09-30"
+      },
+      {
+        "path": "/products/facilities/c43fc900f1a4305d.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/08/08/10000/39b9b6cd-8de6-4748-8979-1af829b89fd8.jpg",
+        "facility": "Joyze Hotel Xiamen, Curio Collection by Hilton",
+        "caption": "Joyze Hotel Xiamen, Curio Collection by Hilton · 수영장",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2026/08/08/10000/39b9b6cd-8de6-4748-8979-1af829b89fd8.jpg",
+        "sourceWidth": 1295,
+        "sourceHeight": 857
+      },
+      {
+        "path": "/products/facilities/61445b55da7efc2d.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2026/08/08/10000/0d5b753c-3749-460f-bfdc-a8e6152610d5.jpg",
+        "facility": "HUALUXE Xiamen Haicang Harbour View by IHG",
+        "caption": "HUALUXE Xiamen Haicang Harbour View by IHG · 피트니스 시설",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2026/08/08/10000/0d5b753c-3749-460f-bfdc-a8e6152610d5.jpg",
+        "sourceWidth": 1538,
+        "sourceHeight": 848
       },
       {
         "path": "/products/courses/fa163fa488a9cb63.webp",
@@ -2400,7 +4004,9 @@
         "sourceHeight": 647,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-15fb867acf04": {
     "checkedAt": "2026-09-30",
@@ -2419,6 +4025,19 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/4d09fc6cffb98956.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2022/05/11/10000/f3ed765d-e03f-4d92-8fe9-5318c5dcc1c1.jpg",
+        "facility": "S2 MODERN BOUTIQUE HOTEL",
+        "caption": "S2 MODERN BOUTIQUE HOTEL · 레스토랑",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2022/05/11/10000/f3ed765d-e03f-4d92-8fe9-5318c5dcc1c1.jpg",
+        "sourceWidth": 4798,
+        "sourceHeight": 3193
+      },
+      {
         "path": "/products/courses/0829c8c004c79a5d.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/06/30/10000/68713a22-9610-4b00-a3dd-5d83263e9bdf.jpg",
         "facility": "LAO COUNTRY CLUB",
@@ -2430,7 +4049,9 @@
         "sourceHeight": 2252,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-fd773d89f0c6": {
     "checkedAt": "2026-09-30",
@@ -2449,6 +4070,32 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/bef2c82af8d4402a.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/11/01/10000/23f3eed5-3257-4b4e-ada4-db840ff9d69c.jpg",
+        "facility": "The Empyrean Cam Ranh Beach Resort",
+        "caption": "The Empyrean Cam Ranh Beach Resort · 외관·수영장",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2023/11/01/10000/23f3eed5-3257-4b4e-ada4-db840ff9d69c.jpg",
+        "sourceWidth": 5472,
+        "sourceHeight": 3648
+      },
+      {
+        "path": "/products/facilities/6584a6a52d353966.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/11/01/10000/b3f746e0-f98b-4d3c-bbed-e01864fd8adb.jpg",
+        "facility": "The Empyrean Cam Ranh Beach Resort",
+        "caption": "The Empyrean Cam Ranh Beach Resort · 객실 예시",
+        "kind": "hotel",
+        "subject": "hotel",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2023/11/01/10000/b3f746e0-f98b-4d3c-bbed-e01864fd8adb.jpg",
+        "sourceWidth": 5553,
+        "sourceHeight": 3702
+      },
+      {
         "path": "/products/courses/609dec455e58e17c.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/01/13/10000/d4bccaa1-2559-4e08-bec1-cbd2f776b047.jpg",
         "facility": "ANARA BINHTIEN GOLF CLUB",
@@ -2460,7 +4107,9 @@
         "sourceHeight": 1673,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   },
   "hana-00c99bfabd4e": {
     "checkedAt": "2026-09-30",
@@ -2490,7 +4139,10 @@
         "sourceHeight": 654,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류.",
+    "lodgingPhotoNote": "일정 스냅샷에 숙소 사진 카드가 없거나 확인 가능한 숙소 사진이 없음. 타 상품 사진으로 대체하지 않음."
   },
   "hana-5df4eb8d7864": {
     "checkedAt": "2026-09-30",
@@ -2509,6 +4161,19 @@
         "reviewedAt": "2026-09-30"
       },
       {
+        "path": "/products/facilities/ed9e87fdfd00b79e.webp",
+        "src": "https://image.hanatour.com/usr/cms/resize/400_0/2023/09/26/10000/69250478-2a30-442b-a2c2-b6c75e8fee8e.jpg",
+        "facility": "CENTRAL HOTEL IMARI",
+        "caption": "CENTRAL HOTEL IMARI · 대욕장",
+        "kind": "hotel",
+        "subject": "facility",
+        "reviewedAt": "2026-09-30",
+        "selectionReason": "상품 원본의 동일 시설 사진을 육안 대조. 대표 코스 사진 다음에 숙소·시설 안내로 배치.",
+        "originalUrl": "https://image.hanatour.com/usr/cms/resize/0_0/2023/09/26/10000/69250478-2a30-442b-a2c2-b6c75e8fee8e.jpg",
+        "sourceWidth": 1160,
+        "sourceHeight": 586
+      },
+      {
         "path": "/products/courses/63a68994abe2b80c.webp",
         "src": "https://image.hanatour.com/usr/cms/resize/400_0/2025/08/06/10000/7f764e3a-3b87-48f7-8622-fb4df1771566.png",
         "facility": "TENZAN COUNTRY CLUB",
@@ -2520,6 +4185,8 @@
         "sourceHeight": 702,
         "reviewedAt": "2026-09-30"
       }
-    ]
+    ],
+    "galleryReviewedAt": "2026-09-30",
+    "galleryOrder": "대표 코스 → 숙소·객실·시설 → 추가 코스. 대표 코스 미확인 시 첫 칸만 보류."
   }
 }
