@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { track } from "@/lib/analytics";
+import { deliverQuote } from "@/lib/quote-delivery";
 import { site } from "@/data/site";
 import DestinationRegionChoices from "@/components/DestinationRegionChoices";
 import { destinations, validDestinationRegion } from "@/data/destinations";
@@ -247,26 +248,16 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
     if (attemptRef.current?.fingerprint === fingerprint) payload.접수번호 = attemptRef.current.no;
     else attemptRef.current = { fingerprint, no };
     const reference = payload.접수번호;
-    // 정적 호스팅(GitHub Pages): FormSubmit 릴레이로 운영자 메일 전달.
-    // 해시 엔드포인트 사용: 소스에 이메일이 노출되지 않아 스팸봇 수집 방지 (goltimjang@gmail.com 수신)
     const subject = `[에스티골프투어 견적 ${reference}] ${payload.type} · ${payload["지역"]} · ${name.trim()}님 (${people}명)`;
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 20000);
     try {
-      const res = await fetch("https://formsubmit.co/ajax/dea690313c66c8f0af9faeae39e6b6dc", {
-        method: "POST",
+      await deliverQuote({
+        subject,
+        email: cleanEmail,
+        payload: { ...payload, 접수시각: new Date().toLocaleString("ko-KR") },
         signal: controller.signal,
-        headers: { "Content-Type": "application/json", Accept: "application/json" },
-        body: JSON.stringify({
-          _subject: subject,
-          _template: "table",
-          ...(cleanEmail ? { _replyto: cleanEmail } : {}),
-          ...payload,
-          접수시각: new Date().toLocaleString("ko-KR"),
-        }),
       });
-      const result = await res.json();
-      if (!res.ok || ![true, "true"].includes(result?.success)) throw new Error("send failed");
       track("quote_submit_success", { kind: type, product_id: product?.id ?? inquiryProduct?.id ?? "custom" });
       setTicket(reference);
       try {
