@@ -56,12 +56,10 @@ const invalid = client('https://other.example/f/x', () => { throw new Error('Sho
 await assert.rejects(invalid.send(request));
 assert.equal(invalid.calls.length, 0);
 count++;
-for (const success of [true, 'true', false]) {
-  const legacy = client('', () => json({ success }));
-  if (success) await legacy.send(request);
-  else await assert.rejects(legacy.send(request));
-  assert.match(legacy.calls[0].url, /^https:\/\/formsubmit\.co\/ajax\//);
-  assert.equal(JSON.parse(legacy.calls[0].options.body)._subject, request.subject);
+for (const id of ['', undefined]) {
+  const configured = client(id, () => json({ ok: true }));
+  await configured.send(request);
+  assert.equal(configured.calls[0].url, 'https://formspree.io/f/xnpnrzgv');
   count++;
 }
 console.log(`PASS: ${count} offline quote delivery checks. Live receipt and email delivery remain separate checks.`);

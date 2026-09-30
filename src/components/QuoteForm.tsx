@@ -484,9 +484,12 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
                 · 수집 목적: 골프투어 견적 상담 및 회신 (견적서 전달을 위한 전화·카카오톡·문자 발송 포함)
                 <br />· 수집 항목: 이름, 연락처, 이메일(선택), 여행 조건(지역·날짜·인원 등)
                 <br />· 보유 기간: 상담 완료 후 1년, 경과 시 지체 없이 파기
+                <br />· 접수 처리: Formspree, Inc.를 통해 요청 내용을 저장하고 담당자에게 이메일로 전달합니다. 미국 등 해외에서 처리될 수 있습니다.
                 <br />· 동의를 거부하실 수 있으나, 거부 시 견적 회신이 불가합니다.
+                {" "}<a href="/privacy/#quote-processing" target="_blank" rel="noopener noreferrer" className="underline text-royal">접수 처리 상세 안내</a>
               </div>
             )}
+            <p className="mt-2 text-xs leading-relaxed text-mute">온라인 접수는 Formspree를 통해 처리됩니다. <a href="/privacy/#quote-processing" target="_blank" rel="noopener noreferrer" className="underline">처리·보관 안내</a></p>
           </div>
 
           {error && <div className="rounded-xl border border-red-200 bg-red-50 p-4 space-y-3">

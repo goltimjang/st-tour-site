@@ -45,15 +45,28 @@ export default function PrivacyPage() {
             계약 진행 시 별도로 안내합니다.
           </p>
         </div>
+        <div id="quote-processing" className="scroll-mt-24">
+          <h2 className="headline text-lg mb-2">4. 온라인 견적 접수 처리</h2>
+          <p>온라인 견적 요청은 Formspree, Inc.의 접수 서비스를 이용하여 저장하고 회사의 담당자 이메일로 전달합니다.</p>
+          <ul className="list-disc pl-5 mt-2 space-y-1">
+            <li><strong>처리 업체</strong>: Formspree, Inc. (문의: team@formspree.io)</li>
+            <li><strong>처리 항목·목적</strong>: 이름, 전화번호, 이메일(입력한 경우), 여행 조건, 요청사항, 접수번호·시각을 견적 접수 저장 및 담당자 알림에 사용합니다. 서비스 운영·스팸 방지를 위해 IP 주소와 브라우저 정보 등이 처리될 수 있습니다.</li>
+            <li><strong>전송 시점·방법</strong>: 고객이 견적 요청 버튼을 누르면 암호화된 인터넷 연결로 전송됩니다.</li>
+            <li><strong>처리 국가</strong>: Formspree의 안내에 따라 미국 및 서비스 운영 국가에서 처리될 수 있습니다.</li>
+            <li><strong>보관</strong>: 회사의 상담 자료는 위 보유 기간에 따라 관리합니다. 접수 서비스의 별도 보관·삭제 기준은 아래 Formspree 개인정보처리방침을 따릅니다. 관리 화면에서 조회 가능한 기간과 실제 삭제 시점은 다를 수 있습니다.</li>
+          </ul>
+          <p className="mt-3">온라인 접수 서비스 이용을 원하지 않으시면 <a href={`tel:${site.phone}`} className="underline">{site.phone}</a>으로 전화 상담을 요청하실 수 있습니다. 접수 자료의 열람·삭제 요청도 회사 대표전화로 접수합니다.</p>
+          <p className="mt-2"><a href="https://formspree.io/legal/privacy-policy/" target="_blank" rel="noopener noreferrer" className="underline text-royal">Formspree 개인정보처리방침</a></p>
+        </div>
         <div>
-          <h2 className="headline text-lg mb-2">4. 이용자의 권리</h2>
+          <h2 className="headline text-lg mb-2">5. 이용자의 권리</h2>
           <p>
             이용자는 언제든지 자신의 개인정보에 대한 열람·정정·삭제·처리정지를 요구할 수 있습니다. 요청은 대표전화
             ({site.phone})로 연락 주시면 지체 없이 처리합니다.
           </p>
         </div>
         <div>
-          <h2 className="headline text-lg mb-2">5. 개인정보 보호책임자</h2>
+          <h2 className="headline text-lg mb-2">6. 개인정보 보호책임자</h2>
           <p>
             보호책임자: {site.company.ceo} (대표) · 연락처: {site.phone}
             <br />
