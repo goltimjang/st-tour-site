@@ -66,6 +66,9 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
   const [done, setDone] = useState(false);
   const [sending, setSending] = useState(false);
   const [error, setError] = useState("");
+  const [failedRequest, setFailedRequest] = useState<{ subject: string; body: string } | null>(null);
+  const [copyStatus, setCopyStatus] = useState("");
+  const attemptRef = useRef<{ fingerprint: string; no: string } | null>(null);
 
   // Step 1
   const [regions, setRegions] = useState<string[]>(prefillRegion ? [prefillRegion] : []);
@@ -193,7 +196,8 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
     ? regions.length > 0 && whenLabel && people >= PEOPLE_MIN
     : country && whenLabel && people >= PEOPLE_MIN;
   const phoneOk = /^0\d{8,10}$/.test(phone.replace(/[\s()-]/g, ""));
-  const emailOk = !email || /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  const cleanEmail = email.trim();
+  const emailOk = !cleanEmail || /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(cleanEmail);
   const step3Ok = Boolean(step1Ok) && name.trim().length >= 1 && phoneOk && emailOk && agree;
 
   const destinationLabel = isDom ? regions.join(", ") : [country, area].filter(Boolean).join(" · ");
@@ -214,6 +218,8 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
     sendingRef.current = true;
     setSending(true);
     setError("");
+    setFailedRequest(null);
+    setCopyStatus("");
     const now = new Date();
     const no = `ST-${String(now.getFullYear()).slice(2)}${String(now.getMonth() + 1).padStart(2, "0")}${String(now.getDate()).padStart(2, "0")}-${String(Math.floor(Math.random() * 9000) + 1000)}`;
     const payload = {
@@ -232,13 +238,18 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
       예산: budget || "미정",
       선호골프장: course || "없음(추천 요청)",
       요청사항: memo || "-",
-      이름: name,
-      연락처: phone,
-      이메일: email || "-",
+      이름: name.trim(),
+      연락처: phone.replace(/[\s()-]/g, ""),
+      이메일: cleanEmail || "-",
     };
+    // 동일 내용을 재시도하면 같은 참조번호를 유지해 운영자가 중복 여부를 확인할 수 있다.
+    const fingerprint = JSON.stringify({ ...payload, 접수번호: "" });
+    if (attemptRef.current?.fingerprint === fingerprint) payload.접수번호 = attemptRef.current.no;
+    else attemptRef.current = { fingerprint, no };
+    const reference = payload.접수번호;
     // 정적 호스팅(GitHub Pages): FormSubmit 릴레이로 운영자 메일 전달.
     // 해시 엔드포인트 사용: 소스에 이메일이 노출되지 않아 스팸봇 수집 방지 (goltimjang@gmail.com 수신)
-    const subject = `[에스티골프투어 견적 ${no}] ${payload.type} · ${payload["지역"]} · ${name}님 (${people}명)`;
+    const subject = `[에스티골프투어 견적 ${reference}] ${payload.type} · ${payload["지역"]} · ${name.trim()}님 (${people}명)`;
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 20000);
     try {
@@ -249,7 +260,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
         body: JSON.stringify({
           _subject: subject,
           _template: "table",
-          ...(email ? { _replyto: email } : {}),
+          ...(cleanEmail ? { _replyto: cleanEmail } : {}),
           ...payload,
           접수시각: new Date().toLocaleString("ko-KR"),
         }),
@@ -257,7 +268,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
       const result = await res.json();
       if (!res.ok || ![true, "true"].includes(result?.success)) throw new Error("send failed");
       track("quote_submit_success", { kind: type, product_id: product?.id ?? inquiryProduct?.id ?? "custom" });
-      setTicket(no);
+      setTicket(reference);
       try {
         localStorage.removeItem(draftKey);
         localStorage.removeItem("st-picked");
@@ -266,7 +277,11 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
       requestAnimationFrame(() => { boxRef.current?.scrollIntoView({ behavior: "instant", block: "start" }); boxRef.current?.focus({ preventScroll: true }); });
     } catch {
       track("quote_submit_error", { kind: type });
-      setError(`접수 여부를 확인하지 못했습니다. 중복 요청이 걱정되시면 전화로 먼저 확인해 주세요. 잠시 후 다시 시도하시거나, 지금 바로 전화(${site.phone})로 문의해 주세요.`);
+      setFailedRequest({
+        subject,
+        body: ["[에스티골프투어 견적 요청]", "온라인 접수 확인 전입니다. 아래 참조번호로 중복 여부를 확인해 주세요.", ...Object.entries(payload).map(([key, value]) => `${key === "접수번호" ? "요청 참조번호" : key}: ${value}`)].join("\n"),
+      });
+      setError("접수 여부를 확인하지 못했습니다. 입력 내용은 이 화면에 남아 있습니다. 아래 내용을 복사해 카카오톡으로 보내거나 이메일·전화로 전달해 주세요.");
     } finally {
       clearTimeout(timeout);
       sendingRef.current = false;
@@ -483,7 +498,24 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
             )}
           </div>
 
-          {error && <p className="text-[15px] font-semibold text-red-600" role="alert">{error}</p>}
+          {error && <div className="rounded-xl border border-red-200 bg-red-50 p-4 space-y-3">
+            <p className="text-[15px] font-semibold text-red-700" role="alert">{error}</p>
+            {failedRequest && <>
+              <label className="block text-sm font-semibold" htmlFor="quote-recovery">전달할 견적 요청 내용</label>
+              <textarea id="quote-recovery" readOnly className="field min-h-[160px] !text-sm bg-white" value={failedRequest.body} />
+              <div className="grid sm:grid-cols-2 gap-2">
+                <button type="button" className="btn btn-royal" onClick={async () => {
+                  try { await navigator.clipboard.writeText(failedRequest.body); setCopyStatus("복사했습니다. 카카오톡 상담에 붙여넣어 보내주세요."); }
+                  catch { setCopyStatus("자동 복사가 지원되지 않습니다. 위 입력창의 내용을 길게 눌러 선택하고 복사해 주세요."); }
+                }}>견적 내용 복사</button>
+                {site.kakaoUrl && <a href={site.kakaoUrl} target="_blank" rel="noopener noreferrer" className="btn btn-light">카카오톡으로 전달</a>}
+                <a className="btn btn-light" href={`mailto:${site.email}?subject=${encodeURIComponent(failedRequest.subject)}&body=${encodeURIComponent(failedRequest.body)}`}>메일 앱으로 보내기</a>
+                <a className="btn btn-light" href={site.phoneHref}>전화로 문의</a>
+              </div>
+              <p className="text-sm" role="status">{copyStatus || "내용 복사나 메일 앱 열기만으로는 전송되지 않습니다. 열린 대화창이나 메일 앱에서 보내기를 눌러주세요."}</p>
+              <p className="text-xs text-mute">메일 수신 주소: {site.email} · 중복 접수가 걱정되시면 요청 참조번호로 먼저 문의해 주세요.</p>
+            </>}
+          </div>}
 
           <div className="flex gap-3">
             <BackBtn onClick={() => goStep(1)} />
