@@ -5,7 +5,7 @@ import { site } from "@/data/site";
 import { faqs } from "@/data/faq";
 import { catalogCountries } from "@/data/catalog";
 import { publishedProducts } from "@/data/products";
-import AutoCarousel from "@/components/AutoCarousel";
+import CountryProductCarousel from "@/components/CountryProductCarousel";
 import FestivalProductCard from "@/components/FestivalProductCard";
 import BookingImage from "@/components/BookingImage";
 import { bookingCourses } from "@/data/booking-courses";
@@ -18,11 +18,13 @@ import { webPageLd } from "@/data/jsonld";
 
 export const metadata: Metadata = { title: "해외 골프여행 상품·맞춤 견적 | 에스티골프투어", description: "베트남 하노이·다낭, 태국, 일본, 중국, 괌 등 해외 골프여행 상품을 지역·출발지별로 비교하세요. 골프텔·다색골프·파크골프와 무료 맞춤 견적 상담.", alternates: { canonical: "/" } };
 const homeFaqs = faqs.filter((f) => /미정|어떻게 받|비용이 드|2명이|취소/.test(f.q));
-const featuredProducts = ["베트남", "태국", "일본", "중국", "필리핀"].flatMap(country => {
-  const items = publishedProducts.filter(p => p.country === country && p.slug !== "royalcc-festival-2026");
-  const best = items.find(p => !p.photoPending && !p.quoteNotice) ?? items.find(p => !p.photoPending) ?? items[0];
-  return best ? [best] : [];
-});
+const countryRows = [
+  { name: "베트남", slug: "vietnam", description: "하노이부터 다낭, 나트랑까지", products: ["hana-b1557629f0e5", "hana-912f5b4e8824"], festival: true },
+  { name: "태국", slug: "thailand", description: "방콕·파타야·치앙마이에서 즐기는 라운드", products: ["hana-cd8cbf27d594", "hana-bf3c78d5f18c", "hana-7a170301d0df"] },
+  { name: "일본", slug: "japan", description: "미야자키·가고시마·오키나와 골프여행", products: ["hana-67b49d0d8a63", "hana-f2c173f5369f", "hana-a358573bdc29"] },
+  { name: "중국", slug: "china", description: "칭다오·샤먼·하이난의 다양한 코스", products: ["hana-3de70b2e8f8e", "hana-d9ec5178e945", "hana-113dba734e28"] },
+  { name: "필리핀", slug: "philippines", description: "클락 골프텔부터 여러 코스를 도는 여행까지", products: ["hana-89ed0db8b937", "hana-2ca11e342bc8", "hana-1cde89363822"] },
+].map(row => ({ ...row, items: row.products.map(slug => publishedProducts.find(p => p.slug === slug && p.country === row.name && !p.photoPending)).filter(p => p !== undefined) }));
 export default function Home() {
   return <>
     <FestivalPopup />
@@ -42,11 +44,16 @@ export default function Home() {
       <CountryCarousel countries={catalogCountries.map(c => ({ slug: c.slug, name: c.name, image: c.image, count: c.products.length }))} />
     </section>
 
-    <section className="mx-auto max-w-6xl px-5 py-9 sm:py-12">
-      <div className="flex flex-wrap justify-between items-end gap-4 mb-6"><div><p className="eyebrow text-golddeep mb-2">먼저 살펴보는 골프여행</p><h2 className="headline text-2xl sm:text-3xl">다섯 나라, 나에게 맞는 골프여행</h2></div><Link href="/products/" className="font-semibold text-royaldark py-2">전체 상품 비교하기 →</Link></div>
-      <AutoCarousel label="추천 골프여행 상품"><FestivalProductCard />{featuredProducts.map(p => <ProductCard key={p.slug} product={p} />)}</AutoCarousel>
-      <p className="text-xs sm:text-sm text-mute mt-5">로얄CC 클럽 페스티벌은 왕복 항공 포함 행사입니다. 그 외 상품은 항공 제외 기준이며, 포함사항과 최종 금액은 각 상세페이지와 견적에서 확인해주세요.</p>
-    </section>
+    <div className="home-country-tours mx-auto max-w-6xl px-5 pt-4 pb-10 sm:pb-14">
+      {countryRows.map(row => <section key={row.slug} className="home-country-row" aria-labelledby={`tour-${row.slug}`}>
+        <div className="home-country-heading"><div><h2 id={`tour-${row.slug}`} className="headline text-2xl sm:text-3xl">{row.name} 골프투어</h2><p className="text-sm sm:text-base text-mute mt-2">{row.description}</p></div><Link href={`/products/country/${row.slug}/`} className="home-country-more">{row.name} 전체 보기 <span aria-hidden="true">↗</span></Link></div>
+        <CountryProductCarousel label={`${row.name} 골프투어`}>
+          {row.festival && <FestivalProductCard />}
+          {row.items.map(p => <ProductCard key={p.slug} product={p} />)}
+        </CountryProductCarousel>
+        {row.festival && <p className="text-xs text-mute mt-3 leading-relaxed">로얄CC 페스티벌은 왕복 항공 포함 행사입니다. 일반 상품은 항공 제외 기준이며 최종 조건은 상세페이지와 견적에서 확인해주세요.</p>}
+      </section>)}
+    </div>
 
     <section className="mx-auto max-w-6xl px-5 pb-10"><Link href="/booking/fourseven-geumgang/" className="group grid sm:grid-cols-[.8fr_1fr] overflow-hidden rounded-3xl bg-[#edf3eb]"><div className="relative min-h-52 sm:min-h-64"><BookingImage src={bookingCourses[0].photos[0].src} alt={bookingCourses[0].photos[0].caption} fill sizes="(max-width: 639px) 100vw, 500px" className="object-cover transition-transform duration-500 group-hover:scale-105" /></div><div className="p-6 sm:p-8 self-center"><p className="eyebrow text-[#315d42] mb-2">새롭게 만나는 할인부킹</p><h2 className="headline text-2xl sm:text-3xl">포세븐 금강CC,<br />내 날짜의 할인 금액은?</h2><p className="text-mute text-sm mt-4">일반 예약보다 부담을 낮출 수 있는 할인 혜택.<br />원하는 날짜와 희망 부를 남겨주세요.</p><span className="btn bg-[#315d42] text-white mt-5">가능 여부 · 할인 금액 문의 →</span></div></Link></section>
 

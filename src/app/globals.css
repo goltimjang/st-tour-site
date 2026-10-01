@@ -424,3 +424,37 @@ body:has(.festival-dialog[open]) .contact-bar { display: none; }
 .auto-rail-posters { grid-auto-columns: 230px; }
 @media (max-width: 1023px) { .auto-rail-cards { grid-auto-columns: calc((100% - 20px) / 2); } }
 @media (max-width: 639px) { .auto-rail-cards, .auto-rail-photos { grid-auto-columns: 86%; } .auto-rail-posters { grid-auto-columns: 200px; } }
+
+/* Home country shelves: three readable cards, a gentle rightward loop. */
+.home-country-row { padding: 32px 0; border-top: 1px solid var(--color-line); }
+.home-country-heading { display: flex; align-items: center; justify-content: space-between; gap: 20px; margin-bottom: 22px; }
+.home-country-more { display: inline-flex; align-items: center; gap: 10px; flex-shrink: 0; min-height: 44px; font-size: 14px; font-weight: 700; color: var(--color-golddeep); }
+.home-country-more span { font-size: 22px; }
+.country-products-viewport { overflow-x: auto; overscroll-behavior-x: contain; padding: 5px 0 12px; border-radius: 16px; }
+.country-products-viewport.is-ready { overflow: hidden; }
+.country-products-track { display: flex; margin-left: -20px; touch-action: pan-y pinch-zoom; }
+.country-products-slide { flex: 0 0 calc(100% / 3); min-width: 0; padding-left: 20px; }
+.country-products-slide > article { height: 100%; }
+.country-products .product-card > a { aspect-ratio: 16 / 10; }
+.country-products .product-card h3 { min-height: 2.6em; }
+.country-products .product-card { box-shadow: 0 3px 10px #06143e05; }
+.country-products-controls { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 6px; }
+.country-products-position { font-size: 14px; font-weight: 700; font-variant-numeric: tabular-nums; color: var(--color-navy); }
+.country-products-position > span { color: var(--color-mute); font-weight: 400; }
+.country-products-dots { display: flex; gap: 5px; }
+.country-products-dots > span { width: 6px; height: 6px; border-radius: 9px; background: var(--color-line); transition: width .4s ease, background .4s ease; }
+.country-products-dots > .is-current { width: 24px; background: var(--color-golddeep); }
+.country-products-control { min-width: 44px; height: 44px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; border: 1px solid var(--color-line); border-radius: 50%; background: white; color: var(--color-navy); transition: background .2s ease, border-color .2s ease; cursor: pointer; }
+.country-products-control:hover { background: #e8efe7; border-color: var(--color-golddeep); }
+.country-products-pause { padding: 0 14px; border-radius: 24px; font-size: 12px; font-weight: 600; white-space: nowrap; }
+@media (max-width: 1023px) { .country-products-slide { flex-basis: 50%; } }
+@media (max-width: 639px) {
+  .home-country-row { padding: 26px 0; }
+  .home-country-heading { align-items: flex-start; gap: 12px; flex-direction: column; margin-bottom: 12px; }
+  .home-country-more { min-height: 36px; }
+  .country-products-track { margin-left: -14px; }
+  .country-products-slide { flex-basis: 88%; padding-left: 14px; }
+  .country-products .product-card h3 { font-size: 17px; }
+}
+@media (prefers-reduced-motion: reduce) { .country-products-dots > span, .country-products-control { transition: none; } }
+@media (max-width: 359px) { .country-products-dots { display: none; } }
