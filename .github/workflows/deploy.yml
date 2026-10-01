@@ -29,6 +29,7 @@ jobs:
           NEXT_PUBLIC_GA4_ID: ${{ vars.NEXT_PUBLIC_GA4_ID }}
           NEXT_PUBLIC_FORMSPREE_FORM_ID: ${{ vars.NEXT_PUBLIC_FORMSPREE_FORM_ID }}
       - run: node scripts/check-quote-delivery.mjs
+      - run: node scripts/check-booking-inquiry.mjs
       - run: python3 scripts/check-export.py
       - run: python3 scripts/check-catalog.py
       - run: node scripts/check-product-images.mjs

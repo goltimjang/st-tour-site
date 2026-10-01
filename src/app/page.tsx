@@ -7,6 +7,8 @@ import { catalogCountries } from "@/data/catalog";
 import { publishedProducts } from "@/data/products";
 import AutoCarousel from "@/components/AutoCarousel";
 import FestivalProductCard from "@/components/FestivalProductCard";
+import BookingImage from "@/components/BookingImage";
+import { bookingCourses } from "@/data/booking-courses";
 import ProductCard from "@/components/ProductCard";
 import EventGallery from "@/components/EventGallery";
 import CountryCarousel from "@/components/CountryCarousel";
@@ -46,7 +48,7 @@ export default function Home() {
       <p className="text-xs sm:text-sm text-mute mt-5">로얄CC 클럽 페스티벌은 왕복 항공 포함 행사입니다. 그 외 상품은 항공 제외 기준이며, 포함사항과 최종 금액은 각 상세페이지와 견적에서 확인해주세요.</p>
     </section>
 
-    <section className="mx-auto max-w-6xl px-5 pb-10"><Link href="/booking/fourseven-geumgang/" className="group grid sm:grid-cols-[.8fr_1fr] overflow-hidden rounded-3xl bg-[#edf3eb]"><div className="relative min-h-52 sm:min-h-64"><Image src="/booking/fourseven/course.webp" alt="포세븐 금강CC 호수와 코스 전경" fill sizes="(max-width: 639px) 100vw, 500px" className="object-cover transition-transform duration-500 group-hover:scale-105" /></div><div className="p-6 sm:p-8 self-center"><p className="eyebrow text-[#315d42] mb-2">새롭게 만나는 할인부킹</p><h2 className="headline text-2xl sm:text-3xl">포세븐 금강CC,<br />내 날짜의 할인 금액은?</h2><p className="text-mute text-sm mt-4">일반 예약보다 부담을 낮출 수 있는 할인 혜택.<br />원하는 날짜와 희망 부를 남겨주세요.</p><span className="btn bg-[#315d42] text-white mt-5">가능 여부 · 할인 금액 문의 →</span></div></Link></section>
+    <section className="mx-auto max-w-6xl px-5 pb-10"><Link href="/booking/fourseven-geumgang/" className="group grid sm:grid-cols-[.8fr_1fr] overflow-hidden rounded-3xl bg-[#edf3eb]"><div className="relative min-h-52 sm:min-h-64"><BookingImage src={bookingCourses[0].photos[0].src} alt={bookingCourses[0].photos[0].caption} fill sizes="(max-width: 639px) 100vw, 500px" className="object-cover transition-transform duration-500 group-hover:scale-105" /></div><div className="p-6 sm:p-8 self-center"><p className="eyebrow text-[#315d42] mb-2">새롭게 만나는 할인부킹</p><h2 className="headline text-2xl sm:text-3xl">포세븐 금강CC,<br />내 날짜의 할인 금액은?</h2><p className="text-mute text-sm mt-4">일반 예약보다 부담을 낮출 수 있는 할인 혜택.<br />원하는 날짜와 희망 부를 남겨주세요.</p><span className="btn bg-[#315d42] text-white mt-5">가능 여부 · 할인 금액 문의 →</span></div></Link></section>
 
     <section className="mx-auto max-w-6xl px-5 pb-12"><div className="grid sm:grid-cols-2 gap-4"><Link href="/products/?theme=파크골프" className="rounded-2xl bg-[#e8efe7] p-6 sm:p-8"><p className="text-xs font-bold text-golddeep mb-2">조금 다른 라운드의 즐거움</p><h2 className="font-bold text-2xl text-navy">파크골프 여행</h2><p className="text-sm text-mute mt-2">태국·일본·베트남 상품 살펴보기 →</p></Link><Link href="/products/" className="rounded-2xl bg-[#e9effc] p-6 sm:p-8"><p className="text-xs font-bold text-royaldark mb-2">우리 지역에서 더 가깝게</p><h2 className="font-bold text-2xl text-navy">출발지로 찾는 골프여행</h2><p className="text-sm text-mute mt-2">부산·대구·청주 등 출발 조건으로 비교 →</p></Link></div></section>
 
