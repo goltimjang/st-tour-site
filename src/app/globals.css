@@ -410,6 +410,7 @@ body:has(.site-search-dialog[open]) .contact-bar { display: none; }
 .festival-dialog { position: fixed; inset: 0; margin: auto; padding: 0; border: 0; border-radius: 18px; width: min(420px, calc(100vw - 24px)); max-height: calc(100dvh - 24px); color: var(--color-ink); background: white; box-shadow: 0 24px 80px #0006; overflow: auto; }
 .festival-dialog::backdrop { background: #06143e99; backdrop-filter: blur(3px); }
 .festival-popup-content { display: flex; flex-direction: column; }
+.festival-popup-close:focus-visible { outline-offset: -3px; }
 .festival-popup-poster { display: block; width: 100%; height: auto; max-height: calc(100dvh - 188px); object-fit: contain; }
 body:has(.festival-dialog[open]) { overflow: hidden; }
 body:has(.festival-dialog[open]) .contact-bar { display: none; }
