@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export const dynamic = "force-static";
+import { bookingCourses } from "@/data/booking-courses";
 import { site } from "@/data/site";
 import { tier1 } from "@/data/destinations";
 import { catalogCountries } from "@/data/catalog";
@@ -9,7 +10,7 @@ import { publishedProducts } from "@/data/products";
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = site.domain;
   const now = new Date(site.contentUpdatedISO + "T00:00:00+09:00");
-  const pages = ["/", "/domestic/", "/overseas/", "/products/", "/seasons/", "/promotion/", "/about/", "/faq/", "/terms/", "/privacy/"];
+  const pages = ["/", "/booking/", "/domestic/", "/overseas/", "/products/", "/seasons/", "/promotion/", "/about/", "/faq/", "/terms/", "/privacy/"];
   return [
     ...pages.map((p) => ({
       url: `${base}${p}`.replace(/([^:])\/\//g, "$1/"),
@@ -17,6 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly" as const,
       priority: p === "/" ? 1 : p === "/domestic/" || p === "/overseas/" ? 0.9 : 0.6,
     })),
+    ...bookingCourses.map(c => ({ url: `${base}/booking/${c.slug}/`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.8, images: [`${base}${c.photos[0].src}`] })),
     ...catalogCountries.map(c => ({ url: `${base}/products/country/${c.slug}/`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.8 })),
     ...publishedProducts.map((p) => ({
       url: `${base}/products/${p.slug}/`,

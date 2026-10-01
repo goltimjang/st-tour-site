@@ -21,10 +21,10 @@ export default function PrivacyPage() {
         <div>
           <h2 className="headline text-lg mb-2">1. 수집하는 개인정보와 목적</h2>
           <p>
-            에스티골프투어(이하 &quot;회사&quot;)는 골프투어 견적 상담을 위해 다음 정보를 수집합니다.
+            에스티골프투어(이하 &quot;회사&quot;)는 골프투어 견적 및 할인부킹 상담을 위해 다음 정보를 수집합니다.
           </p>
           <ul className="list-disc pl-5 mt-2 space-y-1">
-            <li><strong>수집 항목</strong>: 이름, 연락처(전화번호), 이메일(선택), 여행 조건(희망 지역·날짜·인원·예산 등)</li>
+            <li><strong>수집 항목</strong>: 이름, 연락처(전화번호), 이메일(선택), 여행·부킹 조건(희망 지역·골프장·날짜·부·인원·예산 등)</li>
             <li><strong>수집 목적</strong>: 견적서 작성·전달, 상담 회신(전화·카카오톡·문자), 예약 진행</li>
             <li><strong>수집 방법</strong>: 홈페이지 견적 요청 양식, 전화·카카오톡 상담</li>
           </ul>

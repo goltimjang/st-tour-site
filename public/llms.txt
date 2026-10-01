@@ -4,10 +4,12 @@
 
 - 브랜드: 에스티골프투어. 법정 상호: 에스티투어(ST TOUR). Since 2018.
 - 전화: 010-4461-7400. 공식 정보와 최신 조건은 아래 페이지를 우선 확인한다.
-- 수정일: 2026-09-29.
+- 수정일: 2026-10-01.
 - 골프장 목록은 정보 안내이며 특정 날짜의 예약 가능 재고를 의미하지 않는다.
 
 ## 공식 페이지
+- [할인부킹](https://www.stgolftours.com/booking/): 포세븐 금강CC부터 운영.
+- [포세븐 금강CC 할인부킹](https://www.stgolftours.com/booking/fourseven-geumgang/): 전북 익산. 희망 날짜·부·인원·예약자·연락처를 접수한 뒤 가능한 티타임과 할인 금액을 안내한다. 가격은 문의이며 할인 적용은 날짜·시간대·인원과 운영 상황에 따라 달라진다. 접수는 예약 확정이 아니다.
 - [홈](https://www.stgolftours.com/)
 - [국내 골프투어](https://www.stgolftours.com/domestic/)
 - [해외 골프투어](https://www.stgolftours.com/overseas/)

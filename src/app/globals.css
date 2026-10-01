@@ -414,3 +414,12 @@ body:has(.site-search-dialog[open]) .contact-bar { display: none; }
 body:has(.festival-dialog[open]) { overflow: hidden; }
 body:has(.festival-dialog[open]) .contact-bar { display: none; }
 @media (prefers-reduced-motion: reduce) { .country-rail img { transition: none; transform: none; } }
+
+/* One-row carousels: native swipe and keyboard scrolling remain available. */
+.auto-rail { display: grid; grid-auto-flow: column; grid-auto-columns: calc((100% - 40px) / 3); gap: 20px; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; padding: 4px 0 10px; }
+.auto-rail-item { min-width: 0; scroll-snap-align: start; }
+.auto-rail-item > article { height: 100%; }
+.auto-rail-photos { grid-auto-columns: calc((100% - 20px) / 2); }
+.auto-rail-posters { grid-auto-columns: 230px; }
+@media (max-width: 1023px) { .auto-rail-cards { grid-auto-columns: calc((100% - 20px) / 2); } }
+@media (max-width: 639px) { .auto-rail-cards, .auto-rail-photos { grid-auto-columns: 86%; } .auto-rail-posters { grid-auto-columns: 200px; } }

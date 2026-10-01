@@ -1,16 +1,40 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import type { Product } from "@/data/products";
 
 export default function ProductGallery({ product: p, priority = false }: { product: Product; priority?: boolean }) {
   const [photo, setPhoto] = useState(0);
+  const [paused, setPaused] = useState(false);
+  const [reduced, setReduced] = useState(true);
+  const root = useRef<HTMLDivElement>(null);
+  const held = useRef({ mouse: false, focus: false, touch: false });
+  const visible = useRef(false);
+  const touched = useRef(0);
   const gallery = p.gallery?.length ? p.gallery : [p.thumb];
   const caption = p.galleryCaptions?.[photo] || p.thumbCaption || p.title;
   const subject = p.gallerySubjects?.[photo] || (p.photoPending && photo === 0 ? "pending" : "course");
   const labels = { course: "골프장", clubhouse: "클럽하우스", hotel: "숙소·객실", facility: "부대시설", pending: "골프장 사진 확인 중" };
-  const move = (offset: number) => setPhoto(i => (i + offset + gallery.length) % gallery.length);
-  return <div className="min-w-0" role="group" aria-label="상품 시설 사진">
+  useEffect(() => {
+    const media = matchMedia("(prefers-reduced-motion: reduce)");
+    const update = () => setReduced(media.matches);
+    update(); media.addEventListener("change", update);
+    const observer = new IntersectionObserver(([e]) => { visible.current = e.isIntersecting; }, { threshold: .3 });
+    if (root.current) observer.observe(root.current);
+    return () => { media.removeEventListener("change", update); observer.disconnect(); };
+  }, []);
+  useEffect(() => {
+    if (paused || reduced || gallery.length < 2) return;
+    const timer = setInterval(() => {
+      if (visible.current && !document.hidden && !document.querySelector("dialog[open]") && !Object.values(held.current).some(Boolean) && Date.now() - touched.current > 5000) setPhoto(i => (i + 1) % gallery.length);
+    }, 5000);
+    return () => clearInterval(timer);
+  }, [paused, reduced, gallery.length]);
+  const move = (offset: number) => { touched.current = Date.now(); setPhoto(i => (i + offset + gallery.length) % gallery.length); };
+  return <div ref={root} className="min-w-0" role="group" aria-label="상품 시설 사진"
+    onMouseEnter={() => { held.current.mouse = matchMedia("(hover: hover)").matches; }} onMouseLeave={() => { held.current.mouse = false; }}
+    onFocusCapture={() => { held.current.focus = true; }} onBlurCapture={e => { if (!e.currentTarget.contains(e.relatedTarget as Node)) held.current.focus = false; }}
+    onTouchStart={() => { held.current.touch = true; }} onTouchEnd={() => { held.current.touch = false; touched.current = Date.now(); }} onTouchCancel={() => { held.current.touch = false; }}>
     <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-slate-100">
       {subject === "pending" ? <div className="absolute inset-0 flex flex-col items-center justify-center px-12 text-center"><p className="text-lg font-bold text-navy">골프장 사진 확인 중</p><p className="mt-3 max-w-sm text-sm leading-relaxed text-mute">{gallery.length > 1 ? "다음 사진에서 예정 숙소와 시설을 확인하세요." : "이용 시설은 견적서에서 안내해드립니다."}</p></div> : <Image key={gallery[photo]} src={gallery[photo]} alt={caption} fill priority={priority && photo === 0} sizes="(max-width: 768px) 100vw, 600px" className="gallery-photo object-scale-down" />}
       {subject !== "pending" && <span className="absolute top-3 left-3 rounded-lg bg-white/95 px-3 py-2 text-xs font-bold">{labels[subject]}</span>}
@@ -20,10 +44,11 @@ export default function ProductGallery({ product: p, priority = false }: { produ
       </>}
       <span className="absolute right-3 bottom-3 rounded-full bg-slate-900/75 px-3 py-1 text-sm text-white">{photo + 1} / {gallery.length}</span>
     </div>
-    <p className="my-3 text-sm leading-relaxed text-mute min-h-5 break-words" aria-live="polite">{caption}</p>
+    <p className="my-3 text-sm leading-relaxed text-mute min-h-5 break-words" aria-live={paused || reduced ? "polite" : "off"}>{caption}</p>
     {gallery.length > 1 && <div className="grid grid-cols-4 sm:grid-cols-6 gap-1.5 sm:gap-2">
-      {gallery.map((g,i) => <button key={g} type="button" aria-label={`${i + 1}번 시설 사진: ${p.galleryCaptions?.[i] || p.title}`} aria-pressed={i === photo} onClick={() => setPhoto(i)} onKeyDown={e=>{if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();move(e.key==='ArrowRight'?1:-1);}}} className={`gallery-thumb relative aspect-square min-h-11 rounded-lg overflow-hidden border-2 ${i === photo ? "border-royal" : "border-transparent opacity-75 hover:opacity-100"}`}><Image src={g} alt="" fill sizes="100px" className="object-cover" /></button>)}
+      {gallery.map((g,i) => <button key={g} type="button" aria-label={`${i + 1}번 시설 사진: ${p.galleryCaptions?.[i] || p.title}`} aria-pressed={i === photo} onClick={() => { touched.current = Date.now(); setPhoto(i); }} onKeyDown={e=>{if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();move(e.key==='ArrowRight'?1:-1);}}} className={`gallery-thumb relative aspect-square min-h-11 rounded-lg overflow-hidden border-2 ${i === photo ? "border-royal" : "border-transparent opacity-75 hover:opacity-100"}`}><Image src={g} alt="" fill sizes="100px" className="object-cover" /></button>)}
     </div>}
+    {gallery.length > 1 && !reduced && <button type="button" className="mt-3 min-h-11 rounded-full border border-line px-4 text-sm font-semibold" aria-pressed={paused} onClick={() => setPaused(v => !v)}>{paused ? "사진 자동 재생" : "사진 일시 정지"}</button>}
     {p.gallerySubjects?.some(s => s === "hotel" || s === "facility") && <p className="mt-3 text-xs leading-relaxed text-mute">예정 시설의 참고 사진입니다. 이용 숙소·객실 유형·시설 이용 조건은 최종 견적서로 확인해주세요.</p>}
   </div>;
 }
