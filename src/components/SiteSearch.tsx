@@ -18,7 +18,7 @@ const PAGES = [
 ];
 const norm = (s: string) => s.replace(/\s/g, "").toLowerCase();
 
-export default function SiteSearch() {
+export default function SiteSearch({ onOpen }: { onOpen?: () => void }) {
   const [open, setOpen] = useState(false);
   const [q, setQ] = useState("");
   const [kr, setKr] = useState<Kr[] | null>(null);
@@ -40,7 +40,7 @@ export default function SiteSearch() {
     return () => {
       dialog.close();
       document.body.style.overflow = previousOverflow;
-      triggerRef.current?.focus();
+      triggerRef.current?.focus({ preventScroll: true });
     };
   }, [open]);
 
@@ -62,7 +62,7 @@ export default function SiteSearch() {
   const none = term && kr && ov && !krHits.length && !ovHits.length && !prodHits.length && !pageHits.length;
 
   return <>
-    <button ref={triggerRef} type="button" onClick={() => setOpen(true)} className="flex h-11 w-11 items-center justify-center rounded-full text-navy hover:bg-paper" aria-label="사이트 검색" aria-haspopup="dialog" aria-expanded={open}>
+    <button ref={triggerRef} type="button" onClick={() => { onOpen?.(); setOpen(true); }} className="flex h-11 w-11 items-center justify-center rounded-full text-navy hover:bg-paper" aria-label="사이트 검색" aria-haspopup="dialog" aria-expanded={open}>
       <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="M20 20l-3.5-3.5" /></svg>
     </button>
     <dialog ref={dialogRef} className="site-search-dialog" aria-label="검색" onKeyDown={(e) => {

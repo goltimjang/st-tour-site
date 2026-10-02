@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { usePathname } from "next/navigation";
 import { site } from "@/data/site";
 import SiteSearch from "@/components/SiteSearch";
 
@@ -19,9 +20,43 @@ const nav: NavItem[] = [
 /** 밝은 플로팅 카드형 헤더: 흰색 라운드 바 + 부드러운 그림자 */
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const [submenu, setSubmenu] = useState<string | null>(null);
+  const header = useRef<HTMLElement>(null);
+  const mobileTrigger = useRef<HTMLButtonElement>(null);
+  const submenuTriggers = useRef<Record<string, HTMLButtonElement | null>>({});
+  const pathname = usePathname();
+  const closeMenus = () => { setOpen(false); setSubmenu(null); };
+
+  useEffect(() => { setOpen(false); setSubmenu(null); }, [pathname]);
+  useEffect(() => {
+    const outside = (event: PointerEvent) => {
+      if (!header.current?.contains(event.target as Node)) { setOpen(false); setSubmenu(null); }
+    };
+    const close = () => { setOpen(false); setSubmenu(null); };
+    const desktop = window.matchMedia("(min-width: 1280px)");
+    document.addEventListener("pointerdown", outside);
+    window.addEventListener("popstate", close);
+    window.addEventListener("hashchange", close);
+    desktop.addEventListener("change", close);
+    return () => {
+      document.removeEventListener("pointerdown", outside);
+      window.removeEventListener("popstate", close);
+      window.removeEventListener("hashchange", close);
+      desktop.removeEventListener("change", close);
+    };
+  }, []);
 
   return (
-    <header className="sticky top-0 z-50 px-3 sm:px-5 pt-3 pb-1">
+    <header ref={header} className="sticky top-0 z-50 px-3 sm:px-5 pt-3 pb-1"
+      onClickCapture={e => { if ((e.target as Element).closest("a")) closeMenus(); }}
+      onBlur={e => { if (!e.currentTarget.contains(e.relatedTarget)) closeMenus(); }}
+      onKeyDown={e => {
+        if (e.key !== "Escape" || (!open && !submenu)) return;
+        e.preventDefault();
+        if (open) mobileTrigger.current?.focus({ preventScroll: true });
+        else if (submenu) submenuTriggers.current[submenu]?.focus({ preventScroll: true });
+        closeMenus();
+      }}>
       <div className="mx-auto max-w-6xl rounded-2xl bg-white/95 backdrop-blur-md border border-white shadow-[0_10px_34px_rgba(6,20,62,0.10)]">
         <div className="h-[64px] flex items-center justify-between gap-2 px-3 sm:px-5">
           <Link href="/" className="shrink-0" aria-label="에스티골프투어 홈">
@@ -31,17 +66,28 @@ export default function Header() {
           <nav className="hidden xl:flex items-center gap-4" aria-label="주 메뉴">
             {nav.map((n) =>
               n.children ? (
-                <div key={n.href} className="relative group">
+                <div key={n.href} className="relative"
+                  onPointerEnter={e => { if (e.pointerType === "mouse") setSubmenu(n.href); }}
+                  onPointerLeave={() => setSubmenu(current => current === n.href ? null : current)}
+                  onBlur={e => { if (!e.currentTarget.contains(e.relatedTarget)) setSubmenu(current => current === n.href ? null : current); }}>
+                  <div className="flex items-center">
                   <Link
                     href={n.href}
                     className="flex items-center gap-1 whitespace-nowrap text-[14.5px] font-semibold text-ink/75 hover:text-royal transition-colors"
                   >
                     {n.label}
+                  </Link>
+                  <button type="button" ref={el => { submenuTriggers.current[n.href] = el; }}
+                    aria-label={`${n.label} 하위 메뉴`} aria-expanded={submenu === n.href} aria-controls={`nav-${n.href.split('/')[1]}`}
+                    className="min-h-11 min-w-6 flex items-center justify-center rounded text-ink/75 hover:text-royal"
+                    onClick={() => setSubmenu(current => current === n.href ? null : n.href)}
+                    onKeyDown={e => { if (e.key === "ArrowDown") { e.preventDefault(); setSubmenu(n.href); requestAnimationFrame(() => document.getElementById(`nav-${n.href.split('/')[1]}`)?.querySelector('a')?.focus()); } }}>
                     <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" aria-hidden="true">
                       <path d="M5 9l7 7 7-7" />
                     </svg>
-                  </Link>
-                  <div className="absolute left-1/2 -translate-x-1/2 top-full pt-3 hidden group-hover:block group-focus-within:block">
+                  </button>
+                  </div>
+                  <div id={`nav-${n.href.split('/')[1]}`} hidden={submenu !== n.href} className="absolute left-1/2 -translate-x-1/2 top-full pt-1">
                     <div className="rounded-xl bg-white border border-line shadow-[0_12px_30px_rgba(6,20,62,0.14)] py-2 min-w-[180px]">
                       {n.children.map((c) => (
                         <Link
@@ -68,7 +114,7 @@ export default function Header() {
           </nav>
 
           <div className="flex items-center gap-1 sm:gap-2">
-            <SiteSearch />
+            <SiteSearch onOpen={closeMenus} />
             <a
               href={site.phoneHref}
               className="hidden sm:inline-flex items-center gap-2 whitespace-nowrap rounded-full bg-royal text-white px-4 py-2.5 text-[14.5px] font-bold hover:bg-royalhover transition-colors shadow-[0_6px_18px_rgba(13,79,245,0.28)]"
@@ -77,6 +123,8 @@ export default function Header() {
               {site.phone}
             </a>
             <button
+              ref={mobileTrigger}
+              type="button"
               className="xl:hidden p-2 -mr-2 text-navy"
               aria-label={open ? "메뉴 닫기" : "메뉴 열기"}
               aria-expanded={open}
