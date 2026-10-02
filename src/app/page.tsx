@@ -16,7 +16,23 @@ import FestivalPopup from "@/components/FestivalPopup";
 import HeroQuoteWidget from "@/components/HeroQuoteWidget";
 import { webPageLd } from "@/data/jsonld";
 
-export const metadata: Metadata = { title: "해외 골프여행 상품·맞춤 견적 | 에스티골프투어", description: "베트남 하노이·다낭, 태국, 일본, 중국, 괌 등 해외 골프여행 상품을 지역·출발지별로 비교하세요. 골프텔·다색골프·파크골프와 무료 맞춤 견적 상담.", alternates: { canonical: "/" } };
+export const metadata: Metadata = {
+  title: "해외 골프여행 상품·맞춤 견적 | 에스티골프투어",
+  description: "베트남 하노이·다낭, 태국, 일본, 중국, 괌 등 해외 골프여행 상품을 지역·출발지별로 비교하세요. 골프텔·다색골프·파크골프와 무료 맞춤 견적 상담.",
+  alternates: { canonical: "/" },
+  openGraph: {
+    title: "에스티골프투어 | 나만의 골프여행",
+    description: "가고 싶은 나라와 골프장, 원하는 일정으로. 국내·해외 골프여행 상품을 살펴보고 무료 맞춤 견적을 받아보세요.",
+    url: "/", siteName: "에스티골프투어", locale: "ko_KR", type: "website",
+    images: [{ url: "/og-share-20261002.jpg", width: 1200, height: 630, alt: "에스티골프투어 · 가고 싶은 나라와 골프장, 나만의 골프여행을 함께." }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "에스티골프투어 | 나만의 골프여행",
+    description: "국내·해외 골프여행 상품과 무료 맞춤 견적. 가고 싶은 나라와 골프장, 나에게 맞는 일정으로 준비하세요.",
+    images: ["/og-share-20261002.jpg"],
+  },
+};
 const homeFaqs = faqs.filter((f) => /미정|어떻게 받|비용이 드|2명이|취소/.test(f.q));
 const countryRows = [
   { name: "베트남", slug: "vietnam", description: "하노이부터 다낭, 나트랑까지", products: ["hana-b1557629f0e5", "hana-912f5b4e8824"], festival: true },

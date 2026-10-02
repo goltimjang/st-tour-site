@@ -20,11 +20,11 @@ export const metadata: Metadata = {
     siteName: "에스티골프투어",
     locale: "ko_KR",
     type: "website",
-    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "에스티골프투어 맞춤 골프투어 견적" }],
+    images: [{ url: "/og-share-20261002.jpg", width: 1200, height: 630, alt: "에스티골프투어 · 가고 싶은 나라와 골프장, 나만의 골프여행을 함께." }],
   },
   twitter: {
     card: "summary_large_image",
-    images: ["/og.jpg"],
+    images: ["/og-share-20261002.jpg"],
   },
   robots: {
     index: true,
@@ -47,7 +47,7 @@ const orgJsonLd = {
   alternateName: ["에스티투어", "ST TOUR", "에스티골프투어"],
   url: site.domain,
   logo: `${site.domain}/logo-black.png`,
-  image: `${site.domain}/og.jpg`,
+  image: `${site.domain}/og-share-20261002.jpg`,
   telephone: "+82-10-4461-7400",
   email: site.email,
   address: {
