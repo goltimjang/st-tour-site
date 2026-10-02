@@ -1,7 +1,6 @@
 export type BookingCourse = {
   slug: string; name: string; area: string; address: string; officialUrl: string;
   summary: string; features: { title: string; text: string }[];
-  imageNote?: string;
   photos: { src: string; caption: string }[];
 };
 
@@ -16,7 +15,6 @@ export const bookingCourses: BookingCourse[] = [{
     { title: "클럽하우스", text: "라운드 전후 여유를 나눌 수 있는 공간. 코스와 클럽하우스의 소개 이미지를 함께 살펴보세요." },
     { title: "레스토랑", text: "식사와 모임을 함께 계획할 수 있습니다. 메뉴, 이용 시간과 식사 포함 여부는 문의 시 확인해드립니다." },
   ],
-  imageNote: "제공 사진을 바탕으로 AI로 보정한 소개 이미지입니다. 시설의 세부 모습은 실제와 다를 수 있습니다.",
   photos: [
     { src: "/booking/fourseven/1001-morning-course-4k.webp", caption: "아침 햇살이 비치는 코스 · AI 보정 이미지" },
     { src: "/booking/fourseven/1001-clubhouse-4k.webp", caption: "클럽하우스 외관 · AI 보정 이미지" },
