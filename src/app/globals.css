@@ -458,3 +458,59 @@ body:has(.festival-dialog[open]) .contact-bar { display: none; }
 }
 @media (prefers-reduced-motion: reduce) { .country-products-dots > span, .country-products-control { transition: none; } }
 @media (max-width: 359px) { .country-products-dots { display: none; } }
+
+/* A coastal closing image followed by a readable brand and service directory. */
+.site-footer { background: #030d2c; color: #c6cfdf; font-size: 14px; line-height: 1.7; }
+.footer-invitation { position: relative; isolation: isolate; overflow: hidden; background: #06143e; }
+.footer-landscape, .footer-shade { position: absolute; inset: 0; z-index: -1; }
+.footer-landscape img { object-position: 70% 50%; }
+.footer-shade { background: linear-gradient(90deg, #030d2c80 0%, #030d2c30 55%, transparent 100%), linear-gradient(0deg, #030d2c 0%, transparent 42%); }
+.footer-invitation-content { padding-top: 90px; padding-bottom: 90px; }
+.footer-invitation h2 { font-size: clamp(28px, 3.5vw, 44px); line-height: 1.4; color: white; }
+.footer-invitation-content > p { margin-top: 22px; font-size: 16px; color: #e3e9f2; }
+.footer-actions { display: flex; align-items: center; gap: 28px; margin-top: 30px; }
+.footer-quote { min-height: 54px; padding: 12px 24px; border-radius: 8px; background: white; color: #06143e; font-size: 16px; font-weight: 800; display: inline-flex; align-items: center; gap: 30px; transition: background .2s ease, transform .2s ease; }
+.footer-quote:hover { background: #e8efe7; transform: translateY(-2px); }
+.footer-quote span { font-size: 22px; }
+.footer-browse { min-height: 44px; display: inline-flex; align-items: center; gap: 16px; color: white; border-bottom: 1px solid #ffffff66; }
+.footer-information { padding-top: 24px; padding-bottom: 36px; }
+.footer-main { display: grid; grid-template-columns: 1.15fr .7fr 1fr; gap: 42px; padding-bottom: 38px; }
+.footer-brand > p { margin-top: 22px; line-height: 1.85; }
+.footer-socials { display: flex; flex-wrap: wrap; gap: 22px; margin-top: 20px; font-size: 13px; color: white; }
+.footer-socials a { min-height: 36px; display: inline-flex; align-items: center; gap: 10px; }
+.footer-navigation { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; }
+.footer-navigation a { min-height: 36px; display: flex; align-items: center; }
+.footer-contact > p:first-child { color: white; font-size: 13px; }
+.footer-phone { display: inline-block; font-size: clamp(24px, 2.4vw, 30px); line-height: 1.4; font-weight: 700; letter-spacing: -.035em; margin: 8px 0; color: white; }
+.footer-hours { max-width: 290px; font-size: 13px; line-height: 1.9; }
+.footer-company { border-top: 1px solid #ffffff26; padding: 28px 0; display: flex; align-items: flex-start; justify-content: space-between; gap: 28px; font-size: 12.5px; }
+.footer-insurance { max-width: 290px; display: flex; flex-direction: column; gap: 12px; align-items: flex-start; }
+.footer-insurance-logo { background: white; border-radius: 5px; padding: 7px 10px; }
+.footer-legal { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 18px; font-size: 12px; padding-top: 24px; border-top: 1px solid #ffffff26; }
+.footer-information a:hover { color: white; text-decoration: underline; text-underline-offset: 5px; }
+.site-footer a:focus-visible { outline: 2px solid white; outline-offset: 5px; }
+.site-footer .footer-quote:focus-visible { outline-color: #9db9ff; }
+@media (max-width: 1023px) {
+  .footer-main { grid-template-columns: 1fr 1fr; gap: 28px; }
+  .footer-contact { grid-column: 1 / -1; }
+  .footer-hours { max-width: none; }
+  .footer-information { padding-bottom: 112px; }
+}
+@media (max-width: 639px) {
+  .footer-invitation-content { padding-top: 240px; padding-bottom: 48px; }
+  .footer-landscape { height: 300px; }
+  .footer-landscape img { object-position: 82% 65%; }
+  .footer-shade { background: linear-gradient(180deg, #030d2c05 0px, #030d2c10 120px, #030d2ccc 235px, #030d2c 300px); }
+  .footer-invitation h2 { font-size: clamp(23px, 6.4vw, 32px); line-height: 1.5; }
+  .footer-invitation-content > p { font-size: 14px; margin-top: 16px; }
+  .footer-actions { align-items: flex-start; flex-direction: column; gap: 16px; margin-top: 24px; }
+  .footer-quote { width: 100%; justify-content: space-between; }
+  .footer-browse { font-size: 13px; }
+  .footer-main { grid-template-columns: 1fr; gap: 28px; padding-bottom: 28px; }
+  .footer-navigation { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 20px; }
+  .footer-navigation a { min-height: 44px; font-size: 13px; }
+  .footer-company { flex-direction: column; }
+  .footer-phone { font-size: 28px; }
+  .footer-insurance { max-width: none; }
+}
+@media (prefers-reduced-motion: reduce) { .footer-quote { transition: none; } .footer-quote:hover { transform: none; } }

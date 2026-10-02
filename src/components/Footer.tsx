@@ -2,47 +2,51 @@ import Link from "next/link";
 import Image from "next/image";
 import { site } from "@/data/site";
 
-/** 밝은 푸터: 흰 배경 + 얇은 상단 보더 */
 export default function Footer() {
   const c = site.company;
-  return (
-    <footer className="bg-white border-t border-line text-[13.5px] leading-relaxed text-mute">
-      <div className="mx-auto max-w-6xl px-5 py-14 pb-32 lg:pb-14">
-        <div className="flex flex-col md:flex-row md:justify-between gap-10">
-          <div className="max-w-xl">
-            <p className="mb-4">
-              <Image src="/logo.png" alt="에스티골프투어" width={214} height={28} className="h-7 w-auto" />
-            </p>
-            <p className="mb-4">{site.positioning}</p>
-            <div className="flex flex-wrap gap-x-5 gap-y-2">
-              <a href={site.phoneHref} className="text-royal font-bold hover:underline">전화 {site.phone}</a>
-              <a href={site.bandUrl} target="_blank" rel="noopener noreferrer" className="text-golddeep font-bold hover:underline">네이버 밴드</a>
-              {site.kakaoUrl && (
-                <a href={site.kakaoUrl} target="_blank" rel="noopener noreferrer" className="text-golddeep font-bold hover:underline">카카오톡 상담</a>
-              )}
-            </div>
-          </div>
-          <div>
-            <p className="eyebrow text-royal mb-3">회사 정보</p>
-            <ul className="space-y-1">
-              <li>상호 에스티투어(ST TOUR) · 대표 {c.ceo}</li>
-              <li>{c.address}</li>
-              <li>사업자등록번호 {c.bizNo}</li>
-              <li>{c.insurance}</li>
-              <li>상담시간 {c.hours}</li>
-            </ul>
-          </div>
-        </div>
-        <div className="mt-10 pt-6 border-t border-line flex flex-wrap items-center gap-x-6 gap-y-2">
-          <Link href="/terms" className="hover:text-navy">이용약관 · 취소환불 규정</Link>
-          <Link href="/privacy" className="font-bold hover:text-navy">개인정보처리방침</Link>
-          <span className="ml-auto">© {new Date().getFullYear()} ST TOUR. All rights reserved.</span>
-        </div>
-        <div className="mt-7 flex items-center gap-3">
-          <Image src="/images/sgi.png" alt="SGI 서울보증" width={101} height={28} className="h-7 w-auto" />
-          <span className="text-[12.5px]">여행업 영업보증보험 5,000만원 가입 · SGI서울보증</span>
+  return <footer className="site-footer">
+    <section className="footer-invitation" aria-labelledby="footer-invitation-title">
+      <picture className="footer-landscape" aria-hidden="true">
+        <source media="(max-width: 639px)" srcSet="/images/brand/footer-golf-20261002-960.webp" />
+        <Image src="/images/brand/footer-golf-20261002.webp" alt="" fill sizes="100vw" className="object-cover" />
+      </picture>
+      <div className="footer-shade" />
+      <div className="footer-invitation-content mx-auto max-w-6xl px-5">
+        <h2 id="footer-invitation-title" className="headline">다음 라운드의 설렘,<br />에스티골프투어와 함께.</h2>
+        <p>가고 싶은 나라와 골프장,<br className="sm:hidden" /> 나에게 맞는 일정으로 준비하세요.</p>
+        <div className="footer-actions">
+          <a href="/#quick-quote" className="footer-quote">무료 견적받기 <span aria-hidden="true">↗</span></a>
+          <Link href="/products/" className="footer-browse">골프여행 상품 둘러보기 <span aria-hidden="true">→</span></Link>
         </div>
       </div>
-    </footer>
-  );
+    </section>
+    <div className="footer-information mx-auto max-w-6xl px-5">
+      <div className="footer-main">
+        <div className="footer-brand">
+          <Link href="/" aria-label="에스티골프투어 홈"><Image src="/logo-white.png" alt="에스티골프투어" width={214} height={28} className="h-7 w-auto" /></Link>
+          <p>국내 라운드부터 해외 골프여행까지.<br />떠나고 싶은 마음에, 딱 맞는 여행을.</p>
+          <div className="footer-socials">
+            {site.kakaoUrl && <a href={site.kakaoUrl} target="_blank" rel="noopener noreferrer">카카오톡 상담 <span aria-hidden="true">↗</span></a>}
+            <a href={site.bandUrl} target="_blank" rel="noopener noreferrer">네이버 밴드 <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <nav aria-label="푸터 바로가기" className="footer-navigation">
+          <Link href="/products/">해외 골프상품</Link><Link href="/booking/">국내 할인부킹</Link><Link href="/promotion/">로얄CC 페스티벌</Link><Link href="/about/">에스티골프투어 소개</Link>
+        </nav>
+        <div className="footer-contact">
+          <p>여행을 함께 준비하는 상담</p>
+          <a href={site.phoneHref} className="footer-phone">{site.phone}</a>
+          <p className="footer-hours">{c.hours}</p>
+        </div>
+      </div>
+      <div className="footer-company">
+        <div className="space-y-2"><p>상호 에스티투어(ST TOUR)<span className="mx-2">·</span>대표 {c.ceo}</p><p>{c.address}</p><p>사업자등록번호 {c.bizNo}</p></div>
+        <div className="footer-insurance"><span className="footer-insurance-logo"><Image src="/images/sgi.png" alt="SGI 서울보증" width={101} height={28} className="h-6 w-auto" /></span><p>{c.insurance}</p></div>
+      </div>
+      <div className="footer-legal">
+        <div className="flex flex-wrap gap-x-5 gap-y-3"><Link href="/terms/">이용약관 · 취소환불 규정</Link><Link href="/privacy/" className="font-bold text-white">개인정보처리방침</Link></div>
+        <p>© {new Date().getFullYear()} ST TOUR. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>;
 }
