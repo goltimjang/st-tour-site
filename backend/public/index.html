@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>문의 접수함 | 에스티골프투어</title>
+    <link rel="stylesheet" href="/admin/admin.css" />
+    <script src="/admin/admin.js" defer></script>
+  </head>
+  <body>
+    <div id="preview" hidden>
+      개발 미리보기 · 시험 데이터만 표시하며 이메일을 발송하지 않습니다.
+    </div>
+    <header>
+      <div class="brand">
+        <span class="mark">ST</span>
+        <div><strong>에스티골프투어</strong><span>상담 운영실</span></div>
+      </div>
+      <button id="refresh" class="outline">새로고침</button>
+    </header>
+    <main>
+      <div class="heading">
+        <div>
+          <p class="kicker">고객과 다음 라운드를 준비하는 곳</p>
+          <h1>문의 접수함</h1>
+          <p class="description">
+            새 문의를 확인하고, 상담부터 예약까지 이어가세요.
+          </p>
+        </div>
+        <p id="updated" class="muted"></p>
+      </div>
+      <div id="message" role="status" aria-live="polite"></div>
+      <div id="alerts" class="alert" hidden></div>
+      <nav id="filters" aria-label="상담 상태">
+        <button data-status="" aria-pressed="true">전체 <span>0</span></button
+        ><button data-status="new">신규 <span>0</span></button
+        ><button data-status="consulting">상담 중 <span>0</span></button
+        ><button data-status="quoted">견적 발송 <span>0</span></button
+        ><button data-status="booked">예약 확정 <span>0</span></button
+        ><button data-status="review">검토 필요 <span>0</span></button
+        ><button data-status="closed">상담 종료 <span>0</span></button>
+      </nav>
+      <div class="workspace">
+        <section class="list-pane" aria-label="문의 목록">
+          <div class="list-heading">
+            <h2>고객 문의</h2>
+            <span>최근 접수순</span>
+          </div>
+          <div id="list" aria-live="polite"></div>
+          <div class="pagination">
+            <button id="previous" class="outline" disabled>이전</button
+            ><span id="page">1페이지</span
+            ><button id="next" class="outline" disabled>다음</button>
+          </div>
+        </section>
+        <section id="detail" class="detail-pane" aria-label="문의 상세">
+          <div class="empty-detail">
+            <div class="course-line"></div>
+            <h2>문의 내용을 함께 살펴볼까요?</h2>
+            <p>
+              왼쪽 목록에서 문의를 선택하면<br />여행 조건과 연락처를 확인할 수
+              있습니다.
+            </p>
+          </div>
+        </section>
+      </div>
+      <p class="footnote">
+        접수와 예약 확정은 다릅니다. 메일의 ‘발송 서비스 접수’는 고객 또는
+        담당자의 실제 수신을 뜻하지 않습니다.
+      </p>
+    </main>
+    <dialog id="mobile-detail">
+      <button id="close-detail" class="outline">목록으로</button>
+      <div id="mobile-content"></div>
+    </dialog>
+  </body>
+</html>

@@ -2,7 +2,8 @@
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import Link from "next/link";
 import { site } from "@/data/site";
-import { deliverQuote } from "@/lib/quote-delivery";
+import { deliverQuote, usesInquiryBackend } from "@/lib/quote-delivery";
+import InquiryVerification from "@/components/InquiryVerification";
 import { track } from "@/lib/analytics";
 import { BOOKING_SESSIONS, bookingPayload, koreaToday, validateBooking, type BookingInquiry } from "@/lib/booking-inquiry";
 
@@ -15,8 +16,10 @@ export default function BookingInquiryForm({ course }: { course: { name: string;
   const [ticket, setTicket] = useState("");
   const [failed, setFailed] = useState<{ body: string; subject: string } | null>(null);
   const [copied, setCopied] = useState("");
+  const [verificationToken, setVerificationToken] = useState("");
+  const [verificationReset, setVerificationReset] = useState(0);
   const busy = useRef(false);
-  const attempt = useRef<{ fingerprint: string; reference: string } | null>(null);
+  const attempt = useRef<{ fingerprint: string; reference: string; key: string } | null>(null);
   const result = useRef<HTMLDivElement>(null);
   const set = (key: keyof BookingInquiry, value: string | boolean) => { setValues(v => ({ ...v, [key]: value })); setErrors(v => ({ ...v, [key]: undefined })); setCopied(""); };
   const selectPeople = (people: string) => {
@@ -29,14 +32,14 @@ export default function BookingInquiryForm({ course }: { course: { name: string;
   const attrs = (key: keyof BookingInquiry) => ({ "aria-invalid": !!errors[key], "aria-describedby": errors[key] ? `booking-${key}-error` : undefined });
   async function submit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    if (busy.current || ticket) return;
+    if (busy.current || ticket || (usesInquiryBackend && !verificationToken)) return;
     const invalid = validateBooking(values);
     setErrors(invalid);
     if (Object.keys(invalid).length) { e.currentTarget.querySelector<HTMLElement>(`[name="${Object.keys(invalid)[0]}"]`)?.focus(); return; }
     busy.current = true; setSending(true); setFailed(null); setCopied("");
     const fingerprint = JSON.stringify({ ...values, course: course.slug });
     // Same reference for a retry: the provider can accept a request even if its reply times out.
-    if (attempt.current?.fingerprint !== fingerprint) attempt.current = { fingerprint, reference: `STB-${koreaToday().replaceAll("-", "")}-${crypto.randomUUID().slice(0, 8).toUpperCase()}` };
+    if (attempt.current?.fingerprint !== fingerprint) attempt.current = { fingerprint, key: usesInquiryBackend ? crypto.randomUUID() : "", reference: `STB-${koreaToday().replaceAll("-", "")}-${crypto.randomUUID().slice(0, 8).toUpperCase()}` };
     const reference = attempt.current.reference;
     const payload = bookingPayload(values, course, reference);
     const subject = `[에스티골프투어 할인부킹 ${reference}] ${course.name} · ${values.date} · ${values.session}`;
@@ -44,13 +47,14 @@ export default function BookingInquiryForm({ course }: { course: { name: string;
     const timer = setTimeout(() => controller.abort(), 20000);
     track("quote_start", { kind: "discount_booking", product_id: course.slug });
     try {
-      await deliverQuote({ subject, email: "", payload: { ...payload, 접수시각: new Date().toISOString() }, signal: controller.signal });
-      setTicket(reference);
+      const delivered = await deliverQuote({ requestKey: attempt.current.key, token: verificationToken, consent: values.agree, subject, email: "", payload: { ...payload, 접수시각: new Date().toISOString() }, signal: controller.signal });
+      setTicket(delivered.receipt);
       track("quote_submit_success", { kind: "discount_booking", product_id: course.slug });
     } catch {
       setFailed({ subject, body: ["[할인부킹 요청 · 접수 확인 필요]", "아래 참조번호로 중복 접수 여부를 먼저 확인해주세요.", ...Object.entries(payload).map(([k, v]) => `${k === "접수번호" ? "요청 참조번호" : k}: ${v}`)].join("\n") });
       track("quote_submit_error", { kind: "discount_booking", product_id: course.slug });
     } finally {
+      setVerificationReset(v => v + 1);
       clearTimeout(timer); busy.current = false; setSending(false);
       requestAnimationFrame(() => { result.current?.focus(); });
     }
@@ -72,8 +76,9 @@ export default function BookingInquiryForm({ course }: { course: { name: string;
       {values.people === "단체" && <div id="booking-teams" className="rounded-xl bg-paper p-3 sm:p-4"><p id="booking-teams-label" className="font-bold mb-3">팀 수 <span className="text-royal">*</span></p><div className="grid grid-cols-4 min-[360px]:grid-cols-5 gap-2" role="group" aria-labelledby="booking-teams-label" {...attrs("teams")}>{Array.from({length: 10}, (_, i) => String(i + 1)).map(n => <button key={n} type="button" name="teams" className="choice min-h-11 !px-0 !text-sm" data-on={values.teams === n} aria-pressed={values.teams === n} onClick={() => set("teams", n)}>{n}팀</button>)}</div>{error("teams")}<p className="mt-3 text-xs text-mute">팀별 인원이 다르면 요청사항에 남겨주세요.</p></div>}
       <div className="grid sm:grid-cols-2 gap-4"><div><label htmlFor="booking-name" className="block font-bold mb-2">예약자 <span className="text-royal">*</span></label><input id="booking-name" name="name" autoComplete="name" maxLength={40} value={values.name} onChange={e => set("name", e.target.value)} className="field w-full min-h-12" placeholder="성함" required {...attrs("name")} />{error("name")}</div><div><label htmlFor="booking-phone" className="block font-bold mb-2">연락처 <span className="text-royal">*</span></label><input id="booking-phone" name="phone" type="tel" inputMode="tel" autoComplete="tel" maxLength={20} value={values.phone} onChange={e => set("phone", e.target.value)} className="field w-full min-h-12" placeholder="010-0000-0000" required {...attrs("phone")} />{error("phone")}</div></div>
       <div><label htmlFor="booking-memo" className="block font-bold mb-2">요청사항 <span className="font-normal text-sm text-mute">선택</span></label><textarea id="booking-memo" name="memo" rows={2} maxLength={500} value={values.memo} onChange={e => set("memo", e.target.value)} placeholder="예: 오후 1시 이후, 3인 팀 2팀 포함" className="field w-full" {...attrs("memo")} />{error("memo")}</div>
-      <div className="rounded-xl bg-paper p-4 text-sm"><p className="font-semibold">개인정보 수집·이용 안내</p><p className="mt-2 text-mute">이름·연락처·부킹 조건을 가능 여부 확인과 금액 안내에 사용하며 상담 완료 후 1년간 보관합니다. Formspree에 저장되어 담당자 이메일로 전달됩니다.</p><Link href="/privacy/#quote-processing" target="_blank" className="inline-block py-2 underline">접수 처리 및 개인정보 안내 보기</Link><label className="flex items-start gap-3 py-2 cursor-pointer"><input name="agree" type="checkbox" className="mt-0.5 h-5 w-5 shrink-0" checked={values.agree} onChange={e => set("agree", e.target.checked)} required {...attrs("agree")} /><span>[필수] 개인정보 수집·이용에 동의합니다.</span></label>{error("agree")}</div>
-      <button type="submit" className="btn btn-royal w-full min-h-14">{sending ? "접수 확인 중…" : "할인 금액 · 가능 여부 문의"}</button><p className="text-xs text-center text-mute">문의는 무료이며, 접수만으로 예약·결제가 진행되지 않습니다.</p>
+      <div className="rounded-xl bg-paper p-4 text-sm"><p className="font-semibold">개인정보 수집·이용 안내</p><p className="mt-2 text-mute">이름·연락처·부킹 조건을 가능 여부 확인과 금액 안내에 사용하며 상담 완료 후 1년간 보관합니다. {usesInquiryBackend ? "Cloudflare 기반 에스티골프투어 접수 서버에 저장되어 담당자가 확인합니다." : "Formspree에 저장되어 담당자 이메일로 전달됩니다."}</p><Link href="/privacy/#quote-processing" target="_blank" className="inline-block py-2 underline">접수 처리 및 개인정보 안내 보기</Link><label className="flex items-start gap-3 py-2 cursor-pointer"><input name="agree" type="checkbox" className="mt-0.5 h-5 w-5 shrink-0" checked={values.agree} onChange={e => set("agree", e.target.checked)} required {...attrs("agree")} /><span>[필수] 개인정보 수집·이용에 동의합니다.</span></label>{error("agree")}</div>
+      <InquiryVerification onToken={setVerificationToken} resetKey={verificationReset} />
+      <button disabled={usesInquiryBackend && !verificationToken} type="submit" className="btn btn-royal w-full min-h-14">{sending ? "접수 확인 중…" : "할인 금액 · 가능 여부 문의"}</button><p className="text-xs text-center text-mute">문의는 무료이며, 접수만으로 예약·결제가 진행되지 않습니다.</p>
     </fieldset>
     {failed && <div ref={result} tabIndex={-1} role="alert" className="mt-5 rounded-xl border border-red-200 bg-red-50 p-4"><h3 className="font-bold">접수 여부를 확인하지 못했습니다</h3><p className="text-sm mt-2">입력 내용은 남아 있습니다. 중복 문의를 피하려면 아래 참조번호로 전화 확인해 주세요. 또는 요청 내용을 복사해 전달할 수 있습니다.</p><textarea aria-label="전달할 할인부킹 요청 내용" readOnly value={failed.body} rows={7} className="field mt-3 w-full text-sm" /><div className="flex flex-wrap gap-2 mt-3"><button type="button" className="btn btn-light" onClick={async () => { try { await navigator.clipboard.writeText(failed.body); setCopied("복사했습니다."); } catch { setCopied("위 내용을 직접 선택해 복사해주세요."); } }}>요청 내용 복사</button><a href={site.phoneHref} className="btn btn-light">전화로 확인</a><a href={`mailto:${site.email}?subject=${encodeURIComponent(failed.subject)}&body=${encodeURIComponent(failed.body)}`} className="btn btn-light">메일 앱으로 전달</a></div><p className="text-sm mt-2" role="status">{copied}</p></div>}
     <p className="mt-5 text-xs text-mute">전화 {site.phone} · {site.company.hours}</p>

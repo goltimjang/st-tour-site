@@ -1,0 +1,27 @@
+{
+  "name": "st-tour-inquiry-backend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --config wrangler.local.jsonc --ip 127.0.0.1 --port 8787",
+    "check": "tsc --noEmit",
+    "test": "node tests/integration.mjs",
+    "deploy": "node scripts/preflight.mjs && wrangler deploy",
+    "db:local": "wrangler d1 migrations apply st-tour-inquiries --local --config wrangler.local.jsonc"
+  },
+  "dependencies": {
+    "jose": "^6.2.12"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261007.1",
+    "@types/node": "^26.6.4",
+    "esbuild": "^0.28.2",
+    "miniflare": "^5.20261006.0-alpha",
+    "prettier": "^3.9.9",
+    "typescript": "^7.0.2",
+    "wrangler": "^4.148.0"
+  },
+  "overrides": {
+    "sharp": "^0.35.5"
+  }
+}

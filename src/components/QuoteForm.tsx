@@ -3,7 +3,8 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { track } from "@/lib/analytics";
-import { deliverQuote } from "@/lib/quote-delivery";
+import { deliverQuote, usesInquiryBackend } from "@/lib/quote-delivery";
+import InquiryVerification from "@/components/InquiryVerification";
 import { site } from "@/data/site";
 import DestinationRegionChoices from "@/components/DestinationRegionChoices";
 import { destinations, validDestinationRegion } from "@/data/destinations";
@@ -69,7 +70,10 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
   const [error, setError] = useState("");
   const [failedRequest, setFailedRequest] = useState<{ subject: string; body: string } | null>(null);
   const [copyStatus, setCopyStatus] = useState("");
-  const attemptRef = useRef<{ fingerprint: string; no: string } | null>(null);
+  const attemptRef = useRef<{ fingerprint: string; no: string; key: string } | null>(null);
+
+  const [verificationToken, setVerificationToken] = useState("");
+  const [verificationReset, setVerificationReset] = useState(0);
 
   // Step 1
   const [regions, setRegions] = useState<string[]>(prefillRegion ? [prefillRegion] : []);
@@ -215,7 +219,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
   }
 
   async function submit() {
-    if (sendingRef.current || !step3Ok) return;
+    if (sendingRef.current || !step3Ok || (usesInquiryBackend && !verificationToken)) return;
     sendingRef.current = true;
     setSending(true);
     setError("");
@@ -246,20 +250,21 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
     // 동일 내용을 재시도하면 같은 참조번호를 유지해 운영자가 중복 여부를 확인할 수 있다.
     const fingerprint = JSON.stringify({ ...payload, 접수번호: "" });
     if (attemptRef.current?.fingerprint === fingerprint) payload.접수번호 = attemptRef.current.no;
-    else attemptRef.current = { fingerprint, no };
+    else attemptRef.current = { fingerprint, no, key: usesInquiryBackend ? crypto.randomUUID() : "" };
     const reference = payload.접수번호;
     const subject = `[에스티골프투어 견적 ${reference}] ${payload.type} · ${payload["지역"]} · ${name.trim()}님 (${people}명)`;
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 20000);
     try {
-      await deliverQuote({
+      const delivered = await deliverQuote({
+        requestKey: attemptRef.current?.key, token: verificationToken, consent: agree,
         subject,
         email: cleanEmail,
         payload: { ...payload, 접수시각: new Date().toLocaleString("ko-KR") },
         signal: controller.signal,
       });
       track("quote_submit_success", { kind: type, product_id: product?.id ?? inquiryProduct?.id ?? "custom" });
-      setTicket(reference);
+      setTicket(delivered.receipt);
       try {
         localStorage.removeItem(draftKey);
         localStorage.removeItem("st-picked");
@@ -274,6 +279,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
       });
       setError("접수 여부를 확인하지 못했습니다. 입력 내용은 이 화면에 남아 있습니다. 아래 내용을 복사해 카카오톡으로 보내거나 이메일·전화로 전달해 주세요.");
     } finally {
+      setVerificationReset(v => v + 1);
       clearTimeout(timeout);
       sendingRef.current = false;
       setSending(false);
@@ -484,13 +490,15 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
                 · 수집 목적: 골프투어 견적 상담 및 회신 (견적서 전달을 위한 전화·카카오톡·문자 발송 포함)
                 <br />· 수집 항목: 이름, 연락처, 이메일(선택), 여행 조건(지역·날짜·인원 등)
                 <br />· 보유 기간: 상담 완료 후 1년, 경과 시 지체 없이 파기
-                <br />· 접수 처리: Formspree, Inc.를 통해 요청 내용을 저장하고 담당자에게 이메일로 전달합니다. 미국 등 해외에서 처리될 수 있습니다.
+                <br />· 접수 처리: {usesInquiryBackend ? "Cloudflare 기반 에스티골프투어 접수 서버에 저장하고 담당자에게 알립니다. 해외에서 처리될 수 있습니다." : "Formspree, Inc.를 통해 요청 내용을 저장하고 담당자에게 이메일로 전달합니다. 미국 등 해외에서 처리될 수 있습니다."}
                 <br />· 동의를 거부하실 수 있으나, 거부 시 견적 회신이 불가합니다.
                 {" "}<a href="/privacy/#quote-processing" target="_blank" rel="noopener noreferrer" className="underline text-royal">접수 처리 상세 안내</a>
               </div>
             )}
-            <p className="mt-2 text-xs leading-relaxed text-mute">온라인 접수는 Formspree를 통해 처리됩니다. <a href="/privacy/#quote-processing" target="_blank" rel="noopener noreferrer" className="underline">처리·보관 안내</a></p>
+            <p className="mt-2 text-xs leading-relaxed text-mute">{usesInquiryBackend ? "온라인 접수는 에스티골프투어 접수 서버에 저장됩니다." : "온라인 접수는 Formspree를 통해 처리됩니다."} <a href="/privacy/#quote-processing" target="_blank" rel="noopener noreferrer" className="underline">처리·보관 안내</a></p>
           </div>
+
+          <InquiryVerification onToken={setVerificationToken} resetKey={verificationReset} />
 
           {error && <div className="rounded-xl border border-red-200 bg-red-50 p-4 space-y-3">
             <p className="text-[15px] font-semibold text-red-700" role="alert">{error}</p>
@@ -513,7 +521,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
 
           <div className="flex gap-3">
             <BackBtn onClick={() => goStep(1)} />
-            <button type="button" className="btn btn-royal flex-1" disabled={!step3Ok || sending} onClick={submit} style={!step3Ok || sending ? { opacity: 0.5, cursor: "not-allowed" } : undefined}>
+            <button type="button" className="btn btn-royal flex-1" disabled={!step3Ok || sending || (usesInquiryBackend && !verificationToken)} onClick={submit} style={!step3Ok || sending ? { opacity: 0.5, cursor: "not-allowed" } : undefined}>
               {sending ? "전송 중…" : "무료 견적 요청하기"}
             </button>
           </div>

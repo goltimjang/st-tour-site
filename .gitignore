@@ -39,3 +39,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Inquiry backend: local database, dependencies, and secrets
+/backend/node_modules/
+/backend/.wrangler/
+/backend/.dev.vars*
+/backend/.test-build/
+/backend/dist/
+/backend/wrangler.production.jsonc
+/backend/backups/
