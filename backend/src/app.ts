@@ -2,6 +2,16 @@ import { csv, HttpError, statuses, type Dependencies, type Env } from "./types";
 import { hash } from "./security";
 import { readJson, validate } from "./validation";
 import { drain } from "./notifications";
+import { purgeExpired } from "./retention";
+import { mailTest } from "./mail-test";
+import { drainAlimtalk } from "./alimtalk";
+import { ownerTestReady, ownerTestInput, ownerTestPage } from "./owner-test";
+async function drainAll(env: Env, deps: Dependencies, onlyId = "") {
+  await Promise.allSettled([
+    drain(env, deps, onlyId),
+    drainAlimtalk(env, deps.sendAlimtalk, onlyId),
+  ]);
+}
 const json = (data: unknown, status = 200) => Response.json(data, { status });
 const secureHeaders = {
   "Cache-Control": "no-store",
@@ -40,7 +50,14 @@ export function app(deps: Dependencies) {
             origin !== url.origin
           )
             throw new HttpError(403, "origin_not_allowed");
-          if (url.pathname.startsWith("/admin/api/"))
+          if (url.pathname === "/admin/mail-test")
+            response = await mailTest(request, env, deps, actor);
+          else if (
+            url.pathname === "/admin/owner-test" &&
+            request.method === "GET"
+          )
+            response = ownerTestPage();
+          else if (url.pathname.startsWith("/admin/api/"))
             response = await adminApi(request, url, env, deps, ctx, actor);
           else if (request.method === "GET" || request.method === "HEAD") {
             if (
@@ -49,6 +66,8 @@ export function app(deps: Dependencies) {
                 "/admin",
                 "/admin/admin.js",
                 "/admin/admin.css",
+                "/admin/owner-test.js",
+                "/admin/mail-test.js",
               ].includes(url.pathname)
             )
               throw new HttpError(404, "not_found");
@@ -75,6 +94,14 @@ export function app(deps: Dependencies) {
       }
       const headers = new Headers(response.headers);
       for (const [k, v] of Object.entries(secureHeaders)) headers.set(k, v);
+      if (url.pathname === "/admin/owner-test" && response.ok)
+        headers.set(
+          "Content-Security-Policy",
+          secureHeaders["Content-Security-Policy"].replace(
+            "script-src 'self'",
+            "script-src 'self' https://challenges.cloudflare.com",
+          ) + "; frame-src https://challenges.cloudflare.com",
+        );
       if (publicRoute && csv(env.ALLOWED_ORIGINS).includes(origin)) {
         headers.set("Access-Control-Allow-Origin", origin);
         headers.set("Vary", "Origin");
@@ -88,7 +115,12 @@ export function app(deps: Dependencies) {
       env: Env,
       ctx: ExecutionContext,
     ) {
-      ctx.waitUntil(drain(env, deps));
+      ctx.waitUntil(
+        (async () => {
+          await purgeExpired(env);
+          await drainAll(env, deps);
+        })(),
+      );
     },
   };
 }
@@ -97,7 +129,10 @@ async function intake(
   env: Env,
   deps: Dependencies,
   ctx: ExecutionContext,
+  ownerTest = false,
 ) {
+  if (env.INTAKE_ENABLED !== "true")
+    throw new HttpError(503, "intake_not_enabled");
   const input = validate(await readJson(request));
   const digest = await hash(input.canonical);
   // Stable UUID + content hash lets a timed-out request recover its receipt without reusing a consumed CAPTCHA.
@@ -157,6 +192,15 @@ async function intake(
       env.DB.prepare(
         "INSERT INTO notifications(inquiry_id,next_at,updated_at) VALUES(?,?,?)",
       ).bind(id, now, now),
+      ...(env.ALIMTALK_ENABLED === "true" &&
+      deps.sendAlimtalk &&
+      input.kind === "tour"
+        ? [
+            env.DB.prepare(
+              "INSERT INTO alimtalk_jobs(inquiry_id,template_key,created_at,updated_at) VALUES(?,'tour_received_v1',?,?)",
+            ).bind(id, now, now),
+          ]
+        : []),
     ]);
   } catch (error) {
     const duplicate = await env.DB.prepare(
@@ -176,7 +220,7 @@ async function intake(
     }
     throw error;
   }
-  ctx.waitUntil(drain(env, deps));
+  ctx.waitUntil(drainAll(env, deps, ownerTest ? id : ""));
   return json({ ok: true, receipt, stored: true }, 201);
 }
 async function adminApi(
@@ -187,6 +231,41 @@ async function adminApi(
   ctx: ExecutionContext,
   actor: string,
 ) {
+  if (url.pathname === "/admin/api/owner-test") {
+    ownerTestReady(env);
+    if (request.method === "GET") {
+      const existing = await env.DB.prepare(
+        "SELECT receipt FROM inquiries WHERE request_key=?",
+      )
+        .bind(env.TEST_REQUEST_KEY)
+        .first<{ receipt: string }>();
+      return json({
+        siteKey: env.TURNSTILE_SITE_KEY,
+        recipient: `010-****-${env.TEST_PHONE!.slice(-4)}`,
+        mailTo: env.MAIL_TO,
+        receipt: existing?.receipt || null,
+      });
+    }
+    if (request.method !== "POST")
+      throw new HttpError(405, "method_not_allowed");
+    if (!deps.sendAlimtalk)
+      throw new HttpError(503, "owner_test_not_configured");
+    const body = await readJson(request);
+    if (!body || typeof body !== "object" || Array.isArray(body))
+      throw new HttpError(400, "invalid_inquiry");
+    const testRequest = new Request(request.url, {
+      method: "POST",
+      headers: request.headers,
+      body: JSON.stringify(ownerTestInput(env, body)),
+    });
+    return intake(
+      testRequest,
+      { ...env, INTAKE_ENABLED: "true", ALIMTALK_ENABLED: "true" },
+      deps,
+      ctx,
+      true,
+    );
+  }
   if (url.pathname === "/admin/api/inquiries" && request.method === "GET") {
     const status = url.searchParams.get("status") || "";
     if (status && !statuses.includes(status))
@@ -203,7 +282,7 @@ async function adminApi(
       "SELECT status,COUNT(*) AS count FROM inquiries GROUP BY status",
     ).all();
     const alerts = await env.DB.prepare(
-      "SELECT COUNT(*) AS count FROM notifications WHERE status IN ('retry','failed','blocked') OR (status='processing' AND lease_until<?)",
+      "SELECT COUNT(*) AS count FROM inquiries i WHERE EXISTS (SELECT 1 FROM notifications n WHERE n.inquiry_id=i.id AND (n.status IN ('retry','failed','blocked') OR (n.status='processing' AND n.lease_until<?))) OR EXISTS (SELECT 1 FROM alimtalk_jobs a WHERE a.inquiry_id=i.id AND a.status IN ('blocked','failed','unknown'))",
     )
       .bind(Date.now())
       .first();
@@ -236,7 +315,12 @@ async function adminApi(
       .all();
     // Request keys and content hashes never leave the backend.
     const { request_key, content_hash, ...inquiry } = record;
-    return json({ inquiry, notification, audit: audit.results });
+    const alimtalk = await env.DB.prepare(
+      "SELECT status,attempts,provider_group_id,error_code,updated_at FROM alimtalk_jobs WHERE inquiry_id=?",
+    )
+      .bind(id)
+      .first();
+    return json({ inquiry, notification, alimtalk, audit: audit.results });
   }
   if (request.method === "PATCH" && !match[2]) {
     const b = await readJson(request);

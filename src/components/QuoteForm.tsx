@@ -303,6 +303,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
           <br />
           <span className="text-mute">{site.company.hours}</span>
         </p>
+        {usesInquiryBackend && <p className="mt-4 text-sm text-mute">접수 안내는 카카오 알림톡으로도 보내드립니다. 카카오톡 미이용 또는 발송 실패 시에는 이 화면의 접수번호를 확인해 주세요.</p>}
         <div className="mt-5 rounded-xl bg-paper p-5 text-[15px] leading-relaxed">
           <p className="font-bold mb-1">접수 내용</p>
           <p>
@@ -322,7 +323,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
           <Link href="/promotion" className="btn btn-light">로얄CC 프로모션 보기</Link>
         </div>
         <p className="mt-6 text-[13px] text-mute">
-          입력하신 개인정보는 견적 상담 목적으로만 사용되며, 상담 완료 후 1년 뒤 파기됩니다.
+          입력하신 개인정보는 견적 상담 목적으로만 사용되며, 최종 상담 또는 접수일로부터 1년 뒤 파기됩니다.
         </p>
       </div>
     );
@@ -489,13 +490,13 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
               <div className="mt-3 text-[13.5px] text-mute leading-relaxed border-t border-line pt-3">
                 · 수집 목적: 골프투어 견적 상담 및 회신 (견적서 전달을 위한 전화·카카오톡·문자 발송 포함)
                 <br />· 수집 항목: 이름, 연락처, 이메일(선택), 여행 조건(지역·날짜·인원 등)
-                <br />· 보유 기간: 상담 완료 후 1년, 경과 시 지체 없이 파기
-                <br />· 접수 처리: {usesInquiryBackend ? "Cloudflare 기반 에스티골프투어 접수 서버에 저장하고 담당자에게 알립니다. 해외에서 처리될 수 있습니다." : "Formspree, Inc.를 통해 요청 내용을 저장하고 담당자에게 이메일로 전달합니다. 미국 등 해외에서 처리될 수 있습니다."}
+                <br />· 보유 기간: 최종 상담 또는 접수일로부터 1년, 경과 시 지체 없이 파기
+                <br />· 접수 처리: {usesInquiryBackend ? "Cloudflare 접수 서버에 저장합니다. 담당자 메일은 Resend, 접수 알림톡은 SOLAPI·카카오를 통해 처리합니다. 국외 처리·보관 사항은 아래 상세 안내에서 확인하세요." : "Formspree, Inc.를 통해 요청 내용을 저장하고 담당자에게 이메일로 전달합니다. 미국 등 해외에서 처리될 수 있습니다."}
                 <br />· 동의를 거부하실 수 있으나, 거부 시 견적 회신이 불가합니다.
                 {" "}<a href="/privacy/#quote-processing" target="_blank" rel="noopener noreferrer" className="underline text-royal">접수 처리 상세 안내</a>
               </div>
             )}
-            <p className="mt-2 text-xs leading-relaxed text-mute">{usesInquiryBackend ? "온라인 접수는 에스티골프투어 접수 서버에 저장됩니다." : "온라인 접수는 Formspree를 통해 처리됩니다."} <a href="/privacy/#quote-processing" target="_blank" rel="noopener noreferrer" className="underline">처리·보관 안내</a></p>
+            <p className="mt-2 text-xs leading-relaxed text-mute">{usesInquiryBackend ? "요청은 접수함에 저장됩니다. 카카오톡 미이용 또는 발송 실패 시 알림톡이 도착하지 않을 수 있으며, 화면의 접수번호로 접수 여부를 확인할 수 있습니다." : "온라인 접수는 Formspree를 통해 처리됩니다."} <a href="/privacy/#quote-processing" target="_blank" rel="noopener noreferrer" className="underline">처리·보관 안내</a></p>
           </div>
 
           <InquiryVerification onToken={setVerificationToken} resetKey={verificationReset} />

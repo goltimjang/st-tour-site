@@ -28,6 +28,8 @@ jobs:
         env:
           NEXT_PUBLIC_GA4_ID: ${{ vars.NEXT_PUBLIC_GA4_ID }}
           NEXT_PUBLIC_FORMSPREE_FORM_ID: ${{ vars.NEXT_PUBLIC_FORMSPREE_FORM_ID }}
+          NEXT_PUBLIC_INQUIRY_API_URL: https://st-tour-inquiries.forceo007.workers.dev/v1/inquiries
+          NEXT_PUBLIC_TURNSTILE_SITE_KEY: 0x4AAAAAAFTn7axVU6e3EACa
       - run: node scripts/check-quote-delivery.mjs
       - run: node scripts/check-booking-inquiry.mjs
       - run: python3 scripts/check-export.py

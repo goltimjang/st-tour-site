@@ -32,12 +32,12 @@ export async function send(env: Env, receipt: string, key: string) {
   if (!data.id) throw new Error("mail_invalid_response");
   return { id: data.id };
 }
-export async function drain(env: Env, deps: Dependencies) {
+export async function drain(env: Env, deps: Dependencies, onlyId = "") {
   const now = Date.now();
   const { results } = await env.DB.prepare(
-    `SELECT inquiry_id FROM notifications WHERE (status IN ('pending','retry') AND next_at<=?) OR (status='processing' AND lease_until<=?) ORDER BY next_at LIMIT 20`,
+    `SELECT inquiry_id FROM notifications WHERE (?='' OR inquiry_id=?) AND ((status IN ('pending','retry') AND next_at<=?) OR (status='processing' AND lease_until<=?)) ORDER BY next_at LIMIT 4`,
   )
-    .bind(now, now)
+    .bind(onlyId, onlyId, now, now)
     .all<{ inquiry_id: string }>();
   for (const { inquiry_id: id } of results) {
     const token = crypto.randomUUID();

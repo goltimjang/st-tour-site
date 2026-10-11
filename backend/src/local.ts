@@ -19,7 +19,7 @@ export default {
       return new Response("Local preview only", { status: 403 });
     return local.fetch(
       request,
-      { ...env, RATE_SALT: "local-only-not-a-secret" },
+      { ...env, INTAKE_ENABLED: "true", RATE_SALT: "local-only-not-a-secret" },
       ctx,
     );
   },

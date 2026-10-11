@@ -70,7 +70,7 @@ export function validate(body: unknown) {
   const bad = () => new HttpError(400, "invalid_inquiry");
   if (!body || typeof body !== "object" || Array.isArray(body)) throw bad();
   const b = body as Record<string, unknown>;
-  if (b.consent !== true || b.consentVersion !== "2026-10-backend-v1")
+  if (b.consent !== true || b.consentVersion !== "2026-10-11-backend-v2")
     throw new HttpError(400, "consent_required");
   if (
     typeof b.requestKey !== "string" ||

@@ -1,0 +1,71 @@
+{
+  "preparedAt": "2026-10-11",
+  "status": "tour_enabled_booking_in_review",
+  "provider": "SOLAPI",
+  "enabled": true,
+  "pfId": "KA01PF261001092819617mb3FHOSOk2i",
+  "smsFallback": false,
+  "sources": [
+    "https://solapi.com/guides/kakao-ata-guide",
+    "https://solapi.com/guides/kakao-faq"
+  ],
+  "templates": [
+    {
+      "key": "tour_received_v1",
+      "name": "에스티골프투어_견적접수완료_v1",
+      "templateId": "KA01TP261001093029785w7gQUNn1jJz",
+      "reviewStatus": "approved",
+      "trigger": "tour_inquiry_committed",
+      "content": "[에스티골프투어 견적 접수 완료]\n\n고객님, 요청하신 골프여행 견적 문의가 정상적으로 접수되었습니다.\n\n접수번호: #{접수번호}\n\n담당자가 요청 내용을 확인한 뒤 남겨주신 연락처로 안내드리겠습니다.\n본 알림은 견적 요청의 접수 안내이며, 예약 확정 안내가 아닙니다.\n\n문의: 010-4461-7400",
+      "variables": [
+        "접수번호"
+      ],
+      "buttons": [],
+      "reviewNote": "2026-10-01 등록한 기존 템플릿. 2026-10-11 콘솔에서 발송에 사용가능 및 대체발송 안함 확인. 중복 등록하지 않음."
+    },
+    {
+      "key": "booking_received_v1",
+      "name": "에스티골프투어_할인부킹접수_v1",
+      "templateId": null,
+      "reviewStatus": "in_review",
+      "trigger": "booking_inquiry_committed",
+      "content": "[에스티골프투어 부킹 문의 접수 안내]\n\n#{고객명}님, 요청하신 골프장 부킹 문의가 접수되었습니다.\n\n접수번호: #{접수번호}\n골프장: #{골프장}\n희망 날짜: #{희망날짜}\n희망 시간대: #{희망시간대}\n인원 및 팀 수: #{인원팀수}\n\n담당자가 예약 가능 여부와 해당 날짜의 이용 금액을 확인한 뒤 연락드리겠습니다.\n이번 접수는 예약 확정이 아닙니다.\n\n내용 변경 및 상담: 010-4461-7400\n평일 09:00~18:00",
+      "variables": [
+        "고객명",
+        "접수번호",
+        "골프장",
+        "희망날짜",
+        "희망시간대",
+        "인원팀수"
+      ],
+      "buttons": [],
+      "reviewNote": "홈페이지 https://www.stgolftours.com/booking/fourseven-geumgang/ 에서 골프장 부킹 견적을 직접 요청한 고객에게 해당 문의가 저장된 뒤 접수 사실을 안내합니다. 예약 가능 여부와 금액은 상담 후 별도 안내하며, 접수만으로 예약이 확정되지 않습니다. 할인 홍보나 다른 상품 광고 없이 고객 본인의 요청 내용만 안내합니다.",
+      "submittedAt": "2026-10-11"
+    },
+    {
+      "key": "quote_ready_v1",
+      "name": "에스티골프투어_요청견적서안내_v1",
+      "templateId": null,
+      "reviewStatus": "not_submitted",
+      "trigger": "staff_explicitly_publishes_quote_version",
+      "registrationBlockedBy": "고객별 보호된 견적 페이지를 구현하고 실제 버튼 URL을 검증해야 합니다.",
+      "content": "[에스티골프투어 견적서 안내]\n\n#{고객명}님, 요청하신 견적서가 준비되었습니다.\n\n접수번호: #{접수번호}\n견적 대상: #{견적대상}\n희망 일정: #{희망일정}\n\n아래 버튼에서 금액과 포함·불포함 사항, 이용 조건을 확인해 주세요.\n변경을 원하시는 내용은 상담 시 알려주세요.\n견적서 안내는 예약 확정을 의미하지 않습니다.\n\n상담: 010-4461-7400\n평일 09:00~18:00",
+      "variables": [
+        "고객명",
+        "접수번호",
+        "견적대상",
+        "희망일정"
+      ],
+      "buttons": [
+        {
+          "name": "내 견적서 확인",
+          "type": "WL",
+          "mobileUrl": null,
+          "pcUrl": null
+        }
+      ],
+      "reviewNote": "고객이 직접 요청한 견적을 담당자가 작성한 뒤 해당 고객에게만 견적서 도착 사실을 안내합니다. 링크에는 본인 요청의 견적 내용만 표시하며, 결제 링크나 다른 상품의 광고를 포함하지 않습니다. 실제 구현과 검증 후 제출합니다."
+    }
+  ],
+  "verifiedAt": "2026-10-11"
+}

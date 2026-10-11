@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "wrangler dev --config wrangler.local.jsonc --ip 127.0.0.1 --port 8787",
     "check": "tsc --noEmit",
-    "test": "node tests/integration.mjs",
+    "test": "node tests/integration.mjs && node tests/alimtalk.mjs && node tests/mail-test.mjs && node tests/retention.mjs",
     "deploy": "node scripts/preflight.mjs && wrangler deploy",
     "db:local": "wrangler d1 migrations apply st-tour-inquiries --local --config wrangler.local.jsonc"
   },

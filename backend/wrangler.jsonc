@@ -3,20 +3,43 @@
   "name": "st-tour-inquiries",
   "main": "src/index.ts",
   "compatibility_date": "2026-10-01",
-  "workers_dev": false,
+  "workers_dev": true,
   "preview_urls": false,
-  "assets": {"directory":"./public","binding":"ASSETS","run_worker_first":true},
-  "d1_databases": [{"binding":"DB","database_name":"st-tour-inquiries","database_id":"REPLACE_WITH_D1_ID","migrations_dir":"migrations"}],
-  "triggers":{"crons":["*/5 * * * *"]},
-  "vars": {
-    "ALLOWED_ORIGINS":"https://www.stgolftours.com,https://stgolftours.com",
-    "TURNSTILE_HOSTNAMES":"www.stgolftours.com,stgolftours.com",
-    "ACCESS_ISSUER":"",
-    "ACCESS_AUDIENCE":"",
-    "ADMIN_EMAILS":"goltimjang@gmail.com",
-    "ADMIN_ORIGIN":"",
-    "MAIL_FROM":"",
-    "MAIL_TO":"goltimjang@gmail.com"
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": true
   },
-  "observability":{"enabled":false}
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "st-tour-inquiries",
+      "database_id": "acf505dd-eea3-4cb5-9f12-27c838812522",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "triggers": {
+    "crons": [
+      "*/5 * * * *"
+    ]
+  },
+  "vars": {
+    "ALIMTALK_ENABLED": "true",
+    "ALLOWED_ORIGINS": "https://www.stgolftours.com,https://stgolftours.com",
+    "TURNSTILE_HOSTNAMES": "www.stgolftours.com,stgolftours.com,st-tour-inquiries.forceo007.workers.dev",
+    "TURNSTILE_SITE_KEY": "0x4AAAAAAFTn7axVU6e3EACa",
+    "TEST_INTAKE_ENABLED": "false",
+    "ACCESS_ISSUER": "https://fragrant-darkness-8f18.cloudflareaccess.com",
+    "ACCESS_AUDIENCE": "7f36dbd60a01c2fe955632baef1de62bd0587cfae70a616db2e04feb962ebdd1",
+    "ADMIN_EMAILS": "goltimjang@gmail.com",
+    "ADMIN_ORIGIN": "https://st-tour-inquiries.forceo007.workers.dev",
+    "MAIL_FROM": "에스티골프투어 접수 알림 <inquiries@notify.stgolftours.com>",
+    "MAIL_TO": "goltimjang@gmail.com",
+    "INTAKE_ENABLED": "true",
+    "TEST_REQUEST_KEY": "2de2cdda-2288-42b7-a48c-b9b90b093247",
+    "RETENTION_ENABLED": "true"
+  },
+  "observability": {
+    "enabled": false
+  }
 }

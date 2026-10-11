@@ -21,7 +21,7 @@ export async function deliverQuote({ subject, email, payload, signal, requestKey
     if (!requestKey || !token || consent !== true) throw new Error("Inquiry verification required");
     const response = await fetch(endpoint.href, {
       method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" },
-      body: JSON.stringify({ requestKey, token, consent, consentVersion: "2026-10-backend-v1", email: email.trim(), payload }),
+      body: JSON.stringify({ requestKey, token, consent, consentVersion: "2026-10-11-backend-v2", email: email.trim(), payload }),
       signal, credentials: "omit", redirect: "error",
     });
     const data: unknown = await response.json();

@@ -20,6 +20,10 @@ const mf = new Miniflare(
     bindings: {
       ALLOWED_ORIGINS: "https://www.stgolftours.com",
       RATE_SALT: "test-salt",
+      INTAKE_ENABLED: "true",
+      ALIMTALK_ENABLED: "true",
+      SOLAPI_API_KEY: "mock-key",
+      SOLAPI_API_SECRET: "mock-secret",
       ADMIN_EMAILS: "test-admin@example.invalid",
     },
   }),
@@ -27,7 +31,13 @@ const mf = new Miniflare(
 let count = 0;
 try {
   const db = await mf.getD1Database("DB");
-  const schema = await fs.readFile("migrations/0001_intake.sql", "utf8");
+  const schema = (
+    await Promise.all(
+      ["0001_intake.sql", "0002_alimtalk.sql"].map((x) =>
+        fs.readFile("migrations/" + x, "utf8"),
+      ),
+    )
+  ).join("\n");
   for (const statement of schema.split(";").filter((x) => x.trim()))
     await db.prepare(statement).run();
   await db.exec(
@@ -49,7 +59,7 @@ try {
     email: "",
     token: "test-valid-token",
     consent: true,
-    consentVersion: "2026-10-backend-v1",
+    consentVersion: "2026-10-11-backend-v2",
     ...extra,
   });
   const submit = (body, headers = {}) =>
@@ -78,6 +88,23 @@ try {
     assert.deepEqual(value, expected, label);
     count++;
   };
+  const disabled = await mf.dispatchFetch(
+    "https://backend.example/__test/intake-disabled",
+    {
+      method: "POST",
+      headers: {
+        Origin: "https://www.stgolftours.com",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(input()),
+    },
+  );
+  check(disabled.status, 503, "setup-only intake disabled");
+  check(
+    (await db.prepare("SELECT COUNT(*) AS n FROM inquiries").first()).n,
+    0,
+    "disabled intake never stores inquiries",
+  );
   const request = input();
   const response = await submit(request);
   check(response.status, 201, "stored");
@@ -89,6 +116,16 @@ try {
     .first();
   assert(row);
   check(row.receipt, receipt.receipt, "server receipt");
+  check(
+    (
+      await db
+        .prepare("SELECT count(*) AS n FROM alimtalk_jobs WHERE inquiry_id=?")
+        .bind(row.id)
+        .first()
+    ).n,
+    1,
+    "durable Alimtalk queue committed with inquiry",
+  );
   await mf.dispatchFetch("https://backend.example/__test/drain");
   check(
     (await db.prepare("SELECT count(*) AS n FROM test_sent").first()).n,
@@ -302,6 +339,26 @@ try {
   });
   check((await submit(booking)).status, 201, "group booking");
   check(
+    (
+      await db
+        .prepare(
+          "SELECT count(*) AS n FROM alimtalk_jobs a JOIN inquiries i ON a.inquiry_id=i.id WHERE i.kind='booking'",
+        )
+        .first()
+    ).n,
+    0,
+    "unapproved booking template never queued",
+  );
+  const oldQueue = (
+    await db.prepare("SELECT count(*) AS n FROM alimtalk_jobs").first()
+  ).n;
+  await submit(request);
+  check(
+    (await db.prepare("SELECT count(*) AS n FROM alimtalk_jobs").first()).n,
+    oldQueue,
+    "duplicate intake never adds message",
+  );
+  check(
     (await submit(input({ payload: { ...booking.payload, 팀수: "11팀" } })))
       .status,
     400,
@@ -315,10 +372,156 @@ try {
     400,
     "pagination validation",
   );
+  const rollbackInput = input();
+  await db.exec(
+    "CREATE TRIGGER reject_alimtalk BEFORE INSERT ON alimtalk_jobs BEGIN SELECT RAISE(ABORT, 'simulated queue write failure'); END;",
+  );
+  check(
+    (await submit(rollbackInput)).status,
+    503,
+    "queue failure not reported as successful intake",
+  );
+  check(
+    (
+      await db
+        .prepare("SELECT COUNT(*) AS n FROM inquiries WHERE request_key=?")
+        .bind(rollbackInput.requestKey)
+        .first()
+    ).n,
+    0,
+    "queue failure rolls back inquiry",
+  );
+  await db.exec("DROP TRIGGER reject_alimtalk;");
   const rateHeaders = { "CF-Connecting-IP": "same-client" };
   for (let i = 0; i < 20; i++)
     await submit(input({ token: "invalid" }), rateHeaders);
   check((await submit(input(), rateHeaders)).status, 429, "request limit");
+  const ownerTest = (mode = "enabled", body = {}, extraHeaders = {}) =>
+    admin("owner-test", {
+      method: "POST",
+      headers: { "X-Test-Owner-Mode": mode, ...extraHeaders },
+      body: JSON.stringify({
+        consent: true,
+        token: "test-valid-token",
+        ...body,
+      }),
+    });
+  const beforeOwnerTest = (
+    await db.prepare("SELECT COUNT(*) AS n FROM inquiries").first()
+  ).n;
+  check((await ownerTest("disabled")).status, 503, "owner test off by default");
+  check((await ownerTest("expired")).status, 503, "owner test expiry enforced");
+  check(
+    (await ownerTest("unconfigured")).status,
+    503,
+    "owner test requires email config before storing",
+  );
+  check(
+    (await ownerTest("enabled", {}, { "X-Test-Admin": "denied" })).status,
+    401,
+    "owner test requires admin",
+  );
+  check(
+    (await ownerTest("enabled", {}, { Origin: "https://evil.example" })).status,
+    403,
+    "owner test CSRF blocked",
+  );
+  check(
+    (await ownerTest("enabled", { consent: false })).status,
+    400,
+    "owner test consent required",
+  );
+  check(
+    (await ownerTest("enabled", { token: "invalid" })).status,
+    400,
+    "owner test uses captcha validation",
+  );
+  check(
+    (await db.prepare("SELECT COUNT(*) AS n FROM inquiries").first()).n,
+    beforeOwnerTest,
+    "rejected tests create no record",
+  );
+  // Keep unrelated work pending; the single approved test must not drain it.
+  await db
+    .prepare(
+      "UPDATE notifications SET status='pending',next_at=0 WHERE inquiry_id=?",
+    )
+    .bind(row.id)
+    .run();
+  await db
+    .prepare(
+      "UPDATE alimtalk_jobs SET status='pending',attempts=0 WHERE inquiry_id=?",
+    )
+    .bind(row.id)
+    .run();
+  const testResponses = await Promise.all(
+    Array.from({ length: 5 }, () =>
+      ownerTest("enabled", {
+        requestKey: crypto.randomUUID(),
+        payload: { 연락처: "01099999999" },
+      }),
+    ),
+  );
+  const testReceipts = await Promise.all(testResponses.map((r) => r.json()));
+  check(
+    testResponses.every((r) => [200, 201].includes(r.status)),
+    true,
+    "concurrent owner test stored or recovered",
+  );
+  check(
+    new Set(testReceipts.map((r) => r.receipt)).size,
+    1,
+    "owner test only one receipt",
+  );
+  const testRow = await db
+    .prepare("SELECT * FROM inquiries WHERE request_key=?")
+    .bind("4cdba823-ed2a-40d8-b214-9dd929952efe")
+    .first();
+  check(
+    testRow.phone,
+    "01000000000",
+    "recipient cannot be overridden by browser",
+  );
+  check(
+    (await db.prepare("SELECT COUNT(*) AS n FROM inquiries").first()).n,
+    beforeOwnerTest + 1,
+    "owner test permits only one inquiry",
+  );
+  check(
+    (await ownerTest("enabled", { token: "" })).status,
+    200,
+    "consumed token recovers existing owner test",
+  );
+  check(
+    (
+      await db
+        .prepare("SELECT COUNT(*) AS n FROM alimtalk_jobs WHERE inquiry_id=?")
+        .bind(testRow.id)
+        .first()
+    ).n,
+    1,
+    "owner test queues one notification",
+  );
+  check(
+    (
+      await db
+        .prepare("SELECT status FROM notifications WHERE inquiry_id=?")
+        .bind(row.id)
+        .first()
+    ).status,
+    "pending",
+    "owner test does not drain unrelated email",
+  );
+  check(
+    (
+      await db
+        .prepare("SELECT status FROM alimtalk_jobs WHERE inquiry_id=?")
+        .bind(row.id)
+        .first()
+    ).status,
+    "pending",
+    "owner test does not drain unrelated Alimtalk",
+  );
   console.log(
     `PASS ${count} backend integration assertions: real local D1, no external email or customer data.`,
   );

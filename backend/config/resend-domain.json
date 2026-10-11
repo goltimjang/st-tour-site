@@ -1,0 +1,28 @@
+{
+  "domain": "notify.stgolftours.com",
+  "domainId": "f2fb74f8-4426-49bb-afbc-ce9d583956ba",
+  "region": "ap-northeast-1",
+  "status": "verified",
+  "observedAt": "2026-10-11",
+  "dnsProvider": "Gabia",
+  "records": [
+    {
+      "type": "TXT",
+      "name": "resend._domainkey.notify",
+      "value": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLRA1Yf7LvKYPabrXpuLlpNI0u3vV9Wx144894N6JOOJoWtkt3CbaOJuwOaiXsa1JA9yMX5O9hJZs8Dcgdv/u5Epj9R5pDibQ0WvK0j/AcaCuQ6vw0xRkoDrmYb61y1hf70+ICHYN6AqDOtUPmJMI7wX/vNdDiFijYfSH0j5GNawIDAQAB"
+    },
+    {
+      "type": "CNAME",
+      "name": "rsend.notify",
+      "value": "rsend-apne1.forge.rmta.net"
+    },
+    {
+      "type": "CNAME",
+      "name": "send.notify",
+      "value": "send.forge.rmta.net"
+    }
+  ],
+  "note": "Three approved mail DNS records saved and Resend verified. Original six website records, root DMARC and inbound routing unchanged.",
+  "dnsSavedAt": "2026-10-11T16:25:55+09:00",
+  "verifiedAt": "2026-10-11T16:27:00+09:00"
+}

@@ -284,6 +284,30 @@ function renderDetail() {
     box.append(retry);
   }
   target.append(box);
+  const kakao = element("div", undefined, "notification");
+  const a = selected.alimtalk;
+  const labels = {
+    pending: "발송 대기",
+    blocked: "서버 키 연결 필요",
+    processing: "발송 요청 중",
+    accepted: "SOLAPI 접수, 실제 수신 미확인",
+    failed: "발송 실패, 확인 필요",
+    unknown: "결과 불명, SOLAPI 내역 확인 필요",
+  };
+  kakao.append(
+    element("strong", "고객 접수 알림톡"),
+    element("p", a ? labels[a.status] || "확인 필요" : "자동 발송 대상 아님"),
+  );
+  if (a?.provider_group_id)
+    kakao.append(element("p", "발송 조회 번호: " + a.provider_group_id));
+  if (a?.status === "unknown")
+    kakao.append(
+      element(
+        "p",
+        "중복 발송 방지를 위해 자동 재발송하지 않습니다. SOLAPI에서 접수번호와 발송 내역을 확인해 주세요.",
+      ),
+    );
+  target.append(kakao);
   const history = element("div", undefined, "audit");
   history.append(element("strong", "최근 처리 이력"));
   for (const a of audit)
