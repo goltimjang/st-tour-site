@@ -45,8 +45,8 @@ export const site = {
     tournaments: "10+", // 주최·주관 대회 수 (사용자 제공)
   },
 
-  contentUpdated: "2026년 10월 11일", // 콘텐츠 최종 수정일: 내용 갱신 시 함께 갱신
-  contentUpdatedISO: "2026-10-11", // 위와 항상 같은 날짜 (JSON-LD·sitemap용)
+  contentUpdated: "2026년 10월 12일", // 콘텐츠 최종 수정일: 내용 갱신 시 함께 갱신
+  contentUpdatedISO: "2026-10-12", // 위와 항상 같은 날짜 (JSON-LD·sitemap용)
   publishedISO: "2026-08-18", // 사이트 최초 공개일
 
   positioning:
