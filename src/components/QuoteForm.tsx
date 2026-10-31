@@ -5,6 +5,8 @@ import Link from "next/link";
 import { track } from "@/lib/analytics";
 import { deliverQuote, usesInquiryBackend } from "@/lib/quote-delivery";
 import InquiryVerification from "@/components/InquiryVerification";
+import { isTravelDate, validTravelRange } from "@/lib/travel-date";
+import { koreaToday } from "@/lib/booking-inquiry";
 import { site } from "@/data/site";
 import DestinationRegionChoices from "@/components/DestinationRegionChoices";
 import { destinations, validDestinationRegion } from "@/data/destinations";
@@ -122,8 +124,8 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
             setArea(validDestinationRegion(d.country, d.area));
           }
           if (!product && ["date", "flexible"].includes(d.dateMode)) setDateMode(d.dateMode);
-          if (!product && typeof d.dateStart === "string") setDateStart(d.dateStart);
-          if (!product && typeof d.dateEnd === "string") setDateEnd(d.dateEnd);
+          if (!product && isTravelDate(d.dateStart) && d.dateStart >= koreaToday()) setDateStart(d.dateStart);
+          if (!product && validTravelRange(d.dateStart, d.dateEnd, koreaToday())) setDateEnd(d.dateEnd);
           if (!product && FLIGHT_TIMES.includes(d.outboundTime)) setOutboundTime(d.outboundTime);
           if (!product && FLIGHT_TIMES.includes(d.returnTime)) setReturnTime(d.returnTime);
           if (Number.isInteger(d.people) && d.people >= 1 && d.people <= 999) setPeople(d.people);
@@ -144,8 +146,8 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
         if (!isDom && (!ctry || !prefillCountry || prefillCountry === ctry)) {
           setArea(validDestinationRegion(prefillCountry || ctry || "", q.get("area")));
         }
-        if (st && /^\d{4}-\d{2}-\d{2}$/.test(st)) setDateStart(st);
-        if (en && /^\d{4}-\d{2}-\d{2}$/.test(en)) setDateEnd(en);
+        if (isTravelDate(st) && st >= koreaToday()) setDateStart(st);
+        if (isTravelDate(en) && validTravelRange(st, en, koreaToday())) setDateEnd(en);
         if (q.get("flexible") === "1") { setDateMode("flexible"); }
       }
       const picked = q.get("picked") === "1" ? localStorage.getItem("st-picked") : null;
@@ -193,7 +195,7 @@ export default function QuoteForm({ type, prefillCourse, prefillRegion, prefillC
   }, [isDom, regions, country]);
 
   const whenLabel = dateMode === "date"
-    ? dateStart && dateEnd && dateEnd >= dateStart && (product || dateStart >= new Date().toLocaleDateString("sv-SE"))
+    ? validTravelRange(dateStart, dateEnd, koreaToday())
       ? `${dateStart.replace(/-/g, ". ")} ~ ${dateEnd.replace(/-/g, ". ")} (${stay})`
       : ""
     : `미정${duration && duration !== "미정" ? ` · ${duration}` : ""}`;

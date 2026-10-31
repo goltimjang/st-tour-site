@@ -53,7 +53,7 @@ export default function ProductsPage() {
 
       <section className="mx-auto max-w-6xl px-5 py-10 sm:py-14">
         <nav aria-label="국가별 상품 페이지" className="flex flex-wrap gap-x-5 gap-y-1 mb-5">{catalogCountries.map(c => <Link key={c.slug} href={`/products/country/${c.slug}/`} className="text-sm min-h-11 inline-flex items-center text-royaldark underline">{c.name}</Link>)}</nav>
-        <p className="text-sm text-mute rounded-xl bg-white border border-line p-4 mb-6">항공권 별도. 출발일과 인원을 보내주시면 현지 일정의 견적서를 작성해드립니다.</p>
+        <p className="text-sm text-mute rounded-xl bg-white border border-line p-4 mb-6">일반 상품은 항공권 별도이며, 로얄CC 클럽 페스티벌은 왕복 항공 포함 행사입니다. 상품별 포함사항을 확인하고 출발일과 인원을 보내주세요.</p>
         <Link href="/saved/" className="inline-block mb-5 py-2 underline text-royaldark">저장한 상품 보기</Link>
         {publishedProducts.length === 0 ? (
           <div className="rounded-2xl border border-line bg-white p-10 text-center">

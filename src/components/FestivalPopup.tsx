@@ -17,6 +17,7 @@ export default function FestivalPopup() {
     previousFocus.current?.focus({ preventScroll: true });
   }
   useEffect(() => {
+    if (["#quick-quote", "#quote"].includes(window.location.hash)) return;
     if (Date.now() > Date.parse("2026-12-17T23:59:59+09:00")) return;
     try {
       if (sessionStorage.getItem(KEY) || localStorage.getItem(KEY) === new Date().toLocaleDateString("sv-SE", { timeZone: "Asia/Seoul" })) return;

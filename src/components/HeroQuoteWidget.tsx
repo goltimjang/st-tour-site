@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import { koreaToday } from "@/lib/booking-inquiry";
+import { validTravelRange } from "@/lib/travel-date";
 import { useRouter } from "next/navigation";
 import { destinations } from "@/data/destinations";
 import DestinationRegionChoices from "@/components/DestinationRegionChoices";
@@ -15,8 +17,9 @@ export default function HeroQuoteWidget() {
   const [flexible, setFlexible] = useState(true);
   const [start, setStart] = useState("");
   const [end, setEnd] = useState("");
-  const today = new Date().toLocaleDateString("sv-SE");
+  const today = koreaToday();
   function go() {
+    if (!flexible && !validTravelRange(start, end, koreaToday())) return;
     const q = new URLSearchParams();
     q.set(kind === "domestic" ? "region" : "country", place || "추천 받고 싶어요");
     if (kind === "overseas" && area) q.set("area", area);
@@ -43,7 +46,7 @@ export default function HeroQuoteWidget() {
         <label className="min-w-0"><span className="block text-sm font-semibold mb-1">출발일</span><input type="date" min={today} className="field" value={start} onChange={(e) => { setStart(e.target.value); if (end < e.target.value) setEnd(""); }} /></label>
         <label className="min-w-0"><span className="block text-sm font-semibold mb-1">도착일</span><input type="date" min={start || today} className="field" value={end} onChange={(e) => setEnd(e.target.value)} /></label>
       </div>}
-      <button type="button" onClick={go} disabled={!flexible && (!start || !end || end < start || start < today)} className="btn btn-royal w-full">무료 견적받기</button>
+      <button type="button" onClick={go} disabled={!flexible && !validTravelRange(start, end, today)} className="btn btn-royal w-full">무료 견적받기</button>
     </div>
   );
 }

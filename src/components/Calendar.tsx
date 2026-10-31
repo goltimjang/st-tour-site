@@ -1,5 +1,7 @@
 "use client";
 
+import { koreaToday } from "@/lib/booking-inquiry";
+import { isTravelDate } from "@/lib/travel-date";
 import { useEffect, useMemo, useState } from "react";
 
 /**
@@ -19,7 +21,7 @@ function diffNights(start: string, end: string) {
 
 /** "4박 5일" / "당일" 라벨 */
 export function stayLabel(start: string, end: string) {
-  if (!start || !end) return "";
+  if (!isTravelDate(start) || !isTravelDate(end) || end < start) return "";
   const n = diffNights(start, end);
   return n === 0 ? "당일" : `${n}박 ${n + 1}일`;
 }
@@ -36,16 +38,16 @@ type Props = {
 
 export default function Calendar({ start, end, onChange }: Props) {
   const today = useMemo(() => {
-    const t = new Date();
+    const t = new Date(koreaToday() + "T00:00:00");
     return { y: t.getFullYear(), m: t.getMonth(), d: t.getDate() };
   }, []);
 
-  const init = start ? new Date(start + "T00:00:00") : new Date();
+  const init = new Date((isTravelDate(start) && start >= koreaToday() ? start : koreaToday()) + "T00:00:00");
   const [year, setYear] = useState(init.getFullYear());
   const [month, setMonth] = useState(init.getMonth());
 
   useEffect(() => {
-    if (!start) return;
+    if (!isTravelDate(start) || start < koreaToday()) return;
     const selected = new Date(start + "T00:00:00");
     if (Number.isNaN(selected.getTime())) return;
     setYear(selected.getFullYear());

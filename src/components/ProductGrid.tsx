@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import type { Product } from "@/data/products";
 import ProductCard from "./ProductCard";
@@ -51,6 +52,6 @@ export default function ProductGrid({ products, fixedCountry }: { products: Prod
       </div>
     </div>
     <div className="flex items-center justify-between gap-3 mb-5"><p role="status" className="font-semibold">조건에 맞는 상품 <b className="text-royal">{list.length}</b>개</p><button type="button" className="min-h-11 text-sm underline text-mute" onClick={reset}>검색 조건 초기화</button></div>
-    {list.length ? <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">{list.map(p => <ProductCard key={p.slug} product={p} />)}</div> : <div className="rounded-2xl bg-white border border-line p-8 text-center"><h2 className="font-bold text-xl">조건에 맞는 상품이 없습니다</h2><p className="text-mute mt-2">검색어를 줄이거나 다른 지역을 선택해보세요.</p><button className="btn btn-light mt-4" onClick={reset}>전체 상품 다시 보기</button></div>}
+    {list.length ? <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">{list.map(p => <ProductCard key={p.slug} product={p} />)}</div> : <div className="rounded-2xl bg-white border border-line p-8 text-center"><h2 className="font-bold text-xl">조건에 맞는 상품이 없습니다</h2><p className="text-mute mt-2">검색어를 줄이거나 다른 지역을 선택해보세요.</p><div className="mt-4 flex flex-wrap justify-center gap-3"><button className="btn btn-light" onClick={reset}>전체 상품 다시 보기</button><Link className="btn btn-royal" href={`/overseas/?${new URLSearchParams({ country: country === "전체" ? "추천 받고 싶어요" : country, flexible: "1" }).toString()}#quote`}>원하는 조건으로 견적받기</Link></div></div>}
   </>;
 }
