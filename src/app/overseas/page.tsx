@@ -75,7 +75,7 @@ export default function OverseasPage() {
       </section>
 
       <section className="mx-auto max-w-6xl px-5 py-10 sm:py-14 grid lg:grid-cols-2 gap-6 items-start">
-        <div id="quote" className="scroll-mt-24">
+        <div id="quote" className="min-w-0 scroll-mt-24">
           <QuoteForm type="overseas" />
         </div>
 

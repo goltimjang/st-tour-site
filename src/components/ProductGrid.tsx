@@ -45,10 +45,10 @@ export default function ProductGrid({ products, fixedCountry }: { products: Prod
       <input id="catalog-search" type="search" value={query} onChange={e => setQuery(e.target.value)} placeholder="하노이, 오키나와, 골프장·호텔 이름 검색" className="field" />
       {!fixedCountry && <div role="group" aria-label="상품 국가" className="flex flex-wrap gap-2 mt-4">{countries.map(c => <button key={c} type="button" aria-pressed={country === c} className="choice !min-h-11 !px-3 !text-sm" data-on={country === c} onClick={() => { setCountry(c); setArea("전체"); }}>{c}</button>)}</div>}
       <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-3">
-        <label className="text-sm font-semibold">지역<select className="field mt-1 !text-sm" value={area} onChange={e => setArea(e.target.value)}><option>전체</option>{areas.map(a => <option key={a}>{a}</option>)}</select></label>
-        <label className="text-sm font-semibold">출발지<select className="field mt-1 !text-sm" value={departure} onChange={e => setDeparture(e.target.value)}><option>전체</option>{departures.map(d => <option key={d}>{d}</option>)}</select></label>
-        <label className="text-sm font-semibold">여행 종류<select className="field mt-1 !text-sm" value={theme} onChange={e => setTheme(e.target.value)}><option>전체</option><option>골프투어</option><option>파크골프</option></select></label>
-        <label className="text-sm font-semibold">정렬<select className="field mt-1 !text-sm" value={sort} onChange={e => setSort(e.target.value)}><option>추천순</option><option>낮은 가격순</option><option>높은 가격순</option></select></label>
+        <label className="text-sm font-semibold">지역<select className="field mt-1 !text-base" value={area} onChange={e => setArea(e.target.value)}><option>전체</option>{areas.map(a => <option key={a}>{a}</option>)}</select></label>
+        <label className="text-sm font-semibold">출발지<select className="field mt-1 !text-base" value={departure} onChange={e => setDeparture(e.target.value)}><option>전체</option>{departures.map(d => <option key={d}>{d}</option>)}</select></label>
+        <label className="text-sm font-semibold">여행 종류<select className="field mt-1 !text-base" value={theme} onChange={e => setTheme(e.target.value)}><option>전체</option><option>골프투어</option><option>파크골프</option></select></label>
+        <label className="text-sm font-semibold">정렬<select className="field mt-1 !text-base" value={sort} onChange={e => setSort(e.target.value)}><option>추천순</option><option>낮은 가격순</option><option>높은 가격순</option></select></label>
       </div>
     </div>
     <div className="flex items-center justify-between gap-3 mb-5"><p role="status" className="font-semibold">조건에 맞는 상품 <b className="text-royal">{list.length}</b>개</p><button type="button" className="min-h-11 text-sm underline text-mute" onClick={reset}>검색 조건 초기화</button></div>
