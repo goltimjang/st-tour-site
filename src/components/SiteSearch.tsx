@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { countryBySlug } from "@/data/overseas-meta";
 import { publishedProducts } from "@/data/products";
@@ -82,7 +81,7 @@ export default function SiteSearch({ onOpen }: { onOpen?: () => void }) {
           {pageHits.length > 0 && <Group title="여행지 안내·맞춤 상담">{pageHits.map((p) => <Item key={p.href} href={p.href} title={p.label} onGo={close} />)}</Group>}
           {term && (!kr || !ov) && !loadError && <p role="status" className="p-3 text-sm text-mute">골프장 정보를 불러오는 중입니다.</p>}
           {loadError && <div role="status" className="p-3 text-sm"><p>골프장 정보를 불러오지 못했습니다. 상품·여행지 안내는 이용할 수 있습니다.</p><button type="button" className="min-h-11 underline text-royaldark" onClick={() => setAttempt((n) => n + 1)}>다시 불러오기</button></div>}
-          {none && <div className="p-3"><p className="font-bold">검색 결과가 없습니다</p><p className="text-sm text-mute mt-2">찾으시는 지역이나 골프장을 알려주시면 가능한 조건을 확인해 드립니다.</p><Link onClick={close} href="/overseas/?flexible=1#quote" className="btn btn-royal mt-3">맞춤 여행 문의</Link></div>}
+          {none && <div className="p-3"><p className="font-bold">검색 결과가 없습니다</p><p className="text-sm text-mute mt-2">찾으시는 지역이나 골프장을 알려주시면 가능한 조건을 확인해 드립니다.</p><a onClick={close} href="/overseas/?flexible=1#quote" className="btn btn-royal mt-3">맞춤 여행 문의</a></div>}
           {krHits.length > 0 && <Group title="국내 골프장 정보">{krHits.map((c) => <Item key={`${c.name}-${c.city}`} href={`/domestic/?q=${encodeURIComponent(c.name)}#courses`} title={c.name} sub={`${c.sido} ${c.city}`} onGo={close} />)}</Group>}
           {ovHits.length > 0 && <Group title="해외 골프장 정보">{ovHits.map((c) => <Item key={`${c.country}-${c.name}`} href={`/overseas/?country=${c.country}&q=${encodeURIComponent(c.name)}#courses`} title={c.name} sub={`${countryBySlug[c.country]?.name ?? c.country} · ${c.area}`} onGo={close} />)}</Group>}
           {(krHits.length > 0 || ovHits.length > 0) && <p className="p-3 text-sm text-mute">골프장 정보 목록입니다. 판매 상품이나 확보된 티타임을 뜻하지 않습니다.</p>}
@@ -95,6 +94,8 @@ export default function SiteSearch({ onOpen }: { onOpen?: () => void }) {
 function Group({ title, children }: { title: string; children: React.ReactNode }) {
   return <section className="mb-4"><h2 className="px-3 py-2 text-sm font-bold text-mute">{title}</h2><ul>{children}</ul></section>;
 }
+// Query-driven explorers restore their filters on mount. Native navigation also applies
+// a new search when the result targets the page the visitor is already viewing.
 function Item({ href, title, sub, note, onGo }: { href: string; title: string; sub?: string; note?: string; onGo: () => void }) {
-  return <li><Link href={href} onClick={onGo} className="flex flex-col gap-1 rounded-xl px-3 py-3 hover:bg-paper min-h-12"><span className="font-bold text-[16px] text-ink">{title}</span>{sub && <span className="text-sm text-mute">{sub}</span>}{note && <span className="text-sm text-royaldark">{note}</span>}</Link></li>;
+  return <li><a href={href} onClick={onGo} className="flex flex-col gap-1 rounded-xl px-3 py-3 hover:bg-paper min-h-12"><span className="font-bold text-[16px] text-ink">{title}</span>{sub && <span className="text-sm text-mute">{sub}</span>}{note && <span className="text-sm text-royaldark">{note}</span>}</a></li>;
 }

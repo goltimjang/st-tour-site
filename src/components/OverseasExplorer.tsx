@@ -32,7 +32,8 @@ export default function OverseasExplorer() {
     try {
       const p = new URLSearchParams(window.location.search);
       const c = p.get("country"); const v = p.get("q");
-      if (c && available.some((x) => x.slug === c)) setCountry(c);
+      const selected = available.find((x) => x.slug === c || x.name === c);
+      if (selected) setCountry(selected.slug);
       if (v) setQ(v);
     } catch {}
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
