@@ -7,6 +7,7 @@ import { publishedProducts } from "@/data/products";
 type Kr = { name: string; sido: string; city: string; region: string };
 type Ov = { country: string; area: string; name: string; nameEn?: string | null; city?: string | null };
 const PAGES = [
+  { label: "속리산CC 할인부킹 · 전화 예약", href: "/booking/songnisan/", keys: "속리산 클럽디 보은 할인 부킹 전화 예약" },
   { label: "포세븐 금강CC 할인부킹", href: "/booking/fourseven-geumgang/", keys: "할인 부킹 예약 금강 클럽디 포세븐 포스븐 익산" },
   { label: "골프투어 판매 상품", href: "/products/", keys: "패키지 상품 일정" },
   ...[["vietnam", "베트남", "하노이 닌빈 다낭"], ["thailand", "태국", "방콕 파타야"], ["japan", "일본", "후쿠오카 규슈 오키나와"], ["china", "중국", "칭다오 웨이하이"], ["philippines", "필리핀", "클락 마닐라"]].map(([slug, name, keys]) => ({ label: `${name} 골프여행 안내·맞춤 상담`, href: `/overseas/${slug}/`, keys })),
