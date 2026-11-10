@@ -14,9 +14,9 @@ export const metadata: Metadata = {
     "베트남 닌빈 로얄CC에서 3박 5일, 총 54홀 라운드와 5성 숙박, 총 1억원 상당 시상까지. 왕복 항공 포함 1,290,000원. 정민상 프로 공개레슨을 포함해 에스티골프투어가 진행하는 로얄CC 클럽 페스티벌 2026 상세 안내.",
   alternates: { canonical: "/promotion/" },
   openGraph: {
-    images: [{ url: "/og-promotion.jpg", width: 1200, height: 630, alt: "로얄CC 클럽 페스티벌 2026" }],
+    images: [{ url: "/og-promotion-20261110.png", width: 1200, height: 630, alt: "로얄CC 클럽 페스티벌 2026" }],
   },
-  twitter: { card: "summary_large_image", images: ["/og-promotion.jpg"] },
+  twitter: { card: "summary_large_image", images: ["/og-promotion-20261110.png"] },
 };
 
 // 페스티벌 Event 구조화 데이터 (royalccfestival.com 공식 게재 정보 기준)
@@ -30,7 +30,7 @@ const eventLd = {
   endDate: royalcc.end,
   eventStatus: "https://schema.org/EventScheduled",
   eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
-  image: `${site.domain}/og-promotion.jpg`,
+  image: `${site.domain}/og-promotion-20261110.png`,
   location: {
     "@type": "Place",
     name: "로얄CC (Royal Golf Course)",
