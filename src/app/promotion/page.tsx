@@ -11,7 +11,7 @@ import Reveal from "@/components/Reveal";
 export const metadata: Metadata = {
   title: "로얄CC 클럽 페스티벌 2026 | 베트남 하노이 골프 페스티벌",
   description:
-    "베트남 닌빈 로얄CC에서 3박 5일, 총 54홀 라운드와 5성 숙박, 총 1억원 상당 시상까지. 왕복 항공 포함 1,290,000원. 골프장·숙소·식사·선택관광까지 에스티골프투어가 진행하는 로얄CC 클럽 페스티벌 2026 상세 안내.",
+    "베트남 닌빈 로얄CC에서 3박 5일, 총 54홀 라운드와 5성 숙박, 총 1억원 상당 시상까지. 왕복 항공 포함 1,290,000원. 정민상 프로 공개레슨을 포함해 에스티골프투어가 진행하는 로얄CC 클럽 페스티벌 2026 상세 안내.",
   alternates: { canonical: "/promotion/" },
   openGraph: {
     images: [{ url: "/og-promotion.jpg", width: 1200, height: 630, alt: "로얄CC 클럽 페스티벌 2026" }],
@@ -25,7 +25,7 @@ const eventLd = {
   "@type": "Event",
   name: royalcc.title,
   description:
-    "베트남 닌빈 로얄CC에서 열리는 3박 5일 골프 페스티벌. 총 54홀 라운드, 5성 숙박, 총 1억원 상당 시상. 왕복 항공 포함.",
+    "베트남 닌빈 로얄CC에서 열리는 3박 5일 골프 페스티벌. 총 54홀 라운드, 5성 숙박, 총 1억원 상당 시상. 왕복 항공과 정민상 프로 공개레슨 포함.",
   startDate: royalcc.start,
   endDate: royalcc.end,
   eventStatus: "https://schema.org/EventScheduled",
@@ -43,6 +43,7 @@ const eventLd = {
     url: `${site.domain}/promotion/`,
     description: "1인 기준 · 2인 1실 · 왕복 항공 포함",
   },
+  performer: { "@type": "Person", name: "정민상", jobTitle: "KPGA 프로" },
   organizer: { "@id": `${site.domain}/#organization` },
 };
 
@@ -82,6 +83,7 @@ export default function PromotionPage() {
           <p className="eyebrow text-gold mb-3">베트남 하노이 · 닌빈</p>
           <span className="inline-block rounded-full bg-golddeep text-white text-[14px] font-black px-3.5 py-1.5 mb-5">{r.recruit}</span>
           <h1 className="headline text-[30px] sm:text-[46px] mb-3 drop-shadow max-w-3xl">{r.title}</h1>
+          <a href="#guest-pro" className="inline-flex min-h-11 items-center text-gold font-bold mb-2 underline underline-offset-4">정민상 프로 특별 초청 · 공개레슨 포함</a>
           <p className="text-white/85 text-[16.5px] mb-1">{r.venue}</p>
           <p className="text-white/85 text-[16.5px] mb-6">{r.date} · {r.format}</p>
           <p className="mb-8 flex flex-col items-start gap-1">
@@ -112,7 +114,7 @@ export default function PromotionPage() {
       </section>
 
       <nav className="product-section-nav" aria-label="상품 내용 바로가기"><div className="mx-auto max-w-6xl px-3 flex overflow-x-auto">
-        {[["itinerary", "일정"], ["course", "골프장"], ["stay", "숙소"], ["costs", "포함·별도 비용"], ["conditions", "예약·취소"], ["quote", "무료 견적"]].map(([id, label]) => <a key={id} href={`#${id}`} className="text-navy hover:text-royaldark">{label}</a>)}
+        {[["guest-pro", "정민상 프로"], ["itinerary", "일정"], ["course", "골프장"], ["stay", "숙소"], ["costs", "포함·별도 비용"], ["conditions", "예약·취소"], ["quote", "무료 견적"]].map(([id, label]) => <a key={id} href={`#${id}`} className="text-navy hover:text-royaldark">{label}</a>)}
       </div></nav>
 
       <div className="mx-auto max-w-6xl px-5 pt-5"><ProductActions slug={r.id} title={r.title} /></div>
@@ -140,6 +142,34 @@ export default function PromotionPage() {
               <Image src={r.intro.poster} alt="로얄CC 클럽 페스티벌 2026 공식 포스터" fill sizes="360px" className="object-cover" />
             </div>
           </Reveal>
+        </div>
+      </section>
+
+      {/* 특별 초청 프로 */}
+      <section id="guest-pro" aria-labelledby="guest-pro-title" className="product-section bg-[#edf1f5]">
+        <div className="mx-auto max-w-6xl px-5 py-12 sm:py-16">
+          <div className="grid md:grid-cols-[240px_minmax(0,1fr)] lg:grid-cols-[290px_minmax(0,1fr)] gap-8 lg:gap-14 items-center">
+            <div className="relative h-[320px] md:h-[480px] min-w-0">
+              <Image src={r.guestPro.image} alt="정민상 프로 프로필" fill sizes="(max-width: 767px) 240px, 290px" className="object-contain object-bottom" />
+            </div>
+            <div className="min-w-0">
+              <p className="text-royaldark font-bold mb-3">로얄CC 클럽 페스티벌 특별 초청</p>
+              <h2 id="guest-pro-title" className="headline text-3xl sm:text-4xl">{r.guestPro.name} 프로와 함께하는 라운드의 배움</h2>
+              <p className="mt-3 text-lg font-semibold">{r.guestPro.title} · 쇼트게임 지도</p>
+              <p className="mt-4 text-mute leading-relaxed max-w-2xl">골프여행에 배움의 즐거움을 더했습니다. 이번 페스티벌에서는 정민상 프로의 공개레슨에 참여하실 수 있습니다.</p>
+              <h3 className="font-bold text-lg mt-7 mb-3">주요 경력</h3>
+              <ul className="space-y-2 text-[15px] sm:text-base">{r.guestPro.careers.map(x => <li key={x}>{x}</li>)}</ul>
+            </div>
+          </div>
+          <div className="mt-9 pt-7 border-t border-navy/15">
+            <h3 className="font-bold text-lg">주요 제자·지도 선수</h3>
+            <div className="grid sm:grid-cols-3 gap-5 mt-4">{r.guestPro.students.map(group => <div key={group.tour}><p className="text-sm text-royaldark font-bold mb-1">{group.tour}</p><p className="font-semibold text-lg">{group.names.join(" · ")}</p></div>)}</div>
+            <p className="text-xs text-mute mt-4">경력 및 지도 선수는 제공 프로필의 이력을 기준으로 소개합니다.</p>
+          </div>
+          <div className="mt-8 bg-white p-5 sm:p-6 rounded-xl flex flex-col sm:flex-row sm:items-center justify-between gap-5">
+            <div><h3 className="font-bold text-lg">참가비에 정민상 프로 공개레슨 포함</h3><p className="text-sm text-mute mt-2">공개레슨의 세부 시간과 장소는 행사 운영 안내에 따라 확인해주세요.</p></div>
+            <a href="#quote" className="btn btn-royal shrink-0">페스티벌 참가 문의</a>
+          </div>
         </div>
       </section>
 

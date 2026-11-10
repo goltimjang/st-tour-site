@@ -85,7 +85,24 @@ export const royalcc = {
     },
   ],
 
+  guestPro: {
+    name: "정민상", title: "KPGA 프로",
+    image: "/promotion/royalcc/chung-minsang-profile.webp",
+    careers: [
+      "오토플렉스 KLPGA 챔피언스 골프팀 감독",
+      "필로스(나산CC) 헤드프로",
+      "뉴질랜드 TAKAPUNA CC 프로",
+      "공주대학교·숭의여자대학교 골프전공 강의",
+    ],
+    students: [
+      { tour: "LPGA", names: ["최운정", "전인지"] },
+      { tour: "KLPGA", names: ["정연주", "박소혜"] },
+      { tour: "KPGA", names: ["김봉섭", "이재혁", "정지권"] },
+    ],
+  },
+
   includes: [
+    "정민상 프로 공개레슨",
     "왕복 항공료 · 유류할증료 · TAX",
     "5성 호텔·리조트·풀빌라 3박 (2인 1실)",
     "그린피 3회 (총 54홀)",
